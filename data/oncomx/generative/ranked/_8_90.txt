@@ -1,0 +1,27 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id != 4798
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id != 4798
+GPT-3 choices:
+(0) Retrieve the uberon anatomical ID from disease_mutation_tissue for all rows where the disease_mutation_id is not equal to 4798.
+(1) Retrieve the uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is not equal to 4798.
+(2) Which anatomical ids are associated with diseases and mutations, excluding the id for disease_mutation_id 4798?
+(3) Get the uberon anatomical id from the disease_mutation_tissue table where the disease mutation id is not equal to 4798.
+(4) Find the uberon anatomical IDs from disease mutation tissue where the disease mutation ID is not equal to 4798.
+(5) Retrieve the uberon anatomical ID from the disease_mutation_tissue table where the disease mutation ID is not equal to 4798.
+(6) Get the uberon anatomical ID for the disease mutation tissue where the disease mutation ID is not equal to 4798.
+(7) Retrieve the uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is not equal to 4798.
+
+
+Re-ranked choices:
+8.429  Find the uberon anatomical IDs from disease mutation tissue where the disease mutation ID is not equal to 4798.
+8.428  Get the uberon anatomical ID for the disease mutation tissue where the disease mutation ID is not equal to 4798.
+8.427  Retrieve the uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is not equal to 4798.
+7.026  Retrieve the uberon anatomical ID from the disease_mutation_tissue table where the disease mutation ID is not equal to 4798.
+7.022  Get the uberon anatomical id from the disease_mutation_tissue table where the disease mutation id is not equal to 4798.
+4.224  Retrieve the uberon anatomical ID from disease_mutation_tissue for all rows where the disease_mutation_id is not equal to 4798.
+2.819  Which anatomical ids are associated with diseases and mutations, excluding the id for disease_mutation_id 4798?
+

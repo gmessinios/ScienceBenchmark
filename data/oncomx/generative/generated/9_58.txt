@@ -1,0 +1,16 @@
+SELECT disease_mutation.alt_aa FROM disease_mutation AS disease_mutation JOIN disease_mutation_impact_prediction AS disease_mutation_impact_prediction ON disease_mutation.id = disease_mutation_impact_prediction.disease_mutation_id WHERE disease_mutation_impact_prediction.tool != "netnglyc"
+
+###
+
+
+Original Query:
+SELECT T1.alt_aa FROM disease_mutation AS T1 JOIN disease_mutation_impact_prediction AS T2 ON T1.id = T2.disease_mutation_id WHERE T2.tool != "netnglyc"
+GPT-3 choices:
+(0) What is the alternate amino acid for each disease mutation that has an impact prediction tool other than "netnglyc" in the database?
+(1) Retrieve the alternative amino acid information from disease mutations, along with their corresponding impact predictions, excluding those predicted by the "netnglyc" tool.
+(2) What is the alternative amino acid (alt_aa) associated with disease mutations that have been predicted to have an impact using a tool other than netnglyc?
+(3) Get the alternative amino acid (alt_aa) for all disease mutations that have a corresponding entry in the disease_mutation_impact_prediction table where the tool is not equal to "netnglyc".
+(4) "Get the alternate amino acids for disease mutations that have impact predictions from any tool other than netnglyc."
+(5) Get the alternative amino acid associated with a disease mutation where the tool used for impact prediction is not "netnglyc".
+(6) "Retrieve the alternate amino acid for each disease mutation with an impact prediction tool other than netnglyc."
+(7) Retrieve the altered amino acid from the disease mutation table, joined with the disease mutation impact prediction table using the ID column, where the tool used for prediction is not netnglyc.

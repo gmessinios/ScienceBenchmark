@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.loadversion FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.specobjid = 300655159401277440
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM specobj AS T1 WHERE T1.specobjid = 300655159401277440
+GPT-3 choices:
+(0) Find the version of loaded spectroscopic objects with a specobjid of 300655159401277440 in the table specobj.
+(1) Retrieve the load version from the table for a spectroscopic object with the specobjid 300655159401277440.
+(2) What is the load version for the spectroscopic object with the specobjid of 300655159401277440 in the specobj table?
+(3) Get the load version from the specobj table for the spectroscopic object with a specobjid of 300655159401277440.
+(4) What is the load version for the spectroscopic object with a specobjid of 300655159401277440 in the specobj table?
+(5) Retrieve the version number of the load for a spectroscopic object with a specobjid of 300655159401277440.
+(6) What is the load version for the spectroscopic object with specobjid 300655159401277440?
+(7) What is the load version of the spectroscopic object with a specobjid of 300655159401277440 in the specobj table?

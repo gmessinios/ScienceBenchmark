@@ -1,0 +1,28 @@
+SELECT project_members.member_name FROM project_members AS project_members WHERE project_members.street = "STOKDIJKKADE 2"
+
+###
+
+
+Original Query:
+SELECT T1.member_name FROM project_members AS T1 WHERE T1.street = "STOKDIJKKADE 2"
+GPT-3 choices:
+(0) Retrieve the names of project members whose street address is "STOKDIJKKADE 2".
+(1) Find the names of all project members who live on Stokdijkkade 2.
+(2) Retrieve the name of the member from the "project_members" table where their street is equal to "STOKDIJKKADE 2".
+(3) Retrieve the member names of all project members who live on "STOKDIJKKADE 2".
+(4) "Retrieve the names of project members who live at STOKDIJKKADE 2."
+(5) "Retrieve the member name of project members who reside on STOKDIJKKADE 2."
+(6) "Retrieve the names of all project members whose street address is "STOKDIJKKADE 2"."
+(7) Get the member name from the table of project members where the street is "STOKDIJKKADE 2".
+
+
+Re-ranked choices:
+7.743  Get the member name from the table of project members where the street is "STOKDIJKKADE 2".
+6.345  "Retrieve the member name of project members who reside on STOKDIJKKADE 2."
+4.956  Retrieve the names of project members whose street address is "STOKDIJKKADE 2".
+4.952  Retrieve the member names of all project members who live on "STOKDIJKKADE 2".
+4.944  "Retrieve the names of all project members whose street address is "STOKDIJKKADE 2"."
+4.933  Retrieve the name of the member from the "project_members" table where their street is equal to "STOKDIJKKADE 2".
+3.570  Find the names of all project members who live on Stokdijkkade 2.
+3.560  "Retrieve the names of project members who live at STOKDIJKKADE 2."
+

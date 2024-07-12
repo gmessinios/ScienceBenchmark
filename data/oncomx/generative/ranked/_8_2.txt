@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.clinical_significance FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.doid != 10283
+
+###
+
+
+Original Query:
+SELECT T1.clinical_significance FROM biomarker_fda_test AS T1 WHERE T1.doid != 10283
+GPT-3 choices:
+(0) What are the clinical significances for biomarkers in the biomarker_fda_test table where doid is not equal to 10283?
+(1) Find the clinical significance of biomarkers in biomarker_fda_test table where the disease is not equal to prostate cancer (doid != 10283).
+(2) Retrieve the clinical significance for all biomarkers in the FDA test that do not have a Disease Ontology ID of 10283.
+(3) Find the clinical significance from the biomarker_fda_test table where doid is not equal to 10283.
+(4) What is the clinical significance of biomarkers in diseases other than celiac disease?
+(5) What is the clinical significance of biomarkers that are not associated with Duchenne Muscular Dystrophy?
+(6) What is the clinical significance of biomarkers in the FDA database, excluding those related to Hodgkin's lymphoma?
+(7) Retrieve the clinical significance of biomarkers from the FDA database for all diseases except Crohn's disease.
+
+
+Re-ranked choices:
+5.629  Retrieve the clinical significance for all biomarkers in the FDA test that do not have a Disease Ontology ID of 10283.
+4.230  Find the clinical significance from the biomarker_fda_test table where doid is not equal to 10283.
+4.228  Retrieve the clinical significance of biomarkers from the FDA database for all diseases except Crohn's disease.
+4.227  What is the clinical significance of biomarkers in the FDA database, excluding those related to Hodgkin's lymphoma?
+2.828  What is the clinical significance of biomarkers in diseases other than celiac disease?
+2.827  What are the clinical significances for biomarkers in the biomarker_fda_test table where doid is not equal to 10283?
+2.823  Find the clinical significance of biomarkers in biomarker_fda_test table where the disease is not equal to prostate cancer (doid != 10283).
+2.822  What is the clinical significance of biomarkers that are not associated with Duchenne Muscular Dystrophy?
+

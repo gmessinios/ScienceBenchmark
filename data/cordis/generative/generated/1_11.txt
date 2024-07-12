@@ -1,0 +1,16 @@
+SELECT projects.objective FROM projects AS projects JOIN ec_framework_programs AS ec_framework_programs ON projects.framework_program = ec_framework_programs.ec_framework_program_name WHERE ec_framework_programs.ec_framework_program_name = "HORIZON"
+
+###
+
+
+Original Query:
+SELECT T1.objective FROM projects AS T1 JOIN ec_framework_programs AS T2 ON T1.framework_program = T2.ec_framework_program_name WHERE T2.ec_framework_program_name = "HORIZON"
+GPT-3 choices:
+(0) Get the objective for all projects that are associated with the "HORIZON" framework program.
+(1) What is the objective of all projects that are part of the HORIZON framework program?
+(2) Retrieve the objective of projects within the HORIZON framework program from a table that joins project data with data from a table of EC framework programs.
+(3) What is the objective of all projects that are part of the "HORIZON" framework program?
+(4) Find the objective of all projects that are associated with the HORIZON framework program in the EC Framework Programs database.
+(5) What are the objectives of projects that are a part of the "HORIZON" framework program?
+(6) Retrieve the objective of all projects that belong to the "HORIZON" framework program.
+(7) Find the objective of all projects that are associated with the HORIZON framework program.

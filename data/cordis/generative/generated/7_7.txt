@@ -1,0 +1,16 @@
+SELECT project_members.ec_contribution FROM project_members AS project_members WHERE project_members.pic_number = "972166496" or project_members.street = "STRADA MIKLOS ZRINYI 7 AP 2"
+
+###
+
+
+Original Query:
+SELECT T1.ec_contribution FROM project_members AS T1 WHERE T1.pic_number = "972166496" or T1.street = "STRADA MIKLOS ZRINYI 7 AP 2"
+GPT-3 choices:
+(0) Retrieve the amount of EC contribution made by the project member with a PIC number of 972166496 or a street address of STRADA MIKLOS ZRINYI 7 AP 2.
+(1) Find the EC contribution of a project member with a PIC number of 972166496 or living at STRADA MIKLOS ZRINYI 7 AP 2.
+(2) What is the European Commission contribution for a project member with a PIC number of 972166496 or living at STRADA MIKLOS ZRINYI 7 AP 2?
+(3) What is the EC contribution for a project member with a PIC number of 972166496 or living at STRADA MIKLOS ZRINYI 7 AP 2?
+(4) Retrieve the EC contribution amount from the project members table for any member with a PIC number of 972166496 or a street address of "STRADA MIKLOS ZRINYI 7 AP 2".
+(5) Retrieve the EC contribution from the project members table where the PIC number is equal to "972166496" or the street is equal to "STRADA MIKLOS ZRINYI 7 AP 2".
+(6) What is the EC contribution of a project member with a PIC number of 972166496 or residing at Strada Miklos Zrinyi 7 Apartment 2?
+(7) What is the EC contribution for a project member with a PIC number of 972166496 or living at "STRADA MIKLOS ZRINYI 7 AP 2"?

@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units JOIN institutions AS institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.grid_id != "grid.8073.c"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 JOIN institutions AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.grid_id != "grid.8073.c"
+GPT-3 choices:
+(0) Retrieve the descriptions of EU territorial units from the institutions table, specifically for those institutions that do not have a grid ID of "grid.8073.c".
+(1) Retrieve the description of European territorial units from institutions where the geocode regions of the two tables match and the grid ID is not "grid.8073.c".
+(2) Retrieve the descriptions of European territorial units where the grid_id is not equal to "grid.8073.c" from institutions that have matching geocode_regions in both tables.
+(3) Retrieve the description of European territorial units where institutions are located, excluding those with grid_id "grid.8073.c".
+(4) Retrieve the description of European territorial units from institutions where the geocode regions in eu_territorial_units match with geocode regions_3 in institutions and exclude grid_id "grid.8073.c".
+(5) Retrieve the description of the territorial units from the EU and join it with the institutions based on their geocode_regions_3, excluding those with a grid_id of "grid.8073.c".
+(6) Retrieve the description of European Union territorial units from institutions where the geocode regions match and the grid ID is not equal to "grid.8073.c".
+(7) What are the descriptions of EU territorial units associated with institutions whose grid ID is not "grid.8073.c"?
+
+
+Re-ranked choices:
+11.226  Retrieve the description of European Union territorial units from institutions where the geocode regions match and the grid ID is not equal to "grid.8073.c".
+11.223  Retrieve the description of European territorial units from institutions where the geocode regions of the two tables match and the grid ID is not "grid.8073.c".
+8.424  What are the descriptions of EU territorial units associated with institutions whose grid ID is not "grid.8073.c"?
+8.422  Retrieve the descriptions of EU territorial units from the institutions table, specifically for those institutions that do not have a grid ID of "grid.8073.c".
+8.416  Retrieve the description of European territorial units from institutions where the geocode regions in eu_territorial_units match with geocode regions_3 in institutions and exclude grid_id "grid.8073.c".
+7.724  Retrieve the description of the territorial units from the EU and join it with the institutions based on their geocode_regions_3, excluding those with a grid_id of "grid.8073.c".
+5.621  Retrieve the description of European territorial units where institutions are located, excluding those with grid_id "grid.8073.c".
+4.237  Retrieve the descriptions of European territorial units where the grid_id is not equal to "grid.8073.c" from institutions that have matching geocode_regions in both tables.
+

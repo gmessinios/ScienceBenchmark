@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.mjd FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.veldisperr DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.mjd FROM specobj AS T1    ORDER BY T1.veldisperr DESC LIMIT 1
+GPT-3 choices:
+(0) What is the modified Julian date of the spectroscopic object with the largest velocity dispersion error?
+(1) "Retrieve the MJD value from the Spectroscopic_objects table in descending order based on the veldisperr column and limit the result to only one record."
+(2) Retrieve the Modified Julian Date of the most recent spectroscopic object in descending order by velocity dispersion error.
+(3) Find the maximum MJD value from the table "specobj" for objects with the largest velocity dispersion error, ordered in descending order.
+(4) Find the modified Julian date for the spectroscopic object with the highest velocity dispersion error in ascending order.
+(5) "Retrieve the date (mjd) of the spectroscopic object with the highest velocity dispersion uncertainty, sorted in descending order and limiting the result to only one object."
+(6) Get the Modified Julian Date for the object with the largest velocity dispersion error from the specobj table, sorted in descending order by the veldisperr column and limited to one result.
+(7) Find the mjd value of the spectroscopic object with the largest veldisperr, sorted in descending order and limited to 1 result.
+
+
+Re-ranked choices:
+7.716  Get the Modified Julian Date for the object with the largest velocity dispersion error from the specobj table, sorted in descending order by the veldisperr column and limited to one result.
+7.022  Find the modified Julian date for the spectroscopic object with the highest velocity dispersion error in ascending order.
+6.320  Retrieve the Modified Julian Date of the most recent spectroscopic object in descending order by velocity dispersion error.
+5.625  What is the modified Julian date of the spectroscopic object with the largest velocity dispersion error?
+4.222  Find the maximum MJD value from the table "specobj" for objects with the largest velocity dispersion error, ordered in descending order.
+4.217  "Retrieve the date (mjd) of the spectroscopic object with the highest velocity dispersion uncertainty, sorted in descending order and limiting the result to only one object."
+0.720  "Retrieve the MJD value from the Spectroscopic_objects table in descending order based on the veldisperr column and limit the result to only one record."
+0.020  Find the mjd value of the spectroscopic object with the largest veldisperr, sorted in descending order and limited to 1 result.
+

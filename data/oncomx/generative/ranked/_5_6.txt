@@ -1,0 +1,28 @@
+SELECT disease_mutation.cds_pos FROM disease_mutation AS disease_mutation    ORDER BY disease_mutation.mutation_freq DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.cds_pos FROM disease_mutation AS T1    ORDER BY T1.mutation_freq DESC LIMIT 1
+GPT-3 choices:
+(0) Get the coding sequence position from the disease_mutation table, order it in descending order by the mutation frequency column, and limit the result to 1 record.
+(1) Retrieve the coding sequence position of the most frequently occurring mutation in the disease_mutation table, sorted in descending order, with a limit of one result.
+(2) "Retrieve the coding sequence position from the disease mutation table, sorted in descending order by mutation frequency and limited to only the highest frequency mutation."
+(3) Get the coding sequence position from the disease_mutation table, order it by mutation frequency in descending order, and only return the top result.
+(4) "Retrieve the position of the coding sequence for disease mutations in descending order based on their mutation frequency, limited to only the highest frequency result."
+(5) "Find the position of the coding sequence for disease mutations in ascending order, limited to the highest frequency mutation."
+(6) Retrieve the coding sequence position from the disease_mutation table and order them in descending order based on their mutation frequency, then select only the top result.
+(7) Retrieve the coding sequence position from the table "disease_mutation" in descending order by the frequency of mutations and limit the results to only one row.
+
+
+Re-ranked choices:
+3.517  "Retrieve the coding sequence position from the disease mutation table, sorted in descending order by mutation frequency and limited to only the highest frequency mutation."
+2.818  "Retrieve the position of the coding sequence for disease mutations in descending order based on their mutation frequency, limited to only the highest frequency result."
+2.119  Get the coding sequence position from the disease_mutation table, order it in descending order by the mutation frequency column, and limit the result to 1 record.
+2.119  Get the coding sequence position from the disease_mutation table, order it by mutation frequency in descending order, and only return the top result.
+1.421  "Find the position of the coding sequence for disease mutations in ascending order, limited to the highest frequency mutation."
+1.419  Retrieve the coding sequence position from the disease_mutation table and order them in descending order based on their mutation frequency, then select only the top result.
+1.418  Retrieve the coding sequence position of the most frequently occurring mutation in the disease_mutation table, sorted in descending order, with a limit of one result.
+0.719  Retrieve the coding sequence position from the table "disease_mutation" in descending order by the frequency of mutations and limit the results to only one row.
+

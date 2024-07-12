@@ -1,0 +1,28 @@
+SELECT biomarker_article.biomarker_internal_id FROM biomarker_article AS biomarker_article WHERE biomarker_article.pmid = "18089831"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id FROM biomarker_article AS T1 WHERE T1.pmid = "18089831"
+GPT-3 choices:
+(0) Find the biomarker internal ID from the article with a PMID of 18089831 in the biomarker_article table.
+(1) Retrieve the internal ID of a biomarker from the biomarker_article table where the corresponding PMID is equal to "18089831".
+(2) What is the internal ID of the biomarker mentioned in the article with a PMID of "18089831"?
+(3) Retrieve the internal ID of the biomarker from the table "biomarker_article" where the PMID is equal to "18089831".
+(4) Retrieve the internal ID of a biomarker from the biomarker article table where the PMID is equal to "18089831".
+(5) Retrieve the biomarker internal ID from the biomarker article where the PubMed identifier is equal to "18089831".
+(6) Get the internal ID of the biomarker from the article with a PubMed ID of 18089831.
+(7) Find the biomarker internal ID from the biomarker article table where the PMID is "18089831".
+
+
+Re-ranked choices:
+7.039  What is the internal ID of the biomarker mentioned in the article with a PMID of "18089831"?
+7.037  Find the biomarker internal ID from the biomarker article table where the PMID is "18089831".
+7.036  Retrieve the internal ID of a biomarker from the biomarker article table where the PMID is equal to "18089831".
+7.034  Find the biomarker internal ID from the article with a PMID of 18089831 in the biomarker_article table.
+5.650  Get the internal ID of the biomarker from the article with a PubMed ID of 18089831.
+5.637  Retrieve the internal ID of the biomarker from the table "biomarker_article" where the PMID is equal to "18089831".
+5.630  Retrieve the biomarker internal ID from the biomarker article where the PubMed identifier is equal to "18089831".
+5.628  Retrieve the internal ID of a biomarker from the biomarker_article table where the corresponding PMID is equal to "18089831".
+

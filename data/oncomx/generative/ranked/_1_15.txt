@@ -1,0 +1,28 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.id = "FDA000323"
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.id = "FDA000323"
+GPT-3 choices:
+(0) What is the FDA NCIt term for the biomarker with the ID "FDA000323"?
+(1) Find the term for a biomarker listed in the FDA database with ID "FDA000323".
+(2) What is the FDA NCIT biomarker term for the FDA biomarker with ID "FDA000323"?
+(3) Retrieve the NCIt biomarker term associated with the FDA biomarker ID "FDA000323" from the tables biomarker_fda_ncit_term and biomarker_fda.
+(4) What is the NCIt term for the FDA biomarker with ID "FDA000323"?
+(5) Retrieve the NCIt biomarker term associated with the FDA biomarker ID "FDA000323" from the table combining biomarker_fda and biomarker_fda_ncit_term.
+(6) What is the NCIt biomarker term for the FDA biomarker with the ID "FDA000323"?
+(7) Retrieve the NCIt biomarker term from the biomarker FDA and join it with the biomarker FDA NCIt term, where the ID of biomarker FDA is "FDA000323".
+
+
+Re-ranked choices:
+7.797  What is the NCIt term for the FDA biomarker with ID "FDA000323"?
+7.786  What is the FDA NCIt term for the biomarker with the ID "FDA000323"?
+7.777  What is the FDA NCIT biomarker term for the FDA biomarker with ID "FDA000323"?
+7.777  What is the NCIt biomarker term for the FDA biomarker with the ID "FDA000323"?
+7.728  Retrieve the NCIt biomarker term from the biomarker FDA and join it with the biomarker FDA NCIt term, where the ID of biomarker FDA is "FDA000323".
+7.719  Retrieve the NCIt biomarker term associated with the FDA biomarker ID "FDA000323" from the table combining biomarker_fda and biomarker_fda_ncit_term.
+7.718  Retrieve the NCIt biomarker term associated with the FDA biomarker ID "FDA000323" from the tables biomarker_fda_ncit_term and biomarker_fda.
+6.375  Find the term for a biomarker listed in the FDA database with ID "FDA000323".
+

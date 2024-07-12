@@ -1,0 +1,16 @@
+SELECT Photometric_objects.dec FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name = "COSMIC_RAY"
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name = "COSMIC_RAY"
+GPT-3 choices:
+(0) Retrieve the declination values for all objects in the photoobj table that have a type value of "COSMIC_RAY", where "COSMIC_RAY" is defined in the photo_type table.
+(1) Find the declination of all photometric objects that have been observed as cosmic rays in the photoobj and photo_type tables.
+(2) Find the declination values of all objects in the photoobj table that have a type value of "COSMIC_RAY" as defined in the photometrically_observed table.
+(3) Retrieve the declination values for all photometric objects from the photoobj table, where the type of object is identified as "COSMIC_RAY" in the photo_type table.
+(4) "Retrieve the declination values for all photometric objects that have been observed as cosmic rays in the photoobj table, based on their corresponding type value from the photo_type table."
+(5) Get the declination values for all objects from the photoobj table where the type of object is marked as "COSMIC_RAY" in the photo_type table.
+(6) Retrieve the declination values of all objects that have been observed as cosmic rays in the photoobj table, joined with the corresponding name value from the photo_type table.
+(7) Find the declination values for all photometric objects in the photoobj table that have a type value of "COSMIC_RAY" as specified by the photometrically_observed table.

@@ -1,0 +1,26 @@
+SELECT count(*) FROM project_members AS project_members WHERE project_members.member_name = "Cycorp Inc."
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members AS T1 WHERE T1.member_name = "Cycorp Inc."
+GPT-3 choices:
+(0) How many project members are there from Cycorp Inc.?
+(1) How many project members are there in the "Cycorp Inc." company?
+(2) How many project members does the company "Cycorp Inc." have?
+(3) How many rows are there in the "project_members" table where the value in the "member_name" column is "Cycorp Inc."?
+(4) How many project members does the company "Cycorp Inc." have?
+(5) How many members are there in the project called "Cycorp Inc."?
+(6) How many project members are there from Cycorp Inc.?
+(7) How many project members are there in the "Cycorp Inc." organization?
+
+
+Re-ranked choices:
+3.597  How many project members are there from Cycorp Inc.?
+3.577  How many members are there in the project called "Cycorp Inc."?
+3.552  How many project members does the company "Cycorp Inc." have?
+3.548  How many project members are there in the "Cycorp Inc." company?
+3.541  How many project members are there in the "Cycorp Inc." organization?
+0.729  How many rows are there in the "project_members" table where the value in the "member_name" column is "Cycorp Inc."?
+

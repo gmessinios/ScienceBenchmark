@@ -1,0 +1,28 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.specobjid = 299661751014680576
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.specobjid = 299661751014680576
+GPT-3 choices:
+(0) How many objects are there in the "specobj" table with a "specobjid" value of 299661751014680576 in the "Spectroscopic_objects" column?
+(1) How many spectroscopic objects have a specobjid of 299661751014680576 in the table "specobj"?
+(2) How many Spectroscopic objects have a specobjid of 299661751014680576?
+(3) How many spectroscopic objects have a specobjid of 299661751014680576 in the "specobj" table?
+(4) How many objects have a specobjid of 299661751014680576 in the Spectroscopic_objects table?
+(5) How many rows are in the table "specobj" where the specobjid is equal to 299661751014680576?
+(6) How many spectroscopic objects have a specobjid equal to 299661751014680576 in the table SpecObj?
+(7) How many spectroscopic objects have a specobjid of 299661751014680576?
+
+
+Re-ranked choices:
+2.838  How many Spectroscopic objects have a specobjid of 299661751014680576?
+2.838  How many spectroscopic objects have a specobjid of 299661751014680576?
+2.836  How many spectroscopic objects have a specobjid equal to 299661751014680576 in the table SpecObj?
+2.833  How many spectroscopic objects have a specobjid of 299661751014680576 in the table "specobj"?
+2.833  How many spectroscopic objects have a specobjid of 299661751014680576 in the "specobj" table?
+2.133  How many objects have a specobjid of 299661751014680576 in the Spectroscopic_objects table?
+2.126  How many objects are there in the "specobj" table with a "specobjid" value of 299661751014680576 in the "Spectroscopic_objects" column?
+0.058  How many rows are in the table "specobj" where the specobjid is equal to 299661751014680576?
+

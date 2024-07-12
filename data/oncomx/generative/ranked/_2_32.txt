@@ -1,0 +1,28 @@
+SELECT biomarker_fda.id, count(*) FROM biomarker_fda AS biomarker_fda  GROUP BY biomarker_fda.id
+
+###
+
+
+Original Query:
+SELECT T1.id, count(*) FROM biomarker_fda AS T1  GROUP BY T1.id
+GPT-3 choices:
+(0) How many unique biomarker IDs are there in the FDA database and how many entries are associated with each ID?
+(1) How many records are there for each unique ID in the biomarker_fda table?
+(2) Count the number of entries in the "biomarker_fda" table for each unique ID and display both the ID and its corresponding count.
+(3) How many biomarkers have an ID and what is the count of each biomarker?
+(4) Count the number of records for each unique biomarker ID in the FDA biomarker database.
+(5) What is the number of occurrences for each biomarker ID in the FDA biomarker table?
+(6) How many records are there for each biomarker in the FDA database?
+(7) How many biomarkers have an ID and what is the total number of those biomarkers?
+
+
+Re-ranked choices:
+4.254  Count the number of records for each unique biomarker ID in the FDA biomarker database.
+4.244  What is the number of occurrences for each biomarker ID in the FDA biomarker table?
+2.891  How many records are there for each biomarker in the FDA database?
+2.834  How many unique biomarker IDs are there in the FDA database and how many entries are associated with each ID?
+1.477  How many biomarkers have an ID and what is the count of each biomarker?
+1.465  How many records are there for each unique ID in the biomarker_fda table?
+1.445  How many biomarkers have an ID and what is the total number of those biomarkers?
+1.429  Count the number of entries in the "biomarker_fda" table for each unique ID and display both the ID and its corresponding count.
+

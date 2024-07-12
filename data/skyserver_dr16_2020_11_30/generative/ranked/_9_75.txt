@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.name != "KNOWNOBJ"
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.name != "KNOWNOBJ"
+GPT-3 choices:
+(0) What is the type of nearest neighbour objects that have been photometrically observed, excluding those with the name "KNOWNOBJ"?
+(1) Find the type of objects that are nearest neighbours to each other, excluding those that have been photometrically observed as "KNOWNOBJ".
+(2) Find the type of nearest neighbor objects that have been observed photometrically and are not known objects.
+(3) Retrieve the type of objects that are neighbors to known objects and have been photometrically observed.
+(4) Retrieve the types of nearest neighbour objects that have been photometrically observed, excluding those with a type of "KNOWNOBJ".
+(5) Find the type of nearest neighbor objects that have been photometrically observed, but are not known objects.
+(6) Retrieve the type of objects that are the nearest neighbors to photometrically observed objects, excluding those with a value of "KNOWNOBJ".
+(7) Retrieve the type of nearest neighbour objects that have been photometrically observed, excluding those with the name "KNOWNOBJ".
+
+
+Re-ranked choices:
+7.724  What is the type of nearest neighbour objects that have been photometrically observed, excluding those with the name "KNOWNOBJ"?
+7.722  Retrieve the type of nearest neighbour objects that have been photometrically observed, excluding those with the name "KNOWNOBJ".
+7.722  Retrieve the type of objects that are the nearest neighbors to photometrically observed objects, excluding those with a value of "KNOWNOBJ".
+7.030  Find the type of nearest neighbor objects that have been observed photometrically and are not known objects.
+6.324  Retrieve the types of nearest neighbour objects that have been photometrically observed, excluding those with a type of "KNOWNOBJ".
+6.322  Find the type of objects that are nearest neighbours to each other, excluding those that have been photometrically observed as "KNOWNOBJ".
+5.630  Find the type of nearest neighbor objects that have been photometrically observed, but are not known objects.
+4.232  Retrieve the type of objects that are neighbors to known objects and have been photometrically observed.
+

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_manufacturer, count(*) FROM biomarker_fda_test AS biomarker_fda_test  GROUP BY biomarker_fda_test.test_manufacturer
+
+###
+
+
+Original Query:
+SELECT T1.test_manufacturer, count(*) FROM biomarker_fda_test AS T1  GROUP BY T1.test_manufacturer
+GPT-3 choices:
+(0) How many biomarker tests were performed by each manufacturer?
+(1) How many tests does each manufacturer of biomarkers from the FDA have?
+(2) "Count the number of biomarker tests for each manufacturer and group them by test manufacturer."
+(3) How many biomarker tests have been conducted for each manufacturer?
+(4) Count the number of tests for each test manufacturer in the FDA biomarker database.
+(5) Count the number of tests for each test manufacturer in the biomarker_fda_test table.
+(6) Count the number of biomarker tests grouped by test manufacturer in the biomarker_fda_test table.
+(7) How many biomarker FDA tests are there for each test manufacturer?
+
+
+Re-ranked choices:
+5.639  Count the number of tests for each test manufacturer in the FDA biomarker database.
+4.931  Count the number of biomarker tests grouped by test manufacturer in the biomarker_fda_test table.
+4.929  "Count the number of biomarker tests for each manufacturer and group them by test manufacturer."
+4.247  How many biomarker FDA tests are there for each test manufacturer?
+2.854  How many tests does each manufacturer of biomarkers from the FDA have?
+2.832  Count the number of tests for each test manufacturer in the biomarker_fda_test table.
+2.137  How many biomarker tests were performed by each manufacturer?
+1.436  How many biomarker tests have been conducted for each manufacturer?
+

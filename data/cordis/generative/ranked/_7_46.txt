@@ -1,0 +1,28 @@
+SELECT countries.country_code2 FROM countries AS countries WHERE countries.country_name = "Djibouti" or countries.unics_id = 247
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 WHERE T1.country_name = "Djibouti" or T1.unics_id = 247
+GPT-3 choices:
+(0) Get the country code 2 for Djibouti or any country with a Universal Coordinated Identifier of 247 from the table of countries.
+(1) Retrieve the country code for Djibouti or the UNICS ID 247 from the table of countries.
+(2) Show me the country code2 for Djibouti or the unique id 247 in the countries table.
+(3) Get the country code for Djibouti from the table of countries where either the country name is "Djibouti" or the unique ID is 247.
+(4) Retrieve the country code2 for Djibouti or the unique ID 247 from the countries table.
+(5) Retrieve the country code 2 for Djibouti from the countries table where the country name is "Djibouti" or the UNICS ID is 247.
+(6) Retrieve the two-letter country code for Djibouti or its unique ID number 247 from the "countries" table.
+(7) Find the country code 2 for Djibouti or the country with a unique identifier of 247 in the countries table.
+
+
+Re-ranked choices:
+7.731  Retrieve the country code 2 for Djibouti from the countries table where the country name is "Djibouti" or the UNICS ID is 247.
+6.354  Retrieve the country code2 for Djibouti or the unique ID 247 from the countries table.
+6.343  Show me the country code2 for Djibouti or the unique id 247 in the countries table.
+6.333  Get the country code for Djibouti from the table of countries where either the country name is "Djibouti" or the unique ID is 247.
+4.943  Retrieve the country code for Djibouti or the UNICS ID 247 from the table of countries.
+4.934  Retrieve the two-letter country code for Djibouti or its unique ID number 247 from the "countries" table.
+3.534  Find the country code 2 for Djibouti or the country with a unique identifier of 247 in the countries table.
+2.125  Get the country code 2 for Djibouti or any country with a Universal Coordinated Identifier of 247 from the table of countries.
+

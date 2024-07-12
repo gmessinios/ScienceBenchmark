@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.dec FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.fiberid = 557
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM specobj AS T1 WHERE T1.fiberid = 557
+GPT-3 choices:
+(0) Find the declination of the object in the specobj table where the fiberid is equal to 557.
+(1) Find the declination of a spectroscopic object where the fiber ID is 557.
+(2) Find the declination of the object with a fiber ID of 557 in the table "specobj."
+(3) Find the declination of the spectroscopic object with a fiber ID of 557.
+(4) What is the declination of the spectroscopic object with a fiber ID of 557?
+(5) Retrieve the declination values for all spectroscopic objects where the fiber ID is equal to 557.
+(6) Retrieve the declination value from the "specobj" table for the object with a fiber ID of 557 and refer to it as "Spectroscopic_objects".
+(7) What is the declination of the spectroscopic object with a fiber ID of 557?

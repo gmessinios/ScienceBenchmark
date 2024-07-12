@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.actual_use FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_trade_name != "Therascreen PIK3CA RGQ PCR Kit"
+
+###
+
+
+Original Query:
+SELECT T1.actual_use FROM biomarker_fda_test_use AS T1 WHERE T1.test_trade_name != "Therascreen PIK3CA RGQ PCR Kit"
+GPT-3 choices:
+(0) What is the actual use for all FDA tests in the biomarker_fda_test_use table where the test_trade_name is not "Therascreen PIK3CA RGQ PCR Kit"?
+(1) What is the actual use for biomarker tests where the trade name is not "Therascreen PIK3CA RGQ PCR Kit"?
+(2) Retrieve the actual use of biomarker FDA tests from the database, excluding the Therascreen PIK3CA RGQ PCR Kit.
+(3) What is the actual use of FDA-approved biomarker tests excluding the Therascreen PIK3CA RGQ PCR Kit?
+(4) Find the actual use of FDA-approved biomarkers, excluding the Therascreen PIK3CA RGQ PCR Kit.
+(5) What are the actual uses of biomarker FDA tests, excluding the Therascreen PIK3CA RGQ PCR Kit?
+(6) What is the actual use of biomarker FDA test use for all tests except for Therascreen PIK3CA RGQ PCR Kit?
+(7) What are the actual uses for FDA-approved biomarker tests other than the Therascreen PIK3CA RGQ PCR Kit?

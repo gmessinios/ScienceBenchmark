@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.disease_mutation_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.uberon_anatomical_id = "UBERON:0002367"
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_tissue AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0002367"
+GPT-3 choices:
+(0) Retrieve the disease mutation ID from the disease_mutation_tissue table where the uberon_anatomical_id is equal to "UBERON:0002367".
+(1) Find the disease-mutation IDs for mutations in tissues associated with the UBERON anatomical ID "UBERON:0002367".
+(2) Retrieve the disease mutation ID from the disease_mutation_tissue table where the uberon_anatomical_id is equal to "UBERON:0002367".
+(3) Find the disease-mutation ID for all entries in the disease_mutation_tissue table where the uberon_anatomical_id is equal to "UBERON:0002367".
+(4) Retrieve the disease mutation ID from the disease_mutation_tissue table where the UBERON anatomical ID is "UBERON:0002367".
+(5) What are the IDs for disease-mutation pairs that have an anatomical location with the UBERON identifier "UBERON:0002367"?
+(6) Find the IDs of disease mutations associated with a specific anatomical structure identified by the Uberon ID "UBERON:0002367".
+(7) What is the disease mutation ID from the disease_mutation_tissue table where the uberon_anatomical_id is "UBERON:0002367"?

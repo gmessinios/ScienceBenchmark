@@ -1,0 +1,16 @@
+SELECT biomarker.test_is_a_panel FROM biomarker AS biomarker WHERE biomarker.gene_symbol = "AKR1C2"
+
+###
+
+
+Original Query:
+SELECT T1.test_is_a_panel FROM biomarker AS T1 WHERE T1.gene_symbol = "AKR1C2"
+GPT-3 choices:
+(0) What is the test panel for the biomarker AKR1C2?
+(1) Retrieve the test_is_a_panel information for the biomarker with a gene_symbol of "AKR1C2" from the biomarker table.
+(2) What is the test type for the biomarker AKR1C2, and does it belong to a panel?
+(3) Retrieve the value of the test_is_a_panel column from the biomarker table where the gene_symbol is "AKR1C2".
+(4) Retrieve whether or not the test for the biomarker AKR1C2 is a panel from the biomarker table.
+(5) Retrieve the test_is_a_panel column from the biomarker table where the gene_symbol is "AKR1C2".
+(6) What is the value of the "test_is_a_panel" attribute for the biomarker with a gene symbol of "AKR1C2"?
+(7) Retrieve the information on whether the test for AKR1C2 is a panel from the biomarker database.

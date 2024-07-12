@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions AS institutions WHERE institutions.website = "https://www.toscanalifesciences.org/" and institutions.wikidata_url = "http://www.wikidata.org/wiki/Q6806774"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM institutions AS T1 WHERE T1.website = "https://www.toscanalifesciences.org/" and T1.wikidata_url = "http://www.wikidata.org/wiki/Q6806774"
+GPT-3 choices:
+(0) Find the short name of the institution where the website is "https://www.toscanalifesciences.org/" and the Wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+(1) Retrieve the short name of the institution whose website is "https://www.toscanalifesciences.org/" and whose Wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+(2) Retrieve the short name of the institution whose website is "https://www.toscanalifesciences.org/" and whose Wikidata URL is "http://www.wikidata.org/wiki/Q6806774" from the institutions table.
+(3) Find the short name of the institution whose website is "https://www.toscanalifesciences.org/" and wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+(4) Find the short name of the institution with a website of "https://www.toscanalifesciences.org/" and a Wikidata URL of "http://www.wikidata.org/wiki/Q6806774".
+(5) Find the short name of the institution that has a website of "https://www.toscanalifesciences.org/" and a Wikidata URL of "http://www.wikidata.org/wiki/Q6806774".
+(6) Find the short name of institutions where their website is "https://www.toscanalifesciences.org/" and their wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+(7) Find the short name of an institution where its website is "https://www.toscanalifesciences.org/" and its Wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+
+
+Re-ranked choices:
+8.428  Retrieve the short name of the institution whose website is "https://www.toscanalifesciences.org/" and whose Wikidata URL is "http://www.wikidata.org/wiki/Q6806774" from the institutions table.
+8.427  Find the short name of institutions where their website is "https://www.toscanalifesciences.org/" and their wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+7.033  Find the short name of the institution where the website is "https://www.toscanalifesciences.org/" and the Wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+7.033  Find the short name of the institution with a website of "https://www.toscanalifesciences.org/" and a Wikidata URL of "http://www.wikidata.org/wiki/Q6806774".
+7.033  Find the short name of an institution where its website is "https://www.toscanalifesciences.org/" and its Wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+7.032  Find the short name of the institution that has a website of "https://www.toscanalifesciences.org/" and a Wikidata URL of "http://www.wikidata.org/wiki/Q6806774".
+7.030  Retrieve the short name of the institution whose website is "https://www.toscanalifesciences.org/" and whose Wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+7.027  Find the short name of the institution whose website is "https://www.toscanalifesciences.org/" and wikidata URL is "http://www.wikidata.org/wiki/Q6806774".
+

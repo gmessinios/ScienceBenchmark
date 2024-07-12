@@ -1,0 +1,16 @@
+SELECT Photometric_objects.flags FROM photoobj AS Photometric_objects WHERE Photometric_objects.dec = -17.6686483711778 or Photometric_objects.i = 12.01573
+
+###
+
+
+Original Query:
+SELECT T1.flags FROM photoobj AS T1 WHERE T1.dec = -17.6686483711778 or T1.i = 12.01573
+GPT-3 choices:
+(0) Retrieve the flags of photometric objects where the declination is -17.6686483711778 or the magnitude in the i band is 12.01573 from the photoobj table.
+(1) Retrieve the flags of photometric objects with a declination of -17.6686483711778 or an i-value of 12.01573 from the photoobj table.
+(2) Find the flags for objects with a declination of -17.6686483711778 or an i magnitude of 12.01573 from the photoobj table.
+(3) Get the flags of all photometric objects where the declination is -17.6686483711778 or the i value is 12.01573 from the photoobj table.
+(4) Retrieve the flags from the photoobj table for objects with a declination of -17.6686483711778 or an i value of 12.01573.
+(5) Retrieve the flags from the photoobj table for all objects with a declination of -17.6686483711778 or an i magnitude of 12.01573.
+(6) Find the flags of photometric objects where their declination is equal to -17.6686483711778 or their i value is equal to 12.01573.
+(7) Retrieve the flags column from the photoobj table for objects with a declination of -17.6686483711778 or an i-value of 12.01573.

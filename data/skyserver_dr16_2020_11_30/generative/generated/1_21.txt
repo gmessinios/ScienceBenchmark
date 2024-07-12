@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.dec FROM specobj AS Spectroscopic_objects JOIN spplines AS Stellar_spectal_line_indices ON Spectroscopic_objects.specobjid = Stellar_spectal_line_indices.specobjid WHERE Stellar_spectal_line_indices.specobjid = 310824547496519680
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM specobj AS T1 JOIN spplines AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid = 310824547496519680
+GPT-3 choices:
+(0) Find the declination value for the spectroscopic object with a specobjid of 310824547496519680 in the table spplines.
+(1) Retrieve the declination of a spectroscopic object with the specobjid 310824547496519680 by joining the tables specobj and spplines on their shared specobjid column.
+(2) Retrieve the declination of the spectroscopic object with a specobjid of 310824547496519680 from the specobj and spplines tables.
+(3) What is the declination of the spectroscopic object with a specobjid of 310824547496519680 in the Spectroscopic_objects table, which is also listed in the spplines table as Stellar_spectral_line_indices?
+(4) Get the declination value from the specobj table for the object with a specobjid of 310824547496519680 and join it with the spplines table to retrieve any corresponding stellar spectral line indices.
+(5) Retrieve the declination of a spectroscopic object from the specobj table where the specobjid matches 310824547496519680 and is present in both the specobj and spplines tables.
+(6) What is the declination of the spectroscopic object with a specobjid of 310824547496519680, as indicated by its presence in the spplines table?
+(7) Find the declination of the spectroscopic object where its specobjid matches the specobjid from spplines.

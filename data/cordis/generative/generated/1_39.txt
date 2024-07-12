@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.ec_max_contribution = 11994553.0
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.ec_max_contribution = 11994553.0
+GPT-3 choices:
+(0) Retrieve the code for all research domains that are part of a panel and have a project with an EC maximum contribution of 11994553.0.
+(1) Find the research domain code for a project with an EC max contribution of 11994553.0 by joining the erc_research_domains table with the erc_panels and project_erc_panels tables, and filtering for projects in which the panel is a part of and has a code that matches the project's unics_id.
+(2) Find the code for the research domain in the ERC research domains table that is also listed as part of a panel in the ERC panels table, which is then linked to a project in the project ERC panels table and has a maximum EC contribution value of 11994553.0 in the projects table.
+(3) Retrieve the research domain code from erc_research_domains for projects where the EC max contribution is equal to 11994553.0 and is a part of an ERC panel, which in turn is a part of the project_erc_panels table that has a corresponding entry in the projects table with matching unics_id.
+(4) Find the code of all ERC research domains that are part of a panel, which is associated with a project that has an EC maximum contribution value of 11994553.0.
+(5) Find the research domain codes for all ERC panels that are part of a project with an EC max contribution of 11994553.0.
+(6) What are the research domains of projects that have an EC max contribution of 11994553.0 and are part of a panel within the ERC panels?
+(7) Get the research domains code for all ERC panels that are a part of and have a maximum EC contribution of 11994553.0 in projects.

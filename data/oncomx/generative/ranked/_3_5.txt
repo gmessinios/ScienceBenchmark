@@ -1,0 +1,27 @@
+SELECT count(*) FROM biomarker_fda_test_use AS biomarker_fda_test_use
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test_use AS T1
+GPT-3 choices:
+(0) How many records are there in the table biomarker_fda_test_use?
+(1) How many biomarker tests have been approved by the FDA for use?
+(2) How many entries are there in the biomarker_fda_test_use table?
+(3) How many entries are there in the biomarker_fda_test_use table?
+(4) How many biomarkers are in use for FDA testing?
+(5) How many biomarker FDA test uses are there in the biomarker FDA test use database?
+(6) How many records are there in the biomarker_fda_test_use table?
+(7) How many rows are in the biomarker_fda_test_use table?
+
+
+Re-ranked choices:
+5.654  How many biomarker FDA test uses are there in the biomarker FDA test use database?
+2.943  How many biomarkers are in use for FDA testing?
+2.891  How many biomarker tests have been approved by the FDA for use?
+0.070  How many records are there in the table biomarker_fda_test_use?
+0.070  How many records are there in the biomarker_fda_test_use table?
+0.059  How many rows are in the biomarker_fda_test_use table?
+0.056  How many entries are there in the biomarker_fda_test_use table?
+

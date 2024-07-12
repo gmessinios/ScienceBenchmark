@@ -1,0 +1,16 @@
+SELECT projects.ec_call FROM projects AS projects WHERE projects.start_year = 2020
+
+###
+
+
+Original Query:
+SELECT T1.ec_call FROM projects AS T1 WHERE T1.start_year = 2020
+GPT-3 choices:
+(0) What is the value of the "ec_call" column in the "projects" table where the start_year is equal to 2020?
+(1) Retrieve the EC call field from the projects table where the start year is 2020.
+(2) Retrieve the EC calls of all projects that started in the year 2020.
+(3) Find all the EC calls of projects that were started in the year 2020.
+(4) Find the EC call of all projects starting in the year 2020.
+(5) Find the EC calls of all projects from the year 2020.
+(6) Retrieve the EC call for all projects from the year 2020.
+(7) Retrieve the EC call field from the projects table where the start year is 2020.

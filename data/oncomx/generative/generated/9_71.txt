@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.id != "FDA000096"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.id != "FDA000096"
+GPT-3 choices:
+(0) Retrieve the FDA IDs of all biomarkers from the "biomarker_fda_ncit_term" table that are not equal to "FDA000096", joining with the "biomarker_fda" table on matching ID values.
+(1) Get all the FDA IDs from the biomarker_fda_ncit_term table where the corresponding biomarker_fda_id is not equal to "FDA000096" and join it with the biomarker_fda table.
+(2) Retrieve the FDA NCIt IDs for biomarkers associated with FDA other than "FDA000096".
+(3) Get the biomarker FDA ID for the FDA-approved biomarkers that have a corresponding NCIt term, excluding the entry with an ID of "FDA000096".
+(4) What is the biomarker FDA NCIt term's ID for all biomarkers in the FDA database except for the one with an ID of "FDA000096"?
+(5) Get the FDA IDs of all biomarkers from the Biomarker FDA NCIT Term table that are associated with a biomarker in the Biomarker FDA table, excluding the biomarker with ID "FDA000096".
+(6) Find the FDA NCIt term for biomarkers that are not equal to "FDA000096" from the table biomarker_fda_ncit_term, joining with the table biomarker_fda.
+(7) Find the biomarker FDA NCIT term IDs for all biomarker FDA IDs that are not equal to "FDA000096".

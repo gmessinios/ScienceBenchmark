@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.loadversion FROM specobj AS Spectroscopic_objects JOIN spplines AS Stellar_spectal_line_indices ON Spectroscopic_objects.specobjid = Stellar_spectal_line_indices.specobjid WHERE Stellar_spectal_line_indices.specobjid != 305206867276097536
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM specobj AS T1 JOIN spplines AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid != 305206867276097536
+GPT-3 choices:
+(0) Retrieve the loadversion value from the Spectroscopic_objects table where the specobjid in the Stellar_spectral_line_indices table is not equal to 305206867276097536.
+(1) Retrieve the loadversion from the Spectroscopic_objects table for all specobjid values in the Stellar_spectal_line_indices table where the specobjid is not equal to 305206867276097536.
+(2) What is the load version of the spectroscopic objects for a given specobjid, which is not equal to 305206867276097536, when joined with the spplines table?
+(3) Find the load version for all spectroscopic objects where the specobjid is not equal to 305206867276097536 in the tables specobj and spplines, and join them based on their shared specobjid.
+(4) Return the load version from the Spectroscopic Objects table for all objects where the specobjid does not equal 305206867276097536 and is joined with the Stellar Spectral Line Indices table.
+(5) Retrieve the load version from the Spectroscopic_objects table for all objects in the Stellar_spectral_line_indices table, excluding any with a specobjid of 305206867276097536.
+(6) What is the load version of all objects in the Spectroscopic_objects table that have an associated specobjid in the Stellar_spectal_line_indices table, excluding any object with a specobjid of 305206867276097536?
+(7) What is the version of loaded data for the Spectroscopic objects where the specobjid does not equal 305206867276097536 in the tables specobj and spplines joined on their respective columns?
+
+
+Re-ranked choices:
+8.423  Return the load version from the Spectroscopic Objects table for all objects where the specobjid does not equal 305206867276097536 and is joined with the Stellar Spectral Line Indices table.
+7.016  What is the load version of all objects in the Spectroscopic_objects table that have an associated specobjid in the Stellar_spectal_line_indices table, excluding any object with a specobjid of 305206867276097536?
+6.319  Find the load version for all spectroscopic objects where the specobjid is not equal to 305206867276097536 in the tables specobj and spplines, and join them based on their shared specobjid.
+5.624  What is the load version of the spectroscopic objects for a given specobjid, which is not equal to 305206867276097536, when joined with the spplines table?
+4.921  Retrieve the load version from the Spectroscopic_objects table for all objects in the Stellar_spectral_line_indices table, excluding any with a specobjid of 305206867276097536.
+4.920  What is the version of loaded data for the Spectroscopic objects where the specobjid does not equal 305206867276097536 in the tables specobj and spplines joined on their respective columns?
+1.417  Retrieve the loadversion from the Spectroscopic_objects table for all specobjid values in the Stellar_spectal_line_indices table where the specobjid is not equal to 305206867276097536.
+0.721  Retrieve the loadversion value from the Spectroscopic_objects table where the specobjid in the Stellar_spectral_line_indices table is not equal to 305206867276097536.
+

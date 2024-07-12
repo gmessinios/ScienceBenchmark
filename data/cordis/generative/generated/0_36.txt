@@ -1,0 +1,16 @@
+SELECT projects.end_date FROM projects AS projects WHERE projects.cordis_ref = "100562"
+
+###
+
+
+Original Query:
+SELECT T1.end_date FROM projects AS T1 WHERE T1.cordis_ref = "100562"
+GPT-3 choices:
+(0) What is the end date of project with CORDIS reference number "100562" in the projects table?
+(1) Retrieve the end date of the project with a CORDIS reference number of "100562" from the table of projects.
+(2) Find the end date for project with cordis reference number "100562" in the projects table.
+(3) Retrieve the end date of the project with a CORDIS reference number of "100562".
+(4) What is the end date of the project with the CORDIS reference number "100562"?
+(5) What is the end date of project with CORDIS reference "100562"?
+(6) Retrieve the end date of the project with a CORDIS reference number of "100562" from the projects table.
+(7) What is the end date for the project with a cordis reference of "100562"?

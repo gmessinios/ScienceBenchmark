@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 9
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value = 9
+GPT-3 choices:
+(0) "Retrieve the names of all photometric types where the value is equal to 9 and the type is observed photometrically."
+(1) What is the name of the type of photo where its value is 9 in the photometrically observed column?
+(2) Show the names of all objects that have been observed using photometric techniques with a value of 9.
+(3) Retrieve the names of all objects that have a photometric observation value of 9.
+(4) What are the names of all the objects that have a photometric type value of 9?
+(5) What is the name of all objects in the "photo_type" table that have a value of 9 for the column "value" and are classified as photometrically observed?
+(6) Find the names of objects in a table called "photo_type" where the value is 9 for the column labeled "photometrically_observed".
+(7) "Retrieve the names of all photo types where the value is equal to 9 and they are photometrically observed."

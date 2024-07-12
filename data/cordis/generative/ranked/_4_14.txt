@@ -1,0 +1,27 @@
+SELECT count(*) FROM projects AS projects WHERE projects.ec_call = "H2020-JTI-IMI2-2020-20-two-stage"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects AS T1 WHERE T1.ec_call = "H2020-JTI-IMI2-2020-20-two-stage"
+GPT-3 choices:
+(0) How many projects have the EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+(1) How many projects are there with an EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+(2) How many projects have an EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+(3) How many projects are there that have an EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+(4) How many projects are there in the "H2020-JTI-IMI2-2020-20-two-stage" EC call?
+(5) How many projects are there with an EC call value of "H2020-JTI-IMI2-2020-20-two-stage" in the projects table?
+(6) How many projects have an EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+(7) How many projects are there in the table "projects" with the ec_call value equal to "H2020-JTI-IMI2-2020-20-two-stage"?
+
+
+Re-ranked choices:
+4.991  How many projects have the EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+4.991  How many projects have an EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+4.975  How many projects are there with an EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+4.968  How many projects are there that have an EC call of "H2020-JTI-IMI2-2020-20-two-stage"?
+4.950  How many projects are there with an EC call value of "H2020-JTI-IMI2-2020-20-two-stage" in the projects table?
+3.581  How many projects are there in the "H2020-JTI-IMI2-2020-20-two-stage" EC call?
+2.137  How many projects are there in the table "projects" with the ec_call value equal to "H2020-JTI-IMI2-2020-20-two-stage"?
+

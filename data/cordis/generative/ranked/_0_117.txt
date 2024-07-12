@@ -1,0 +1,28 @@
+SELECT activity_types.code FROM activity_types AS activity_types WHERE activity_types.description = "Higher or Secondary Education Establishments"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 WHERE T1.description = "Higher or Secondary Education Establishments"
+GPT-3 choices:
+(0) Retrieve the code for all higher or secondary education establishments from the activity types table.
+(1) What is the code for higher or secondary education establishments in the activity types table?
+(2) Find the activity code for higher or secondary education establishments from the activity types table where the description is "Higher or Secondary Education Establishments".
+(3) Find the code for activity types that have a description of "Higher or Secondary Education Establishments" in the table named "activity_types".
+(4) What is the code for "Higher or Secondary Education Establishments" in the table activity_types?
+(5) Find the code for activity types where the description is "Higher or Secondary Education Establishments".
+(6) Retrieve the code for higher or secondary education establishments from the activity types table where the description is "Higher or Secondary Education Establishments".
+(7) Find the activity type code for higher or secondary education establishments from the table of activity types where the description is "Higher or Secondary Education Establishments".
+
+
+Re-ranked choices:
+8.424  Find the code for activity types where the description is "Higher or Secondary Education Establishments".
+8.420  Find the code for activity types that have a description of "Higher or Secondary Education Establishments" in the table named "activity_types".
+8.418  Retrieve the code for higher or secondary education establishments from the activity types table where the description is "Higher or Secondary Education Establishments".
+8.417  Find the activity code for higher or secondary education establishments from the activity types table where the description is "Higher or Secondary Education Establishments".
+8.416  Find the activity type code for higher or secondary education establishments from the table of activity types where the description is "Higher or Secondary Education Establishments".
+7.026  What is the code for higher or secondary education establishments in the activity types table?
+7.024  Retrieve the code for all higher or secondary education establishments from the activity types table.
+4.224  What is the code for "Higher or Secondary Education Establishments" in the table activity_types?
+

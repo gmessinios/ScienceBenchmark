@@ -1,0 +1,16 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861469275
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.neighborobjid = 1237645876861469275
+GPT-3 choices:
+(0) "How many objects are there in the 'neighbors' table where the neighborobjid is equal to 1237645876861469275?"
+(1) How many objects are there in the "neighbors" table where the neighborobjid is equal to 1237645876861469275?
+(2) How many rows are there in the "neighbors" table where the neighborobjid column equals 1237645876861469275?
+(3) How many objects are there in the table "neighbors" where the neighborobjid is equal to 1237645876861469275?
+(4) How many neighbors with the object ID 1237645876861469275 are there in the table "neighbors"?
+(5) How many rows are in the neighbors table where the neighborobjid is equal to 1237645876861469275?
+(6) How many objects are there in the "neighbors" table with a neighborobjid equal to 1237645876861469275?
+(7) How many objects are there in the "neighbors" table where the neighbor object id is equal to 1237645876861469275?

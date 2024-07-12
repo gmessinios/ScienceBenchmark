@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units    ORDER BY eu_territorial_units.geocode_level DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1    ORDER BY T1.geocode_level DESC LIMIT 1
+GPT-3 choices:
+(0) Get the NUTS version for the last row in the EU territorial units table, sorted by geocode level in descending order.
+(1) What is the latest nuts version in eu_territorial_units, sorted by geocode_level and limited to 1 result?
+(2) Retrieve the NUTS version from the EU territorial units table, ordered by geocode level in descending order, limited to only one result.
+(3) Get the NUTS version of the latest geocode level from the EU territorial units table in descending order.
+(4) Find the NUTS version for the top geocode level in the EU territorial units table, ordered by descending geocode level and limited to only one result.
+(5) Find the NUTS version for the highest level geocode in the EU territorial units table.
+(6) What is the latest nuts version of the EU territorial units in descending order?
+(7) What is the highest level of geocode used for European territorial units and what is the corresponding NUTS version?
+
+
+Re-ranked choices:
+10.529  Get the NUTS version for the last row in the EU territorial units table, sorted by geocode level in descending order.
+10.523  Retrieve the NUTS version from the EU territorial units table, ordered by geocode level in descending order, limited to only one result.
+10.522  Find the NUTS version for the top geocode level in the EU territorial units table, ordered by descending geocode level and limited to only one result.
+9.837  Find the NUTS version for the highest level geocode in the EU territorial units table.
+9.829  Get the NUTS version of the latest geocode level from the EU territorial units table in descending order.
+7.034  What is the latest nuts version of the EU territorial units in descending order?
+7.026  What is the highest level of geocode used for European territorial units and what is the corresponding NUTS version?
+3.523  What is the latest nuts version in eu_territorial_units, sorted by geocode_level and limited to 1 result?
+

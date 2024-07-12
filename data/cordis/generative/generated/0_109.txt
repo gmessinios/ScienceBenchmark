@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries AS countries WHERE countries.country_code2 = "TF"
+
+###
+
+
+Original Query:
+SELECT T1.country_name FROM countries AS T1 WHERE T1.country_code2 = "TF"
+GPT-3 choices:
+(0) Which country name corresponds to the country code "TF"?
+(1) Show me the name of the country in the "countries" table where the country code is "TF".
+(2) What is the name of the country that has a two-letter code of "TF" in the countries table?
+(3) What is the name of the country with a country code2 of "TF" in the table countries?
+(4) Retrieve the country name from the countries table where the country code2 is equal to "TF".
+(5) Retrieve the country name from the "countries" table where the country code is "TF".
+(6) Show me the name of the country where the country code 2 is "TF".
+(7) Find the country name from the countries table where the country code2 is "TF".

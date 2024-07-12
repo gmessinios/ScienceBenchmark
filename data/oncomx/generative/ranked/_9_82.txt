@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id JOIN map_protein_disease_mutation AS map_protein_disease_mutation ON map_uniprot_canonical_id.uniprotkb_ac = map_protein_disease_mutation.uniprotkb_ac WHERE map_protein_disease_mutation.uniprotkb_ac != "A6NHT5"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS T1 JOIN map_protein_disease_mutation AS T2 ON T1.uniprotkb_ac = T2.uniprotkb_ac WHERE T2.uniprotkb_ac != "A6NHT5"
+GPT-3 choices:
+(0) Get the UniprotKB canonical accession number from the Map Uniprot Canonical ID table for all entries where the UniprotKB AC is not equal to "A6NHT5" in the Map Protein Disease Mutation table.
+(1) Retrieve the UniProt canonical accessions for all protein-disease mutations, excluding the one with UniProt canonical accession "A6NHT5".
+(2) Retrieve the UniprotKB canonical accessions for proteins that are mapped to disease mutations, excluding the protein with the UniprotKB accession "A6NHT5".
+(3) Get the UniprotKB canonical accession IDs for all proteins that are associated with mutations related to diseases, except for the protein with the accession ID "A6NHT5".
+(4) Retrieve the UniProt canonical accession numbers from the table "map_uniprot_canonical_id" for all entries in the "map_protein_disease_mutation" table where the UniProt accession number is not equal to "A6NHT5".
+(5) Get the Uniprot canonical accession IDs for proteins that have a different ID from "A6NHT5" in both the map_uniprot_canonical_id and map_protein_disease_mutation tables.
+(6) Retrieve the Uniprot canonical accession number for all proteins in the map_protein_disease_mutation table that are not equal to "A6NHT5".
+(7) Retrieve the UniProtKB canonical accession number from the map_uniprot_canonical_id table where the UniProtKB accession number is not equal to "A6NHT5" in the map_protein_disease_mutation table.
+
+
+Re-ranked choices:
+13.317  Get the UniprotKB canonical accession number from the Map Uniprot Canonical ID table for all entries where the UniprotKB AC is not equal to "A6NHT5" in the Map Protein Disease Mutation table.
+6.319  Retrieve the UniprotKB canonical accessions for proteins that are mapped to disease mutations, excluding the protein with the UniprotKB accession "A6NHT5".
+6.318  Get the UniprotKB canonical accession IDs for all proteins that are associated with mutations related to diseases, except for the protein with the accession ID "A6NHT5".
+4.917  Get the Uniprot canonical accession IDs for proteins that have a different ID from "A6NHT5" in both the map_uniprot_canonical_id and map_protein_disease_mutation tables.
+3.523  Retrieve the Uniprot canonical accession number for all proteins in the map_protein_disease_mutation table that are not equal to "A6NHT5".
+3.522  Retrieve the UniProt canonical accessions for all protein-disease mutations, excluding the one with UniProt canonical accession "A6NHT5".
+3.516  Retrieve the UniProt canonical accession numbers from the table "map_uniprot_canonical_id" for all entries in the "map_protein_disease_mutation" table where the UniProt accession number is not equal to "A6NHT5".
+3.515  Retrieve the UniProtKB canonical accession number from the map_uniprot_canonical_id table where the UniProtKB accession number is not equal to "A6NHT5" in the map_protein_disease_mutation table.
+

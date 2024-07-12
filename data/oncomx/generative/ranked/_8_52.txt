@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.id FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.approved_indication != "prediction"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda_test_use AS T1 WHERE T1.approved_indication != "prediction"
+GPT-3 choices:
+(0) Find the IDs of biomarkers that have been tested by the FDA for use in indications other than prediction.
+(1) Find the IDs from biomarker_fda_test_use where the approved_indication is not "prediction".
+(2) Retrieve the ID of biomarkers from the FDA test use table where the approved indication is not "prediction".
+(3) Retrieve the IDs of biomarkers from the FDA test use table where the approved indication is not "prediction".
+(4) Find the id from the table biomarker_fda_test_use where the approved indication is not equal to "prediction".
+(5) Retrieve the IDs from the biomarker_fda_test_use table where the approved_indication column does not equal "prediction".
+(6) Find the IDs from biomarker_fda_test_use where the approved indication is not "prediction".
+(7) Find the IDs of biomarker FDA tests that have an approved indication other than prediction.
+
+
+Re-ranked choices:
+9.133  Retrieve the ID of biomarkers from the FDA test use table where the approved indication is not "prediction".
+7.733  Retrieve the IDs of biomarkers from the FDA test use table where the approved indication is not "prediction".
+5.637  Find the IDs of biomarker FDA tests that have an approved indication other than prediction.
+4.926  Find the id from the table biomarker_fda_test_use where the approved indication is not equal to "prediction".
+3.529  Find the IDs from biomarker_fda_test_use where the approved indication is not "prediction".
+2.836  Find the IDs of biomarkers that have been tested by the FDA for use in indications other than prediction.
+0.735  Find the IDs from biomarker_fda_test_use where the approved_indication is not "prediction".
+0.727  Retrieve the IDs from the biomarker_fda_test_use table where the approved_indication column does not equal "prediction".
+

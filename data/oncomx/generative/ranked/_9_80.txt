@@ -1,0 +1,28 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue JOIN disease_mutation AS disease_mutation ON disease_mutation_tissue.disease_mutation_id = disease_mutation.id WHERE disease_mutation.ref_aa != "K"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.ref_aa != "K"
+GPT-3 choices:
+(0) Find the uberon anatomical ID for tissues associated with disease mutations where the reference amino acid is not "K".
+(1) Retrieve the uberon anatomical ID from the disease_mutation_tissue table where the corresponding disease_mutation does not have a reference amino acid of "K".
+(2) Retrieve the unique anatomical identifier from disease_mutation_tissue where the reference amino acid is not "K" in the corresponding disease_mutation.
+(3) Retrieve the anatomical IDs from the disease mutation tissue table for all diseases and mutations where the reference amino acid is not equal to "K".
+(4) Retrieve the unique anatomical IDs from disease mutation tissues for all diseases and mutations where the reference amino acid is not "K".
+(5) Retrieve the uberon anatomical IDs from the disease mutation tissues that are associated with disease mutations where the reference amino acid is not equal to "K".
+(6) Get the anatomical ID from disease mutation tissues for all disease mutations that have a reference amino acid other than "K".
+(7) Find the anatomical IDs from disease mutation tissue where the reference amino acid in disease mutation is not equal to "K".
+
+
+Re-ranked choices:
+6.329  Find the anatomical IDs from disease mutation tissue where the reference amino acid in disease mutation is not equal to "K".
+6.326  Get the anatomical ID from disease mutation tissues for all disease mutations that have a reference amino acid other than "K".
+6.326  Find the uberon anatomical ID for tissues associated with disease mutations where the reference amino acid is not "K".
+6.325  Retrieve the anatomical IDs from the disease mutation tissue table for all diseases and mutations where the reference amino acid is not equal to "K".
+6.321  Retrieve the uberon anatomical IDs from the disease mutation tissues that are associated with disease mutations where the reference amino acid is not equal to "K".
+4.928  Retrieve the unique anatomical IDs from disease mutation tissues for all diseases and mutations where the reference amino acid is not "K".
+4.920  Retrieve the uberon anatomical ID from the disease_mutation_tissue table where the corresponding disease_mutation does not have a reference amino acid of "K".
+2.118  Retrieve the unique anatomical identifier from disease_mutation_tissue where the reference amino acid is not "K" in the corresponding disease_mutation.
+

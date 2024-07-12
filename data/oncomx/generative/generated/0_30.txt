@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.ensembl_transcript_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.uniprotkb_ac = "A0A075B6H5"
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_transcript_id FROM map_protein_disease_mutation AS T1 WHERE T1.uniprotkb_ac = "A0A075B6H5"
+GPT-3 choices:
+(0) What is the Ensembl transcript ID for the protein-disease mutation mapping where the UniProtKB accession number is "A0A075B6H5"?
+(1) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the UniprotKB accession is "A0A075B6H5".
+(2) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the UniProtKB accession is "A0A075B6H5".
+(3) Retrieve the ensembl transcript id from the map_protein_disease_mutation table where the uniprotkb_ac is equal to "A0A075B6H5".
+(4) What is the Ensembl transcript ID for the protein-disease-mutation mapping with the UniProtKB accession number "A0A075B6H5"?
+(5) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the uniprotkb accession number is "A0A075B6H5".
+(6) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the UniprotKB accession code is "A0A075B6H5".
+(7) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the uniprotkb accession number is equal to "A0A075B6H5".

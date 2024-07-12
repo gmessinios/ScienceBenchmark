@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Participant'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Participant'
+GPT-3 choices:
+(0) Show me what are the code of all project member roles that are having the description Participant
+(1) Show all project member roles where the description is Participant
+(2) Show distinct project member roles for projects where the description is 'Participant'
+(3) Show me project member roles with the description 'Participant'
+(4) What are the project member roles that have the description 'Participant'?
+(5) Display the project member role descriptions of project participants
+(6) What are the project member roles descriptions?
+(7) What are the project member roles descriptions of participants?
+
+
+Re-ranked choices:
+7.739  Show me what are the code of all project member roles that are having the description Participant
+6.347  What are the project member roles that have the description 'Participant'?
+6.342  Show all project member roles where the description is Participant
+6.337  Show distinct project member roles for projects where the description is 'Participant'
+6.337  Show me project member roles with the description 'Participant'
+4.281  What are the project member roles descriptions?
+4.237  What are the project member roles descriptions of participants?
+2.833  Display the project member role descriptions of project participants
+

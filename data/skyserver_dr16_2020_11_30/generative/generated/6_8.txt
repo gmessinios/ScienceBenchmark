@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "COSMIC_RAY" and photometrically_observed.description = "Ghost: Object created by reflected or refracted light. (not used)"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.name = "COSMIC_RAY" and T1.description = "Ghost: Object created by reflected or refracted light. (not used)"
+GPT-3 choices:
+(0) Retrieve the value of photometrically observed objects that are categorized as "COSMIC_RAY" and have a description of "Ghost: Object created by reflected or refracted light."
+(1) Retrieve the value of objects that have been observed photometrically and are classified as "COSMIC_RAY" with the description of being a ghost created by reflected or refracted light, excluding those that are not in use.
+(2) Retrieve the value of objects that were photometrically observed as cosmic rays and described as ghosts, which are created by reflected or refracted light.
+(3) Retrieve the value of the "COSMIC_RAY" type from the photo_type table, where the name is "photometrically_observed" and the description is "Ghost: Object created by reflected or refracted light. (not used)".
+(4) What is the value of the photometrically observed object "COSMIC_RAY" that was created by reflected or refracted light and labeled as a ghost?
+(5) What is the value for objects that are marked as "COSMIC_RAY" and described as "Ghost: Object created by reflected or refracted light"?
+(6) Retrieve the value of photometrically observed objects that are identified as cosmic rays and described as ghost objects created by reflected or refracted light, but which are not currently being used.
+(7) "Retrieve the value from the photometrically_observed table for objects that are classified as "COSMIC_RAY" and described as "Ghost", but are not used in any calculations."

@@ -1,0 +1,28 @@
+SELECT Photometric_objects.b FROM photoobj AS Photometric_objects WHERE Photometric_objects.colc = 63.09674
+
+###
+
+
+Original Query:
+SELECT T1.b FROM photoobj AS T1 WHERE T1.colc = 63.09674
+GPT-3 choices:
+(0) Find the value of column "b" from the table "photoobj" where the column "colc" has a value of 63.09674.
+(1) Get the value in the column "b" from the table "photoobj" where the value in column "colc" is equal to 63.09674 and assign it an alias of "Photometric_objects".
+(2) Retrieve the b column from the Photometric_objects table where the colc column is equal to 63.09674.
+(3) Select the value in column b from the table photoobj where the value in column colc is 63.09674, for objects that have photometric properties.
+(4) "Retrieve the b column from the photoobj table for objects with a colc value of 63.09674 and label it as Photometric_objects."
+(5) Retrieve the b column from the Photometric_objects table in the photoobj database where the colc value is equal to 63.09674.
+(6) What is the value of column b in the Photometric_objects table where the column colc is equal to 63.09674?
+(7) Retrieve the b column from the photoobj table where the colc value is equal to 63.09674 and alias it as Photometric_objects.
+
+
+Re-ranked choices:
+2.837  "Retrieve the b column from the photoobj table for objects with a colc value of 63.09674 and label it as Photometric_objects."
+2.834  Select the value in column b from the table photoobj where the value in column colc is 63.09674, for objects that have photometric properties.
+2.136  Get the value in the column "b" from the table "photoobj" where the value in column "colc" is equal to 63.09674 and assign it an alias of "Photometric_objects".
+2.132  What is the value of column b in the Photometric_objects table where the column colc is equal to 63.09674?
+2.132  Retrieve the b column from the Photometric_objects table where the colc column is equal to 63.09674.
+2.125  Retrieve the b column from the Photometric_objects table in the photoobj database where the colc value is equal to 63.09674.
+1.443  Retrieve the b column from the photoobj table where the colc value is equal to 63.09674 and alias it as Photometric_objects.
+1.433  Find the value of column "b" from the table "photoobj" where the column "colc" has a value of 63.09674.
+

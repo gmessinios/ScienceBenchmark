@@ -1,0 +1,16 @@
+SELECT disease.id FROM disease AS disease JOIN cancer_tissue AS cancer_tissue ON disease.id = cancer_tissue.doid WHERE cancer_tissue.uberon_anatomical_id = "UBERON:0001264"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease AS T1 JOIN cancer_tissue AS T2 ON T1.id = T2.doid WHERE T2.uberon_anatomical_id = "UBERON:0001264"
+GPT-3 choices:
+(0) Find the ID of diseases that are associated with cancer and also have a connection to the anatomical structure "UBERON:0001264".
+(1) Retrieve the ID of any diseases that are associated with a cancer tissue that has an Uberon anatomical identifier of "UBERON:0001264" by joining the disease table with the cancer_tissue table on their respective IDs.
+(2) What are the IDs of all diseases that have a relationship with the UBERON anatomical entity "UBERON:0001264" through the cancer_tissue table?
+(3) What is the identifier of the disease that is linked to cancer tissue through a join on its identifier and has an Uberon anatomical ID of "UBERON:0001264"?
+(4) What is the ID of the disease that is associated with cancer tissue whose UBERON anatomical identifier is "UBERON:0001264"?
+(5) Find the IDs of all diseases that are associated with a cancer tissue that has the Uberon anatomical ID "UBERON:0001264".
+(6) Retrieve the ID of all diseases that are associated with cancer in tissues belonging to the anatomical entity "UBERON:0001264".
+(7) What are the IDs of diseases that are associated with the cancer tissue "UBERON:0001264"?

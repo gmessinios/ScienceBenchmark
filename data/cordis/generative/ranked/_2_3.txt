@@ -1,0 +1,28 @@
+SELECT projects.ec_max_contribution, count(*) FROM projects AS projects  GROUP BY projects.ec_max_contribution
+
+###
+
+
+Original Query:
+SELECT T1.ec_max_contribution, count(*) FROM projects AS T1  GROUP BY T1.ec_max_contribution
+GPT-3 choices:
+(0) Find the maximum contribution and count the number of projects for each unique maximum contribution value from the projects table.
+(1) How many projects have the same maximum contribution amount and how many projects fall under each maximum contribution amount category?
+(2) Retrieve the number of projects grouped by their maximum contribution amount.
+(3) How many projects have the same maximum contribution and how many times does each maximum contribution appear in the list of projects?
+(4) What is the maximum contribution for each project and how many projects have that maximum contribution?
+(5) Retrieve the number of projects and their maximum contribution from a table called "projects", grouping them by their maximum contribution.
+(6) How many projects have the same maximum contribution amount and how many of those contributions are there?
+(7) What is the number of projects and their corresponding maximum contribution for each distinct maximum contribution value in the projects table?
+
+
+Re-ranked choices:
+3.539  Retrieve the number of projects grouped by their maximum contribution amount.
+3.524  Retrieve the number of projects and their maximum contribution from a table called "projects", grouping them by their maximum contribution.
+2.834  How many projects have the same maximum contribution amount and how many of those contributions are there?
+2.832  What is the maximum contribution for each project and how many projects have that maximum contribution?
+2.828  How many projects have the same maximum contribution and how many times does each maximum contribution appear in the list of projects?
+2.824  Find the maximum contribution and count the number of projects for each unique maximum contribution value from the projects table.
+2.824  How many projects have the same maximum contribution amount and how many projects fall under each maximum contribution amount category?
+2.822  What is the number of projects and their corresponding maximum contribution for each distinct maximum contribution value in the projects table?
+

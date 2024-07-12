@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker AS biomarker WHERE biomarker.test_is_a_panel = True
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker AS T1 WHERE T1.test_is_a_panel = True
+GPT-3 choices:
+(0) How many biomarkers are there that are classified as panels?
+(1) How many biomarkers are panels?
+(2) How many biomarkers are panels?
+(3) How many biomarkers are panels?
+(4) How many biomarkers are there that are classified as a panel test?
+(5) How many biomarkers are classified as a panel test?
+(6) How many biomarkers are considered to be panels in the biomarker table?
+(7) How many biomarkers are panels?

@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.fiberid = 996
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.fiberid = 996
+GPT-3 choices:
+(0) How many spectroscopic objects have a fiber ID of 996?
+(1) How many spectroscopic objects have a fiber ID of 996?
+(2) How many spectroscopic objects have a fiberid value of 996 in the SpecObj table?
+(3) Count the number of rows in the specobj table where the fiberid column is equal to 996 and label it as "Spectroscopic_objects".
+(4) How many Spectroscopic objects have a fiberid of 996?
+(5) How many spectroscopic objects have a fiber ID of 996?
+(6) How many spectroscopic objects have a fiber ID of 996?
+(7) How many spectroscopic objects have a fiber ID of 996?

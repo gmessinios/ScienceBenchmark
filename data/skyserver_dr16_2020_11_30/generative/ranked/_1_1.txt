@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.z FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid = 300773906657077248
+
+###
+
+
+Original Query:
+SELECT T1.z FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid = 300773906657077248
+GPT-3 choices:
+(0) Retrieve the redshift value from the spectroscopic objects table where the specobjid matches that of emission line estimates.
+(1) Retrieve the redshift value for a spectroscopic object with a specobjid of 300773906657077248 from the tables specobj and galspecline.
+(2) Retrieve the redshift value from the table of spectroscopic objects for an emission line estimate with a specobjid of 300773906657077248.
+(3) Retrieve the redshift value from the specobj table for the spectroscopic object with a specobjid of 300773906657077248, joining it with the galspecline table to retrieve emission line estimates for that same specobjid.
+(4) Retrieve the redshift value from the "z" column of the specobj table for the spectroscopic object with a specobjid of 300773906657077248, which is joined with the galspecline table to get emission line estimates.
+(5) Retrieve the redshift value for the spectroscopic object with a specobjid of 300773906657077248, which can be found in the tables specobj and galspecline.
+(6) What is the redshift value for the spectroscopic object with a specobjid of 300773906657077248, based on emission line estimates from the galspecline table?
+(7) Retrieve the redshift value from the Spectroscopic_objects table for a specobjid of 300773906657077248 that matches the specobjid in the Emission_line_estimates table.
+
+
+Re-ranked choices:
+7.723  What is the redshift value for the spectroscopic object with a specobjid of 300773906657077248, based on emission line estimates from the galspecline table?
+7.016  Retrieve the redshift value from the specobj table for the spectroscopic object with a specobjid of 300773906657077248, joining it with the galspecline table to retrieve emission line estimates for that same specobjid.
+5.625  Retrieve the redshift value from the table of spectroscopic objects for an emission line estimate with a specobjid of 300773906657077248.
+5.624  Retrieve the redshift value from the spectroscopic objects table where the specobjid matches that of emission line estimates.
+5.617  Retrieve the redshift value from the "z" column of the specobj table for the spectroscopic object with a specobjid of 300773906657077248, which is joined with the galspecline table to get emission line estimates.
+4.224  Retrieve the redshift value for a spectroscopic object with a specobjid of 300773906657077248 from the tables specobj and galspecline.
+4.223  Retrieve the redshift value for the spectroscopic object with a specobjid of 300773906657077248, which can be found in the tables specobj and galspecline.
+2.819  Retrieve the redshift value from the Spectroscopic_objects table for a specobjid of 300773906657077248 that matches the specobjid in the Emission_line_estimates table.
+

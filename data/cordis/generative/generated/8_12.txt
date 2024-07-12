@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types AS activity_types WHERE activity_types.code != "HES"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM activity_types AS T1 WHERE T1.code != "HES"
+GPT-3 choices:
+(0) What is the description of all activity types, excluding those with a code of "HES"?
+(1) "Retrieve the description from activity types where the code is not equal to 'HES'."
+(2) "Retrieve the description of all activity types except "HES" from the table "activity_types"."
+(3) Retrieve the descriptions from the activity types table where the code is not equal to "HES".
+(4) What are the descriptions of activity types that do not have a code of "HES"?
+(5) Find the description of all activity types except "HES" from the table called "activity_types".
+(6) Retrieve the description from the activity types table where the code is not equal to "HES".
+(7) Find the descriptions of all activity types that do not have a code of "HES".

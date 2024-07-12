@@ -1,0 +1,16 @@
+SELECT count(*) FROM people AS people WHERE people.full_name = "Christopher Joseph Schofield"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people AS T1 WHERE T1.full_name = "Christopher Joseph Schofield"
+GPT-3 choices:
+(0) How many people have the full name "Christopher Joseph Schofield"?
+(1) How many people are there in the "people" table whose full name is "Christopher Joseph Schofield"?
+(2) How many people with the full name "Christopher Joseph Schofield" are there in the database?
+(3) How many people are there with the full name "Christopher Joseph Schofield"?
+(4) How many people are in the database with the full name "Christopher Joseph Schofield"?
+(5) How many records are in the table "people" where the full name is "Christopher Joseph Schofield"?
+(6) How many people have the full name "Christopher Joseph Schofield"?
+(7) How many people in the database have the full name "Christopher Joseph Schofield"?

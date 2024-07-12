@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "Host institution"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles AS T1 WHERE T1.description = "Host institution"
+GPT-3 choices:
+(0) How many project member roles have the description "Host institution"?
+(1) How many project member roles have the description "Host institution"?
+(2) How many project member roles are there with a description of "Host institution"?
+(3) How many project member roles have a description of "Host institution"?
+(4) How many project members have the role of "Host institution" in the table project_member_roles?
+(5) How many project members have a role of "Host institution"?
+(6) How many project member roles are there that have a description of "Host institution"?
+(7) How many project member roles have the description "Host institution"?

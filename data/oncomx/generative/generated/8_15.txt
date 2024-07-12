@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.test_trade_name FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission != "K062762"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission != "K062762"
+GPT-3 choices:
+(0) Retrieve the trade names from biomarker FDA test use where the test submission is not "K062762".
+(1) Retrieve the trade name of biomarker tests from the FDA database, excluding those with a test submission number of "K062762".
+(2) Retrieve the test trade name from the biomarker_fda_test_use table where the test submission is not equal to "K062762".
+(3) Return the trade name of tests from biomarker_fda_test_use where the test_submission is not equal to "K062762".
+(4) Which test trade names have a test submission that is not "K062762" in the biomarker_fda_test_use table?
+(5) What are the test trade names in the biomarker FDA test use table where the test submission is not "K062762"?
+(6) Get the trade name from biomarker_fda_test_use where test_submission is not equal to "K062762".
+(7) Find the trade name of all FDA biomarker tests that have a submission number other than "K062762".

@@ -1,0 +1,28 @@
+SELECT programmes.parent FROM programmes AS programmes JOIN project_programmes AS project_programmes ON programmes.code = project_programmes.programme JOIN projects AS projects ON project_programmes.project = projects.unics_id WHERE projects.title = ""The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS""
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 JOIN project_programmes AS T3 ON T1.code = T3.programme JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.title = ""The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS""
+GPT-3 choices:
+(0) Get the parent programmes of programmes that are joined with project_programmes and projects, where the title of the project is "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+(1) Get the parent programme for the project titled "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+(2) Retrieve the parent programme for the project "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+(3) Retrieve the parent programme of the project that has the title "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+(4) Retrieve the parent programme of all programmes that are associated with the project "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+(5) Retrieve the parent programmes for the project "The comparative analysis of the economic aspects of international migration" by joining the programmes, project_programmes, and projects tables on their respective codes and where the title of the project is "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+(6) Retrieve the parent of programmes that have a code matching the programme in project_programmes, which is associated with a project in projects with the title "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+(7) Find the parent programme of the project "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+
+
+Re-ranked choices:
+15.413  Retrieve the parent of programmes that have a code matching the programme in project_programmes, which is associated with a project in projects with the title "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+14.011  Retrieve the parent programmes for the project "The comparative analysis of the economic aspects of international migration" by joining the programmes, project_programmes, and projects tables on their respective codes and where the title of the project is "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+12.615  Get the parent programmes of programmes that are joined with project_programmes and projects, where the title of the project is "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+11.218  Retrieve the parent programme of the project that has the title "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+11.215  Retrieve the parent programme of all programmes that are associated with the project "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+9.820  Find the parent programme of the project "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+9.820  Get the parent programme for the project titled "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+9.819  Retrieve the parent programme for the project "The comparative analysis of the economic aspects of international migration: EU, Mediterranean, and CIS".
+

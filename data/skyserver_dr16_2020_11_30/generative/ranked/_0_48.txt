@@ -1,0 +1,28 @@
+SELECT Photometric_objects.objid FROM photoobj AS Photometric_objects WHERE Photometric_objects.rerun = 301
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM photoobj AS T1 WHERE T1.rerun = 301
+GPT-3 choices:
+(0) Find the unique identification numbers for objects in the photometric database where the rerun number is 301.
+(1) Retrieve the objid of all objects in the photoobj table where the rerun is equal to 301.
+(2) "Find the object IDs for photometric objects in the photoobj table where the rerun value is equal to 301."
+(3) Retrieve the objid for all objects in the photoobj table where the rerun is equal to 301, using the alias Photometric_objects.
+(4) Find the object ID from the photoobj table for objects in the rerun with a value of 301 in the column named rerun.
+(5) Find the object IDs from photo objects where the rerun is equal to 301.
+(6) Retrieve the object ID of photometric objects from the photoobj table where the rerun is equal to 301.
+(7) Retrieve the objid values from the Photometric_objects table in the photoobj database where the rerun value is equal to 301.
+
+
+Re-ranked choices:
+5.631  Find the object ID from the photoobj table for objects in the rerun with a value of 301 in the column named rerun.
+5.630  Retrieve the object ID of photometric objects from the photoobj table where the rerun is equal to 301.
+4.258  Find the object IDs from photo objects where the rerun is equal to 301.
+4.229  "Find the object IDs for photometric objects in the photoobj table where the rerun value is equal to 301."
+4.227  Find the unique identification numbers for objects in the photometric database where the rerun number is 301.
+2.831  Retrieve the objid of all objects in the photoobj table where the rerun is equal to 301.
+2.824  Retrieve the objid for all objects in the photoobj table where the rerun is equal to 301, using the alias Photometric_objects.
+2.123  Retrieve the objid values from the Photometric_objects table in the photoobj database where the rerun value is equal to 301.
+

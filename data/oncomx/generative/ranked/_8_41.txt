@@ -1,0 +1,27 @@
+SELECT xref_gene_ensembl.gene_symbol FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.ensembl_gene_id != "ENSG00000007392"
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM xref_gene_ensembl AS T1 WHERE T1.ensembl_gene_id != "ENSG00000007392"
+GPT-3 choices:
+(0) Get the gene symbols for all entries in the xref_gene_ensembl table except for those with an ensembl_gene_id of "ENSG00000007392".
+(1) What is the gene symbol for all entries in the xref_gene_ensembl table where the ensembl_gene_id is not "ENSG00000007392"?
+(2) Find the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id is not "ENSG00000007392".
+(3) Find the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id is not "ENSG00000007392".
+(4) What is the gene symbol for all genes in the Ensembl database except for "ENSG00000007392"?
+(5) Retrieve the gene symbol from the table "xref_gene_ensembl" where the Ensembl gene ID is not "ENSG00000007392".
+(6) Retrieve the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id is not equal to "ENSG00000007392".
+(7) What is the gene symbol for all genes in the xref_gene_ensembl table where the Ensembl gene ID is not "ENSG00000007392"?
+
+
+Re-ranked choices:
+6.326  Retrieve the gene symbol from the table "xref_gene_ensembl" where the Ensembl gene ID is not "ENSG00000007392".
+6.325  What is the gene symbol for all genes in the xref_gene_ensembl table where the Ensembl gene ID is not "ENSG00000007392"?
+4.933  What is the gene symbol for all genes in the Ensembl database except for "ENSG00000007392"?
+3.525  Find the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id is not "ENSG00000007392".
+3.524  What is the gene symbol for all entries in the xref_gene_ensembl table where the ensembl_gene_id is not "ENSG00000007392"?
+3.524  Retrieve the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id is not equal to "ENSG00000007392".
+2.124  Get the gene symbols for all entries in the xref_gene_ensembl table except for those with an ensembl_gene_id of "ENSG00000007392".
+

@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.ra = 0.023387419
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.ra = 0.023387419
+GPT-3 choices:
+(0) Find the specobjid for emission line estimates where the right ascension of Spectroscopic_objects is equal to 0.023387419.
+(1) Find the specobjid of galspecline where the ra value in specobj is equal to 0.023387419.
+(2) Get the specobjid values from the Emission_line_estimates table where the ra value in the Spectroscopic_objects table is equal to 0.023387419.
+(3) Find the specobjid from the galspecline table where the ra value in the specobj table is equal to 0.023387419.
+(4) Find the specobjid from the table Emission_line_estimates where the ra value in the table Spectroscopic_objects is equal to 0.023387419.
+(5) Retrieve the specobjid of emission line estimates from the table galspecline where the ra value of its corresponding entry in the table specobj is equal to 0.023387419.
+(6) Retrieve the specobjid values from the table Emission_line_estimates where the ra value in Spectroscopic_objects is equal to 0.023387419.
+(7) Retrieve the specobjid value from the Emission_line_estimates table for any rows that have a matching specobjid value in the Spectroscopic_objects table, where the ra column in Spectroscopic_objects is equal to 0.023387419.

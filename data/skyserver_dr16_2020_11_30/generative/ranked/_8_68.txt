@@ -1,0 +1,28 @@
+SELECT Photometric_objects.cmodelmag_r FROM photoobj AS Photometric_objects WHERE Photometric_objects.u != 14.59539
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_r FROM photoobj AS T1 WHERE T1.u != 14.59539
+GPT-3 choices:
+(0) Retrieve the r-band cmodel magnitude for objects from the photoobj table where the u-band value is not equal to 14.59539.
+(1) Retrieve the r-band model magnitude of photometric objects from the photoobj table where the u-band is not equal to 14.59539.
+(2) Find the r-band Cmodel magnitude for all objects in the photoobj table where the u-band is not equal to 14.59539.
+(3) What is the cmodel magnitude in the r-band for objects in the photoobj table where u does not equal 14.59539?
+(4) Retrieve the apparent magnitude in the r-band for all photometric objects from the photoobj table where the u-band magnitude is not equal to 14.59539.
+(5) What is the r-band model magnitude from photometric objects in the photoobj table, excluding any with a u-band magnitude of 14.59539?
+(6) Get the cmodelmag_r value from the photoobj table for objects in which the u value is not equal to 14.59539.
+(7) What is the r-band CModel magnitude of objects from the table "photoobj" where the value in the "u" column is not equal to 14.59539?
+
+
+Re-ranked choices:
+4.231  What is the cmodel magnitude in the r-band for objects in the photoobj table where u does not equal 14.59539?
+4.228  Retrieve the r-band model magnitude of photometric objects from the photoobj table where the u-band is not equal to 14.59539.
+4.227  What is the r-band CModel magnitude of objects from the table "photoobj" where the value in the "u" column is not equal to 14.59539?
+4.222  What is the r-band model magnitude from photometric objects in the photoobj table, excluding any with a u-band magnitude of 14.59539?
+2.831  Find the r-band Cmodel magnitude for all objects in the photoobj table where the u-band is not equal to 14.59539.
+2.828  Retrieve the r-band cmodel magnitude for objects from the photoobj table where the u-band value is not equal to 14.59539.
+2.828  Get the cmodelmag_r value from the photoobj table for objects in which the u value is not equal to 14.59539.
+2.824  Retrieve the apparent magnitude in the r-band for all photometric objects from the photoobj table where the u-band magnitude is not equal to 14.59539.
+

@@ -1,0 +1,16 @@
+SELECT differential_expression.adjpvalue FROM differential_expression AS differential_expression JOIN disease AS disease ON differential_expression.doid = disease.id WHERE disease.id = 2174
+
+###
+
+
+Original Query:
+SELECT T1.adjpvalue FROM differential_expression AS T1 JOIN disease AS T2 ON T1.doid = T2.id WHERE T2.id = 2174
+GPT-3 choices:
+(0) Retrieve the adjusted p-values for differential expression results associated with disease with ID 2174.
+(1) What are the adjusted p-values of differentially expressed genes associated with disease 2174?
+(2) What is the adjusted p-value from the differential expression table for disease with ID 2174?
+(3) What are the adjusted p-values of differentially expressed genes for disease with ID 2174?
+(4) Retrieve the adjusted p-value from the differential expression table for any diseases that have a matching ID of 2174 in the disease table.
+(5) Retrieve the adjusted p-value from the differential expression table for any disease that has a DOID of 2174, joining with the disease table.
+(6) What is the adjusted p-value for differential gene expression in the disease with ID 2174?
+(7) Retrieve the adjusted p-values for differential expression results associated with a disease with the ID 2174.

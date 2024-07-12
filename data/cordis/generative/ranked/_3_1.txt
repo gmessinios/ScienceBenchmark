@@ -1,0 +1,25 @@
+SELECT count(*) FROM topics AS topics
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics AS T1
+GPT-3 choices:
+(0) How many topics are there in the database named "topics"?
+(1) How many rows are in the "topics" table?
+(2) "How many topics are there in the database?"
+(3) How many topics are there in the database?
+(4) How many rows are in the "topics" table?
+(5) How many topics are there in the topics table?
+(6) How many topics are there in the topics table?
+(7) How many topics are there in the database?
+
+
+Re-ranked choices:
+1.503  How many rows are in the "topics" table?
+1.503  "How many topics are there in the database?"
+1.503  How many topics are there in the database?
+1.491  How many topics are there in the topics table?
+1.481  How many topics are there in the database named "topics"?
+

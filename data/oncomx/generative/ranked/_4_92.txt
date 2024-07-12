@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.alias = "A15 homolog"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_alias AS T1 WHERE T1.alias = "A15 homolog"
+GPT-3 choices:
+(0) How many biomarker aliases are there that have the alias "A15 homolog"?
+(1) How many biomarker aliases are there in the database with the alias "A15 homolog"?
+(2) How many records are there in the biomarker_alias table where the alias column is equal to "A15 homolog"?
+(3) How many biomarker aliases are there for the "A15 homolog"?
+(4) How many records are there in the biomarker_alias table where the alias is "A15 homolog"?
+(5) How many entries are in the biomarker_alias table with the alias "A15 homolog"?
+(6) How many entries are in the biomarker alias table where the alias is "A15 homolog"?
+(7) How many biomarker aliases are there for "A15 homolog"?
+
+
+Re-ranked choices:
+4.268  How many biomarker aliases are there that have the alias "A15 homolog"?
+4.258  How many biomarker aliases are there in the database with the alias "A15 homolog"?
+4.254  How many entries are in the biomarker alias table where the alias is "A15 homolog"?
+2.891  How many biomarker aliases are there for "A15 homolog"?
+2.881  How many biomarker aliases are there for the "A15 homolog"?
+2.868  How many records are there in the biomarker_alias table where the alias is "A15 homolog"?
+2.862  How many entries are in the biomarker_alias table with the alias "A15 homolog"?
+2.854  How many records are there in the biomarker_alias table where the alias column is equal to "A15 homolog"?
+

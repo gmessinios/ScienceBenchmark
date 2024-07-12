@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.name != "COSMIC_RAY"
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.name != "COSMIC_RAY"
+GPT-3 choices:
+(0) Get the mode of the nearest neighbor objects that have a photo type value that is not equal to "COSMIC_RAY".
+(1) Find the mode of the nearest neighbour objects where the photometrically observed name is not "COSMIC_RAY".
+(2) Find the mode of nearest neighbour objects where the photo type is not "COSMIC_RAY".
+(3) Retrieve the mode of the nearest neighbor objects where the neighbor type is not equal to "COSMIC_RAY" and has been photometrically observed.
+(4) Find the mode of nearest neighbor objects where the photo type is not "COSMIC_RAY".
+(5) Find the mode of the nearest neighbour objects where the type of the neighbour is not "COSMIC_RAY" and it has been photometrically observed.
+(6) Retrieve the mode of the nearest neighbour objects for all observations that are photometrically observed and not classified as "COSMIC_RAY".
+(7) Find the mode of the nearest neighbour objects for which the photometric observation type is not "COSMIC_RAY".
+
+
+Re-ranked choices:
+10.529  Find the mode of the nearest neighbour objects where the photometrically observed name is not "COSMIC_RAY".
+10.528  Find the mode of the nearest neighbour objects for which the photometric observation type is not "COSMIC_RAY".
+9.139  Get the mode of the nearest neighbor objects that have a photo type value that is not equal to "COSMIC_RAY".
+9.128  Retrieve the mode of the nearest neighbor objects where the neighbor type is not equal to "COSMIC_RAY" and has been photometrically observed.
+9.123  Find the mode of the nearest neighbour objects where the type of the neighbour is not "COSMIC_RAY" and it has been photometrically observed.
+9.121  Retrieve the mode of the nearest neighbour objects for all observations that are photometrically observed and not classified as "COSMIC_RAY".
+7.747  Find the mode of nearest neighbor objects where the photo type is not "COSMIC_RAY".
+7.741  Find the mode of nearest neighbour objects where the photo type is not "COSMIC_RAY".
+

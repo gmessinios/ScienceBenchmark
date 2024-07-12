@@ -1,0 +1,28 @@
+SELECT species.species FROM species AS species WHERE species.speciesid != 9606
+
+###
+
+
+Original Query:
+SELECT T1.species FROM species AS T1 WHERE T1.speciesid != 9606
+GPT-3 choices:
+(0) "Retrieve the names of all species in the 'species' table except for human (with a species ID not equal to 9606)."
+(1) What are the names of all species in the table "species" except for those with an ID of 9606?
+(2) Which species are not the human species according to the table named "species"?
+(3) Retrieve the name of all species from the table "species" except for humans (with a species ID of 9606).
+(4) What are the species names in the "species" table that have a species ID that is not equal to 9606?
+(5) Retrieve the names of all species from the species table, excluding those with a speciesid of 9606.
+(6) Get the names of all species from the "species" table except for those with a species ID of 9606.
+(7) Find all species names from the database of species except for the one with an ID of 9606.
+
+
+Re-ranked choices:
+2.848  Retrieve the names of all species from the species table, excluding those with a speciesid of 9606.
+1.468  Find all species names from the database of species except for the one with an ID of 9606.
+1.462  What are the names of all species in the table "species" except for those with an ID of 9606?
+1.462  Which species are not the human species according to the table named "species"?
+1.462  Get the names of all species from the "species" table except for those with a species ID of 9606.
+1.458  What are the species names in the "species" table that have a species ID that is not equal to 9606?
+1.450  Retrieve the name of all species from the table "species" except for humans (with a species ID of 9606).
+1.444  "Retrieve the names of all species in the 'species' table except for human (with a species ID not equal to 9606)."
+

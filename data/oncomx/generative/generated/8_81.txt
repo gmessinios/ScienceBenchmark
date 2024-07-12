@@ -1,0 +1,16 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.doid != 363
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1 WHERE T1.doid != 363
+GPT-3 choices:
+(0) What are the uberon anatomical IDs for all cancer tissues that do not have a Disease Ontology ID of 363?
+(1) What are the uberon anatomical IDs of cancer tissues that are not related to DOD 363?
+(2) Retrieve the uberon anatomical ID from the cancer_tissue table for all entries except those with a doid of 363.
+(3) "Retrieve the Uberon anatomical ID from the cancer_tissue table for all entries where the DOID is not equal to 363."
+(4) Get the uberon anatomical ID from the cancer tissue table for all rows where the disease ontology ID is not equal to 363.
+(5) Find the Uberon anatomical ID for cancer tissues that are not associated with DOID 363.
+(6) Retrieve the Uberon anatomical ID from the cancer tissue table for all entries where the Disease Ontology (DOID) code is not equal to 363.
+(7) Get the anatomical ID from cancer tissues where the disease is not 363.

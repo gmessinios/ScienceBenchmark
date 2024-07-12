@@ -1,0 +1,28 @@
+SELECT countries.country_code2 FROM countries AS countries WHERE countries.unics_id = 9
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 WHERE T1.unics_id = 9
+GPT-3 choices:
+(0) Get the country code2 from the countries table where the unique identifier is equal to 9.
+(1) Retrieve the two-letter country code from the countries table for the country with a unique ID of 9.
+(2) Get the two-letter country code for the country with a unique ID of 9 from the table "countries."
+(3) Get the country code2 from the countries table where the unique identifier is 9.
+(4) Retrieve the country code2 from the table countries where the unique identifier is 9.
+(5) What is the two-letter country code for the country with a unique identifier of 9 in the "countries" table?
+(6) What is the 2-letter country code for the country with a unique ID of 9 in the countries table?
+(7) Retrieve the country code 2 from the countries table where the unique ID is 9.
+
+
+Re-ranked choices:
+4.254  Retrieve the country code 2 from the countries table where the unique ID is 9.
+4.247  Get the country code2 from the countries table where the unique identifier is 9.
+4.242  Get the country code2 from the countries table where the unique identifier is equal to 9.
+4.242  What is the 2-letter country code for the country with a unique ID of 9 in the countries table?
+4.239  Retrieve the country code2 from the table countries where the unique identifier is 9.
+4.237  Retrieve the two-letter country code from the countries table for the country with a unique ID of 9.
+2.844  Get the two-letter country code for the country with a unique ID of 9 from the table "countries."
+2.832  What is the two-letter country code for the country with a unique identifier of 9 in the "countries" table?
+

@@ -1,0 +1,28 @@
+SELECT Photometric_objects.rowc FROM photoobj AS Photometric_objects WHERE Photometric_objects.field = 112 or Photometric_objects.run = 2780
+
+###
+
+
+Original Query:
+SELECT T1.rowc FROM photoobj AS T1 WHERE T1.field = 112 or T1.run = 2780
+GPT-3 choices:
+(0) Retrieve the rowc value for Photometric objects from the photoobj table where the field is equal to 112 or the run is equal to 2780.
+(1) Find the rowc values from the Photometric_objects table where the field is equal to 112 or the run is equal to 2780.
+(2) Retrieve the rowc values from the photoobj table where either the field is equal to 112 or the run is equal to 2780 and label them as Photometric_objects.
+(3) Find the rowc values from the Photometric_objects table where the field is equal to 112 or the run is equal to 2780 in the photoobj table.
+(4) What are the row coordinates for photometric objects in the photoobj table with a field value of 112 or a run value of 2780?
+(5) Retrieve the rowc value from the Photometric_objects table for all rows where the field is equal to 112 or the run is equal to 2780.
+(6) Retrieve the rowc value from Photometric_objects where the field is equal to 112 or the run is equal to 2780 in the photoobj table.
+(7) Retrieve the rowc column from the photoobj table for objects in the field with a value of 112 or run with a value of 2780.
+
+
+Re-ranked choices:
+5.624  What are the row coordinates for photometric objects in the photoobj table with a field value of 112 or a run value of 2780?
+4.226  Retrieve the rowc value for Photometric objects from the photoobj table where the field is equal to 112 or the run is equal to 2780.
+4.226  Retrieve the rowc column from the photoobj table for objects in the field with a value of 112 or run with a value of 2780.
+3.532  Find the rowc values from the Photometric_objects table where the field is equal to 112 or the run is equal to 2780.
+3.529  Retrieve the rowc value from the Photometric_objects table for all rows where the field is equal to 112 or the run is equal to 2780.
+3.527  Retrieve the rowc value from Photometric_objects where the field is equal to 112 or the run is equal to 2780 in the photoobj table.
+3.525  Find the rowc values from the Photometric_objects table where the field is equal to 112 or the run is equal to 2780 in the photoobj table.
+2.822  Retrieve the rowc values from the photoobj table where either the field is equal to 112 or the run is equal to 2780 and label them as Photometric_objects.
+

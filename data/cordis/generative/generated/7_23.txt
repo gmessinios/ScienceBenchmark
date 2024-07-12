@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.code = "AER" or subject_areas.title = "Research ethics"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.code = "AER" or T1.title = "Research ethics"
+GPT-3 choices:
+(0) Retrieve the description for the subject area with a code of "AER" or a title of "Research ethics" from the table named "subject_areas".
+(1) Retrieve the description from the subject_areas table where the code is equal to "AER" or the title is equal to "Research ethics".
+(2) Retrieve the description from the subject area table where either the code is "AER" or the title is "Research ethics".
+(3) Retrieve the description for the subject area "AER" or "Research ethics".
+(4) Retrieve the description of a subject area with code "AER" or title "Research ethics" from the table "subject_areas".
+(5) Find the description for the subject area with a code of "AER" or title of "Research ethics".
+(6) Get the description from the subject areas table where the code is "AER" or the title is "Research ethics".
+(7) Retrieve the description from the subject areas table where the code is "AER" or the title is "Research ethics".

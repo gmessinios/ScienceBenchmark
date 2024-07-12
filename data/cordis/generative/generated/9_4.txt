@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.start_date != "2018-06-07"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.start_date != "2018-06-07"
+GPT-3 choices:
+(0) Show the descriptions of all subject areas associated with projects that have a start date other than June 7th, 2018.
+(1) Find the descriptions of subject areas for projects that have a start date different from June 7, 2018.
+(2) Find the descriptions of all subject areas that are associated with projects that have a start date other than June 7, 2018.
+(3) What is the description of the subject areas for projects that did not start on June 7, 2018?
+(4) Retrieve the description of all subject areas that are associated with projects that have a start date other than June 7, 2018.
+(5) Show the description of subject areas where the start date of the associated project is not equal to June 7, 2018.
+(6) Retrieve the descriptions of all subject areas for projects that do not have a start date of June 7, 2018.
+(7) "Get the descriptions of subject areas for projects that have a start date other than June 7, 2018."

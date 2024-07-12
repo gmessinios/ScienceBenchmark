@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.pic_number = "894534195"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.pic_number = "894534195"
+GPT-3 choices:
+(0) Get the activity type code from the activity_types table where the project member's pic number is "894534195" and their activity type matches.
+(1) What is the code for the activity type of a project member with a PIC number of "894534195"?
+(2) Retrieve the code of the activity type from the project members table where the PIC number is "894534195" and it matches with the code in the activity types table.
+(3) "Retrieve the code for the activity type from the project members table where the PIC number is "894534195"."
+(4) Retrieve the code of all activity types for a project where the project member's PIC number is "894534195".
+(5) Find the code of activity types from the project members table where the PIC number is "894534195" and join it with the activity types table.
+(6) Retrieve the activity type codes for a project member with a PIC number of "894534195" by joining the activity_types and project_members tables and selecting the code from activity_types where it matches the project member's activity type.
+(7) Find the code for all activity types that match the activity type of a project member with a PIC number of "894534195".

@@ -1,0 +1,16 @@
+SELECT disease.id FROM disease AS disease JOIN cancer_tissue AS cancer_tissue ON disease.id = cancer_tissue.doid WHERE cancer_tissue.uberon_anatomical_id != "UBERON:0007811"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease AS T1 JOIN cancer_tissue AS T2 ON T1.id = T2.doid WHERE T2.uberon_anatomical_id != "UBERON:0007811"
+GPT-3 choices:
+(0) Get the IDs of all diseases that are associated with a cancer tissue except for those related to UBERON:0007811.
+(1) Find the id of all diseases that are related to cancer through the association between disease and cancer_tissue, but exclude those that have an uberon_anatomical_id of "UBERON:0007811".
+(2) Retrieve the id of diseases that are associated with cancer in tissues other than breast tissue.
+(3) Find the IDs of diseases that are associated with a cancer tissue that is not related to the anatomical structure UBERON:0007811.
+(4) Retrieve the id of all diseases that are associated with cancer tissues, except for those related to the anatomical structure "UBERON:0007811".
+(5) What are the IDs of diseases that have a relationship with the cancer tissue DOID and do not have an associated UBERON anatomical ID of UBERON:0007811?
+(6) Retrieve the ID of all diseases that are linked to a cancer tissue, excluding any disease that is associated with the anatomical location UBERON:0007811.
+(7) Retrieve the ID of all diseases from the disease table that are associated with a cancer tissue in the cancer_tissue table, but not specifically associated with the anatomical location "skin".

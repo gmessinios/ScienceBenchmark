@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.dec = -17.3987483737476
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.dec = -17.3987483737476
+GPT-3 choices:
+(0) Find the neighbor mode for the nearest objects in the "neighbors" table that have an object ID matching those in the "photoobj" table and a declination of -17.3987483737476.
+(1) Retrieve the nearest neighbour mode from the neighbors table for objects in the photoobj table where the declination is -17.3987483737476.
+(2) Find the neighbor mode for the nearest neighbor objects from a table called neighbors, which are joined with a table called photoobj using the common column objid, and select only those with a declination value of -17.3987483737476.
+(3) Retrieve the mode of nearest neighbour objects from the neighbors table for all Photometric objects with a declination of -17.3987483737476.
+(4) Find the neighbor mode of objects in the "neighbors" table that have an object ID matching those in the "photoobj" table with a declination value of -17.3987483737476.
+(5) Find the neighbor mode of objects in the neighbors table for photoobj objects with a declination of -17.3987483737476 from the Photometric_objects table.
+(6) Find the nearest neighbour mode for objects in the "neighbors" table with an object ID that matches the "objid" column in the "photoobj" table, where the declination of those objects is -17.3987483737476.
+(7) Find the neighbor mode of the nearest neighbor objects from the photoobj table where the declination is -17.3987483737476.
+
+
+Re-ranked choices:
+9.824  Find the neighbor mode of objects in the "neighbors" table that have an object ID matching those in the "photoobj" table with a declination value of -17.3987483737476.
+9.823  Find the neighbor mode for the nearest objects in the "neighbors" table that have an object ID matching those in the "photoobj" table and a declination of -17.3987483737476.
+9.817  Find the nearest neighbour mode for objects in the "neighbors" table with an object ID that matches the "objid" column in the "photoobj" table, where the declination of those objects is -17.3987483737476.
+8.423  Retrieve the mode of nearest neighbour objects from the neighbors table for all Photometric objects with a declination of -17.3987483737476.
+7.735  Find the neighbor mode of objects in the neighbors table for photoobj objects with a declination of -17.3987483737476 from the Photometric_objects table.
+7.030  Find the neighbor mode of the nearest neighbor objects from the photoobj table where the declination is -17.3987483737476.
+7.016  Find the neighbor mode for the nearest neighbor objects from a table called neighbors, which are joined with a table called photoobj using the common column objid, and select only those with a declination value of -17.3987483737476.
+5.623  Retrieve the nearest neighbour mode from the neighbors table for objects in the photoobj table where the declination is -17.3987483737476.
+

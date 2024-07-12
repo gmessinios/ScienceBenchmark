@@ -1,0 +1,28 @@
+SELECT institutions.db_pedia_url FROM institutions AS institutions WHERE institutions.grid_id = "grid.411455.0"
+
+###
+
+
+Original Query:
+SELECT T1.db_pedia_url FROM institutions AS T1 WHERE T1.grid_id = "grid.411455.0"
+GPT-3 choices:
+(0) What is the DBPedia URL for the institution with a GRID ID of "grid.411455.0"?
+(1) Get the DBPedia URL for the institution with a grid ID of "grid.411455.0".
+(2) Retrieve the DBPedia URL of the institution with the Grid ID "grid.411455.0" from the institutions database.
+(3) Find the DBpedia URL for the institution with the GRID ID "grid.411455.0".
+(4) What is the DBpedia URL of the institution with a Grid ID of "grid.411455.0"?
+(5) Find the DBpedia URL of an institution where its grid ID is "grid.411455.0".
+(6) Get the DBPedia URL for an institution from the "institutions" database where the grid ID is equal to "grid.411455.0".
+(7) Retrieve the DBpedia URL from the institutions table where the grid ID is equal to "grid.411455.0".
+
+
+Re-ranked choices:
+5.637  Retrieve the DBpedia URL from the institutions table where the grid ID is equal to "grid.411455.0".
+5.636  Retrieve the DBPedia URL of the institution with the Grid ID "grid.411455.0" from the institutions database.
+5.629  Get the DBPedia URL for an institution from the "institutions" database where the grid ID is equal to "grid.411455.0".
+4.245  Find the DBpedia URL for the institution with the GRID ID "grid.411455.0".
+4.243  Get the DBPedia URL for the institution with a grid ID of "grid.411455.0".
+4.243  Find the DBpedia URL of an institution where its grid ID is "grid.411455.0".
+4.241  What is the DBPedia URL for the institution with a GRID ID of "grid.411455.0"?
+4.241  What is the DBpedia URL of the institution with a Grid ID of "grid.411455.0"?
+

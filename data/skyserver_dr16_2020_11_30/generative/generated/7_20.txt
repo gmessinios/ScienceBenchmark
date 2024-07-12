@@ -1,0 +1,16 @@
+SELECT Photometric_objects.cmodelmag_r FROM photoobj AS Photometric_objects WHERE Photometric_objects.i = 12.02158 or Photometric_objects.objid = 1237645943979638914
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_r FROM photoobj AS T1 WHERE T1.i = 12.02158 or T1.objid = 1237645943979638914
+GPT-3 choices:
+(0) Get the cmodel magnitude in the r-band from the photoobj table for objects with an i-band magnitude of 12.02158 or an objid of 1237645943979638914.
+(1) Retrieve the cmodelmag_r value from the photoobj table for all objects where i is equal to 12.02158 or objid is equal to 1237645943979638914.
+(2) Retrieve the cmodelmag_r value for objects with an i value of 12.02158 or an objid of 1237645943979638914 from the photoobj table, identified as Photometric_objects.
+(3) Find the cmodel magnitude in the r band for all objects with an index of 12.02158 or an objid of 1237645943979638914 from the photoobj table, using the alias Photometric_objects.
+(4) Retrieve the cmodelmag_r value from the Photometric_objects table in the photoobj database for objects with an i value of 12.02158 or an objid of 1237645943979638914.
+(5) Retrieve the r-band cmodel magnitude for objects with an i-band magnitude of 12.02158 or an objid of 1237645943979638914 from the photoobj table as Photometric_objects.
+(6) Retrieve the cmodelmag_r value from the photoobj table for objects with an i value of 12.02158 or an objid of 1237645943979638914.
+(7) Retrieve the r-band cmodel magnitude from the photoobj table for objects with an i-band value of 12.02158 or an objid value of 1237645943979638914.

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.approved_indication FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.id = 93 and biomarker_fda_test_use.test_trade_name = "VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY"
+
+###
+
+
+Original Query:
+SELECT T1.approved_indication FROM biomarker_fda_test_use AS T1 WHERE T1.id = 93 and T1.test_trade_name = "VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY"
+GPT-3 choices:
+(0) What is the approved indication for VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in biomarker_fda_test_use where the id is 93?
+(1) What is the approved indication for the primary antibody VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL?
+(2) What is the approved indication for the VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in the biomarker FDA test use database?
+(3) What is the approved indication for the VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in biomarker FDA test use number 93?
+(4) What is the approved indication for the test trade name "VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY" in the biomarker_fda_test_use table with an id of 93?
+(5) What is the approved indication for the VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in biomarker_fda_test_use with an id of 93?
+(6) What is the approved indication for the test trade name "VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY" in the biomarker FDA test use database with ID 93?
+(7) What is the approved indication for VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY as listed in the biomarker_fda_test_use database with an ID of 93?
+
+
+Re-ranked choices:
+16.820  What is the approved indication for the test trade name "VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY" in the biomarker FDA test use database with ID 93?
+12.622  What is the approved indication for the VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in the biomarker FDA test use database?
+12.622  What is the approved indication for the VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in biomarker FDA test use number 93?
+12.618  What is the approved indication for the test trade name "VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY" in the biomarker_fda_test_use table with an id of 93?
+8.419  What is the approved indication for the VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in biomarker_fda_test_use with an id of 93?
+8.419  What is the approved indication for VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY as listed in the biomarker_fda_test_use database with an ID of 93?
+8.418  What is the approved indication for VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL PRIMARY ANTIBODY in biomarker_fda_test_use where the id is 93?
+6.323  What is the approved indication for the primary antibody VENTANA ANTI-MSH2 (G219-1129) MOUSE MONOCLONAL?
+

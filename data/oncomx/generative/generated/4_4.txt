@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_fda_id = "FDA000041"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_fda_id = "FDA000041"
+GPT-3 choices:
+(0) How many records are there in the biomarker_fda_drug table that have a matching biomarker_fda_id value of "FDA000041"?
+(1) How many rows are in the table "biomarker_fda_drug" where the column "biomarker_fda_id" is equal to "FDA000041"?
+(2) How many biomarker-FDA-drug entries have a biomarker-FDA ID of "FDA000041"?
+(3) How many entries are there in the "biomarker_fda_drug" table where the biomarker_fda_id is equal to "FDA000041"?
+(4) How many biomarker-FDA-drug combinations have the biomarker-FDA ID "FDA000041"?
+(5) How many records are there in the biomarker_fda_drug table with a biomarker_fda_id of "FDA000041"?
+(6) How many biomarkers are associated with the FDA drug with the ID "FDA000041"?
+(7) How many records are in the biomarker_fda_drug table that have a biomarker_fda_id of "FDA000041"?

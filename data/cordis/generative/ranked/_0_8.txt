@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.description = "Interdisciplinary"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 WHERE T1.description = "Interdisciplinary"
+GPT-3 choices:
+(0) Retrieve the code for all research domains from the "erc_research_domains" table where the description is "Interdisciplinary".
+(1) Retrieve the code from the ERC research domains table where the description is "Interdisciplinary".
+(2) What are the codes for research domains that have a description of "Interdisciplinary"?
+(3) Retrieve the code from the ERC Research Domains table where the description is "Interdisciplinary".
+(4) Retrieve the code for all research domains from the "erc_research_domains" table where the description is equal to "Interdisciplinary".
+(5) What is the code for the research domain "Interdisciplinary" in the table erc_research_domains?
+(6) What is the code for the research domain "Interdisciplinary" in the table "erc_research_domains"?
+(7) Find the code for all research domains that are described as "Interdisciplinary" in the table erc_research_domains.
+
+
+Re-ranked choices:
+7.727  Retrieve the code from the ERC research domains table where the description is "Interdisciplinary".
+7.727  Retrieve the code from the ERC Research Domains table where the description is "Interdisciplinary".
+6.322  Retrieve the code for all research domains from the "erc_research_domains" table where the description is equal to "Interdisciplinary".
+6.321  Retrieve the code for all research domains from the "erc_research_domains" table where the description is "Interdisciplinary".
+4.932  What are the codes for research domains that have a description of "Interdisciplinary"?
+4.923  Find the code for all research domains that are described as "Interdisciplinary" in the table erc_research_domains.
+3.523  What is the code for the research domain "Interdisciplinary" in the table erc_research_domains?
+3.523  What is the code for the research domain "Interdisciplinary" in the table "erc_research_domains"?
+

@@ -1,0 +1,28 @@
+SELECT disease_mutation.aa_pos_uniprotkb FROM disease_mutation AS disease_mutation WHERE disease_mutation.ref_aa != "W"
+
+###
+
+
+Original Query:
+SELECT T1.aa_pos_uniprotkb FROM disease_mutation AS T1 WHERE T1.ref_aa != "W"
+GPT-3 choices:
+(0) What is the amino acid position in UniprotKB for disease mutations where the reference amino acid is not "W"?
+(1) Get the amino acid position in the UniProtKB for disease mutations where the reference amino acid is not "W".
+(2) Retrieve the amino acid position from disease mutations where the reference amino acid is not "W".
+(3) What are the amino acid positions in UniProtKB for disease mutations where the reference amino acid is not "W"?
+(4) Retrieve the amino acid position in UniProtKB for disease mutations where the reference amino acid is not "W".
+(5) Find all the amino acid positions in the disease_mutation table where the reference amino acid is not "W".
+(6) What is the amino acid position in UniProtKB for disease mutations that do not have a reference amino acid of "W"?
+(7) Retrieve the amino acid position from the disease mutation table where the reference amino acid is not "W".
+
+
+Re-ranked choices:
+3.533  Retrieve the amino acid position from the disease mutation table where the reference amino acid is not "W".
+3.532  What is the amino acid position in UniprotKB for disease mutations where the reference amino acid is not "W"?
+3.532  Get the amino acid position in the UniProtKB for disease mutations where the reference amino acid is not "W".
+3.532  What are the amino acid positions in UniProtKB for disease mutations where the reference amino acid is not "W"?
+3.530  Retrieve the amino acid position in UniProtKB for disease mutations where the reference amino acid is not "W".
+3.530  What is the amino acid position in UniProtKB for disease mutations that do not have a reference amino acid of "W"?
+2.136  Retrieve the amino acid position from disease mutations where the reference amino acid is not "W".
+0.733  Find all the amino acid positions in the disease_mutation table where the reference amino acid is not "W".
+

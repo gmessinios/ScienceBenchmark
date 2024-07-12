@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.title = "Improving the performance of Space surveillance and tracking (SST) at European level"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.title = "Improving the performance of Space surveillance and tracking (SST) at European level"
+GPT-3 choices:
+(0) Retrieve the research council number for the topic "Improving the performance of Space surveillance and tracking (SST) at European level".
+(1) Find the RCN of the topic "Improving the performance of Space surveillance and tracking (SST) at European level".
+(2) What is the RCN of the topic "Improving the performance of Space surveillance and tracking (SST) at European level"?
+(3) What is the RCN (reference control number) of the topic "Improving the performance of Space surveillance and tracking (SST) at European level"?
+(4) Find the research topic RCN number for "Improving the performance of Space surveillance and tracking (SST) at European level".
+(5) What is the RCN number of the topic "Improving the performance of Space surveillance and tracking (SST) at European level"?
+(6) What is the Research Council Number for the topic "Improving the performance of Space surveillance and tracking (SST) at European level"?
+(7) What is the RCN number for the topic "Improving the performance of Space surveillance and tracking (SST) at European level"?

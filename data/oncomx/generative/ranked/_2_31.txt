@@ -1,0 +1,28 @@
+SELECT disease_mutation_impact_prediction.id, count(*) FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction  GROUP BY disease_mutation_impact_prediction.id
+
+###
+
+
+Original Query:
+SELECT T1.id, count(*) FROM disease_mutation_impact_prediction AS T1  GROUP BY T1.id
+GPT-3 choices:
+(0) How many times does each unique ID appear in the disease_mutation_impact_prediction table?
+(1) How many rows are there for each unique value in the 'id' column of the disease_mutation_impact_prediction table?
+(2) What is the count of each unique id in the table disease_mutation_impact_prediction?
+(3) Find the number of occurrences for each id in the disease_mutation_impact_prediction table.
+(4) Find the number of occurrences for each unique ID in the disease_mutation_impact_prediction table.
+(5) How many rows are in the table disease_mutation_impact_prediction and what is the count for each unique value of the column id?
+(6) Count the number of occurrences for each ID in the disease_mutation_impact_prediction table.
+(7) How many records are in the table "disease_mutation_impact_prediction" and what is the count for each unique ID?
+
+
+Re-ranked choices:
+1.430  How many rows are there for each unique value in the 'id' column of the disease_mutation_impact_prediction table?
+1.429  What is the count of each unique id in the table disease_mutation_impact_prediction?
+1.429  How many times does each unique ID appear in the disease_mutation_impact_prediction table?
+1.428  Find the number of occurrences for each unique ID in the disease_mutation_impact_prediction table.
+1.426  Count the number of occurrences for each ID in the disease_mutation_impact_prediction table.
+1.424  Find the number of occurrences for each id in the disease_mutation_impact_prediction table.
+0.034  How many records are in the table "disease_mutation_impact_prediction" and what is the count for each unique ID?
+0.024  How many rows are in the table disease_mutation_impact_prediction and what is the count for each unique value of the column id?
+

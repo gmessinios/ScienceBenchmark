@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_trial_id FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name = "GeneSearch Breast Lymph Node (BLN) Test Kit" and biomarker_fda_test_trial.test_submission = "K062730"
+
+###
+
+
+Original Query:
+SELECT T1.test_trial_id FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name = "GeneSearch Breast Lymph Node (BLN) Test Kit" and T1.test_submission = "K062730"
+GPT-3 choices:
+(0) Find the test trial ID from the biomarker FDA test trials where the test trade name is "GeneSearch Breast Lymph Node (BLN) Test Kit" and the test submission is "K062730".
+(1) Get the test trial ID from the FDA biomarker test trials where the test trade name is "GeneSearch Breast Lymph Node (BLN) Test Kit" and the test submission is "K062730".
+(2) Find the test trial ID for the biomarker FDA test trial with a trade name of "GeneSearch Breast Lymph Node (BLN) Test Kit" and a submission of "K062730".
+(3) What is the test trial ID for the GeneSearch Breast Lymph Node (BLN) Test Kit that has a test submission of "K062730"?
+(4) Find the test trial ID from the Biomarker FDA Test Trial table where the test trade name is "GeneSearch Breast Lymph Node (BLN) Test Kit" and the test submission is "K062730".
+(5) Get the test trial ID from the biomarker FDA test trial table where the test trade name is "GeneSearch Breast Lymph Node (BLN) Test Kit" and the test submission is "K062730".
+(6) What is the test trial ID for the GeneSearch Breast Lymph Node (BLN) Test Kit with a submission of K062730?
+(7) Retrieve the test trial ID from the biomarker FDA test trial table for the test trade name "GeneSearch Breast Lymph Node (BLN) Test Kit" and test submission number "K062730".

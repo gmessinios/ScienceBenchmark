@@ -1,0 +1,27 @@
+SELECT count(*) FROM healthy_expression AS healthy_expression WHERE healthy_expression.ensembl_gene_id = "ENSG00000010810"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM healthy_expression AS T1 WHERE T1.ensembl_gene_id = "ENSG00000010810"
+GPT-3 choices:
+(0) "How many rows are there in the table 'healthy_expression' where the value in the column 'ensembl_gene_id' is equal to "ENSG00000010810"?"
+(1) How many rows are in the "healthy_expression" table where the "ensembl_gene_id" column is equal to "ENSG00000010810"?
+(2) How many rows are in the table "healthy_expression" where the column "ensembl_gene_id" is equal to "ENSG00000010810"?
+(3) How many entries are there in the healthy_expression table where the ensembl_gene_id is "ENSG00000010810"?
+(4) How many rows are there in the "healthy_expression" table where the ensembl_gene_id is "ENSG00000010810"?
+(5) How many rows are there in the healthy_expression table where the ensembl_gene_id is "ENSG00000010810"?
+(6) How many rows are in the healthy_expression table where the ensembl_gene_id is "ENSG00000010810"?
+(7) How many rows are in the "healthy_expression" table where the "ensembl_gene_id" column is equal to "ENSG00000010810"?
+
+
+Re-ranked choices:
+0.731  How many rows are there in the "healthy_expression" table where the ensembl_gene_id is "ENSG00000010810"?
+0.731  How many rows are there in the healthy_expression table where the ensembl_gene_id is "ENSG00000010810"?
+0.729  How many rows are in the "healthy_expression" table where the "ensembl_gene_id" column is equal to "ENSG00000010810"?
+0.729  How many rows are in the table "healthy_expression" where the column "ensembl_gene_id" is equal to "ENSG00000010810"?
+0.729  How many rows are in the healthy_expression table where the ensembl_gene_id is "ENSG00000010810"?
+0.728  How many entries are there in the healthy_expression table where the ensembl_gene_id is "ENSG00000010810"?
+0.723  "How many rows are there in the table 'healthy_expression' where the value in the column 'ensembl_gene_id' is equal to "ENSG00000010810"?"
+

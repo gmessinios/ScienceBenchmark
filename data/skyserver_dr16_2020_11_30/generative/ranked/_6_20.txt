@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.veldisp FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.special_target1 = 10737418240 and Spectroscopic_objects.segue2_target1 = -2147483644
+
+###
+
+
+Original Query:
+SELECT T1.veldisp FROM specobj AS T1 WHERE T1.special_target1 = 10737418240 and T1.segue2_target1 = -2147483644
+GPT-3 choices:
+(0) What is the velocity dispersion of spectroscopic objects with a special target of 10737418240 and a segue2 target of -2147483644?
+(1) Retrieve the velocity dispersion value for spectroscopic objects that have a special target1 of 10737418240 and a segue2 target1 of -2147483644 from the specobj table.
+(2) Get the velocity dispersion of spectroscopic objects with a special target ID of 10737418240 and a SEGUE2 target ID of -2147483644.
+(3) Retrieve the velocity dispersion values from the specobj table for objects that have a special_target1 value of 10737418240 and a segue2_target1 value of -2147483644.
+(4) Retrieve the velocity dispersion value from the "specobj" table for objects that have a special target of 10737418240 and a segue2 target of -2147483644, and label these objects as "Spectroscopic_objects".
+(5) Retrieve the velocity dispersion for spectroscopic objects with a special target of 10737418240 and a SEGUE2 target of -2147483644 from the "specobj" table.
+(6) Get the velocity dispersion from objects in the specobj table where their special_target1 value is 10737418240 and segue2_target1 value is -2147483644.
+(7) Retrieve the velocity dispersion values for objects in the Spectroscopic_objects table that have a special_target1 value of 10737418240 and a segue2_target1 value of -2147483644.
+
+
+Re-ranked choices:
+7.719  Retrieve the velocity dispersion value from the "specobj" table for objects that have a special target of 10737418240 and a segue2 target of -2147483644, and label these objects as "Spectroscopic_objects".
+7.027  What is the velocity dispersion of spectroscopic objects with a special target of 10737418240 and a segue2 target of -2147483644?
+7.026  Get the velocity dispersion of spectroscopic objects with a special target ID of 10737418240 and a SEGUE2 target ID of -2147483644.
+7.023  Retrieve the velocity dispersion for spectroscopic objects with a special target of 10737418240 and a SEGUE2 target of -2147483644 from the "specobj" table.
+7.021  Retrieve the velocity dispersion value for spectroscopic objects that have a special target1 of 10737418240 and a segue2 target1 of -2147483644 from the specobj table.
+4.920  Retrieve the velocity dispersion values for objects in the Spectroscopic_objects table that have a special_target1 value of 10737418240 and a segue2_target1 value of -2147483644.
+4.222  Get the velocity dispersion from objects in the specobj table where their special_target1 value is 10737418240 and segue2_target1 value is -2147483644.
+4.220  Retrieve the velocity dispersion values from the specobj table for objects that have a special_target1 value of 10737418240 and a segue2_target1 value of -2147483644.
+

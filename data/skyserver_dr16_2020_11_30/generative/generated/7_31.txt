@@ -1,0 +1,16 @@
+SELECT Photometric_objects.type FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_g = 13.55233 or Photometric_objects.u = 14.67711
+
+###
+
+
+Original Query:
+SELECT T1.type FROM photoobj AS T1 WHERE T1.cmodelmag_g = 13.55233 or T1.u = 14.67711
+GPT-3 choices:
+(0) Find the type of objects with a cmodelmag_g value of 13.55233 or a u value of 14.67711 in the photoobj table as Photometric_objects.
+(1) Find the type of objects with a cmodelmag_g value of 13.55233 or a u value of 14.67711 in the photoobj table.
+(2) Retrieve the type of objects from the table "photoobj" where the cmodel magnitude in the g-band is 13.55233 or the magnitude in the u-band is 14.67711 for those objects.
+(3) Retrieve the type of objects from the photoobj table where either the cmodelmag_g column is equal to 13.55233 or the u column is equal to 14.67711.
+(4) Retrieve the type of photometric objects where either their g band cmodel magnitude is equal to 13.55233 or their u band magnitude is equal to 14.67711 from the photoobj table.
+(5) Retrieve the type of photometric objects with a cmodelmag_g value of 13.55233 or a u value of 14.67711 from the photoobj table.
+(6) Retrieve the type of Photometric objects where the cmodelmag_g is equal to 13.55233 or u is equal to 14.67711.
+(7) Retrieve the type of photometric objects where the cmodelmag_g value is equal to 13.55233 or the u value is equal to 14.67711 from the photoobj table.

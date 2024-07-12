@@ -1,0 +1,16 @@
+SELECT programmes.code FROM programmes AS programmes WHERE programmes.short_name = "Security" and programmes.rcn = "16803"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM programmes AS T1 WHERE T1.short_name = "Security" and T1.rcn = "16803"
+GPT-3 choices:
+(0) Retrieve the code for the programme "Security" with RCN number 16803 from the table of programmes.
+(1) Find the code of the programme with a short name of "Security" and an RCN of "16803".
+(2) Get the code for the programme with a short name of "Security" and an RCN of "16803" from the programmes table.
+(3) Retrieve the code for the programme with a short name of "Security" and a RCN of "16803".
+(4) Find the code of the programme with a short name of "Security" and an RCN of "16803".
+(5) Find the code for the Security programme with a short name of "Security" and an RCN number of "16803".
+(6) Retrieve the code for the "Security" programme with RCN number 16803 from the "programmes" table.
+(7) What is the programme code for the "Security" programme with RCN number 16803?

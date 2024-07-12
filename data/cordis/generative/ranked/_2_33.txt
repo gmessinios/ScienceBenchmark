@@ -1,0 +1,27 @@
+SELECT institutions.country_id, count(*) FROM institutions AS institutions  GROUP BY institutions.country_id
+
+###
+
+
+Original Query:
+SELECT T1.country_id, count(*) FROM institutions AS T1  GROUP BY T1.country_id
+GPT-3 choices:
+(0) Count the number of institutions for each country and group them by their respective country ID.
+(1) How many institutions are there in each country?
+(2) "Count the number of institutions in each country and group the results by country."
+(3) Count the number of institutions grouped by country and display the country ID along with the count.
+(4) Count the number of institutions for each country and group them by their respective country IDs.
+(5) Find the number of institutions in each country and group them by their country ID.
+(6) How many institutions are there in each country?
+(7) Count the number of institutions for each country and group them by their respective country.
+
+
+Re-ranked choices:
+4.939  Count the number of institutions grouped by country and display the country ID along with the count.
+3.544  Find the number of institutions in each country and group them by their country ID.
+3.539  "Count the number of institutions in each country and group the results by country."
+3.538  Count the number of institutions for each country and group them by their respective country.
+3.536  Count the number of institutions for each country and group them by their respective country ID.
+3.536  Count the number of institutions for each country and group them by their respective country IDs.
+1.458  How many institutions are there in each country?
+

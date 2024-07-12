@@ -1,0 +1,16 @@
+SELECT biomarker_alias.biomarker_internal_id FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.alias = "14"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id FROM biomarker_alias AS T1 WHERE T1.alias = "14"
+GPT-3 choices:
+(0) Retrieve the biomarker internal ID from the biomarker alias table where the alias is equal to "14".
+(1) What is the internal ID of the biomarker with an alias of "14"?
+(2) Retrieve the internal ID of a biomarker from the biomarker_alias table where the alias is equal to "14".
+(3) What is the internal ID of the biomarker with the alias "14"?
+(4) Get the biomarker internal ID from the table of biomarker aliases where the alias is "14".
+(5) What is the internal ID of the biomarker with an alias of "14"?
+(6) "Retrieve the internal ID of the biomarker with an alias of "14" from the table biomarker_alias."
+(7) Get the biomarker internal ID from the table biomarker_alias where the alias is equal to "14".

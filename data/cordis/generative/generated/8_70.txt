@@ -1,0 +1,16 @@
+SELECT institutions.short_name FROM institutions AS institutions WHERE institutions.country_id != 245
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM institutions AS T1 WHERE T1.country_id != 245
+GPT-3 choices:
+(0) Retrieve the short names of all institutions from countries other than Iceland.
+(1) "Retrieve the short names of institutions that are not located in Japan."
+(2) Retrieve the short names of institutions that are not located in Spain.
+(3) Retrieve the short names of institutions from all countries except for country with ID 245.
+(4) Find the short names of institutions that are located in countries other than the United States.
+(5) Find the short names of all institutions that are not located in the country with ID 245.
+(6) Find the short names of institutions that are not located in Italy.
+(7) "Retrieve the short names of institutions that are located in countries other than the United States."

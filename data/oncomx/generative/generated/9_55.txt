@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl JOIN species AS species ON xref_gene_ensembl.speciesid = species.speciesid WHERE species.speciescommonname != "mouse"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 JOIN species AS T2 ON T1.speciesid = T2.speciesid WHERE T2.speciescommonname != "mouse"
+GPT-3 choices:
+(0) Retrieve the speciesid from the xref_gene_ensembl table where the speciescommonname in the species table is not equal to "mouse".
+(1) Retrieve the species ID from the xref_gene_ensembl table for all entries where the corresponding speciescommonname in the species table is not equal to "mouse".
+(2) Find the species ID from the xref_gene_ensembl table where the corresponding species common name is not "mouse".
+(3) Retrieve the species IDs from the table xref_gene_ensembl, which is joined with the table species on the condition that the species ID in xref_gene_ensembl matches with the one in species, where the common name of the species in species is not "mouse".
+(4) Find the speciesid from the table xref_gene_ensembl and join it with the species table, where the speciescommonname is not "mouse".
+(5) Find the species ID from the xref_gene_ensembl table where the corresponding speciescommonname in the species table is not "mouse".
+(6) What is the species ID for all species in the xref_gene_ensembl table, excluding those with a common name of "mouse"?
+(7) Retrieve the species ID from the xref_gene_ensembl table where the species common name is not "mouse" and is joined with the species table.

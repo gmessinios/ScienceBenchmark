@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_canonical_ac = "A4D161-1"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_canonical_ac = "A4D161-1"
+GPT-3 choices:
+(0) Get the Uniprot canonical accession ID from the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is equal to "A4D161-1".
+(1) Get the Uniprot canonical ID from the table "map_uniprot_canonical_id" where the Uniprot canonical AC is equal to "A4D161-1".
+(2) Retrieve the UniProtKB accession number for the canonical UniProtKB ID associated with the "A4D161-1" entry.
+(3) What is the Uniprot canonical ID for the given Uniprot canonical AC "A4D161-1"?
+(4) What is the UniprotKB Accession number associated with the canonical protein sequence A4D161-1?
+(5) What is the Uniprot canonical ID for the entry "A4D161-1" in the map_uniprot_canonical_id table?
+(6) Retrieve the UniProtKB accession number associated with the UniProt canonical ID "A4D161-1" from the table "map_uniprot_canonical_id".
+(7) What is the uniprotkb_ac for the canonical ac A4D161-1 in the table map_uniprot_canonical_id?
+
+
+Re-ranked choices:
+6.337  What is the Uniprot canonical ID for the given Uniprot canonical AC "A4D161-1"?
+6.323  Get the Uniprot canonical ID from the table "map_uniprot_canonical_id" where the Uniprot canonical AC is equal to "A4D161-1".
+6.317  Retrieve the UniProtKB accession number associated with the UniProt canonical ID "A4D161-1" from the table "map_uniprot_canonical_id".
+4.928  What is the Uniprot canonical ID for the entry "A4D161-1" in the map_uniprot_canonical_id table?
+4.920  Retrieve the UniProtKB accession number for the canonical UniProtKB ID associated with the "A4D161-1" entry.
+4.918  Get the Uniprot canonical accession ID from the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is equal to "A4D161-1".
+3.524  What is the uniprotkb_ac for the canonical ac A4D161-1 in the table map_uniprot_canonical_id?
+2.823  What is the UniprotKB Accession number associated with the canonical protein sequence A4D161-1?
+

@@ -1,0 +1,28 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description = "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography."
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description = "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography."
+GPT-3 choices:
+(0) Find the code for subject areas related to geology, mineralogy, geography, geophysics, geo-chemistry, soil science, and cartography.
+(1) Retrieve the code for subject areas that have a description of "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography".
+(2) Retrieve the code of subject areas where the description is "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography".
+(3) Retrieve the subject area code for "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography".
+(4) "Retrieve the subject area code for Geology, Mineralogy, Geography, Geophysics, Geo-chemistry, Soil Science, and Cartography."
+(5) Retrieve the code for subject areas that have a description of "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography" from the subject_areas table.
+(6) "Retrieve the code of subject areas where the description is 'Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography' from the table subject_areas."
+(7) Find the subject area code for "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography.".
+
+
+Re-ranked choices:
+11.216  Retrieve the code of subject areas where the description is "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography".
+11.216  Retrieve the code for subject areas that have a description of "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography".
+11.216  Retrieve the code for subject areas that have a description of "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography" from the subject_areas table.
+11.215  "Retrieve the code of subject areas where the description is 'Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography' from the table subject_areas."
+8.416  Retrieve the subject area code for "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography".
+7.717  Find the subject area code for "Geology; mineralogy; geography; geophysics; geo-chemistry; soil science; cartography.".
+4.917  Find the code for subject areas related to geology, mineralogy, geography, geophysics, geo-chemistry, soil science, and cartography.
+3.517  "Retrieve the subject area code for Geology, Mineralogy, Geography, Geophysics, Geo-chemistry, Soil Science, and Cartography."
+

@@ -1,0 +1,16 @@
+SELECT species.speciesid FROM species AS species WHERE species.genus = "Homo" or species.species = "sapiens"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM species AS T1 WHERE T1.genus = "Homo" or T1.species = "sapiens"
+GPT-3 choices:
+(0) Retrieve the species ID of any species in the "Homo" genus or with the species name "sapiens" from the "species" table.
+(1) Retrieve the species ID for any species in the genus "Homo" or with the name "sapiens".
+(2) Find the speciesid of all species in the "Homo" genus or with the species name "sapiens".
+(3) Find the species ID for any species belonging to the genus "Homo" or having the species name "sapiens".
+(4) "Retrieve the speciesid of any species in the genus Homo or with the name sapiens."
+(5) What are the species IDs for all species that belong to the genus "Homo" or have the name "sapiens"?
+(6) Retrieve the speciesid of all species from the table "species" where either the genus is "Homo" or the species is "sapiens".
+(7) "Find the speciesid from the species table where the genus is "Homo" or the species is "sapiens"."

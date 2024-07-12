@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.ec_call = "H2020-MSCA-RISE-2020"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.ec_call = "H2020-MSCA-RISE-2020"
+GPT-3 choices:
+(0) Find the name of the framework program from ec_framework_programs that is listed as a framework program in projects where the ec_call is "H2020-MSCA-RISE-2020".
+(1) What are the names of the framework programs that are associated with projects in the H2020-MSCA-RISE-2020 call?
+(2) Find the names of all framework programs that have been used in projects with a European Commission call of "H2020-MSCA-RISE-2020".
+(3) What are the names of the European Commission framework programs that have been used as the framework program for projects funded by the H2020-MSCA-RISE-2020 call?
+(4) Retrieve the framework program names from the EC framework programs table for all projects where the European Commission call is "H2020-MSCA-RISE-2020".
+(5) Find the name of the framework program from ec_framework_programs that is associated with projects where the EC call is "H2020-MSCA-RISE-2020".
+(6) What are the names of the framework programs for projects funded under the European Commission's Horizon 2020 Marie Skłodowska-Curie Research and Innovation Staff Exchange call?
+(7) Retrieve the names of all European Commission framework programs that have been used as a framework program for projects in H2020-MSCA-RISE-2020.
+
+
+Re-ranked choices:
+9.129  Retrieve the framework program names from the EC framework programs table for all projects where the European Commission call is "H2020-MSCA-RISE-2020".
+9.128  Find the name of the framework program from ec_framework_programs that is associated with projects where the EC call is "H2020-MSCA-RISE-2020".
+6.334  Find the names of all framework programs that have been used in projects with a European Commission call of "H2020-MSCA-RISE-2020".
+6.328  What are the names of the European Commission framework programs that have been used as the framework program for projects funded by the H2020-MSCA-RISE-2020 call?
+6.325  Find the name of the framework program from ec_framework_programs that is listed as a framework program in projects where the ec_call is "H2020-MSCA-RISE-2020".
+5.629  Retrieve the names of all European Commission framework programs that have been used as a framework program for projects in H2020-MSCA-RISE-2020.
+4.939  What are the names of the framework programs that are associated with projects in the H2020-MSCA-RISE-2020 call?
+4.223  What are the names of the framework programs for projects funded under the European Commission's Horizon 2020 Marie Skłodowska-Curie Research and Innovation Staff Exchange call?
+

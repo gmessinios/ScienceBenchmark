@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.nuts_version = "2016" and eu_territorial_units.description = "Jug"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.nuts_version = "2016" and T1.description = "Jug"
+GPT-3 choices:
+(0) Get the geocode level for all EU territorial units that have a NUTS version of 2016 and a description of "Jug".
+(1) What is the geocode level for the "Jug" region in the 2016 NUTS version?
+(2) "Retrieve the geocode level from the 2016 version of EU territorial units where the description is 'Jug'."
+(3) What is the geocode level for the 2016 version of NUTS in EU territorial units that have a description of "Jug"?
+(4) What is the geocode level for "Jug" in the European Union territorial units with a NUTS version of 2016?
+(5) What is the geocode level for the territorial unit with a NUTS version of 2016 and a description of "Jug"?
+(6) "Retrieve the geographic code level for all European territorial units with a NUTS version of 2016 and description of 'Jug'."
+(7) What is the geocode level for the European territorial unit that has a NUTS version of 2016 and a description of "Jug"?

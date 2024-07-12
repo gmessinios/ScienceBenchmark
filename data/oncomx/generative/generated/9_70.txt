@@ -1,0 +1,16 @@
+SELECT biomarker_fda.id FROM biomarker_fda AS biomarker_fda JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.biomarker_origin != "amplification"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.biomarker_origin != "amplification"
+GPT-3 choices:
+(0) Find the ID of biomarkers in the FDA database that have a test trade name that is also found in the biomarker origin table, where the origin of the biomarker is not amplification.
+(1) Find the ID of biomarkers in the FDA database where the biomarker test trade name is equal to the test trade name in the FDA biomarker test database, but only for cases where the origin of the biomarker is not "amplification".
+(2) What are the IDs of biomarkers from FDA and their associated test trade names that have a biomarker origin other than amplification according to the biomarker FDA test database?
+(3) Find the ID of all biomarkers in the FDA database that have a test trade name that matches a trade name in the biomarker FDA test table and whose origin is not "amplification".
+(4) Find the IDs of all biomarkers from the FDA database where the test trade name matches a test in the FDA biomarker test database, but the origin of the biomarker is not "amplification".
+(5) "Retrieve the id from the biomarker_fda table where the test_trade_name matches in both biomarker_fda and biomarker_fda_test, but only include results where the biomarker_origin is not "amplification"."
+(6) Get the ID of all biomarkers from the FDA database that have a test trade name matching with a test trade name in the biomarker_fda_test table, and where the biomarker origin is not "amplification".
+(7) "Find the IDs of biomarkers from the FDA database that have a corresponding test trade name in the FDA test database, but with a biomarker origin other than "amplification"."

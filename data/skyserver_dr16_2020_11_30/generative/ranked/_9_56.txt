@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.veldisperr FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid != 299615571526313984
+
+###
+
+
+Original Query:
+SELECT T1.veldisperr FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid != 299615571526313984
+GPT-3 choices:
+(0) Get the value for veldisperr from the table Spectroscopic_objects for all rows where the specobjid is not equal to 299615571526313984 in both tables.
+(1) What is the velocity dispersion error for all objects in the spectroscopic_objects table, excluding the object with specobjid 299615571526313984, that have corresponding entries in the galspecline and specobj tables?
+(2) Retrieve the velocity dispersion error for all spectroscopic objects that have an emission line estimate and do not have a specobjid of 299615571526313984.
+(3) Find the velocity dispersion error for all spectroscopic objects that have a specobjid that is not equal to 299615571526313984 in the galspecline and specobj tables.
+(4) Retrieve the velocity dispersion error for all spectroscopic objects with a non-null specobjid in the Emission_line_estimates table, except for the one with a specobjid of 299615571526313984.
+(5) Retrieve the value of veldisperr from Spectroscopic_objects for all rows where the specobjid in galspecline does not equal 299615571526313984.
+(6) Find the velocity dispersion error for a spectroscopic object that has a spectral object ID not equal to 299615571526313984 by joining the specobj and galspecline tables, then selecting the veldisperr column from the Spectroscopic_objects table.
+(7) Find the velocity dispersion error for all objects in the spectroscopic catalog that have an emission line estimate, except for object number 299615571526313984.
+
+
+Re-ranked choices:
+9.821  Find the velocity dispersion error for all objects in the spectroscopic catalog that have an emission line estimate, except for object number 299615571526313984.
+9.114  Find the velocity dispersion error for a spectroscopic object that has a spectral object ID not equal to 299615571526313984 by joining the specobj and galspecline tables, then selecting the veldisperr column from the Spectroscopic_objects table.
+8.421  Retrieve the velocity dispersion error for all spectroscopic objects that have an emission line estimate and do not have a specobjid of 299615571526313984.
+7.717  Retrieve the velocity dispersion error for all spectroscopic objects with a non-null specobjid in the Emission_line_estimates table, except for the one with a specobjid of 299615571526313984.
+7.715  What is the velocity dispersion error for all objects in the spectroscopic_objects table, excluding the object with specobjid 299615571526313984, that have corresponding entries in the galspecline and specobj tables?
+7.020  Find the velocity dispersion error for all spectroscopic objects that have a specobjid that is not equal to 299615571526313984 in the galspecline and specobj tables.
+0.725  Get the value for veldisperr from the table Spectroscopic_objects for all rows where the specobjid is not equal to 299615571526313984 in both tables.
+0.724  Retrieve the value of veldisperr from Spectroscopic_objects for all rows where the specobjid in galspecline does not equal 299615571526313984.
+

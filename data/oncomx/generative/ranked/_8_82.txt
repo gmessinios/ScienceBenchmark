@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.test_submission FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.actual_use != "prognostic"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test_use AS T1 WHERE T1.actual_use != "prognostic"
+GPT-3 choices:
+(0) Find all of the test submissions from the FDA database that were not intended for prognostic use.
+(1) Find all test submissions from biomarkers in FDA-approved tests that are not used for prognostic purposes.
+(2) Retrieve the test submissions from biomarker FDA test use where the actual use is not "prognostic".
+(3) "Find the test submissions from the FDA biomarker database that are not used for prognostic purposes."
+(4) What is the test submission for biomarker-fda-test-use where the actual use is not prognostic?
+(5) Retrieve the test submissions from the FDA for biomarkers that are not used for prognostic purposes.
+(6) Retrieve all test submissions from the FDA biomarker database where the actual use is not "prognostic".
+(7) Retrieve the test submissions from the biomarker FDA test use table where the actual use is not "prognostic".
+
+
+Re-ranked choices:
+7.736  Retrieve the test submissions from biomarker FDA test use where the actual use is not "prognostic".
+7.733  Retrieve the test submissions from the biomarker FDA test use table where the actual use is not "prognostic".
+7.732  Retrieve all test submissions from the FDA biomarker database where the actual use is not "prognostic".
+5.628  What is the test submission for biomarker-fda-test-use where the actual use is not prognostic?
+4.936  "Find the test submissions from the FDA biomarker database that are not used for prognostic purposes."
+3.536  Retrieve the test submissions from the FDA for biomarkers that are not used for prognostic purposes.
+3.535  Find all of the test submissions from the FDA database that were not intended for prognostic use.
+2.136  Find all test submissions from biomarkers in FDA-approved tests that are not used for prognostic purposes.
+

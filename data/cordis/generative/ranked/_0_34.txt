@@ -1,0 +1,27 @@
+SELECT projects.start_year FROM projects AS projects WHERE projects.acronym = "CLIMINSECTS"
+
+###
+
+
+Original Query:
+SELECT T1.start_year FROM projects AS T1 WHERE T1.acronym = "CLIMINSECTS"
+GPT-3 choices:
+(0) What is the start year of the project with an acronym of "CLIMINSECTS"?
+(1) What is the start year for the project with the acronym "CLIMINSECTS"?
+(2) What is the start year of the project with acronym "CLIMINSECTS"?
+(3) Get the start year of the project with an acronym "CLIMINSECTS" from the table "projects".
+(4) What is the start year for the project with the acronym "CLIMINSECTS"?
+(5) Retrieve the start year from the projects table where the acronym is equal to "CLIMINSECTS".
+(6) What is the start year for the project with the acronym "CLIMINSECTS" in the projects table?
+(7) What is the starting year for the project with an acronym of "CLIMINSECTS"?
+
+
+Re-ranked choices:
+6.356  Get the start year of the project with an acronym "CLIMINSECTS" from the table "projects".
+6.352  What is the start year for the project with the acronym "CLIMINSECTS" in the projects table?
+6.345  Retrieve the start year from the projects table where the acronym is equal to "CLIMINSECTS".
+4.977  What is the start year of the project with acronym "CLIMINSECTS"?
+4.970  What is the start year for the project with the acronym "CLIMINSECTS"?
+4.965  What is the start year of the project with an acronym of "CLIMINSECTS"?
+3.565  What is the starting year for the project with an acronym of "CLIMINSECTS"?
+

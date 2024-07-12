@@ -1,0 +1,16 @@
+SELECT disease_mutation.alt_aa FROM disease_mutation AS disease_mutation WHERE disease_mutation.aa_pos_uniprotkb = 311 or disease_mutation.id = 12501
+
+###
+
+
+Original Query:
+SELECT T1.alt_aa FROM disease_mutation AS T1 WHERE T1.aa_pos_uniprotkb = 311 or T1.id = 12501
+GPT-3 choices:
+(0) Find the alternate amino acid for a mutation in the disease mutation database where the amino acid position is 311 or the id is 12501.
+(1) What is the alternate amino acid for a mutation at position 311 or with an ID of 12501 in the disease_mutation table?
+(2) Retrieve the alternative amino acid at position 311 or the mutation with ID 12501 from the disease_mutation table.
+(3) What are the alternate amino acids associated with a disease mutation at position 311 in the UniprotKB database, or with an ID of 12501?
+(4) Retrieve the alternative amino acid at position 311 or the mutation with an id of 12501 from the disease_mutation table.
+(5) What is the alternative amino acid for a disease mutation at position 311 in UniProtKB or with an ID of 12501?
+(6) Retrieve the alternative amino acid found in disease mutations where the position on the UniProtKB sequence is 311 or the mutation ID is 12501.
+(7) What is the alternative amino acid for the mutation in disease_mutation where the amino acid position in UniProtKB is 311 or the ID is 12501?

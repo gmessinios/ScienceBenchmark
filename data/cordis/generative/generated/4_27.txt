@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_member_roles AS project_member_roles WHERE project_member_roles.code = "hostInstitution"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles AS T1 WHERE T1.code = "hostInstitution"
+GPT-3 choices:
+(0) How many project member roles are there in the host institution category?
+(1) How many project member roles have a code of "hostInstitution"?
+(2) How many project member roles have the code "hostInstitution"?
+(3) How many project member roles have the code "hostInstitution"?
+(4) How many project member roles have a code of "hostInstitution"?
+(5) How many project member roles have the code "hostInstitution"?
+(6) How many project member roles are there in the project that have the code "hostInstitution"?
+(7) How many rows are in the project_member_roles table where the code is equal to "hostInstitution"?

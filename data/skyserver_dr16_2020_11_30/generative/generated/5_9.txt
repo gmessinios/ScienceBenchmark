@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed    ORDER BY photometrically_observed.value DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1    ORDER BY T1.value DESC LIMIT 1
+GPT-3 choices:
+(0) What is the name of the photo type that has been observed photometrically, sorted in descending order based on its value, with a limit of 1?
+(1) Find the name of the photometrically observed object that has the highest value in the photo_type table.
+(2) "Retrieve the name of the observation that has the highest value in the photo_type table, sorted in descending order."
+(3) Retrieve the name of the photometrically observed object with the highest value for its photo type, ordered in descending order, limited to 1 result.
+(4) Get the name of the photo type that was most recently observed based on its photometric value, in descending order, with only one result.
+(5) What is the name of the photo type that has the highest value in photometrically observed, ordered in descending order?
+(6) Which name has the highest value in the photo_type table when sorted in descending order and limited to 1 result?
+(7) Get the name of the photo type with the highest value in photometrically_observed, ordered in descending order and limited to only one result.

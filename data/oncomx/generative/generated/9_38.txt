@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_manufacturer FROM biomarker_fda_test AS biomarker_fda_test JOIN biomarker_fda_test_trial AS biomarker_fda_test_trial ON biomarker_fda_test.test_trade_name = biomarker_fda_test_trial.test_trade_name WHERE biomarker_fda_test_trial.test_trade_name != "MammaPrint"
+
+###
+
+
+Original Query:
+SELECT T1.test_manufacturer FROM biomarker_fda_test AS T1 JOIN biomarker_fda_test_trial AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_trade_name != "MammaPrint"
+GPT-3 choices:
+(0) Find the test manufacturer for all tests in the FDA biomarker database, except for the MammaPrint test.
+(1) Find the manufacturers for all biomarker tests listed in the FDA database that have a trade name different from "MammaPrint".
+(2) Get the manufacturer for all biomarker tests except "MammaPrint" from the tables "biomarker_fda_test" and "biomarker_fda_test_trial".
+(3) Get the test manufacturer for all tests listed in biomarker_fda_test where the trade name does not equal "MammaPrint" by joining with the table biomarker_fda_test_trial.
+(4) Find the manufacturer of all FDA-approved tests in the biomarker_fda_test table except for "MammaPrint", which is listed in the biomarker_fda_test_trial table.
+(5) Which test manufacturer is associated with the biomarker FDA test where the test trade name is not "MammaPrint"?
+(6) Get the manufacturer of all FDA-approved biomarker tests that are not MammaPrint.
+(7) What are the manufacturers of biomarker tests that have been tested in clinical trials and whose trade names are not "MammaPrint"?

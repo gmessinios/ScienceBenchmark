@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation AS disease_mutation WHERE disease_mutation.alt_aa = "S"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation AS T1 WHERE T1.alt_aa = "S"
+GPT-3 choices:
+(0) How many disease mutations have an alternate amino acid of "S"?
+(1) How many disease mutations have been recorded where the alternative amino acid is "S"?
+(2) How many rows are there in the disease_mutation table where the alt_aa column has the value "S"?
+(3) How many entries are there in the "disease_mutation" table where the "alt_aa" column has a value of "S"?
+(4) How many disease mutations have an alternative amino acid of "S"?
+(5) How many entries are there in the disease_mutation table where the alternate amino acid is "S"?
+(6) How many disease-mutation entries have an alternative amino acid of "S"?
+(7) How many disease-mutation pairs have an alternate amino acid of "S"?

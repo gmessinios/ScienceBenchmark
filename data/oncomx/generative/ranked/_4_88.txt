@@ -1,0 +1,26 @@
+SELECT count(*) FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.speciesid = 10090
+
+###
+
+
+Original Query:
+SELECT count(*) FROM xref_gene_ensembl AS T1 WHERE T1.speciesid = 10090
+GPT-3 choices:
+(0) How many entries are there in the xref_gene_ensembl table for species 10090?
+(1) How many rows are there in the xref_gene_ensembl table where the speciesid is 10090?
+(2) How many entries are in the xref_gene_ensembl table for mouse (speciesid = 10090)?
+(3) How many records are there in the xref_gene_ensembl table for the species with ID 10090?
+(4) How many entries are there in the xref_gene_ensembl table for species 10090?
+(5) How many records are there in the xref_gene_ensembl table for the species with ID 10090?
+(6) Count the number of rows in the xref_gene_ensembl table where the speciesid column is equal to 10090.
+(7) How many rows are there in the xref_gene_ensembl table for mouse (speciesid = 10090)?
+
+
+Re-ranked choices:
+1.442  How many rows are there in the xref_gene_ensembl table where the speciesid is 10090?
+1.431  Count the number of rows in the xref_gene_ensembl table where the speciesid column is equal to 10090.
+0.045  How many entries are there in the xref_gene_ensembl table for species 10090?
+0.045  How many records are there in the xref_gene_ensembl table for the species with ID 10090?
+0.044  How many rows are there in the xref_gene_ensembl table for mouse (speciesid = 10090)?
+0.039  How many entries are in the xref_gene_ensembl table for mouse (speciesid = 10090)?
+

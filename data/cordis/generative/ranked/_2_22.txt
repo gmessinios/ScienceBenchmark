@@ -1,0 +1,28 @@
+SELECT topics.title, count(*) FROM topics AS topics  GROUP BY topics.title
+
+###
+
+
+Original Query:
+SELECT T1.title, count(*) FROM topics AS T1  GROUP BY T1.title
+GPT-3 choices:
+(0) Retrieve the number of posts for each topic from the "topics" table and group them by their respective title.
+(1) Get the title and count of all topics from the table "topics", grouped by their titles.
+(2) "Retrieve the title of each topic and count the number of times it appears in the topics table, grouping the results by topic title."
+(3) Get the title of each topic and count the number of records in the topics table, grouping them by title.
+(4) Find the title of all topics and the count of how many times they appear in the table "topics".
+(5) Get the titles of all topics and count the number of occurrences for each title.
+(6) Find the number of entries for each topic in the table "topics" and group them by their title.
+(7) Retrieve the title of each topic and count the number of times it appears in the topics table, grouped by the topic title.
+
+
+Re-ranked choices:
+3.550  Get the title and count of all topics from the table "topics", grouped by their titles.
+3.534  Get the title of each topic and count the number of records in the topics table, grouping them by title.
+3.530  Retrieve the title of each topic and count the number of times it appears in the topics table, grouped by the topic title.
+3.526  "Retrieve the title of each topic and count the number of times it appears in the topics table, grouping the results by topic title."
+2.842  Find the title of all topics and the count of how many times they appear in the table "topics".
+2.144  Find the number of entries for each topic in the table "topics" and group them by their title.
+2.136  Retrieve the number of posts for each topic from the "topics" table and group them by their respective title.
+1.444  Get the titles of all topics and count the number of occurrences for each title.
+

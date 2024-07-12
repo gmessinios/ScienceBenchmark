@@ -1,0 +1,27 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.gene_symbol = "1700113A16Rik"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.gene_symbol = "1700113A16Rik"
+GPT-3 choices:
+(0) What is the species ID for the gene symbol "1700113A16Rik" in the table xref_gene_ensembl?
+(1) Retrieve the species ID from the xref_gene_ensembl table where the gene symbol is equal to "1700113A16Rik".
+(2) What is the species ID for the gene symbol "1700113A16Rik" in the table xref_gene_ensembl?
+(3) Find the species ID in the table "xref_gene_ensembl" where the gene symbol is "1700113A16Rik".
+(4) What is the species ID for the gene with the symbol "1700113A16Rik" in the xref_gene_ensembl table?
+(5) What is the speciesid for the gene with the gene symbol "1700113A16Rik" in the xref_gene_ensembl table?
+(6) What is the species ID associated with the gene symbol "1700113A16Rik" in the xref_gene_ensembl table?
+(7) What is the species ID for the gene symbol "1700113A16Rik" in the xref_gene_ensembl table?
+
+
+Re-ranked choices:
+4.937  What is the speciesid for the gene with the gene symbol "1700113A16Rik" in the xref_gene_ensembl table?
+3.543  What is the species ID for the gene with the symbol "1700113A16Rik" in the xref_gene_ensembl table?
+3.541  What is the species ID for the gene symbol "1700113A16Rik" in the table xref_gene_ensembl?
+3.541  Find the species ID in the table "xref_gene_ensembl" where the gene symbol is "1700113A16Rik".
+3.541  What is the species ID for the gene symbol "1700113A16Rik" in the xref_gene_ensembl table?
+3.537  Retrieve the species ID from the xref_gene_ensembl table where the gene symbol is equal to "1700113A16Rik".
+3.530  What is the species ID associated with the gene symbol "1700113A16Rik" in the xref_gene_ensembl table?
+

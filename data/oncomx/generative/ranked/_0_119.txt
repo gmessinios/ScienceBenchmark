@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_manufacturer FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_adoption_evidence = "experimental"
+
+###
+
+
+Original Query:
+SELECT T1.test_manufacturer FROM biomarker_fda_test AS T1 WHERE T1.test_adoption_evidence = "experimental"
+GPT-3 choices:
+(0) What is the manufacturer for all tests listed in the FDA biomarker database with experimental evidence?
+(1) What is the manufacturer of biomarker tests that have been classified as experimental?
+(2) Retrieve the test manufacturer from the FDA biomarker testing database for tests with experimental evidence.
+(3) Retrieve the test manufacturer from the biomarker FDA tests where the test adoption evidence is experimental.
+(4) Find the manufacturer of the tests in biomarker_fda_test where the test adoption evidence is "experimental".
+(5) What are the manufacturers of biomarker FDA tests where the evidence for test adoption is experimental?
+(6) What is the name of the manufacturer for tests listed in biomarker_fda_test where the test adoption evidence is experimental?
+(7) "Get the test manufacturer for all biomarker FDA tests that have experimental adoption evidence."
+
+
+Re-ranked choices:
+8.425  Retrieve the test manufacturer from the biomarker FDA tests where the test adoption evidence is experimental.
+7.724  "Get the test manufacturer for all biomarker FDA tests that have experimental adoption evidence."
+7.025  What are the manufacturers of biomarker FDA tests where the evidence for test adoption is experimental?
+6.324  Retrieve the test manufacturer from the FDA biomarker testing database for tests with experimental evidence.
+6.322  Find the manufacturer of the tests in biomarker_fda_test where the test adoption evidence is "experimental".
+5.623  What is the name of the manufacturer for tests listed in biomarker_fda_test where the test adoption evidence is experimental?
+4.925  What is the manufacturer for all tests listed in the FDA biomarker database with experimental evidence?
+2.828  What is the manufacturer of biomarker tests that have been classified as experimental?
+

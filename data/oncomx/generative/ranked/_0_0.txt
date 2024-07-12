@@ -1,0 +1,28 @@
+SELECT species.speciescommonname FROM species AS species WHERE species.speciesid = 9606
+
+###
+
+
+Original Query:
+SELECT T1.speciescommonname FROM species AS T1 WHERE T1.speciesid = 9606
+GPT-3 choices:
+(0) What is the common name of the species with the ID 9606 in the "species" table?
+(1) Retrieve the common name of the species from the table "species" where the species id is equal to 9606.
+(2) Retrieve the common name of the species from the table "species" where the species ID is equal to 9606.
+(3) Retrieve the common name of a species from the "species" table where the species ID is 9606.
+(4) What is the common name of the species with an ID of 9606 in the species table?
+(5) Retrieve the common name of the species from the species table where the species ID is 9606.
+(6) Retrieve the common name of the species where the species ID is 9606 from the table of species.
+(7) What is the common name of the species with the ID 9606 in the table "species"?
+
+
+Re-ranked choices:
+1.483  What is the common name of the species with the ID 9606 in the "species" table?
+1.483  What is the common name of the species with the ID 9606 in the table "species"?
+1.475  What is the common name of the species with an ID of 9606 in the species table?
+1.458  Retrieve the common name of a species from the "species" table where the species ID is 9606.
+1.458  Retrieve the common name of the species from the species table where the species ID is 9606.
+1.454  Retrieve the common name of the species where the species ID is 9606 from the table of species.
+1.450  Retrieve the common name of the species from the table "species" where the species ID is equal to 9606.
+1.443  Retrieve the common name of the species from the table "species" where the species id is equal to 9606.
+

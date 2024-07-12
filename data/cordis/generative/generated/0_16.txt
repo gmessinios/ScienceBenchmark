@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title = "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title = "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation"
+GPT-3 choices:
+(0) Retrieve the code of topics that have a title of "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation".
+(1) What is the code for the topic "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation" in the table named topics?
+(2) What is the code for the topic with a title of "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation"?
+(3) Retrieve the code for the topic "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation" from the "topics" table.
+(4) Retrieve the code of topics where the title is "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation".
+(5) Find the code for the topic "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation".
+(6) What is the code for the topic "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation"?
+(7) Get the code of all topics where the title is "Big Data PPP: Large Scale Pilot actions in sectors best benefitting from data-driven innovation".

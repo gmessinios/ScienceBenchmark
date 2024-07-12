@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.site_prediction FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction JOIN disease_mutation AS disease_mutation ON disease_mutation_impact_prediction.disease_mutation_id = disease_mutation.id WHERE disease_mutation.id = 16777
+
+###
+
+
+Original Query:
+SELECT T1.site_prediction FROM disease_mutation_impact_prediction AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.id = 16777
+GPT-3 choices:
+(0) What are the site predictions for disease mutations with an id of 16777 in the table "disease_mutation_impact_prediction"?
+(1) What is the site prediction for disease mutations associated with the disease mutation ID 16777 in the table disease_mutation_impact_prediction?
+(2) Get the site prediction from the disease mutation impact prediction table for the disease mutation with an ID of 16777 by joining it with the disease mutation table.
+(3) Retrieve the site prediction for a disease mutation with an ID of 16777 from the disease_mutation_impact_prediction and disease_mutation tables.
+(4) What is the site prediction for the disease mutation with an ID of 16777?
+(5) Get the predicted site impact for a disease mutation with an ID of 16777 from the table disease_mutation_impact_prediction, joined with the table disease_mutation.
+(6) "Retrieve the site prediction from the disease mutation impact predictions for the disease mutation with an ID of 16777."
+(7) "Get the site prediction for a disease mutation with an ID of 16777 from the table containing disease mutation impact predictions, joined with the disease mutation table."

@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Todd Alan Ehlers"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Todd Alan Ehlers"
+GPT-3 choices:
+(0) Retrieve the unique ID of the person with the full name "Todd Alan Ehlers" from the database table "people".
+(1) What is the UNICS ID of the person with the full name "Todd Alan Ehlers"?
+(2) "Retrieve the UNICS ID of a person with the full name 'Todd Alan Ehlers' from the table 'people'."
+(3) What is the UNICS ID of the person named Todd Alan Ehlers in the table of people's full names and corresponding IDs?
+(4) "Retrieve the unique identification number of the person with the full name "Todd Alan Ehlers"."
+(5) "Retrieve the unique identification number of the person whose full name is "Todd Alan Ehlers" from the table of people."
+(6) "Find the UNICS ID for a person with the full name of 'Todd Alan Ehlers' in the people table."
+(7) Find the UNICS ID of a person named Todd Alan Ehlers in the people table.

@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.field = 420
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.field = 420
+GPT-3 choices:
+(0) How many objects are there in the photoobj table where the field is equal to 420?
+(1) "How many objects are present in the database with a field value of 420 under the table named 'photoobj'?"
+(2) How many Photometric objects are there in the photoobj table with a field value of 420?
+(3) How many photometric objects are there in the photoobj table with a field value of 420?
+(4) How many Photometric objects are there in the database that have a field value of 420?
+(5) How many objects are there in the photometric catalog with a field value of 420?
+(6) How many objects are there in the photo database with a field value of 420?
+(7) How many photometric objects are there in the field 420?

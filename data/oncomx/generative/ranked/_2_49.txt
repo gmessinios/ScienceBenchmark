@@ -1,0 +1,28 @@
+SELECT anatomical_entity.id, count(*) FROM anatomical_entity AS anatomical_entity  GROUP BY anatomical_entity.id
+
+###
+
+
+Original Query:
+SELECT T1.id, count(*) FROM anatomical_entity AS T1  GROUP BY T1.id
+GPT-3 choices:
+(0) Count the number of records in the "anatomical_entity" table and group them by their unique identifier.
+(1) How many anatomical entities are there in the table, and how many rows does each entity have?
+(2) "How many records are in the anatomical_entity table, grouped by their corresponding id and including a count for each group?"
+(3) Count the number of occurrences for each anatomical entity and group them by their corresponding ID.
+(4) How many anatomical entities are there in the table, and how many occurrences of each entity are listed?
+(5) Get the id and count for each anatomical entity from the table "anatomical_entity", grouping them by their respective id.
+(6) "How many times does each anatomical entity appear in the table and what is its corresponding ID number?"
+(7) What is the count of occurrences for each unique anatomical entity in the anatomical_entity table?
+
+
+Re-ranked choices:
+4.924  Get the id and count for each anatomical entity from the table "anatomical_entity", grouping them by their respective id.
+4.229  "How many times does each anatomical entity appear in the table and what is its corresponding ID number?"
+3.532  Count the number of occurrences for each anatomical entity and group them by their corresponding ID.
+2.839  How many anatomical entities are there in the table, and how many rows does each entity have?
+2.829  How many anatomical entities are there in the table, and how many occurrences of each entity are listed?
+2.829  What is the count of occurrences for each unique anatomical entity in the anatomical_entity table?
+2.128  "How many records are in the anatomical_entity table, grouped by their corresponding id and including a count for each group?"
+0.732  Count the number of records in the "anatomical_entity" table and group them by their unique identifier.
+

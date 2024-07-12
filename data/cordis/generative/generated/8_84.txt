@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types WHERE activity_types.description != "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 WHERE T1.description != "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)"
+GPT-3 choices:
+(0) Get the code of all activity types from the table "activity_types" where the description is not equal to "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)".
+(1) Get the activity types codes from the database for all non-public bodies, including Research Organisations and Secondary or Higher Education Establishments.
+(2) Get the code for all activity types excluding public bodies that are not research organizations or secondary or higher education establishments.
+(3) "Retrieve the code for all activity types except public bodies, such as research organizations and secondary or higher education establishments."
+(4) "Find the activity codes for all types of organizations except Public bodies, excluding Research Organizations and Secondary or Higher Education Establishments."
+(5) What is the code for activity types excluding public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)?
+(6) Find the codes for all activity types that are not classified as public bodies, excluding research organizations and secondary or higher education establishments.
+(7) "Retrieve the code of all activity types that are not classified as Public bodies, excluding Research Organisations and Secondary or Higher Education Establishments."

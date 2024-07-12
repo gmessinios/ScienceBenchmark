@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.scienceprimary != 1
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.scienceprimary != 1
+GPT-3 choices:
+(0) Find the spectral object ID for all objects in the galactic spectroscopic line table that are not primary science targets.
+(1) Find the specobjid of all emission line estimates that are associated with spectroscopic objects that are not considered primary science targets.
+(2) Get the specobjid for all emission line estimates from galspecline where scienceprimary is not equal to 1 in the corresponding row of specobj.
+(3) Find the specobjid for objects in galspecline where scienceprimary is not equal to 1 in the table specobj.
+(4) Retrieve the specobjid from Emission_line_estimates where the scienceprimary column in Spectroscopic_objects is not equal to 1.
+(5) Retrieve the specobjid from the Emission_line_estimates table for all objects in the Spectroscopic_objects table that are not labeled as science primary.
+(6) Select the specobjid from the galspecline table where the corresponding Spectroscopic_objects have a value of scienceprimary that is not equal to 1.
+(7) Retrieve the specobjid from the Emission_line_estimates table for objects in the Spectroscopic_objects table where scienceprimary is not equal to 1.
+
+
+Re-ranked choices:
+7.024  Find the spectral object ID for all objects in the galactic spectroscopic line table that are not primary science targets.
+5.619  Find the specobjid of all emission line estimates that are associated with spectroscopic objects that are not considered primary science targets.
+2.820  Retrieve the specobjid from the Emission_line_estimates table for all objects in the Spectroscopic_objects table that are not labeled as science primary.
+2.820  Get the specobjid for all emission line estimates from galspecline where scienceprimary is not equal to 1 in the corresponding row of specobj.
+2.818  Retrieve the specobjid from the Emission_line_estimates table for objects in the Spectroscopic_objects table where scienceprimary is not equal to 1.
+1.425  Find the specobjid for objects in galspecline where scienceprimary is not equal to 1 in the table specobj.
+1.420  Retrieve the specobjid from Emission_line_estimates where the scienceprimary column in Spectroscopic_objects is not equal to 1.
+0.719  Select the specobjid from the galspecline table where the corresponding Spectroscopic_objects have a value of scienceprimary that is not equal to 1.
+

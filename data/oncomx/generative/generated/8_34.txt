@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.doid FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_adoption_evidence != "clinical use"
+
+###
+
+
+Original Query:
+SELECT T1.doid FROM biomarker_fda_test AS T1 WHERE T1.test_adoption_evidence != "clinical use"
+GPT-3 choices:
+(0) Which disease identifiers (DOIDs) are associated with FDA-approved biomarkers that have test adoption evidence other than "clinical use"?
+(1) What are the DOIDs for all biomarkers in the biomarker_fda_test table that do not have a test adoption evidence of "clinical use"?
+(2) "Retrieve the Disease Ontology IDs from the biomarker_fda_test table where the test adoption evidence is not "clinical use"."
+(3) Find the disease ontology IDs for all entries in the biomarker_fda_test table where the test adoption evidence is not "clinical use".
+(4) Find the DOIDs from the Biomarker FDA Test table where the test adoption evidence is not equal to "clinical use".
+(5) What is the disease identifier for all entries in the biomarker_fda_test table where the test adoption evidence is not "clinical use"?
+(6) What is the disease ID for all entries in biomarker_fda_test where test_adoption_evidence is not "clinical use"?
+(7) What is the disease ID for all biomarkers that have not been adopted for clinical use in the FDA database?

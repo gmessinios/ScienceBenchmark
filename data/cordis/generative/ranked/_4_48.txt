@@ -1,0 +1,24 @@
+SELECT count(*) FROM projects AS projects WHERE projects.acronym = "CONGOTOPIA"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects AS T1 WHERE T1.acronym = "CONGOTOPIA"
+GPT-3 choices:
+(0) How many projects have an acronym of "CONGOTOPIA"?
+(1) How many projects have an acronym of "CONGOTOPIA"?
+(2) How many projects have an acronym of "CONGOTOPIA"?
+(3) How many projects are there in the database with the acronym "CONGOTOPIA"?
+(4) How many projects are there in the database with the acronym "CONGOTOPIA"?
+(5) How many projects are there with the acronym "CONGOTOPIA"?
+(6) How many projects are there with the acronym "CONGOTOPIA"?
+(7) How many projects have the acronym "CONGOTOPIA"?
+
+
+Re-ranked choices:
+3.570  How many projects are there with the acronym "CONGOTOPIA"?
+3.564  How many projects have the acronym "CONGOTOPIA"?
+3.559  How many projects have an acronym of "CONGOTOPIA"?
+3.556  How many projects are there in the database with the acronym "CONGOTOPIA"?
+

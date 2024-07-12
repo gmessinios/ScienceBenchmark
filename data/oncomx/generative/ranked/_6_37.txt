@@ -1,0 +1,28 @@
+SELECT biomarker_fda.test_trade_name FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_submission = "K062742" and biomarker_fda.id = "FDA000261"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda AS T1 WHERE T1.test_submission = "K062742" and T1.id = "FDA000261"
+GPT-3 choices:
+(0) Retrieve the test trade name from biomarker_fda where the test submission is "K062742" and the id is "FDA000261".
+(1) "Retrieve the FDA test trade name for the biomarker with ID "FDA000261" from the biomarker_fda table where the test submission is "K062742"."
+(2) What is the FDA-approved trade name for the biomarker test with a submission number of K062742 and an ID of FDA000261?
+(3) What is the FDA test trade name for the biomarker with a test submission of "K062742" and an ID of "FDA000261"?
+(4) Retrieve the trade name for the test with submission number "K062742" from the biomarker_fda table, specifically for the entry with an id of "FDA000261".
+(5) What is the trade name of the test with submission number K062742 and FDA ID FDA000261 in the biomarker_fda table?
+(6) What is the test trade name for FDA submission number K062742 and biomarker ID FDA000261 in the biomarker_fda database?
+(7) Retrieve the FDA test trade name from the biomarker_fda table where the test submission is equal to "K062742" and the ID is equal to "FDA000261".
+
+
+Re-ranked choices:
+11.254  What is the FDA test trade name for the biomarker with a test submission of "K062742" and an ID of "FDA000261"?
+11.232  What is the test trade name for FDA submission number K062742 and biomarker ID FDA000261 in the biomarker_fda database?
+11.229  "Retrieve the FDA test trade name for the biomarker with ID "FDA000261" from the biomarker_fda table where the test submission is "K062742"."
+9.835  What is the trade name of the test with submission number K062742 and FDA ID FDA000261 in the biomarker_fda table?
+9.832  Retrieve the FDA test trade name from the biomarker_fda table where the test submission is equal to "K062742" and the ID is equal to "FDA000261".
+9.144  What is the FDA-approved trade name for the biomarker test with a submission number of K062742 and an ID of FDA000261?
+8.434  Retrieve the test trade name from biomarker_fda where the test submission is "K062742" and the id is "FDA000261".
+8.422  Retrieve the trade name for the test with submission number "K062742" from the biomarker_fda table, specifically for the entry with an id of "FDA000261".
+

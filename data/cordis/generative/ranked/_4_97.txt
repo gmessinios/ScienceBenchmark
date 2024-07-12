@@ -1,0 +1,27 @@
+SELECT count(*) FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions = "DEA52"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units AS T1 WHERE T1.geocode_regions = "DEA52"
+GPT-3 choices:
+(0) How many rows are in the table "eu_territorial_units" where the value in the "geocode_regions" column is equal to "DEA52"?
+(1) How many rows are there in the table eu_territorial_units where the geocode_regions column is equal to "DEA52"?
+(2) How many records are there in the eu_territorial_units table where the geocode_regions column equals "DEA52"?
+(3) How many rows are in the eu_territorial_units table where the geocode_regions column is equal to "DEA52"?
+(4) How many rows are in the table "eu_territorial_units" where the value in the "geocode_regions" column is equal to "DEA52"?
+(5) How many territorial units are there in the EU with the geocode region "DEA52"?
+(6) How many territorial units are there in the European Union with a geocode region of "DEA52"?
+(7) How many rows are in the EU Territorial Units table where the geocode_regions column is equal to "DEA52"?
+
+
+Re-ranked choices:
+6.347  How many territorial units are there in the EU with the geocode region "DEA52"?
+4.942  How many territorial units are there in the European Union with a geocode region of "DEA52"?
+4.937  How many rows are in the EU Territorial Units table where the geocode_regions column is equal to "DEA52"?
+0.731  How many rows are there in the table eu_territorial_units where the geocode_regions column is equal to "DEA52"?
+0.730  How many records are there in the eu_territorial_units table where the geocode_regions column equals "DEA52"?
+0.729  How many rows are in the table "eu_territorial_units" where the value in the "geocode_regions" column is equal to "DEA52"?
+0.729  How many rows are in the eu_territorial_units table where the geocode_regions column is equal to "DEA52"?
+

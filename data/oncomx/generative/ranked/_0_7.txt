@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.ensembl_gene_id = "ENSG00000051596"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.ensembl_gene_id = "ENSG00000051596"
+GPT-3 choices:
+(0) Find the species ID for the entry in xref_gene_ensembl where the ensembl_gene_id is "ENSG00000051596".
+(1) What is the species ID for the gene with Ensembl gene ID "ENSG00000051596" in the table xref_gene_ensembl?
+(2) What is the species ID for the gene with the Ensembl ID "ENSG00000051596" in the xref_gene_ensembl table?
+(3) What is the species ID associated with the ensembl gene ID "ENSG00000051596" in the xref_gene_ensembl table?
+(4) Retrieve the species ID for a gene from the xref_gene_ensembl table where the ensembl_gene_id is "ENSG00000051596".
+(5) What is the species ID for the gene with an Ensembl gene ID of "ENSG00000051596" in the xref_gene_ensembl table?
+(6) What is the species ID associated with the Ensembl gene ID "ENSG00000051596" in the xref_gene_ensembl table?
+(7) Retrieve the species ID from the xref_gene_ensembl table where the ensembl_gene_id is equal to "ENSG00000051596".
+
+
+Re-ranked choices:
+4.929  What is the species ID for the gene with an Ensembl gene ID of "ENSG00000051596" in the xref_gene_ensembl table?
+4.928  What is the species ID for the gene with Ensembl gene ID "ENSG00000051596" in the table xref_gene_ensembl?
+4.928  What is the species ID for the gene with the Ensembl ID "ENSG00000051596" in the xref_gene_ensembl table?
+4.922  What is the species ID associated with the ensembl gene ID "ENSG00000051596" in the xref_gene_ensembl table?
+4.922  What is the species ID associated with the Ensembl gene ID "ENSG00000051596" in the xref_gene_ensembl table?
+3.526  Retrieve the species ID for a gene from the xref_gene_ensembl table where the ensembl_gene_id is "ENSG00000051596".
+2.128  Find the species ID for the entry in xref_gene_ensembl where the ensembl_gene_id is "ENSG00000051596".
+2.124  Retrieve the species ID from the xref_gene_ensembl table where the ensembl_gene_id is equal to "ENSG00000051596".
+

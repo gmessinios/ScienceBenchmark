@@ -1,0 +1,28 @@
+SELECT project_members.rcn FROM project_members AS project_members JOIN eu_territorial_units AS eu_territorial_units ON project_members.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.nuts_version = "2021"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM project_members AS T1 JOIN eu_territorial_units AS T2 ON T1.geocode_regions_3 = T2.geocode_regions WHERE T2.nuts_version = "2021"
+GPT-3 choices:
+(0) What are the RCN numbers of project members who belong to European territorial units with NUTS version 2021?
+(1) Retrieve the RCN values of project members whose geocode_regions_3 match with the geocode_regions of EU territorial units for which the nuts_version is "2021".
+(2) Get the RCN values from project_members for all rows where the geocode_regions_3 column equals the geocode_regions column in eu_territorial_units with a nuts_version of 2021.
+(3) "Find the RCN of all project members who are located in EU territorial units that have a NUTS version of 2021."
+(4) Get the RCN from project members where the geocode regions of project members matches the geocode regions of EU territorial units with a NUTS version of 2021.
+(5) Find the RCN of project members who are located in regions with a NUTS version of 2021 by joining the project_members and eu_territorial_units tables and filtering for matching geocode_regions_3 values.
+(6) Retrieve the RCN of project members from the table project_members, where their geocode_regions_3 value is equal to the geocode_regions in the eu_territorial_units table with a NUTS version of "2021".
+(7) Retrieve the RCN value from the project_members table for all members who have a geocode_regions_3 value that corresponds to a 2021 NUTS version code in the eu_territorial_units table.
+
+
+Re-ranked choices:
+14.026  Get the RCN from project members where the geocode regions of project members matches the geocode regions of EU territorial units with a NUTS version of 2021.
+11.233  "Find the RCN of all project members who are located in EU territorial units that have a NUTS version of 2021."
+9.829  What are the RCN numbers of project members who belong to European territorial units with NUTS version 2021?
+8.427  Retrieve the RCN values of project members whose geocode_regions_3 match with the geocode_regions of EU territorial units for which the nuts_version is "2021".
+8.417  Find the RCN of project members who are located in regions with a NUTS version of 2021 by joining the project_members and eu_territorial_units tables and filtering for matching geocode_regions_3 values.
+7.019  Retrieve the RCN of project members from the table project_members, where their geocode_regions_3 value is equal to the geocode_regions in the eu_territorial_units table with a NUTS version of "2021".
+5.618  Retrieve the RCN value from the project_members table for all members who have a geocode_regions_3 value that corresponds to a 2021 NUTS version code in the eu_territorial_units table.
+1.420  Get the RCN values from project_members for all rows where the geocode_regions_3 column equals the geocode_regions column in eu_territorial_units with a nuts_version of 2021.
+

@@ -1,0 +1,16 @@
+SELECT project_members.member_short_name FROM project_members AS project_members WHERE project_members.country != "CO"
+
+###
+
+
+Original Query:
+SELECT T1.member_short_name FROM project_members AS T1 WHERE T1.country != "CO"
+GPT-3 choices:
+(0) Select the member short names from project members where the country is not equal to "CO".
+(1) "Retrieve the member short names from project members where the country is not Colombia."
+(2) Find the short names of all project members who are not from Colombia.
+(3) Get the short names of all project members whose country is not Colombia.
+(4) Retrieve the short names of all project members who are not from Colombia.
+(5) Get the short names of all members from the project_members table where their country is not "CO".
+(6) What are the names of the project members whose country is not Colombia?
+(7) Find the short names of project members who are not from Colombia in the project_members table.

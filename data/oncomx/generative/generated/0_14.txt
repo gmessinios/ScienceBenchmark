@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.peptide_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.ensembl_transcript_id = "ENST00000175506"
+
+###
+
+
+Original Query:
+SELECT T1.peptide_id FROM map_protein_disease_mutation AS T1 WHERE T1.ensembl_transcript_id = "ENST00000175506"
+GPT-3 choices:
+(0) What are the peptide IDs for the protein-disease-mutation mappings with an Ensembl transcript ID of ENST00000175506?
+(1) Retrieve the peptide IDs from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000175506".
+(2) Find the peptide ID from the table "map_protein_disease_mutation" where the ensembl transcript ID is equal to "ENST00000175506".
+(3) Find the peptide IDs from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000175506".
+(4) What are the peptide IDs for mutations associated with the Ensembl transcript ID "ENST00000175506" in the map of protein-disease-mutation?
+(5) Retrieve the peptide IDs from the protein-disease-mutation map where the Ensembl transcript ID is "ENST00000175506".
+(6) Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000175506".
+(7) Retrieve the peptide ID from the map_protein_disease_mutation table for which the ensembl_transcript_id is "ENST00000175506".

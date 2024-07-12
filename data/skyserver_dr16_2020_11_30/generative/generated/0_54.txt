@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.veldisp FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.veldisperr = 9.318482
+
+###
+
+
+Original Query:
+SELECT T1.veldisp FROM specobj AS T1 WHERE T1.veldisperr = 9.318482
+GPT-3 choices:
+(0) What is the velocity dispersion value for objects in the specobj table where the velocity dispersion error is equal to 9.318482?
+(1) Find the velocity dispersion of objects from the specobj table where the veldisperr is equal to 9.318482.
+(2) What is the velocity dispersion of the spectroscopic objects with a velocity dispersion error of 9.318482?
+(3) What is the velocity dispersion for the spectroscopic objects with an error of 9.318482?
+(4) What is the velocity dispersion value for the spectroscopic objects with a velocity dispersion error of 9.318482?
+(5) Find the velocity dispersion of objects in the specobj table where the velocity dispersion error is equal to 9.318482.
+(6) Find the velocity dispersion of objects in the specobj table where the velocity dispersion error is equal to 9.318482.
+(7) Get the velocity dispersion of spectroscopic objects where the error on their velocity dispersion is equal to 9.318482.

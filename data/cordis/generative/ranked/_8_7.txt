@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code != "ENERGY-2007-7.3-03"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code != "ENERGY-2007-7.3-03"
+GPT-3 choices:
+(0) Find the RCN of all topics except for "ENERGY-2007-7.3-03" in the topics table.
+(1) Find the RCN value from the topics table, excluding any records where the code is equal to "ENERGY-2007-7.3-03".
+(2) Find the research call number from the topics table where the code is not equal to "ENERGY-2007-7.3-03".
+(3) What is the RCN for all topics except for "ENERGY-2007-7.3-03"?
+(4) Find the RCN for topics that have a code other than "ENERGY-2007-7.3-03" in the topics table.
+(5) Retrieve the Research Council Number (RCN) for all topics that do not have a code of "ENERGY-2007-7.3-03".
+(6) Retrieve the Research Collaboration Network (RCN) number from topics table excluding the one with code "ENERGY-2007-7.3-03".
+(7) What are the RCNs for all topics except "ENERGY-2007-7.3-03" in the table "topics"?
+
+
+Re-ranked choices:
+4.273  Find the RCN for topics that have a code other than "ENERGY-2007-7.3-03" in the topics table.
+4.237  Find the RCN value from the topics table, excluding any records where the code is equal to "ENERGY-2007-7.3-03".
+2.865  Find the RCN of all topics except for "ENERGY-2007-7.3-03" in the topics table.
+2.862  What is the RCN for all topics except for "ENERGY-2007-7.3-03"?
+2.839  Find the research call number from the topics table where the code is not equal to "ENERGY-2007-7.3-03".
+2.839  Retrieve the Research Council Number (RCN) for all topics that do not have a code of "ENERGY-2007-7.3-03".
+2.823  Retrieve the Research Collaboration Network (RCN) number from topics table excluding the one with code "ENERGY-2007-7.3-03".
+1.465  What are the RCNs for all topics except "ENERGY-2007-7.3-03" in the table "topics"?
+

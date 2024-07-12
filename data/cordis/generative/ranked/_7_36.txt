@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code = "CIP-01-2016-2017" or topics.title = "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code = "CIP-01-2016-2017" or T1.title = "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement"
+GPT-3 choices:
+(0) Find the Research Council Number (RCN) for the topic with either the code "CIP-01-2016-2017" or title "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement".
+(1) What are the research concept numbers for topics with a code of "CIP-01-2016-2017" or a title of "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement"?
+(2) Get the RCN of all topics where the code is equal to "CIP-01-2016-2017" or the title is equal to "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement".
+(3) Find the RCN of topics where the code is "CIP-01-2016-2017" or the title is "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement".
+(4) What is the research concept number for topics with a code of "CIP-01-2016-2017" or a title of "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement"?
+(5) Find the Research Council Number for topics with a code of "CIP-01-2016-2017" or a title of "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement".
+(6) What are the research council numbers for topics with either the code "CIP-01-2016-2017" or the title "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement"?
+(7) Retrieve the RCN for all topics where the code is "CIP-01-2016-2017" or the title is "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement".
+
+
+Re-ranked choices:
+13.321  Retrieve the RCN for all topics where the code is "CIP-01-2016-2017" or the title is "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement".
+13.320  Find the RCN of topics where the code is "CIP-01-2016-2017" or the title is "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement".
+13.319  Get the RCN of all topics where the code is equal to "CIP-01-2016-2017" or the title is equal to "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement".
+11.919  What are the research council numbers for topics with either the code "CIP-01-2016-2017" or the title "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement"?
+11.919  What is the research concept number for topics with a code of "CIP-01-2016-2017" or a title of "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement"?
+11.918  Find the Research Council Number for topics with a code of "CIP-01-2016-2017" or a title of "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement".
+11.917  What are the research concept numbers for topics with a code of "CIP-01-2016-2017" or a title of "Development of high accuracy, low weight "Smart" sensors for pressure, position, temperature measurement"?
+10.519  Find the Research Council Number (RCN) for the topic with either the code "CIP-01-2016-2017" or title "Development of high accuracy, low weight 'Smart' sensors for pressure, position, temperature measurement".
+

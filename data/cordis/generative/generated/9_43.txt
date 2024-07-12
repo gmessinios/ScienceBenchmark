@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes AS programmes JOIN project_programmes AS project_programmes ON programmes.code = project_programmes.programme JOIN projects AS projects ON project_programmes.project = projects.unics_id WHERE projects.title != ""ONLINE FEMINIST GLOBAL ACTIONS. POTENTIALS AND PITFALLS OF THE #MEETOO CAMPAIGN""
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 JOIN project_programmes AS T3 ON T1.code = T3.programme JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.title != ""ONLINE FEMINIST GLOBAL ACTIONS. POTENTIALS AND PITFALLS OF THE #MEETOO CAMPAIGN""
+GPT-3 choices:
+(0) What are the RCNs of programmes that have been associated with projects titled "Online Feminist Global Actions" and were part of the #MeToo campaign?
+(1) Find the RCN of programmes that are associated with projects that have titles and are specifically related to the online feminist movement, examining both the potential and potential downsides of the #MeToo campaign.
+(2) Retrieve the RCN of all programmes that are associated with projects that have a title and are part of the #MeToo campaign.
+(3) What is the Research Councils UK project code for the online feminist global actions study on the potentials and pitfalls of the #MeToo campaign, as conducted by a collaboration between Programmes and Projects?
+(4) Retrieve the RCN number of all programmes that are associated with a project titled "ONLINE FEMINIST GLOBAL ACTIONS" and have a code that matches with the project's programme code in the table "programmes".
+(5) Find the RCN of programmes where their code matches with a programme in the project_programmes table and that programme is associated with a project whose title is not empty and equals "ONLINE FEMINIST GLOBAL ACTIONS. POTENTIALS AND PITFALLS OF THE #MEETOO CAMPAIGN".
+(6) Find the RCN numbers for all programmes that are associated with projects through the project_programmes table and have a non-empty title, specifically those connected to the project "ONLINE FEMINIST GLOBAL ACTIONS" and tagged with the programme code for "#MEETOO CAMPAIGN".
+(7) Find the RCN number for programmes that are part of projects titled "ONLINE FEMINIST GLOBAL ACTIONS" and have a #MeToo campaign.

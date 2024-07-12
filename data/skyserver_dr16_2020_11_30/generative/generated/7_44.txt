@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.objid = 1237666339725967609 or Nearest_neighbour_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 WHERE T1.objid = 1237666339725967609 or T1.mode = 1
+GPT-3 choices:
+(0) Find the type of nearest neighbour objects where either the object ID is 1237666339725967609 or the mode is equal to 1.
+(1) Find the neighbor type for the nearest neighbors of object with ID 1237666339725967609 or objects in mode 1 from the table "neighbors."
+(2) What is the neighbor type of the nearest neighbor object with an objid of 1237666339725967609 or a mode value of 1?
+(3) Find the type of nearest neighbors for object 1237666339725967609 or mode 1 in the table "neighbors".
+(4) Find the nearest objects with the same type or mode as object 1237666339725967609 in the table "neighbors".
+(5) Find the type of nearest neighbour objects for object with ID 1237666339725967609 or mode set to 1.
+(6) What is the neighbor type of the object with the ID 1237666339725967609 or if there is no object with that ID, what is the mode of any neighbors in general?
+(7) Find the type of nearest neighbor for the object with ID 1237666339725967609 or if there is no match, find the mode of all neighbors.

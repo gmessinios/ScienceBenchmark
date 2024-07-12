@@ -1,0 +1,16 @@
+SELECT count(*) FROM projects AS projects WHERE projects.ec_max_contribution = 5199995.0
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects AS T1 WHERE T1.ec_max_contribution = 5199995.0
+GPT-3 choices:
+(0) How many projects have a maximum contribution of 5199995.0 in the projects table?
+(1) How many projects have a maximum contribution amount of 5199995.0 in the projects table?
+(2) How many projects have an "ec_max_contribution" value of 5199995.0 in the "projects" table?
+(3) How many projects have a maximum contribution of 5199995.0?
+(4) How many projects have a maximum contribution value of 5199995.0 in the projects table?
+(5) How many projects have a maximum contribution of $5,199,995?
+(6) How many projects have a maximum contribution of 5199995.0 in the "projects" table?
+(7) How many projects have a maximum contribution amount of $5,199,995?

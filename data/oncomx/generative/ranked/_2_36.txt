@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trial_id, count(*) FROM biomarker_fda_test_trial AS biomarker_fda_test_trial  GROUP BY biomarker_fda_test_trial.test_trial_id
+
+###
+
+
+Original Query:
+SELECT T1.test_trial_id, count(*) FROM biomarker_fda_test_trial AS T1  GROUP BY T1.test_trial_id
+GPT-3 choices:
+(0) Get the test trial ID and count of the number of entries for each test trial from the biomarker FDA test trial table.
+(1) How many records are there for each test trial ID in the biomarker_fda_test_trial table?
+(2) Find the number of test trials for each unique ID in the biomarker_fda_test_trial table and group them by their respective trial IDs.
+(3) Count the number of records in biomarker_fda_test_trial table for each unique test_trial_id and group them by the test_trial_id.
+(4) "Count the number of test trials for each unique ID in the biomarker FDA database."
+(5) How many test trials are there for each test trial ID in the biomarker FDA database?
+(6) Find the number of test trials and their corresponding count for each trial in the biomarker_fda_test_trial table.
+(7) How many records are in the biomarker FDA test trial table, grouped by the test trial ID?
+
+
+Re-ranked choices:
+7.050  How many test trials are there for each test trial ID in the biomarker FDA database?
+7.034  Get the test trial ID and count of the number of entries for each test trial from the biomarker FDA test trial table.
+6.358  How many records are in the biomarker FDA test trial table, grouped by the test trial ID?
+5.654  "Count the number of test trials for each unique ID in the biomarker FDA database."
+4.926  Find the number of test trials for each unique ID in the biomarker_fda_test_trial table and group them by their respective trial IDs.
+4.241  How many records are there for each test trial ID in the biomarker_fda_test_trial table?
+2.828  Find the number of test trials and their corresponding count for each trial in the biomarker_fda_test_trial table.
+0.727  Count the number of records in biomarker_fda_test_trial table for each unique test_trial_id and group them by the test_trial_id.
+

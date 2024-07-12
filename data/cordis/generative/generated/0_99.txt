@@ -1,0 +1,16 @@
+SELECT projects.acronym FROM projects AS projects WHERE projects.end_year = 2009
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM projects AS T1 WHERE T1.end_year = 2009
+GPT-3 choices:
+(0) What are the acronyms of projects that ended in 2009?
+(1) What are the acronyms for projects that ended in the year 2009?
+(2) What is the acronym of all projects that ended in 2009?
+(3) Find the acronyms of projects that ended in the year 2009.
+(4) Retrieve the acronym of all projects that ended in the year 2009.
+(5) Find the acronym of projects that ended in the year 2009.
+(6) Retrieve the acronyms of all projects that ended in the year 2009.
+(7) What are the acronyms of projects that ended in 2009?

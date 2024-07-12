@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.id = "FDA000108" or biomarker_fda.test_trade_name = "THXID-BRAF KIT"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.id = "FDA000108" or T1.test_trade_name = "THXID-BRAF KIT"
+GPT-3 choices:
+(0) Show me the test submissions and trade names from the biomarker_fda database where the id is "FDA000108" or the trade name is "THXID-BRAF KIT".
+(1) "Retrieve the test submission from the biomarker FDA database where either the ID is 'FDA000108' or the test trade name is 'THXID-BRAF KIT'."
+(2) "Retrieve the test submission information for the FDA000108 biomarker or the THXID-BRAF KIT test trade name from the biomarker_fda table."
+(3) Show me the test submission and trade name for a biomarker with an ID of "FDA000108" or a test trade name of "THXID-BRAF KIT" from the biomarker_fda table.
+(4) Find the FDA test submission number for a biomarker with ID "FDA000108" or a test trade name of "THXID-BRAF KIT".
+(5) Retrieve the test submission from the FDA for either biomarker ID "FDA000108" or test trade name "THXID-BRAF KIT".
+(6) Retrieve the test submission for FDA000108 or THXID-BRAF KIT from the biomarker_fda table.
+(7) Retrieve the test submission for the biomarker with ID "FDA000108" or with a test trade name of "THXID-BRAF KIT".

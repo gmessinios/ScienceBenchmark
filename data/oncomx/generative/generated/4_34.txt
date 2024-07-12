@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.disease_mutation_id = 86991
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_site_annotation AS T1 WHERE T1.disease_mutation_id = 86991
+GPT-3 choices:
+(0) How many disease mutation site annotations are associated with the disease mutation ID of 86991?
+(1) How many rows are in the disease_mutation_site_annotation table where the disease_mutation_id column has a value of 86991?
+(2) Count the number of rows in the disease_mutation_site_annotation table where the disease_mutation_id column is equal to 86991.
+(3) How many disease-mutation site annotations are associated with the disease mutation ID 86991?
+(4) How many annotations are there for the disease mutation with an ID of 86991?
+(5) How many entries are there in the disease_mutation_site_annotation table where the disease_mutation_id is 86991?
+(6) How many disease mutation site annotations are there for the disease mutation with an ID of 86991?
+(7) How many records are there in the disease_mutation_site_annotation table where the disease_mutation_id is equal to 86991?

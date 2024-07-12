@@ -1,0 +1,16 @@
+SELECT project_members.longitude FROM project_members AS project_members WHERE project_members.department_name = "Larian Studios" and project_members.ec_contribution = 2092966.1
+
+###
+
+
+Original Query:
+SELECT T1.longitude FROM project_members AS T1 WHERE T1.department_name = "Larian Studios" and T1.ec_contribution = 2092966.1
+GPT-3 choices:
+(0) Retrieve the longitude of all project members who belong to the department "Larian Studios" and have an EC contribution of 2092966.1.
+(1) Retrieve the longitude of all members from Larian Studios with an EC contribution of 2092966.1.
+(2) What is the longitude of project members who work in the "Larian Studios" department and have an EC contribution of 2092966.1?
+(3) Retrieve the longitude of all project members from the department "Larian Studios" with an EC contribution of 2092966.1.
+(4) Retrieve the longitude values for members of the project department "Larian Studios" with an EC contribution of 2092966.1 from the table "project_members".
+(5) Retrieve the longitude of project members from Larian Studios whose department name is "Larian Studios" and their EC contribution is 2092966.1.
+(6) Retrieve the longitude of all project members who belong to the department "Larian Studios" and have an EC contribution of 2092966.1.
+(7) Retrieve the longitude of members from the project_members table who belong to the department "Larian Studios" and have an EC contribution of 2092966.1.

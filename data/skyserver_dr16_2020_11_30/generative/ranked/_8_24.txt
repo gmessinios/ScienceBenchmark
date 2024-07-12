@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type != 6
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 WHERE T1.type != 6
+GPT-3 choices:
+(0) Find the neighbor mode of nearest neighbor objects where the type is not equal to 6.
+(1) Find the neighbor mode for objects in the neighbors table that have a type different than 6.
+(2) Retrieve the neighbor mode of nearest neighbor objects where the type is not equal to 6.
+(3) Retrieve the neighbor mode of all nearest neighbor objects from the neighbors table, excluding any objects with a type of 6.
+(4) Find the neighbor mode for all nearest neighbor objects that are not of type 6.
+(5) Find the neighbor mode of objects in the "neighbors" table where the type is not equal to 6.
+(6) Retrieve the neighbormode of all nearest neighbour objects from the neighbors table where the type is not equal to 6.
+(7) Find the mode of all neighbors in the 'neighbors' table that have a type value other than 6.
+
+
+Re-ranked choices:
+7.054  Find the neighbor mode for all nearest neighbor objects that are not of type 6.
+7.054  Find the neighbor mode of objects in the "neighbors" table where the type is not equal to 6.
+7.050  Find the neighbor mode of nearest neighbor objects where the type is not equal to 6.
+7.050  Retrieve the neighbor mode of nearest neighbor objects where the type is not equal to 6.
+7.029  Retrieve the neighbor mode of all nearest neighbor objects from the neighbors table, excluding any objects with a type of 6.
+5.635  Find the neighbor mode for objects in the neighbors table that have a type different than 6.
+5.628  Retrieve the neighbormode of all nearest neighbour objects from the neighbors table where the type is not equal to 6.
+4.244  Find the mode of all neighbors in the 'neighbors' table that have a type value other than 6.
+

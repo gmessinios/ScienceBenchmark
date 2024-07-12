@@ -1,0 +1,16 @@
+SELECT project_members.city FROM project_members AS project_members WHERE project_members.longitude = 19.2848063736712 or project_members.department_name = "Medical Engineering"
+
+###
+
+
+Original Query:
+SELECT T1.city FROM project_members AS T1 WHERE T1.longitude = 19.2848063736712 or T1.department_name = "Medical Engineering"
+GPT-3 choices:
+(0) "Retrieve the city of all project members whose longitude is equal to 19.2848063736712 or who are part of the Medical Engineering department."
+(1) Find the city of all project members whose longitude is 19.2848063736712 or department name is "Medical Engineering".
+(2) What is the city of the project member who has a longitude of 19.2848063736712 or a department name of "Medical Engineering"?
+(3) Retrieve the city for all project members whose longitude is equal to 19.2848063736712 or department name is equal to "Medical Engineering".
+(4) Retrieve the city of all project members whose longitude is 19.2848063736712 or who are part of the Medical Engineering department.
+(5) Retrieve the city of all project members whose longitude is equal to 19.2848063736712 or whose department name is "Medical Engineering".
+(6) Find the city of all project members whose longitude is equal to 19.2848063736712 or whose department name is "Medical Engineering".
+(7) Show me the city of all project members whose longitude is equal to 19.2848063736712 or whose department name is "Medical Engineering".

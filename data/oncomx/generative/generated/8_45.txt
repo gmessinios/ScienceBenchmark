@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.id FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_trade_name != "INSITE HER-2/NEU KIT"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda_test_use AS T1 WHERE T1.test_trade_name != "INSITE HER-2/NEU KIT"
+GPT-3 choices:
+(0) Retrieve the IDs of all biomarkers in use by the FDA, excluding those with a test trade name of "INSITE HER-2/NEU KIT".
+(1) What are the IDs of all biomarker FDA test uses that have a test trade name different from "INSITE HER-2/NEU KIT"?
+(2) Find the ID of all FDA approved biomarker tests where the test trade name is not "INSITE HER-2/NEU KIT".
+(3) Find the IDs of all biomarkers from FDA-approved tests that have a test trade name other than "INSITE HER-2/NEU KIT".
+(4) Find the id from biomarker_fda_test_use where the test trade name is not "INSITE HER-2/NEU KIT".
+(5) What is the ID of all the entries in biomarker_fda_test_use where test_trade_name is not equal to "INSITE HER-2/NEU KIT"?
+(6) What are the IDs of all biomarkers that do not have a test trade name of "INSITE HER-2/NEU KIT"?
+(7) What is the ID of the biomarker_fda_test_use record where the test_trade_name is not "INSITE HER-2/NEU KIT"?

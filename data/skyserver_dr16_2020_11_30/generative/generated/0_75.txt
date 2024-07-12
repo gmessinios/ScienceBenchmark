@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.plate FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.subclass = "A4 (G_165-39)"
+
+###
+
+
+Original Query:
+SELECT T1.plate FROM specobj AS T1 WHERE T1.subclass = "A4 (G_165-39)"
+GPT-3 choices:
+(0) Find the plate numbers from the specobj table for objects that have a subclass of "A4 (G_165-39)".
+(1) Find the plate number for all spectroscopic objects where the subclass is "A4 (G_165-39)".
+(2) What is the plate number of all spectroscopic objects with a subclass of "A4 (G_165-39)" in the specobj table?
+(3) Find the plate number of spectroscopic objects where the subclass is "A4 (G_165-39)".
+(4) What is the plate number for all spectroscopic objects that have a subclass of "A4 (G_165-39)"?
+(5) What are the plates for spectroscopic objects where the subclass is "A4 (G_165-39)"?
+(6) Find the plate number for all spectroscopic objects where the subclass is "A4 (G_165-39)".
+(7) Find the plate number for all spectroscopic objects with a subclass of A4 (G_165-39).

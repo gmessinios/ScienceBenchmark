@@ -1,0 +1,28 @@
+SELECT project_members.postal_code FROM project_members AS project_members WHERE project_members.unics_id = 620876
+
+###
+
+
+Original Query:
+SELECT T1.postal_code FROM project_members AS T1 WHERE T1.unics_id = 620876
+GPT-3 choices:
+(0) Get the postal code for the project member with a UNICS ID of 620876.
+(1) Find the postal code of a project member with the unics id 620876 from the project_members table.
+(2) Retrieve the postal code of all project members with a UNICS ID of 620876 from the project_members table.
+(3) Retrieve the postal code for the project member with the UNICS ID 620876 from the table project_members.
+(4) What is the postal code for the project member with a unics ID of 620876?
+(5) Find the postal code of the project member with the UNICS ID 620876 from the project_members table.
+(6) What is the postal code of the project member with a unics id of 620876?
+(7) Get the postal code of all project members who have a UNICS ID of 620876.
+
+
+Re-ranked choices:
+8.471  Get the postal code of all project members who have a UNICS ID of 620876.
+8.438  Retrieve the postal code of all project members with a UNICS ID of 620876 from the project_members table.
+7.077  Get the postal code for the project member with a UNICS ID of 620876.
+7.058  What is the postal code for the project member with a unics ID of 620876?
+7.048  What is the postal code of the project member with a unics id of 620876?
+7.041  Find the postal code of the project member with the UNICS ID 620876 from the project_members table.
+7.036  Find the postal code of a project member with the unics id 620876 from the project_members table.
+7.035  Retrieve the postal code for the project member with the UNICS ID 620876 from the table project_members.
+

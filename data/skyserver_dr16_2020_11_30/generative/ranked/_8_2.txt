@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.subclass FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.segue2_target1 != -2147483644
+
+###
+
+
+Original Query:
+SELECT T1.subclass FROM specobj AS T1 WHERE T1.segue2_target1 != -2147483644
+GPT-3 choices:
+(0) Find the subclass of all spectroscopic objects from the specobj table where segue2_target1 does not equal -2147483644.
+(1) Find the subclass values from the "specobj" table where the segue2_target1 column is not equal to -2147483644.
+(2) Retrieve the subclass of all spectroscopic objects from the specobj table where the segue2_target1 column is not equal to -2147483644.
+(3) Retrieve the subclass of spectroscopic objects from the table specobj where the target1 value is not equal to -2147483644.
+(4) Retrieve the subclass information for spectroscopic objects from the specobj table where segue2_target1 is not equal to -2147483644.
+(5) Find the subclass of all objects in the specobj table where segue2_target1 is not equal to -2147483644.
+(6) Retrieve the subclass of spectroscopic objects from the specobj table where the segue2_target1 column is not equal to -2147483644.
+(7) Retrieve the subclass of all spectroscopic objects from the specobj table where segue2_target1 does not equal -2147483644 in the Spectroscopic_objects table.
+
+
+Re-ranked choices:
+4.922  Retrieve the subclass of all spectroscopic objects from the specobj table where segue2_target1 does not equal -2147483644 in the Spectroscopic_objects table.
+4.231  Find the subclass of all spectroscopic objects from the specobj table where segue2_target1 does not equal -2147483644.
+4.229  Retrieve the subclass of spectroscopic objects from the table specobj where the target1 value is not equal to -2147483644.
+4.229  Retrieve the subclass of spectroscopic objects from the specobj table where the segue2_target1 column is not equal to -2147483644.
+4.228  Retrieve the subclass of all spectroscopic objects from the specobj table where the segue2_target1 column is not equal to -2147483644.
+4.224  Retrieve the subclass information for spectroscopic objects from the specobj table where segue2_target1 is not equal to -2147483644.
+2.841  Find the subclass of all objects in the specobj table where segue2_target1 is not equal to -2147483644.
+1.435  Find the subclass values from the "specobj" table where the segue2_target1 column is not equal to -2147483644.
+

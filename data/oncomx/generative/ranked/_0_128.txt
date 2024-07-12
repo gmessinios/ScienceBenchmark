@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.id = 2136
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 WHERE T1.id = 2136
+GPT-3 choices:
+(0) What is the feature key for the disease mutation site with an ID of 2136 in the disease mutation site annotation database?
+(1) What is the feature key for the disease mutation site annotation with an ID of 2136 in the disease mutation site annotation table?
+(2) What is the feature key of the disease mutation site annotation with an ID of 2136?
+(3) Retrieve the feature key from the disease mutation site annotation table where the id is equal to 2136.
+(4) What is the feature key of the disease mutation site annotation with an id of 2136?
+(5) What is the feature key for the disease mutation site annotation with an ID of 2136 in the table "disease_mutation_site_annotation"?
+(6) What is the feature key of the disease mutation site annotation with an ID of 2136 in the disease mutation site annotation table?
+(7) What is the feature key for the disease mutation site annotation with an ID of 2136?
+
+
+Re-ranked choices:
+9.842  What is the feature key of the disease mutation site annotation with an ID of 2136?
+9.842  What is the feature key for the disease mutation site annotation with an ID of 2136?
+9.837  What is the feature key of the disease mutation site annotation with an id of 2136?
+9.830  Retrieve the feature key from the disease mutation site annotation table where the id is equal to 2136.
+9.828  What is the feature key for the disease mutation site with an ID of 2136 in the disease mutation site annotation database?
+9.824  What is the feature key for the disease mutation site annotation with an ID of 2136 in the disease mutation site annotation table?
+9.824  What is the feature key of the disease mutation site annotation with an ID of 2136 in the disease mutation site annotation table?
+9.822  What is the feature key for the disease mutation site annotation with an ID of 2136 in the table "disease_mutation_site_annotation"?
+

@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Star: A self-luminous gaseous celestial body."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Star: A self-luminous gaseous celestial body."
+GPT-3 choices:
+(0) Retrieve the names of all stars from the table "photo_type" where the description is "Star: A self-luminous gaseous celestial body."
+(1) Get the names of all photometrically observed objects that are described as stars, which are self-luminous gaseous celestial bodies.
+(2) Retrieve the name of any celestial body that is described as a star and has been observed using photometric techniques.
+(3) What are the names of all objects that have been observed as stars?
+(4) Return the name of all celestial bodies that are considered stars.
+(5) "Retrieve the names of stars from the photo_type table that are described as self-luminous gaseous celestial bodies."
+(6) What are the names of stars that have been observed photometrically?
+(7) Find the names of all objects that have a description of "Star: A self-luminous gaseous celestial body.".

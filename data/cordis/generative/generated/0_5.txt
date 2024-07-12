@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.rcn = "16392"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.rcn = "16392"
+GPT-3 choices:
+(0) Retrieve the code for a topic with the research council number of 16392 from the topics table.
+(1) Find the code for the topic with an rcn value of "16392" in the topics table.
+(2) Retrieve the code for topics with an RCN value of "16392" from the table topics.
+(3) What is the code for the topic with the rcn number of 16392?
+(4) Find the code for the topic with the RCN number of 16392 from the table named "topics".
+(5) What is the code for the topic with an rcn value of "16392" in the table named "topics"?
+(6) Retrieve the code for the topic with the RCN number of 16392 from the topics table.
+(7) What is the code for the topic with an RCN of 16392 in the Topics table?

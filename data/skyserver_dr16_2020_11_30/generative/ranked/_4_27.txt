@@ -1,0 +1,25 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.subclass = "F2III (89254)"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.subclass = "F2III (89254)"
+GPT-3 choices:
+(0) How many spectroscopic objects have the subclass "F2III (89254)"?
+(1) How many objects are there in the Spectroscopic_objects table that have a subclass value of "F2III (89254)"?
+(2) "How many spectroscopic objects are classified as a F2III (89254) subclass?"
+(3) How many spectroscopic objects have a subclass of "F2III (89254)"?
+(4) How many spectroscopic objects are classified as F2III (89254)?
+(5) How many spectroscopic objects have a subclass of "F2III (89254)"?
+(6) How many spectroscopic objects have a subclass of "F2III (89254)"?
+(7) How many spectroscopic objects have a subclass of "F2III (89254)"?
+
+
+Re-ranked choices:
+5.642  How many spectroscopic objects have a subclass of "F2III (89254)"?
+5.637  How many spectroscopic objects have the subclass "F2III (89254)"?
+4.934  How many objects are there in the Spectroscopic_objects table that have a subclass value of "F2III (89254)"?
+4.234  "How many spectroscopic objects are classified as a F2III (89254) subclass?"
+3.533  How many spectroscopic objects are classified as F2III (89254)?
+

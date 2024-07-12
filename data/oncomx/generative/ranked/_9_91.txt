@@ -1,0 +1,28 @@
+SELECT species.speciescommonname FROM species AS species JOIN xref_gene_ensembl AS xref_gene_ensembl ON species.speciesid = xref_gene_ensembl.speciesid WHERE xref_gene_ensembl.speciesid != 9606
+
+###
+
+
+Original Query:
+SELECT T1.speciescommonname FROM species AS T1 JOIN xref_gene_ensembl AS T2 ON T1.speciesid = T2.speciesid WHERE T2.speciesid != 9606
+GPT-3 choices:
+(0) Retrieve the common names of all species that do not have a species ID of 9606 in the xref_gene_ensembl table.
+(1) Which species have a common name that is not "Human"?
+(2) Find the common names of all species from the xref_gene_ensembl table, excluding those with a species ID of 9606.
+(3) Which species' common names are not "Homo sapiens"?
+(4) Retrieve the common names of all species from the "species" table, excluding those with a species ID of 9606, which can be found in both the "species" and "xref_gene_ensembl" tables.
+(5) Get the common names of all species that are not Homo sapiens, but have corresponding entries in the xref_gene_ensembl table.
+(6) List all common names of species that are not human and have an Ensembl gene ID associated with them.
+(7) What are the common names of species that have a different ID than 9606 in the xref_gene_ensembl table, and what is their corresponding species ID?
+
+
+Re-ranked choices:
+4.232  List all common names of species that are not human and have an Ensembl gene ID associated with them.
+1.520  Which species have a common name that is not "Human"?
+1.473  Which species' common names are not "Homo sapiens"?
+1.435  Retrieve the common names of all species that do not have a species ID of 9606 in the xref_gene_ensembl table.
+1.432  Find the common names of all species from the xref_gene_ensembl table, excluding those with a species ID of 9606.
+1.426  What are the common names of species that have a different ID than 9606 in the xref_gene_ensembl table, and what is their corresponding species ID?
+1.425  Get the common names of all species that are not Homo sapiens, but have corresponding entries in the xref_gene_ensembl table.
+1.424  Retrieve the common names of all species from the "species" table, excluding those with a species ID of 9606, which can be found in both the "species" and "xref_gene_ensembl" tables.
+

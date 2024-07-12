@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Cloppenburg" and eu_territorial_units.nuts_version = "2016"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.description = "Cloppenburg" and T1.nuts_version = "2016"
+GPT-3 choices:
+(0) Which geocode level is associated with the Cloppenburg territorial unit in the 2016 NUTS version?
+(1) What is the geocode level for the EU territorial unit "Cloppenburg" in the NUTS version of 2016?
+(2) Find the geocode level of Cloppenburg in the EU territorial units dataset for the NUTS version 2016.
+(3) What is the geocode level of the EU territorial unit with a description of "Cloppenburg" and a NUTS version of 2016?
+(4) Get the geocode level of "Cloppenburg" from the EU territorial units table where the nuts version is "2016".
+(5) Retrieve the geocode level from the EU territorial units table where the description is "Cloppenburg" and the NUTS version is "2016".
+(6) Retrieve the geographic code level for the territory of Cloppenburg in the European Union's territorial units, where the description is "Cloppenburg" and the NUTS version is "2016".
+(7) What is the geocode level for Cloppenburg in the 2016 NUTS version of EU territorial units?
+
+
+Re-ranked choices:
+11.924  Retrieve the geocode level from the EU territorial units table where the description is "Cloppenburg" and the NUTS version is "2016".
+10.531  Find the geocode level of Cloppenburg in the EU territorial units dataset for the NUTS version 2016.
+10.530  Get the geocode level of "Cloppenburg" from the EU territorial units table where the nuts version is "2016".
+10.527  What is the geocode level of the EU territorial unit with a description of "Cloppenburg" and a NUTS version of 2016?
+9.132  What is the geocode level for Cloppenburg in the 2016 NUTS version of EU territorial units?
+9.131  What is the geocode level for the EU territorial unit "Cloppenburg" in the NUTS version of 2016?
+7.716  Retrieve the geographic code level for the territory of Cloppenburg in the European Union's territorial units, where the description is "Cloppenburg" and the NUTS version is "2016".
+6.324  Which geocode level is associated with the Cloppenburg territorial unit in the 2016 NUTS version?
+

@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.fiberid != 446
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.fiberid != 446
+GPT-3 choices:
+(0) Retrieve the specobjid from the Emission_line_estimates table where the fiberid in the Spectroscopic_objects table is not equal to 446.
+(1) "Select the specobjid from galspecline where the corresponding fiberid in specobj is not equal to 446."
+(2) Find the specobjid for all Emission_line_estimates where the corresponding Spectroscopic_objects do not have a fiberid of 446.
+(3) Retrieve the specobjid from Emission_line_estimates where the fiberid is not equal to 446 in the corresponding entry in Spectroscopic_objects.
+(4) Retrieve the specobjid values from the galspecline table where the corresponding fiberid value in the specobj table is not equal to 446.
+(5) Find the specobjid of all Spectroscopic_objects that have an Emission_line_estimate and do not have a fiberid of 446.
+(6) Find the specobjid from the Emission_line_estimates table where the fiberid is not equal to 446 in the Spectroscopic_objects table.
+(7) Retrieve the specobjid values from the Emission_line_estimates table where the corresponding Spectroscopic_objects.fiberid value is not equal to 446.
+
+
+Re-ranked choices:
+1.424  Retrieve the specobjid from the Emission_line_estimates table where the fiberid in the Spectroscopic_objects table is not equal to 446.
+1.424  Find the specobjid from the Emission_line_estimates table where the fiberid is not equal to 446 in the Spectroscopic_objects table.
+1.423  Find the specobjid for all Emission_line_estimates where the corresponding Spectroscopic_objects do not have a fiberid of 446.
+0.727  Find the specobjid of all Spectroscopic_objects that have an Emission_line_estimate and do not have a fiberid of 446.
+0.724  Retrieve the specobjid values from the Emission_line_estimates table where the corresponding Spectroscopic_objects.fiberid value is not equal to 446.
+0.722  Retrieve the specobjid from Emission_line_estimates where the fiberid is not equal to 446 in the corresponding entry in Spectroscopic_objects.
+0.027  "Select the specobjid from galspecline where the corresponding fiberid in specobj is not equal to 446."
+0.020  Retrieve the specobjid values from the galspecline table where the corresponding fiberid value in the specobj table is not equal to 446.
+

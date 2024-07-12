@@ -1,0 +1,16 @@
+SELECT disease_mutation_article.pmid FROM disease_mutation_article AS disease_mutation_article JOIN disease_mutation AS disease_mutation ON disease_mutation_article.disease_mutation_id = disease_mutation.id WHERE disease_mutation.chromosome_pos != 287568
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM disease_mutation_article AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.chromosome_pos != 287568
+GPT-3 choices:
+(0) Get the PMID numbers from the disease_mutation_article table where the chromosome position in the corresponding disease_mutation entry is not equal to 287568.
+(1) Retrieve the PMID values from the disease_mutation_article table for articles related to disease mutations with chromosome positions not equal to 287568.
+(2) Retrieve the PMID of articles associated with disease mutations that do not have a chromosome position of 287568.
+(3) Retrieve the PubMed ID of articles discussing disease-mutation associations, excluding those with a specific chromosome position.
+(4) Find the PMID of articles related to disease mutations that do not have a chromosome position at 287568.
+(5) Retrieve the PubMed ID for articles on disease mutations that do not have a specific chromosome position.
+(6) Find the PubMed ID of articles that have a disease mutation that is not located at chromosome position 287568.
+(7) Find the PubMed IDs for articles associated with disease mutations that do not have a chromosome position of 287568.

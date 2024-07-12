@@ -1,0 +1,16 @@
+SELECT species.species, count(*) FROM species AS species  GROUP BY species.species
+
+###
+
+
+Original Query:
+SELECT T1.species, count(*) FROM species AS T1  GROUP BY T1.species
+GPT-3 choices:
+(0) "Count the number of occurrences for each species in the species table and display the result along with the corresponding species name."
+(1) Count the number of occurrences for each species name in the "species" table and display the species name along with its corresponding count.
+(2) What is the count of all species grouped by their respective species?
+(3) How many times does each species appear in the "species" table?
+(4) How many occurrences are there for each species in the table called "species"?
+(5) How many different species are there and how many individual entries are there for each species?
+(6) Get a count of the number of rows in the "species" table grouped by each distinct species.
+(7) How many times does each species appear in the table of species?

@@ -1,0 +1,16 @@
+SELECT count(*) FROM topics AS topics WHERE topics.rcn = "17906"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics AS T1 WHERE T1.rcn = "17906"
+GPT-3 choices:
+(0) How many topics have an RCN value of 17906?
+(1) How many rows are in the "topics" table where the value of the "rcn" column is equal to 17906?
+(2) How many topics are there in the topics table with the rcn value of "17906"?
+(3) How many topics are there in the database with the rcn value of 17906?
+(4) How many rows are there in the "topics" table where the "rcn" column has a value of 17906?
+(5) How many topics have an RCN of 17906 in the table?
+(6) How many records are there in the topics table where the rcn value is "17906"?
+(7) How many records are there in the topics table with an rcn value of 17906?

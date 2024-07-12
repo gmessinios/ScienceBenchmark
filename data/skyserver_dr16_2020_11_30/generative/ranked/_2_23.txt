@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.subclass, count(*) FROM specobj AS Spectroscopic_objects  GROUP BY Spectroscopic_objects.subclass
+
+###
+
+
+Original Query:
+SELECT T1.subclass, count(*) FROM specobj AS T1  GROUP BY T1.subclass
+GPT-3 choices:
+(0) "Find the number of occurrences for each subclass in the 'Spectroscopic_objects' table in the 'specobj' database."
+(1) Find the subclass of spectroscopic objects and count the number of occurrences for each subclass in the specobj table.
+(2) "How many objects have been categorized by subclass and what is the total count for each subclass in the Spectroscopic_objects table of the specobj database?"
+(3) Count the number of objects in the "specobj" table grouped by their subclass, and select the subclass and its corresponding count.
+(4) Count the number of objects in the Spectroscopic_objects table, grouped by subclass.
+(5) How many instances of each subclass exist in the spectroscopic objects table?
+(6) Count the number of objects in the table "specobj" and group them based on their subclass, then list the subclasses and their corresponding counts.
+(7) Count the number of objects with their respective subclass from the specobj table and group them together by subclass.
+
+
+Re-ranked choices:
+4.233  How many instances of each subclass exist in the spectroscopic objects table?
+4.229  Find the subclass of spectroscopic objects and count the number of occurrences for each subclass in the specobj table.
+4.223  "How many objects have been categorized by subclass and what is the total count for each subclass in the Spectroscopic_objects table of the specobj database?"
+3.530  Count the number of objects in the "specobj" table grouped by their subclass, and select the subclass and its corresponding count.
+3.529  Count the number of objects with their respective subclass from the specobj table and group them together by subclass.
+2.833  Count the number of objects in the Spectroscopic_objects table, grouped by subclass.
+2.129  "Find the number of occurrences for each subclass in the 'Spectroscopic_objects' table in the 'specobj' database."
+1.427  Count the number of objects in the table "specobj" and group them based on their subclass, then list the subclasses and their corresponding counts.
+

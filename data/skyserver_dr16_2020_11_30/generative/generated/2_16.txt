@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.mjd, count(*) FROM specobj AS Spectroscopic_objects  GROUP BY Spectroscopic_objects.mjd
+
+###
+
+
+Original Query:
+SELECT T1.mjd, count(*) FROM specobj AS T1  GROUP BY T1.mjd
+GPT-3 choices:
+(0) "Retrieve the count of spectroscopic objects for each distinct modified Julian date (mjd) from the specobj table."
+(1) Find the count of rows grouped by mjd in the specobj table and label it as Spectroscopic_objects.
+(2) Count the number of objects for each MJD value in the Spectroscopic_objects table.
+(3) How many objects were observed on each MJD (modified Julian date) and how many of those objects were observed in total, from the table named "specobj" with the alias "Spectroscopic_objects"?
+(4) Count the number of rows in the specobj table grouped by mjd and display the mjd value and count for each group.
+(5) "What is the total count of spectroscopic objects for each MJD (Modified Julian Date) value in the specobj table?"
+(6) What is the number of spectroscopic objects and their corresponding Modified Julian Date (mjd) values in the specobj table grouped by mjd?
+(7) What is the count of all records grouped by the mjd value in the specobj table?

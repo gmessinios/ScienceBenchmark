@@ -1,0 +1,28 @@
+SELECT biomarker_fda_drug.biomarker_fda_id FROM biomarker_fda_drug AS biomarker_fda_drug JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_drug.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_submission != "P140023"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_drug AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_submission != "P140023"
+GPT-3 choices:
+(0) "Retrieve the biomarker FDA IDs from the table of biomarker FDA drugs, where the corresponding test submission in the parent table of biomarker FDA is not equal to "P140023"."
+(1) Find the FDA IDs for biomarker drugs that have not undergone test submission P140023.
+(2) Find the biomarker FDA ID for drugs listed in biomarker FDA that are not test submissions for P140023.
+(3) "Find the FDA biomarker IDs for biomarkers that have not been submitted for test approval under the P140023 submission."
+(4) Find the biomarker FDA ID from the table of biomarkers FDA drugs, where the test submission is not equal to "P140023".
+(5) Get the ID of all biomarkers associated with FDA-approved drugs, excluding any biomarker associated with a test submission that is not "P140023".
+(6) What are the biomarker FDA IDs for biomarkers that have not undergone the test submission with code "P140023"?
+(7) Show me the FDA biomarker IDs for biomarkers that are not associated with test submission "P140023".
+
+
+Re-ranked choices:
+7.744  Find the biomarker FDA ID from the table of biomarkers FDA drugs, where the test submission is not equal to "P140023".
+6.344  What are the biomarker FDA IDs for biomarkers that have not undergone the test submission with code "P140023"?
+6.336  Show me the FDA biomarker IDs for biomarkers that are not associated with test submission "P140023".
+6.323  Get the ID of all biomarkers associated with FDA-approved drugs, excluding any biomarker associated with a test submission that is not "P140023".
+6.323  "Retrieve the biomarker FDA IDs from the table of biomarker FDA drugs, where the corresponding test submission in the parent table of biomarker FDA is not equal to "P140023"."
+5.647  Find the FDA IDs for biomarker drugs that have not undergone test submission P140023.
+5.644  Find the biomarker FDA ID for drugs listed in biomarker FDA that are not test submissions for P140023.
+4.936  "Find the FDA biomarker IDs for biomarkers that have not been submitted for test approval under the P140023 submission."
+

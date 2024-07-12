@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Star: A self-luminous gaseous celestial body." and photometrically_observed.value = 2
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Star: A self-luminous gaseous celestial body." and T1.value = 2
+GPT-3 choices:
+(0) Retrieve the name of all stars that have a photometrically observed value of 2 and are described as self-luminous gaseous celestial bodies.
+(1) Find the names of all celestial bodies that are described as stars and have a photometric value of 2.
+(2) Retrieve the names of all stars that have a photometric observation value of 2 and are described as self-luminous gaseous celestial bodies.
+(3) Which names are associated with stars that have a photometric value of 2 and a description of "Star: A self-luminous gaseous celestial body."?
+(4) Find the names of stars that have been observed photometrically and have a value of 2 for being a self-luminous gaseous celestial body.
+(5) Retrieve the names of all stars that have been observed to be photometrically observed, where their description is "A self-luminous gaseous celestial body" and their value is 2.
+(6) Retrieve the names of stars that have a photometric observation type with a description of "Star: A self-luminous gaseous celestial body" and a value of 2.
+(7) Get the names of stars that have a photo type value of 2 and are described as "Star: A self-luminous gaseous celestial body."
+
+
+Re-ranked choices:
+9.121  Retrieve the names of all stars that have been observed to be photometrically observed, where their description is "A self-luminous gaseous celestial body" and their value is 2.
+8.423  Retrieve the name of all stars that have a photometrically observed value of 2 and are described as self-luminous gaseous celestial bodies.
+7.024  Find the names of stars that have been observed photometrically and have a value of 2 for being a self-luminous gaseous celestial body.
+7.022  Retrieve the names of stars that have a photometric observation type with a description of "Star: A self-luminous gaseous celestial body" and a value of 2.
+6.322  Which names are associated with stars that have a photometric value of 2 and a description of "Star: A self-luminous gaseous celestial body."?
+4.934  Get the names of stars that have a photo type value of 2 and are described as "Star: A self-luminous gaseous celestial body."
+4.223  Retrieve the names of all stars that have a photometric observation value of 2 and are described as self-luminous gaseous celestial bodies.
+2.836  Find the names of all celestial bodies that are described as stars and have a photometric value of 2.
+

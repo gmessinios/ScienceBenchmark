@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics WHERE topics.code = "ENERGY-2007-3.1-02" or topics.rcn = "703544"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.code = "ENERGY-2007-3.1-02" or T1.rcn = "703544"
+GPT-3 choices:
+(0) Retrieve the title of a topic with the code "ENERGY-2007-3.1-02" or RCN "703544" from the topics table.
+(1) Find the title of the topic with a code of "ENERGY-2007-3.1-02" or an RCN of "703544".
+(2) Retrieve the title of a topic from the "topics" table where the code is "ENERGY-2007-3.1-02" or the rcn is "703544".
+(3) Find the title of a topic where the code is "ENERGY-2007-3.1-02" or the RCN is "703544".
+(4) What is the title of the topic with code "ENERGY-2007-3.1-02" or RCN "703544"?
+(5) Retrieve the title of the topic where the code is "ENERGY-2007-3.1-02" or the RCN is "703544".
+(6) Retrieve the title of the topic where the code is "ENERGY-2007-3.1-02" or the RCN is "703544".
+(7) Retrieve the title of the topic with code "ENERGY-2007-3.1-02" or RCN "703544" from the table "topics".

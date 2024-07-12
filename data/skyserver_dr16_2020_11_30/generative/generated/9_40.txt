@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.description != "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.description != "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+GPT-3 choices:
+(0) What is the type of the nearest neighbor objects that are not blank sky spectrograms?
+(1) Find the type of nearest neighbor objects that have been observed photometrically and are not described as a blank sky spectrogram.
+(2) "Retrieve the type of nearest neighbor objects where the photometric observation is not a blank sky spectrogram."
+(3) Retrieve the type of the nearest neighbors that are not blank sky spectrograms.
+(4) Find the type of nearest neighbor objects that were not observed as blank sky spectrograms.
+(5) Get the type of nearest neighbour objects from the neighbors table where the neighbortype value matches with the value in photometrically_observed column of photo_type table, excluding those with a description of "Sky: Blank sky spectrogram (no objects in this arcsecond area)".
+(6) Retrieve the type of nearest neighbor objects where the description of photometrically observed objects is not "Sky: Blank sky spectrogram (no objects in this arcsecond area)".
+(7) Find the types of objects that are neighbors in a spectrogram, excluding blank sky spectrograms.

@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.ancillary_target1 FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.loadversion DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.ancillary_target1 FROM specobj AS T1    ORDER BY T1.loadversion DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the ancillary target 1 value for the most recent load version of all spectroscopic objects in ascending order.
+(1) What is the most recent ancillary target 1 associated with a spectroscopic object in the specobj table, ordered by loadversion in descending order and limited to 1 result?
+(2) What is the most recent ancillary target 1 from the spectroscopic objects in the table specobj, ordered by load version and limited to only 1 result?
+(3) What is the ancillary target 1 of the most recent version of spectroscopic objects in the specobj table?
+(4) "Select the value in the 'ancillary_target1' column for the most recently loaded row in the 'specobj' table."
+(5) Give me the first value from the "ancillary_target1" column of the "specobj" table, sorted in descending order by the "loadversion" column, with a limit of 1 result.
+(6) Get the most recent ancillary target 1 value from the specobj table in descending order and limit the result to 1 row.
+(7) "What is the most recent ancillary target1 for all objects in the specobj table ordered by their loadversion?"
+
+
+Re-ranked choices:
+6.321  What is the most recent ancillary target 1 from the spectroscopic objects in the table specobj, ordered by load version and limited to only 1 result?
+5.625  Retrieve the ancillary target 1 value for the most recent load version of all spectroscopic objects in ascending order.
+4.227  What is the ancillary target 1 of the most recent version of spectroscopic objects in the specobj table?
+3.527  "What is the most recent ancillary target1 for all objects in the specobj table ordered by their loadversion?"
+2.116  What is the most recent ancillary target 1 associated with a spectroscopic object in the specobj table, ordered by loadversion in descending order and limited to 1 result?
+1.426  Get the most recent ancillary target 1 value from the specobj table in descending order and limit the result to 1 row.
+0.719  Give me the first value from the "ancillary_target1" column of the "specobj" table, sorted in descending order by the "loadversion" column, with a limit of 1 result.
+0.028  "Select the value in the 'ancillary_target1' column for the most recently loaded row in the 'specobj' table."
+

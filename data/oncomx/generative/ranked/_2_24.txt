@@ -1,0 +1,28 @@
+SELECT biomarker_article.biomarker_internal_id, count(*) FROM biomarker_article AS biomarker_article  GROUP BY biomarker_article.biomarker_internal_id
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id, count(*) FROM biomarker_article AS T1  GROUP BY T1.biomarker_internal_id
+GPT-3 choices:
+(0) Count the number of articles associated with each biomarker's internal ID from the table "biomarker_article".
+(1) How many articles are associated with each biomarker in the biomarker_article table?
+(2) Count the number of articles for each unique biomarker internal ID in the table "biomarker_article".
+(3) How many articles are associated with each unique biomarker internal ID in the biomarker_article table?
+(4) How many articles are associated with each biomarker's internal ID in the "biomarker_article" table?
+(5) Get the number of articles for each biomarker and its internal ID from the table "biomarker_article".
+(6) How many articles are associated with each biomarker, grouped by their internal ID?
+(7) Count the number of articles associated with each biomarker and group the results by biomarker internal ID.
+
+
+Re-ranked choices:
+4.232  Get the number of articles for each biomarker and its internal ID from the table "biomarker_article".
+4.229  Count the number of articles for each unique biomarker internal ID in the table "biomarker_article".
+4.224  How many articles are associated with each biomarker's internal ID in the "biomarker_article" table?
+4.224  Count the number of articles associated with each biomarker's internal ID from the table "biomarker_article".
+4.224  How many articles are associated with each unique biomarker internal ID in the biomarker_article table?
+3.527  Count the number of articles associated with each biomarker and group the results by biomarker internal ID.
+2.132  How many articles are associated with each biomarker, grouped by their internal ID?
+1.426  How many articles are associated with each biomarker in the biomarker_article table?
+

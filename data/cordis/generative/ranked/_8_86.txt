@@ -1,0 +1,28 @@
+SELECT institutions.unics_id FROM institutions AS institutions WHERE institutions.wikidata_url != "http://www.wikidata.org/wiki/Q5985669"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM institutions AS T1 WHERE T1.wikidata_url != "http://www.wikidata.org/wiki/Q5985669"
+GPT-3 choices:
+(0) Find the unique identifier of institutions where their wikidata URL is not equal to "http://www.wikidata.org/wiki/Q5985669".
+(1) Get the UNICS ID of institutions from the table "institutions" excluding those with a Wikidata URL of "http://www.wikidata.org/wiki/Q5985669".
+(2) Find the unique institution ID for all institutions that have a Wikidata URL different from "http://www.wikidata.org/wiki/Q5985669".
+(3) Find the unique identifier for institutions in the table "institutions" where the value of their Wikidata URL is not equal to "http://www.wikidata.org/wiki/Q5985669".
+(4) Retrieve the unique ID of institutions from the table "institutions" where the column "wikidata_url" is not equal to "http://www.wikidata.org/wiki/Q5985669".
+(5) Find the unics_id for institutions where the wikidata_url is not equal to "http://www.wikidata.org/wiki/Q5985669".
+(6) Find the unique ID of institutions that have a Wikidata URL different from "http://www.wikidata.org/wiki/Q5985669".
+(7) Get the unique ID for institutions from the table institutions, where the wikidata URL is not equal to "http://www.wikidata.org/wiki/Q5985669".
+
+
+Re-ranked choices:
+7.022  Get the UNICS ID of institutions from the table "institutions" excluding those with a Wikidata URL of "http://www.wikidata.org/wiki/Q5985669".
+5.627  Find the unique ID of institutions that have a Wikidata URL different from "http://www.wikidata.org/wiki/Q5985669".
+5.623  Get the unique ID for institutions from the table institutions, where the wikidata URL is not equal to "http://www.wikidata.org/wiki/Q5985669".
+5.623  Find the unique institution ID for all institutions that have a Wikidata URL different from "http://www.wikidata.org/wiki/Q5985669".
+4.224  Find the unique identifier of institutions where their wikidata URL is not equal to "http://www.wikidata.org/wiki/Q5985669".
+4.221  Find the unique identifier for institutions in the table "institutions" where the value of their Wikidata URL is not equal to "http://www.wikidata.org/wiki/Q5985669".
+2.822  Retrieve the unique ID of institutions from the table "institutions" where the column "wikidata_url" is not equal to "http://www.wikidata.org/wiki/Q5985669".
+1.424  Find the unics_id for institutions where the wikidata_url is not equal to "http://www.wikidata.org/wiki/Q5985669".
+

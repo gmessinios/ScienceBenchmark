@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Interdisciplinary'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Interdisciplinary'
+GPT-3 choices:
+(0) How many research domains are there in the Europe research and study region that have a description that is different from the Europe research and study region?
+(1) What is the code of the ERC research domain with description Interdisciplinary?
+(2) Show me all research domains with description Interdisciplinary
+(3) What is the code of the research domain about interdisciplinary research?
+(4) Show me erc research domains whose description is Interdisciplinary.
+(5) Show me the erc research domains with description Interdisciplinary.
+(6) How many research domains have the description Interdisciplinary?
+(7) Save the ERC research domain with code Interdisciplinary
+
+
+Re-ranked choices:
+5.629  What is the code of the ERC research domain with description Interdisciplinary?
+5.624  Show me erc research domains whose description is Interdisciplinary.
+5.624  Show me the erc research domains with description Interdisciplinary.
+4.930  Save the ERC research domain with code Interdisciplinary
+4.924  Show me all research domains with description Interdisciplinary
+4.226  How many research domains are there in the Europe research and study region that have a description that is different from the Europe research and study region?
+4.224  How many research domains have the description Interdisciplinary?
+3.534  What is the code of the research domain about interdisciplinary research?
+

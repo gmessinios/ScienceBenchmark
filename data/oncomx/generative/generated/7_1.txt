@@ -1,0 +1,16 @@
+SELECT disease_mutation.data_source FROM disease_mutation AS disease_mutation WHERE disease_mutation.chromosome_id = "8" or disease_mutation.ensembl_transcript_id = "ENST00000181383"
+
+###
+
+
+Original Query:
+SELECT T1.data_source FROM disease_mutation AS T1 WHERE T1.chromosome_id = "8" or T1.ensembl_transcript_id = "ENST00000181383"
+GPT-3 choices:
+(0) What are the data sources associated with disease mutations located on chromosome 8 or belonging to the Ensembl transcript with ID ENST00000181383?
+(1) Retrieve the data source from the disease mutation database where the chromosome ID is 8 or the Ensembl transcript ID is ENST00000181383.
+(2) Find the data source for a disease mutation where the chromosome ID is 8 or the Ensembl transcript ID is ENST00000181383.
+(3) What is the data source for all disease mutations on chromosome 8 or associated with Ensembl transcript ID ENST00000181383?
+(4) Retrieve the data source from the disease mutation table for records with a chromosome ID of 8 or an ENST00000181383 Ensembl transcript ID.
+(5) Retrieve the data source from disease mutations where the chromosome ID is 8 or the Ensembl transcript ID is ENST00000181383.
+(6) What is the data source for disease mutations located on chromosome 8 or associated with the Ensembl transcript ID ENST00000181383?
+(7) Retrieve the data source from the disease mutation table where the chromosome ID is equal to "8" or the Ensembl transcript ID is equal to "ENST00000181383".

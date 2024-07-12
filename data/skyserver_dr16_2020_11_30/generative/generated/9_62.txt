@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.loadversion FROM specobj AS Spectroscopic_objects JOIN spplines AS Stellar_spectal_line_indices ON Spectroscopic_objects.specobjid = Stellar_spectal_line_indices.specobjid WHERE Stellar_spectal_line_indices.specobjid != 310762150211643392
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM specobj AS T1 JOIN spplines AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid != 310762150211643392
+GPT-3 choices:
+(0) What is the load version for the spectroscopic objects where the specobjid does not equal 310762150211643392 in the specobj table and is also present in the spplines table with a matching specobjid?
+(1) Get the load version for the spectroscopic object with a specobjid of 310762150211643392 from the Stellar_spectral_line_indices table joined with the Spectroscopic_objects table.
+(2) Find the loadversion for the Spectroscopic_objects where the specobjid is not equal to 310762150211643392 and it is joined with spplines using Stellar_spectal_line_indices.
+(3) What is the version number of the loaded data from the spectroscopic_objects table for a given specobjid if it is not equal to 310762150211643392 and is joined with the spplines table on the same specobjid?
+(4) Find the load version of the spectroscopic object where the specobjid does not equal 310762150211643392, by joining the tables specobj and spplines and selecting from Spectroscopic_objects.
+(5) Find the load version of the spectroscopic objects for which the specobjid is not equal to 310762150211643392 and are also present in the spplines table.
+(6) Retrieve the load version from the Spectroscopic_objects table for all rows where the specobjid does not equal 310762150211643392 and has a matching specobjid in the spplines table.
+(7) Retrieve the loadversion from Spectroscopic_objects where the specobjid is not equal to 310762150211643392 in Stellar_spectal_line_indices.

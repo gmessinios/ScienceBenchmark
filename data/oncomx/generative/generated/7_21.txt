@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_submission FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name = "Therascreen KRAS RGQ PCR Kit" or biomarker_fda_test_trial.test_trial_id = "NCT00339183/NCT00079066"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name = "Therascreen KRAS RGQ PCR Kit" or T1.test_trial_id = "NCT00339183/NCT00079066"
+GPT-3 choices:
+(0) Retrieve the test submissions from the biomarker FDA test trial for either the "Therascreen KRAS RGQ PCR Kit" trade name or trial ID "NCT00339183/NCT00079066".
+(1) Retrieve the test submission from the biomarker FDA test trial database for either the "Therascreen KRAS RGQ PCR Kit" trade name or the combined NCT00339183 and NCT00079066 trial IDs.
+(2) Retrieve the test submission from the biomarker FDA test trial where either the test trade name is "Therascreen KRAS RGQ PCR Kit" or the test trial ID is "NCT00339183/NCT00079066".
+(3) Retrieve the test submission from the biomarker FDA test trial for either the "Therascreen KRAS RGQ PCR Kit" trade name or the "NCT00339183/NCT00079066" trial ID.
+(4) Retrieve the test submission from the FDA biomarker trial database for either the Therascreen KRAS RGQ PCR Kit or the clinical trial with IDs NCT00339183 and NCT00079066.
+(5) Find the test submission for the biomarker FDA test trial with a test trade name of "Therascreen KRAS RGQ PCR Kit" or a test trial ID of "NCT00339183/NCT00079066".
+(6) Find the test submission from the Therascreen KRAS RGQ PCR Kit or NCT00339183/NCT00079066 trials in the biomarker_fda_test_trial table.
+(7) Retrieve the test submission from the biomarker_fda_test_trial table where the test trade name is "Therascreen KRAS RGQ PCR Kit" or the test trial ID is "NCT00339183/NCT00079066".

@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue JOIN anatomical_entity AS anatomical_entity ON disease_mutation_tissue.uberon_anatomical_id = anatomical_entity.id WHERE anatomical_entity.id != "UBERON:0002298"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 JOIN anatomical_entity AS T2 ON T1.uberon_anatomical_id = T2.id WHERE T2.id != "UBERON:0002298"
+GPT-3 choices:
+(0) Retrieve the anatomical entity IDs from the table disease_mutation_tissue, excluding "UBERON:0002298", by joining it with the anatomical_entity table.
+(1) Get the unique Uberon anatomical IDs from the disease_mutation_tissue table where the ID is not "UBERON:0002298", by joining it with the anatomical_entity table.
+(2) Retrieve the UBERON anatomical IDs from disease-mutation-tissue where the corresponding anatomical entities are not equal to "UBERON:0002298".
+(3) "Retrieve the Uberon anatomical identifier for all disease-mutation-tissue associations, excluding those with the UBERON:0002298 anatomical entity."
+(4) Find the Uberon anatomical IDs from the disease_mutation_tissue table, excluding those that are equal to "UBERON:0002298", by joining it with the anatomical_entity table.
+(5) Retrieve the uberon anatomical ID from the disease_mutation_tissue table for all entries except those with an id of "UBERON:0002298", by joining it with the anatomical_entity table.
+(6) Retrieve the Uberon anatomical IDs from the table "disease_mutation_tissue" that correspond to anatomical entities in the table "anatomical_entity", excluding those with ID "UBERON:0002298".
+(7) Get the UBERON anatomical IDs from the disease_mutation_tissue table, excluding the ID for "UBERON:0002298", by joining it with the anatomical_entity table and comparing their IDs.

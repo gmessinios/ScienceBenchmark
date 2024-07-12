@@ -1,0 +1,28 @@
+SELECT healthy_expression.uberon_developmental_id, count(*) FROM healthy_expression AS healthy_expression  GROUP BY healthy_expression.uberon_developmental_id
+
+###
+
+
+Original Query:
+SELECT T1.uberon_developmental_id, count(*) FROM healthy_expression AS T1  GROUP BY T1.uberon_developmental_id
+GPT-3 choices:
+(0) Count the number of healthy expression entries for each uberon developmental ID and group them by uberon developmental ID.
+(1) How many counts are there for each uberon developmental ID in the healthy expression table?
+(2) Find the number of occurrences for each unique uberon developmental ID in the healthy_expression table.
+(3) How many unique uberon developmental IDs are there in the healthy_expression table and what is the count of each?
+(4) How many rows are there for each unique value of "uberon_developmental_id" in the "healthy_expression" table?
+(5) Count the number of healthy expressions for each unique developmental ID in the UBERON database.
+(6) How many healthy expressions are there for each developmental stage in the UBeron ontology?
+(7) How many rows of data are there for each unique developmental ID in the "healthy_expression" table?
+
+
+Re-ranked choices:
+7.724  Count the number of healthy expression entries for each uberon developmental ID and group them by uberon developmental ID.
+7.033  How many counts are there for each uberon developmental ID in the healthy expression table?
+5.633  Count the number of healthy expressions for each unique developmental ID in the UBERON database.
+4.231  How many healthy expressions are there for each developmental stage in the UBeron ontology?
+4.227  Find the number of occurrences for each unique uberon developmental ID in the healthy_expression table.
+2.832  How many rows of data are there for each unique developmental ID in the "healthy_expression" table?
+2.829  How many unique uberon developmental IDs are there in the healthy_expression table and what is the count of each?
+0.030  How many rows are there for each unique value of "uberon_developmental_id" in the "healthy_expression" table?
+

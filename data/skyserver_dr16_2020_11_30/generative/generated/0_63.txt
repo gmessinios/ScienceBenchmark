@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.programname FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.ancillary_target1 = 288230376151711744
+
+###
+
+
+Original Query:
+SELECT T1.programname FROM specobj AS T1 WHERE T1.ancillary_target1 = 288230376151711744
+GPT-3 choices:
+(0) What is the name of the program for spectroscopic objects that have an ancillary target of 288230376151711744?
+(1) What is the program name for objects in the specobj table that have ancillary target 1 value of 288230376151711744?
+(2) Find the program names of spectroscopic objects where the ancillary target 1 is equal to 288230376151711744.
+(3) What is the program name of spectroscopic objects where the ancillary target 1 is equal to 288230376151711744?
+(4) Retrieve the program name for all spectroscopic objects with an ancillary target1 value of 288230376151711744 from the table specobj.
+(5) What is the program name of all spectroscopic objects where the ancillary target1 is 288230376151711744?
+(6) Retrieve the program name from the table of spectroscopic objects where the ancillary target 1 is equal to 288230376151711744.
+(7) Find the program name for all spectroscopic objects where the ancillary target 1 is equal to 288230376151711744.

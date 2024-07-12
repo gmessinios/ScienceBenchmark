@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.loadversion = 1017
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.loadversion = 1017
+GPT-3 choices:
+(0) Get the specobjid values from the galspecline table for all spectroscopic objects that have a loadversion of 1017 in the specobj table.
+(1) Find the spectral object ID from the table of galactic spectroscopic line estimates, only for those objects whose load version is 1017 in the corresponding table of spectroscopic objects.
+(2) Get the specobjid values from the galspecline table where the loadversion in the specobj table is 1017.
+(3) Get the specobjid for all galspecline where the loadversion in specobj is equal to 1017.
+(4) Find the specobjid of the galspecline data where loadversion equals 1017 in the Spectroscopic_objects table.
+(5) Retrieve the specobjid values from the galspecline table for all objects in the Spectroscopic_objects table with a loadversion of 1017.
+(6) Find the specobjid from the galspecline table for spectroscopic objects with a loadversion of 1017.
+(7) "Retrieve the specobjid from the Emission_line_estimates table where the loadversion in the Spectroscopic_objects table is equal to 1017."

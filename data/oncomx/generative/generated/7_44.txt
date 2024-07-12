@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.gene_symbol = "1700006E09Rik" or xref_gene_ensembl.ensembl_gene_id = "ENSG00000047056"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.gene_symbol = "1700006E09Rik" or T1.ensembl_gene_id = "ENSG00000047056"
+GPT-3 choices:
+(0) Get the species ID from the xref_gene_ensembl table where either the gene symbol is "1700006E09Rik" or the Ensembl gene ID is "ENSG00000047056".
+(1) What is the species ID for "1700006E09Rik" gene or "ENSG00000047056" gene in the table xref_gene_ensembl?
+(2) Retrieve the species ID from the xref_gene_ensembl table for the gene with the gene symbol "1700006E09Rik" or Ensembl gene ID "ENSG00000047056".
+(3) Retrieve the species ID from the xref_gene_ensembl table where either the gene symbol is "1700006E09Rik" or the Ensembl gene ID is "ENSG00000047056".
+(4) Find the speciesid from xref_gene_ensembl where the gene symbol is "1700006E09Rik" or the ensembl gene id is "ENSG00000047056".
+(5) Retrieve the species ID from the xref_gene_ensembl table where the gene symbol is "1700006E09Rik" or the Ensembl gene ID is "ENSG00000047056".
+(6) Get the species ID from the table xref_gene_ensembl where the gene symbol is "1700006E09Rik" or the Ensembl gene ID is "ENSG00000047056".
+(7) What is the species ID for the gene with a gene symbol of "1700006E09Rik" or an Ensembl gene ID of "ENSG00000047056"?

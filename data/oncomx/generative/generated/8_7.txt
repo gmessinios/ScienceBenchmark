@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.biomarker_fda_id != "FDA000249"
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker FROM biomarker_fda_ncit_term AS T1 WHERE T1.biomarker_fda_id != "FDA000249"
+GPT-3 choices:
+(0) What is the NCIt biomarker term associated with all FDA biomarkers except "FDA000249"?
+(1) What are the NCIt terms for biomarkers that do not have an FDA ID of "FDA000249"?
+(2) What is the FDA NCIT term for biomarkers, excluding the term for biomarker with ID "FDA000249"?
+(3) What are the NCIt biomarker terms associated with FDA biomarkers, excluding "FDA000249"?
+(4) "Retrieve all NCIt biomarkers from the biomarker_fda_ncit_term table except for the one with the FDA identifier 'FDA000249'."
+(5) Retrieve the NCIt biomarker term from the table of FDA biomarkers, excluding any entries with an FDA ID of "FDA000249".
+(6) What are the FDA NCIT terms for biomarkers, excluding the term for "FDA000249"?
+(7) What are the NCIt biomarker terms that do not have an FDA ID of "FDA000249"?

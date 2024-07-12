@@ -1,0 +1,16 @@
+SELECT projects.end_year FROM projects AS projects WHERE projects.end_date = "2013-08-20"
+
+###
+
+
+Original Query:
+SELECT T1.end_year FROM projects AS T1 WHERE T1.end_date = "2013-08-20"
+GPT-3 choices:
+(0) Retrieve the end year of all projects that have an end date of August 20, 2013.
+(1) Find the end year of projects where the end date is August 20, 2013.
+(2) Retrieve the end year from the projects table where the end date is equal to "2013-08-20".
+(3) Find the end year of projects where the end date is "2013-08-20".
+(4) "Retrieve the end year from the projects table where the end date is equal to August 20, 2013."
+(5) Find the end year of all projects where the end date is August 20th, 2013.
+(6) Retrieve the end year of all projects that have an end date of August 20, 2013.
+(7) Get the end year of all projects where the end date is equal to August 20th, 2013.

@@ -1,0 +1,28 @@
+SELECT project_members.member_short_name FROM project_members AS project_members WHERE project_members.rcn = "1966163"
+
+###
+
+
+Original Query:
+SELECT T1.member_short_name FROM project_members AS T1 WHERE T1.rcn = "1966163"
+GPT-3 choices:
+(0) Get the member short name of all project members where the RCN is 1966163 from the project_members table.
+(1) Retrieve the member short name for the project members of the project with RCN 1966163.
+(2) What are the member short names for the project members associated with RCN 1966163?
+(3) Retrieve the member's short name from the project members table where the RCN is equal to "1966163".
+(4) Retrieve the member short name for all project members whose RCN is 1966163 from the table "project_members".
+(5) What is the member short name for project members in which the RCN is "1966163"?
+(6) Retrieve the short names of all members from the project_members table where the rcn is equal to "1966163".
+(7) Which member(s) with a short name is part of the project with RCN number 1966163?
+
+
+Re-ranked choices:
+8.494  What is the member short name for project members in which the RCN is "1966163"?
+8.468  Retrieve the member short name for the project members of the project with RCN 1966163.
+8.458  Retrieve the member's short name from the project members table where the RCN is equal to "1966163".
+8.444  Get the member short name of all project members where the RCN is 1966163 from the project_members table.
+8.439  Retrieve the member short name for all project members whose RCN is 1966163 from the table "project_members".
+7.047  What are the member short names for the project members associated with RCN 1966163?
+5.694  Which member(s) with a short name is part of the project with RCN number 1966163?
+4.238  Retrieve the short names of all members from the project_members table where the rcn is equal to "1966163".
+

@@ -1,0 +1,16 @@
+SELECT Photometric_objects.i FROM photoobj AS Photometric_objects WHERE Photometric_objects.objid = 1237645942905634957 or Photometric_objects.colc = 63.38636
+
+###
+
+
+Original Query:
+SELECT T1.i FROM photoobj AS T1 WHERE T1.objid = 1237645942905634957 or T1.colc = 63.38636
+GPT-3 choices:
+(0) Get the i value from the photoobj table for an object with an objid of 1237645942905634957 or a colc of 63.38636.
+(1) Retrieve the value for "i" from the "photoobj" table for an object with an ID of 1237645942905634957 or a column "colc" value of 63.38636.
+(2) Retrieve the value of the "i" column from the table "photoobj" for rows where either the objid is equal to 1237645942905634957 or colc is equal to 63.38636 in the "Photometric_objects" table.
+(3) Retrieve the i value from the table photoobj for an object with either an objid of 1237645942905634957 or a colc of 63.38636, which is identified as Photometric_objects.
+(4) Find the value for "i" in the table "photoobj" where either the objid is equal to 1237645942905634957 or the colc is equal to 63.38636.
+(5) Retrieve the value of the "i" attribute from the "photoobj" table for any objects with an object ID of 1237645942905634957 or a column C value of 63.38636.
+(6) Find the i value from the photoobj table for an object with either objid of 1237645942905634957 or colc value of 63.38636 in the Photometric_objects table.
+(7) Retrieve the value in the "i" column from the table "photoobj" where either the object ID is 1237645942905634957 or the column colc is equal to 63.38636.

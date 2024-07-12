@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "Third party"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description = "Third party"
+GPT-3 choices:
+(0) Find the code for project member roles where the description is "Third party".
+(1) "Get the project member role code for the description 'Third party' from the project_member_roles table."
+(2) Retrieve the code from the project_member_roles table for roles with a description of "Third party".
+(3) What are the project member roles' codes for the role of "Third party"?
+(4) What is the code for project member roles where the description is "Third party"?
+(5) Retrieve the code of all project member roles from the "project_member_roles" table where the description is equal to "Third party".
+(6) What is the code for the third party project member role in the project_member_roles table?
+(7) What is the code for the role of "Third party" in the project member roles table?
+
+
+Re-ranked choices:
+8.462  Find the code for project member roles where the description is "Third party".
+8.458  What is the code for project member roles where the description is "Third party"?
+8.430  Retrieve the code of all project member roles from the "project_member_roles" table where the description is equal to "Third party".
+7.062  What is the code for the role of "Third party" in the project member roles table?
+7.037  "Get the project member role code for the description 'Third party' from the project_member_roles table."
+5.683  What are the project member roles' codes for the role of "Third party"?
+5.644  What is the code for the third party project member role in the project_member_roles table?
+5.637  Retrieve the code from the project_member_roles table for roles with a description of "Third party".
+

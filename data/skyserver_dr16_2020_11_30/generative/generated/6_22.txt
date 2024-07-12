@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.veldisperr FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.z = -0.002888325 and Spectroscopic_objects.ra = 0.0362317280000184
+
+###
+
+
+Original Query:
+SELECT T1.veldisperr FROM specobj AS T1 WHERE T1.z = -0.002888325 and T1.ra = 0.0362317280000184
+GPT-3 choices:
+(0) What is the velocity dispersion error for a spectroscopic object with a redshift of -0.002888325 and right ascension of 0.0362317280000184?
+(1) Retrieve the velocity dispersion error from the specobj table for a spectroscopic object with a redshift of -0.002888325 and right ascension of 0.0362317280000184.
+(2) What is the velocity dispersion error for a spectroscopic object with a redshift of -0.002888325 and a right ascension of 0.0362317280000184?
+(3) Retrieve the velocity dispersion error for a spectroscopic object with a redshift of -0.002888325 and right ascension of 0.0362317280000184 from the "specobj" table.
+(4) Retrieve the velocity dispersion error from the spectroscopic object table where the redshift is -0.002888325 and the right ascension is 0.0362317280000184.
+(5) What is the velocity dispersion error for the spectroscopic object with a redshift of -0.002888325 and a right ascension of 0.0362317280000184?
+(6) Get the velocity dispersion error of the spectroscopic object with a redshift of -0.002888325 and a right ascension of 0.0362317280000184 from the specobj table as Spectroscopic_objects.
+(7) Retrieve the velocity dispersion error for the spectroscopic object with a redshift of -0.002888325 and a right ascension of 0.0362317280000184 from the specobj table.

@@ -1,0 +1,16 @@
+SELECT Photometric_objects.rowc, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.rowc
+
+###
+
+
+Original Query:
+SELECT T1.rowc, count(*) FROM photoobj AS T1  GROUP BY T1.rowc
+GPT-3 choices:
+(0) "How many rows are there in the Photometric_objects table and what is the count of each row?"
+(1) Count the number of objects and group them by their row center value from the table of photometric objects in the photoobj database.
+(2) Count the number of rows for each unique rowc value in the Photometric_objects table in the photoobj database.
+(3) Find the number of rows and their respective counts in the "photoobj" table grouped by the value in the "rowc" column.
+(4) "How many rows are in the Photometric_objects table and what is the count of each row?"
+(5) "Find the number of objects grouped by their rowc value from the table photoobj, and list the rowc value and corresponding count."
+(6) Find the count of rows in the photoobj table grouped by their rowc values.
+(7) What is the number of photometric objects grouped by their rowc value in the photoobj table?

@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people AS people WHERE people.unics_id = 1209348
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 WHERE T1.unics_id = 1209348
+GPT-3 choices:
+(0) What is the full name of the person with a UNICS ID of 1209348 in the database table "people"?
+(1) Get the full name of a person with a UNICS ID of 1209348 from the table called "people."
+(2) Find the full name of a person from the table "people" where their unique ID is 1209348.
+(3) "Retrieve the full name of a person from the database who has a unique ID of 1209348."
+(4) Who is the person with a UNICS ID of 1209348?
+(5) Who is the person with a UNICS ID of 1209348 and what is their full name?
+(6) Retrieve the full name of a person from the table "people" where their unique identifier is equal to 1209348.
+(7) "Retrieve the full name of the person whose unics ID is 1209348 from the table 'people'."
+
+
+Re-ranked choices:
+7.043  What is the full name of the person with a UNICS ID of 1209348 in the database table "people"?
+7.043  "Retrieve the full name of the person whose unics ID is 1209348 from the table 'people'."
+5.658  Find the full name of a person from the table "people" where their unique ID is 1209348.
+5.645  Get the full name of a person with a UNICS ID of 1209348 from the table called "people."
+4.258  "Retrieve the full name of a person from the database who has a unique ID of 1209348."
+4.254  Who is the person with a UNICS ID of 1209348 and what is their full name?
+4.236  Retrieve the full name of a person from the table "people" where their unique identifier is equal to 1209348.
+2.930  Who is the person with a UNICS ID of 1209348?
+

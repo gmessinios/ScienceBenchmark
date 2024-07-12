@@ -1,0 +1,28 @@
+SELECT project_members.pic_number FROM project_members AS project_members WHERE project_members.country = "MK" or project_members.ec_contribution = 974143.8
+
+###
+
+
+Original Query:
+SELECT T1.pic_number FROM project_members AS T1 WHERE T1.country = "MK" or T1.ec_contribution = 974143.8
+GPT-3 choices:
+(0) Show the profile pictures of all project members whose country is "MK" or whose EC contribution is equal to 974143.8.
+(1) Retrieve the picture numbers of project members whose country is "MK" or their EC contribution is equal to 974143.8 from the project_members table.
+(2) Retrieve the pic number of all project members from the table "project_members" where their country is "MK" or their ec_contribution is 974143.8.
+(3) Retrieve the picture number for all project members from the "project_members" table where their country is "MK" or their EC contribution is 974143.8.
+(4) Retrieve the project member's picture number from the project members table where their country is "MK" or their EC contribution is equal to 974143.8.
+(5) Get the picture numbers of project members from the country "MK" or with an EC contribution of 974143.8 euros.
+(6) Find the picture number of all project members whose country is MK or whose EC contribution is 974143.8.
+(7) Retrieve the picture numbers of all project members whose country is Macedonia or whose European Commission contribution is equal to 974143.8.
+
+
+Re-ranked choices:
+9.137  Find the picture number of all project members whose country is MK or whose EC contribution is 974143.8.
+9.129  Retrieve the project member's picture number from the project members table where their country is "MK" or their EC contribution is equal to 974143.8.
+9.127  Retrieve the picture number for all project members from the "project_members" table where their country is "MK" or their EC contribution is 974143.8.
+7.745  Retrieve the picture numbers of project members whose country is "MK" or their EC contribution is equal to 974143.8 from the project_members table.
+7.736  Get the picture numbers of project members from the country "MK" or with an EC contribution of 974143.8 euros.
+7.734  Show the profile pictures of all project members whose country is "MK" or whose EC contribution is equal to 974143.8.
+7.726  Retrieve the pic number of all project members from the table "project_members" where their country is "MK" or their ec_contribution is 974143.8.
+5.624  Retrieve the picture numbers of all project members whose country is Macedonia or whose European Commission contribution is equal to 974143.8.
+

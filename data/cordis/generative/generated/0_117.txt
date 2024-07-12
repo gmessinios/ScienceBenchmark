@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types WHERE activity_types.description = "Higher or Secondary Education Establishments"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 WHERE T1.description = "Higher or Secondary Education Establishments"
+GPT-3 choices:
+(0) Retrieve the code for all higher or secondary education establishments from the activity types table.
+(1) What is the code for higher or secondary education establishments in the activity types table?
+(2) Find the activity code for higher or secondary education establishments from the activity types table where the description is "Higher or Secondary Education Establishments".
+(3) Find the code for activity types that have a description of "Higher or Secondary Education Establishments" in the table named "activity_types".
+(4) What is the code for "Higher or Secondary Education Establishments" in the table activity_types?
+(5) Find the code for activity types where the description is "Higher or Secondary Education Establishments".
+(6) Retrieve the code for higher or secondary education establishments from the activity types table where the description is "Higher or Secondary Education Establishments".
+(7) Find the activity type code for higher or secondary education establishments from the table of activity types where the description is "Higher or Secondary Education Establishments".

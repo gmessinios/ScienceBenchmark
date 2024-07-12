@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.programname != "SEGUE_GES"
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.programname != "SEGUE_GES"
+GPT-3 choices:
+(0) Retrieve the specobjid values from the Emission_line_estimates table where the programname in the corresponding Spectroscopic_objects table is not "SEGUE_GES".
+(1) Retrieve the specobjid values from the galspecline table for all spectroscopic objects that have a program name other than "SEGUE_GES" in the specobj table.
+(2) Get the specobjid from galspecline where the programname is not "SEGUE_GES" and join it with specobj to retrieve the corresponding spectroscopic objects.
+(3) Retrieve the specobjid values from the Emission_line_estimates table where the corresponding spectroscopic objects in the Spectroscopic_objects table do not have a program name of "SEGUE_GES".
+(4) Find the specobjid for Emission_line_estimates where the programname of Spectroscopic_objects is not "SEGUE_GES".
+(5) What is the specobjid for all galspecline entries where the associated spectroscopic object's program name is not "SEGUE_GES"?
+(6) Retrieve the specobjid values from the Emission_line_estimates table, joined with the Spectroscopic_objects table, where the programname column in Spectroscopic_objects is not equal to "SEGUE_GES".
+(7) Retrieve the specobjid values from the galspecline table for all objects in the specobj table that have a programname other than "SEGUE_GES".

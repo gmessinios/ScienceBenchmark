@@ -1,0 +1,28 @@
+SELECT stage.name FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.expression_score != 27.80000
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.expression_score != 27.80000
+GPT-3 choices:
+(0) Retrieve the name of stages from the stage table where the expression score in the healthy_expression table is not equal to 27.80000 and is joined with the developmental id in the stage table that matches with the uberon_developmental_id in the healthy_expression table.
+(1) Retrieve the names of all stages from the stage table that have a corresponding entry in the healthy_expression table with an expression score different from 27.80000.
+(2) Find the names of stages that are associated with healthy expressions and have an expression score different from 27.80000 in the table "healthy_expression" by joining it with the table "stage" on their corresponding IDs.
+(3) What are the names of all developmental stages associated with healthy expression scores that are not equal to 27.80000?
+(4) Retrieve the names of stages that have a developmental ID in the healthy expression table and do not have an expression score of 27.8.
+(5) Find the names of all stages in which there is healthy expression that does not have an expression score of 27.80000.
+(6) What are the names of stages where the expression score in the healthy_expression table is not equal to 27.80000, joining on stage.id and healthy_expression.uberon_developmental_id?
+(7) Retrieve the name of each stage from the "stage" table where there is a matching developmental ID in the "healthy_expression" table and the expression score is not equal to 27.80000.
+
+
+Re-ranked choices:
+8.424  Retrieve the name of stages from the stage table where the expression score in the healthy_expression table is not equal to 27.80000 and is joined with the developmental id in the stage table that matches with the uberon_developmental_id in the healthy_expression table.
+8.424  Retrieve the name of each stage from the "stage" table where there is a matching developmental ID in the "healthy_expression" table and the expression score is not equal to 27.80000.
+7.029  Retrieve the names of stages that have a developmental ID in the healthy expression table and do not have an expression score of 27.8.
+6.330  Find the names of stages that are associated with healthy expressions and have an expression score different from 27.80000 in the table "healthy_expression" by joining it with the table "stage" on their corresponding IDs.
+4.244  Find the names of all stages in which there is healthy expression that does not have an expression score of 27.80000.
+4.232  What are the names of all developmental stages associated with healthy expression scores that are not equal to 27.80000?
+4.224  Retrieve the names of all stages from the stage table that have a corresponding entry in the healthy_expression table with an expression score different from 27.80000.
+3.536  What are the names of stages where the expression score in the healthy_expression table is not equal to 27.80000, joining on stage.id and healthy_expression.uberon_developmental_id?
+

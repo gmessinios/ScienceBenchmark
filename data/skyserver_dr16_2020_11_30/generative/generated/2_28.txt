@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.specobjid, count(*) FROM specobj AS Spectroscopic_objects  GROUP BY Spectroscopic_objects.specobjid
+
+###
+
+
+Original Query:
+SELECT T1.specobjid, count(*) FROM specobj AS T1  GROUP BY T1.specobjid
+GPT-3 choices:
+(0) Find the count of spectroscopic objects grouped by their specobjid.
+(1) Count the number of spectroscopic objects and group them by their corresponding specobjid.
+(2) Count the number of objects in the Spectroscopic_objects table, grouped by specobjid.
+(3) Count the number of occurrences for each unique value in the column "specobjid" from the table "specobj", and list them alongside their corresponding values.
+(4) "Count the number of records for each unique specobjid in the table specobj and display the specobjid and count."
+(5) Count the number of occurrences for each unique specobjid in the Spectroscopic_objects table.
+(6) Count the number of spectroscopic objects and group them by their unique identifier.
+(7) "How many times does each unique specobjid appear in the specobj table?"

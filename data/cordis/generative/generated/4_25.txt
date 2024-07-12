@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Macroregiunea Unu"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units AS T1 WHERE T1.description = "Macroregiunea Unu"
+GPT-3 choices:
+(0) How many territorial units are there with the description "Macroregiunea Unu" in the EU?
+(1) "How many entries are in the EU Territorial Units table with a description of 'Macroregiunea Unu'?"
+(2) How many rows are there in the eu_territorial_units table where the description column is "Macroregiunea Unu"?
+(3) "How many rows are there in the table 'eu_territorial_units' where the value in the column 'description' is equal to 'Macroregiunea Unu'?"
+(4) How many rows are in the table eu_territorial_units where the description is "Macroregiunea Unu"?
+(5) How many records are in the table "eu_territorial_units" where the description is "Macroregiunea Unu"?
+(6) How many rows are in the "eu_territorial_units" table where the "description" column has a value of "Macroregiunea Unu"?
+(7) How many entries are there in the EU Territorial Units table with a description of "Macroregiunea Unu"?

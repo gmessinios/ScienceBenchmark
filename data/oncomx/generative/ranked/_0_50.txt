@@ -1,0 +1,27 @@
+SELECT disease_mutation.cds_pos FROM disease_mutation AS disease_mutation WHERE disease_mutation.ref_aa = "N"
+
+###
+
+
+Original Query:
+SELECT T1.cds_pos FROM disease_mutation AS T1 WHERE T1.ref_aa = "N"
+GPT-3 choices:
+(0) What is the coding sequence position of disease mutations where the reference amino acid is "N"?
+(1) Retrieve the codon position for all disease mutations where the reference amino acid is "N".
+(2) What is the codon position for disease mutations where the reference amino acid is "N"?
+(3) Retrieve the coding sequence position from the disease_mutation table where the reference amino acid is "N".
+(4) Retrieve the coding sequence position from the disease_mutation table where the reference amino acid is "N".
+(5) What is the position of the coding sequence where the reference amino acid is "N" in the table of disease mutations?
+(6) Retrieve the coding sequence position from the disease mutation table where the reference amino acid is "N".
+(7) Retrieve the codon position from the disease mutation table where the reference amino acid is "N".
+
+
+Re-ranked choices:
+3.532  Retrieve the codon position from the disease mutation table where the reference amino acid is "N".
+3.530  Retrieve the coding sequence position from the disease mutation table where the reference amino acid is "N".
+2.137  Retrieve the codon position for all disease mutations where the reference amino acid is "N".
+2.137  What is the codon position for disease mutations where the reference amino acid is "N"?
+2.132  What is the coding sequence position of disease mutations where the reference amino acid is "N"?
+2.129  What is the position of the coding sequence where the reference amino acid is "N" in the table of disease mutations?
+0.725  Retrieve the coding sequence position from the disease_mutation table where the reference amino acid is "N".
+

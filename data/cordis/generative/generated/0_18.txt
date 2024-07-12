@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.code = "EDU"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.code = "EDU"
+GPT-3 choices:
+(0) "Retrieve the description from the subject areas table where the code is 'EDU'."
+(1) What is the description of the subject area with the code "EDU"?
+(2) Get the description from the subject area table where the code is equal to "EDU".
+(3) What is the description for the subject area with the code "EDU"?
+(4) What is the description for the subject area with code "EDU"?
+(5) Retrieve the description from the subject areas table where the code is "EDU".
+(6) Retrieve the description from the subject areas table where the code is equal to "EDU".
+(7) Retrieve the description from the subject areas table where the code is equal to "EDU".

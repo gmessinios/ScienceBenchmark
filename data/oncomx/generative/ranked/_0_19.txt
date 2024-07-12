@@ -1,0 +1,28 @@
+SELECT species.speciesid FROM species AS species WHERE species.species = "sapiens"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM species AS T1 WHERE T1.species = "sapiens"
+GPT-3 choices:
+(0) Find the speciesid of sapiens in the species table.
+(1) Retrieve the species ID of the species with the name "sapiens" from the table called "species".
+(2) Find the species ID for the species "sapiens" in the table called "species".
+(3) Find the species id for the species "sapiens" from the table of species.
+(4) Find the species ID for the species called "sapiens".
+(5) "Retrieve the species ID from the species table where the species name is 'sapiens'."
+(6) What is the species ID of the species "sapiens"?
+(7) Find the species ID for the species called "sapiens" from the table of species.
+
+
+Re-ranked choices:
+3.597  Find the speciesid of sapiens in the species table.
+2.433  Find the species ID for the species called "sapiens".
+2.433  What is the species ID of the species "sapiens"?
+2.203  Find the species ID for the species called "sapiens" from the table of species.
+2.183  Find the species ID for the species "sapiens" in the table called "species".
+2.175  "Retrieve the species ID from the species table where the species name is 'sapiens'."
+2.165  Find the species id for the species "sapiens" from the table of species.
+2.162  Retrieve the species ID of the species with the name "sapiens" from the table called "species".
+

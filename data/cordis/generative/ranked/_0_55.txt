@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas WHERE subject_areas.description = "Safety engineering; safety at work; assessment of risk; reliability of components and systems; industrial hazards;; natural hazards; transportation of hazardous materials; accident analysis and reporting."
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 WHERE T1.description = "Safety engineering; safety at work; assessment of risk; reliability of components and systems; industrial hazards;; natural hazards; transportation of hazardous materials; accident analysis and reporting."
+GPT-3 choices:
+(0) Find the title of the subject area that includes topics such as safety engineering, safety at work, risk assessment, component and system reliability, industrial and natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+(1) What is the title of the subject area that deals with safety engineering, safety at work, risk assessment, component and system reliability, industrial and natural hazards, transportation of hazardous materials, and accident analysis and reporting?
+(2) Get the title of all subject areas where the description includes safety engineering, safety at work, assessment of risk, reliability of components and systems, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+(3) Retrieve the title of the subject area where its description includes topics such as safety engineering, risk assessment, reliability, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+(4) Find the title of subject areas where the description includes safety engineering, safety at work, risk assessment, component and system reliability, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+(5) What is the title of the subject area related to safety engineering, safety at work, risk assessment, component and system reliability, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting?
+(6) Retrieve the title of all subject areas with a description related to safety engineering, including topics such as safety at work, risk assessment, reliability of components and systems, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+(7) What is the title of the subject area that covers topics such as safety engineering, safety at work, risk assessment, component and system reliability, industrial and natural hazards, transportation of hazardous materials, and accident analysis?
+
+
+Re-ranked choices:
+14.013  Get the title of all subject areas where the description includes safety engineering, safety at work, assessment of risk, reliability of components and systems, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+13.312  Retrieve the title of all subject areas with a description related to safety engineering, including topics such as safety at work, risk assessment, reliability of components and systems, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+11.913  Find the title of subject areas where the description includes safety engineering, safety at work, risk assessment, component and system reliability, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+9.813  Retrieve the title of the subject area where its description includes topics such as safety engineering, risk assessment, reliability, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+9.114  What is the title of the subject area that deals with safety engineering, safety at work, risk assessment, component and system reliability, industrial and natural hazards, transportation of hazardous materials, and accident analysis and reporting?
+9.114  Find the title of the subject area that includes topics such as safety engineering, safety at work, risk assessment, component and system reliability, industrial and natural hazards, transportation of hazardous materials, and accident analysis and reporting.
+9.113  What is the title of the subject area related to safety engineering, safety at work, risk assessment, component and system reliability, industrial hazards, natural hazards, transportation of hazardous materials, and accident analysis and reporting?
+8.414  What is the title of the subject area that covers topics such as safety engineering, safety at work, risk assessment, component and system reliability, industrial and natural hazards, transportation of hazardous materials, and accident analysis?
+

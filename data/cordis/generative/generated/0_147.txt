@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description = "RTD activities related to regional development and the restructuring of economic sectors."
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description = "RTD activities related to regional development and the restructuring of economic sectors."
+GPT-3 choices:
+(0) Retrieve the code of subject areas where the description is "RTD activities related to regional development and the restructuring of economic sectors".
+(1) Find the code for subject areas related to RTD activities that focus on regional development and the restructuring of economic sectors.
+(2) Find the code for subject areas where the description is "RTD activities related to regional development and the restructuring of economic sectors."
+(3) What are the codes for all subject areas where the description is "RTD activities related to regional development and the restructuring of economic sectors"?
+(4) Retrieve the code of the subject area that has a description of "RTD activities related to regional development and the restructuring of economic sectors".
+(5) Retrieve the code of subject areas that are related to research and development activities associated with regional development and the reorganization of economic sectors.
+(6) Retrieve the subject area code for "RTD activities related to regional development and the restructuring of economic sectors".
+(7) Retrieve the code for subject areas that have a description of "RTD activities related to regional development and the restructuring of economic sectors".

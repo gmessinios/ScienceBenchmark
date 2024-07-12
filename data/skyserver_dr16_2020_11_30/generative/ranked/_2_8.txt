@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.segue2_target1, count(*) FROM specobj AS Spectroscopic_objects  GROUP BY Spectroscopic_objects.segue2_target1
+
+###
+
+
+Original Query:
+SELECT T1.segue2_target1, count(*) FROM specobj AS T1  GROUP BY T1.segue2_target1
+GPT-3 choices:
+(0) What is the count of spectroscopic objects grouped by their segue2_target1 value?
+(1) Count the number of objects in the "specobj" table grouped by the value of their "segue2_target1" attribute, and display both the attribute value and its corresponding count.
+(2) "Count the number of spectroscopic objects in the specobj table, grouped by their segue2_target1 value."
+(3) Find the number of spectroscopic objects for each segue2 target in the Spectroscopic_objects table.
+(4) Find the number of occurrences for each unique value in the "segue2_target1" column from the "specobj" table.
+(5) What is the count of objects in the "specobj" table grouped by their "segue2_target1" value?
+(6) How many spectroscopic objects are there in the specobj table and what is the count of each Segue 2 target?
+(7) "Count the number of objects from the spectroscopic data table grouped by their SEGUE2 target and list the target with its corresponding count."
+
+
+Re-ranked choices:
+3.527  Find the number of spectroscopic objects for each segue2 target in the Spectroscopic_objects table.
+3.527  "Count the number of objects from the spectroscopic data table grouped by their SEGUE2 target and list the target with its corresponding count."
+2.145  What is the count of objects in the "specobj" table grouped by their "segue2_target1" value?
+2.137  What is the count of spectroscopic objects grouped by their segue2_target1 value?
+2.130  "Count the number of spectroscopic objects in the specobj table, grouped by their segue2_target1 value."
+2.122  Count the number of objects in the "specobj" table grouped by the value of their "segue2_target1" attribute, and display both the attribute value and its corresponding count.
+1.431  How many spectroscopic objects are there in the specobj table and what is the count of each Segue 2 target?
+0.031  Find the number of occurrences for each unique value in the "segue2_target1" column from the "specobj" table.
+

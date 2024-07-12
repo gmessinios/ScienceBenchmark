@@ -1,0 +1,16 @@
+SELECT anatomical_entity.description, count(*) FROM anatomical_entity AS anatomical_entity  GROUP BY anatomical_entity.description
+
+###
+
+
+Original Query:
+SELECT T1.description, count(*) FROM anatomical_entity AS T1  GROUP BY T1.description
+GPT-3 choices:
+(0) Get a count of the number of anatomical entities and their corresponding descriptions from the table "anatomical_entity", grouped by description.
+(1) "Find the number of instances for each anatomical entity and list their corresponding descriptions."
+(2) How many anatomical entities are there for each unique description?
+(3) How many anatomical entities have descriptions and how many times does each description appear?
+(4) How many anatomical entities have a description and how many of each type are there?
+(5) How many times does each anatomical entity have a description?
+(6) What is the total count of occurrences for each anatomical entity's description in the anatomical_entity table?
+(7) Count the number of instances for each anatomical entity description in the anatomical_entity table.

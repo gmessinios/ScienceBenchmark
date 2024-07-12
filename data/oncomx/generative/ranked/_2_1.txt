@@ -1,0 +1,28 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker, count(*) FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term  GROUP BY biomarker_fda_ncit_term.ncit_biomarker
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker, count(*) FROM biomarker_fda_ncit_term AS T1  GROUP BY T1.ncit_biomarker
+GPT-3 choices:
+(0) How many occurrences of each NCIt biomarker are there in the "biomarker_fda_ncit_term" table?
+(1) How many times has each NCIT biomarker been mentioned in the biomarker_fda_ncit_term table?
+(2) "How many occurrences of each unique biomarker term from the National Cancer Institute Thesaurus are there in the table biomarker_fda_ncit_term?"
+(3) What is the total number of occurrences for each distinct NCIt biomarker term in the table "biomarker_fda_ncit_term"?
+(4) How many instances are there for each NCIt biomarker term in the table biomarker_fda_ncit_term?
+(5) Count the number of instances for each distinct NCIt biomarker in the table "biomarker_fda_ncit_term".
+(6) What is the count of occurrences for each unique NCIt biomarker in the biomarker_fda_ncit_term table?
+(7) Count the number of occurrences for each NCIt biomarker in the table "biomarker_fda_ncit_term".
+
+
+Re-ranked choices:
+4.232  How many instances are there for each NCIt biomarker term in the table biomarker_fda_ncit_term?
+4.226  What is the total number of occurrences for each distinct NCIt biomarker term in the table "biomarker_fda_ncit_term"?
+2.833  How many times has each NCIT biomarker been mentioned in the biomarker_fda_ncit_term table?
+2.831  What is the count of occurrences for each unique NCIt biomarker in the biomarker_fda_ncit_term table?
+2.829  How many occurrences of each NCIt biomarker are there in the "biomarker_fda_ncit_term" table?
+2.829  Count the number of occurrences for each NCIt biomarker in the table "biomarker_fda_ncit_term".
+2.828  Count the number of instances for each distinct NCIt biomarker in the table "biomarker_fda_ncit_term".
+2.823  "How many occurrences of each unique biomarker term from the National Cancer Institute Thesaurus are there in the table biomarker_fda_ncit_term?"
+

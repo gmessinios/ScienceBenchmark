@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.bestobjid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.class = "QSO"
+
+###
+
+
+Original Query:
+SELECT T1.bestobjid FROM specobj AS T1 WHERE T1.class = "QSO"
+GPT-3 choices:
+(0) Find the best object IDs for spectroscopic objects that are classified as quasars.
+(1) What is the bestobjid of all spectroscopic objects with a class of "QSO"?
+(2) "Retrieve the best object identifier for all spectroscopic objects where the class is equal to 'QSO'."
+(3) What is the best object ID for all spectroscopic objects that are classified as QSO?
+(4) Retrieve the best object identification numbers for all spectroscopic objects that have a class of "QSO".
+(5) Find the bestobjid of all objects from the specobj table where the class is "QSO".
+(6) Find the best object identification numbers from the spectroscopic objects table where the class is "QSO".
+(7) Find the best object ID from the specobj table for spectroscopic objects with a class of "QSO".
+
+
+Re-ranked choices:
+7.735  Find the best object ID from the specobj table for spectroscopic objects with a class of "QSO".
+6.332  "Retrieve the best object identifier for all spectroscopic objects where the class is equal to 'QSO'."
+6.328  Retrieve the best object identification numbers for all spectroscopic objects that have a class of "QSO".
+6.328  Find the best object identification numbers from the spectroscopic objects table where the class is "QSO".
+5.637  What is the best object ID for all spectroscopic objects that are classified as QSO?
+4.242  Find the best object IDs for spectroscopic objects that are classified as quasars.
+3.539  Find the bestobjid of all objects from the specobj table where the class is "QSO".
+3.537  What is the bestobjid of all spectroscopic objects with a class of "QSO"?
+

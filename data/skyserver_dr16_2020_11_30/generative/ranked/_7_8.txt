@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.segue2_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.segue2_target2 = -2147483616 or Spectroscopic_objects.subclass = "K5Ve (118100)"
+
+###
+
+
+Original Query:
+SELECT T1.segue2_target1 FROM specobj AS T1 WHERE T1.segue2_target2 = -2147483616 or T1.subclass = "K5Ve (118100)"
+GPT-3 choices:
+(0) Find the SEQUELS-2 target names for objects in the specobj table that have a segue2_target2 value of -2147483616 or a subclass value of "K5Ve (118100)".
+(1) Retrieve the target1 objects from the spectroscopic database where the target2 is equal to -2147483616 or the subclass is "K5Ve (118100)".
+(2) Get the Spectroscopic_objects that have a segue2_target1 of either -2147483616 or a subclass of "K5Ve (118100)".
+(3) Select the segue2_target1 value for all objects in the Spectroscopic_objects table where the segue2_target2 value is -2147483616 or the subclass is "K5Ve (118100)".
+(4) Retrieve the segue2_target1 values from the Spectroscopic_objects table where segue2_target2 is equal to -2147483616 or subclass is equal to "K5Ve (118100)".
+(5) Retrieve the segue2_target1 value from the Spectroscopic_objects table where the segue2_target2 value is equal to -2147483616 or the subclass value is equal to "K5Ve (118100)".
+(6) Find the SEGUE2 target 1 values for spectroscopic objects where the SEGUE2 target 2 is -2147483616 or the subclass is "K5Ve (118100)".
+(7) Find all of the SEGUE-2 target 1 objects from the specobj table where their segue2_target2 is equal to -2147483616 or their subclass is "K5Ve (118100)".
+
+
+Re-ranked choices:
+7.032  Find the SEGUE2 target 1 values for spectroscopic objects where the SEGUE2 target 2 is -2147483616 or the subclass is "K5Ve (118100)".
+5.633  Retrieve the target1 objects from the spectroscopic database where the target2 is equal to -2147483616 or the subclass is "K5Ve (118100)".
+4.924  Select the segue2_target1 value for all objects in the Spectroscopic_objects table where the segue2_target2 value is -2147483616 or the subclass is "K5Ve (118100)".
+4.229  Find all of the SEGUE-2 target 1 objects from the specobj table where their segue2_target2 is equal to -2147483616 or their subclass is "K5Ve (118100)".
+4.226  Find the SEQUELS-2 target names for objects in the specobj table that have a segue2_target2 value of -2147483616 or a subclass value of "K5Ve (118100)".
+3.536  Get the Spectroscopic_objects that have a segue2_target1 of either -2147483616 or a subclass of "K5Ve (118100)".
+3.526  Retrieve the segue2_target1 values from the Spectroscopic_objects table where segue2_target2 is equal to -2147483616 or subclass is equal to "K5Ve (118100)".
+3.523  Retrieve the segue2_target1 value from the Spectroscopic_objects table where the segue2_target2 value is equal to -2147483616 or the subclass value is equal to "K5Ve (118100)".
+

@@ -1,0 +1,16 @@
+SELECT projects.start_year FROM projects AS projects JOIN ec_framework_programs AS ec_framework_programs ON projects.framework_program = ec_framework_programs.ec_framework_program_name WHERE ec_framework_programs.ec_framework_program_name = "H2020"
+
+###
+
+
+Original Query:
+SELECT T1.start_year FROM projects AS T1 JOIN ec_framework_programs AS T2 ON T1.framework_program = T2.ec_framework_program_name WHERE T2.ec_framework_program_name = "H2020"
+GPT-3 choices:
+(0) What is the start year of all projects in the H2020 framework program?
+(1) Retrieve the start year of all projects that are associated with the "H2020" framework program.
+(2) What is the start year of all projects in the H2020 framework program?
+(3) Retrieve the start year of all projects from the H2020 framework program.
+(4) Retrieve the start year of all projects that are associated with the "H2020" framework program.
+(5) What is the starting year of projects that are associated with the EC Framework Program named "H2020"?
+(6) Get the start year of all projects that belong to the H2020 framework program.
+(7) Retrieve the start year of projects that are part of the "H2020" framework program from both the projects and ec_framework_programs tables.

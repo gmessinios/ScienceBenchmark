@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.title = "Evaluation" or subject_areas.code = "INF"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.title = "Evaluation" or T1.code = "INF"
+GPT-3 choices:
+(0) Retrieve the description of all subject areas that have a title of "Evaluation" or a code of "INF".
+(1) Retrieve the description from the subject areas table where either the title is "Evaluation" or the code is "INF".
+(2) Find the description for the subject area with a title of "Evaluation" or a code of "INF".
+(3) What is the description of the subject area with a title of "Evaluation" or a code of "INF"?
+(4) Find the description of the subject area with a title of "Evaluation" or a code of "INF".
+(5) Find the description for the subject area with the title "Evaluation" or code "INF".
+(6) What is the description of the subject area "Evaluation" or with the code "INF"?
+(7) Get the description from the "subject_areas" table where the title is "Evaluation" or code is "INF".
+
+
+Re-ranked choices:
+8.433  Retrieve the description of all subject areas that have a title of "Evaluation" or a code of "INF".
+8.428  Retrieve the description from the subject areas table where either the title is "Evaluation" or the code is "INF".
+7.039  Find the description for the subject area with a title of "Evaluation" or a code of "INF".
+7.039  Find the description of the subject area with a title of "Evaluation" or a code of "INF".
+7.039  Find the description for the subject area with the title "Evaluation" or code "INF".
+7.037  What is the description of the subject area with a title of "Evaluation" or a code of "INF"?
+5.647  What is the description of the subject area "Evaluation" or with the code "INF"?
+5.632  Get the description from the "subject_areas" table where the title is "Evaluation" or code is "INF".
+

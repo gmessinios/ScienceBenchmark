@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.description != "Galaxy: An extended object composed of many stars and other matter."
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.description != "Galaxy: An extended object composed of many stars and other matter."
+GPT-3 choices:
+(0) Find the values from the photometrically observed objects that are not described as "Galaxy: An extended object composed of many stars and other matter."
+(1) Find the values of photometrically observed objects that are not galaxies.
+(2) What is the value of photometrically observed objects that are not galaxies?
+(3) Retrieve the values of photometrically observed objects that are not described as galaxies.
+(4) What are the values of all photometrically observed objects, excluding galaxies?
+(5) Find the values from the "photometrically_observed" table where the description is not "Galaxy: An extended object composed of many stars and other matter.".
+(6) Find the values of all photometrically observed objects that are not described as galaxies.
+(7) Retrieve the values from the column "value" in the table "photo_type" where the description is not equal to "Galaxy: An extended object composed of many stars and other matter." and label it as "photometrically_observed".
+
+
+Re-ranked choices:
+9.827  Retrieve the values from the column "value" in the table "photo_type" where the description is not equal to "Galaxy: An extended object composed of many stars and other matter." and label it as "photometrically_observed".
+9.122  Find the values from the photometrically observed objects that are not described as "Galaxy: An extended object composed of many stars and other matter."
+8.422  Find the values from the "photometrically_observed" table where the description is not "Galaxy: An extended object composed of many stars and other matter.".
+4.929  What is the value of photometrically observed objects that are not galaxies?
+3.527  Find the values of photometrically observed objects that are not galaxies.
+3.527  Find the values of all photometrically observed objects that are not described as galaxies.
+3.525  Retrieve the values of photometrically observed objects that are not described as galaxies.
+3.522  What are the values of all photometrically observed objects, excluding galaxies?
+

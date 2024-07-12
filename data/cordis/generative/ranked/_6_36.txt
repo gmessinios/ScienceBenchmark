@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes AS programmes WHERE programmes.short_name = "Synthesis and manufacturing of nanomaterials, components and systems" and programmes.rcn = "17027"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM programmes AS T1 WHERE T1.short_name = "Synthesis and manufacturing of nanomaterials, components and systems" and T1.rcn = "17027"
+GPT-3 choices:
+(0) Retrieve the title of the programme called "Synthesis and manufacturing of nanomaterials, components and systems" with the Research Council Number (RCN) of "17027".
+(1) Find the title of the programme that has a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and an RCN of "17027".
+(2) What is the title of the programme with a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and RCN of "17027"?
+(3) What is the title of the programme with a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and an RCN of "17027"?
+(4) Show me the title of the programme with the short name "Synthesis and manufacturing of nanomaterials, components and systems" and RCN number "17027".
+(5) Retrieve the title of the programme where the short name is "Synthesis and manufacturing of nanomaterials, components and systems" and the RCN is "17027".
+(6) Get the title of the programme with the short name "Synthesis and manufacturing of nanomaterials, components and systems" and RCN number 17027 from the table "programmes".
+(7) Retrieve the title of the programme that has a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and an RCN value of "17027".
+
+
+Re-ranked choices:
+10.518  Get the title of the programme with the short name "Synthesis and manufacturing of nanomaterials, components and systems" and RCN number 17027 from the table "programmes".
+9.122  What is the title of the programme with a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and RCN of "17027"?
+9.121  Find the title of the programme that has a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and an RCN of "17027".
+9.121  What is the title of the programme with a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and an RCN of "17027"?
+9.121  Show me the title of the programme with the short name "Synthesis and manufacturing of nanomaterials, components and systems" and RCN number "17027".
+9.120  Retrieve the title of the programme where the short name is "Synthesis and manufacturing of nanomaterials, components and systems" and the RCN is "17027".
+9.119  Retrieve the title of the programme that has a short name of "Synthesis and manufacturing of nanomaterials, components and systems" and an RCN value of "17027".
+4.919  Retrieve the title of the programme called "Synthesis and manufacturing of nanomaterials, components and systems" with the Research Council Number (RCN) of "17027".
+

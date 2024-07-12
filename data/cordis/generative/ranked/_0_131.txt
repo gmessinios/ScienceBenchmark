@@ -1,0 +1,28 @@
+SELECT projects.end_date FROM projects AS projects WHERE projects.ec_max_contribution = 2014560.0
+
+###
+
+
+Original Query:
+SELECT T1.end_date FROM projects AS T1 WHERE T1.ec_max_contribution = 2014560.0
+GPT-3 choices:
+(0) Retrieve the end date of a project where the EC maximum contribution is equal to 2014560.0 from the projects table.
+(1) Find the end date of the project where the maximum EC contribution is equal to 2014560.0.
+(2) Find the end date of all projects where the EC maximum contribution is equal to 2014560.0.
+(3) Find the end date of the project with a maximum EC (European Commission) contribution of 2014560.0.
+(4) Find the end date for the project where the maximum contribution is equal to 2014560.0.
+(5) Find the end date of all projects where the maximum EC contribution is equal to 2014560.0.
+(6) Find the end date of the project that has an EC maximum contribution of 2014560.0 from the projects table.
+(7) Find the end date for the project where the EC max contribution is equal to 2014560.0.
+
+
+Re-ranked choices:
+7.086  Find the end date of the project that has an EC maximum contribution of 2014560.0 from the projects table.
+7.062  Retrieve the end date of a project where the EC maximum contribution is equal to 2014560.0 from the projects table.
+7.062  Find the end date for the project where the EC max contribution is equal to 2014560.0.
+7.050  Find the end date of all projects where the EC maximum contribution is equal to 2014560.0.
+7.050  Find the end date of all projects where the maximum EC contribution is equal to 2014560.0.
+5.650  Find the end date of the project where the maximum EC contribution is equal to 2014560.0.
+5.632  Find the end date of the project with a maximum EC (European Commission) contribution of 2014560.0.
+4.254  Find the end date for the project where the maximum contribution is equal to 2014560.0.
+

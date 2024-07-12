@@ -1,0 +1,16 @@
+SELECT disease_mutation.data_source FROM disease_mutation AS disease_mutation JOIN disease_mutation_impact_prediction AS disease_mutation_impact_prediction ON disease_mutation.id = disease_mutation_impact_prediction.disease_mutation_id WHERE disease_mutation_impact_prediction.site_prediction != "+++|gain"
+
+###
+
+
+Original Query:
+SELECT T1.data_source FROM disease_mutation AS T1 JOIN disease_mutation_impact_prediction AS T2 ON T1.id = T2.disease_mutation_id WHERE T2.site_prediction != "+++|gain"
+GPT-3 choices:
+(0) Retrieve the data source from the disease mutation table for all entries in the disease mutation impact prediction table where the site prediction is not equal to "+++|gain".
+(1) Get the data source from the disease mutation table for disease mutations that have a different site prediction than "+++|gain" in the disease mutation impact prediction table.
+(2) Retrieve the data source from the disease_mutation table for all entries where the site_prediction in the disease_mutation_impact_prediction table is not equal to "+++|gain".
+(3) Retrieve the data source from the disease_mutation table where the site_prediction column in the disease_mutation_impact_prediction table does not equal "+++|gain".
+(4) Retrieve the data source from the disease_mutation table where the site_prediction value in the disease_mutation_impact_prediction table is not "+++|gain".
+(5) Retrieve the data source from disease_mutation where the site_prediction in disease_mutation_impact_prediction is not equal to "+++|gain".
+(6) Retrieve the data source for all disease mutations where the site prediction in the associated impact prediction is not equal to "+++|gain".
+(7) Retrieve the data sources of disease mutations that have an impact prediction with a site prediction that is not equal to "+++|gain".

@@ -1,0 +1,28 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_code2 = "OM" or countries.unics_id = 181
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_code2 = "OM" or T1.unics_id = 181
+GPT-3 choices:
+(0) Get the geocode country code for all countries from the table "countries" where either the country_code2 is equal to "OM" or the unics_id is equal to 181.
+(1) Get the geocode country code for the country with a country code of "OM" or a unics id of 181 from the countries table.
+(2) Get the geocode country code from the countries table where the country's ISO 3166-1 alpha-2 code is "OM" or its UNICS ID is 181.
+(3) Find the geocode country code from the countries table where the country code is equal to "OM" or the unics id is equal to 181.
+(4) Get the geocode country code from the "countries" table where either the country code2 is equal to "OM" or the unique ID is equal to 181.
+(5) Retrieve the geocode country code for the country with a country code of "OM" or a unics ID of 181 from the countries table.
+(6) Retrieve the geocode country code from the "countries" table where the country code is either "OM" or the unique ID is 181.
+(7) Retrieve the geocode country code from the countries table for the country with a country code of "OM" or a unique ID of 181.
+
+
+Re-ranked choices:
+9.134  Get the geocode country code from the "countries" table where either the country code2 is equal to "OM" or the unique ID is equal to 181.
+9.134  Get the geocode country code from the countries table where the country's ISO 3166-1 alpha-2 code is "OM" or its UNICS ID is 181.
+9.129  Find the geocode country code from the countries table where the country code is equal to "OM" or the unics id is equal to 181.
+9.128  Get the geocode country code for the country with a country code of "OM" or a unics id of 181 from the countries table.
+9.127  Retrieve the geocode country code for the country with a country code of "OM" or a unics ID of 181 from the countries table.
+7.736  Retrieve the geocode country code from the "countries" table where the country code is either "OM" or the unique ID is 181.
+7.733  Retrieve the geocode country code from the countries table for the country with a country code of "OM" or a unique ID of 181.
+6.327  Get the geocode country code for all countries from the table "countries" where either the country_code2 is equal to "OM" or the unics_id is equal to 181.
+

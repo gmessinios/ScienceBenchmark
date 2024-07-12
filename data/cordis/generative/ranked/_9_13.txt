@@ -1,0 +1,28 @@
+SELECT projects.ec_fund_scheme FROM projects AS projects JOIN people AS people ON projects.principal_investigator = people.unics_id WHERE people.unics_id != 1209263
+
+###
+
+
+Original Query:
+SELECT T1.ec_fund_scheme FROM projects AS T1 JOIN people AS T2 ON T1.principal_investigator = T2.unics_id WHERE T2.unics_id != 1209263
+GPT-3 choices:
+(0) Get the funding scheme for all projects where the principal investigator is not person with UNICS ID 1209263.
+(1) Retrieve the names of all projects' EC funding schemes from the people and projects tables where the principal investigator's UNiCS ID is not equal to 1209263.
+(2) Retrieve the EC funding scheme of all projects where the principal investigator is someone other than the person with UNICS ID 1209263.
+(3) Retrieve the EC funding scheme for all projects where the principal investigator is not person 1209263.
+(4) Get the EC fund scheme of all projects where the principal investigator is not 1209263.
+(5) Find the EC funding scheme for all projects where the principal investigator is not 1209263.
+(6) Find the names of all projects' funding schemes where the principal investigator is not person with unics_id 1209263.
+(7) Get the funding scheme for all projects where the principal investigator is not identified as person with UNICS ID 1209263.
+
+
+Re-ranked choices:
+9.826  Retrieve the EC funding scheme of all projects where the principal investigator is someone other than the person with UNICS ID 1209263.
+9.825  Retrieve the names of all projects' EC funding schemes from the people and projects tables where the principal investigator's UNiCS ID is not equal to 1209263.
+8.444  Get the EC fund scheme of all projects where the principal investigator is not 1209263.
+8.433  Get the funding scheme for all projects where the principal investigator is not person with UNICS ID 1209263.
+8.428  Get the funding scheme for all projects where the principal investigator is not identified as person with UNICS ID 1209263.
+7.037  Find the EC funding scheme for all projects where the principal investigator is not 1209263.
+7.032  Retrieve the EC funding scheme for all projects where the principal investigator is not person 1209263.
+4.230  Find the names of all projects' funding schemes where the principal investigator is not person with unics_id 1209263.
+

@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id != 17312
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id != 17312
+GPT-3 choices:
+(0) Find the unique anatomical ID for all disease-mutation-tissue combinations except those with an ID of 17312.
+(1) What is the uberon anatomical ID for the disease mutation tissue, excluding the one with a disease mutation ID of 17312?
+(2) What is the uberon anatomical id for disease-mutation-tissue data where the disease mutation id is not equal to 17312?
+(3) Find the uberon anatomical ID for all disease mutation tissues, except those with a disease mutation ID of 17312.
+(4) Get the uberon anatomical ID from the disease_mutation_tissue table where the disease mutation ID is not equal to 17312.
+(5) Find the anatomical identifier from the disease mutation tissue table for all records except those with a specific disease mutation id.
+(6) Retrieve the anatomical identifier for tissues affected by mutations in diseases, excluding those with a specific disease mutation ID.
+(7) What are the uberon anatomical IDs of tissues associated with disease mutation entries that do not have an ID of 17312?

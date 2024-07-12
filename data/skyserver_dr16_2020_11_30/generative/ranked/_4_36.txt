@@ -1,0 +1,27 @@
+SELECT count(*) FROM galspecline AS Emission_line_estimates WHERE Emission_line_estimates.specobjid = 299546302293764096
+
+###
+
+
+Original Query:
+SELECT count(*) FROM galspecline AS T1 WHERE T1.specobjid = 299546302293764096
+GPT-3 choices:
+(0) How many emission lines are estimated for the spectroscopic object with a specobjid of 299546302293764096?
+(1) Count the number of records in the table "Emission_line_estimates" where the "specobjid" value is equal to 299546302293764096.
+(2) How many emission line estimates are associated with the spectrum object with ID 299546302293764096?
+(3) How many emission line estimates are associated with the specobjid 299546302293764096 in the galspecline table?
+(4) How many emission line estimates are associated with the specobjid 299546302293764096 in the galspecline table?
+(5) How many emission lines are estimated for the spectrum object with the specobjid 299546302293764096 in the table galspecline?
+(6) Count the number of emission line estimates in the galspecline table where the specobjid is equal to 299546302293764096.
+(7) How many emission line estimates are there for the spectral object with ID 299546302293764096?
+
+
+Re-ranked choices:
+5.647  How many emission line estimates are there for the spectral object with ID 299546302293764096?
+5.634  How many emission line estimates are associated with the spectrum object with ID 299546302293764096?
+2.830  Count the number of emission line estimates in the galspecline table where the specobjid is equal to 299546302293764096.
+2.830  How many emission lines are estimated for the spectroscopic object with a specobjid of 299546302293764096?
+2.824  How many emission line estimates are associated with the specobjid 299546302293764096 in the galspecline table?
+1.427  How many emission lines are estimated for the spectrum object with the specobjid 299546302293764096 in the table galspecline?
+0.731  Count the number of records in the table "Emission_line_estimates" where the "specobjid" value is equal to 299546302293764096.
+

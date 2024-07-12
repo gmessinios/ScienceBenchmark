@@ -1,0 +1,16 @@
+SELECT Photometric_objects.objid FROM photoobj AS Photometric_objects WHERE Photometric_objects.extinction_r = 0.01023307 and Photometric_objects.dec = -17.4299742773971
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM photoobj AS T1 WHERE T1.extinction_r = 0.01023307 and T1.dec = -17.4299742773971
+GPT-3 choices:
+(0) Find the objid of objects with an extinction_r value of 0.01023307 and a declination of -17.4299742773971 from the photoobj table in the Photometric_objects database.
+(1) Retrieve the object ID from the photoobj table where the extinction_r value is 0.01023307 and the declination value is -17.4299742773971, as represented by the Photometric_objects alias.
+(2) "Retrieve the objid from the photoobj table for objects with an extinction_r value of 0.01023307 and a declination of -17.4299742773971."
+(3) Retrieve the object identification numbers from a database of photometric objects where the extinction value for the r-band is 0.01023307 and the declination is -17.4299742773971.
+(4) What is the object identification number for all photometric objects with an extinction_r value of 0.01023307 and a declination value of -17.4299742773971?
+(5) "Select the object ID from the photo objects table where the extinction value in the r-band is equal to 0.01023307 and the declination is -17.4299742773971."
+(6) What are the object identifiers of all photometric objects in the photoobj table with a extinction_r value of 0.01023307 and a declination value of -17.4299742773971?
+(7) Retrieve the objid from the photoobj table for Photometric_objects where extinction_r is 0.01023307 and dec is -17.4299742773971.

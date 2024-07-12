@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units JOIN institutions AS institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.institutions_name != "EURO-TOP SCRL"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 JOIN institutions AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.institutions_name != "EURO-TOP SCRL"
+GPT-3 choices:
+(0) Find the geocode level from the EU territorial units where the institutions' geocode regions are equal to 3, excluding "EURO-TOP SCRL" from the institutions' names.
+(1) Retrieve the geographic code level from EU territorial units where the geocode regions of institutions match those of EURO-TOP SCRL, excluding that specific institution.
+(2) Retrieve the geographic code level for European Union territorial units from institutions where the institution name is not "EURO-TOP SCRL".
+(3) Get the geocode level for all territorial units from the European Union that have a matching geocode region in institutions, excluding any rows where the institution name is "EURO-TOP SCRL".
+(4) What is the geocode level for EU territorial units that have a matching geocode region in institutions, excluding "EURO-TOP SCRL"?
+(5) Retrieve the geocode level from the EU territorial units table for all institutions where the geocode regions 3 in the institutions table are equal to the geocode regions in the EU territorial units table, but exclude any institution named "EURO-TOP SCRL".
+(6) Retrieve the geocode level of EU territorial units where the geocode regions match those of institutions, excluding institutions with the name "EURO-TOP SCRL".
+(7) Which geocode levels are associated with institutions that have a geocode_regions_3 value different from "EURO-TOP SCRL"?

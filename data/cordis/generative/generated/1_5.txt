@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.ec_max_contribution = 5971173.75
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_max_contribution = 5971173.75
+GPT-3 choices:
+(0) Get the research council number (rcn) of all topics that are associated with projects where the maximum contribution is equal to 5971173.75 Euros.
+(1) What are the research council numbers for topics that are associated with projects whose maximum EC contribution is 5971173.75?
+(2) Get the RCN of topics where the EC max contribution of the associated project is equal to 5971173.75.
+(3) Get the RCN values from the topics table for all projects where the EC max contribution is equal to 5971173.75 and the topic code in the project_topics table matches with a code in the topics table.
+(4) Find the research code numbers for all topics that are related to a project with a maximum contribution of 5971173.75 euros.
+(5) Retrieve the RCN value for all topics that are associated with a project code in the project_topics table and have an EC maximum contribution of 5971173.75 in the projects table.
+(6) Retrieve the RCN values from the topics table for all projects where the EC max contribution is equal to 5971173.75 and join it with the project_topics table on topic code and projects table on unics_id.
+(7) What is the research council number for all topics that are associated with a project whose maximum contribution amount is equal to 5971173.75?

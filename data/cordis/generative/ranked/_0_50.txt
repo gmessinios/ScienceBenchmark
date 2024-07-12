@@ -1,0 +1,28 @@
+SELECT institutions.geocode_regions_3 FROM institutions AS institutions WHERE institutions.website = "https://www.toscanalifesciences.org/"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions_3 FROM institutions AS T1 WHERE T1.website = "https://www.toscanalifesciences.org/"
+GPT-3 choices:
+(0) Find the geocode region 3 from institutions where the website is "https://www.toscanalifesciences.org/".
+(1) What is the geocode region 3 for the institution with a website of "https://www.toscanalifesciences.org/"?
+(2) Find the geocode region 3 for the institution with the website "https://www.toscanalifesciences.org/".
+(3) Find the geocode regions 3 from institutions where the website is "https://www.toscanalifesciences.org/".
+(4) Retrieve the geocode_regions_3 data from the institutions table where the website is "https://www.toscanalifesciences.org/".
+(5) What is the geocode regions 3 for the institution with the website https://www.toscanalifesciences.org/?
+(6) Retrieve the geocode regions 3 from institutions where the website is "https://www.toscanalifesciences.org/".
+(7) Find the geographic region with a level of granularity of 3 for the institution whose website is "https://www.toscanalifesciences.org/".
+
+
+Re-ranked choices:
+7.029  Find the geocode regions 3 from institutions where the website is "https://www.toscanalifesciences.org/".
+7.026  Retrieve the geocode regions 3 from institutions where the website is "https://www.toscanalifesciences.org/".
+5.629  Find the geocode region 3 from institutions where the website is "https://www.toscanalifesciences.org/".
+5.628  What is the geocode regions 3 for the institution with the website https://www.toscanalifesciences.org/?
+4.230  What is the geocode region 3 for the institution with a website of "https://www.toscanalifesciences.org/"?
+4.229  Find the geocode region 3 for the institution with the website "https://www.toscanalifesciences.org/".
+2.821  Retrieve the geocode_regions_3 data from the institutions table where the website is "https://www.toscanalifesciences.org/".
+2.820  Find the geographic region with a level of granularity of 3 for the institution whose website is "https://www.toscanalifesciences.org/".
+

@@ -1,0 +1,28 @@
+SELECT map_protein_disease_mutation.uniprotkb_ac FROM map_protein_disease_mutation AS map_protein_disease_mutation JOIN map_uniprot_canonical_id AS map_uniprot_canonical_id ON map_protein_disease_mutation.uniprotkb_ac = map_uniprot_canonical_id.uniprotkb_ac WHERE map_uniprot_canonical_id.uniprotkb_canonical_ac != "A6NMK8-1"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_protein_disease_mutation AS T1 JOIN map_uniprot_canonical_id AS T2 ON T1.uniprotkb_ac = T2.uniprotkb_ac WHERE T2.uniprotkb_canonical_ac != "A6NMK8-1"
+GPT-3 choices:
+(0) Retrieve the UniProtKB accession number from the table map_protein_disease_mutation, joined with the table map_uniprot_canonical_id, where the UniProtKB canonical accession number is not equal to "A6NMK8-1".
+(1) Retrieve the UniProtKB accession numbers from the table map_protein_disease_mutation where the canonical UniProtKB accession number is not equal to "A6NMK8-1".
+(2) "Retrieve the UniProtKB accession codes from the table of protein-disease-mutation mappings, excluding any that correspond to the canonical UniProtKB ID A6NMK8-1."
+(3) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the UniProtKB canonical accession number is not equal to "A6NMK8-1", after joining it with the map_uniprot_canonical_id table.
+(4) Retrieve the UniProtKB accession numbers from the map_protein_disease_mutation table, excluding the canonical UniProtKB accession number "A6NMK8-1", by joining it with the map_uniprot_canonical_id table on matching UniProtKB accession numbers.
+(5) What is the uniprotkb_ac value from the map_protein_disease_mutation table, excluding the entry for A6NMK8-1, after joining it with the map_uniprot_canonical_id table using the uniprotkb_ac column?
+(6) Get the UniProtKB accession numbers from the map_protein_disease_mutation table for all proteins, excluding "A6NMK8-1", by joining with the map_uniprot_canonical_id table and selecting only those that have a different canonical accession number.
+(7) Retrieve the UniprotKB accession number from the "map_protein_disease_mutation" table, excluding any entries with a canonical UniprotKB accession number of "A6NMK8-1", by joining it with the "map_uniprot_canonical_id" table and selecting only those entries where the two accession numbers are not equal.
+
+
+Re-ranked choices:
+4.218  "Retrieve the UniProtKB accession codes from the table of protein-disease-mutation mappings, excluding any that correspond to the canonical UniProtKB ID A6NMK8-1."
+4.212  Retrieve the UniProtKB accession numbers from the map_protein_disease_mutation table, excluding the canonical UniProtKB accession number "A6NMK8-1", by joining it with the map_uniprot_canonical_id table on matching UniProtKB accession numbers.
+3.518  Retrieve the UniProtKB accession numbers from the table map_protein_disease_mutation where the canonical UniProtKB accession number is not equal to "A6NMK8-1".
+3.514  Retrieve the UniProtKB accession number from the table map_protein_disease_mutation, joined with the table map_uniprot_canonical_id, where the UniProtKB canonical accession number is not equal to "A6NMK8-1".
+3.514  Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the UniProtKB canonical accession number is not equal to "A6NMK8-1", after joining it with the map_uniprot_canonical_id table.
+3.514  Get the UniProtKB accession numbers from the map_protein_disease_mutation table for all proteins, excluding "A6NMK8-1", by joining with the map_uniprot_canonical_id table and selecting only those that have a different canonical accession number.
+3.512  Retrieve the UniprotKB accession number from the "map_protein_disease_mutation" table, excluding any entries with a canonical UniprotKB accession number of "A6NMK8-1", by joining it with the "map_uniprot_canonical_id" table and selecting only those entries where the two accession numbers are not equal.
+0.014  What is the uniprotkb_ac value from the map_protein_disease_mutation table, excluding the entry for A6NMK8-1, after joining it with the map_uniprot_canonical_id table using the uniprotkb_ac column?
+

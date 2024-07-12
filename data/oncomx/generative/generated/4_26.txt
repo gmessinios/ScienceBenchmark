@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.alias = "8-oxoguanine DNA glycosylase"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_alias AS T1 WHERE T1.alias = "8-oxoguanine DNA glycosylase"
+GPT-3 choices:
+(0) How many biomarker aliases are there for "8-oxoguanine DNA glycosylase"?
+(1) How many biomarker aliases are there for the 8-oxoguanine DNA glycosylase?
+(2) How many biomarkers have an alias of "8-oxoguanine DNA glycosylase"?
+(3) How many biomarkers are there with the alias "8-oxoguanine DNA glycosylase"?
+(4) How many entries are there in the biomarker alias table where the alias is "8-oxoguanine DNA glycosylase"?
+(5) How many biomarker aliases are there for the alias "8-oxoguanine DNA glycosylase"?
+(6) How many biomarker aliases are associated with the name "8-oxoguanine DNA glycosylase"?
+(7) How many biomarker aliases are there in the table "biomarker_alias" where the alias is "8-oxoguanine DNA glycosylase"?

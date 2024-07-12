@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.title = "Role of aquaculture in improving food security and eradicating poverty worldwide"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.title = "Role of aquaculture in improving food security and eradicating poverty worldwide"
+GPT-3 choices:
+(0) What is the RCN of the topic with a title "Role of aquaculture in improving food security and eradicating poverty worldwide"?
+(1) What is the rcn of the topic titled "Role of aquaculture in improving food security and eradicating poverty worldwide" from the table topics?
+(2) What is the RCN of the topic "Role of aquaculture in improving food security and eradicating poverty worldwide"?
+(3) Retrieve the Research Council Number (RCN) for the topic with the title "Role of aquaculture in improving food security and eradicating poverty worldwide" from the topics table.
+(4) What is the record number of the topic titled "Role of aquaculture in improving food security and eradicating poverty worldwide"?
+(5) Find the record number (rcn) for the topic "Role of aquaculture in improving food security and eradicating poverty worldwide" in the table called "topics".
+(6) What is the RCN of the topic with the title "Role of aquaculture in improving food security and eradicating poverty worldwide"?
+(7) What is the RCN for the topic "Role of aquaculture in improving food security and eradicating poverty worldwide"?

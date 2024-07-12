@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units JOIN institutions AS institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.website != "https://www.toscanalifesciences.org/"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 JOIN institutions AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.website != "https://www.toscanalifesciences.org/"
+GPT-3 choices:
+(0) Find the description of all European territorial units for institutions that have a website other than "https://www.toscanalifesciences.org/".
+(1) Get the description from the "eu_territorial_units" table for all regions whose geocode_regions_3 match those of institutions with a website that is not "https://www.toscanalifesciences.org/".
+(2) Retrieve the descriptions of EU territorial units for institutions whose website is not "https://www.toscanalifesciences.org/".
+(3) Retrieve the description of the territorial unit for all institutions whose website is not "https://www.toscanalifesciences.org/".
+(4) Get the description of EU territorial units from institutions where their geocode regions match and their website is not equal to "https://www.toscanalifesciences.org/".
+(5) Retrieve the description of European Union territorial units where the website is not "https://www.toscanalifesciences.org/" and the geocode regions match between EU territorial units and institutions.
+(6) Retrieve the description of European territorial units from institutions where the geocode regions in eu_territorial_units match those in institutions and the website is not "https://www.toscanalifesciences.org/".
+(7) Get the description of the European territorial unit from institutions where the website is not "https://www.toscanalifesciences.org/".
+
+
+Re-ranked choices:
+11.223  Get the description of EU territorial units from institutions where their geocode regions match and their website is not equal to "https://www.toscanalifesciences.org/".
+9.823  Retrieve the description of European Union territorial units where the website is not "https://www.toscanalifesciences.org/" and the geocode regions match between EU territorial units and institutions.
+9.815  Retrieve the description of European territorial units from institutions where the geocode regions in eu_territorial_units match those in institutions and the website is not "https://www.toscanalifesciences.org/".
+7.020  Retrieve the descriptions of EU territorial units for institutions whose website is not "https://www.toscanalifesciences.org/".
+7.019  Find the description of all European territorial units for institutions that have a website other than "https://www.toscanalifesciences.org/".
+5.620  Retrieve the description of the territorial unit for all institutions whose website is not "https://www.toscanalifesciences.org/".
+5.619  Get the description of the European territorial unit from institutions where the website is not "https://www.toscanalifesciences.org/".
+5.618  Get the description from the "eu_territorial_units" table for all regions whose geocode_regions_3 match those of institutions with a website that is not "https://www.toscanalifesciences.org/".
+

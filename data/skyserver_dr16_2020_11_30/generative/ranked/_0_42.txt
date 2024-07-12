@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.bestobjid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.zwarning = 0
+
+###
+
+
+Original Query:
+SELECT T1.bestobjid FROM specobj AS T1 WHERE T1.zwarning = 0
+GPT-3 choices:
+(0) Get the best object ID from the spectroscopic objects table for those with a zero zwarning value.
+(1) Find the best object IDs from the spectroscopic objects table where the zwarning value is equal to 0.
+(2) Get the best object ID from the spectroscopic objects where the zwarning is equal to 0.
+(3) Find the best object identification numbers for all objects in the spectroscopic data where the zwarning is equal to 0.
+(4) Retrieve the best object IDs from the spectroscopic objects where the zwarning value is equal to 0.
+(5) Retrieve the best object ID from the spectroscopic objects where the redshift warning is equal to 0.
+(6) Find the best object identification numbers from the spectroscopic objects table for objects with a zwarning of 0.
+(7) Find the best object ID for spectroscopic objects with a zero zwarning value from the specobj table.
+
+
+Re-ranked choices:
+8.434  Retrieve the best object ID from the spectroscopic objects where the redshift warning is equal to 0.
+5.637  Get the best object ID from the spectroscopic objects where the zwarning is equal to 0.
+5.631  Get the best object ID from the spectroscopic objects table for those with a zero zwarning value.
+5.628  Find the best object ID for spectroscopic objects with a zero zwarning value from the specobj table.
+4.233  Find the best object IDs from the spectroscopic objects table where the zwarning value is equal to 0.
+4.231  Retrieve the best object IDs from the spectroscopic objects where the zwarning value is equal to 0.
+4.225  Find the best object identification numbers for all objects in the spectroscopic data where the zwarning is equal to 0.
+4.224  Find the best object identification numbers from the spectroscopic objects table for objects with a zwarning of 0.
+

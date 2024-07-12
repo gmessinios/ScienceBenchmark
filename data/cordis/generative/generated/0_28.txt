@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles AS project_member_roles WHERE project_member_roles.code = "thirdParty"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM project_member_roles AS T1 WHERE T1.code = "thirdParty"
+GPT-3 choices:
+(0) "Retrieve the description from project member roles where the code is equal to 'thirdParty'."
+(1) Retrieve the description from the project_member_roles table for the role with the code "thirdParty".
+(2) Get the description from the project_member_roles table where the code is "thirdParty".
+(3) "Retrieve the description from project member roles where the code is equal to 'thirdParty'."
+(4) Find the description of the project member role with a code of "thirdParty" from the project_member_roles table.
+(5) Retrieve the description from the project member roles table where the code is equal to "thirdParty".
+(6) Get the description from the project_member_roles table for the entry with a code of "thirdParty".
+(7) Find the description of project member roles where the code is "thirdParty" from the table project_member_roles.

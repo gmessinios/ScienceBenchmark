@@ -1,0 +1,28 @@
+SELECT Photometric_objects.clean, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.clean
+
+###
+
+
+Original Query:
+SELECT T1.clean, count(*) FROM photoobj AS T1  GROUP BY T1.clean
+GPT-3 choices:
+(0) "How many rows are in the table photoobj grouped by their value in the clean column?"
+(1) How many photo objects are there for each clean category in the Photometric_objects table?
+(2) What is the count of clean objects in the photoobj table grouped by their clean status?
+(3) Count the number of rows in the photoobj table grouped by the clean column and return the clean column and its corresponding count.
+(4) How many rows are in the table "photoobj" grouped by the column "clean" and only return those that are marked as clean, while also counting the number of rows in each group?
+(5) Count the number of rows in the table "photoobj" grouped by the column "clean" and label the result as "count".
+(6) Count the number of objects in the photoobj table and group them by their "clean" status.
+(7) Count the number of objects in the photoobj table grouped by their clean status.
+
+
+Re-ranked choices:
+3.543  What is the count of clean objects in the photoobj table grouped by their clean status?
+3.543  Count the number of objects in the photoobj table and group them by their "clean" status.
+3.541  Count the number of objects in the photoobj table grouped by their clean status.
+3.530  How many photo objects are there for each clean category in the Photometric_objects table?
+2.143  "How many rows are in the table photoobj grouped by their value in the clean column?"
+2.135  Count the number of rows in the table "photoobj" grouped by the column "clean" and label the result as "count".
+2.128  Count the number of rows in the photoobj table grouped by the clean column and return the clean column and its corresponding count.
+2.123  How many rows are in the table "photoobj" grouped by the column "clean" and only return those that are marked as clean, while also counting the number of rows in each group?
+

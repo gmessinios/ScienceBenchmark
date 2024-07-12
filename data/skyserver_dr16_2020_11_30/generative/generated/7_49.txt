@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.dec FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.zerr = 3.229446e-06 or Spectroscopic_objects.segue2_target1 = -2147483646
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM specobj AS T1 WHERE T1.zerr = 3.229446e-06 or T1.segue2_target1 = -2147483646
+GPT-3 choices:
+(0) What are the declination values for spectroscopic objects with a redshift error of 3.229446e-06 or a SEGUE2 target1 value of -2147483646?
+(1) Find the declination values for all spectroscopic objects where either the redshift error is equal to 3.229446e-06 or the Segue 2 target 1 value is equal to -2147483646 in the specobj table.
+(2) Find the declination of objects from the specobj table where either the redshift error is equal to 3.229446e-06 or segue2_target1 is equal to -2147483646.
+(3) Retrieve the declination of spectroscopic objects from the specobj table where either their redshift error is 3.229446e-06 or their segue2_target1 value is -2147483646.
+(4) Retrieve the declination values of all spectroscopic objects where the redshift error is 3.229446e-06 or the target code for SEGUE2 is -2147483646.
+(5) Find the declination of spectroscopic objects with a redshift error of 3.229446e-06 or a target code of -2147483646 in the specobj table.
+(6) Retrieve the declination values of objects in the Spectroscopic_objects table where either the zerr column has a value of 3.229446e-06 or the segue2_target1 column has a value of -2147483646.
+(7) What are the declination values for all spectroscopic objects where the redshift error is equal to 3.229446e-06 or where the segue2_target1 value is -2147483646?

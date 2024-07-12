@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title != "Thermoelectric energy converters based on nanotechnology"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title != "Thermoelectric energy converters based on nanotechnology"
+GPT-3 choices:
+(0) Retrieve the codes of all topics, excluding "Thermoelectric energy converters based on nanotechnology".
+(1) Retrieve the code of all topics except for "Thermoelectric energy converters based on nanotechnology".
+(2) Find the topic codes for all topics except "Thermoelectric energy converters based on nanotechnology".
+(3) What are the codes of all topics except "Thermoelectric energy converters based on nanotechnology"?
+(4) Find the codes of all topics whose title is not "Thermoelectric energy converters based on nanotechnology".
+(5) Retrieve the topic codes for all topics with a title that is not "Thermoelectric energy converters based on nanotechnology".
+(6) Find the code of topics excluding "Thermoelectric energy converters based on nanotechnology".
+(7) Find the code for topics that are not titled "Thermoelectric energy converters based on nanotechnology".

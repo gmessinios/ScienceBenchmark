@@ -1,0 +1,28 @@
+SELECT map_protein_disease_mutation.uniprotkb_ac FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.ensembl_transcript_id = "ENST00000216264"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_protein_disease_mutation AS T1 WHERE T1.ensembl_transcript_id = "ENST00000216264"
+GPT-3 choices:
+(0) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl transcript ID is "ENST00000216264".
+(1) Find the UniProtKB accession number for a protein associated with a disease and mutation, where the Ensembl transcript ID is "ENST00000216264".
+(2) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl transcript id is "ENST00000216264".
+(3) Retrieve the UniprotKB accession number for a protein-disease-mutation mapping where the Ensembl transcript ID is "ENST00000216264".
+(4) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000216264".
+(5) What is the UniProtKB accession number of the protein associated with a disease and mutation where the Ensembl transcript ID is "ENST00000216264"?
+(6) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table for a given Ensembl transcript ID of "ENST00000216264".
+(7) Retrieve the uniprotkb accessions from the map_protein_disease_mutation table where the ensembl transcript ID is "ENST00000216264".
+
+
+Re-ranked choices:
+10.520  What is the UniProtKB accession number of the protein associated with a disease and mutation where the Ensembl transcript ID is "ENST00000216264"?
+9.119  Find the UniProtKB accession number for a protein associated with a disease and mutation, where the Ensembl transcript ID is "ENST00000216264".
+6.320  Retrieve the uniprotkb accessions from the map_protein_disease_mutation table where the ensembl transcript ID is "ENST00000216264".
+6.320  Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl transcript ID is "ENST00000216264".
+6.320  Retrieve the UniprotKB accession number for a protein-disease-mutation mapping where the Ensembl transcript ID is "ENST00000216264".
+6.319  Retrieve the UniProtKB accession number from the map_protein_disease_mutation table for a given Ensembl transcript ID of "ENST00000216264".
+6.319  Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl transcript id is "ENST00000216264".
+2.117  Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000216264".
+

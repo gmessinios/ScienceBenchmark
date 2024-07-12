@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description != "Wittenberg"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.description != "Wittenberg"
+GPT-3 choices:
+(0) Retrieve the NUTS version from the EU territorial units where the description is not "Wittenberg".
+(1) Get the version of NUTS from the EU territorial units where the description is not "Wittenberg".
+(2) Find the NUTS version for all EU territorial units except for "Wittenberg".
+(3) Retrieve the NUTS version from the EU territorial units where the description is not "Wittenberg".
+(4) Retrieve the NUTS version from the EU territorial units table where the description is not "Wittenberg".
+(5) "Retrieve the NUTS version of all EU territorial units that do not have the description 'Wittenberg'."
+(6) Find the NUTS version for all EU territorial units that are not named "Wittenberg".
+(7) What is the nuts version of the EU territorial unit where the description is not "Wittenberg"?

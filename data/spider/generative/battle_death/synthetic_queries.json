@@ -1,0 +1,2732 @@
+[
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM death AS T1 WHERE T1.killed = 8",
+    "readable_query": "SELECT death.id FROM death AS death WHERE death.killed = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.note FROM death AS T1 WHERE T1.killed = 29",
+    "readable_query": "SELECT death.note FROM death AS death WHERE death.killed = 29"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM battle AS T1 WHERE T1.name = \"Battle of Adrianople\"",
+    "readable_query": "SELECT battle.id FROM battle AS battle WHERE battle.name = \"Battle of Adrianople\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1 WHERE T1.result = \"Two Year Truce\"",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle WHERE battle.result = \"Two Year Truce\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.note FROM death AS T1 WHERE T1.injured = 5",
+    "readable_query": "SELECT death.note FROM death AS death WHERE death.injured = 5"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM death AS T1 WHERE T1.caused_by_ship_id = 6",
+    "readable_query": "SELECT death.id FROM death AS death WHERE death.caused_by_ship_id = 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.date FROM battle AS T1 WHERE T1.latin_commander = \"Thierry de Termond\"",
+    "readable_query": "SELECT battle.date FROM battle AS battle WHERE battle.latin_commander = \"Thierry de Termond\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1 WHERE T1.id = 4",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship WHERE ship.id = 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.location FROM ship AS T1 WHERE T1.lost_in_battle = 6",
+    "readable_query": "SELECT ship.location FROM ship AS ship WHERE ship.lost_in_battle = 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.note FROM death AS T1 WHERE T1.caused_by_ship_id = 6",
+    "readable_query": "SELECT death.note FROM death AS death WHERE death.caused_by_ship_id = 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.name = \"Bacchus\"",
+    "readable_query": "SELECT battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.name = \"Bacchus\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.result FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.id = 7",
+    "readable_query": "SELECT battle.result FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.id = 7"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.latin_commander = \"John of Brienne\"",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.latin_commander = \"John of Brienne\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.name FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.note = \"Erraboru, Chhattisgarh\"",
+    "readable_query": "SELECT ship.name FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.note = \"Erraboru, Chhattisgarh\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.tonnage = \"225\"",
+    "readable_query": "SELECT death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.tonnage = \"225\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.ship_type = \"Brig\"",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.ship_type = \"Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.name FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.injured = 0",
+    "readable_query": "SELECT ship.name FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.injured = 0"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.lost_in_battle = 4",
+    "readable_query": "SELECT death.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.lost_in_battle = 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ship_type FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.killed = 8",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.killed = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.lost_in_battle = 5",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.lost_in_battle = 5"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ship_type, count(*) FROM ship AS T1  GROUP BY T1.ship_type",
+    "readable_query": "SELECT ship.ship_type, count(*) FROM ship AS ship  GROUP BY ship.ship_type"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.location, count(*) FROM ship AS T1  GROUP BY T1.location",
+    "readable_query": "SELECT ship.location, count(*) FROM ship AS ship  GROUP BY ship.location"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.note, count(*) FROM death AS T1  GROUP BY T1.note",
+    "readable_query": "SELECT death.note, count(*) FROM death AS death  GROUP BY death.note"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.name, count(*) FROM battle AS T1  GROUP BY T1.name",
+    "readable_query": "SELECT battle.name, count(*) FROM battle AS battle  GROUP BY battle.name"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.id, count(*) FROM death AS T1  GROUP BY T1.id",
+    "readable_query": "SELECT death.id, count(*) FROM death AS death  GROUP BY death.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.tonnage, count(*) FROM ship AS T1  GROUP BY T1.tonnage",
+    "readable_query": "SELECT ship.tonnage, count(*) FROM ship AS ship  GROUP BY ship.tonnage"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.id, count(*) FROM ship AS T1  GROUP BY T1.id",
+    "readable_query": "SELECT ship.id, count(*) FROM ship AS ship  GROUP BY ship.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.lost_in_battle, count(*) FROM ship AS T1  GROUP BY T1.lost_in_battle",
+    "readable_query": "SELECT ship.lost_in_battle, count(*) FROM ship AS ship  GROUP BY ship.lost_in_battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.disposition_of_ship, count(*) FROM ship AS T1  GROUP BY T1.disposition_of_ship",
+    "readable_query": "SELECT ship.disposition_of_ship, count(*) FROM ship AS ship  GROUP BY ship.disposition_of_ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.killed, count(*) FROM death AS T1  GROUP BY T1.killed",
+    "readable_query": "SELECT death.killed, count(*) FROM death AS death  GROUP BY death.killed"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.note, count(*) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id  GROUP BY T1.note",
+    "readable_query": "SELECT death.note, count(*) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id  GROUP BY death.note"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.tonnage, count(*) FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id  GROUP BY T1.tonnage",
+    "readable_query": "SELECT ship.tonnage, count(*) FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id  GROUP BY ship.tonnage"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.date, count(*) FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle  GROUP BY T1.date",
+    "readable_query": "SELECT battle.date, count(*) FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle  GROUP BY battle.date"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.tonnage, count(*) FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id  GROUP BY T1.tonnage",
+    "readable_query": "SELECT ship.tonnage, count(*) FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id  GROUP BY ship.tonnage"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.id, count(*) FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id  GROUP BY T1.id",
+    "readable_query": "SELECT ship.id, count(*) FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id  GROUP BY ship.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.killed, count(*) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id  GROUP BY T1.killed",
+    "readable_query": "SELECT death.killed, count(*) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id  GROUP BY death.killed"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.name, count(*) FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id  GROUP BY T1.name",
+    "readable_query": "SELECT ship.name, count(*) FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id  GROUP BY ship.name"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.bulgarian_commander, count(*) FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle  GROUP BY T1.bulgarian_commander",
+    "readable_query": "SELECT battle.bulgarian_commander, count(*) FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle  GROUP BY battle.bulgarian_commander"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.location, count(*) FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id  GROUP BY T1.location",
+    "readable_query": "SELECT ship.location, count(*) FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id  GROUP BY ship.location"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.name, count(*) FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id  GROUP BY T1.name",
+    "readable_query": "SELECT ship.name, count(*) FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id  GROUP BY ship.name"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM battle AS T1",
+    "readable_query": "SELECT count(*) FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM death AS T1",
+    "readable_query": "SELECT count(*) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM ship AS T1",
+    "readable_query": "SELECT count(*) FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.id, T1.note FROM death AS T1",
+    "readable_query": "SELECT death.id, death.note FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.lost_in_battle, T1.tonnage FROM ship AS T1",
+    "readable_query": "SELECT ship.lost_in_battle, ship.tonnage FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.bulgarian_commander, T1.id FROM battle AS T1",
+    "readable_query": "SELECT battle.bulgarian_commander, battle.id FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.injured, T1.note FROM death AS T1",
+    "readable_query": "SELECT death.injured, death.note FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.location FROM ship AS T1",
+    "readable_query": "SELECT ship.name, ship.location FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.killed, T1.id FROM death AS T1",
+    "readable_query": "SELECT death.killed, death.id FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.note, T1.id FROM death AS T1",
+    "readable_query": "SELECT death.note, death.id FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ship_type, T1.disposition_of_ship FROM ship AS T1",
+    "readable_query": "SELECT ship.ship_type, ship.disposition_of_ship FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.result, T1.name FROM battle AS T1",
+    "readable_query": "SELECT battle.result, battle.name FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.date, T1.id FROM battle AS T1",
+    "readable_query": "SELECT battle.date, battle.id FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.note, T2.lost_in_battle FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id",
+    "readable_query": "SELECT death.note, ship.lost_in_battle FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.note, T2.disposition_of_ship FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id",
+    "readable_query": "SELECT death.note, ship.disposition_of_ship FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.latin_commander, T2.lost_in_battle FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle",
+    "readable_query": "SELECT battle.latin_commander, ship.lost_in_battle FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.id, T2.date FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id",
+    "readable_query": "SELECT ship.id, battle.date FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.result, T2.ship_type FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle",
+    "readable_query": "SELECT battle.result, ship.ship_type FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.caused_by_ship_id, T2.lost_in_battle FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id",
+    "readable_query": "SELECT death.caused_by_ship_id, ship.lost_in_battle FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.caused_by_ship_id, T2.ship_type FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id",
+    "readable_query": "SELECT death.caused_by_ship_id, ship.ship_type FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.tonnage, T2.note FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id",
+    "readable_query": "SELECT ship.tonnage, death.note FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.killed, T2.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id",
+    "readable_query": "SELECT death.killed, ship.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.bulgarian_commander, T2.tonnage FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle",
+    "readable_query": "SELECT battle.bulgarian_commander, ship.tonnage FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.result, T1.date FROM battle AS T1 WHERE T1.latin_commander = \"Baldwin I\"",
+    "readable_query": "SELECT battle.result, battle.date FROM battle AS battle WHERE battle.latin_commander = \"Baldwin I\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.caused_by_ship_id, T1.note FROM death AS T1 WHERE T1.killed = 25",
+    "readable_query": "SELECT death.caused_by_ship_id, death.note FROM death AS death WHERE death.killed = 25"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.disposition_of_ship, T1.lost_in_battle FROM ship AS T1 WHERE T1.location = \"SW Approaches\"",
+    "readable_query": "SELECT ship.disposition_of_ship, ship.lost_in_battle FROM ship AS ship WHERE ship.location = \"SW Approaches\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.caused_by_ship_id, T1.killed FROM death AS T1 WHERE T1.id = 4",
+    "readable_query": "SELECT death.caused_by_ship_id, death.killed FROM death AS death WHERE death.id = 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.injured, T1.note FROM death AS T1 WHERE T1.caused_by_ship_id = 1",
+    "readable_query": "SELECT death.injured, death.note FROM death AS death WHERE death.caused_by_ship_id = 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ship_type, T1.name FROM ship AS T1 WHERE T1.disposition_of_ship = \"Captured\"",
+    "readable_query": "SELECT ship.ship_type, ship.name FROM ship AS ship WHERE ship.disposition_of_ship = \"Captured\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.id, T1.caused_by_ship_id FROM death AS T1 WHERE T1.note = \"Gajapati, Odisha\"",
+    "readable_query": "SELECT death.id, death.caused_by_ship_id FROM death AS death WHERE death.note = \"Gajapati, Odisha\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.latin_commander, T1.date FROM battle AS T1 WHERE T1.name = \"Siege of Constantinople\"",
+    "readable_query": "SELECT battle.latin_commander, battle.date FROM battle AS battle WHERE battle.name = \"Siege of Constantinople\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ship_type, T1.location FROM ship AS T1 WHERE T1.lost_in_battle = 6",
+    "readable_query": "SELECT ship.ship_type, ship.location FROM ship AS ship WHERE ship.lost_in_battle = 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ship_type, T1.id FROM ship AS T1 WHERE T1.disposition_of_ship = \"Scuttled\"",
+    "readable_query": "SELECT ship.ship_type, ship.id FROM ship AS ship WHERE ship.disposition_of_ship = \"Scuttled\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.injured FROM death AS T1  GROUP BY T1.injured  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT death.injured FROM death AS death  GROUP BY death.injured  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1  GROUP BY T1.lost_in_battle  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship  GROUP BY ship.lost_in_battle  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.result FROM battle AS T1  GROUP BY T1.result  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT battle.result FROM battle AS battle  GROUP BY battle.result  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1  GROUP BY T1.caused_by_ship_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death  GROUP BY death.caused_by_ship_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.id FROM death AS T1  GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT death.id FROM death AS death  GROUP BY death.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1  GROUP BY T1.latin_commander  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle  GROUP BY battle.latin_commander  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1  GROUP BY T1.bulgarian_commander  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle  GROUP BY battle.bulgarian_commander  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1  GROUP BY T1.disposition_of_ship  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship  GROUP BY ship.disposition_of_ship  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.id FROM battle AS T1  GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT battle.id FROM battle AS battle  GROUP BY battle.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.id FROM ship AS T1  GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT ship.id FROM ship AS ship  GROUP BY ship.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM death AS T1 WHERE T1.id = 2",
+    "readable_query": "SELECT count(*) FROM death AS death WHERE death.id = 2"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM battle AS T1 WHERE T1.result = \"Latin victory\"",
+    "readable_query": "SELECT count(*) FROM battle AS battle WHERE battle.result = \"Latin victory\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM death AS T1 WHERE T1.id = 4",
+    "readable_query": "SELECT count(*) FROM death AS death WHERE death.id = 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM ship AS T1 WHERE T1.ship_type = \"8 gun Brig\"",
+    "readable_query": "SELECT count(*) FROM ship AS ship WHERE ship.ship_type = \"8 gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM ship AS T1 WHERE T1.name = \"Mary\"",
+    "readable_query": "SELECT count(*) FROM ship AS ship WHERE ship.name = \"Mary\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM battle AS T1 WHERE T1.latin_commander = \"Boniface of Montferrat\"",
+    "readable_query": "SELECT count(*) FROM battle AS battle WHERE battle.latin_commander = \"Boniface of Montferrat\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM death AS T1 WHERE T1.id = 8",
+    "readable_query": "SELECT count(*) FROM death AS death WHERE death.id = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM death AS T1 WHERE T1.caused_by_ship_id = 4",
+    "readable_query": "SELECT count(*) FROM death AS death WHERE death.caused_by_ship_id = 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM ship AS T1 WHERE T1.tonnage = \"t\"",
+    "readable_query": "SELECT count(*) FROM ship AS ship WHERE ship.tonnage = \"t\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM battle AS T1 WHERE T1.result = \"Two Year Truce\"",
+    "readable_query": "SELECT count(*) FROM battle AS battle WHERE battle.result = \"Two Year Truce\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM battle AS T1    ORDER BY T1.id DESC LIMIT 1",
+    "readable_query": "SELECT battle.name FROM battle AS battle    ORDER BY battle.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1    ORDER BY T1.id DESC LIMIT 1",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death    ORDER BY death.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.injured FROM death AS T1    ORDER BY T1.caused_by_ship_id DESC LIMIT 1",
+    "readable_query": "SELECT death.injured FROM death AS death    ORDER BY death.caused_by_ship_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM ship AS T1    ORDER BY T1.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT ship.id FROM ship AS ship    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.killed FROM death AS T1    ORDER BY T1.caused_by_ship_id DESC LIMIT 1",
+    "readable_query": "SELECT death.killed FROM death AS death    ORDER BY death.caused_by_ship_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1    ORDER BY T1.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.result FROM battle AS T1    ORDER BY T1.id DESC LIMIT 1",
+    "readable_query": "SELECT battle.result FROM battle AS battle    ORDER BY battle.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.date FROM battle AS T1    ORDER BY T1.id DESC LIMIT 1",
+    "readable_query": "SELECT battle.date FROM battle AS battle    ORDER BY battle.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM death AS T1    ORDER BY T1.injured DESC LIMIT 1",
+    "readable_query": "SELECT death.id FROM death AS death    ORDER BY death.injured DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1    ORDER BY T1.id DESC LIMIT 1",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle    ORDER BY battle.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.killed DESC LIMIT 1",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.killed DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.injured DESC LIMIT 1",
+    "readable_query": "SELECT ship.name FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.injured DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.killed DESC LIMIT 1",
+    "readable_query": "SELECT ship.name FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.killed DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.location FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.caused_by_ship_id DESC LIMIT 1",
+    "readable_query": "SELECT ship.location FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.caused_by_ship_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.name FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.result FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.result FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.result FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle ASC LIMIT 1",
+    "readable_query": "SELECT battle.result FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ship_type FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.injured ASC LIMIT 1",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.injured ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.lost_in_battle ASC LIMIT 1",
+    "readable_query": "SELECT death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.lost_in_battle ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle ASC LIMIT 1",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT battle.name FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id    ORDER BY battle.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.lost_in_battle ASC LIMIT 1",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.lost_in_battle ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.id FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.caused_by_ship_id ASC LIMIT 1",
+    "readable_query": "SELECT ship.id FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.caused_by_ship_id ASC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.caused_by_ship_id, T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT death.caused_by_ship_id, death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.latin_commander, T1.date FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.latin_commander, battle.date FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.disposition_of_ship, T1.location FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT ship.disposition_of_ship, ship.location FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id    ORDER BY battle.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name, T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.name, battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.latin_commander, T1.result FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.latin_commander, battle.result FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name, T1.lost_in_battle FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT ship.name, ship.lost_in_battle FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id    ORDER BY battle.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.caused_by_ship_id, T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT death.caused_by_ship_id, death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.bulgarian_commander, T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT battle.bulgarian_commander, battle.name FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.location, T1.disposition_of_ship FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT ship.location, ship.disposition_of_ship FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id    ORDER BY death.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.injured, T1.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id    ORDER BY T2.lost_in_battle DESC LIMIT 1",
+    "readable_query": "SELECT death.injured, death.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id    ORDER BY ship.lost_in_battle DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM death AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  death.id) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.date) FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.date) FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.disposition_of_ship) FROM ship AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.disposition_of_ship) FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.latin_commander) FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.latin_commander) FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.bulgarian_commander) FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.bulgarian_commander) FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.tonnage) FROM ship AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.tonnage) FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.injured) FROM death AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  death.injured) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.killed) FROM death AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  death.killed) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.location) FROM ship AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.location) FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.name) FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.name) FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.caused_by_ship_id) FROM death AS T1",
+    "readable_query": "SELECT avg( death.caused_by_ship_id) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.id) FROM ship AS T1",
+    "readable_query": "SELECT avg( ship.id) FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.injured) FROM death AS T1",
+    "readable_query": "SELECT avg( death.injured) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.lost_in_battle) FROM ship AS T1",
+    "readable_query": "SELECT avg( ship.lost_in_battle) FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.id) FROM death AS T1",
+    "readable_query": "SELECT avg( death.id) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.killed) FROM death AS T1",
+    "readable_query": "SELECT avg( death.killed) FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.id FROM battle AS T1",
+    "readable_query": "SELECT battle.id FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.injured FROM death AS T1",
+    "readable_query": "SELECT death.injured FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.killed FROM death AS T1",
+    "readable_query": "SELECT death.killed FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.name FROM battle AS T1",
+    "readable_query": "SELECT battle.name FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.name FROM ship AS T1",
+    "readable_query": "SELECT ship.name FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.result FROM battle AS T1",
+    "readable_query": "SELECT battle.result FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.bulgarian_commander FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT battle.bulgarian_commander FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.result FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT battle.result FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.date FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT battle.date FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.lost_in_battle FROM ship AS T1",
+    "readable_query": "SELECT DISTINCT ship.lost_in_battle FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.injured FROM death AS T1",
+    "readable_query": "SELECT DISTINCT death.injured FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.latin_commander FROM battle AS T1",
+    "readable_query": "SELECT DISTINCT battle.latin_commander FROM battle AS battle"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.location FROM ship AS T1",
+    "readable_query": "SELECT DISTINCT ship.location FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.caused_by_ship_id FROM death AS T1",
+    "readable_query": "SELECT DISTINCT death.caused_by_ship_id FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.ship_type FROM ship AS T1",
+    "readable_query": "SELECT DISTINCT ship.ship_type FROM ship AS ship"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.id FROM death AS T1",
+    "readable_query": "SELECT DISTINCT death.id FROM death AS death"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.note FROM death AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT death.note FROM death AS death     ORDER BY death.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.result FROM battle AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT battle.result FROM battle AS battle     ORDER BY battle.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle     ORDER BY battle.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.note FROM death AS T1     ORDER BY T1.injured ASC",
+    "readable_query": "SELECT death.note FROM death AS death     ORDER BY death.injured ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.killed FROM death AS T1     ORDER BY T1.caused_by_ship_id ASC",
+    "readable_query": "SELECT death.killed FROM death AS death     ORDER BY death.caused_by_ship_id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1     ORDER BY T1.injured ASC",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death     ORDER BY death.injured ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM death AS T1     ORDER BY T1.injured ASC",
+    "readable_query": "SELECT death.id FROM death AS death     ORDER BY death.injured ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship     ORDER BY ship.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM battle AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT battle.name FROM battle AS battle     ORDER BY battle.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship     ORDER BY ship.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.date FROM battle AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT battle.date FROM battle AS battle     ORDER BY battle.id DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle     ORDER BY battle.id DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.note FROM death AS T1     ORDER BY T1.caused_by_ship_id DESC",
+    "readable_query": "SELECT death.note FROM death AS death     ORDER BY death.caused_by_ship_id DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ship_type FROM ship AS T1     ORDER BY T1.lost_in_battle DESC",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship     ORDER BY ship.lost_in_battle DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM ship AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT ship.name FROM ship AS ship     ORDER BY ship.id DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.note FROM death AS T1     ORDER BY T1.killed DESC",
+    "readable_query": "SELECT death.note FROM death AS death     ORDER BY death.killed DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle     ORDER BY battle.id DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.injured FROM death AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT death.injured FROM death AS death     ORDER BY death.id DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM ship AS T1     ORDER BY T1.lost_in_battle DESC",
+    "readable_query": "SELECT ship.name FROM ship AS ship     ORDER BY ship.lost_in_battle DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM death AS T1     ORDER BY T1.injured DESC",
+    "readable_query": "SELECT death.id FROM death AS death     ORDER BY death.injured DESC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.tonnage, T1.lost_in_battle FROM ship AS T1     ORDER BY T1.lost_in_battle ASC",
+    "readable_query": "SELECT ship.tonnage, ship.lost_in_battle FROM ship AS ship     ORDER BY ship.lost_in_battle ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.date, T1.result FROM battle AS T1     ORDER BY T1.result ASC",
+    "readable_query": "SELECT battle.date, battle.result FROM battle AS battle     ORDER BY battle.result ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.killed, T1.note FROM death AS T1     ORDER BY T1.note ASC",
+    "readable_query": "SELECT death.killed, death.note FROM death AS death     ORDER BY death.note ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.location FROM ship AS T1     ORDER BY T1.location ASC",
+    "readable_query": "SELECT ship.name, ship.location FROM ship AS ship     ORDER BY ship.location ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.injured, T1.id FROM death AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT death.injured, death.id FROM death AS death     ORDER BY death.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.id, T1.caused_by_ship_id FROM death AS T1     ORDER BY T1.caused_by_ship_id ASC",
+    "readable_query": "SELECT death.id, death.caused_by_ship_id FROM death AS death     ORDER BY death.caused_by_ship_id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.id FROM ship AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT ship.name, ship.id FROM ship AS ship     ORDER BY ship.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.id, T1.disposition_of_ship FROM ship AS T1     ORDER BY T1.disposition_of_ship ASC",
+    "readable_query": "SELECT ship.id, ship.disposition_of_ship FROM ship AS ship     ORDER BY ship.disposition_of_ship ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.bulgarian_commander, T1.id FROM battle AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT battle.bulgarian_commander, battle.id FROM battle AS battle     ORDER BY battle.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.lost_in_battle, T1.disposition_of_ship FROM ship AS T1     ORDER BY T1.disposition_of_ship ASC",
+    "readable_query": "SELECT ship.lost_in_battle, ship.disposition_of_ship FROM ship AS ship     ORDER BY ship.disposition_of_ship ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T2.tonnage = \"t\" and T3.name = \"Battle of Rusion\"",
+    "readable_query": "SELECT death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.tonnage = \"t\" and battle.name = \"Battle of Rusion\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T2.lost_in_battle = 4 and T3.result = \"Latin victory\"",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.lost_in_battle = 4 and battle.result = \"Latin victory\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T2.name = \"Bacchus\" and T3.id = 8",
+    "readable_query": "SELECT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.name = \"Bacchus\" and battle.id = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id WHERE T2.tonnage = \"t\" and T3.injured = 5",
+    "readable_query": "SELECT battle.name FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE ship.tonnage = \"t\" and death.injured = 5"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T2.id = 3 and T3.bulgarian_commander = \"Kaloyan\"",
+    "readable_query": "SELECT death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.id = 3 and battle.bulgarian_commander = \"Kaloyan\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id WHERE T2.name = \"Battle of Messinopolis\" and T3.id = 13",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE battle.name = \"Battle of Messinopolis\" and death.id = 13"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.result FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id WHERE T2.ship_type = \"18-gun Brig\" and T3.injured = 5",
+    "readable_query": "SELECT battle.result FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE ship.ship_type = \"18-gun Brig\" and death.injured = 5"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T2.name = \"HMS Atalanta\" and T3.bulgarian_commander = \"Boril\"",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.name = \"HMS Atalanta\" and battle.bulgarian_commander = \"Boril\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T2.ship_type = \"Brig\" and T3.date = \"31 January 1206\"",
+    "readable_query": "SELECT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.ship_type = \"Brig\" and battle.date = \"31 January 1206\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.date FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id WHERE T2.disposition_of_ship = \"Captured\" and T3.caused_by_ship_id = 3",
+    "readable_query": "SELECT battle.date FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE ship.disposition_of_ship = \"Captured\" and death.caused_by_ship_id = 3"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.name = \"Bon Accord\" or T2.name = \"Three Brothers\"",
+    "readable_query": "SELECT battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.name = \"Bon Accord\" or ship.name = \"Three Brothers\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.lost_in_battle = 5 or T2.lost_in_battle = 5",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.lost_in_battle = 5 or ship.lost_in_battle = 5"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.date FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.ship_type = \"Brig\" or T2.ship_type = \"18-gun Brig\"",
+    "readable_query": "SELECT battle.date FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.ship_type = \"Brig\" or ship.ship_type = \"18-gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.ship_type = \"8 gun Brig\" or T2.ship_type = \"18-gun Brig\"",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.ship_type = \"8 gun Brig\" or ship.ship_type = \"18-gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.id = 4 or T2.id = 1",
+    "readable_query": "SELECT death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.id = 4 or ship.id = 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.ship_type FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.injured = 0 or T2.injured = 9",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.injured = 0 or death.injured = 9"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.ship_type FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.bulgarian_commander = \"Ivan Asen II\" or T2.bulgarian_commander = \"Kaloyan\"",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.bulgarian_commander = \"Ivan Asen II\" or battle.bulgarian_commander = \"Kaloyan\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.tonnage = \"391\" or T2.tonnage = \"225\"",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.tonnage = \"391\" or ship.tonnage = \"225\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.latin_commander = \"Unknown\" or T2.latin_commander = \"Henry I\"",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.latin_commander = \"Unknown\" or battle.latin_commander = \"Henry I\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.ship_type FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.result = \"Two Year Truce\" or T2.result = \"Two Year Truce\"",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.result = \"Two Year Truce\" or battle.result = \"Two Year Truce\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.id FROM ship AS T1 WHERE T1.tonnage = \"t\" and T1.name = \"Bacchus\"",
+    "readable_query": "SELECT ship.id FROM ship AS ship WHERE ship.tonnage = \"t\" and ship.name = \"Bacchus\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1 WHERE T1.tonnage = \"391\" and T1.ship_type = \"18-gun Brig\"",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship WHERE ship.tonnage = \"391\" and ship.ship_type = \"18-gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.injured FROM death AS T1 WHERE T1.killed = 14 and T1.note = \"Gajapati, Odisha\"",
+    "readable_query": "SELECT death.injured FROM death AS death WHERE death.killed = 14 and death.note = \"Gajapati, Odisha\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.killed FROM death AS T1 WHERE T1.caused_by_ship_id = 1 and T1.id = 11",
+    "readable_query": "SELECT death.killed FROM death AS death WHERE death.caused_by_ship_id = 1 and death.id = 11"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM battle AS T1 WHERE T1.date = \"1235\" and T1.result = \"Two Year Truce\"",
+    "readable_query": "SELECT battle.name FROM battle AS battle WHERE battle.date = \"1235\" and battle.result = \"Two Year Truce\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.date FROM battle AS T1 WHERE T1.id = 3 and T1.bulgarian_commander = \"Kaloyan\"",
+    "readable_query": "SELECT battle.date FROM battle AS battle WHERE battle.id = 3 and battle.bulgarian_commander = \"Kaloyan\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.injured FROM death AS T1 WHERE T1.caused_by_ship_id = 1 and T1.note = \"Gajapati, Odisha\"",
+    "readable_query": "SELECT death.injured FROM death AS death WHERE death.caused_by_ship_id = 1 and death.note = \"Gajapati, Odisha\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 WHERE T1.name = \"Three Brothers\" and T1.ship_type = \"8 gun Brig\"",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship WHERE ship.name = \"Three Brothers\" and ship.ship_type = \"8 gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 WHERE T1.killed = 0 and T1.note = \"Dantewada, Chhattisgarh\"",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death WHERE death.killed = 0 and death.note = \"Dantewada, Chhattisgarh\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.killed FROM death AS T1 WHERE T1.id = 13 and T1.caused_by_ship_id = 6",
+    "readable_query": "SELECT death.killed FROM death AS death WHERE death.id = 13 and death.caused_by_ship_id = 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ship_type) FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T1.disposition_of_ship = \"Sank\" and T2.name = \"Battle of Serres\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.ship_type) FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.disposition_of_ship = \"Sank\" and battle.name = \"Battle of Serres\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.injured) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T1.killed = 29 and T2.name = \"Lettice\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  death.injured) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE death.killed = 29 and ship.name = \"Lettice\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T1.ship_type = \"8 gun Brig\" and T2.bulgarian_commander = \"Unknown\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.id) FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE ship.ship_type = \"8 gun Brig\" and battle.bulgarian_commander = \"Unknown\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.tonnage) FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T1.id = 3 and T2.killed = 2",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.tonnage) FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE ship.id = 3 and death.killed = 2"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.note) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T1.caused_by_ship_id = 6 and T2.location = \"English Channel\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  death.note) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE death.caused_by_ship_id = 6 and ship.location = \"English Channel\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T1.bulgarian_commander = \"Boril\" and T2.tonnage = \"t\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.id) FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE battle.bulgarian_commander = \"Boril\" and ship.tonnage = \"t\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T1.name = \"Battle of Boruy\" and T2.disposition_of_ship = \"Captured\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.id) FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE battle.name = \"Battle of Boruy\" and ship.disposition_of_ship = \"Captured\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ship_type) FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T1.location = \"Mid-Atlantic\" and T2.note = \"WestMidnapore, West Bengal\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.ship_type) FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE ship.location = \"Mid-Atlantic\" and death.note = \"WestMidnapore, West Bengal\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.name) FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T1.latin_commander = \"Henry I\" and T2.location = \"English Channel\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.name) FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE battle.latin_commander = \"Henry I\" and ship.location = \"English Channel\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.result) FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T1.id = 3 and T2.name = \"Bon Accord\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.result) FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE battle.id = 3 and ship.name = \"Bon Accord\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM ship AS T1 WHERE T1.disposition_of_ship = \"Captured\" or T1.tonnage = \"391\"",
+    "readable_query": "SELECT ship.name FROM ship AS ship WHERE ship.disposition_of_ship = \"Captured\" or ship.tonnage = \"391\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 WHERE T1.result = \"Two Year Truce\" or T1.latin_commander = \"Baldwin I\"",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle WHERE battle.result = \"Two Year Truce\" or battle.latin_commander = \"Baldwin I\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 WHERE T1.id = 12 or T1.injured = 0",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death WHERE death.id = 12 or death.injured = 0"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 WHERE T1.lost_in_battle = 5 or T1.location = \"SW Approaches\"",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship WHERE ship.lost_in_battle = 5 or ship.location = \"SW Approaches\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM ship AS T1 WHERE T1.ship_type = \"Brig\" or T1.lost_in_battle = 8",
+    "readable_query": "SELECT ship.name FROM ship AS ship WHERE ship.ship_type = \"Brig\" or ship.lost_in_battle = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.injured FROM death AS T1 WHERE T1.note = \"Gajapati, Odisha\" or T1.id = 1",
+    "readable_query": "SELECT death.injured FROM death AS death WHERE death.note = \"Gajapati, Odisha\" or death.id = 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 WHERE T1.ship_type = \"18-gun Brig\" or T1.lost_in_battle = 8",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship WHERE ship.ship_type = \"18-gun Brig\" or ship.lost_in_battle = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1 WHERE T1.name = \"Bacchus\" or T1.disposition_of_ship = \"Wrecked\"",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship WHERE ship.name = \"Bacchus\" or ship.disposition_of_ship = \"Wrecked\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM battle AS T1 WHERE T1.result = \"Two Year Truce\" or T1.bulgarian_commander = \"Unknown\"",
+    "readable_query": "SELECT battle.name FROM battle AS battle WHERE battle.result = \"Two Year Truce\" or battle.bulgarian_commander = \"Unknown\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.result FROM battle AS T1 WHERE T1.bulgarian_commander = \"Boril\" or T1.date = \"1235\"",
+    "readable_query": "SELECT battle.result FROM battle AS battle WHERE battle.bulgarian_commander = \"Boril\" or battle.date = \"1235\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.ship_type = \"Brig\" and T2.tonnage = \"225\"",
+    "readable_query": "SELECT count(*) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.ship_type = \"Brig\" and ship.tonnage = \"225\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.note = \"Bastar, Chattisgarh\" and T2.id = 12",
+    "readable_query": "SELECT count(*) FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.note = \"Bastar, Chattisgarh\" and death.id = 12"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.id = 11 and T2.note = \"WestMidnapore, West Bengal\"",
+    "readable_query": "SELECT count(*) FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.id = 11 and death.note = \"WestMidnapore, West Bengal\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.id = 3 and T2.name = \"Battle of Rusion\"",
+    "readable_query": "SELECT count(*) FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.id = 3 and battle.name = \"Battle of Rusion\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.ship_type = \"Brig\" and T2.lost_in_battle = 8",
+    "readable_query": "SELECT count(*) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.ship_type = \"Brig\" and ship.lost_in_battle = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.ship_type = \"18-gun Brig\" and T2.id = 7",
+    "readable_query": "SELECT count(*) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.ship_type = \"18-gun Brig\" and ship.id = 7"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.lost_in_battle = 7 and T2.ship_type = \"Brig\"",
+    "readable_query": "SELECT count(*) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.lost_in_battle = 7 and ship.ship_type = \"Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.id = 1 and T2.name = \"Mary\"",
+    "readable_query": "SELECT count(*) FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.id = 1 and ship.name = \"Mary\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.date = \"1235\" and T2.id = 3",
+    "readable_query": "SELECT count(*) FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.date = \"1235\" and battle.id = 3"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.id = 6 and T2.ship_type = \"8 gun Brig\"",
+    "readable_query": "SELECT count(*) FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.id = 6 and ship.ship_type = \"8 gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 WHERE T1.note != \"Bokaro, Jharkhand\"",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death WHERE death.note != \"Bokaro, Jharkhand\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 WHERE T1.lost_in_battle != 4",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship WHERE ship.lost_in_battle != 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.date FROM battle AS T1 WHERE T1.id != 4",
+    "readable_query": "SELECT battle.date FROM battle AS battle WHERE battle.id != 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 WHERE T1.disposition_of_ship != \"Scuttled\"",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship WHERE ship.disposition_of_ship != \"Scuttled\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.injured FROM death AS T1 WHERE T1.caused_by_ship_id != 2",
+    "readable_query": "SELECT death.injured FROM death AS death WHERE death.caused_by_ship_id != 2"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 WHERE T1.id != 4",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship WHERE ship.id != 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.name FROM ship AS T1 WHERE T1.tonnage != \"391\"",
+    "readable_query": "SELECT ship.name FROM ship AS ship WHERE ship.tonnage != \"391\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.name FROM ship AS T1 WHERE T1.location != \"English Channel\"",
+    "readable_query": "SELECT ship.name FROM ship AS ship WHERE ship.location != \"English Channel\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM battle AS T1 WHERE T1.date != \"31 January 1206\"",
+    "readable_query": "SELECT battle.id FROM battle AS battle WHERE battle.date != \"31 January 1206\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.result FROM battle AS T1 WHERE T1.id != 4",
+    "readable_query": "SELECT battle.result FROM battle AS battle WHERE battle.id != 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.tonnage != \"391\"",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.tonnage != \"391\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.ship_type != \"18-gun Brig\"",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.ship_type != \"18-gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.id != 2",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.id != 2"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.id != 6",
+    "readable_query": "SELECT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.id != 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.ship_type != \"18-gun Brig\"",
+    "readable_query": "SELECT death.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.ship_type != \"18-gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.disposition_of_ship != \"Scuttled\"",
+    "readable_query": "SELECT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.disposition_of_ship != \"Scuttled\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.location != \"SW Approaches\"",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.location != \"SW Approaches\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.latin_commander != \"Henry I\"",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.latin_commander != \"Henry I\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.note != \"WestMidnapore, West Bengal\"",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.note != \"WestMidnapore, West Bengal\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.disposition_of_ship != \"Sank\"",
+    "readable_query": "SELECT battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.disposition_of_ship != \"Sank\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.ship_type FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.name = \"Battle of Rusion\"",
+    "readable_query": "SELECT DISTINCT ship.ship_type FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.name = \"Battle of Rusion\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.result FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.name = \"Mary\"",
+    "readable_query": "SELECT DISTINCT battle.result FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.name = \"Mary\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.latin_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.ship_type = \"Brig\"",
+    "readable_query": "SELECT DISTINCT battle.latin_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.ship_type = \"Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.tonnage = \"225\"",
+    "readable_query": "SELECT DISTINCT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.tonnage = \"225\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.disposition_of_ship = \"Sank\"",
+    "readable_query": "SELECT DISTINCT death.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.disposition_of_ship = \"Sank\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.tonnage = \"t\"",
+    "readable_query": "SELECT DISTINCT battle.name FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.tonnage = \"t\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.name FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.injured = 0",
+    "readable_query": "SELECT DISTINCT ship.name FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.injured = 0"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.ship_type = \"18-gun Brig\"",
+    "readable_query": "SELECT DISTINCT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.ship_type = \"18-gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.name FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.location = \"SW Approaches\"",
+    "readable_query": "SELECT DISTINCT battle.name FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.location = \"SW Approaches\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.latin_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.location = \"Mid-Atlantic\"",
+    "readable_query": "SELECT DISTINCT battle.latin_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.location = \"Mid-Atlantic\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.date) FROM battle AS T1 WHERE T1.latin_commander = \"Henry I\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.date) FROM battle AS battle WHERE battle.latin_commander = \"Henry I\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.note) FROM death AS T1 WHERE T1.caused_by_ship_id = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  death.note) FROM death AS death WHERE death.caused_by_ship_id = 3"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM battle AS T1 WHERE T1.name = \"Battle of Boruy\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.id) FROM battle AS battle WHERE battle.name = \"Battle of Boruy\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM ship AS T1 WHERE T1.name = \"Three Brothers\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.id) FROM ship AS ship WHERE ship.name = \"Three Brothers\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.name) FROM battle AS T1 WHERE T1.date = \"February 1206\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.name) FROM battle AS battle WHERE battle.date = \"February 1206\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ship_type) FROM ship AS T1 WHERE T1.name = \"HMS Avon\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.ship_type) FROM ship AS ship WHERE ship.name = \"HMS Avon\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.name) FROM ship AS T1 WHERE T1.lost_in_battle = 7",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.name) FROM ship AS ship WHERE ship.lost_in_battle = 7"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ship_type) FROM ship AS T1 WHERE T1.name = \"Bon Accord\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.ship_type) FROM ship AS ship WHERE ship.name = \"Bon Accord\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM ship AS T1 WHERE T1.name = \"HMS Avon\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  ship.id) FROM ship AS ship WHERE ship.name = \"HMS Avon\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.result) FROM battle AS T1 WHERE T1.latin_commander = \"John of Brienne\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  battle.result) FROM battle AS battle WHERE battle.latin_commander = \"John of Brienne\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 WHERE T1.id > 2",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death WHERE death.id > 2"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.note FROM death AS T1 WHERE T1.killed > 4",
+    "readable_query": "SELECT death.note FROM death AS death WHERE death.killed > 4"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.id FROM death AS T1 WHERE T1.caused_by_ship_id > 3",
+    "readable_query": "SELECT death.id FROM death AS death WHERE death.caused_by_ship_id > 3"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1 WHERE T1.id > 2",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle WHERE battle.id > 2"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.result FROM battle AS T1 WHERE T1.id > 1",
+    "readable_query": "SELECT battle.result FROM battle AS battle WHERE battle.id > 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 WHERE T1.id > 7",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship WHERE ship.id > 7"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.latin_commander FROM battle AS T1 WHERE T1.id > 3",
+    "readable_query": "SELECT battle.latin_commander FROM battle AS battle WHERE battle.id > 3"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.date FROM battle AS T1 WHERE T1.id > 1",
+    "readable_query": "SELECT battle.date FROM battle AS battle WHERE battle.id > 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.name FROM battle AS T1 WHERE T1.id > 5",
+    "readable_query": "SELECT battle.name FROM battle AS battle WHERE battle.id > 5"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.name FROM ship AS T1 WHERE T1.lost_in_battle > 6",
+    "readable_query": "SELECT ship.name FROM ship AS ship WHERE ship.lost_in_battle > 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.note, T2.id, T3.bulgarian_commander FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id",
+    "readable_query": "SELECT death.note, ship.id, battle.bulgarian_commander FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.location, T2.result, T3.killed FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT ship.location, battle.result, death.killed FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.name, T2.id, T3.caused_by_ship_id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT battle.name, ship.id, death.caused_by_ship_id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.latin_commander, T2.location, T3.note FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT battle.latin_commander, ship.location, death.note FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.id, T2.date, T3.injured FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT ship.id, battle.date, death.injured FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.date, T2.location, T3.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT battle.date, ship.location, death.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.lost_in_battle, T2.name, T3.id FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT ship.lost_in_battle, battle.name, death.id FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.ship_type, T2.result, T3.caused_by_ship_id FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT ship.ship_type, battle.result, death.caused_by_ship_id FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.id, T2.ship_type, T3.bulgarian_commander FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id",
+    "readable_query": "SELECT death.id, ship.ship_type, battle.bulgarian_commander FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.id, T2.ship_type, T3.killed FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id",
+    "readable_query": "SELECT battle.id, ship.ship_type, death.killed FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id     ORDER BY T2.injured ASC",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id     ORDER BY death.injured ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.location FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id     ORDER BY T2.id ASC",
+    "readable_query": "SELECT ship.location FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id     ORDER BY battle.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id     ORDER BY T2.id ASC",
+    "readable_query": "SELECT death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id     ORDER BY ship.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id     ORDER BY T2.lost_in_battle ASC",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id     ORDER BY ship.lost_in_battle ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle     ORDER BY T2.id ASC",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle     ORDER BY ship.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id     ORDER BY T2.lost_in_battle ASC",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id     ORDER BY ship.lost_in_battle ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.result FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle     ORDER BY T2.id ASC",
+    "readable_query": "SELECT battle.result FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle     ORDER BY ship.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle     ORDER BY T2.lost_in_battle ASC",
+    "readable_query": "SELECT battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle     ORDER BY ship.lost_in_battle ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id     ORDER BY T2.id ASC",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id     ORDER BY battle.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.date FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle     ORDER BY T2.id ASC",
+    "readable_query": "SELECT battle.date FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle     ORDER BY ship.id ASC"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.location FROM ship AS T1 WHERE T1.tonnage = \"225\"     INTERSECT SELECT T2.location FROM ship AS T2 WHERE T2.tonnage = \"t\"",
+    "readable_query": "SELECT ship.location FROM ship AS ship WHERE ship.tonnage = \"225\"     INTERSECT SELECT ship.location FROM ship AS ship WHERE ship.tonnage = \"t\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 WHERE T1.id = 8     INTERSECT SELECT T2.bulgarian_commander FROM battle AS T2 WHERE T2.id = 7",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle WHERE battle.id = 8     INTERSECT SELECT battle.bulgarian_commander FROM battle AS battle WHERE battle.id = 7"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 WHERE T1.result = \"Two Year Truce\"     INTERSECT SELECT T2.bulgarian_commander FROM battle AS T2 WHERE T2.result = \"Bulgarian victory\"",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle WHERE battle.result = \"Two Year Truce\"     INTERSECT SELECT battle.bulgarian_commander FROM battle AS battle WHERE battle.result = \"Bulgarian victory\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.id FROM ship AS T1 WHERE T1.tonnage = \"391\"     INTERSECT SELECT T2.id FROM ship AS T2 WHERE T2.tonnage = \"225\"",
+    "readable_query": "SELECT ship.id FROM ship AS ship WHERE ship.tonnage = \"391\"     INTERSECT SELECT ship.id FROM ship AS ship WHERE ship.tonnage = \"225\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 WHERE T1.date = \"1235\"     INTERSECT SELECT T2.bulgarian_commander FROM battle AS T2 WHERE T2.date = \"31 January 1206\"",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle WHERE battle.date = \"1235\"     INTERSECT SELECT battle.bulgarian_commander FROM battle AS battle WHERE battle.date = \"31 January 1206\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 WHERE T1.name = \"Lettice\"     INTERSECT SELECT T2.disposition_of_ship FROM ship AS T2 WHERE T2.name = \"Lettice\"",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship WHERE ship.name = \"Lettice\"     INTERSECT SELECT ship.disposition_of_ship FROM ship AS ship WHERE ship.name = \"Lettice\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.date FROM battle AS T1 WHERE T1.latin_commander = \"Boniface of Montferrat\"     INTERSECT SELECT T2.date FROM battle AS T2 WHERE T2.latin_commander = \"Boniface of Montferrat\"",
+    "readable_query": "SELECT battle.date FROM battle AS battle WHERE battle.latin_commander = \"Boniface of Montferrat\"     INTERSECT SELECT battle.date FROM battle AS battle WHERE battle.latin_commander = \"Boniface of Montferrat\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.id FROM ship AS T1 WHERE T1.tonnage = \"391\"     INTERSECT SELECT T2.id FROM ship AS T2 WHERE T2.tonnage = \"391\"",
+    "readable_query": "SELECT ship.id FROM ship AS ship WHERE ship.tonnage = \"391\"     INTERSECT SELECT ship.id FROM ship AS ship WHERE ship.tonnage = \"391\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.result FROM battle AS T1 WHERE T1.bulgarian_commander = \"Boril\"     INTERSECT SELECT T2.result FROM battle AS T2 WHERE T2.bulgarian_commander = \"Unknown\"",
+    "readable_query": "SELECT battle.result FROM battle AS battle WHERE battle.bulgarian_commander = \"Boril\"     INTERSECT SELECT battle.result FROM battle AS battle WHERE battle.bulgarian_commander = \"Unknown\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.id FROM battle AS T1 WHERE T1.bulgarian_commander = \"Kaloyan\"     INTERSECT SELECT T2.id FROM battle AS T2 WHERE T2.bulgarian_commander = \"Ivan Asen II\"",
+    "readable_query": "SELECT battle.id FROM battle AS battle WHERE battle.bulgarian_commander = \"Kaloyan\"     INTERSECT SELECT battle.id FROM battle AS battle WHERE battle.bulgarian_commander = \"Ivan Asen II\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1 WHERE T1.name = \"Battle of Rusion\"",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle WHERE battle.name = \"Battle of Rusion\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1 WHERE T1.name = \"Battle of Rodosto\"",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle WHERE battle.name = \"Battle of Rodosto\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1 WHERE T1.latin_commander = \"Boniface of Montferrat\"",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle WHERE battle.latin_commander = \"Boniface of Montferrat\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM death AS T1 WHERE T1.note = \"Dantewada, Chhattisgarh\"",
+    "readable_query": "SELECT avg( death.id) FROM death AS death WHERE death.note = \"Dantewada, Chhattisgarh\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1 WHERE T1.latin_commander = \"Baldwin I\"",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle WHERE battle.latin_commander = \"Baldwin I\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.injured) FROM death AS T1 WHERE T1.id = 8",
+    "readable_query": "SELECT avg( death.injured) FROM death AS death WHERE death.id = 8"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1 WHERE T1.result = \"Two Year Truce\"",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle WHERE battle.result = \"Two Year Truce\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.caused_by_ship_id) FROM death AS T1 WHERE T1.killed = 2",
+    "readable_query": "SELECT avg( death.caused_by_ship_id) FROM death AS death WHERE death.killed = 2"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1 WHERE T1.name = \"Battle of Adrianople\"",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle WHERE battle.name = \"Battle of Adrianople\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM battle AS T1 WHERE T1.date = \"4 September 1207\"",
+    "readable_query": "SELECT avg( battle.id) FROM battle AS battle WHERE battle.date = \"4 September 1207\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.bulgarian_commander FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.id = (SELECT max( T23.id) FROM ship AS T23)",
+    "readable_query": "SELECT battle.bulgarian_commander FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.id = (SELECT max( ship.id) FROM ship AS ship)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.lost_in_battle = (SELECT max( T23.lost_in_battle) FROM ship AS T23)",
+    "readable_query": "SELECT death.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.lost_in_battle = (SELECT max( ship.lost_in_battle) FROM ship AS ship)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.lost_in_battle = (SELECT max( T23.lost_in_battle) FROM ship AS T23)",
+    "readable_query": "SELECT battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.lost_in_battle = (SELECT max( ship.lost_in_battle) FROM ship AS ship)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.killed FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.lost_in_battle = (SELECT max( T23.lost_in_battle) FROM ship AS T23)",
+    "readable_query": "SELECT death.killed FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.lost_in_battle = (SELECT max( ship.lost_in_battle) FROM ship AS ship)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.lost_in_battle = (SELECT max( T23.lost_in_battle) FROM ship AS T23)",
+    "readable_query": "SELECT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.lost_in_battle = (SELECT max( ship.lost_in_battle) FROM ship AS ship)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.id = (SELECT max( T23.id) FROM battle AS T23)",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.id = (SELECT max( battle.id) FROM battle AS battle)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.caused_by_ship_id = (SELECT max( T23.caused_by_ship_id) FROM death AS T23)",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.caused_by_ship_id = (SELECT max( death.caused_by_ship_id) FROM death AS death)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.disposition_of_ship FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.id = (SELECT max( T23.id) FROM death AS T23)",
+    "readable_query": "SELECT ship.disposition_of_ship FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.id = (SELECT max( death.id) FROM death AS death)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.note FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.id = (SELECT max( T23.id) FROM ship AS T23)",
+    "readable_query": "SELECT death.note FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.id = (SELECT max( ship.id) FROM ship AS ship)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ship_type FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.id = (SELECT max( T23.id) FROM battle AS T23)",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.id = (SELECT max( battle.id) FROM battle AS battle)"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.lost_in_battle, T2.latin_commander FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id WHERE T3.id = 5 and T2.bulgarian_commander = \"Kaloyan\"",
+    "readable_query": "SELECT ship.lost_in_battle, battle.latin_commander FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.id = 5 and battle.bulgarian_commander = \"Kaloyan\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.id, T2.ship_type FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id WHERE T3.note = \"Bastar, Chattisgarh\" and T2.tonnage = \"391\"",
+    "readable_query": "SELECT battle.id, ship.ship_type FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.note = \"Bastar, Chattisgarh\" and ship.tonnage = \"391\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.id, T2.bulgarian_commander FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id WHERE T3.injured = 0 and T2.date = \"February 1206\"",
+    "readable_query": "SELECT ship.id, battle.bulgarian_commander FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.injured = 0 and battle.date = \"February 1206\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ship_type, T2.result FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id WHERE T3.id = 3 and T2.name = \"Battle of Serres\"",
+    "readable_query": "SELECT ship.ship_type, battle.result FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.id = 3 and battle.name = \"Battle of Serres\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.note, T2.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T3.latin_commander = \"John of Brienne\" and T2.tonnage = \"t\"",
+    "readable_query": "SELECT death.note, ship.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.latin_commander = \"John of Brienne\" and ship.tonnage = \"t\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.name, T2.id FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id JOIN battle AS T3 ON T1.lost_in_battle = T3.id WHERE T3.date = \"February 1206\" and T2.killed = 0",
+    "readable_query": "SELECT ship.name, death.id FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.date = \"February 1206\" and death.killed = 0"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.date, T2.location FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle JOIN death AS T3 ON T2.id = T3.caused_by_ship_id WHERE T3.note = \"Erraboru, Chhattisgarh\" and T2.disposition_of_ship = \"Scuttled\"",
+    "readable_query": "SELECT battle.date, ship.location FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.note = \"Erraboru, Chhattisgarh\" and ship.disposition_of_ship = \"Scuttled\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ship_type, T2.name FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id WHERE T3.injured = 9 and T2.date = \"1235\"",
+    "readable_query": "SELECT ship.ship_type, battle.name FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.injured = 9 and battle.date = \"1235\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.note, T2.lost_in_battle FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id JOIN battle AS T3 ON T2.lost_in_battle = T3.id WHERE T3.date = \"31 January 1206\" and T2.tonnage = \"t\"",
+    "readable_query": "SELECT death.note, ship.lost_in_battle FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.date = \"31 January 1206\" and ship.tonnage = \"t\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.id, T2.latin_commander FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id JOIN death AS T3 ON T1.id = T3.caused_by_ship_id WHERE T3.caused_by_ship_id = 5 and T2.date = \"February 1206\"",
+    "readable_query": "SELECT ship.id, battle.latin_commander FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.caused_by_ship_id = 5 and battle.date = \"February 1206\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.name = \"Bon Accord\" GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.name = \"Bon Accord\" GROUP BY battle.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN battle AS T2 ON T1.lost_in_battle = T2.id WHERE T2.id = 3 GROUP BY T1.tonnage  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN battle AS battle ON ship.lost_in_battle = battle.id WHERE battle.id = 3 GROUP BY ship.tonnage  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.disposition_of_ship = \"Captured\" GROUP BY T1.injured  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.disposition_of_ship = \"Captured\" GROUP BY death.injured  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.injured FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.name = \"HMS Atalanta\" GROUP BY T1.injured  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT death.injured FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.name = \"HMS Atalanta\" GROUP BY death.injured  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.caused_by_ship_id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.tonnage = \"391\" GROUP BY T1.caused_by_ship_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT death.caused_by_ship_id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.tonnage = \"391\" GROUP BY death.caused_by_ship_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM battle AS T1 JOIN ship AS T2 ON T1.id = T2.lost_in_battle WHERE T2.lost_in_battle = 4 GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT battle.id FROM battle AS battle JOIN ship AS ship ON battle.id = ship.lost_in_battle WHERE ship.lost_in_battle = 4 GROUP BY battle.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM death AS T1 JOIN ship AS T2 ON T1.caused_by_ship_id = T2.id WHERE T2.tonnage = \"t\" GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT death.id FROM death AS death JOIN ship AS ship ON death.caused_by_ship_id = ship.id WHERE ship.tonnage = \"t\" GROUP BY death.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.caused_by_ship_id = 5 GROUP BY T1.tonnage  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.caused_by_ship_id = 5 GROUP BY ship.tonnage  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ship_type FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.id = 10 GROUP BY T1.ship_type  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.id = 10 GROUP BY ship.ship_type  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.lost_in_battle FROM ship AS T1 JOIN death AS T2 ON T1.id = T2.caused_by_ship_id WHERE T2.injured = 9 GROUP BY T1.lost_in_battle  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT ship.lost_in_battle FROM ship AS ship JOIN death AS death ON ship.id = death.caused_by_ship_id WHERE death.injured = 9 GROUP BY ship.lost_in_battle  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM ship AS T1        EXCEPT SELECT T2.id FROM ship AS T2 WHERE T2.lost_in_battle = 5",
+    "readable_query": "SELECT ship.id FROM ship AS ship        EXCEPT SELECT ship.id FROM ship AS ship WHERE ship.lost_in_battle = 5"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.killed FROM death AS T1        EXCEPT SELECT T2.killed FROM death AS T2 WHERE T2.note = \"Kanker, Chhattisgarh\"",
+    "readable_query": "SELECT death.killed FROM death AS death        EXCEPT SELECT death.killed FROM death AS death WHERE death.note = \"Kanker, Chhattisgarh\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM battle AS T1        EXCEPT SELECT T2.id FROM battle AS T2 WHERE T2.latin_commander = \"John of Brienne\"",
+    "readable_query": "SELECT battle.id FROM battle AS battle        EXCEPT SELECT battle.id FROM battle AS battle WHERE battle.latin_commander = \"John of Brienne\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.name FROM ship AS T1        EXCEPT SELECT T2.name FROM ship AS T2 WHERE T2.id = 6",
+    "readable_query": "SELECT ship.name FROM ship AS ship        EXCEPT SELECT ship.name FROM ship AS ship WHERE ship.id = 6"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ship_type FROM ship AS T1        EXCEPT SELECT T2.ship_type FROM ship AS T2 WHERE T2.id = 1",
+    "readable_query": "SELECT ship.ship_type FROM ship AS ship        EXCEPT SELECT ship.ship_type FROM ship AS ship WHERE ship.id = 1"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.injured FROM death AS T1        EXCEPT SELECT T2.injured FROM death AS T2 WHERE T2.id = 13",
+    "readable_query": "SELECT death.injured FROM death AS death        EXCEPT SELECT death.injured FROM death AS death WHERE death.id = 13"
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.name FROM ship AS T1        EXCEPT SELECT T2.name FROM ship AS T2 WHERE T2.disposition_of_ship = \"Scuttled\"",
+    "readable_query": "SELECT ship.name FROM ship AS ship        EXCEPT SELECT ship.name FROM ship AS ship WHERE ship.disposition_of_ship = \"Scuttled\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.date FROM battle AS T1        EXCEPT SELECT T2.date FROM battle AS T2 WHERE T2.result = \"Latin victory\"",
+    "readable_query": "SELECT battle.date FROM battle AS battle        EXCEPT SELECT battle.date FROM battle AS battle WHERE battle.result = \"Latin victory\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1        EXCEPT SELECT T2.tonnage FROM ship AS T2 WHERE T2.ship_type = \"18-gun Brig\"",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship        EXCEPT SELECT ship.tonnage FROM ship AS ship WHERE ship.ship_type = \"18-gun Brig\""
+  },
+  {
+    "db_id": "battle_death",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.tonnage FROM ship AS T1        EXCEPT SELECT T2.tonnage FROM ship AS T2 WHERE T2.location = \"Mid-Atlantic\"",
+    "readable_query": "SELECT ship.tonnage FROM ship AS ship        EXCEPT SELECT ship.tonnage FROM ship AS ship WHERE ship.location = \"Mid-Atlantic\""
+  }
+]

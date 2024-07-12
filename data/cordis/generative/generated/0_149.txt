@@ -1,0 +1,16 @@
+SELECT institutions.unics_id FROM institutions AS institutions WHERE institutions.db_pedia_url = "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM institutions AS T1 WHERE T1.db_pedia_url = "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble"
+GPT-3 choices:
+(0) What is the unique identifier for the institution in the "institutions" table where the value of "db_pedia_url" column is equal to "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble"?
+(1) Find the unique identifier of the institution from the table "institutions" where the value in the column "db_pedia_url" is equal to "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble".
+(2) Retrieve the unique ID of institutions where the DBpedia URL is "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble".
+(3) What is the unique ID for the institution in the "institutions" table whose DBpedia URL is "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble"?
+(4) Retrieve the unique identifier of the institution from the "institutions" table where the DBpedia URL is equal to "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble".
+(5) Find the unique ID of the institution in the table "institutions" that has a DBpedia URL of "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble".
+(6) Retrieve the unique identifier for institutions from the database where the DBPedia URL is "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble".
+(7) What is the UNICS ID of the institution with a DBpedia URL of "http://dbpedia.org/page/Centre_Hospitalier_Universitaire_de_Grenoble"?

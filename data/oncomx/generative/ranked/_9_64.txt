@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.actual_use FROM biomarker_fda_test_use AS biomarker_fda_test_use JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_use.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.doid != 1909
+
+###
+
+
+Original Query:
+SELECT T1.actual_use FROM biomarker_fda_test_use AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.doid != 1909
+GPT-3 choices:
+(0) Retrieve the actual use of biomarker tests from the FDA, excluding those related to a specific disease.
+(1) Retrieve the actual use of biomarker FDA tests for biomarkers that are not associated with diabetes mellitus.
+(2) Find the actual use of biomarker tests from the table biomarker_fda_test_use, where the associated disease ID in biomarker_fda_test is not equal to 1909.
+(3) What is the actual use of biomarker FDA tests that have a trade name and are not associated with disease ID 1909?
+(4) Find the actual use of biomarker FDA tests where the disease ontology identifier is not equal to 1909.
+(5) Get the actual use for all FDA-approved biomarker tests where the corresponding disease ID is not equal to 1909.
+(6) Find the actual use of biomarker FDA tests where the disease ID is not equal to 1909.
+(7) What are the actual uses for biomarker tests in the FDA database that have different conditions than Alzheimer's disease?
+
+
+Re-ranked choices:
+8.432  What is the actual use of biomarker FDA tests that have a trade name and are not associated with disease ID 1909?
+5.658  Find the actual use of biomarker FDA tests where the disease ID is not equal to 1909.
+5.629  Find the actual use of biomarker FDA tests where the disease ontology identifier is not equal to 1909.
+5.624  Retrieve the actual use of biomarker FDA tests for biomarkers that are not associated with diabetes mellitus.
+4.236  Get the actual use for all FDA-approved biomarker tests where the corresponding disease ID is not equal to 1909.
+4.232  What are the actual uses for biomarker tests in the FDA database that have different conditions than Alzheimer's disease?
+4.230  Retrieve the actual use of biomarker tests from the FDA, excluding those related to a specific disease.
+4.221  Find the actual use of biomarker tests from the table biomarker_fda_test_use, where the associated disease ID in biomarker_fda_test is not equal to 1909.
+

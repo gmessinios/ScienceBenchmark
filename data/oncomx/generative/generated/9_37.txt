@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_submission != "P190004"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_submission != "P190004"
+GPT-3 choices:
+(0) Find the FDA biomarker ID for all entries in the "biomarker_fda_ncit_term" table where the associated test submission is not equal to "P190004", by joining with the "biomarker_fda" table.
+(1) Find the FDA biomarker IDs from the table biomarker_fda_ncit_term where the test_submission is not equal to "P190004" and join it with the table biomarker_fda.
+(2) What are the IDs of all biomarkers from the FDA that have corresponding NCIT terms, excluding those with a test submission code of "P190004"?
+(3) Retrieve the biomarker FDA IDs from the NCIT terms table for all biomarkers in the FDA table where the test submission is not equal to "P190004".
+(4) What are the biomarker FDA IDs from the biomarker FDA NCIT term table that correspond to biomarker FDA entries where the test submission is not "P190004"?
+(5) Find the ID of the biomarker from the FDA database that has a corresponding NCIT term, but is not included in test submission P190004.
+(6) Find the biomarker FDA ID from the biomarker FDA NCIT term table where the test submission in the biomarker FDA table is not equal to "P190004".
+(7) Find the biomarker FDA NCIT terms that have a biomarker FDA ID and join them with the biomarker FDA table, excluding any where the test submission is not "P190004".

@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.id FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.disease_mutation_id = 262315
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease_mutation_site_annotation AS T1 WHERE T1.disease_mutation_id = 262315
+GPT-3 choices:
+(0) Find the ID of the disease mutation site annotation where the disease mutation ID is 262315.
+(1) Find the ID of the disease mutation site annotation where the disease mutation ID is 262315.
+(2) Get the id from disease_mutation_site_annotation where the disease_mutation_id is 262315.
+(3) What is the ID of the disease mutation site annotation where the disease mutation ID is equal to 262315?
+(4) Retrieve the id from the disease_mutation_site_annotation table where the disease_mutation_id is equal to 262315.
+(5) Retrieve the ID from the disease mutation site annotation table where the disease mutation ID is equal to 262315.
+(6) Find the ID of the disease mutation site annotation for the disease mutation with an ID of 262315.
+(7) Find the unique ID of the disease mutation site annotation for a specific disease mutation with an ID of 262315.

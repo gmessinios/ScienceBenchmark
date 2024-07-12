@@ -1,0 +1,107 @@
+[
+  {
+    "name": "perpetrator",
+    "original_name": "perpetrator",
+    "logical_name": "perpetrator",
+    "columns": [
+      {
+        "name": "perpetrator id",
+        "original_name": "Perpetrator_ID",
+        "logical_name": "Perpetrator_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "people id",
+        "original_name": "People_ID",
+        "logical_name": "People_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "date",
+        "original_name": "Date",
+        "logical_name": "Date",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "year",
+        "original_name": "Year",
+        "logical_name": "Year",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "location",
+        "original_name": "Location",
+        "logical_name": "Location",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country",
+        "original_name": "Country",
+        "logical_name": "Country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "killed",
+        "original_name": "Killed",
+        "logical_name": "Killed",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "injured",
+        "original_name": "Injured",
+        "logical_name": "Injured",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "people",
+    "original_name": "people",
+    "logical_name": "people",
+    "columns": [
+      {
+        "name": "people id",
+        "original_name": "People_ID",
+        "logical_name": "People_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "height",
+        "original_name": "Height",
+        "logical_name": "Height",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "weight",
+        "original_name": "Weight",
+        "logical_name": "Weight",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "home town",
+        "original_name": "Home Town",
+        "logical_name": "Home Town",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

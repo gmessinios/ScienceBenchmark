@@ -1,0 +1,16 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Star: A self-luminous gaseous celestial body."
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.description = "Star: A self-luminous gaseous celestial body."
+GPT-3 choices:
+(0) How many records are in the photo_type table that have a description of "Star: A self-luminous gaseous celestial body"?
+(1) How many self-luminous gaseous celestial bodies are photometrically observed in the photo_type table?
+(2) How many stars have been observed photometrically?
+(3) How many rows are there in the "photo_type" table where the description is "Star: A self-luminous gaseous celestial body"?
+(4) How many self-luminous gaseous celestial bodies have been observed photometrically in the photo_type table?
+(5) How many stars have been observed photometrically?
+(6) How many objects are there in the photo_type table that have the description "Star: A self-luminous gaseous celestial body"?
+(7) How many rows are in the "photo_type" table where the "description" column is equal to "Star: A self-luminous gaseous celestial body"?

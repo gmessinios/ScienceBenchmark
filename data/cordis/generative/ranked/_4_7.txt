@@ -1,0 +1,27 @@
+SELECT count(*) FROM activity_types AS activity_types WHERE activity_types.code = "PRC"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types AS T1 WHERE T1.code = "PRC"
+GPT-3 choices:
+(0) How many activity types have a code of "PRC" in the activity_types table?
+(1) How many activity types have the code "PRC"?
+(2) How many activities are there in the activity types table with a code of "PRC"?
+(3) How many activity types have a code equal to "PRC"?
+(4) How many activity types have a code of "PRC"?
+(5) Count the number of activity types in the table "activity_types" where the code is equal to "PRC".
+(6) How many rows are in the activity types table where the code is equal to "PRC"?
+(7) How many activity types have a code of "PRC"?
+
+
+Re-ranked choices:
+4.991  How many activity types have a code of "PRC"?
+4.981  How many activity types have a code equal to "PRC"?
+4.973  How many activity types have the code "PRC"?
+4.950  How many rows are in the activity types table where the code is equal to "PRC"?
+4.937  How many activities are there in the activity types table with a code of "PRC"?
+4.936  How many activity types have a code of "PRC" in the activity_types table?
+4.934  Count the number of activity types in the table "activity_types" where the code is equal to "PRC".
+

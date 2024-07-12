@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.special_target1 != 268435456
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.special_target1 != 268435456
+GPT-3 choices:
+(0) Retrieve the specobjid from the spplines table for all spectroscopic objects in the specobj table that have a special_target1 value different than 268435456.
+(1) "Retrieve the specobjid from the spplines table where the special_target1 value in the corresponding row of the specobj table is not equal to 268435456."
+(2) Get the specobjid values from Stellar_spectal_line_indices where the special_target1 value in Spectroscopic_objects is not equal to 268435456.
+(3) Retrieve the specobjid values from the spplines table where the corresponding Spectroscopic_objects have a special_target1 value that is not equal to 268435456.
+(4) Retrieve the specobjid from the spplines table for all Stellar_spectal_line_indices entries, where the special_target1 value in the corresponding entry in the specobj table is not equal to 268435456.
+(5) Find the specobjid values from the spplines table where the special_target1 value in the corresponding Spectroscopic_objects table is not equal to 268435456.
+(6) Return the specobjid values from the spplines table where the special_target1 value in the specobj table is not equal to 268435456.
+(7) Find the specobjid values for objects in the Stellar_spectal_line_indices table that have a corresponding entry in the Spectroscopic_objects table where the special_target1 value is not equal to 268435456.
+
+
+Re-ranked choices:
+2.817  Retrieve the specobjid from the spplines table for all spectroscopic objects in the specobj table that have a special_target1 value different than 268435456.
+2.817  Find the specobjid values for objects in the Stellar_spectal_line_indices table that have a corresponding entry in the Spectroscopic_objects table where the special_target1 value is not equal to 268435456.
+1.421  Get the specobjid values from Stellar_spectal_line_indices where the special_target1 value in Spectroscopic_objects is not equal to 268435456.
+0.720  Retrieve the specobjid values from the spplines table where the corresponding Spectroscopic_objects have a special_target1 value that is not equal to 268435456.
+0.720  Find the specobjid values from the spplines table where the special_target1 value in the corresponding Spectroscopic_objects table is not equal to 268435456.
+0.716  Retrieve the specobjid from the spplines table for all Stellar_spectal_line_indices entries, where the special_target1 value in the corresponding entry in the specobj table is not equal to 268435456.
+0.023  Return the specobjid values from the spplines table where the special_target1 value in the specobj table is not equal to 268435456.
+0.021  "Retrieve the specobjid from the spplines table where the special_target1 value in the corresponding row of the specobj table is not equal to 268435456."
+

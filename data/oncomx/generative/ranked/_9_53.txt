@@ -1,0 +1,28 @@
+SELECT disease.id FROM disease AS disease JOIN differential_expression AS differential_expression ON disease.id = differential_expression.doid WHERE differential_expression.log2fc != 0.4
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease AS T1 JOIN differential_expression AS T2 ON T1.id = T2.doid WHERE T2.log2fc != 0.4
+GPT-3 choices:
+(0) Find the disease IDs that have corresponding differential expression DOIDs where the log2 fold change is not equal to 0.4.
+(1) Retrieve the ID of all diseases that have differential expression information where the log2fc value is not equal to 0.4.
+(2) "Find the IDs of all diseases that have corresponding differential expression data with a log2 fold change different from 0.4."
+(3) Find the IDs of all diseases that have been mentioned in a differential expression where the log2fc value is not equal to 0.4.
+(4) Retrieve the ID of diseases that have associated differential expression values with a log2 fold change not equal to 0.4.
+(5) Find the disease IDs from the disease table that have corresponding differential expression DOIDs where the log2fc value is not equal to 0.4 in the differential_expression table.
+(6) Retrieve the ID of all diseases from the disease table that have an entry in the differential_expression table with a log2fc value not equal to 0.4.
+(7) Retrieve the ID of all diseases that have at least one differential expression entry with a log2 fold change value not equal to 0.4.
+
+
+Re-ranked choices:
+5.626  Find the disease IDs from the disease table that have corresponding differential expression DOIDs where the log2fc value is not equal to 0.4 in the differential_expression table.
+5.625  Retrieve the ID of all diseases that have differential expression information where the log2fc value is not equal to 0.4.
+4.231  Find the IDs of all diseases that have been mentioned in a differential expression where the log2fc value is not equal to 0.4.
+4.229  Retrieve the ID of all diseases that have at least one differential expression entry with a log2 fold change value not equal to 0.4.
+4.228  Find the disease IDs that have corresponding differential expression DOIDs where the log2 fold change is not equal to 0.4.
+4.227  Retrieve the ID of diseases that have associated differential expression values with a log2 fold change not equal to 0.4.
+4.223  Retrieve the ID of all diseases from the disease table that have an entry in the differential_expression table with a log2fc value not equal to 0.4.
+2.827  "Find the IDs of all diseases that have corresponding differential expression data with a log2 fold change different from 0.4."
+

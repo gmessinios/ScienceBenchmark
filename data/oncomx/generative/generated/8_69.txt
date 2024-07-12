@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.ncit_biomarker != "GPR160"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 WHERE T1.ncit_biomarker != "GPR160"
+GPT-3 choices:
+(0) Retrieve the ID of all FDA biomarkers from the table biomarker_fda_ncit_term where the NCIt biomarker is not "GPR160".
+(1) Find the biomarker FDA ID for all entries in the table "biomarker_fda_ncit_term" where the NCIT biomarker is not equal to "GPR160".
+(2) Find the biomarker FDA ID for all entries in the table biomarker_fda_ncit_term where the NCIT biomarker is not equal to "GPR160".
+(3) Find the biomarker FDA ID for all entries in the table "biomarker_fda_ncit_term" where the corresponding NCIT biomarker is not equal to "GPR160".
+(4) What is the biomarker_fda_id for a biomarker_fda_ncit_term where its ncit_biomarker is not "GPR160"?
+(5) Retrieve the FDA biomarker ID for all terms in the NCIt biomarker list except for "GPR160".
+(6) What is the NCIt biomarker term for the FDA biomarker with the ID "GPR160"?
+(7) What is the FDA biomarker ID for the NCIT biomarker "GPR160"?

@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics WHERE topics.code = 'JTI-CS2-CPW-ENG-02-02'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.code = 'JTI-CS2-CPW-ENG-02-02'
+GPT-3 choices:
+(0) What are the RACNA related topics of this course?
+(1) Show me applications topics with code JTI-CS2-CPW-ENG-02-02
+(2) What are the details of the topic JTI-CS2-CPW-ENG-02-02?
+(3) Show me all course topics whose name is JTI-CS2-CPW-ENG-02-02
+(4) Retrieve all topics which have the code "JTI-CS2-CPW-ENG-02-02"
+(5) Retrieve the project subject areas that have a code equal to JTI-CS2-CPW-ENG-02-02.
+(6) Retrieve topics with code JTI-CS2-CPW-ENG-02-02
+(7) What are the rcn topics with code JTI CS2 CPW ENG 02 02
+
+
+Re-ranked choices:
+4.286  What are the rcn topics with code JTI CS2 CPW ENG 02 02
+3.558  Retrieve all topics which have the code "JTI-CS2-CPW-ENG-02-02"
+3.539  Retrieve topics with code JTI-CS2-CPW-ENG-02-02
+3.531  Show me applications topics with code JTI-CS2-CPW-ENG-02-02
+2.191  Show me all course topics whose name is JTI-CS2-CPW-ENG-02-02
+1.456  What are the RACNA related topics of this course?
+1.454  Retrieve the project subject areas that have a code equal to JTI-CS2-CPW-ENG-02-02.
+0.058  What are the details of the topic JTI-CS2-CPW-ENG-02-02?
+

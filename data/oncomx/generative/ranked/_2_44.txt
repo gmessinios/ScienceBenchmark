@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_trade_name, count(*) FROM biomarker_fda_test AS biomarker_fda_test  GROUP BY biomarker_fda_test.test_trade_name
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name, count(*) FROM biomarker_fda_test AS T1  GROUP BY T1.test_trade_name
+GPT-3 choices:
+(0) "How many times does each test trade name appear in the biomarker_fda_test table?"
+(1) Find the count of unique test trade names from the biomarker_fda_test table.
+(2) Count the number of rows for each unique test trade name in the biomarker_fda_test table.
+(3) Count the number of records in the "biomarker_fda_test" table grouped by the test trade name.
+(4) How many entries are there for each unique test trade name in the table biomarker_fda_test?
+(5) Count the number of records in the biomarker_fda_test table grouped by each unique test_trade_name, and display the trade name and its corresponding count.
+(6) What is the count of each unique test trade name in the biomarker_fda_test table?
+(7) How many unique trade names are there in the biomarker_fda_test table, and how many times does each trade name appear?
+
+
+Re-ranked choices:
+4.260  What is the count of each unique test trade name in the biomarker_fda_test table?
+4.252  "How many times does each test trade name appear in the biomarker_fda_test table?"
+4.245  Count the number of rows for each unique test trade name in the biomarker_fda_test table.
+4.245  How many entries are there for each unique test trade name in the table biomarker_fda_test?
+3.545  Count the number of records in the "biomarker_fda_test" table grouped by the test trade name.
+3.528  Count the number of records in the biomarker_fda_test table grouped by each unique test_trade_name, and display the trade name and its corresponding count.
+2.856  Find the count of unique test trade names from the biomarker_fda_test table.
+2.841  How many unique trade names are there in the biomarker_fda_test table, and how many times does each trade name appear?
+

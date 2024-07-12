@@ -1,0 +1,16 @@
+SELECT project_members.project FROM project_members AS project_members WHERE project_members.ec_contribution = 414279.0
+
+###
+
+
+Original Query:
+SELECT T1.project FROM project_members AS T1 WHERE T1.ec_contribution = 414279.0
+GPT-3 choices:
+(0) What is the project associated with a project member whose European Commission contribution is 414279.0?
+(1) Retrieve the project name for which the EC contribution is 414279.0 from the project_members table.
+(2) What is the project associated with a project member whose EC contribution is equal to 414279.0?
+(3) What is the project name for which a member has an EC contribution of 414279.0?
+(4) Find the project that has a project member with an EC contribution of 414279.0.
+(5) What is the project associated with an EC contribution of 414279.0 in the project members table?
+(6) Find the project name for the project where the EC contribution is equal to 414279.0 in the table project_members.
+(7) "Retrieve the project of all project members who have an EC contribution of 414279.0."

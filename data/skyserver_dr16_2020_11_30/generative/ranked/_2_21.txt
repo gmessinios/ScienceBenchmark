@@ -1,0 +1,28 @@
+SELECT Photometric_objects.cmodelmag_u, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.cmodelmag_u
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_u, count(*) FROM photoobj AS T1  GROUP BY T1.cmodelmag_u
+GPT-3 choices:
+(0) Find the count of objects in the Photometric_objects table grouped by their cmodelmag_u values, and also include their corresponding cmodelmag_u values.
+(1) What is the count of Photometric objects with a cmodel magnitude in the u-band?
+(2) Count the number of objects in the photoobj table and group them by their cmodelmag_u value, returning the corresponding u-band magnitude for each object.
+(3) Find the count of objects in the photoobj table grouped by their cmodelmag_u value, and also include the corresponding cmodelmag_u value for each group.
+(4) How many objects have a cmodelmag_u value and what is the count for each distinct value in the Photometric_objects table in the photoobj database?
+(5) How many photometric objects are there and what is the average cmodelmag_u for each of them?
+(6) Count the number of objects and their corresponding cmodelmag_u values in the photoobj table, grouped by the cmodelmag_u values, from the Photometric_objects table.
+(7) Find the count of objects in the photoobj table grouped by their cmodelmag_u values and also retrieve their corresponding cmodelmag_u values.
+
+
+Re-ranked choices:
+3.520  Count the number of objects in the photoobj table and group them by their cmodelmag_u value, returning the corresponding u-band magnitude for each object.
+2.835  What is the count of Photometric objects with a cmodel magnitude in the u-band?
+2.819  Find the count of objects in the Photometric_objects table grouped by their cmodelmag_u values, and also include their corresponding cmodelmag_u values.
+2.817  Count the number of objects and their corresponding cmodelmag_u values in the photoobj table, grouped by the cmodelmag_u values, from the Photometric_objects table.
+2.121  How many objects have a cmodelmag_u value and what is the count for each distinct value in the Photometric_objects table in the photoobj database?
+2.119  Find the count of objects in the photoobj table grouped by their cmodelmag_u value, and also include the corresponding cmodelmag_u value for each group.
+2.119  Find the count of objects in the photoobj table grouped by their cmodelmag_u values and also retrieve their corresponding cmodelmag_u values.
+1.429  How many photometric objects are there and what is the average cmodelmag_u for each of them?
+

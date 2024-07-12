@@ -1,0 +1,28 @@
+SELECT Photometric_objects.i FROM photoobj AS Photometric_objects WHERE Photometric_objects.rerun = 301
+
+###
+
+
+Original Query:
+SELECT T1.i FROM photoobj AS T1 WHERE T1.rerun = 301
+GPT-3 choices:
+(0) Get the i values from the photoobj table for objects in the Photometric_objects with a rerun value of 301.
+(1) Find the 'i' column in the table 'Photometric_objects' where the rerun is equal to 301.
+(2) Retrieve the value of the "i" column from the photoobj table for all objects where the rerun is equal to 301.
+(3) "Retrieve the i band photometric data from all objects in the photoobj table where the rerun value is 301."
+(4) Retrieve the "i" values from the photoobj table for objects with a rerun value of 301 in the Photometric_objects table.
+(5) Retrieve the value for "i" from the column "Photometric_objects" in the table "photoobj" where the column "rerun" is equal to 301.
+(6) Find the "i" value for all objects in the photoobj table where the rerun is 301.
+(7) Get the "i" column from the "photoobj" table where the rerun value is 301 in the "Photometric_objects" alias.
+
+
+Re-ranked choices:
+4.926  Get the i values from the photoobj table for objects in the Photometric_objects with a rerun value of 301.
+4.925  Retrieve the "i" values from the photoobj table for objects with a rerun value of 301 in the Photometric_objects table.
+4.243  Find the "i" value for all objects in the photoobj table where the rerun is 301.
+4.234  Retrieve the value of the "i" column from the photoobj table for all objects where the rerun is equal to 301.
+4.226  "Retrieve the i band photometric data from all objects in the photoobj table where the rerun value is 301."
+3.538  Find the 'i' column in the table 'Photometric_objects' where the rerun is equal to 301.
+3.530  Get the "i" column from the "photoobj" table where the rerun value is 301 in the "Photometric_objects" alias.
+3.527  Retrieve the value for "i" from the column "Photometric_objects" in the table "photoobj" where the column "rerun" is equal to 301.
+

@@ -1,0 +1,28 @@
+SELECT count(*) FROM ec_framework_programs AS ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = "HORIZON"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs AS T1 WHERE T1.ec_framework_program_name = "HORIZON"
+GPT-3 choices:
+(0) How many programs are there in the "HORIZON" framework in the ec_framework_programs table?
+(1) How many programs are in the EC framework called "HORIZON"?
+(2) How many records are in the ec_framework_programs table where the ec_framework_program_name is "HORIZON"?
+(3) How many programs are there in the EC Framework with the name "HORIZON"?
+(4) How many programs are there in the HORIZON framework?
+(5) How many framework programs are there with the name "HORIZON" in the table "ec_framework_programs"?
+(6) How many framework programs are there in the "HORIZON" framework?
+(7) How many framework programs are there in the table "ec_framework_programs" with the name "HORIZON"?
+
+
+Re-ranked choices:
+6.383  How many programs are there in the EC Framework with the name "HORIZON"?
+4.981  How many programs are in the EC framework called "HORIZON"?
+4.941  How many framework programs are there with the name "HORIZON" in the table "ec_framework_programs"?
+4.941  How many framework programs are there in the table "ec_framework_programs" with the name "HORIZON"?
+3.562  How many framework programs are there in the "HORIZON" framework?
+3.537  How many programs are there in the "HORIZON" framework in the ec_framework_programs table?
+2.191  How many programs are there in the HORIZON framework?
+0.733  How many records are in the ec_framework_programs table where the ec_framework_program_name is "HORIZON"?
+

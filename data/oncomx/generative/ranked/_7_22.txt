@@ -1,0 +1,28 @@
+SELECT disease_mutation.alt_nt FROM disease_mutation AS disease_mutation WHERE disease_mutation.chromosome_id = "9" or disease_mutation.data_source = "cosmic"
+
+###
+
+
+Original Query:
+SELECT T1.alt_nt FROM disease_mutation AS T1 WHERE T1.chromosome_id = "9" or T1.data_source = "cosmic"
+GPT-3 choices:
+(0) Retrieve all alternate nucleotides for disease mutations on chromosome 9 or from the data source COSMIC.
+(1) "Retrieve the alternate nucleotide for all disease mutations located on chromosome 9 or from the data source COSMIC."
+(2) Retrieve the alternate nucleotide from the disease mutation data set where the chromosome is equal to 9 or the data source is "cosmic".
+(3) Retrieve the alternative nucleotide from disease mutations where the chromosome ID is 9 or the data source is "cosmic".
+(4) Retrieve the alternative nucleotide from the disease_mutation table for any records where the chromosome_id is equal to 9 or the data_source is equal to "cosmic".
+(5) What are the alternate nucleotides for disease mutations on chromosome 9 or from the data source COSMIC?
+(6) Retrieve all alternate nucleotides from the disease_mutation table where the chromosome_id is 9 or the data_source is "cosmic".
+(7) Retrieve the alternate nucleotide information from disease mutations where the chromosome ID is 9 or the data source is "cosmic".
+
+
+Re-ranked choices:
+7.725  Retrieve the alternative nucleotide from disease mutations where the chromosome ID is 9 or the data source is "cosmic".
+7.724  Retrieve the alternate nucleotide from the disease mutation data set where the chromosome is equal to 9 or the data source is "cosmic".
+7.722  Retrieve the alternate nucleotide information from disease mutations where the chromosome ID is 9 or the data source is "cosmic".
+5.630  What are the alternate nucleotides for disease mutations on chromosome 9 or from the data source COSMIC?
+5.625  Retrieve all alternate nucleotides for disease mutations on chromosome 9 or from the data source COSMIC.
+5.624  "Retrieve the alternate nucleotide for all disease mutations located on chromosome 9 or from the data source COSMIC."
+0.724  Retrieve all alternate nucleotides from the disease_mutation table where the chromosome_id is 9 or the data_source is "cosmic".
+0.723  Retrieve the alternative nucleotide from the disease_mutation table for any records where the chromosome_id is equal to 9 or the data_source is equal to "cosmic".
+

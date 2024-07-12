@@ -1,0 +1,16 @@
+SELECT institutions.website FROM institutions AS institutions JOIN eu_territorial_units AS eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.description != "Dessau-Roßlau, Kreisfreie Stadt"
+
+###
+
+
+Original Query:
+SELECT T1.website FROM institutions AS T1 JOIN eu_territorial_units AS T2 ON T1.geocode_regions_3 = T2.geocode_regions WHERE T2.description != "Dessau-Roßlau, Kreisfreie Stadt"
+GPT-3 choices:
+(0) What is the website for all institutions located in EU territorial units, excluding those in Dessau-Roßlau?
+(1) Find the website of institutions located in EU territorial units where the geocode region is not "Dessau-Roßlau, Kreisfreie Stadt".
+(2) Get the website of all institutions located in regions with geocode descriptions that are not "Dessau-Roßlau, Kreisfreie Stadt".
+(3) What is the website of institutions located in EU territorial units, excluding those in Dessau-Roßlau?
+(4) What is the website of institutions located in a geocode region that is not "Dessau-Roßlau, Kreisfreie Stadt"?
+(5) Get the website of institutions located in regions that are not Dessau-Roßlau, Kreisfreie Stadt from the list of institutions and EU territorial units.
+(6) Find the websites of institutions located in the regions with geocode_regions_3 that match with geocode_regions from eu_territorial_units, except for those in Dessau-Roßlau, Kreisfreie Stadt.
+(7) Find the website of institutions located in a European territorial unit, excluding those in Dessau-Roßlau, Kreisfreie Stadt.

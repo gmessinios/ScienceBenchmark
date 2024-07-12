@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions != "DEG0B"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.geocode_regions != "DEG0B"
+GPT-3 choices:
+(0) Retrieve the nuts version from the EU territorial units where the geocode_regions is not "DEG0B".
+(1) What is the NUTS version of the EU territorial unit that has a region geocode different from "DEG0B"?
+(2) What is the NUTS version for EU territorial units where the geocode regions are not equal to "DEG0B"?
+(3) Get the NUTS version for all EU territorial units where the geocode_regions is not "DEG0B".
+(4) Retrieve the NUTS version from the EU territorial units where the geocode_regions is not "DEG0B".
+(5) What is the NUTS version of all EU territorial units where the geocode regions are not "DEG0B"?
+(6) Retrieve the nuts version from the EU territorial units table for all regions that do not have a geocode of "DEG0B".
+(7) What is the NUTS version for all European territorial units where the geocode regions are not equal to "DEG0B"?

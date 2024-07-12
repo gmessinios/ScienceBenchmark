@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl JOIN healthy_expression AS healthy_expression ON xref_gene_ensembl.ensembl_gene_id = healthy_expression.ensembl_gene_id WHERE healthy_expression.expression_level_anatomical_relative = "LOW"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 JOIN healthy_expression AS T2 ON T1.ensembl_gene_id = T2.ensembl_gene_id WHERE T2.expression_level_anatomical_relative = "LOW"
+GPT-3 choices:
+(0) Retrieve the species ID from the xref_gene_ensembl table for genes that have a low expression level in the healthy_expression table.
+(1) Find the species ID for genes that are listed in both the xref_gene_ensembl and healthy_expression tables, where the expression level in healthy tissues is classified as "LOW".
+(2) Retrieve the species ID from the xref_gene_ensembl table for all genes that have a low relative expression level in the healthy_expression table.
+(3) Retrieve the species ID from the xref_gene_ensembl table for genes in the healthy_expression table that have a low relative expression level.
+(4) Retrieve the species ID from the xref_gene_ensembl table for all genes in the healthy_expression table that have a low relative expression level.
+(5) Retrieve the species IDs from the xref_gene_ensembl table for genes that have a low relative expression level in the healthy_expression table.
+(6) Retrieve the species IDs from the xref_gene_ensembl table for all genes in the healthy_expression table with a LOW relative expression level.
+(7) What is the species ID for genes that are listed in both the xref_gene_ensembl table and the healthy_expression table, where the expression level is classified as "LOW" relative to a particular anatomical structure?
+
+
+Re-ranked choices:
+7.716  What is the species ID for genes that are listed in both the xref_gene_ensembl table and the healthy_expression table, where the expression level is classified as "LOW" relative to a particular anatomical structure?
+6.323  Retrieve the species ID from the xref_gene_ensembl table for all genes that have a low relative expression level in the healthy_expression table.
+6.322  Find the species ID for genes that are listed in both the xref_gene_ensembl and healthy_expression tables, where the expression level in healthy tissues is classified as "LOW".
+4.925  Retrieve the species ID from the xref_gene_ensembl table for genes that have a low expression level in the healthy_expression table.
+4.923  Retrieve the species ID from the xref_gene_ensembl table for all genes in the healthy_expression table that have a low relative expression level.
+4.922  Retrieve the species ID from the xref_gene_ensembl table for genes in the healthy_expression table that have a low relative expression level.
+4.922  Retrieve the species IDs from the xref_gene_ensembl table for genes that have a low relative expression level in the healthy_expression table.
+3.522  Retrieve the species IDs from the xref_gene_ensembl table for all genes in the healthy_expression table with a LOW relative expression level.
+

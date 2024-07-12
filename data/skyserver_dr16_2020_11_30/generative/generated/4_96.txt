@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.flags = 103884522240
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.flags = 103884522240
+GPT-3 choices:
+(0) How many Photometric objects have a flag value of 103884522240?
+(1) Count the number of rows in the photoobj table where the flags column is equal to 103884522240.
+(2) How many objects are there in the photoobj table that have a flags value of 103884522240?
+(3) Count the number of objects in the table "photoobj" where the flag value is equal to 103884522240.
+(4) How many Photometric objects have a flag value of 103884522240?
+(5) How many Photometric objects have a flag value of 103884522240?
+(6) How many Photometric objects have a flag value of 103884522240?
+(7) How many objects are there in the photoobj table where the flags value is equal to 103884522240?

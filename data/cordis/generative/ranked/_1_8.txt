@@ -1,0 +1,28 @@
+SELECT institutions.grid_id FROM institutions AS institutions JOIN countries AS countries ON institutions.country_id = countries.unics_id WHERE countries.country_name = "Haiti"
+
+###
+
+
+Original Query:
+SELECT T1.grid_id FROM institutions AS T1 JOIN countries AS T2 ON T1.country_id = T2.unics_id WHERE T2.country_name = "Haiti"
+GPT-3 choices:
+(0) Find the grid ID of institutions located in Haiti by joining the institutions table with the countries table on their corresponding country IDs.
+(1) Retrieve the grid ID of institutions that are located in Haiti by joining the institutions table with the countries table and matching on country name.
+(2) "Find the grid ID of institutions located in Haiti by joining the tables institutions and countries based on their respective country IDs, where the country name is 'Haiti'."
+(3) Find the grid ID for institutions located in Haiti by joining the countries table and selecting the grid ID from institutions where the country name is "Haiti".
+(4) Get the grid ID of institutions from Haiti, where the country name is "Haiti".
+(5) Retrieve the grid ID of institutions located in Haiti by joining the institutions table with the countries table on their respective IDs and selecting only those from Haiti.
+(6) "Retrieve the grid ID of institutions located in Haiti, which is matched with the country's UNICS ID in the countries table."
+(7) Find the grid ID for all institutions located in Haiti by joining the institutions table with the countries table and selecting the country name as "Haiti".
+
+
+Re-ranked choices:
+9.823  "Find the grid ID of institutions located in Haiti by joining the tables institutions and countries based on their respective country IDs, where the country name is 'Haiti'."
+9.124  Find the grid ID for institutions located in Haiti by joining the countries table and selecting the grid ID from institutions where the country name is "Haiti".
+9.122  Find the grid ID for all institutions located in Haiti by joining the institutions table with the countries table and selecting the country name as "Haiti".
+8.430  "Retrieve the grid ID of institutions located in Haiti, which is matched with the country's UNICS ID in the countries table."
+8.423  Retrieve the grid ID of institutions that are located in Haiti by joining the institutions table with the countries table and matching on country name.
+8.422  Find the grid ID of institutions located in Haiti by joining the institutions table with the countries table on their corresponding country IDs.
+7.758  Get the grid ID of institutions from Haiti, where the country name is "Haiti".
+7.021  Retrieve the grid ID of institutions located in Haiti by joining the institutions table with the countries table on their respective IDs and selecting only those from Haiti.
+

@@ -1,0 +1,28 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 307370982278981632
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 307370982278981632
+GPT-3 choices:
+(0) How many rows are there in the table "spplines" where the value in the column "specobjid" is equal to 307370982278981632?
+(1) How many rows are in the table "spplines" where the value in the column "specobjid" is equal to 307370982278981632?
+(2) How many stellar spectral lines are there for the specobjid 307370982278981632 in the table spplines?
+(3) How many spectral lines are there for the object with a specobjid of 307370982278981632 in the spplines table?
+(4) How many stellar spectral lines are there for the specobjid with a value of 307370982278981632 in the table called spplines?
+(5) How many stellar spectral lines are there with a specobjid of 307370982278981632 in the spplines table?
+(6) How many stellar spectral lines are there for the specobjid 307370982278981632 in the spplines table?
+(7) How many lines are there in the SPPLines table where the specobjid is equal to 307370982278981632?
+
+
+Re-ranked choices:
+1.434  How many spectral lines are there for the object with a specobjid of 307370982278981632 in the spplines table?
+0.044  How many lines are there in the SPPLines table where the specobjid is equal to 307370982278981632?
+0.039  How many stellar spectral lines are there for the specobjid 307370982278981632 in the table spplines?
+0.039  How many stellar spectral lines are there for the specobjid 307370982278981632 in the spplines table?
+0.037  How many stellar spectral lines are there with a specobjid of 307370982278981632 in the spplines table?
+0.033  How many rows are in the table "spplines" where the value in the column "specobjid" is equal to 307370982278981632?
+0.031  How many rows are there in the table "spplines" where the value in the column "specobjid" is equal to 307370982278981632?
+0.031  How many stellar spectral lines are there for the specobjid with a value of 307370982278981632 in the table called spplines?
+

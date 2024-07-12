@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.id = 312 or disease_mutation_site_annotation.disease_mutation_id = 124095
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.id = 312 or T1.disease_mutation_id = 124095
+GPT-3 choices:
+(0) Retrieve the description from the disease mutation site annotation table where the id is equal to 312 or the disease mutation id is equal to 124095.
+(1) Retrieve the description for the disease mutation site annotation with an ID of 312 or associated with a disease mutation ID of 124095 from the disease_mutation_site_annotation table.
+(2) Retrieve the description of the mutation site annotation with an ID of 312 or a disease mutation ID of 124095 from the disease_mutation_site_annotation table.
+(3) Retrieve the description from the disease_mutation_site_annotation table where the id is equal to 312 or the disease_mutation_id is equal to 124095.
+(4) Retrieve the description of the disease mutation site annotation with an ID of 312 or a related disease mutation ID of 124095 from the disease_mutation_site_annotation table.
+(5) Get the description for disease mutation site annotation with ID 312 or for any disease mutation with ID 124095 from the table disease_mutation_site_annotation.
+(6) Find the description for the disease mutation site annotation with an ID of 312 or a disease mutation ID of 124095 from the disease_mutation_site_annotation table.
+(7) What is the description of disease_mutation_site_annotation with an ID of 312 or a disease_mutation_id of 124095?

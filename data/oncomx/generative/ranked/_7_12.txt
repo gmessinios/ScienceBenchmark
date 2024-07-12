@@ -1,0 +1,28 @@
+SELECT healthy_expression.ensembl_gene_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.expression_level_anatomical_relative = "HIGH" or healthy_expression.expression_score = 8.10000
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id FROM healthy_expression AS T1 WHERE T1.expression_level_anatomical_relative = "HIGH" or T1.expression_score = 8.10000
+GPT-3 choices:
+(0) Retrieve the Ensembl gene ID from the Healthy Expression table for genes with either a high expression level in an anatomical location or a score of 8.1.
+(1) Retrieve the Ensembl gene ID from the healthy_expression table where the expression level in a specific anatomical location is considered high or the overall expression score is equal to 8.1.
+(2) Find the Ensembl gene IDs from the Healthy Expression table where either the anatomical expression level is considered high or the expression score is equal to 8.1.
+(3) "Retrieve the Ensembl gene ID from healthy expression where either the anatomical relative expression level is high or the expression score is 8.1."
+(4) Retrieve the Ensembl gene ID from healthy expression where the expression level in an anatomical relative is "HIGH" or the expression score is 8.1.
+(5) Find the Ensembl gene IDs for genes with either a high expression level relative to anatomical location or an expression score of 8.1 in the healthy_expression table.
+(6) Retrieve the Ensembl gene ID from the healthy_expression table where the expression level anatomically is "HIGH" or the expression score is 8.1.
+(7) Find the Ensembl gene IDs from healthy expression data where the expression level is either "HIGH" or the expression score is equal to 8.10000.
+
+
+Re-ranked choices:
+13.322  Retrieve the Ensembl gene ID from healthy expression where the expression level in an anatomical relative is "HIGH" or the expression score is 8.1.
+13.321  "Retrieve the Ensembl gene ID from healthy expression where either the anatomical relative expression level is high or the expression score is 8.1."
+11.922  Retrieve the Ensembl gene ID from the Healthy Expression table for genes with either a high expression level in an anatomical location or a score of 8.1.
+10.528  Find the Ensembl gene IDs for genes with either a high expression level relative to anatomical location or an expression score of 8.1 in the healthy_expression table.
+10.520  Find the Ensembl gene IDs from the Healthy Expression table where either the anatomical expression level is considered high or the expression score is equal to 8.1.
+10.516  Retrieve the Ensembl gene ID from the healthy_expression table where the expression level in a specific anatomical location is considered high or the overall expression score is equal to 8.1.
+9.124  Find the Ensembl gene IDs from healthy expression data where the expression level is either "HIGH" or the expression score is equal to 8.10000.
+9.121  Retrieve the Ensembl gene ID from the healthy_expression table where the expression level anatomically is "HIGH" or the expression score is 8.1.
+

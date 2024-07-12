@@ -1,0 +1,16 @@
+SELECT biomarker.biomarker_id FROM biomarker AS biomarker WHERE biomarker.id = "EDRN00429"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_id FROM biomarker AS T1 WHERE T1.id = "EDRN00429"
+GPT-3 choices:
+(0) What is the biomarker ID for the biomarker with an ID of "EDRN00429"?
+(1) What is the biomarker ID for the biomarker with an ID of "EDRN00429"?
+(2) What is the biomarker ID associated with the identifier "EDRN00429"?
+(3) "Retrieve the biomarker ID from the biomarker table where the id is equal to "EDRN00429"."
+(4) "Retrieve the biomarker_id of the biomarker with an id of "EDRN00429"."
+(5) What is the biomarker_id associated with the id "EDRN00429" in the biomarker table?
+(6) What is the biomarker ID for "EDRN00429" in the table?
+(7) What is the biomarker ID for the biomarker with an ID of "EDRN00429"?

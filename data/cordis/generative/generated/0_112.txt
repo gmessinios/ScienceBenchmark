@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.title = "Standards"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.title = "Standards"
+GPT-3 choices:
+(0) What is the code for the subject area with the title "Standards" in the table named "subject_areas"?
+(1) What is the code for the subject area "Standards" in the table "subject_areas"?
+(2) "Retrieve the code from the subject_areas table where the title is equal to 'Standards'."
+(3) What is the code for the subject area titled "Standards" in the table called "subject_areas"?
+(4) What is the code for subject areas where the title is "Standards"?
+(5) What is the code for the subject area "Standards"?
+(6) Find the code for subject areas where the title is "Standards".
+(7) Retrieve the code of all subject areas where the title is "Standards".

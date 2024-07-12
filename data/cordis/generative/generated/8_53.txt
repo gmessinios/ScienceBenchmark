@@ -1,0 +1,16 @@
+SELECT institutions.grid_id FROM institutions AS institutions WHERE institutions.unics_id != 1978
+
+###
+
+
+Original Query:
+SELECT T1.grid_id FROM institutions AS T1 WHERE T1.unics_id != 1978
+GPT-3 choices:
+(0) Retrieve the grid_id of institutions where the unics_id is not equal to 1978.
+(1) Find the grid ID of all institutions that have a UNICS ID different from 1978.
+(2) Find the grid_id for institutions where the unics_id is not equal to 1978.
+(3) Retrieve the grid ID from the institutions table where the UNICS ID is not equal to 1978.
+(4) What is the grid ID of all institutions that have a UNICS ID different from 1978?
+(5) Find the grid ID for institutions that have a UNICS ID different from 1978.
+(6) Retrieve the grid ID of all institutions where their UNICS ID is not equal to 1978.
+(7) Get the grid ID from institutions where the unics ID is not equal to 1978.

@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.framework_program = "HORIZON"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.framework_program = "HORIZON"
+GPT-3 choices:
+(0) What are the descriptions of all subject areas associated with projects in the HORIZON framework program?
+(1) Retrieve the description of subject areas from projects that are part of the HORIZON framework program, based on their shared subject area code.
+(2) Find the description of the subject areas for projects in the HORIZON framework program.
+(3) Retrieve the description of subject areas for projects in the HORIZON framework program.
+(4) Retrieve the description of subject areas from the "HORIZON" framework program, by joining the subject_areas, project_subject_areas, and projects tables and filtering for projects with a matching code in project_subject_areas and framework_program equal to "HORIZON".
+(5) Retrieve the description of all subject areas associated with projects that are part of the "HORIZON" framework program.
+(6) Find the descriptions of all subject areas that are associated with projects that belong to the "HORIZON" framework program.
+(7) Retrieve the descriptions of all subject areas associated with projects that are part of the "HORIZON" framework program.

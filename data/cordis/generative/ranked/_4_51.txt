@@ -1,0 +1,25 @@
+SELECT count(*) FROM subject_areas AS subject_areas WHERE subject_areas.description = "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises."
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1 WHERE T1.description = "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises."
+GPT-3 choices:
+(0) How many subject areas have a description of "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+(1) How many subject areas have a description that states "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+(2) How many subject areas have a description of "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+(3) How many subject areas have the description "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+(4) How many subject areas are there with the description of "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+(5) How many subject areas have a description of "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+(6) How many subject areas have a description that says "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+(7) How many subject areas have the description "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+
+
+Re-ranked choices:
+10.518  How many subject areas have the description "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+10.518  How many subject areas are there with the description of "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+10.518  How many subject areas have a description of "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+10.517  How many subject areas have a description that states "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+10.517  How many subject areas have a description that says "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises"?
+

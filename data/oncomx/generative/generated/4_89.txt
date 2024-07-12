@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_adoption_evidence = "clinical use"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test AS T1 WHERE T1.test_adoption_evidence = "clinical use"
+GPT-3 choices:
+(0) How many clinical use evidence is there in the biomarker_fda_test table?
+(1) How many entries are in the biomarker_fda_test table where the test_adoption_evidence column is equal to "clinical use"?
+(2) How many biomarker tests have been adopted for clinical use according to the FDA in the biomarker_fda_test table?
+(3) How many clinical use evidences are present in the biomarker_fda_test table?
+(4) How many biomarker FDA tests have clinical use as evidence for their adoption?
+(5) How many rows are in the "biomarker_fda_test" table where the test adoption evidence is "clinical use"?
+(6) How many biomarkers in the FDA test have clinical use as evidence for adoption?
+(7) How many biomarker FDA tests have been clinically used?

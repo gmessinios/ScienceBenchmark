@@ -1,0 +1,27 @@
+SELECT biomarker.id FROM biomarker AS biomarker WHERE biomarker.gene_symbol = "NDUFA10"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker AS T1 WHERE T1.gene_symbol = "NDUFA10"
+GPT-3 choices:
+(0) Find the ID of the biomarker with a gene symbol of "NDUFA10" from the biomarker database.
+(1) Find the ID of the biomarker with a gene symbol of "NDUFA10" from the biomarker table.
+(2) Get the ID of the biomarker with a gene symbol of "NDUFA10" from the table called "biomarker".
+(3) What is the ID of the biomarker with a gene symbol of "NDUFA10"?
+(4) Find the ID of the biomarker with a gene symbol of "NDUFA10" from the biomarker table.
+(5) Find the ID of the biomarker from the table "biomarker" where the gene symbol is "NDUFA10".
+(6) Retrieve the ID of all biomarkers where the gene symbol is "NDUFA10" from the biomarker table.
+(7) What is the id for the biomarker with a gene symbol of "NDUFA10" in the table "biomarker"?
+
+
+Re-ranked choices:
+6.362  What is the ID of the biomarker with a gene symbol of "NDUFA10"?
+6.342  Find the ID of the biomarker with a gene symbol of "NDUFA10" from the biomarker database.
+6.342  Find the ID of the biomarker with a gene symbol of "NDUFA10" from the biomarker table.
+6.342  Find the ID of the biomarker from the table "biomarker" where the gene symbol is "NDUFA10".
+6.342  Retrieve the ID of all biomarkers where the gene symbol is "NDUFA10" from the biomarker table.
+6.339  Get the ID of the biomarker with a gene symbol of "NDUFA10" from the table called "biomarker".
+6.335  What is the id for the biomarker with a gene symbol of "NDUFA10" in the table "biomarker"?
+

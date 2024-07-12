@@ -1,0 +1,28 @@
+SELECT institutions.acronym FROM institutions AS institutions JOIN countries AS countries ON institutions.country_id = countries.unics_id WHERE countries.unics_id != 2
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM institutions AS T1 JOIN countries AS T2 ON T1.country_id = T2.unics_id WHERE T2.unics_id != 2
+GPT-3 choices:
+(0) Get the acronyms of institutions where their country is not equal to "United States".
+(1) "Retrieve the acronyms of all institutions that are located in countries other than the United States."
+(2) Retrieve the acronym of institutions that are located in countries other than United States.
+(3) Retrieve the acronyms of all institutions whose country is not United States.
+(4) Retrieve the acronyms of institutions that are located in countries other than the United States.
+(5) Find the acronyms of institutions located in countries other than the United States.
+(6) Retrieve the acronyms of all institutions that are located in countries other than United States.
+(7) Find the acronyms of all institutions that are not located in the United States.
+
+
+Re-ranked choices:
+4.228  Retrieve the acronym of institutions that are located in countries other than United States.
+2.847  Get the acronyms of institutions where their country is not equal to "United States".
+2.844  Retrieve the acronyms of all institutions whose country is not United States.
+2.836  Find the acronyms of institutions located in countries other than the United States.
+2.833  Retrieve the acronyms of institutions that are located in countries other than the United States.
+2.832  "Retrieve the acronyms of all institutions that are located in countries other than the United States."
+2.830  Retrieve the acronyms of all institutions that are located in countries other than United States.
+1.447  Find the acronyms of all institutions that are not located in the United States.
+

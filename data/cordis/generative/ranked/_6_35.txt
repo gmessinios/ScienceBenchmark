@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.nuts_version = "2016" and eu_territorial_units.geocode_regions = "BE323"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.nuts_version = "2016" and T1.geocode_regions = "BE323"
+GPT-3 choices:
+(0) Which geographic code level is associated with the region "BE323" in the European Union territorial units dataset for 2016?
+(1) What is the geocode level of the European territorial unit with a NUTS version of 2016 and a geocode region of BE323?
+(2) Return the geocode level from the EU territorial units where the NUTS version is 2016 and the geocode regions are "BE323".
+(3) What is the geocode level for the EU territorial unit with a NUTS version of 2016 and geocode regions of "BE323"?
+(4) Retrieve the geocode level from the EU territorial units table for regions in Belgium with a NUTS version of 2016.
+(5) Find the geographic code level for a territorial unit in Belgium with NUTS version 2016 and geocode regions "BE323".
+(6) Retrieve the geocode level from the EU territorial units where the nuts version is 2016 and the geocode regions is "BE323".
+(7) What is the geocode level of the European territorial unit with NUTS version 2016 and geocode regions BE323?
+
+
+Re-ranked choices:
+11.933  Return the geocode level from the EU territorial units where the NUTS version is 2016 and the geocode regions are "BE323".
+11.933  Retrieve the geocode level from the EU territorial units where the nuts version is 2016 and the geocode regions is "BE323".
+11.230  Retrieve the geocode level from the EU territorial units table for regions in Belgium with a NUTS version of 2016.
+10.538  What is the geocode level for the EU territorial unit with a NUTS version of 2016 and geocode regions of "BE323"?
+9.128  Find the geographic code level for a territorial unit in Belgium with NUTS version 2016 and geocode regions "BE323".
+8.433  What is the geocode level of the European territorial unit with NUTS version 2016 and geocode regions BE323?
+7.032  What is the geocode level of the European territorial unit with a NUTS version of 2016 and a geocode region of BE323?
+4.923  Which geographic code level is associated with the region "BE323" in the European Union territorial units dataset for 2016?
+

@@ -1,0 +1,28 @@
+SELECT erc_research_domains.description FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.code = "LS"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM erc_research_domains AS T1 WHERE T1.code = "LS"
+GPT-3 choices:
+(0) What is the description of the research domain with the code "LS" in the ERC Research Domains table?
+(1) Find the description of the research domain with the code "LS" in the ERC Research Domains table.
+(2) What is the description of the research domain with the code "LS" in the ERC Research Domains database?
+(3) What is the description of the research domain with the code "LS" in the ERC research domains table?
+(4) Retrieve the description from the table "erc_research_domains" where the code is equal to "LS".
+(5) What is the description of the research domain with the code "LS"?
+(6) What is the description for the research domain with a code of "LS" in the ERC Research Domains database?
+(7) Retrieve the description for the research domain with code "LS" from the erc_research_domains table.
+
+
+Re-ranked choices:
+7.739  Find the description of the research domain with the code "LS" in the ERC Research Domains table.
+7.737  What is the description of the research domain with the code "LS" in the ERC Research Domains table?
+7.737  What is the description of the research domain with the code "LS" in the ERC Research Domains database?
+7.737  What is the description of the research domain with the code "LS" in the ERC research domains table?
+7.736  What is the description for the research domain with a code of "LS" in the ERC Research Domains database?
+4.968  What is the description of the research domain with the code "LS"?
+4.928  Retrieve the description for the research domain with code "LS" from the erc_research_domains table.
+3.531  Retrieve the description from the table "erc_research_domains" where the code is equal to "LS".
+

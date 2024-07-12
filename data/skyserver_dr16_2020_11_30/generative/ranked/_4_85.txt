@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 7
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.value = 7
+GPT-3 choices:
+(0) How many photometrically observed photos are there with a value of 7 in the photo_type table?
+(1) "How many photometrically observed photos are there with a value of 7 in the photo_type table?"
+(2) How many entries are there in the photo_type table where the value in the column "value" is equal to 7, indicating that they have been observed photometrically?
+(3) How many photo types have a value of 7 for being photometrically observed?
+(4) How many entries are there in the photo_type table where the photometrically_observed value is 7?
+(5) How many photo types are photometrically observed with a value of 7?
+(6) How many rows are in the photo_type table where the value of photometrically_observed is equal to 7?
+(7) "How many photometrically observed photo types have a value of 7?"
+
+
+Re-ranked choices:
+4.234  "How many photometrically observed photo types have a value of 7?"
+4.233  How many photo types are photometrically observed with a value of 7?
+4.228  How many photometrically observed photos are there with a value of 7 in the photo_type table?
+4.228  "How many photometrically observed photos are there with a value of 7 in the photo_type table?"
+2.832  How many photo types have a value of 7 for being photometrically observed?
+2.822  How many entries are there in the photo_type table where the value in the column "value" is equal to 7, indicating that they have been observed photometrically?
+2.130  How many rows are in the photo_type table where the value of photometrically_observed is equal to 7?
+2.129  How many entries are there in the photo_type table where the photometrically_observed value is 7?
+

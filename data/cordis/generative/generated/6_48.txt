@@ -1,0 +1,16 @@
+SELECT programmes.code FROM programmes AS programmes WHERE programmes.parent = "GALILEO-2.2" and programmes.short_name = "Health"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM programmes AS T1 WHERE T1.parent = "GALILEO-2.2" and T1.short_name = "Health"
+GPT-3 choices:
+(0) Find the code for the "Health" programme under the parent programme "GALILEO-2.2".
+(1) Retrieve the code for all programmes with the parent "GALILEO-2.2" and a short name of "Health".
+(2) Show the code for programmes that have a parent of "GALILEO-2.2" and a short name of "Health".
+(3) Find the code for programmes that have a parent of "GALILEO-2.2" and a short name of "Health".
+(4) Retrieve the code for all programmes that are under the parent "GALILEO-2.2" and have a short name of "Health".
+(5) Show the code for all programmes that have "GALILEO-2.2" as their parent and a short name of "Health".
+(6) Get the code for all programmes with a parent of "GALILEO-2.2" and a short name of "Health".
+(7) What are the codes of programmes under the parent "GALILEO-2.2" with a short name of "Health"?

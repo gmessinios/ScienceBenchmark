@@ -1,0 +1,16 @@
+SELECT projects.homepage FROM projects AS projects WHERE projects.framework_program = "HORIZON" and projects.end_date = "2022-09-14"
+
+###
+
+
+Original Query:
+SELECT T1.homepage FROM projects AS T1 WHERE T1.framework_program = "HORIZON" and T1.end_date = "2022-09-14"
+GPT-3 choices:
+(0) Get the homepage for all projects that use the framework program "HORIZON" and have an end date of September 14, 2022.
+(1) Retrieve the homepage for all projects that use the "HORIZON" framework and have an end date of September 14th, 2022.
+(2) Find the homepage for all projects in the HORIZON framework with an end date of September 14, 2022.
+(3) What are the homepages of projects that use the HORIZON framework and have an end date of September 14, 2022?
+(4) Retrieve the homepage for all projects that use the HORIZON framework and have an end date of September 14, 2022.
+(5) What is the homepage of projects funded by the HORIZON framework that have an end date of September 14, 2022?
+(6) Retrieve the homepage of projects funded under the HORIZON framework and ending on September 14, 2022.
+(7) Find the homepage of projects that have a framework program of HORIZON and an end date of September 14, 2022.

@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.ensembl_transcript_id FROM map_protein_disease_mutation AS map_protein_disease_mutation JOIN disease_mutation AS disease_mutation ON map_protein_disease_mutation.ensembl_transcript_id = disease_mutation.ensembl_transcript_id WHERE disease_mutation.doid != 0
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_transcript_id FROM map_protein_disease_mutation AS T1 JOIN disease_mutation AS T2 ON T1.ensembl_transcript_id = T2.ensembl_transcript_id WHERE T2.doid != 0
+GPT-3 choices:
+(0) Find the Ensembl transcript ID from the map_protein_disease_mutation table for all entries that have a non-zero doid value in the disease_mutation table.
+(1) "Retrieve the ensembl transcript IDs from the map_protein_disease_mutation table that are also found in the disease_mutation table and have a disease ontology ID other than 0."
+(2) Find the Ensembl transcript IDs from the map_protein_disease_mutation table that are associated with diseases (doid) in the disease_mutation table.
+(3) Retrieve the Ensembl transcript IDs from the map_protein_disease_mutation table for which there exists a corresponding record in the disease_mutation table with a non-zero DOID value.
+(4) Find the Ensembl transcript IDs from map_protein_disease_mutation that are also present in disease_mutation and have a DOID other than 0.
+(5) "Retrieve the ensembl transcript IDs from the map_protein_disease_mutation table for which there are associated diseases with a DOID value that is not equal to 0 in the disease_mutation table."
+(6) Find all Ensembl transcript IDs from the map_protein_disease_mutation table that are associated with disease mutations not equal to 0 in the disease_mutation table.
+(7) Retrieve the Ensembl transcript IDs from the map_protein_disease_mutation table for all diseases except those with DOIDs equal to 0.

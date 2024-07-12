@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.gene_symbol = "3830403N18Rik" and xref_gene_ensembl.ensembl_gene_id = "ENSG00000011052"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.gene_symbol = "3830403N18Rik" and T1.ensembl_gene_id = "ENSG00000011052"
+GPT-3 choices:
+(0) Get the species ID from the xref_gene_ensembl table where the gene symbol is "3830403N18Rik" and the ensembl_gene_id is "ENSG00000011052".
+(1) What is the species ID for the gene symbol "3830403N18Rik" and Ensembl gene ID "ENSG00000011052" in the xref_gene_ensembl table?
+(2) Retrieve the species ID from the xref_gene_ensembl table for the gene with a gene symbol of "3830403N18Rik" and an Ensembl gene ID of "ENSG00000011052".
+(3) What is the species ID for the gene symbol "3830403N18Rik" and Ensembl gene ID "ENSG00000011052" in the xref_gene_ensembl table?
+(4) What is the species ID for the gene with a gene symbol of "3830403N18Rik" and an Ensembl gene ID of "ENSG00000011052"?
+(5) What is the species ID for the gene with the symbol "3830403N18Rik" and the Ensembl gene ID "ENSG00000011052" in the table xref_gene_ensembl?
+(6) What is the species ID of gene symbol "3830403N18Rik" with Ensembl gene ID "ENSG00000011052" in table xref_gene_ensembl?
+(7) Find the species ID for the gene symbol "3830403N18Rik" and Ensembl gene ID "ENSG00000011052" from the table xref_gene_ensembl.

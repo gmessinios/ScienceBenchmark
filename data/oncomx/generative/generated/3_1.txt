@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_test_trial AS biomarker_fda_test_trial
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test_trial AS T1
+GPT-3 choices:
+(0) How many rows are in the biomarker_fda_test_trial table?
+(1) How many rows are in the table biomarker_fda_test_trial?
+(2) How many entries are there in the biomarker_fda_test_trial table?
+(3) How many rows are in the biomarker_fda_test_trial table?
+(4) How many entries are there in the biomarker FDA test trial table?
+(5) How many rows are in the biomarker_fda_test_trial table?
+(6) How many biomarker FDA test trials are there in the table "biomarker_fda_test_trial"?
+(7) How many records are there in the "biomarker_fda_test_trial" table under the column name "count"?

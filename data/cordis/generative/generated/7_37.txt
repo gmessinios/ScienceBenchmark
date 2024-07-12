@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_level = 2 or eu_territorial_units.description = "Northumberland"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.geocode_level = 2 or T1.description = "Northumberland"
+GPT-3 choices:
+(0) Retrieve the geocode regions for the EU territorial units that have a geocode level of 2 or a description of "Northumberland".
+(1) Retrieve the geocode_regions of all eu_territorial_units where the geocode_level is equal to 2 or the description is "Northumberland".
+(2) Find the geocode regions from the table "eu_territorial_units" where the geocode level is 2 or the description is "Northumberland".
+(3) Get the geocode_regions from the eu_territorial_units table where the geocode_level is 2 or the description is "Northumberland".
+(4) Get the geocode regions from the EU territorial units where the geocode level is 2 or the description is "Northumberland".
+(5) Retrieve the geocode regions from the eu_territorial_units table where the geocode level is 2 or the description is "Northumberland".
+(6) Retrieve the geocode regions from the EU territorial units table where the geocode level is equal to 2 or the description is "Northumberland".
+(7) Get the geocode regions from eu_territorial_units where either the geocode level is 2 or the description is "Northumberland".

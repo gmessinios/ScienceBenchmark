@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Samir Okasha"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Samir Okasha"
+GPT-3 choices:
+(0) Retrieve the UNICS ID for the person named "Samir Okasha" from the table of people.
+(1) What is the UNICS ID of the person whose full name is "Samir Okasha"?
+(2) What is the UNICS ID of the person named "Samir Okasha" in the table "people"?
+(3) Retrieve the unics_id of a person with the full name "Samir Okasha" from the table people.
+(4) What is the unique ID of the person named "Samir Okasha" in the table called "people"?
+(5) Retrieve the unique ID of the person with the full name "Samir Okasha" from the database table named "people".
+(6) Retrieve the UNICS ID for the person whose full name is "Samir Okasha".
+(7) Find the unique identifier for a person with the full name "Samir Okasha".

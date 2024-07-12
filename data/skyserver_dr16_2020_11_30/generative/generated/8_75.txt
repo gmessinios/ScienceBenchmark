@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.description != "NotAType:"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.description != "NotAType:"
+GPT-3 choices:
+(0) "Retrieve the value of photometrically observed data for all types except those with the description 'NotAType:' from the photo_type table."
+(1) Find the value of photometrically observed photo types that are not "NotAType:".
+(2) Find the values in the "value" column of the table "photo_type" where the description is not equal to "NotAType:".
+(3) Retrieve the value from the table "photo_type" where the description is not equal to "NotAType:".
+(4) "Retrieve the value of photometrically observed photos where the description is not 'NotAType' from the photo_type table."
+(5) Retrieve the values from the photometrically observed column where the description is not equal to "NotAType:".
+(6) Get the value of photometrically observed photo types that are not labeled as "NotAType".
+(7) Get the values of all photo types where the description is not "NotAType:".

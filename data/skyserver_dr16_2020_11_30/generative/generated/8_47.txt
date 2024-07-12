@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value != 5
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value != 5
+GPT-3 choices:
+(0) List the names of all photometrically observed objects where their value is not equal to 5.
+(1) What are the names of all photometric types that have a value other than 5?
+(2) "Find the names of all objects that have a photo type value not equal to 5 for being photometrically observed."
+(3) Find the names of all objects that have been observed photometrically but do not have a value of 5.
+(4) Retrieve the names of objects that have been photometrically observed and whose photo type value is not equal to 5.
+(5) Show me the names of all photo types that have a value different from 5, but are still photometrically observed.
+(6) Retrieve the names of all objects that have been photometrically observed but do not have a value of 5 in the photo_type table.
+(7) Find the names of objects that have been observed photometrically and do not have a value of 5.

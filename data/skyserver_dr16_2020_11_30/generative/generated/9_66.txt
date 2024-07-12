@@ -1,0 +1,16 @@
+SELECT Photometric_objects.run FROM photoobj AS Photometric_objects JOIN specobj AS Spectroscopic_objects ON Photometric_objects.objid = Spectroscopic_objects.bestobjid WHERE Spectroscopic_objects.special_target1 != 0
+
+###
+
+
+Original Query:
+SELECT T1.run FROM photoobj AS T1 JOIN specobj AS T2 ON T1.objid = T2.bestobjid WHERE T2.special_target1 != 0
+GPT-3 choices:
+(0) Retrieve the run from the photoobj table for objects that have a non-zero value in the special_target1 column of the specobj table.
+(1) What is the run number for all objects in the photoobj table whose objid matches the bestobjid in the specobj table, where those objects have a non-zero value for special_target1?
+(2) Find the run numbers for photometric objects where the bestobjid in the spectroscopic_objects table is not equal to 0.
+(3) Find the runs of photometric objects that have a matching objid in photoobj and bestobjid in specobj, where Spectroscopic_objects.special_target1 is not equal to 0.
+(4) Retrieve the runs from the photoobj table where the objid in Photometric_objects matches the bestobjid in specobj and where special_target1 in Spectroscopic_objects is not equal to 0.
+(5) "Retrieve the name of the run for all Photometric objects that have a corresponding Spectroscopic object with a non-zero special target 1."
+(6) Find the runs from the Photometric_objects table where there exists a match in the Spectroscopic_objects table based on their objid and the special_target1 column is not equal to 0.
+(7) Retrieve the run number for all photometric objects that have a corresponding entry in the specobj table and whose special_target1 value is not equal to 0.

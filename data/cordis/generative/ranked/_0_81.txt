@@ -1,0 +1,28 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_code2 = "LY"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_code2 = "LY"
+GPT-3 choices:
+(0) Retrieve the geocode country code from the countries table where the country code2 is "LY".
+(1) Retrieve the geocode country code from the countries table where the country code2 is equal to "LY".
+(2) Find the geocode country code from the countries table where the country code2 is equal to "LY".
+(3) Which geocode country code is associated with the country whose country code2 is "LY"?
+(4) Find the geocode country code from the countries table where the country code2 is "LY".
+(5) "Retrieve the geocode country code from the countries table where the country code2 is equal to "LY".
+(6) Retrieve the geocode country code from the countries table for a country with the country code2 of "LY".
+(7) Get the geocode country code from the countries table where the country code2 is equal to "LY".
+
+
+Re-ranked choices:
+7.758  Find the geocode country code from the countries table where the country code2 is equal to "LY".
+7.758  Get the geocode country code from the countries table where the country code2 is equal to "LY".
+7.754  Retrieve the geocode country code from the countries table where the country code2 is "LY".
+7.754  Find the geocode country code from the countries table where the country code2 is "LY".
+7.747  Retrieve the geocode country code from the countries table where the country code2 is equal to "LY".
+7.744  Retrieve the geocode country code from the countries table for a country with the country code2 of "LY".
+7.741  "Retrieve the geocode country code from the countries table where the country code2 is equal to "LY".
+6.339  Which geocode country code is associated with the country whose country code2 is "LY"?
+

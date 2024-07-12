@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 WHERE T1.type = 0
+GPT-3 choices:
+(0) Find the type of nearest neighbors for objects that have a type of 0.
+(1) What are the neighbor types for all nearest neighbors where the type is equal to 0?
+(2) "Find the neighbor type of the nearest neighbour objects where the type is equal to 0."
+(3) Find the neighbor type for all nearest neighbour objects where the type is equal to 0.
+(4) "Retrieve the neighbor type for all nearest neighbor objects where the type is equal to 0."
+(5) What type of neighbor is the nearest neighbor for objects where the type is equal to 0 in the neighbors table?
+(6) Retrieve the type of nearest neighbor objects where the object type is equal to 0 from the table of neighbors.
+(7) Find the type of nearest neighbor objects from a table called "neighbors" where the type is equal to 0.

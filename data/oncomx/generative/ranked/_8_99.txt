@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.feature_key != "modified residue"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.feature_key != "modified residue"
+GPT-3 choices:
+(0) What is the description of the disease mutation site annotation where the feature key is not "modified residue"?
+(1) What is the description of all disease mutation sites that are not modified residues?
+(2) What are the descriptions of all disease mutation sites that are not modified residues?
+(3) Retrieve the descriptions of all disease mutation site annotations where the feature key is not "modified residue".
+(4) What is the description of all disease mutation site annotations where the feature key is not "modified residue"?
+(5) Retrieve the descriptions of all disease mutations that are not "modified residue" from the database of disease mutation site annotations.
+(6) Retrieve the description of all disease mutation site annotations except those with a feature key of "modified residue".
+(7) Retrieve the description of all mutation sites that are not modified residues from the disease_mutation_site_annotation table.
+
+
+Re-ranked choices:
+11.229  What is the description of the disease mutation site annotation where the feature key is not "modified residue"?
+9.829  What is the description of all disease mutation site annotations where the feature key is not "modified residue"?
+9.826  Retrieve the description of all disease mutation site annotations except those with a feature key of "modified residue".
+8.427  Retrieve the descriptions of all disease mutation site annotations where the feature key is not "modified residue".
+5.622  Retrieve the descriptions of all disease mutations that are not "modified residue" from the database of disease mutation site annotations.
+4.939  What is the description of all disease mutation sites that are not modified residues?
+3.539  What are the descriptions of all disease mutation sites that are not modified residues?
+3.523  Retrieve the description of all mutation sites that are not modified residues from the disease_mutation_site_annotation table.
+

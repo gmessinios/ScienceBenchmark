@@ -1,0 +1,28 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Adam Gyorgy Szeidl"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Adam Gyorgy Szeidl"
+GPT-3 choices:
+(0) Retrieve the unique identification number for the person with the full name "Adam Gyorgy Szeidl" from the table called "people".
+(1) Find the unique identifier for a person with the full name "Adam Gyorgy Szeidl" from the table of people.
+(2) Find the UNICS ID for a person with the full name "Adam Gyorgy Szeidl" in the table of people.
+(3) Retrieve the unics_id of the person with the full name "Adam Gyorgy Szeidl" from the table named people.
+(4) Get the unics_id of a person named "Adam Gyorgy Szeidl" from the table of people.
+(5) Retrieve the unique ID for the person whose full name is "Adam Gyorgy Szeidl".
+(6) Retrieve the unique ID of the person with the full name "Adam Gyorgy Szeidl" from the table "people".
+(7) Retrieve the unique ID of a person named "Adam Gyorgy Szeidl" from the table "people" in the database.
+
+
+Re-ranked choices:
+7.730  Retrieve the unique ID of the person with the full name "Adam Gyorgy Szeidl" from the table "people".
+7.729  Find the UNICS ID for a person with the full name "Adam Gyorgy Szeidl" in the table of people.
+6.336  Retrieve the unique ID for the person whose full name is "Adam Gyorgy Szeidl".
+6.323  Retrieve the unique identification number for the person with the full name "Adam Gyorgy Szeidl" from the table called "people".
+4.930  Retrieve the unique ID of a person named "Adam Gyorgy Szeidl" from the table "people" in the database.
+4.927  Retrieve the unics_id of the person with the full name "Adam Gyorgy Szeidl" from the table named people.
+4.926  Find the unique identifier for a person with the full name "Adam Gyorgy Szeidl" from the table of people.
+2.127  Get the unics_id of a person named "Adam Gyorgy Szeidl" from the table of people.
+

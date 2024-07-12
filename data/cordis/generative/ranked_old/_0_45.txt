@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'HFC'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'HFC'
+GPT-3 choices:
+(0) Show me all the subject areas with a code of HFC
+(1) Show me the subject areas.
+(2) Retrieve all subject areas with code “HFC”
+(3) Show me all subject areas that have code HFC
+(4) Show me subject areas with a code of HFC
+(5) Show me all the subject areas that end with HFC.
+(6) Show me the subject areas with a code of HFC
+(7) Retrieve subject area titles
+
+
+Re-ranked choices:
+5.043  Show me all subject areas that have code HFC
+5.043  Show me subject areas with a code of HFC
+5.020  Show me the subject areas with a code of HFC
+5.003  Show me all the subject areas with a code of HFC
+4.281  Retrieve all subject areas with code “HFC”
+2.920  Show me all the subject areas that end with HFC.
+1.503  Show me the subject areas.
+1.442  Retrieve subject area titles
+

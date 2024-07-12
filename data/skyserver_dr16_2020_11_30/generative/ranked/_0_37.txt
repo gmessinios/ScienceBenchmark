@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.segue2primary FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.ancillary_target1 = 34359738368
+
+###
+
+
+Original Query:
+SELECT T1.segue2primary FROM specobj AS T1 WHERE T1.ancillary_target1 = 34359738368
+GPT-3 choices:
+(0) What is the primary object in the specobj table where ancillary_target1 is equal to 34359738368?
+(1) Find the primary object from the SEQUEL2 database for which the ancillary target 1 is equal to 34359738368.
+(2) Find the primary object from the Spectroscopic_objects table where the ancillary_target1 column is equal to 34359738368.
+(3) Retrieve the primary object for all spectroscopic objects where the ancillary target1 is equal to 34359738368.
+(4) Find the primary object in the specobj table where ancillary_target1 is equal to 34359738368.
+(5) Find the primary sources of spectroscopic objects from the specobj table where the ancillary target1 is equal to 34359738368.
+(6) Retrieve the primary objects from the specobj table for which the ancillary target1 value is equal to 34359738368 in the Spectroscopic_objects table.
+(7) Which primary objects in the specobj table are linked to an ancillary target with a value of 34359738368?
+
+
+Re-ranked choices:
+3.523  Retrieve the primary objects from the specobj table for which the ancillary target1 value is equal to 34359738368 in the Spectroscopic_objects table.
+2.833  Which primary objects in the specobj table are linked to an ancillary target with a value of 34359738368?
+2.829  Find the primary sources of spectroscopic objects from the specobj table where the ancillary target1 is equal to 34359738368.
+2.828  Retrieve the primary object for all spectroscopic objects where the ancillary target1 is equal to 34359738368.
+1.438  Find the primary object from the SEQUEL2 database for which the ancillary target 1 is equal to 34359738368.
+0.725  Find the primary object from the Spectroscopic_objects table where the ancillary_target1 column is equal to 34359738368.
+0.033  What is the primary object in the specobj table where ancillary_target1 is equal to 34359738368?
+0.031  Find the primary object in the specobj table where ancillary_target1 is equal to 34359738368.
+

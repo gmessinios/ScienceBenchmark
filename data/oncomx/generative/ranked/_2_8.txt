@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.disease_mutation_id, count(*) FROM disease_mutation_site_annotation AS disease_mutation_site_annotation  GROUP BY disease_mutation_site_annotation.disease_mutation_id
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id, count(*) FROM disease_mutation_site_annotation AS T1  GROUP BY T1.disease_mutation_id
+GPT-3 choices:
+(0) Count the number of disease mutation sites for each disease mutation ID in the table "disease_mutation_site_annotation".
+(1) Find the number of annotations for each disease mutation by grouping them based on their corresponding ID in the table "disease_mutation_site_annotation".
+(2) Count the number of times each disease mutation appears in the table "disease_mutation_site_annotation" and group the results by the unique identifier for each disease mutation.
+(3) Count the number of occurrences for each disease mutation ID in the table "disease_mutation_site_annotation".
+(4) Count the number of occurrences of each unique disease mutation ID in the table "disease_mutation_site_annotation".
+(5) How many disease mutation sites are associated with each unique disease mutation ID in the database?
+(6) Count the number of disease mutation site annotations for each unique disease mutation ID.
+(7) What is the count of mutation sites for each disease mutation in the disease_mutation_site_annotation table?
+
+
+Re-ranked choices:
+4.920  Find the number of annotations for each disease mutation by grouping them based on their corresponding ID in the table "disease_mutation_site_annotation".
+4.230  Count the number of disease mutation site annotations for each unique disease mutation ID.
+4.228  How many disease mutation sites are associated with each unique disease mutation ID in the database?
+4.224  Count the number of occurrences of each unique disease mutation ID in the table "disease_mutation_site_annotation".
+4.223  Count the number of disease mutation sites for each disease mutation ID in the table "disease_mutation_site_annotation".
+4.222  Count the number of occurrences for each disease mutation ID in the table "disease_mutation_site_annotation".
+3.519  Count the number of times each disease mutation appears in the table "disease_mutation_site_annotation" and group the results by the unique identifier for each disease mutation.
+2.824  What is the count of mutation sites for each disease mutation in the disease_mutation_site_annotation table?
+

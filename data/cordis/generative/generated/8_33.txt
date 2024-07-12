@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types WHERE activity_types.description != "Research Organisations"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 WHERE T1.description != "Research Organisations"
+GPT-3 choices:
+(0) "Retrieve the code for all activity types where the description is not equal to 'Research Organisations' from the table named 'activity_types'."
+(1) Show me the codes of all activity types where the description is not "Research Organisations".
+(2) What are the activity types that have a code other than "Research Organisations"?
+(3) Retrieve the code from the activity_types table where the description is not equal to "Research Organisations".
+(4) What is the code for all activity types except "Research Organisations"?
+(5) Find the code of all activity types except for "Research Organisations".
+(6) Show me the activity type codes for all activities that are not categorized as "Research Organisations".
+(7) Show the code for activity types from the table "activity_types" where the description is not equal to "Research Organisations".

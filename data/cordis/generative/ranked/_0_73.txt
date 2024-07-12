@@ -1,0 +1,28 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Jean-Michel Coron"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Jean-Michel Coron"
+GPT-3 choices:
+(0) Retrieve the unique identifier from the people table for the person with the full name "Jean-Michel Coron".
+(1) Find the unique identifier for a person with the full name "Jean-Michel Coron".
+(2) Retrieve the unique identifier (UNICS ID) from the people table for the person with the full name "Jean-Michel Coron".
+(3) Find the UNICS ID for a person with the full name "Jean-Michel Coron".
+(4) What is the UNICS ID of the person with the full name "Jean-Michel Coron"?
+(5) Find the unique ID for a person whose full name is "Jean-Michel Coron" from the people table.
+(6) Find the unics ID for the person with the full name "Jean-Michel Coron".
+(7) Retrieve the unics ID of a person with the full name "Jean-Michel Coron".
+
+
+Re-ranked choices:
+7.061  What is the UNICS ID of the person with the full name "Jean-Michel Coron"?
+7.054  Find the UNICS ID for a person with the full name "Jean-Michel Coron".
+7.054  Find the unics ID for the person with the full name "Jean-Michel Coron".
+7.054  Retrieve the unics ID of a person with the full name "Jean-Michel Coron".
+7.048  Find the unique ID for a person whose full name is "Jean-Michel Coron" from the people table.
+5.631  Retrieve the unique identifier from the people table for the person with the full name "Jean-Michel Coron".
+5.629  Retrieve the unique identifier (UNICS ID) from the people table for the person with the full name "Jean-Michel Coron".
+4.243  Find the unique identifier for a person with the full name "Jean-Michel Coron".
+

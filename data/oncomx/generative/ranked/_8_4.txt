@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.biomarker_title FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.id != "EDRN00821"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_title FROM biomarker_edrn AS T1 WHERE T1.id != "EDRN00821"
+GPT-3 choices:
+(0) "Retrieve the title of all biomarkers from the EDRN database, excluding the one with ID "EDRN00821"."
+(1) Get the title of all biomarkers in the EDRN database, except for "EDRN00821".
+(2) What is the title of the biomarker from the EDRN database where the ID is not "EDRN00821"?
+(3) Find the title of all biomarkers in the EDRN database except for the one with an ID of "EDRN00821".
+(4) What is the biomarker title for all biomarkers in the EDRN database, except for "EDRN00821"?
+(5) Find the title of all biomarkers except "EDRN00821" from the EDRN database.
+(6) What is the biomarker title for all records in the biomarker_edrn table except for the record with an ID of "EDRN00821"?
+(7) What is the title of all biomarkers in the database except for "EDRN00821"?
+
+
+Re-ranked choices:
+6.348  What is the title of the biomarker from the EDRN database where the ID is not "EDRN00821"?
+4.945  What is the biomarker title for all biomarkers in the EDRN database, except for "EDRN00821"?
+4.943  Find the title of all biomarkers in the EDRN database except for the one with an ID of "EDRN00821".
+4.934  What is the biomarker title for all records in the biomarker_edrn table except for the record with an ID of "EDRN00821"?
+4.933  "Retrieve the title of all biomarkers from the EDRN database, excluding the one with ID "EDRN00821"."
+3.556  Find the title of all biomarkers except "EDRN00821" from the EDRN database.
+3.552  Get the title of all biomarkers in the EDRN database, except for "EDRN00821".
+2.162  What is the title of all biomarkers in the database except for "EDRN00821"?
+

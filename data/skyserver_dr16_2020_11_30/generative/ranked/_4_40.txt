@@ -1,0 +1,28 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.distance = 1.40128831093436e-06
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.distance = 1.40128831093436e-06
+GPT-3 choices:
+(0) How many objects in the "neighbors" table have a distance value of 1.40128831093436e-06 in the "Nearest_neighbour_objects" column?
+(1) How many neighbors are there with a distance of 1.40128831093436e-06 in the table "Nearest_neighbour_objects"?
+(2) How many objects in the "neighbors" table have a distance of 1.40128831093436e-06 in the "Nearest_neighbour_objects" table?
+(3) "How many objects are there in the 'neighbors' table that have a distance of 1.40128831093436e-06 in the 'Nearest_neighbour_objects' column?"
+(4) Count the number of objects in the "neighbors" table where the distance is equal to 1.40128831093436e-06 in the "Nearest_neighbour_objects" column.
+(5) How many neighbors have a distance of 1.40128831093436e-06?
+(6) How many objects are there in the "neighbors" table with a distance of 1.40128831093436e-06 in the column "Nearest_neighbour_objects"?
+(7) How many neighbors are there whose distance is exactly 1.40128831093436e-06?
+
+
+Re-ranked choices:
+4.956  How many objects are there in the "neighbors" table with a distance of 1.40128831093436e-06 in the column "Nearest_neighbour_objects"?
+4.954  "How many objects are there in the 'neighbors' table that have a distance of 1.40128831093436e-06 in the 'Nearest_neighbour_objects' column?"
+4.948  How many objects in the "neighbors" table have a distance of 1.40128831093436e-06 in the "Nearest_neighbour_objects" table?
+4.947  How many objects in the "neighbors" table have a distance value of 1.40128831093436e-06 in the "Nearest_neighbour_objects" column?
+4.943  Count the number of objects in the "neighbors" table where the distance is equal to 1.40128831093436e-06 in the "Nearest_neighbour_objects" column.
+3.564  How many neighbors are there with a distance of 1.40128831093436e-06 in the table "Nearest_neighbour_objects"?
+1.503  How many neighbors have a distance of 1.40128831093436e-06?
+1.462  How many neighbors are there whose distance is exactly 1.40128831093436e-06?
+

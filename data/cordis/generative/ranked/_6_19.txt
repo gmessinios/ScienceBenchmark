@@ -1,0 +1,28 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_code3 = "JAM" and countries.country_code2 = "DO"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_code3 = "JAM" and T1.country_code2 = "DO"
+GPT-3 choices:
+(0) Retrieve the geocode country code from the "countries" table where the country code3 is "JAM" and the country code2 is "DO".
+(1) Retrieve the geocode country code from the countries table where the country_code3 is equal to "JAM" and the country_code2 is equal to "DO".
+(2) Get the geocode country code for the country with a country code of "JAM" and a country code 2 of "DO" from the countries table.
+(3) What is the geocode country code for the country with a three-character country code of "JAM" and a two-character country code of "DO"?
+(4) Retrieve the geocode country code from the countries table for a country with a country code 3 of "JAM" and a country code 2 of "DO".
+(5) "Get the geocode country code for a country with a 3-letter code of JAM and a 2-letter code of DO from the countries table."
+(6) Find the geocode country code for a country with a 3-character country code of "JAM" and a 2-character country code of "DO".
+(7) Show me the geocode country code for the country with a country code of "JAM" and a country code2 of "DO".
+
+
+Re-ranked choices:
+9.838  Retrieve the geocode country code from the "countries" table where the country code3 is "JAM" and the country code2 is "DO".
+7.044  Show me the geocode country code for the country with a country code of "JAM" and a country code2 of "DO".
+7.036  Get the geocode country code for the country with a country code of "JAM" and a country code 2 of "DO" from the countries table.
+7.034  Retrieve the geocode country code from the countries table where the country_code3 is equal to "JAM" and the country_code2 is equal to "DO".
+7.033  "Get the geocode country code for a country with a 3-letter code of JAM and a 2-letter code of DO from the countries table."
+7.030  Retrieve the geocode country code from the countries table for a country with a country code 3 of "JAM" and a country code 2 of "DO".
+5.632  Find the geocode country code for a country with a 3-character country code of "JAM" and a 2-character country code of "DO".
+5.630  What is the geocode country code for the country with a three-character country code of "JAM" and a two-character country code of "DO"?
+

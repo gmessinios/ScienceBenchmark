@@ -1,0 +1,28 @@
+SELECT projects.unics_id, count(*) FROM projects AS projects  GROUP BY projects.unics_id
+
+###
+
+
+Original Query:
+SELECT T1.unics_id, count(*) FROM projects AS T1  GROUP BY T1.unics_id
+GPT-3 choices:
+(0) Find the number of projects for each unique ID in the "projects" table.
+(1) Retrieve the number of projects grouped by their unique identifier from the table of projects.
+(2) Count the number of projects for each unique unics_id in the projects table.
+(3) How many projects have the same UNICS ID, grouped by the UNICS ID?
+(4) How many projects have the same unics_id and what is the count for each unique unics_id?
+(5) Count the number of projects for each unique ID in the Projects table.
+(6) How many projects are there for each unique UNICS ID?
+(7) "Count the number of projects for each unique unics_id in the projects table."
+
+
+Re-ranked choices:
+3.591  How many projects have the same UNICS ID, grouped by the UNICS ID?
+3.073  How many projects are there for each unique UNICS ID?
+2.883  Find the number of projects for each unique ID in the "projects" table.
+2.883  Count the number of projects for each unique ID in the Projects table.
+2.144  Retrieve the number of projects grouped by their unique identifier from the table of projects.
+1.465  Count the number of projects for each unique unics_id in the projects table.
+1.465  "Count the number of projects for each unique unics_id in the projects table."
+1.445  How many projects have the same unics_id and what is the count for each unique unics_id?
+

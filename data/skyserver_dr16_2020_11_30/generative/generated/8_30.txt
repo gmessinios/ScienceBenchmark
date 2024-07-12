@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.veldisperr FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.programname != "hyades"
+
+###
+
+
+Original Query:
+SELECT T1.veldisperr FROM specobj AS T1 WHERE T1.programname != "hyades"
+GPT-3 choices:
+(0) Retrieve the velocity dispersion error from all spectroscopic objects that do not belong to the "hyades" program.
+(1) Retrieve the velocity dispersion error from all spectroscopic objects except those belonging to the program "hyades".
+(2) Retrieve the velocity dispersion error from all spectroscopic objects that do not have a program name of "hyades".
+(3) Find the velocity dispersion error from the spectroscopic objects where the program name is not "hyades".
+(4) Retrieve the velocity dispersion error from all spectroscopic objects that are not part of the hyades program.
+(5) Get the velocity dispersion error for all spectroscopic objects except those from the program named "hyades".
+(6) What is the velocity dispersion error for all spectroscopic objects except those with a program name of "hyades"?
+(7) What is the velocity dispersion error for all spectroscopic objects in the specobj table, excluding those with a program name of "hyades"?

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.objid, count(*) FROM neighbors AS Nearest_neighbour_objects  GROUP BY Nearest_neighbour_objects.objid
+
+###
+
+
+Original Query:
+SELECT T1.objid, count(*) FROM neighbors AS T1  GROUP BY T1.objid
+GPT-3 choices:
+(0) Find the number of objects and their IDs from the table of neighbors grouped by the nearest neighbor object's ID.
+(1) Find the object IDs and the number of their nearest neighbors from a table called "neighbors" and group them by each individual object ID.
+(2) Count the number of objects and their respective object IDs for the nearest neighboring objects in a table called "neighbors" grouped by each object's ID.
+(3) Get the count of objects that are nearest neighbours for each object, grouped by object ID.
+(4) "Count the number of objects and their respective IDs from the neighbors table grouped by the object ID in ascending order."
+(5) Count the number of objects in each nearest neighbor group and display the object IDs for those groups.
+(6) Find the number of neighbors for each object in the "neighbors" table and group them by their corresponding objid.
+(7) "Count the number of objects and their associated object IDs from the table of nearest neighbor objects, grouping them by object ID."
+
+
+Re-ranked choices:
+4.929  "Count the number of objects and their respective IDs from the neighbors table grouped by the object ID in ascending order."
+3.543  Get the count of objects that are nearest neighbours for each object, grouped by object ID.
+3.534  Find the number of objects and their IDs from the table of neighbors grouped by the nearest neighbor object's ID.
+3.525  Count the number of objects and their respective object IDs for the nearest neighboring objects in a table called "neighbors" grouped by each object's ID.
+3.525  "Count the number of objects and their associated object IDs from the table of nearest neighbor objects, grouping them by object ID."
+2.844  Count the number of objects in each nearest neighbor group and display the object IDs for those groups.
+2.129  Find the number of neighbors for each object in the "neighbors" table and group them by their corresponding objid.
+2.126  Find the object IDs and the number of their nearest neighbors from a table called "neighbors" and group them by each individual object ID.
+

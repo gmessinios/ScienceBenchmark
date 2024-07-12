@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.type != 3
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.type != 3
+GPT-3 choices:
+(0) What is the value of photometrically observed objects where the type of the nearest neighbor object is not equal to 3?
+(1) Retrieve the photometric values of objects that have been observed and are not classified as type 3, from the table "photo_type" by joining it with the "neighbors" table on their shared value in order to find their nearest neighbors.
+(2) What is the value of photometrically observed objects that are not type 3 and also appear as a neighbor in the neighbors table?
+(3) Retrieve the photometrically observed values from the "photo_type" table where the type of the nearest neighbor object is not equal to 3.
+(4) What is the value of photometrically observed objects that are not type 3 neighbors?
+(5) What is the value of photometrically observed objects for the nearest neighbor objects that are not of type 3?
+(6) Retrieve the photometrically observed value for all objects that are not of type 3 from the nearest neighbor table, and join it with the photo_type table.
+(7) Find the values from the column "value" in the table "photometrically_observed" for objects that have a neighbor type that is not equal to 3.

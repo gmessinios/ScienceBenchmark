@@ -1,0 +1,16 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.unics_id = 60 and countries.country_name = "Ghana"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.unics_id = 60 and T1.country_name = "Ghana"
+GPT-3 choices:
+(0) What is the geocode country code for the country with a UNICS ID of 60 and a country name of "Ghana" in the table "countries"?
+(1) Retrieve the geocode country code from the countries table where the unics id is 60 and the country name is "Ghana".
+(2) Find the geographic country code for Ghana in the countries table, where the unique ID is 60 and the country name is "Ghana".
+(3) Retrieve the geocode country code for Ghana from the table of countries where the UNICS ID is 60 and the country name is "Ghana".
+(4) Retrieve the geocode country code for Ghana in the table of countries where the UNICS ID is 60 and the country name is "Ghana".
+(5) Find the geocode country code for the country with a UNICS ID of 60 and a name of "Ghana" in the table "countries".
+(6) Retrieve the geocode country code for Ghana from the countries table where the unics_id is 60 and the country name is "Ghana".
+(7) Get the geocode country code for Ghana from the countries table where the unics ID is 60 and the country name is "Ghana".

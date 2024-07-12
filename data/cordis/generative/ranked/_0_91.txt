@@ -1,0 +1,28 @@
+SELECT project_members.member_short_name FROM project_members AS project_members WHERE project_members.city = "Adelphi"
+
+###
+
+
+Original Query:
+SELECT T1.member_short_name FROM project_members AS T1 WHERE T1.city = "Adelphi"
+GPT-3 choices:
+(0) Which member has the short name for the project from project members where the city is Adelphi?
+(1) Retrieve the short names of project members who are located in Adelphi.
+(2) Retrieve the short names of all project members who live in Adelphi.
+(3) Retrieve the short names of all members who are part of the Adelphi city in the project_members table.
+(4) Which project members have the member short name and are from Adelphi?
+(5) Find the member short names of project members who are located in Adelphi.
+(6) What are the member short names of project members who live in Adelphi?
+(7) Get the member short names from the project members table where the city is "Adelphi".
+
+
+Re-ranked choices:
+8.458  Which member has the short name for the project from project members where the city is Adelphi?
+7.754  Get the member short names from the project members table where the city is "Adelphi".
+7.068  Which project members have the member short name and are from Adelphi?
+5.683  What are the member short names of project members who live in Adelphi?
+5.650  Find the member short names of project members who are located in Adelphi.
+4.937  Retrieve the short names of all members who are part of the Adelphi city in the project_members table.
+4.268  Retrieve the short names of all project members who live in Adelphi.
+4.254  Retrieve the short names of project members who are located in Adelphi.
+

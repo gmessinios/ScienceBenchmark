@@ -1,0 +1,24 @@
+SELECT count(*) FROM subject_areas AS subject_areas WHERE subject_areas.code = "BUS"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1 WHERE T1.code = "BUS"
+GPT-3 choices:
+(0) How many subject areas have a code of "BUS"?
+(1) How many subject areas have a code of "BUS"?
+(2) How many subject areas are there in the "BUS" code?
+(3) How many subject areas have the code "BUS"?
+(4) How many subject areas have a code of "BUS"?
+(5) How many subject areas have a code of "BUS"?
+(6) How many subject areas have a code of "BUS"?
+(7) How many subject areas are there in the table "subject_areas" with the code "BUS"?
+
+
+Re-ranked choices:
+5.043  How many subject areas have a code of "BUS"?
+5.003  How many subject areas have the code "BUS"?
+4.947  How many subject areas are there in the table "subject_areas" with the code "BUS"?
+3.620  How many subject areas are there in the "BUS" code?
+

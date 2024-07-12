@@ -1,0 +1,16 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1
+GPT-3 choices:
+(0) How many spectral lines are there in the SPPLines database?
+(1) How many rows are there in the table "Stellar_spectral_line_indices" from the database "spplines"?
+(2) How many rows are in the table "Stellar_spectral_lines"?
+(3) How many rows are in the table "Stellar_spectal_line_indices" in the database "spplines"?
+(4) "How many rows are in the table 'Stellar_spectral_lines'?"
+(5) How many rows are in the table "spplines" where the values in the column "Stellar_spectal_line_indices" are being counted?
+(6) How many rows are in the table "Stellar_spectral_line_indices" within the database "spplines"?
+(7) What is the count of all entries in the "Stellar_spectal_line_indices" column in the "spplines" table?

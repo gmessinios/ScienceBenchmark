@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id = 6015
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id = 6015
+GPT-3 choices:
+(0) What is the anatomical ID for the tissue associated with the disease mutation having an ID of 6015?
+(1) Get the Uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is equal to 6015.
+(2) Find the uberon anatomical id for disease mutation tissue where the disease mutation id is 6015.
+(3) What is the anatomical ID in the disease mutation tissue table for a specific disease mutation with an ID of 6015?
+(4) What is the uberon anatomical ID for the disease mutation associated with an ID of 6015 in the disease_mutation_tissue table?
+(5) Retrieve the Uberon anatomical ID from the disease_mutation_tissue table where the disease_mutation_id is 6015.
+(6) What is the unique identifier of the anatomical location associated with a disease mutation with an ID of 6015?
+(7) Get the anatomical ID from the disease mutation tissue table where the disease mutation ID is equal to 6015.

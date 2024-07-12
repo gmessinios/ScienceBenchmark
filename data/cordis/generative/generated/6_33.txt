@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Eskişehir" and eu_territorial_units.geocode_level = "None"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.description = "Eskişehir" and T1.geocode_level = "None"
+GPT-3 choices:
+(0) Retrieve the NUTS version for the European territorial unit of Eskişehir at the geocode level of "None".
+(1) What is the NUTS version for Eskişehir at the geocode level of None in the EU Territorial Units database?
+(2) What is the NUTS version for Eskişehir at the geocode level of "None" in the eu_territorial_units table?
+(3) What is the nuts_version of Eskişehir where the geocode_level is None in the eu_territorial_units table?
+(4) What is the NUTS version for Eskişehir at the geocode level of "None" in the EU territorial units table?
+(5) Retrieve the nuts version for Eskişehir from the eu_territorial_units table where the description is "Eskişehir" and geocode level is "None".
+(6) Find the NUTS version for Eskişehir from the table eu_territorial_units where the description is "Eskişehir" and the geocode level is "None".
+(7) Get the NUTS version for Eskişehir, where the description is "Eskişehir" and the geocode level is "None", from the EU territorial units table.

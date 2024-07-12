@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.disease_mutation_id = 337344
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_site_annotation AS T1 WHERE T1.disease_mutation_id = 337344
+GPT-3 choices:
+(0) How many records are there in the disease_mutation_site_annotation table where the disease_mutation_id column is equal to 337344?
+(1) How many rows are in the table disease_mutation_site_annotation where the disease_mutation_id is equal to 337344?
+(2) How many entries are there in the disease_mutation_site_annotation table where the disease_mutation_id is 337344?
+(3) How many disease mutation site annotations are associated with the disease mutation with ID 337344?
+(4) How many disease mutation site annotations are associated with the disease mutation ID 337344?
+(5) How many records are in the disease_mutation_site_annotation table where the disease_mutation_id is 337344?
+(6) How many annotations are associated with the disease mutation site having an ID of 337344?
+(7) How many disease mutation site annotations are associated with the disease mutation ID 337344?

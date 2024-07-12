@@ -1,0 +1,16 @@
+SELECT activity_types.description, count(*) FROM activity_types AS activity_types  GROUP BY activity_types.description
+
+###
+
+
+Original Query:
+SELECT T1.description, count(*) FROM activity_types AS T1  GROUP BY T1.description
+GPT-3 choices:
+(0) How many activities of each type are there, according to the description of the activity type in the activity_types table?
+(1) What is the count of activities grouped by their description from the table activity_types?
+(2) How many activities are there for each type of activity?
+(3) Count the number of times each activity type is mentioned in the activity_types table, grouping them by their descriptions.
+(4) Get the description and count of all activity types from the table "activity_types" grouped by their descriptions.
+(5) What is the number of activities for each type listed in the activity_types table, and what are their descriptions?
+(6) Find the number of activities for each activity type and show the description of the activity type.
+(7) How many activities are there for each type, and what is the description of each activity?

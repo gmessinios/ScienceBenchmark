@@ -1,0 +1,16 @@
+SELECT countries.unics_id FROM countries AS countries WHERE countries.country_name = "South Sudan" and countries.country_code2 = "MY"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM countries AS T1 WHERE T1.country_name = "South Sudan" and T1.country_code2 = "MY"
+GPT-3 choices:
+(0) Find the unique ID of the country South Sudan with a country code of "MY".
+(1) Find the unique ID of the country South Sudan with a country code of MY in the table of countries.
+(2) Find the unique ID for South Sudan in the countries table where the country name is "South Sudan" and the country code2 is "MY".
+(3) What is the unique identifier for South Sudan in the countries table where the country name is "South Sudan" and the country code2 is "MY"?
+(4) Find the unique ID for the country South Sudan where its name is "South Sudan" and its code is "MY".
+(5) Find the unique ID of the country South Sudan where the country name is "South Sudan" and the country code2 is "MY".
+(6) What is the unique ID for the country South Sudan with the country code "MY" in the countries table?
+(7) Find the unique identifier for the country "South Sudan" with a country code of "MY" in the table called "countries".

@@ -1,0 +1,28 @@
+SELECT species.speciesid FROM species AS species JOIN xref_gene_ensembl AS xref_gene_ensembl ON species.speciesid = xref_gene_ensembl.speciesid WHERE xref_gene_ensembl.gene_symbol != "1700040K01Rik"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM species AS T1 JOIN xref_gene_ensembl AS T2 ON T1.speciesid = T2.speciesid WHERE T2.gene_symbol != "1700040K01Rik"
+GPT-3 choices:
+(0) Which species have a speciesid that is also found in the xref_gene_ensembl table and where the corresponding gene_symbol is not equal to "1700040K01Rik"?
+(1) Find the species id for all species that have an entry in the xref_gene_ensembl table, where the gene symbol is not equal to "1700040K01Rik".
+(2) Retrieve the species ID from the Species table where the gene symbol in the Xref Gene Ensembl table is not "1700040K01Rik" and there is a match between their species IDs.
+(3) Find the species ID for all species where the gene symbol is not equal to "1700040K01Rik" in the xref_gene_ensembl table.
+(4) Retrieve the species IDs from the "species" table where the gene symbol in the "xref_gene_ensembl" table is not equal to "1700040K01Rik", joined by matching species IDs between the two tables.
+(5) What is the speciesid for all species where the gene symbol is not "1700040K01Rik" in the xref_gene_ensembl table?
+(6) Retrieve the species ID from the table "species" where there is a match with the table "xref_gene_ensembl" on the species ID and exclude any rows where the gene symbol is not equal to "1700040K01Rik".
+(7) Retrieve the species ID from the species table, where the gene symbol in the xref_gene_ensembl table is not equal to "1700040K01Rik".
+
+
+Re-ranked choices:
+7.727  Retrieve the species ID from the Species table where the gene symbol in the Xref Gene Ensembl table is not "1700040K01Rik" and there is a match between their species IDs.
+6.334  What is the speciesid for all species where the gene symbol is not "1700040K01Rik" in the xref_gene_ensembl table?
+5.623  Retrieve the species ID from the table "species" where there is a match with the table "xref_gene_ensembl" on the species ID and exclude any rows where the gene symbol is not equal to "1700040K01Rik".
+4.935  Find the species ID for all species where the gene symbol is not equal to "1700040K01Rik" in the xref_gene_ensembl table.
+4.934  Retrieve the species ID from the species table, where the gene symbol in the xref_gene_ensembl table is not equal to "1700040K01Rik".
+4.927  Find the species id for all species that have an entry in the xref_gene_ensembl table, where the gene symbol is not equal to "1700040K01Rik".
+4.924  Retrieve the species IDs from the "species" table where the gene symbol in the "xref_gene_ensembl" table is not equal to "1700040K01Rik", joined by matching species IDs between the two tables.
+3.525  Which species have a speciesid that is also found in the xref_gene_ensembl table and where the corresponding gene_symbol is not equal to "1700040K01Rik"?
+

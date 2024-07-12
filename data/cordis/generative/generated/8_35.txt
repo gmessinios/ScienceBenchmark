@@ -1,0 +1,16 @@
+SELECT project_members.rcn FROM project_members AS project_members WHERE project_members.institution_id != 3084
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM project_members AS T1 WHERE T1.institution_id != 3084
+GPT-3 choices:
+(0) Find the project members' RCN where their institution ID is not equal to 3084.
+(1) What are the RCN numbers of all project members who are not affiliated with institution 3084?
+(2) "Retrieve the RCN from project members where the institution ID is not equal to 3084."
+(3) "Retrieve the RCN of all project members who are not affiliated with institution 3084 from the table project_members."
+(4) Find the research council numbers of all members in a project who are not affiliated with institution 3084.
+(5) Find the Research Council Number of project members who are not affiliated with institution 3084 in the project_members table.
+(6) Find the Research Council Number for all members of projects who are not affiliated with the institution with ID 3084.
+(7) Find the rcn of all project members who are not affiliated with institution 3084.

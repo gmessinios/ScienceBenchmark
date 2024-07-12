@@ -1,0 +1,28 @@
+SELECT count(*) FROM stage AS stage WHERE stage.name = "neonate stage"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM stage AS T1 WHERE T1.name = "neonate stage"
+GPT-3 choices:
+(0) Count the number of entries in the stage table where the name is "neonate stage".
+(1) Count the number of rows in the "stage" table where the value in the "name" column is equal to "neonate stage".
+(2) How many entries are in the "stage" table where the name column has a value of "neonate stage"?
+(3) How many entries are in the stage table where the name is "neonate stage"?
+(4) Count the number of entries in the "stage" table where the name is "neonate stage".
+(5) How many records are in the "stage" table where the stage name is "neonate stage"?
+(6) How many records are there in the stage table where the name is "neonate stage"?
+(7) Count the number of entries in the "stage" table where the stage name is "neonate stage".
+
+
+Re-ranked choices:
+3.603  How many entries are in the stage table where the name is "neonate stage"?
+3.594  How many records are in the "stage" table where the stage name is "neonate stage"?
+3.594  How many records are there in the stage table where the name is "neonate stage"?
+3.568  Count the number of entries in the stage table where the name is "neonate stage".
+3.568  Count the number of entries in the "stage" table where the name is "neonate stage".
+3.562  Count the number of entries in the "stage" table where the stage name is "neonate stage".
+3.554  How many entries are in the "stage" table where the name column has a value of "neonate stage"?
+3.544  Count the number of rows in the "stage" table where the value in the "name" column is equal to "neonate stage".
+

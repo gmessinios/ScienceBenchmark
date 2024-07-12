@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.bestobjid FROM specobj AS Spectroscopic_objects JOIN photoobj AS Photometric_objects ON Spectroscopic_objects.bestobjid = Photometric_objects.objid WHERE Photometric_objects.clean != 1
+
+###
+
+
+Original Query:
+SELECT T1.bestobjid FROM specobj AS T1 JOIN photoobj AS T2 ON T1.bestobjid = T2.objid WHERE T2.clean != 1
+GPT-3 choices:
+(0) Find the best object identification number from the spectroscopic objects table for objects that do not have a clean status in the photoobj table.
+(1) Retrieve the bestobjid value from Spectroscopic_objects for all objects where their corresponding Photometric_objects do not have a clean value of 1.
+(2) Retrieve the best object ID from the spectroscopic objects table for all objects where the corresponding photometric object is not considered clean.
+(3) Find the bestobjid for all Spectroscopic_objects that have a matching bestobjid in Photometric_objects, but only if their corresponding clean value is not equal to 1.
+(4) Find the best object ID from the spectroscopic objects table for those objects whose clean status is not equal to 1 in the photometric objects table.
+(5) Retrieve the bestobjid values from the specobj table where the corresponding objid values in the photoobj table have a clean value of not equal to 1.
+(6) "Retrieve the best object ID from the spectroscopic objects table where the clean status in the photometric objects table is not equal to 1."
+(7) Find the bestobjid of objects in the Spectroscopic_objects table that have a matching objid in the Photometric_objects table and do not have a clean value of 1.
+
+
+Re-ranked choices:
+7.026  "Retrieve the best object ID from the spectroscopic objects table where the clean status in the photometric objects table is not equal to 1."
+7.024  Find the best object ID from the spectroscopic objects table for those objects whose clean status is not equal to 1 in the photometric objects table.
+5.622  Find the best object identification number from the spectroscopic objects table for objects that do not have a clean status in the photoobj table.
+5.621  Retrieve the best object ID from the spectroscopic objects table for all objects where the corresponding photometric object is not considered clean.
+4.219  Find the bestobjid of objects in the Spectroscopic_objects table that have a matching objid in the Photometric_objects table and do not have a clean value of 1.
+4.219  Retrieve the bestobjid value from Spectroscopic_objects for all objects where their corresponding Photometric_objects do not have a clean value of 1.
+2.117  Find the bestobjid for all Spectroscopic_objects that have a matching bestobjid in Photometric_objects, but only if their corresponding clean value is not equal to 1.
+1.418  Retrieve the bestobjid values from the specobj table where the corresponding objid values in the photoobj table have a clean value of not equal to 1.
+

@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.segue2_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.class = "GALAXY" or Spectroscopic_objects.specobjid = 300708485715224576
+
+###
+
+
+Original Query:
+SELECT T1.segue2_target1 FROM specobj AS T1 WHERE T1.class = "GALAXY" or T1.specobjid = 300708485715224576
+GPT-3 choices:
+(0) Retrieve the target name of spectroscopic objects from the table specobj where the class is "GALAXY" or the specobjid is 300708485715224576.
+(1) Retrieve the segue2_target1 column from the specobj table where the class is equal to "GALAXY" or the specobjid is equal to 300708485715224576.
+(2) "Retrieve the target 1 for all spectroscopic objects where the class is 'galaxy' or the specobjid is equal to 300708485715224576 from the table specobj."
+(3) Get the segue2_target1 values from the specobj table for objects classified as galaxies or with a specobjid of 300708485715224576.
+(4) Show the target name from the Spectroscopic_objects table where the class is "GALAXY" or the specobjid is 300708485715224576.
+(5) Find the SEGUE-2 Target 1 name for galaxies or for the object with a specobjid of 300708485715224576 in the table "Spectroscopic_objects" from the column "segue2_target1".
+(6) Find the SEGUE-2 target 1 from spectroscopic objects where the class is "galaxy" or the specobjid is equal to 300708485715224576.
+(7) Find the Segue 2 Target 1 for all galaxies or for the object with a specobjid of 300708485715224576 from the specobj table as Spectroscopic objects.
+
+
+Re-ranked choices:
+4.931  Find the SEGUE-2 target 1 from spectroscopic objects where the class is "galaxy" or the specobjid is equal to 300708485715224576.
+4.927  Retrieve the target name of spectroscopic objects from the table specobj where the class is "GALAXY" or the specobjid is 300708485715224576.
+4.924  "Retrieve the target 1 for all spectroscopic objects where the class is 'galaxy' or the specobjid is equal to 300708485715224576 from the table specobj."
+2.833  Show the target name from the Spectroscopic_objects table where the class is "GALAXY" or the specobjid is 300708485715224576.
+2.824  Find the Segue 2 Target 1 for all galaxies or for the object with a specobjid of 300708485715224576 from the specobj table as Spectroscopic objects.
+2.129  Retrieve the segue2_target1 column from the specobj table where the class is equal to "GALAXY" or the specobjid is equal to 300708485715224576.
+2.123  Find the SEGUE-2 Target 1 name for galaxies or for the object with a specobjid of 300708485715224576 in the table "Spectroscopic_objects" from the column "segue2_target1".
+1.426  Get the segue2_target1 values from the specobj table for objects classified as galaxies or with a specobjid of 300708485715224576.
+

@@ -1,0 +1,16 @@
+SELECT stage.name FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.expression_rank_score != 90.20
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.expression_rank_score != 90.20
+GPT-3 choices:
+(0) "Retrieve the name of all stages where the expression rank score for healthy expressions in the corresponding uberon developmental ID is not equal to 90.20."
+(1) Find the names of all stages where the expression rank score for healthy expression is not 90.20 in the stage table joined with the healthy_expression table on the developmental ID matching between both tables.
+(2) Retrieve the names of all stages from the stage table that have a corresponding developmental ID in the healthy_expression table, but do not have an expression rank score of 90.20 in the healthy_expression table.
+(3) What is the name of each stage that is joined with the healthy expression table on its ID and has a rank score for expression that is not equal to 90.20?
+(4) Retrieve the name of all stages from the stage table that have a corresponding entry in the healthy_expression table, but with an expression_rank_score that is not equal to 90.20.
+(5) Retrieve the names of all stages where there is a mismatch between the expression rank score and 90.20 for healthy expressions in developmental ontology data.
+(6) What are the names of stages where healthy expression is not ranked at 90.20?
+(7) Find the names of stages that are associated with healthy expression data, excluding any stage where the expression rank score is 90.20.

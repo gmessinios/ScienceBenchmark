@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.mode = 1 or Nearest_neighbour_objects.neighbortype = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 WHERE T1.mode = 1 or T1.neighbortype = 0
+GPT-3 choices:
+(0) Retrieve the object IDs of nearest neighbor objects where the mode is 1 or the neighbor type is 0 from a table called "neighbors".
+(1) Get the IDs of the nearest neighbor objects from the "neighbors" table where the mode is equal to 1 or the neighbor type is equal to 0.
+(2) Find the ID of the nearest neighbor objects where either the mode is 1 or the neighbor type is equal to 0.
+(3) Find the object IDs of nearest neighbors where either the mode is equal to 1 or the neighbor type is equal to 0.
+(4) Find the nearest neighbor objects that either have a mode of 1 or a neighbor type of 0 in the neighbors table, and return their object IDs from the Nearest_neighbour_objects table.
+(5) Find the neighbor object ID of the nearest neighbour objects where the mode is equal to 1 or the neighbortype is equal to 0 from the neighbors table.
+(6) Get the neighbor object IDs for objects with a mode value of 1 or a neighbor type value of 0 from the "neighbors" table.
+(7) Retrieve the neighbor object ID for objects in the neighbors table where the mode is equal to 1 or the neighbor type is equal to 0.
+
+
+Re-ranked choices:
+9.824  Find the neighbor object ID of the nearest neighbour objects where the mode is equal to 1 or the neighbortype is equal to 0 from the neighbors table.
+9.121  Find the nearest neighbor objects that either have a mode of 1 or a neighbor type of 0 in the neighbors table, and return their object IDs from the Nearest_neighbour_objects table.
+8.442  Find the ID of the nearest neighbor objects where either the mode is 1 or the neighbor type is equal to 0.
+8.433  Retrieve the object IDs of nearest neighbor objects where the mode is 1 or the neighbor type is 0 from a table called "neighbors".
+8.433  Get the neighbor object IDs for objects with a mode value of 1 or a neighbor type value of 0 from the "neighbors" table.
+8.430  Retrieve the neighbor object ID for objects in the neighbors table where the mode is equal to 1 or the neighbor type is equal to 0.
+7.040  Find the object IDs of nearest neighbors where either the mode is equal to 1 or the neighbor type is equal to 0.
+7.033  Get the IDs of the nearest neighbor objects from the "neighbors" table where the mode is equal to 1 or the neighbor type is equal to 0.
+

@@ -1,0 +1,16 @@
+SELECT institutions.wikidata_url FROM institutions AS institutions JOIN eu_territorial_units AS eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_regions = "ES706"
+
+###
+
+
+Original Query:
+SELECT T1.wikidata_url FROM institutions AS T1 JOIN eu_territorial_units AS T2 ON T1.geocode_regions_3 = T2.geocode_regions WHERE T2.geocode_regions = "ES706"
+GPT-3 choices:
+(0) Get the wikidata URL of institutions that are located in the same EU territorial unit as Spain's region with code ES706.
+(1) Retrieve the wikidata URL of institutions that have a geocode_regions_3 value that matches the geocode_regions value "ES706" in the eu_territorial_units table.
+(2) What is the Wikidata URL for institutions that have a geocode region of "ES706", where the geocode_regions_3 column in the institutions table matches the geocode_regions column in the eu_territorial_units table?
+(3) "Retrieve the wikidata URL for institutions that are located in the EU territorial unit with a geocode region of "ES706"."
+(4) Retrieve the Wikidata URL of institutions that have a matching geocode_regions_3 value in the "institutions" table and a matching geocode_regions value in the "eu_territorial_units" table where the latter is equal to "ES706".
+(5) Get the Wikidata URL of institutions for the EU territorial unit with geocode_regions "ES706" by joining the tables institutions and eu_territorial_units on their shared column geocode_regions_3.
+(6) Retrieve the Wikidata URL for institutions that are located in a European Union territorial unit with the geocode "ES706".
+(7) Retrieve the Wikidata URL from the institutions table where the geocode_regions_3 column matches the geocode_regions column in the eu_territorial_units table, specifically for a row with a geocode_regions value of "ES706".

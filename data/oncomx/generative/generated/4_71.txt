@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.site_prediction = "---|no change"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_impact_prediction AS T1 WHERE T1.site_prediction = "---|no change"
+GPT-3 choices:
+(0) How many rows are there in the disease_mutation_impact_prediction table where the site_prediction column has a value of "---|no change"?
+(1) How many entries are there in the "disease_mutation_impact_prediction" table where the "site_prediction" column is "---|no change"?
+(2) How many rows are in the disease_mutation_impact_prediction table where the site_prediction column is equal to "---|no change"?
+(3) How many entries in the database for disease-mutation impact prediction have a site prediction of "---|no change"?
+(4) How many disease-mutation impact predictions have a site prediction of "---|no change"?
+(5) How many records are there in the disease_mutation_impact_prediction table where the site_prediction column has a value of "---|no change"?
+(6) Count the number of rows in the "disease_mutation_impact_prediction" table where the site_prediction column has a value of "---|no change".
+(7) How many records are there in the table "disease_mutation_impact_prediction" where the site_prediction column has a value of "---|no change"?

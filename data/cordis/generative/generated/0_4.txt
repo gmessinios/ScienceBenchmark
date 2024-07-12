@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.title = "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.title = "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste"
+GPT-3 choices:
+(0) Retrieve the RCN for the programme entitled "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste" from the programmes table.
+(1) Find the RCN for the Preparatory Phase (PP) programme focused on implementing new modes of operation for integrated research programmes in Europe related to managing ultimate nuclear waste.
+(2) Retrieve the RCN of the programme "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste".
+(3) What is the RCN number for the programme titled "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste"?
+(4) Find the RCN number for the programme titled "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste".
+(5) Retrieve the RCN code from the Programmes table where the title is "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste".
+(6) Retrieve the RCN from the Programmes table where the title is "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste".
+(7) Retrieve the RCN from the Programmes table for the programme titled "Preparatory Phase (PP) for the implementation of new modes of operation of integrated research programmes at European level for the development of solutions related to the management of ultimate nuclear waste".

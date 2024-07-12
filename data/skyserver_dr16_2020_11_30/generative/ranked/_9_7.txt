@@ -1,0 +1,28 @@
+SELECT Photometric_objects.run FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.description != "Cosmic-ray track (not used)."
+
+###
+
+
+Original Query:
+SELECT T1.run FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.description != "Cosmic-ray track (not used)."
+GPT-3 choices:
+(0) Find the run number of all photometric objects from the photoobj table where the object type is marked as photometrically observed and is not labeled as a cosmic-ray track.
+(1) Retrieve the runs from the photometric objects table where the type is equal to a value in the photo_type table that is not "Cosmic-ray track (not used)".
+(2) Find the run of Photometric_objects from the photoobj table where the type is equal to photometrically_observed and the description is not "Cosmic-ray track (not used)".
+(3) Retrieve the runs from the photoobj table where the object type is listed as photometrically observed, excluding any objects described as cosmic-ray tracks.
+(4) Retrieve the run information for photometric objects from the photoobj table, where the type matches with the description "photometrically observed" from the photo_type table and is not equal to "Cosmic-ray track (not used)".
+(5) Find the run of Photometric objects where their type matches a value in the photo_type table, excluding those with a description of "Cosmic-ray track (not used)".
+(6) Find the run values from the photoobj table where the type matches with the value in the photo_type table and the description does not equal "Cosmic-ray track (not used)".
+(7) Find the name of the run from the table of photometric objects where the type matches with the description for "photometrically observed", excluding any rows with a description of "Cosmic-ray track (not used)".
+
+
+Re-ranked choices:
+11.219  Find the name of the run from the table of photometric objects where the type matches with the description for "photometrically observed", excluding any rows with a description of "Cosmic-ray track (not used)".
+11.215  Retrieve the run information for photometric objects from the photoobj table, where the type matches with the description "photometrically observed" from the photo_type table and is not equal to "Cosmic-ray track (not used)".
+10.519  Find the run number of all photometric objects from the photoobj table where the object type is marked as photometrically observed and is not labeled as a cosmic-ray track.
+9.822  Find the run of Photometric objects where their type matches a value in the photo_type table, excluding those with a description of "Cosmic-ray track (not used)".
+8.423  Find the run values from the photoobj table where the type matches with the value in the photo_type table and the description does not equal "Cosmic-ray track (not used)".
+8.420  Find the run of Photometric_objects from the photoobj table where the type is equal to photometrically_observed and the description is not "Cosmic-ray track (not used)".
+7.024  Retrieve the runs from the photometric objects table where the type is equal to a value in the photo_type table that is not "Cosmic-ray track (not used)".
+6.319  Retrieve the runs from the photoobj table where the object type is listed as photometrically observed, excluding any objects described as cosmic-ray tracks.
+

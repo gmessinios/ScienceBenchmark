@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name != "MEEO"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.member_short_name != "MEEO"
+GPT-3 choices:
+(0) Retrieve the description of all activity types that are associated with project members, excluding those with the short name "MEEO".
+(1) Get the description of all activity types that are associated with project members who are not "MEEO".
+(2) Show me the description of all activity types that are associated with project members who have a member short name other than "MEEO".
+(3) Find the description of activity types from the project members table where the member's short name is not "MEEO".
+(4) What is the description of all activity types that are associated with project members who are not named "MEEO"?
+(5) What are the descriptions of all activity types that are assigned to project members, excluding "MEEO"?
+(6) "Retrieve the description of all activity types from project members who are not named "MEEO"."
+(7) Retrieve the description of the activity type from the project members table where the member's short name is not "MEEO".
+
+
+Re-ranked choices:
+11.932  Find the description of activity types from the project members table where the member's short name is not "MEEO".
+11.928  Retrieve the description of the activity type from the project members table where the member's short name is not "MEEO".
+11.925  Show me the description of all activity types that are associated with project members who have a member short name other than "MEEO".
+9.123  Retrieve the description of all activity types that are associated with project members, excluding those with the short name "MEEO".
+7.729  What is the description of all activity types that are associated with project members who are not named "MEEO"?
+7.728  Get the description of all activity types that are associated with project members who are not "MEEO".
+7.727  "Retrieve the description of all activity types from project members who are not named "MEEO"."
+4.929  What are the descriptions of all activity types that are assigned to project members, excluding "MEEO"?
+

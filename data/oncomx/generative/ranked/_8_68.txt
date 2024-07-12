@@ -1,0 +1,28 @@
+SELECT cancer_tissue.doid FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.uberon_anatomical_id != "UBERON:0002048"
+
+###
+
+
+Original Query:
+SELECT T1.doid FROM cancer_tissue AS T1 WHERE T1.uberon_anatomical_id != "UBERON:0002048"
+GPT-3 choices:
+(0) Retrieve the Disease Ontology (DOID) values from cancer_tissue where the corresponding Uberon anatomical identifier is not equal to "UBERON:0002048".
+(1) Retrieve the DOIDs from the cancer_tissue table where the associated UBERON anatomical ID is not "UBERON:0002048".
+(2) Find the disease ontology IDs from cancer tissues where the associated Uberon anatomical ID is not "UBERON:0002048".
+(3) Retrieve the disease ontology ID from the cancer tissue database, where the corresponding Uberon anatomical ID is not equal to "UBERON:0002048".
+(4) Retrieve the Disease Ontology IDs for cancer tissues from the table "cancer_tissue", excluding those with a Uberon anatomical ID of "UBERON:0002048".
+(5) What is the disease ontology ID for cancer tissues, excluding those with the anatomical identifier UBERON:0002048?
+(6) "Retrieve the disease ontology identifier from cancer tissue where the corresponding anatomical identifier is not equal to UBERON:0002048."
+(7) "Retrieve the Disease Ontology ID from the cancer_tissue table where the Uberon anatomical ID is not equal to 'UBERON:0002048'."
+
+
+Re-ranked choices:
+7.722  Retrieve the disease ontology ID from the cancer tissue database, where the corresponding Uberon anatomical ID is not equal to "UBERON:0002048".
+6.323  Find the disease ontology IDs from cancer tissues where the associated Uberon anatomical ID is not "UBERON:0002048".
+6.319  Retrieve the Disease Ontology IDs for cancer tissues from the table "cancer_tissue", excluding those with a Uberon anatomical ID of "UBERON:0002048".
+4.926  "Retrieve the Disease Ontology ID from the cancer_tissue table where the Uberon anatomical ID is not equal to 'UBERON:0002048'."
+4.924  Retrieve the DOIDs from the cancer_tissue table where the associated UBERON anatomical ID is not "UBERON:0002048".
+4.223  What is the disease ontology ID for cancer tissues, excluding those with the anatomical identifier UBERON:0002048?
+4.219  "Retrieve the disease ontology identifier from cancer tissue where the corresponding anatomical identifier is not equal to UBERON:0002048."
+3.519  Retrieve the Disease Ontology (DOID) values from cancer_tissue where the corresponding Uberon anatomical identifier is not equal to "UBERON:0002048".
+

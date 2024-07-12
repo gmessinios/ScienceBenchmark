@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.title = "Medicine and Health" and subject_areas.code = "AER"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.title = "Medicine and Health" and T1.code = "AER"
+GPT-3 choices:
+(0) What is the description of the subject area with title "Medicine and Health" and code "AER"?
+(1) Find the description for the subject area titled "Medicine and Health" with a code of "AER".
+(2) What is the description of the subject area with a title of "Medicine and Health" and a code of "AER"?
+(3) "Retrieve the description from subject areas where the title is 'Medicine and Health' and the code is 'AER'."
+(4) "Retrieve the description from the subject areas table where the title is 'Medicine and Health' and the code is 'AER'."
+(5) "Retrieve the description for the subject area titled 'Medicine and Health' with the code 'AER' from the table 'subject_areas'."
+(6) Retrieve the description of the subject area "Medicine and Health" with a code of "AER" from the table "subject_areas".
+(7) Retrieve the description of the subject area "Medicine and Health" with the code "AER" from the table "subject_areas".
+
+
+Re-ranked choices:
+9.144  "Retrieve the description from subject areas where the title is 'Medicine and Health' and the code is 'AER'."
+9.134  "Retrieve the description from the subject areas table where the title is 'Medicine and Health' and the code is 'AER'."
+7.750  What is the description of the subject area with title "Medicine and Health" and code "AER"?
+7.747  What is the description of the subject area with a title of "Medicine and Health" and a code of "AER"?
+6.350  Find the description for the subject area titled "Medicine and Health" with a code of "AER".
+6.337  Retrieve the description of the subject area "Medicine and Health" with the code "AER" from the table "subject_areas".
+6.336  Retrieve the description of the subject area "Medicine and Health" with a code of "AER" from the table "subject_areas".
+6.332  "Retrieve the description for the subject area titled 'Medicine and Health' with the code 'AER' from the table 'subject_areas'."
+

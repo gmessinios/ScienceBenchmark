@@ -1,0 +1,16 @@
+SELECT project_members.country FROM project_members AS project_members WHERE project_members.member_role = "partner" and project_members.geocode_regions_3 = "DEE05"
+
+###
+
+
+Original Query:
+SELECT T1.country FROM project_members AS T1 WHERE T1.member_role = "partner" and T1.geocode_regions_3 = "DEE05"
+GPT-3 choices:
+(0) Find the country of project members who have a role of "partner" and are located in geocode region DEE05.
+(1) Show me the country of all project members who are listed as partners and have the geocode region DEE05.
+(2) Show me the countries of all project members who have a member role of "partner" and are located in the geocode region "DEE05".
+(3) "Get the country of project members who have the role of partner and are located in the "DEE05" geocode region."
+(4) What is the country of all members with a role of "partner" and a region code of "DEE05" in the project_members table?
+(5) Which country do partner members belong to in geocode region DEE05?
+(6) Retrieve the country of all project members with a member role of "partner" and geocode regions_3 equal to "DEE05".
+(7) Retrieve the country of all project members who have a member role of "partner" and are located in region DEE05.

@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_article AS biomarker_article WHERE biomarker_article.biomarker_internal_id = "EDRN00416"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_article AS T1 WHERE T1.biomarker_internal_id = "EDRN00416"
+GPT-3 choices:
+(0) How many articles have a biomarker internal ID equal to "EDRN00416" in the biomarker_article table?
+(1) How many articles mention the biomarker with an internal ID of "EDRN00416"?
+(2) How many articles are there in the biomarker_article table where the biomarker_internal_id is "EDRN00416"?
+(3) How many articles are associated with the biomarker "EDRN00416" in the biomarker_article table?
+(4) How many articles mention the biomarker with an internal ID of "EDRN00416"?
+(5) How many articles are associated with the biomarker "EDRN00416"?
+(6) How many articles are there in the biomarker_article database where the biomarker_internal_id is equal to "EDRN00416"?
+(7) How many articles are there in the biomarker_article table that have a biomarker_internal_id of "EDRN00416"?

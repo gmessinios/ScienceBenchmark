@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.specobjid = 299589183247247360
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.specobjid = 299589183247247360
+GPT-3 choices:
+(0) How many spectroscopic objects have a specobjid equal to 299589183247247360?
+(1) How many spectroscopic objects have a specobjid of 299589183247247360?
+(2) How many objects are in the table "specobj" where the specobjid value is 299589183247247360?
+(3) How many Spectroscopic objects have a specobjid of 299589183247247360?
+(4) How many spectroscopic objects have a specobjid of 299589183247247360?
+(5) How many objects with a spectroscopic ID of 299589183247247360 are in the specobj table?
+(6) How many Spectroscopic objects have a specobjid of 299589183247247360?
+(7) How many rows are there in the "specobj" table where the value of "specobjid" is equal to 299589183247247360?

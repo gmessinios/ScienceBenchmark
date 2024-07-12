@@ -1,0 +1,27 @@
+SELECT disease_mutation_article.disease_mutation_id FROM disease_mutation_article AS disease_mutation_article WHERE disease_mutation_article.pmid = 10700188
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_article AS T1 WHERE T1.pmid = 10700188
+GPT-3 choices:
+(0) Retrieve the disease-mutation IDs from the disease-mutation article table where the PMID is equal to 10700188.
+(1) Find the disease mutation ID from the table "disease_mutation_article" where the PMID value is equal to 10700188.
+(2) Find the disease mutation ID for an article with a PMID of 10700188 in the table "disease_mutation_article".
+(3) What is the disease-mutation ID from the article with PMID 10700188 in the disease-mutation-article table?
+(4) Find the disease mutation ID for an article with a PMID of 10700188 from the disease_mutation_article table.
+(5) Get the disease mutation ID from the "disease_mutation_article" table where the PMID is equal to 10700188.
+(6) Find the disease mutation ID for an article with a PMID of 10700188 in the table "disease_mutation_article".
+(7) What is the disease-mutation ID for the article with PMID 10700188 in the disease-mutation article database?
+
+
+Re-ranked choices:
+7.027  Find the disease mutation ID for an article with a PMID of 10700188 in the table "disease_mutation_article".
+7.027  Find the disease mutation ID for an article with a PMID of 10700188 from the disease_mutation_article table.
+5.632  Get the disease mutation ID from the "disease_mutation_article" table where the PMID is equal to 10700188.
+5.630  Find the disease mutation ID from the table "disease_mutation_article" where the PMID value is equal to 10700188.
+4.225  What is the disease-mutation ID for the article with PMID 10700188 in the disease-mutation article database?
+4.224  What is the disease-mutation ID from the article with PMID 10700188 in the disease-mutation-article table?
+2.825  Retrieve the disease-mutation IDs from the disease-mutation article table where the PMID is equal to 10700188.
+

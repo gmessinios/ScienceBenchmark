@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.uniprotkb_ac FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.ensembl_transcript_id = "ENST00000206595"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_protein_disease_mutation AS T1 WHERE T1.ensembl_transcript_id = "ENST00000206595"
+GPT-3 choices:
+(0) What is the UniProtKB accession number for a protein associated with a mutation in the Ensembl transcript ID ENST00000206595 according to the map_protein_disease_mutation table?
+(1) "Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000206595"."
+(2) Find the UniProtKB accession number from the map_protein_disease_mutation table where the Ensembl transcript ID is "ENST00000206595".
+(3) Find the UniProtKB accession number for a protein associated with a disease mutation whose Ensembl transcript ID is "ENST00000206595".
+(4) What is the UniProtKB accession number for the protein-disease-mutation mapping with an Ensembl transcript ID of "ENST00000206595"?
+(5) What is the UniProtKB accession number for a protein-disease-mutation mapping with an Ensembl transcript ID of ENST00000206595?
+(6) Find the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000206595".
+(7) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl transcript id is "ENST00000206595".

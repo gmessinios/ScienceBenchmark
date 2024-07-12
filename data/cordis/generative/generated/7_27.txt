@@ -1,0 +1,16 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_name = "Netherlands" or countries.unics_id = 130
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_name = "Netherlands" or T1.unics_id = 130
+GPT-3 choices:
+(0) Retrieve the geocode country code for the country "Netherlands" or with the unique identifier of 130 from the table of countries.
+(1) Show me the geocode country code for a country with a name of "Netherlands" or a unique identifier of 130 from the countries table.
+(2) "Retrieve the geocode country code for the country Netherlands or with a unics ID of 130 from the table countries."
+(3) Find the geocode country code for the country with a name of "Netherlands" or a unique ID of 130 in the countries table.
+(4) Find the geocode country code for the country whose name is "Netherlands" or has a UNICS ID of 130 in the table of countries.
+(5) Find the geocode country code for the country Netherlands or with a unique identifier of 130 in the table of countries.
+(6) Find the geocode country code for the country with a name of "Netherlands" or a UNICS ID of 130 in the "countries" table.
+(7) "Retrieve the geocode country code from the countries table where the country name is 'Netherlands' or the unics ID is 130."

@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.phase FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.biomarker_type = "Genetic" or biomarker_edrn.qa_state = "Curated"
+
+###
+
+
+Original Query:
+SELECT T1.phase FROM biomarker_edrn AS T1 WHERE T1.biomarker_type = "Genetic" or T1.qa_state = "Curated"
+GPT-3 choices:
+(0) Retrieve the phase of all biomarkers from the EDRN database that are either of type "Genetic" or have a QA state of "Curated".
+(1) Find the phase of all biomarkers from the EDRN database that are either of type "Genetic" or have a QA state of "Curated".
+(2) Retrieve the phase of biomarkers that are either of type "Genetic" or have a QA state of "Curated" from the table biomarker_edrn.
+(3) "Retrieve the phase information from biomarker_edrn where the biomarker type is Genetic or the quality assurance state is Curated."
+(4) What is the phase of biomarkers in the EDRN database that are either of type "Genetic" or have a QA state of "Curated"?
+(5) Retrieve the phase of all curated biomarkers that are either of type "Genetic" or have a QA state of "Curated".
+(6) Retrieve the phase of biomarkers from the EDRN database where the biomarker type is genetic or the quality assurance state is curated.
+(7) Find the phase of all biomarkers in the EDRN database that are either genetic or have been curated.
+
+
+Re-ranked choices:
+8.431  Retrieve the phase of all biomarkers from the EDRN database that are either of type "Genetic" or have a QA state of "Curated".
+8.431  Find the phase of all biomarkers from the EDRN database that are either of type "Genetic" or have a QA state of "Curated".
+8.431  What is the phase of biomarkers in the EDRN database that are either of type "Genetic" or have a QA state of "Curated"?
+7.726  Retrieve the phase of biomarkers from the EDRN database where the biomarker type is genetic or the quality assurance state is curated.
+7.030  Retrieve the phase of all curated biomarkers that are either of type "Genetic" or have a QA state of "Curated".
+7.026  Retrieve the phase of biomarkers that are either of type "Genetic" or have a QA state of "Curated" from the table biomarker_edrn.
+6.320  "Retrieve the phase information from biomarker_edrn where the biomarker type is Genetic or the quality assurance state is Curated."
+3.533  Find the phase of all biomarkers in the EDRN database that are either genetic or have been curated.
+

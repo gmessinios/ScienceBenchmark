@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.veldisp FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.class = "STAR" or Spectroscopic_objects.fiberid = 379
+
+###
+
+
+Original Query:
+SELECT T1.veldisp FROM specobj AS T1 WHERE T1.class = "STAR" or T1.fiberid = 379
+GPT-3 choices:
+(0) What is the velocity dispersion for a star or object with a fiber ID of 379?
+(1) Retrieve the velocity dispersion of all stars or the fiber with an ID of 379 from the Spectroscopic_objects table in the specobj database.
+(2) Find the velocity dispersion of all stars with a class of "STAR" or a fiberid of 379 from the specobj table.
+(3) Retrieve the velocity dispersion of objects that are either classified as a star or have a fiber ID of 379 from the specobj table.
+(4) Retrieve the velocity dispersion of all spectroscopic objects where the class is "STAR" or the fiber ID is 379.
+(5) Retrieve the velocity dispersion for all spectroscopic objects where the class is a star or the fiberid is 379.
+(6) Retrieve the velocity dispersion value for all stars or objects with a fiber ID of 379 from the specobj table as Spectroscopic_objects.
+(7) Find the velocity dispersion for a star or object with a fiber ID of 379 from the specobj table.
+
+
+Re-ranked choices:
+9.132  Retrieve the velocity dispersion of all spectroscopic objects where the class is "STAR" or the fiber ID is 379.
+7.724  Retrieve the velocity dispersion of objects that are either classified as a star or have a fiber ID of 379 from the specobj table.
+7.023  Retrieve the velocity dispersion value for all stars or objects with a fiber ID of 379 from the specobj table as Spectroscopic_objects.
+6.342  What is the velocity dispersion for a star or object with a fiber ID of 379?
+6.332  Find the velocity dispersion for a star or object with a fiber ID of 379 from the specobj table.
+6.329  Retrieve the velocity dispersion for all spectroscopic objects where the class is a star or the fiberid is 379.
+6.325  Retrieve the velocity dispersion of all stars or the fiber with an ID of 379 from the Spectroscopic_objects table in the specobj database.
+4.930  Find the velocity dispersion of all stars with a class of "STAR" or a fiberid of 379 from the specobj table.
+

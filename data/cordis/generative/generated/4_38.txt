@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_members AS project_members WHERE project_members.pic_number = "905293338"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members AS T1 WHERE T1.pic_number = "905293338"
+GPT-3 choices:
+(0) How many members are there in the project with a PIC number of "905293338"?
+(1) How many project members have a PIC number of "905293338"?
+(2) How many project members have a PIC number of "905293338"?
+(3) How many project members have a PIC number of "905293338"?
+(4) How many project members have a pic_number of "905293338"?
+(5) How many rows are in the "project_members" table where the "pic_number" column is equal to "905293338"?
+(6) How many project members have a pic number of "905293338"?
+(7) How many project members have a pic number of "905293338"?

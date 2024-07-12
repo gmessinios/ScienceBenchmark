@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_adoption_evidence, count(*) FROM biomarker_fda_test AS biomarker_fda_test  GROUP BY biomarker_fda_test.test_adoption_evidence
+
+###
+
+
+Original Query:
+SELECT T1.test_adoption_evidence, count(*) FROM biomarker_fda_test AS T1  GROUP BY T1.test_adoption_evidence
+GPT-3 choices:
+(0) Find the number of times each type of test adoption evidence appears in the biomarker_fda_test table.
+(1) How many biomarker FDA tests are there for each type of test adoption evidence?
+(2) How many biomarker FDA tests have been adopted and what is the number of instances for each type of adoption evidence?
+(3) Count the number of entries in the "test_adoption_evidence" column of the "biomarker_fda_test" table and group them by the values in that column.
+(4) "Find the number of occurrences for each type of test adoption evidence in the biomarker_fda_test table."
+(5) How many instances are there of each type of test adoption evidence recorded in the biomarker_fda_test table?
+(6) How many biomarker tests have been adopted based on FDA evidence, and how many are there for each type of test?
+(7) Find the number of occurrences for each test adoption evidence in the biomarker_fda_test table.
+
+
+Re-ranked choices:
+5.658  How many biomarker FDA tests are there for each type of test adoption evidence?
+4.234  How many biomarker FDA tests have been adopted and what is the number of instances for each type of adoption evidence?
+4.232  Find the number of times each type of test adoption evidence appears in the biomarker_fda_test table.
+4.231  How many instances are there of each type of test adoption evidence recorded in the biomarker_fda_test table?
+4.231  Find the number of occurrences for each test adoption evidence in the biomarker_fda_test table.
+4.229  "Find the number of occurrences for each type of test adoption evidence in the biomarker_fda_test table."
+2.844  How many biomarker tests have been adopted based on FDA evidence, and how many are there for each type of test?
+0.726  Count the number of entries in the "test_adoption_evidence" column of the "biomarker_fda_test" table and group them by the values in that column.
+

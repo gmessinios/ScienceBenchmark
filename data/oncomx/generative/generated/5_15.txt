@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.tool FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction    ORDER BY disease_mutation_impact_prediction.probability DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.tool FROM disease_mutation_impact_prediction AS T1    ORDER BY T1.probability DESC LIMIT 1
+GPT-3 choices:
+(0) What is the tool used in predicting the impact of disease mutations, ordered by probability with the highest value listed first?
+(1) Find the tool with the highest probability from the disease mutation impact prediction table.
+(2) What is the tool with the highest probability for predicting disease mutation impact in descending order?
+(3) What is the tool with the highest probability in the disease_mutation_impact_prediction table?
+(4) What is the tool with the highest probability in disease mutation impact prediction?
+(5) What is the tool with the highest probability for predicting the impact of a disease mutation, based on the disease_mutation_impact_prediction table?
+(6) "Retrieve the tool used for predicting the impact of disease mutations, ordered by probability in descending order and limit the results to only one."
+(7) Which tool is the most likely to be used for predicting the impact of a disease mutation based on probability?

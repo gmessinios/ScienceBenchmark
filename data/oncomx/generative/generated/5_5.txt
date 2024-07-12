@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.test_trade_name FROM biomarker_fda_test_use AS biomarker_fda_test_use    ORDER BY biomarker_fda_test_use.id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_use AS T1    ORDER BY T1.id DESC LIMIT 1
+GPT-3 choices:
+(0) Get the trade name of the most recent entry in the table "biomarker_fda_test_use", sorted by descending id number.
+(1) Retrieve the most recent trade name from the biomarker_fda_test_use table in descending order based on its ID.
+(2) Give me the most recent FDA-approved biomarker test's trade name.
+(3) What is the most recent trade name of a test used by FDA for biomarkers, ordered in descending order by the id?
+(4) Get the most recent trade name used in FDA tests from the biomarker_fda_test_use table.
+(5) What is the most recent test trade name from the biomarker FDA test use table?
+(6) "Retrieve the most recently added trade name from the table biomarker_fda_test_use in descending order based on their IDs."
+(7) Give me the most recent test trade name from the FDA biomarker test database.

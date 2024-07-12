@@ -1,0 +1,27 @@
+SELECT count(*) FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_impact_prediction AS T1
+GPT-3 choices:
+(0) How many rows are in the table "disease_mutation_impact_prediction"?
+(1) "How many entries are there in the table 'disease_mutation_impact_prediction'?"
+(2) How many records are there in the disease_mutation_impact_prediction table?
+(3) How many records are in the table "disease_mutation_impact_prediction"?
+(4) How many rows are there in the disease_mutation_impact_prediction table?
+(5) How many rows are in the table "disease_mutation_impact_prediction" ?
+(6) How many rows are in the table "disease_mutation_impact_prediction"?
+(7) "How many records are in the disease_mutation_impact_prediction table?"
+
+
+Re-ranked choices:
+0.029  How many records are there in the disease_mutation_impact_prediction table?
+0.029  How many rows are there in the disease_mutation_impact_prediction table?
+0.027  How many rows are in the table "disease_mutation_impact_prediction"?
+0.027  How many records are in the table "disease_mutation_impact_prediction"?
+0.027  How many rows are in the table "disease_mutation_impact_prediction" ?
+0.027  "How many records are in the disease_mutation_impact_prediction table?"
+0.026  "How many entries are there in the table 'disease_mutation_impact_prediction'?"
+

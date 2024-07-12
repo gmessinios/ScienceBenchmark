@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Camden and City of London"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.description = "Camden and City of London"
+GPT-3 choices:
+(0) What is the geocode level for "Camden and City of London" in the table eu_territorial_units?
+(1) What is the geocode level of Camden and City of London in the EU territorial units database?
+(2) What is the geocode level for Camden and City of London in the table eu_territorial_units?
+(3) What is the geocode level for "Camden and City of London" in the eu_territorial_units table?
+(4) What is the geocode level for Camden and City of London in eu_territorial_units?
+(5) Find the geocode level for Camden and City of London in the table eu_territorial_units.
+(6) Retrieve the geocode level of the EU territorial unit where its description is "Camden and City of London".
+(7) Find the geocode level for the territorial units of Camden and City of London in the EU.
+
+
+Re-ranked choices:
+10.531  What is the geocode level of Camden and City of London in the EU territorial units database?
+10.529  Retrieve the geocode level of the EU territorial unit where its description is "Camden and City of London".
+9.139  Find the geocode level for the territorial units of Camden and City of London in the EU.
+6.329  What is the geocode level for Camden and City of London in eu_territorial_units?
+6.328  Find the geocode level for Camden and City of London in the table eu_territorial_units.
+6.327  What is the geocode level for "Camden and City of London" in the table eu_territorial_units?
+6.327  What is the geocode level for Camden and City of London in the table eu_territorial_units?
+6.327  What is the geocode level for "Camden and City of London" in the eu_territorial_units table?
+

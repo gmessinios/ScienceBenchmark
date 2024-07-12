@@ -1,0 +1,28 @@
+SELECT countries.unics_id FROM countries AS countries WHERE countries.country_name != "Saint Pierre and Miquelon"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM countries AS T1 WHERE T1.country_name != "Saint Pierre and Miquelon"
+GPT-3 choices:
+(0) Get the unique identifier of all countries except for "Saint Pierre and Miquelon" from the table of countries.
+(1) Find the unique ID for all countries in the "countries" table, except for Saint Pierre and Miquelon.
+(2) "Retrieve the unique identifier for all countries where the country name is not equal to "Saint Pierre and Miquelon"."
+(3) Retrieve the unique identifier for all countries from the "countries" table, except for Saint Pierre and Miquelon.
+(4) What is the unique ID for all countries except for Saint Pierre and Miquelon in the countries table?
+(5) Find the unique ID of all countries in the table "countries" except for Saint Pierre and Miquelon.
+(6) What is the unique ID for all countries, except Saint Pierre and Miquelon, in the countries table?
+(7) Get the unique identifier for all countries in the table "countries" where the country name is not "Saint Pierre and Miquelon".
+
+
+Re-ranked choices:
+6.338  Get the unique identifier for all countries in the table "countries" where the country name is not "Saint Pierre and Miquelon".
+6.333  "Retrieve the unique identifier for all countries where the country name is not equal to "Saint Pierre and Miquelon"."
+4.954  What is the unique ID for all countries except for Saint Pierre and Miquelon in the countries table?
+4.258  Find the unique ID for all countries in the "countries" table, except for Saint Pierre and Miquelon.
+4.258  Find the unique ID of all countries in the table "countries" except for Saint Pierre and Miquelon.
+4.258  What is the unique ID for all countries, except Saint Pierre and Miquelon, in the countries table?
+3.538  Get the unique identifier of all countries except for "Saint Pierre and Miquelon" from the table of countries.
+2.834  Retrieve the unique identifier for all countries from the "countries" table, except for Saint Pierre and Miquelon.
+

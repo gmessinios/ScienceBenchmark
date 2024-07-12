@@ -1,0 +1,16 @@
+SELECT Photometric_objects.objid FROM photoobj AS Photometric_objects JOIN neighbors AS Nearest_neighbour_objects ON Photometric_objects.objid = Nearest_neighbour_objects.objid WHERE Nearest_neighbour_objects.neighbortype = 3
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM photoobj AS T1 JOIN neighbors AS T2 ON T1.objid = T2.objid WHERE T2.neighbortype = 3
+GPT-3 choices:
+(0) Find the objid of Photometric_objects where their objid is equal to Nearest_neighbour_objects' objid and Nearest_neighbour_objects' neighbortype is 3.
+(1) Find the objid of all objects in the photoobj table that have a neighbortype value of 3 in the neighbors table.
+(2) Retrieve the object identification numbers for all objects in the photoobj table that have a neighbor type of 3 in the neighbors table and are also present in both tables.
+(3) Find the object ID for all photometric objects from the photoobj table that have a nearest neighbor with a neighbor type of 3 in the neighbors table.
+(4) Find the object IDs from the table of photometric objects where the object IDs are equal to the object IDs in the neighbor table, and the neighbor type is 3.
+(5) Find the object ID for all Photometric objects that have a nearest neighbor with a neighbortype of 3 in the neighbors table.
+(6) Find the object IDs from a table of photometric objects that match the object IDs in another table of nearest neighbor objects where the neighbor type is 3.
+(7) Find the objid for all Photometric_objects from the photoobj table that have a neighbortype of 3 in the neighbors table.

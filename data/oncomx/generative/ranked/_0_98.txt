@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_canonical_ac = "B9A014-1"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_canonical_ac = "B9A014-1"
+GPT-3 choices:
+(0) Retrieve the UniprotKB accession number for the canonical isoform with the canonical UniProtKB ID "B9A014-1" from the mapping table of UniprotKB canonical IDs.
+(1) What is the uniprotkb_ac for the canonical protein with the uniprotkb_canonical_ac "B9A014-1"?
+(2) What is the UniprotKB Accession Number for the canonical protein with the identifier "B9A014-1"?
+(3) Find the UniprotKB AC from the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is equal to "B9A014-1".
+(4) Retrieve the UniProtKB accession code for the canonical isoform with the UniProtKB ID "B9A014-1" from the map_uniprot_canonical_id table.
+(5) Retrieve the Uniprot canonical ID from the table "map_uniprot_canonical_id" where the Uniprot canonical accession number is equal to "B9A014-1".
+(6) Retrieve the UniProtKB accession number for the canonical protein corresponding to the UniProtKB ID "B9A014-1" from the map_uniprot_canonical_id table.
+(7) What is the uniprotkb_ac for the canonical AC "B9A014-1" in the map_uniprot_canonical_id table?
+
+
+Re-ranked choices:
+4.920  Retrieve the Uniprot canonical ID from the table "map_uniprot_canonical_id" where the Uniprot canonical accession number is equal to "B9A014-1".
+4.919  Retrieve the UniProtKB accession code for the canonical isoform with the UniProtKB ID "B9A014-1" from the map_uniprot_canonical_id table.
+4.918  Retrieve the UniprotKB accession number for the canonical isoform with the canonical UniProtKB ID "B9A014-1" from the mapping table of UniprotKB canonical IDs.
+4.917  Retrieve the UniProtKB accession number for the canonical protein corresponding to the UniProtKB ID "B9A014-1" from the map_uniprot_canonical_id table.
+3.528  What is the UniprotKB Accession Number for the canonical protein with the identifier "B9A014-1"?
+3.524  What is the uniprotkb_ac for the canonical AC "B9A014-1" in the map_uniprot_canonical_id table?
+3.521  Find the UniprotKB AC from the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is equal to "B9A014-1".
+2.124  What is the uniprotkb_ac for the canonical protein with the uniprotkb_canonical_ac "B9A014-1"?
+

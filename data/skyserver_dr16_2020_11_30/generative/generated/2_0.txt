@@ -1,0 +1,16 @@
+SELECT Photometric_objects.flags, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.flags
+
+###
+
+
+Original Query:
+SELECT T1.flags, count(*) FROM photoobj AS T1  GROUP BY T1.flags
+GPT-3 choices:
+(0) Count the number of photometric objects and group them by their flags.
+(1) "Count the number of objects in the photoobj table grouped by their respective flags and display both the flag and its corresponding count."
+(2) Count the number of objects and their flags from the photoobj table grouped by their respective flags.
+(3) Count the number of objects in the "photoobj" table grouped by their flags and show the total count for each unique flag.
+(4) Count the number of objects and their corresponding flags from the photoobj table grouped by each unique flag.
+(5) How many objects have each flag value in the "flags" column from the photoobj table, grouped by their respective flags?
+(6) Count the number of objects with their respective flags from the photoobj table and group them based on their flags.
+(7) What is the count of all photo objects grouped by their flags?

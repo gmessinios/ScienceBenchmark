@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.dec != -17.1110510805343
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.dec != -17.1110510805343
+GPT-3 choices:
+(0) Find the names of all photometric objects that have a type value matching a record in the photo_type table, and whose corresponding entry in the photoobj table has a declination value not equal to -17.1110510805343.
+(1) Find the names of all objects that have a photometric observation type and a declination value not equal to -17.1110510805343 in the photoobj table.
+(2) Find the names of all objects that have been photometrically observed and have a type that is not equal to -17.1110510805343 in the photo_type table, and join it with the photoobj table to retrieve their corresponding names.
+(3) Retrieve the name of photometrically observed objects from the photoobj table where their type value matches that of the photo_type table and their declination does not equal -17.1110510805343.
+(4) Find the name of all photometric objects that have been observed and are not located at a declination of -17.1110510805343.
+(5) Find the names of objects that have a photometric type equal to the value in column 'type' from table 'photoobj', but only if their declination is not equal to -17.1110510805343.
+(6) Find the names of all objects that have a photometric type and a declination not equal to -17.1110510805343.
+(7) Find the names of all photometrically observed objects whose type in the photoobj table is not equal to -17.1110510805343 for their declination value.
+
+
+Re-ranked choices:
+9.820  Retrieve the name of photometrically observed objects from the photoobj table where their type value matches that of the photo_type table and their declination does not equal -17.1110510805343.
+7.034  Find the names of all photometrically observed objects whose type in the photoobj table is not equal to -17.1110510805343 for their declination value.
+5.638  Find the names of all objects that have a photometric observation type and a declination value not equal to -17.1110510805343 in the photoobj table.
+5.633  Find the names of all objects that have been photometrically observed and have a type that is not equal to -17.1110510805343 in the photo_type table, and join it with the photoobj table to retrieve their corresponding names.
+5.630  Find the name of all photometric objects that have been observed and are not located at a declination of -17.1110510805343.
+5.622  Find the names of objects that have a photometric type equal to the value in column 'type' from table 'photoobj', but only if their declination is not equal to -17.1110510805343.
+5.618  Find the names of all photometric objects that have a type value matching a record in the photo_type table, and whose corresponding entry in the photoobj table has a declination value not equal to -17.1110510805343.
+4.237  Find the names of all objects that have a photometric type and a declination not equal to -17.1110510805343.
+

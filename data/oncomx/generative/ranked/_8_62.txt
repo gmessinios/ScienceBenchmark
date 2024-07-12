@@ -1,0 +1,28 @@
+SELECT healthy_expression.expression_score FROM healthy_expression AS healthy_expression WHERE healthy_expression.expression_level_anatomical_relative != "ABSENT"
+
+###
+
+
+Original Query:
+SELECT T1.expression_score FROM healthy_expression AS T1 WHERE T1.expression_level_anatomical_relative != "ABSENT"
+GPT-3 choices:
+(0) Get the expression scores from the healthy_expression table where the expression level is not "ABSENT".
+(1) Retrieve the expression score from the healthy_expression table where the expression level is not "ABSENT".
+(2) Get the expression score from the healthy_expression table where the expression level is not "ABSENT".
+(3) Retrieve the expression score from the table "healthy_expression" where the expression level is not equal to "ABSENT".
+(4) What is the expression score for all instances in the table healthy_expression where the expression level is not "ABSENT"?
+(5) Get the expression scores from the table of healthy expressions for all entries where the relative anatomical expression level is not "ABSENT".
+(6) Retrieve the expression scores from healthy_expression where the expression level anatomical relative is not "ABSENT".
+(7) Retrieve the expression scores from the healthy_expression table where the expression level anatomical relative is not "ABSENT".
+
+
+Re-ranked choices:
+7.725  Get the expression scores from the table of healthy expressions for all entries where the relative anatomical expression level is not "ABSENT".
+6.324  Retrieve the expression scores from healthy_expression where the expression level anatomical relative is not "ABSENT".
+6.322  Retrieve the expression scores from the healthy_expression table where the expression level anatomical relative is not "ABSENT".
+4.930  Retrieve the expression score from the table "healthy_expression" where the expression level is not equal to "ABSENT".
+4.929  Retrieve the expression score from the healthy_expression table where the expression level is not "ABSENT".
+4.929  Get the expression score from the healthy_expression table where the expression level is not "ABSENT".
+4.928  What is the expression score for all instances in the table healthy_expression where the expression level is not "ABSENT"?
+3.529  Get the expression scores from the healthy_expression table where the expression level is not "ABSENT".
+

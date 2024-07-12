@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.distance = 6.29076235812387e-06
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1 WHERE T1.distance = 6.29076235812387e-06
+GPT-3 choices:
+(0) What is the mode of the nearest neighbor object where the distance is equal to 6.29076235812387e-06?
+(1) Find the mode of the nearest neighbor object where the distance is equal to 6.29076235812387e-06.
+(2) Find the mode of the nearest neighbor object with a distance of 6.29076235812387e-06.
+(3) Find the mode from the table "neighbors" where the distance is equal to 6.29076235812387e-06.
+(4) Find the mode of all objects in the table "neighbors" where the distance is equal to 6.29076235812387e-06.
+(5) What is the mode of the nearest neighbour object whose distance is equal to 6.29076235812387e-06?
+(6) Retrieve the mode from the nearest neighbour objects where the distance is equal to 6.29076235812387e-06.
+(7) Retrieve the mode of the nearest neighbor object from the neighbors table where the distance is equal to 6.29076235812387e-06.
+
+
+Re-ranked choices:
+8.462  Find the mode of the nearest neighbor object with a distance of 6.29076235812387e-06.
+8.454  Find the mode of the nearest neighbor object where the distance is equal to 6.29076235812387e-06.
+8.450  What is the mode of the nearest neighbor object where the distance is equal to 6.29076235812387e-06?
+8.445  What is the mode of the nearest neighbour object whose distance is equal to 6.29076235812387e-06?
+8.436  Retrieve the mode of the nearest neighbor object from the neighbors table where the distance is equal to 6.29076235812387e-06.
+7.058  Find the mode of all objects in the table "neighbors" where the distance is equal to 6.29076235812387e-06.
+7.045  Retrieve the mode from the nearest neighbour objects where the distance is equal to 6.29076235812387e-06.
+4.275  Find the mode from the table "neighbors" where the distance is equal to 6.29076235812387e-06.
+

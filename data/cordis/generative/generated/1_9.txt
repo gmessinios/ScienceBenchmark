@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_ref = "101000554"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_ref = "101000554"
+GPT-3 choices:
+(0) Find the subject area codes for projects that have an EC reference of "101000554".
+(1) Get the code for all subject areas that are associated with the project with an EC reference number of "101000554".
+(2) Retrieve the code for each subject area associated with a project that has an EC reference number of "101000554".
+(3) Find the code of subject areas associated with a project whose EC reference number is "101000554".
+(4) Get the subject area code for all projects that have a corresponding entry in the project_subject_areas table and an EC reference number of "101000554" in the projects table.
+(5) Get the code for all subject areas associated with a project with an EC reference number of 101000554.
+(6) Get the code of subject areas for a project with an EC reference number of "101000554".
+(7) Retrieve the subject area code for all project subject areas associated with the project having an EC reference of "101000554".

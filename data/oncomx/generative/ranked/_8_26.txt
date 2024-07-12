@@ -1,0 +1,28 @@
+SELECT biomarker_fda.test_trade_name FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_submission != "K062765"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda AS T1 WHERE T1.test_submission != "K062765"
+GPT-3 choices:
+(0) Which test trade names are available in the biomarker_fda table, excluding those with a test submission of "K062765"?
+(1) Find the test trade name from the biomarker_fda table where the test submission is not equal to "K062765".
+(2) What is the trade name of all tests in the FDA biomarker dataset except for "K062765"?
+(3) Which test trade names are present in the biomarker_fda table where the test submission is not equal to "K062765"?
+(4) What are the trade names of biomarkers that have not been submitted as "K062765"?
+(5) "Retrieve the test trade name from biomarker_fda where the test submission is not equal to "K062765"."
+(6) What is the trade name of all tests in biomarker_fda where the test_submission is not "K062765"?
+(7) "Retrieve the test trade name from the FDA biomarker database where the test submission is not equal to "K062765"."
+
+
+Re-ranked choices:
+9.137  "Retrieve the test trade name from the FDA biomarker database where the test submission is not equal to "K062765"."
+6.383  What is the trade name of all tests in the FDA biomarker dataset except for "K062765"?
+6.338  Find the test trade name from the biomarker_fda table where the test submission is not equal to "K062765".
+6.337  "Retrieve the test trade name from biomarker_fda where the test submission is not equal to "K062765"."
+4.937  Which test trade names are present in the biomarker_fda table where the test submission is not equal to "K062765"?
+4.933  Which test trade names are available in the biomarker_fda table, excluding those with a test submission of "K062765"?
+3.543  What is the trade name of all tests in biomarker_fda where the test_submission is not "K062765"?
+2.175  What are the trade names of biomarkers that have not been submitted as "K062765"?
+

@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes WHERE funding_schemes.title = "ECSEL Research and Innovation Action"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 WHERE T1.title = "ECSEL Research and Innovation Action"
+GPT-3 choices:
+(0) Find the code for all funding schemes with a title of "ECSEL Research and Innovation Action" from the table "funding_schemes".
+(1) Retrieve the code for all funding schemes with the title "ECSEL Research and Innovation Action" from the table "funding_schemes".
+(2) Retrieve the code for the funding scheme with a title of "ECSEL Research and Innovation Action" from the table "funding_schemes".
+(3) Find the code for funding schemes that have a title of "ECSEL Research and Innovation Action" in the table named "funding_schemes".
+(4) What is the funding scheme code for "ECSEL Research and Innovation Action" in the table of funding schemes?
+(5) Retrieve the code from the "funding_schemes" table where the title is equal to "ECSEL Research and Innovation Action".
+(6) Retrieve the code of all funding schemes with a title of "ECSEL Research and Innovation Action".
+(7) Find the code for funding schemes that have a title of "ECSEL Research and Innovation Action".

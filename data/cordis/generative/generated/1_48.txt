@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units JOIN institutions AS institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.short_name = "UdA"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 JOIN institutions AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.short_name = "UdA"
+GPT-3 choices:
+(0) What are the geocode regions for institutions that have a short name of "UdA" and are in the same region as eu_territorial_units?
+(1) Get the geocode regions from the EU territorial units where the short name of institutions is "UdA" and their geocode regions match with those in institutions.
+(2) Retrieve the geocode regions from the European Territorial Units table where the geocode_regions_3 value in the Institutions table is equal to "UdA".
+(3) Retrieve the geocode_regions value from the eu_territorial_units table where the institutions table's geocode_regions_3 value is equal to "UdA" for the short_name column.
+(4) Find the geocode regions from the EU territorial units table where the short name in the institutions table is "UdA".
+(5) Get the geocode_regions column from the eu_territorial_units table where the geocode_regions_3 column in the institutions table matches "UdA" for its short_name.
+(6) Get the geocode_regions for the EU territorial units and institutions where the short name is "UdA".
+(7) Retrieve the geocode_regions from the eu_territorial_units table where the short name of institutions is "UdA".

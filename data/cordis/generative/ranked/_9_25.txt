@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.framework_program != "HORIZON"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.framework_program != "HORIZON"
+GPT-3 choices:
+(0) Find the descriptions of all subject areas associated with projects that are not part of the HORIZON framework program.
+(1) Find the description of subject areas for projects that are not part of the HORIZON framework program.
+(2) Retrieve the description of all subject areas associated with projects that are not part of the HORIZON framework program.
+(3) Retrieve the descriptions of subject areas associated with projects that are not part of the HORIZON framework program.
+(4) Retrieve the description of all subject areas associated with projects that are not part of the "HORIZON" framework program.
+(5) Get the description of all subject areas from projects that have been assigned a subject area in the project_subject_areas table and have a framework program different from "HORIZON" in the projects table.
+(6) Get the description of subject areas from projects that are not part of the HORIZON framework program by joining the subject_areas and project_subject_areas tables with projects table on their respective codes and selecting the corresponding description.
+(7) Retrieve the description of subject areas for all projects that do not belong to the "HORIZON" framework program.
+
+
+Re-ranked choices:
+10.515  Get the description of subject areas from projects that are not part of the HORIZON framework program by joining the subject_areas and project_subject_areas tables with projects table on their respective codes and selecting the corresponding description.
+9.819  Get the description of all subject areas from projects that have been assigned a subject area in the project_subject_areas table and have a framework program different from "HORIZON" in the projects table.
+7.739  Find the description of subject areas for projects that are not part of the HORIZON framework program.
+7.733  Retrieve the description of subject areas for all projects that do not belong to the "HORIZON" framework program.
+7.728  Retrieve the description of all subject areas associated with projects that are not part of the HORIZON framework program.
+7.728  Retrieve the description of all subject areas associated with projects that are not part of the "HORIZON" framework program.
+6.328  Find the descriptions of all subject areas associated with projects that are not part of the HORIZON framework program.
+6.326  Retrieve the descriptions of subject areas associated with projects that are not part of the HORIZON framework program.
+

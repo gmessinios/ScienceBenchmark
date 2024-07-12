@@ -1,0 +1,28 @@
+SELECT biomarker_fda.id FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_submission = "DEN170030"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda AS T1 WHERE T1.test_submission = "DEN170030"
+GPT-3 choices:
+(0) Retrieve the id of biomarkers from the FDA database where the test submission is "DEN170030".
+(1) Retrieve the id of biomarker_fda from the test submission with the identifier "DEN170030".
+(2) Get the ID from the biomarker FDA table where the test submission is "DEN170030".
+(3) Retrieve the ID from the biomarker_fda table where the test_submission is "DEN170030".
+(4) Retrieve the id from the biomarker_fda table where the test_submission is equal to "DEN170030".
+(5) Find the ID of the biomarker from FDA's biomarker list with a test submission code of "DEN170030".
+(6) Find the ID from the biomarker_fda table where the test_submission is "DEN170030".
+(7) Retrieve the ID of the biomarker from FDA database where the test submission is "DEN170030".
+
+
+Re-ranked choices:
+7.758  Get the ID from the biomarker FDA table where the test submission is "DEN170030".
+7.758  Find the ID of the biomarker from FDA's biomarker list with a test submission code of "DEN170030".
+7.754  Retrieve the ID of the biomarker from FDA database where the test submission is "DEN170030".
+6.345  Retrieve the id of biomarkers from the FDA database where the test submission is "DEN170030".
+4.929  Retrieve the id of biomarker_fda from the test submission with the identifier "DEN170030".
+2.138  Find the ID from the biomarker_fda table where the test_submission is "DEN170030".
+2.133  Retrieve the ID from the biomarker_fda table where the test_submission is "DEN170030".
+2.131  Retrieve the id from the biomarker_fda table where the test_submission is equal to "DEN170030".
+

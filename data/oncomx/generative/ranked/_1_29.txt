@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trial_id FROM biomarker_fda_test_trial AS biomarker_fda_test_trial JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_trial.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.test_trade_name = "Cobas KRAS MUTATION TEST"
+
+###
+
+
+Original Query:
+SELECT T1.test_trial_id FROM biomarker_fda_test_trial AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_trade_name = "Cobas KRAS MUTATION TEST"
+GPT-3 choices:
+(0) "Retrieve the test trial ID from the biomarker FDA test trial table for the Cobas KRAS Mutation Test, which can be found in both the biomarker FDA test trial and biomarker FDA test tables."
+(1) "Retrieve the test trial ID from the FDA-approved KRAS mutation test known as Cobas KRAS Mutation Test."
+(2) Find the test trial ID from the FDA test trials for the Cobas KRAS mutation test.
+(3) What is the test trial ID for the Cobas KRAS Mutation Test in the biomarker FDA test table, joined with the biomarker FDA test trial table?
+(4) Retrieve the test trial ID for the test trade name "Cobas KRAS MUTATION TEST" from the biomarker FDA test trial table, joined with the biomarker FDA test table, where the test trade name in both tables is equal to "Cobas KRAS MUTATION TEST".
+(5) Retrieve the test trial ID from the biomarker FDA test trial table where the trade name of the test is "Cobas KRAS MUTATION TEST" and it also exists in the biomarker FDA test table.
+(6) Find the test trial ID for the Cobas KRAS Mutation Test in the FDA biomarker test database.
+(7) Retrieve the test trial ID from the biomarker FDA test trial table where the test trade name is "Cobas KRAS MUTATION TEST" and it matches with the test trade name in the biomarker FDA test table.
+
+
+Re-ranked choices:
+11.920  Retrieve the test trial ID from the biomarker FDA test trial table where the trade name of the test is "Cobas KRAS MUTATION TEST" and it also exists in the biomarker FDA test table.
+11.919  Retrieve the test trial ID from the biomarker FDA test trial table where the test trade name is "Cobas KRAS MUTATION TEST" and it matches with the test trade name in the biomarker FDA test table.
+11.915  Retrieve the test trial ID for the test trade name "Cobas KRAS MUTATION TEST" from the biomarker FDA test trial table, joined with the biomarker FDA test table, where the test trade name in both tables is equal to "Cobas KRAS MUTATION TEST".
+9.136  Find the test trial ID for the Cobas KRAS Mutation Test in the FDA biomarker test database.
+9.125  What is the test trial ID for the Cobas KRAS Mutation Test in the biomarker FDA test table, joined with the biomarker FDA test trial table?
+9.120  "Retrieve the test trial ID from the biomarker FDA test trial table for the Cobas KRAS Mutation Test, which can be found in both the biomarker FDA test trial and biomarker FDA test tables."
+7.737  Find the test trial ID from the FDA test trials for the Cobas KRAS mutation test.
+6.328  "Retrieve the test trial ID from the FDA-approved KRAS mutation test known as Cobas KRAS Mutation Test."
+

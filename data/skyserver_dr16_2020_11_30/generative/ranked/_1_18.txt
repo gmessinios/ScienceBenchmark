@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.fiberid = 81
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.fiberid = 81
+GPT-3 choices:
+(0) What is the specobjid for a galaxy's emission line estimates where the fiberid is equal to 81?
+(1) Find the specobjid from Emission_line_estimates where Spectroscopic_objects' fiberid is equal to 81, and also join with specobj table.
+(2) Retrieve the specobjid value from the galspecline table where the fiberid in the Spectroscopic_objects table is equal to 81.
+(3) Retrieve the specobjid from the table Emission_line_estimates where the fiberid is equal to 81, and also join it with the table specobj.
+(4) Find the specobjid from the table Emission_line_estimates where the fiberid is equal to 81 and join it with the specobj table on their matching specobjids.
+(5) Find the specobjid for the Emission_line_estimates where Spectroscopic_objects.fiberid is equal to 81, and join it with the specobj table using the shared specobjid.
+(6) Find the specobjid from the Emission_line_estimates table where the fiberid is equal to 81 and join it with the specobj table on their corresponding specobjids.
+(7) What is the specobjid value for the galspecline table where the fiberid in the specobj table is equal to 81?
+
+
+Re-ranked choices:
+2.842  What is the specobjid for a galaxy's emission line estimates where the fiberid is equal to 81?
+1.423  Find the specobjid from Emission_line_estimates where Spectroscopic_objects' fiberid is equal to 81, and also join with specobj table.
+1.420  Find the specobjid from the table Emission_line_estimates where the fiberid is equal to 81 and join it with the specobj table on their matching specobjids.
+1.420  Find the specobjid from the Emission_line_estimates table where the fiberid is equal to 81 and join it with the specobj table on their corresponding specobjids.
+0.725  Find the specobjid for the Emission_line_estimates where Spectroscopic_objects.fiberid is equal to 81, and join it with the specobj table using the shared specobjid.
+0.724  Retrieve the specobjid value from the galspecline table where the fiberid in the Spectroscopic_objects table is equal to 81.
+0.724  Retrieve the specobjid from the table Emission_line_estimates where the fiberid is equal to 81, and also join it with the table specobj.
+0.026  What is the specobjid value for the galspecline table where the fiberid in the specobj table is equal to 81?
+

@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id JOIN map_protein_disease_mutation AS map_protein_disease_mutation ON map_uniprot_canonical_id.uniprotkb_ac = map_protein_disease_mutation.uniprotkb_ac WHERE map_protein_disease_mutation.peptide_id != "ENSP00000025008"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_uniprot_canonical_id AS T1 JOIN map_protein_disease_mutation AS T2 ON T1.uniprotkb_ac = T2.uniprotkb_ac WHERE T2.peptide_id != "ENSP00000025008"
+GPT-3 choices:
+(0) Retrieve the UniProtKB accession number from the map_uniprot_canonical_id table for all rows where the UniProtKB accession number in the map_protein_disease_mutation table does not equal "ENSP00000025008".
+(1) Retrieve the UniProt canonical ID for all proteins that have a mutation associated with a disease, excluding those with the peptide ID "ENSP00000025008".
+(2) Retrieve the UniProtKB accessions from the Map_UniProt_Canonical_ID table that are also present in the Map_Protein_Disease_Mutation table, where the peptide ID is not "ENSP00000025008".
+(3) Retrieve the Uniprot canonical IDs from the map_uniprot_canonical_id table for proteins associated with disease mutations in the map_protein_disease_mutation table, excluding those associated with peptide ID ENSP00000025008.
+(4) Retrieve the UniProt canonical ID for all protein-disease mutations that are not associated with the peptide ID "ENSP00000025008".
+(5) Find all the UniProtKB Accession IDs from the map_uniprot_canonical_id table where the uniprotkb_ac column is equal to the uniprotkb_ac column in the map_protein_disease_mutation table, and where the peptide_id column in the map_protein_disease_mutation table is not equal to "ENSP00000025008".
+(6) Retrieve the UniprotKB accession numbers for canonical IDs that have mutations associated with diseases, excluding those with a peptide ID of "ENSP00000025008".
+(7) Retrieve the UniProt canonical ID for proteins that are associated with mutations in diseases, excluding those with a specific peptide ID.
+
+
+Re-ranked choices:
+7.722  Retrieve the UniProt canonical ID for all proteins that have a mutation associated with a disease, excluding those with the peptide ID "ENSP00000025008".
+7.013  Retrieve the Uniprot canonical IDs from the map_uniprot_canonical_id table for proteins associated with disease mutations in the map_protein_disease_mutation table, excluding those associated with peptide ID ENSP00000025008.
+6.326  Retrieve the UniProt canonical ID for all protein-disease mutations that are not associated with the peptide ID "ENSP00000025008".
+6.320  Retrieve the UniprotKB accession numbers for canonical IDs that have mutations associated with diseases, excluding those with a peptide ID of "ENSP00000025008".
+5.622  Retrieve the UniProt canonical ID for proteins that are associated with mutations in diseases, excluding those with a specific peptide ID.
+4.919  Retrieve the UniProtKB accessions from the Map_UniProt_Canonical_ID table that are also present in the Map_Protein_Disease_Mutation table, where the peptide ID is not "ENSP00000025008".
+2.115  Retrieve the UniProtKB accession number from the map_uniprot_canonical_id table for all rows where the UniProtKB accession number in the map_protein_disease_mutation table does not equal "ENSP00000025008".
+2.112  Find all the UniProtKB Accession IDs from the map_uniprot_canonical_id table where the uniprotkb_ac column is equal to the uniprotkb_ac column in the map_protein_disease_mutation table, and where the peptide_id column in the map_protein_disease_mutation table is not equal to "ENSP00000025008".
+

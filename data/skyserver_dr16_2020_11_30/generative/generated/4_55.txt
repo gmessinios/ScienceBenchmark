@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_r = 13.03373
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.cmodelmag_r = 13.03373
+GPT-3 choices:
+(0) How many Photometric objects have a cmodelmag_r value of 13.03373 in the photoobj table?
+(1) How many objects are there in the photoobj table with a cmodelmag_r value of 13.03373?
+(2) "How many objects in the Photometric_objects table have a cmodelmag_r value of 13.03373?"
+(3) How many Photometric objects have a cmodel magnitude in the r-band equal to 13.03373?
+(4) Count the number of Photometric objects with a Cmodel magnitude in the r-band equal to 13.03373.
+(5) Count the number of objects in the photoobj table where the cmodelmag_r column has a value of 13.03373.
+(6) How many objects have a r-band cmodel magnitude of 13.03373 in the Photometric_objects table in the photoobj database?
+(7) How many objects in the "photoobj" table have a cmodelmag_r value of 13.03373?

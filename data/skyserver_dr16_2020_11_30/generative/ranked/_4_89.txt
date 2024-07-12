@@ -1,0 +1,28 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.objid = 1237678438625051158
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.objid = 1237678438625051158
+GPT-3 choices:
+(0) How many objects are there in the "neighbors" table that have an objid value of 1237678438625051158?
+(1) Count the number of rows in the table "neighbors" where the value in the column "objid" is equal to 1237678438625051158.
+(2) How many objects are there in the neighbors table where the objid is equal to 1237678438625051158?
+(3) How many objects are there in the table "neighbors" with an object ID of 1237678438625051158?
+(4) How many objects are there in the "neighbors" table that have an object ID of 1237678438625051158?
+(5) How many objects are there in the neighbors table with an objid of 1237678438625051158?
+(6) How many objects are in the table "neighbors" where the object ID is equal to 1237678438625051158?
+(7) How many objects in the "neighbors" table have an "objid" value of 1237678438625051158?
+
+
+Re-ranked choices:
+4.254  How many objects are there in the table "neighbors" with an object ID of 1237678438625051158?
+4.250  How many objects are there in the "neighbors" table that have an object ID of 1237678438625051158?
+4.250  How many objects are in the table "neighbors" where the object ID is equal to 1237678438625051158?
+1.448  How many objects are there in the neighbors table with an objid of 1237678438625051158?
+1.443  How many objects are there in the "neighbors" table that have an objid value of 1237678438625051158?
+1.443  How many objects are there in the neighbors table where the objid is equal to 1237678438625051158?
+1.443  How many objects in the "neighbors" table have an "objid" value of 1237678438625051158?
+0.035  Count the number of rows in the table "neighbors" where the value in the column "objid" is equal to 1237678438625051158.
+

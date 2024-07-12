@@ -1,0 +1,28 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id = 3878
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id = 3878
+GPT-3 choices:
+(0) What is the uberon anatomical ID of the disease mutation tissue associated with the disease mutation with an ID of 3878?
+(1) What is the unique anatomical ID of the tissue associated with the mutation that has an ID of 3878 in the disease_mutation_tissue table?
+(2) Retrieve the UBERON anatomical ID from the disease_mutation_tissue table for the disease mutation with an ID of 3878.
+(3) What is the uberon anatomical ID associated with the disease mutation with an ID of 3878 in the table "disease_mutation_tissue"?
+(4) Get the Uberon anatomical ID from the disease_mutation_tissue table where the disease_mutation_id is equal to 3878.
+(5) What is the anatomical ID in the disease mutation tissue table for the disease mutation with an ID of 3878?
+(6) Get the uberon anatomical ID from the disease mutation tissue table for the disease mutation with an ID of 3878.
+(7) Find the unique identifier for the anatomical location in which a mutation is associated with a specific disease, given that the mutation has an ID of 3878.
+
+
+Re-ranked choices:
+8.428  Get the uberon anatomical ID from the disease mutation tissue table for the disease mutation with an ID of 3878.
+8.424  What is the uberon anatomical ID of the disease mutation tissue associated with the disease mutation with an ID of 3878?
+7.030  What is the anatomical ID in the disease mutation tissue table for the disease mutation with an ID of 3878?
+7.024  Retrieve the UBERON anatomical ID from the disease_mutation_tissue table for the disease mutation with an ID of 3878.
+7.021  What is the uberon anatomical ID associated with the disease mutation with an ID of 3878 in the table "disease_mutation_tissue"?
+5.622  What is the unique anatomical ID of the tissue associated with the mutation that has an ID of 3878 in the disease_mutation_tissue table?
+4.223  Get the Uberon anatomical ID from the disease_mutation_tissue table where the disease_mutation_id is equal to 3878.
+4.220  Find the unique identifier for the anatomical location in which a mutation is associated with a specific disease, given that the mutation has an ID of 3878.
+

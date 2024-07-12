@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype = 6 and Nearest_neighbour_objects.neighborobjid = 1237645876861600004
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.neighbortype = 6 and T1.neighborobjid = 1237645876861600004
+GPT-3 choices:
+(0) What is the type of the nearest neighbour object with a neighbor type of 6 and neighbor object ID of 1237645876861600004?
+(1) Find the type of nearest neighbor object where the neighbor type is 6 and the neighbor object ID is 1237645876861600004.
+(2) Find the type of nearest neighbor object that has a neighbor type of 6 and a neighbor object ID of 1237645876861600004.
+(3) What is the type of the nearest neighbour object with a neighbortype of 6 and neighborobjid of 1237645876861600004?
+(4) Get the type of objects that are nearest neighbors to the object with ID 1237645876861600004 and have a neighbor type of 6.
+(5) "Get the type of nearest neighbor objects with a neighbor type of 6 and a neighbor object ID of 1237645876861600004."
+(6) Find the type of nearest neighbour object where the neighbortype is 6 and neighborobjid is equal to 1237645876861600004.
+(7) Retrieve the type of the nearest neighbor object where the neighbor type is 6 and the neighbor object ID is 1237645876861600004.

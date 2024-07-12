@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.title = "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.title = "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity"
+GPT-3 choices:
+(0) Find the record number for the topic "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity" in the "topics" table.
+(1) Find the RCN for the topic "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+(2) Find the RCN of the topic with the title "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+(3) Retrieve the research control number from the topics table where the title is "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+(4) Get the RCN of topics where the title is "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+(5) What is the research council number of the topic titled "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity"?
+(6) What is the RCN for the topic "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity"?
+(7) Find the record number of the topic titled "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+
+
+Re-ranked choices:
+13.317  Get the RCN of topics where the title is "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+11.917  Find the RCN of the topic with the title "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+11.915  Retrieve the research control number from the topics table where the title is "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+10.517  What is the RCN for the topic "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity"?
+10.517  Find the RCN for the topic "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+10.516  Find the record number for the topic "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity" in the "topics" table.
+9.116  Find the record number of the topic titled "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity".
+9.115  What is the research council number of the topic titled "Development and assessment of comprehensive and integrated interventions and programmes to improve reproductive health and health equity"?
+

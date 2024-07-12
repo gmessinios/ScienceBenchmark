@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.biomarker_fda_id = "FDA000218"
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker FROM biomarker_fda_ncit_term AS T1 WHERE T1.biomarker_fda_id = "FDA000218"
+GPT-3 choices:
+(0) Retrieve the NCIt biomarker term associated with the FDA biomarker ID "FDA000218" from the table "biomarker_fda_ncit_term".
+(1) Retrieve the NCIt biomarker term for the FDA biomarker with ID "FDA000218".
+(2) What is the NCIt term for the biomarker associated with FDA identifier "FDA000218"?
+(3) What is the name of the NCIt biomarker that corresponds to FDA ID "FDA000218"?
+(4) What is the NCIt biomarker term for the FDA biomarker with ID "FDA000218"?
+(5) What is the FDA/NCI Thesaurus term for biomarker with an ID of "FDA000218"?
+(6) "What is the NCIt biomarker term for the FDA biomarker with ID 'FDA000218'?"
+(7) What is the NCIt biomarker term for the FDA biomarker with an ID of "FDA000218"?

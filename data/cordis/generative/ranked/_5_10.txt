@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units    ORDER BY eu_territorial_units.geocode_level DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1    ORDER BY T1.geocode_level DESC LIMIT 1
+GPT-3 choices:
+(0) "Retrieve the description of the territorial unit with the highest geocode level from the EU territorial units table, sorted in descending order."
+(1) Retrieve the description of the highest level geocode from EU territorial units in descending order.
+(2) Retrieve the description of the highest level geocode from the EU territorial units in descending order.
+(3) "Retrieve the description of the highest-level territorial unit from the EU's database, sorted in descending order, limited to only one result."
+(4) "Get the description of the highest geocode level from the EU territorial units, ordered in descending order and limit to one result."
+(5) Show the description of the most detailed territorial unit from the EU Territorial Units table, ordered in descending order by geocode level.
+(6) Retrieve the description of the most detailed territorial unit in Europe from the "eu_territorial_units" table, ordered in descending order by its geocode level and limited to only one result.
+(7) Get the description of the territorial unit with the highest geocode level from the table "eu_territorial_units", ordered in descending order, limited to one result.
+
+
+Re-ranked choices:
+8.426  Retrieve the description of the highest level geocode from EU territorial units in descending order.
+8.425  Retrieve the description of the highest level geocode from the EU territorial units in descending order.
+8.421  "Retrieve the description of the territorial unit with the highest geocode level from the EU territorial units table, sorted in descending order."
+7.721  Show the description of the most detailed territorial unit from the EU Territorial Units table, ordered in descending order by geocode level.
+7.025  "Get the description of the highest geocode level from the EU territorial units, ordered in descending order and limit to one result."
+6.316  Retrieve the description of the most detailed territorial unit in Europe from the "eu_territorial_units" table, ordered in descending order by its geocode level and limited to only one result.
+5.617  Get the description of the territorial unit with the highest geocode level from the table "eu_territorial_units", ordered in descending order, limited to one result.
+4.220  "Retrieve the description of the highest-level territorial unit from the EU's database, sorted in descending order, limited to only one result."
+

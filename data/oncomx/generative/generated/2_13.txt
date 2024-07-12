@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.ensembl_transcript_id, count(*) FROM map_protein_disease_mutation AS map_protein_disease_mutation  GROUP BY map_protein_disease_mutation.ensembl_transcript_id
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_transcript_id, count(*) FROM map_protein_disease_mutation AS T1  GROUP BY T1.ensembl_transcript_id
+GPT-3 choices:
+(0) Find the number of occurrences for each ensembl transcript ID in the table "map_protein_disease_mutation".
+(1) "Count the number of occurrences in the table "map_protein_disease_mutation" for each unique ensembl_transcript_id and group the results by ensembl_transcript_id."
+(2) Count the number of mutations for each transcript in the map_protein_disease_mutation table and group them by their ensembl_transcript_id.
+(3) Count the number of occurrences for each Ensembl transcript ID in the "map_protein_disease_mutation" table.
+(4) Retrieve the count of how many times a mutation is associated with a specific Ensembl transcript ID from the map_protein_disease_mutation table, grouped by each unique Ensembl transcript ID.
+(5) Count the number of occurrences for each ensembl transcript ID in the table map_protein_disease_mutation and group them by ensembl transcript ID.
+(6) "Count the number of mutations associated with each unique Ensembl transcript ID from the map_protein_disease_mutation table."
+(7) Retrieve the number of occurrences for each unique ensembl transcript ID from the map_protein_disease_mutation table.

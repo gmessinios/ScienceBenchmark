@@ -1,0 +1,27 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.special_target1 = 268435456
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.special_target1 = 268435456
+GPT-3 choices:
+(0) How many Spectroscopic objects have a special_target1 value of 268435456?
+(1) How many Spectroscopic objects have a special_target1 value of 268435456?
+(2) How many Spectroscopic objects have a special target1 value of 268435456?
+(3) How many spectroscopic objects have a special target1 value of 268435456 in the specobj table?
+(4) How many spectroscopic objects have a special target equal to 268435456?
+(5) Count the number of spectroscopic objects where the special_target1 value is equal to 268435456.
+(6) How many objects are there in the Spectroscopic_objects table where the special_target1 column is equal to 268435456?
+(7) How many spectroscopic objects have a special target 1 value of 268435456 in the table called specobj?
+
+
+Re-ranked choices:
+2.847  How many spectroscopic objects have a special target equal to 268435456?
+2.839  How many Spectroscopic objects have a special target1 value of 268435456?
+2.833  How many spectroscopic objects have a special target1 value of 268435456 in the specobj table?
+2.831  How many spectroscopic objects have a special target 1 value of 268435456 in the table called specobj?
+2.130  How many objects are there in the Spectroscopic_objects table where the special_target1 column is equal to 268435456?
+1.434  Count the number of spectroscopic objects where the special_target1 value is equal to 268435456.
+1.431  How many Spectroscopic objects have a special_target1 value of 268435456?
+

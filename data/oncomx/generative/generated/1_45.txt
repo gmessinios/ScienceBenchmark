@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation JOIN disease_mutation AS disease_mutation ON disease_mutation_site_annotation.disease_mutation_id = disease_mutation.id WHERE disease_mutation.aa_pos_uniprotkb = 326
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.aa_pos_uniprotkb = 326
+GPT-3 choices:
+(0) Get the feature key from the disease mutation site annotation table for any entries in which the corresponding disease mutation has an amino acid position in the UniProtKB equal to 326.
+(1) Retrieve the feature key from the disease mutation site annotation table where the amino acid position in UniProtKB is 326 for a given disease mutation.
+(2) What is the feature key of the disease mutation site annotation for a disease mutation with an amino acid position in UniprotKB at 326?
+(3) Find the feature key from the disease mutation site annotation table where the amino acid position in UniprotKB is 326.
+(4) Retrieve the feature key from the disease mutation site annotation table where the amino acid position in UniProtKB is 326.
+(5) "Find the feature key from the disease mutation site annotation for all disease mutations where the amino acid position in UniProtKB is 326."
+(6) Find the feature key from the disease mutation site annotation table for a disease mutation with an amino acid position of 326 in UniProtKB.
+(7) Retrieve the feature key from the disease mutation site annotation table for a disease mutation with an amino acid position in UniProtKB of 326.

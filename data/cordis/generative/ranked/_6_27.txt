@@ -1,0 +1,28 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description = "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." and subject_areas.title = "Funding Programmes"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description = "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." and T1.title = "Funding Programmes"
+GPT-3 choices:
+(0) What is the subject area code for "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" in the "Funding Programmes" title?
+(1) What is the code for the subject area "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" in the category "Funding Programmes"?
+(2) Retrieve the code for the subject area that describes the storage, transmission, and conversion of energy, use of hydrogen for energy transport, cells, and secondary energy vectors from the "Funding Programmes" title.
+(3) Retrieve the code for the subject area related to energy storage, transmission, and conversion; specifically looking at the use of hydrogen for energy transport, cells, and secondary energy vectors within funding programmes.
+(4) What are the codes for subject areas related to funding programmes that involve the storage, transmission, and conversion of energy, use of hydrogen for energy transport, cells, and secondary energy vectors?
+(5) Find the code for the subject area "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" in the funding programmes.
+(6) Find the code for the subject area "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" under the title "Funding Programmes".
+(7) Retrieve the code for the subject area related to energy storage, transmission and conversion, use of hydrogen as an energy transport, cells, and secondary energy vectors under the funding programmes category.
+
+
+Re-ranked choices:
+15.418  Find the code for the subject area "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" under the title "Funding Programmes".
+14.018  What is the subject area code for "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" in the "Funding Programmes" title?
+14.017  What is the code for the subject area "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" in the category "Funding Programmes"?
+12.618  Find the code for the subject area "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" in the funding programmes.
+11.217  Retrieve the code for the subject area that describes the storage, transmission, and conversion of energy, use of hydrogen for energy transport, cells, and secondary energy vectors from the "Funding Programmes" title.
+11.216  Retrieve the code for the subject area related to energy storage, transmission and conversion, use of hydrogen as an energy transport, cells, and secondary energy vectors under the funding programmes category.
+10.517  What are the codes for subject areas related to funding programmes that involve the storage, transmission, and conversion of energy, use of hydrogen for energy transport, cells, and secondary energy vectors?
+9.116  Retrieve the code for the subject area related to energy storage, transmission, and conversion; specifically looking at the use of hydrogen for energy transport, cells, and secondary energy vectors within funding programmes.
+

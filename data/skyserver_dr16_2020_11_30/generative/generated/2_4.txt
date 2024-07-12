@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid, count(*) FROM galspecline AS Emission_line_estimates  GROUP BY Emission_line_estimates.specobjid
+
+###
+
+
+Original Query:
+SELECT T1.specobjid, count(*) FROM galspecline AS T1  GROUP BY T1.specobjid
+GPT-3 choices:
+(0) Retrieve the specobjid and count the number of occurrences for each unique specobjid from the galspecline table in the Emission_line_estimates database.
+(1) Count the number of emission lines for each unique specobjid in the galspecline table.
+(2) Find the number of emission line estimates for each unique specobjid in the galspecline table.
+(3) Count the number of occurrences for each specobjid in the galspecline table and group them by specobjid.
+(4) Count the number of rows for each unique specobjid in the table galspecline and group them by specobjid.
+(5) Find the number of emission lines for each unique specobjid from the galspecline table and group them by specobjid.
+(6) "Retrieve the number of emission line estimates for each specobjid in the galspecline table."
+(7) Count the number of emission lines for each specobjid in the table galspecline and group the results by specobjid.

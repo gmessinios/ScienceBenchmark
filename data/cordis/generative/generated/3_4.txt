@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes AS funding_schemes
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes AS T1
+GPT-3 choices:
+(0) How many funding schemes are there in the "funding_schemes" table?
+(1) How many funding schemes are there in the table "funding_schemes"?
+(2) How many funding schemes are there in the table "funding_schemes"?
+(3) How many rows are there in the table "funding_schemes" under the column "count"?
+(4) How many funding schemes are there in the table named "funding_schemes"?
+(5) How many funding schemes are there in the "funding_schemes" table?
+(6) How many funding schemes are there in the table "funding_schemes"?
+(7) How many funding schemes are there in the table "funding_schemes"?

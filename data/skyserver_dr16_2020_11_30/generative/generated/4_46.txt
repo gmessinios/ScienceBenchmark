@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.loadversion = 333
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.loadversion = 333
+GPT-3 choices:
+(0) How many Photometric objects are there with a loadversion of 333 in the photoobj database?
+(1) Count the number of objects in the Photometric_objects table that have a loadversion value of 333.
+(2) How many photometric objects are there in the photoobj table with a loadversion value of 333?
+(3) How many rows are in the table "photoobj" where the column "loadversion" is equal to 333 and the table is named "Photometric_objects"?
+(4) How many Photometric objects are there with a load version of 333 in the photoobj table?
+(5) How many photometric objects are there in the database with a load version of 333?
+(6) How many photometric objects are there in the photoobj table with a loadversion value of 333?
+(7) How many photometric objects are there in the "photoobj" table that have a loadversion of 333?

@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Sjeverna Hrvatska" or eu_territorial_units.nuts_version = "2016"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.description = "Sjeverna Hrvatska" or T1.nuts_version = "2016"
+GPT-3 choices:
+(0) Select the geocode level from the EU territorial units where the description is "Sjeverna Hrvatska" or nuts version is "2016".
+(1) Retrieve the geocode level for all territorial units in Europe that have a description of "Sjeverna Hrvatska" or a nuts version of "2016".
+(2) Retrieve the geocode level from the EU territorial units where the description is "Sjeverna Hrvatska" or the NUTS version is "2016".
+(3) Retrieve the geocode level for the North Croatia region in the 2016 NUTS version from the EU Territorial Units database.
+(4) "Retrieve the geocode level from EU territorial units where either the description is 'Sjeverna Hrvatska' or the NUTS version is '2016'."
+(5) Which geocode level is associated with "Sjeverna Hrvatska" in the EU territorial units database for NUTS version 2016?
+(6) What is the geocode level for EU territorial units where the description is "Sjeverna Hrvatska" or the nuts version is "2016"?
+(7) What is the geocode level for North Croatia in the EU territorial units table where either the description is "Sjeverna Hrvatska" or the NUTS version is "2016"?

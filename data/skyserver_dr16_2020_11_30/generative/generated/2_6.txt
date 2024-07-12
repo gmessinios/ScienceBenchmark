@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype, count(*) FROM neighbors AS Nearest_neighbour_objects  GROUP BY Nearest_neighbour_objects.neighbortype
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype, count(*) FROM neighbors AS T1  GROUP BY T1.neighbortype
+GPT-3 choices:
+(0) What is the count of each type of neighbor in the table "Nearest_neighbour_objects" when grouped by neighbor type?
+(1) Find the count of each type of nearest neighbour object in the neighbors table.
+(2) Find the number of neighbor objects and their respective types in the table "neighbors", grouping them by neighbortype.
+(3) Find the count of each type of nearest neighbour object from the table "neighbors".
+(4) Get the number of objects and their respective neighbor types from a table called Nearest_neighbour_objects, which is populated with data from a table called neighbors, grouped by the type of neighbor.
+(5) How many neighbor types are there and how many objects have each type in the table "neighbors"?
+(6) What is the number of objects for each neighbor type in the Nearest_neighbour_objects table?
+(7) Find the number of nearest neighbor objects grouped by their type in the neighbors table.

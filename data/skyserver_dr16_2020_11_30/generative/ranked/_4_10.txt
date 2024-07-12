@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 5
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.value = 5
+GPT-3 choices:
+(0) "How many types of photos have a value of 5 for being photometrically observed?"
+(1) How many types of photos have been observed using photometric methods?
+(2) How many photo types have a value of 5 for photometrically observed?
+(3) How many photos have been photometrically observed with a value of 5?
+(4) How many photos are there that have been observed photometrically with a value of 5?
+(5) How many rows are in the photo_type table where the value column is equal to 5 and corresponds to photometrically observed data?
+(6) How many entries are there in the photo_type table where the value is equal to 5 for photometrically observed?
+(7) How many photo types are photometrically observed with a value of 5?
+
+
+Re-ranked choices:
+4.237  How many photos are there that have been observed photometrically with a value of 5?
+4.233  How many photos have been photometrically observed with a value of 5?
+4.233  How many photo types are photometrically observed with a value of 5?
+4.225  How many rows are in the photo_type table where the value column is equal to 5 and corresponds to photometrically observed data?
+2.834  "How many types of photos have a value of 5 for being photometrically observed?"
+2.833  How many photo types have a value of 5 for photometrically observed?
+2.828  How many entries are there in the photo_type table where the value is equal to 5 for photometrically observed?
+1.439  How many types of photos have been observed using photometric methods?
+

@@ -1,0 +1,28 @@
+SELECT cancer_tissue.doid FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.uberon_anatomical_id = "UBERON:0002048"
+
+###
+
+
+Original Query:
+SELECT T1.doid FROM cancer_tissue AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0002048"
+GPT-3 choices:
+(0) Get the Disease Ontology ID for cancer tissues where the Uberon anatomical ID is equal to "UBERON:0002048".
+(1) Retrieve the disease ontology identifier (DOID) from cancer_tissue where the Uberon anatomical identifier is "UBERON:0002048".
+(2) Retrieve the disease ontology ID (doid) from the cancer_tissue table for tissues with the Uberon anatomical ID "UBERON:0002048".
+(3) Find the disease identifier from the cancer tissue database where the anatomical identifier is "UBERON:0002048".
+(4) Retrieve the disease ontology ID for cancer from the cancer tissue table where the Uberon anatomical ID is "UBERON:0002048".
+(5) Find the disease ontology IDs for cancer tissues with a corresponding uberon anatomical ID of UBERON:0002048.
+(6) Retrieve the Disease Ontology (DOID) from the table cancer_tissue where the Uberon anatomical identifier is "UBERON:0002048".
+(7) What is the disease ontology ID for cancer tissues with the Uberon anatomical identifier UBERON:0002048?
+
+
+Re-ranked choices:
+7.724  Retrieve the disease ontology ID for cancer from the cancer tissue table where the Uberon anatomical ID is "UBERON:0002048".
+6.328  Get the Disease Ontology ID for cancer tissues where the Uberon anatomical ID is equal to "UBERON:0002048".
+5.624  What is the disease ontology ID for cancer tissues with the Uberon anatomical identifier UBERON:0002048?
+5.624  Find the disease ontology IDs for cancer tissues with a corresponding uberon anatomical ID of UBERON:0002048.
+4.924  Find the disease identifier from the cancer tissue database where the anatomical identifier is "UBERON:0002048".
+4.923  Retrieve the disease ontology ID (doid) from the cancer_tissue table for tissues with the Uberon anatomical ID "UBERON:0002048".
+3.520  Retrieve the Disease Ontology (DOID) from the table cancer_tissue where the Uberon anatomical identifier is "UBERON:0002048".
+3.518  Retrieve the disease ontology identifier (DOID) from cancer_tissue where the Uberon anatomical identifier is "UBERON:0002048".
+

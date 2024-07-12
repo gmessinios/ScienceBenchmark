@@ -1,0 +1,28 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id = 11054
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id = 11054
+GPT-3 choices:
+(0) What is the uberon anatomical ID associated with disease mutation ID 11054 in the disease mutation tissue table?
+(1) What is the anatomical ID associated with the disease-mutation-tissue entry where the disease-mutation ID is 11054?
+(2) Retrieve the anatomical ID associated with a disease-mutation-tissue record where the disease mutation ID is 11054.
+(3) What is the uberon anatomical ID for a tissue associated with the disease mutation with an ID of 11054?
+(4) Get the anatomical ID from the tissue associated with disease mutation 11054 in the disease_mutation_tissue table.
+(5) Retrieve the uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is 11054.
+(6) Get the uberon anatomical id from the disease mutation tissue table where the disease mutation id is equal to 11054.
+(7) What is the Uberon anatomical ID for the disease-mutation-tissue record with the disease-mutation ID of 11054?
+
+
+Re-ranked choices:
+8.429  What is the uberon anatomical ID for a tissue associated with the disease mutation with an ID of 11054?
+8.427  Retrieve the uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is 11054.
+8.423  Get the uberon anatomical id from the disease mutation tissue table where the disease mutation id is equal to 11054.
+8.422  What is the uberon anatomical ID associated with disease mutation ID 11054 in the disease mutation tissue table?
+7.021  Get the anatomical ID from the tissue associated with disease mutation 11054 in the disease_mutation_tissue table.
+5.621  Retrieve the anatomical ID associated with a disease-mutation-tissue record where the disease mutation ID is 11054.
+4.223  What is the Uberon anatomical ID for the disease-mutation-tissue record with the disease-mutation ID of 11054?
+2.819  What is the anatomical ID associated with the disease-mutation-tissue entry where the disease-mutation ID is 11054?
+

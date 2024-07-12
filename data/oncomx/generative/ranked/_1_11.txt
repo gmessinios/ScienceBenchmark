@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.approved_indication FROM biomarker_fda_test_use AS biomarker_fda_test_use JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_use.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.test_adoption_evidence = "clinical use"
+
+###
+
+
+Original Query:
+SELECT T1.approved_indication FROM biomarker_fda_test_use AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_adoption_evidence = "clinical use"
+GPT-3 choices:
+(0) Retrieve the approved indications for all biomarker tests that have been adopted for clinical use, joining data from the "biomarker_fda_test_use" and "biomarker_fda_test" tables where the test trade names match.
+(1) Find the approved indication for biomarkers that are currently in clinical use, by joining the biomarker_fda_test_use and biomarker_fda_test tables and selecting the approved indication from the biomarker_fda_test_use table.
+(2) Get the approved indication from the biomarker_fda_test_use table where the test trade name matches between biomarker_fda_test_use and biomarker_fda_test, and where the test adoption evidence in biomarker_fda_test is "clinical use".
+(3) Retrieve the approved indications for clinical use of biomarker tests from both the biomarker_fda_test and biomarker_fda_test_use tables, based on their matching test trade names.
+(4) What are the approved indications for biomarker tests with evidence of clinical use according to the FDA and trade name?
+(5) Get the approved indications from biomarker_fda_test_use for all tests that have a test adoption evidence of "clinical use" in biomarker_fda_test.
+(6) What are the approved indications for biomarker tests that have been adopted for clinical use by the FDA?
+(7) What are the approved indications for biomarker tests that have been adopted for clinical use, based on data from both the biomarker_fda_test_use and biomarker_fda_test tables?
+
+
+Re-ranked choices:
+11.915  Get the approved indication from the biomarker_fda_test_use table where the test trade name matches between biomarker_fda_test_use and biomarker_fda_test, and where the test adoption evidence in biomarker_fda_test is "clinical use".
+9.127  What are the approved indications for biomarker tests with evidence of clinical use according to the FDA and trade name?
+8.420  Retrieve the approved indications for clinical use of biomarker tests from both the biomarker_fda_test and biomarker_fda_test_use tables, based on their matching test trade names.
+7.721  Get the approved indications from biomarker_fda_test_use for all tests that have a test adoption evidence of "clinical use" in biomarker_fda_test.
+6.318  Retrieve the approved indications for all biomarker tests that have been adopted for clinical use, joining data from the "biomarker_fda_test_use" and "biomarker_fda_test" tables where the test trade names match.
+4.937  What are the approved indications for biomarker tests that have been adopted for clinical use by the FDA?
+4.220  What are the approved indications for biomarker tests that have been adopted for clinical use, based on data from both the biomarker_fda_test_use and biomarker_fda_test tables?
+3.514  Find the approved indication for biomarkers that are currently in clinical use, by joining the biomarker_fda_test_use and biomarker_fda_test tables and selecting the approved indication from the biomarker_fda_test_use table.
+

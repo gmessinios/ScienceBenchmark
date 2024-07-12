@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.segue2_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.veldisperr = 35.67467 and Spectroscopic_objects.scienceprimary = 1
+
+###
+
+
+Original Query:
+SELECT T1.segue2_target1 FROM specobj AS T1 WHERE T1.veldisperr = 35.67467 and T1.scienceprimary = 1
+GPT-3 choices:
+(0) Retrieve the Segue2_target1 value from the Spectroscopic_objects table where the veldisperr column is equal to 35.67467 and the scienceprimary column is equal to 1.
+(1) What is the target1 from Spectroscopic_objects where the veldisperr is 35.67467 and scienceprimary is equal to 1?
+(2) Retrieve the target 1 name of objects in the spectroscopic catalog with a velocity dispersion error of 35.67467 and marked as science primary.
+(3) Retrieve the target1 values from the segue2 dataset for all objects with a velocity dispersion error of 35.67467 and are designated as primary science targets.
+(4) Find the segue2_target1 value from the specobj table for objects with a veldisperr of 35.67467 and scienceprimary equal to 1.
+(5) Select the segue2_target1 values from the specobj table where veldisperr is equal to 35.67467 and scienceprimary is equal to 1.
+(6) Find the segue2_target1 of all objects in the specobj table where veldisperr is equal to 35.67467 and scienceprimary is equal to 1.
+(7) Find the target for SEGUE2 primary science objects with a velocity dispersion error of 35.67467.
+
+
+Re-ranked choices:
+8.432  Retrieve the target1 values from the segue2 dataset for all objects with a velocity dispersion error of 35.67467 and are designated as primary science targets.
+8.429  Find the target for SEGUE2 primary science objects with a velocity dispersion error of 35.67467.
+5.633  Retrieve the target 1 name of objects in the spectroscopic catalog with a velocity dispersion error of 35.67467 and marked as science primary.
+1.432  Find the segue2_target1 of all objects in the specobj table where veldisperr is equal to 35.67467 and scienceprimary is equal to 1.
+1.429  Find the segue2_target1 value from the specobj table for objects with a veldisperr of 35.67467 and scienceprimary equal to 1.
+0.735  What is the target1 from Spectroscopic_objects where the veldisperr is 35.67467 and scienceprimary is equal to 1?
+0.727  Retrieve the Segue2_target1 value from the Spectroscopic_objects table where the veldisperr column is equal to 35.67467 and the scienceprimary column is equal to 1.
+0.029  Select the segue2_target1 values from the specobj table where veldisperr is equal to 35.67467 and scienceprimary is equal to 1.
+

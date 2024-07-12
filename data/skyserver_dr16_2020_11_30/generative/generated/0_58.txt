@@ -1,0 +1,16 @@
+SELECT Photometric_objects.mode FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_u = 14.40202
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM photoobj AS T1 WHERE T1.cmodelmag_u = 14.40202
+GPT-3 choices:
+(0) Get the mode from the "Photometric_objects" table for all objects where the u-band cmodel magnitude is equal to 14.40202.
+(1) Retrieve the mode of all photometric objects with a cmodelmag_u value of 14.40202 from the photoobj table.
+(2) What is the mode of the photometric objects with a cmodel magnitude in the u band equal to 14.40202?
+(3) Find the mode of photometric objects where the cmodel magnitude in the u band is equal to 14.40202.
+(4) Find the mode value for the "mode" column in the table "photoobj" where the "cmodelmag_u" column equals 14.40202 for the object named "Photometric_objects."
+(5) Find the mode of Photometric_objects from the photoobj table where the cmodelmag_u value is 14.40202.
+(6) Find the mode of Photometric objects where the cmodel magnitude in the u-band is 14.40202 from the photoobj table.
+(7) Retrieve the mode from the Photometric_objects table where the cmodelmag_u value is 14.40202 in the photoobj table.

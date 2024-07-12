@@ -1,0 +1,27 @@
+SELECT biomarker_edrn.biomarker_title FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.id = "EDRN00449" and biomarker_edrn.phase = "Two"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_title FROM biomarker_edrn AS T1 WHERE T1.id = "EDRN00449" and T1.phase = "Two"
+GPT-3 choices:
+(0) What is the title of the biomarker with an ID of "EDRN00449" and a phase of "Two" in the EDRN database?
+(1) What is the title of biomarker in the EDRN database with ID "EDRN00449" and a phase of "Two"?
+(2) What is the title of the biomarker with the ID "EDRN00449" and phase "Two" in the EDRN database?
+(3) Retrieve the title of the biomarker with an ID of "EDRN00449" and a phase of "Two".
+(4) What is the biomarker title for the biomarker with the ID "EDRN00449" and a phase of "Two"?
+(5) What is the biomarker title for the biomarker with ID EDRN00449 and phase Two in the EDRN database?
+(6) What is the title of the biomarker with the ID "EDRN00449" and phase "Two" in the EDRN database?
+(7) Retrieve the title of the biomarker with an ID of "EDRN00449" and a phase of "Two" from the biomarker_edrn table in the edrn database.
+
+
+Re-ranked choices:
+8.445  What is the title of the biomarker with an ID of "EDRN00449" and a phase of "Two" in the EDRN database?
+8.445  What is the title of biomarker in the EDRN database with ID "EDRN00449" and a phase of "Two"?
+8.445  What is the title of the biomarker with the ID "EDRN00449" and phase "Two" in the EDRN database?
+8.445  What is the biomarker title for the biomarker with ID EDRN00449 and phase Two in the EDRN database?
+8.427  Retrieve the title of the biomarker with an ID of "EDRN00449" and a phase of "Two" from the biomarker_edrn table in the edrn database.
+7.062  Retrieve the title of the biomarker with an ID of "EDRN00449" and a phase of "Two".
+7.058  What is the biomarker title for the biomarker with the ID "EDRN00449" and a phase of "Two"?
+

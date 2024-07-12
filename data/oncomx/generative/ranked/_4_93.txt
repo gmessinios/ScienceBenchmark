@@ -1,0 +1,27 @@
+SELECT count(*) FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_submission = "K062706"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test_trial AS T1 WHERE T1.test_submission = "K062706"
+GPT-3 choices:
+(0) How many biomarker FDA test trials have a test submission number of "K062706"?
+(1) How many entries are there in the biomarker_fda_test_trial table where the test_submission column is "K062706"?
+(2) How many biomarker test submissions are associated with the FDA trial "K062706"?
+(3) How many entries are there in the biomarker_fda_test_trial table where the test_submission column is "K062706"?
+(4) How many rows are in the biomarker_fda_test_trial table where test_submission is equal to "K062706"?
+(5) How many test submissions are in the biomarker FDA test trial table with the code "K062706"?
+(6) How many rows are there in the "biomarker_fda_test_trial" table where the test_submission value is equal to "K062706"?
+(7) How many rows are in the biomarker_fda_test_trial table where the test_submission column is equal to "K062706"?
+
+
+Re-ranked choices:
+6.350  How many biomarker FDA test trials have a test submission number of "K062706"?
+6.350  How many test submissions are in the biomarker FDA test trial table with the code "K062706"?
+6.333  How many biomarker test submissions are associated with the FDA trial "K062706"?
+0.731  How many rows are there in the "biomarker_fda_test_trial" table where the test_submission value is equal to "K062706"?
+0.731  How many rows are in the biomarker_fda_test_trial table where test_submission is equal to "K062706"?
+0.729  How many rows are in the biomarker_fda_test_trial table where the test_submission column is equal to "K062706"?
+0.727  How many entries are there in the biomarker_fda_test_trial table where the test_submission column is "K062706"?
+

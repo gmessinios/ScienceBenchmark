@@ -1,0 +1,28 @@
+SELECT biomarker.test_is_a_panel FROM biomarker AS biomarker WHERE biomarker.gene_symbol = "EGLN1"
+
+###
+
+
+Original Query:
+SELECT T1.test_is_a_panel FROM biomarker AS T1 WHERE T1.gene_symbol = "EGLN1"
+GPT-3 choices:
+(0) What is the value of the test_is_a_panel column for the biomarker with a gene symbol of "EGLN1" in the biomarker table?
+(1) What is the test_is_a_panel value for the biomarker with a gene symbol of EGLN1 in the biomarker table?
+(2) Retrieve the test_is_a_panel value for biomarkers where the gene_symbol is "EGLN1".
+(3) "Retrieve the value of the 'test_is_a_panel' column from the 'biomarker' table where the gene symbol is 'EGLN1'."
+(4) What is the test_is_a_panel for the biomarker EGLN1 in the biomarker table?
+(5) "Retrieve the test_is_a_panel value from biomarker where gene_symbol is equal to EGLN1."
+(6) Retrieve whether or not the test associated with the biomarker "EGLN1" is a panel from the biomarker table.
+(7) What is the value of "test_is_a_panel" for the biomarker with a gene symbol of "EGLN1"?
+
+
+Re-ranked choices:
+7.754  What is the value of "test_is_a_panel" for the biomarker with a gene symbol of "EGLN1"?
+7.737  What is the test_is_a_panel value for the biomarker with a gene symbol of EGLN1 in the biomarker table?
+7.733  What is the value of the test_is_a_panel column for the biomarker with a gene symbol of "EGLN1" in the biomarker table?
+7.730  Retrieve whether or not the test associated with the biomarker "EGLN1" is a panel from the biomarker table.
+6.334  "Retrieve the value of the 'test_is_a_panel' column from the 'biomarker' table where the gene symbol is 'EGLN1'."
+3.554  What is the test_is_a_panel for the biomarker EGLN1 in the biomarker table?
+2.844  "Retrieve the test_is_a_panel value from biomarker where gene_symbol is equal to EGLN1."
+2.147  Retrieve the test_is_a_panel value for biomarkers where the gene_symbol is "EGLN1".
+

@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people AS people JOIN projects AS projects ON people.unics_id = projects.principal_investigator WHERE projects.unics_id != 144686
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 JOIN projects AS T2 ON T1.unics_id = T2.principal_investigator WHERE T2.unics_id != 144686
+GPT-3 choices:
+(0) "Retrieve the full names of all people who are not the principal investigator on project 144686."
+(1) Get the full names of all people who are principal investigators for projects, except for the one with a UNICS ID of 144686.
+(2) List the full names of people who are principal investigators on projects other than project ID 144686.
+(3) Retrieve the full names of people who are not the principal investigator on project with an ID of 144686, by joining the "people" and "projects" tables on their UNICS IDs.
+(4) Get the full names of all people who are principal investigators on projects, excluding the one with a UNICS ID of 144686.
+(5) Get the full names of people who are not the principal investigator for a project with an ID of 144686, and are associated with that project as either collaborators or co-investigators.
+(6) List the full names of people who are not the principal investigator for project with a UNICS ID of 144686, and are also associated with projects as well as their corresponding UNICS IDs.
+(7) List the full names of people who are the principal investigator for a project, except for those with a UNICS ID of 144686.

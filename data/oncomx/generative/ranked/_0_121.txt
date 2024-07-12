@@ -1,0 +1,28 @@
+SELECT stage.id FROM stage AS stage WHERE stage.name = "7 weeks (mouse)"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM stage AS T1 WHERE T1.name = "7 weeks (mouse)"
+GPT-3 choices:
+(0) Retrieve the ID from the stage table for a stage with the name "7 weeks (mouse)".
+(1) Retrieve the id of the stage with a name of "7 weeks (mouse)" from the stage table.
+(2) Retrieve the ID of the stage from the "stage" table where the name is "7 weeks (mouse)".
+(3) Find the ID of the stage that has a name of "7 weeks (mouse)".
+(4) Find the stage ID for the stage with the name "7 weeks (mouse)".
+(5) Retrieve the ID of the stage from the "stage" table where the stage name is "7 weeks (mouse)".
+(6) Find the stage ID from the table "stage" where the name is "7 weeks (mouse)".
+(7) Find the id for a stage where the name is "7 weeks (mouse)".
+
+
+Re-ranked choices:
+5.831  Find the stage ID for the stage with the name "7 weeks (mouse)".
+5.776  Find the ID of the stage that has a name of "7 weeks (mouse)".
+5.730  Find the id for a stage where the name is "7 weeks (mouse)".
+5.694  Find the stage ID from the table "stage" where the name is "7 weeks (mouse)".
+5.683  Retrieve the ID from the stage table for a stage with the name "7 weeks (mouse)".
+5.675  Retrieve the ID of the stage from the "stage" table where the name is "7 weeks (mouse)".
+5.668  Retrieve the ID of the stage from the "stage" table where the stage name is "7 weeks (mouse)".
+5.660  Retrieve the id of the stage with a name of "7 weeks (mouse)" from the stage table.
+

@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code = "DT-NMBP-23-2020" and topics.title = "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code = "DT-NMBP-23-2020" and T1.title = "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system"
+GPT-3 choices:
+(0) Retrieve the Research Council Number from the Topics table where the topic code is "DT-NMBP-23-2020" and the title is "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system".
+(1) Find the research council number for the topic "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system" with code "DT-NMBP-23-2020".
+(2) Retrieve the research call number from the topics table where the code is "DT-NMBP-23-2020" and the title is "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system".
+(3) Retrieve the RCN (Reference Control Number) from the table "topics" where the code is equal to "DT-NMBP-23-2020" and the title is equal to "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system".
+(4) Find the research collaboration RCN number for topics that have a code of "DT-NMBP-23-2020" and a title of "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system".
+(5) Retrieve the RCN from topics where the code is "DT-NMBP-23-2020" and the title is "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system".
+(6) What is the unique RCN of the topic with a code of "DT-NMBP-23-2020" and a title of "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system"?
+(7) Retrieve the research topic number for the topic titled "ERA-NET: Sustained collaboration of national and regional programmes in research on brain-related diseases and disorders of the nervous system" under code "DT-NMBP-23-2020".

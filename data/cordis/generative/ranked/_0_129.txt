@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.nuts_version = "2021"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.nuts_version = "2021"
+GPT-3 choices:
+(0) Get the geocode regions from the EU territorial units table where the NUTS version is equal to "2021".
+(1) Find the geographic codes for all regions in the European Union using 2021 as the nuts version.
+(2) Retrieve the geocode_regions from the eu_territorial_units table where the nuts_version is equal to "2021".
+(3) Retrieve the geocode regions from the EU territorial units table where the nuts version is 2021.
+(4) Find the geocode regions from EU territorial units where the nuts version is equal to 2021.
+(5) Retrieve the geocode regions from the EU territorial units where the nuts version is "2021".
+(6) Retrieve the geocode regions from the European Territorial Units table where the NUTS version is "2021".
+(7) Retrieve the geocode_regions data from the EU territorial units table for all regions where the nuts_version is "2021".
+
+
+Re-ranked choices:
+9.842  Find the geocode regions from EU territorial units where the nuts version is equal to 2021.
+9.837  Get the geocode regions from the EU territorial units table where the NUTS version is equal to "2021".
+9.837  Retrieve the geocode regions from the EU territorial units where the nuts version is "2021".
+9.836  Retrieve the geocode regions from the EU territorial units table where the nuts version is 2021.
+8.432  Retrieve the geocode regions from the European Territorial Units table where the NUTS version is "2021".
+5.629  Retrieve the geocode_regions data from the EU territorial units table for all regions where the nuts_version is "2021".
+2.834  Find the geographic codes for all regions in the European Union using 2021 as the nuts version.
+0.025  Retrieve the geocode_regions from the eu_territorial_units table where the nuts_version is equal to "2021".
+

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.specimen_type FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_trade_name = "MammaPrint"
+
+###
+
+
+Original Query:
+SELECT T1.specimen_type FROM biomarker_fda_test AS T1 WHERE T1.test_trade_name = "MammaPrint"
+GPT-3 choices:
+(0) What is the specimen type for the MammaPrint FDA test in the biomarker_fda_test table?
+(1) Retrieve the specimen type for the MammaPrint test from the biomarker FDA testing database.
+(2) What specimen type is required for the MammaPrint FDA test?
+(3) What is the specimen type associated with the test trade name "MammaPrint" in the biomarker FDA test database?
+(4) Which specimen type is associated with the test trade name "MammaPrint" in the biomarker_fda_test table?
+(5) What is the specimen type for the biomarker test with a trade name of "MammaPrint"?
+(6) What is the specimen type for the FDA test of "MammaPrint"?
+(7) What is the specimen type for the MammaPrint test in the biomarker_fda_test table?

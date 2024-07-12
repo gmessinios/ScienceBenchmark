@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.ensembl_gene_id = "ENSG00000048140" or xref_gene_ensembl.gene_symbol = "1700030C14Rik"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.ensembl_gene_id = "ENSG00000048140" or T1.gene_symbol = "1700030C14Rik"
+GPT-3 choices:
+(0) Get the species ID for the gene "ENSG00000048140" or gene symbol "1700030C14Rik" from the xref_gene_ensembl table.
+(1) What is the species ID for the gene with an Ensembl gene ID of "ENSG00000048140" or a gene symbol of "1700030C14Rik" in the xref_gene_ensembl table?
+(2) Find the species ID from the table containing gene and Ensembl cross-references where either the Ensembl gene ID is equal to "ENSG00000048140" or the gene symbol is equal to "1700030C14Rik".
+(3) Find the species ID for the gene with an Ensembl gene ID of "ENSG00000048140" or a gene symbol of "1700030C14Rik" in the table xref_gene_ensembl.
+(4) Retrieve the species ID from the xref_gene_ensembl table where either the ensembl gene ID is equal to "ENSG00000048140" or the gene symbol is equal to "1700030C14Rik".
+(5) Retrieve the species ID from the table xref_gene_ensembl for the gene with an Ensembl gene ID of "ENSG00000048140" or a gene symbol of "1700030C14Rik".
+(6) Retrieve the species ID from the xref_gene_ensembl table for the gene with an Ensembl gene ID of "ENSG00000048140" or a gene symbol of "1700030C14Rik".
+(7) Get the species ID from the xref_gene_ensembl table where either the ensembl gene ID is "ENSG00000048140" or the gene symbol is "1700030C14Rik".

@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.veldisperr FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.mjd DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.veldisperr FROM specobj AS T1    ORDER BY T1.mjd DESC LIMIT 1
+GPT-3 choices:
+(0) Get the velocity dispersion error from the most recent spectroscopic object in descending order of modified Julian date.
+(1) What is the velocity dispersion error of the latest spectroscopic object?
+(2) Retrieve the velocity dispersion error for the most recent spectroscopic object in the specobj table, ordered by modified Julian date and limited to one result.
+(3) Get the velocity dispersion error from the most recent spectroscopic object in the specobj table, ordered by modified Julian date and limited to 1 result.
+(4) Get the velocity dispersion error from the latest entry in the specobj table for all spectroscopic objects, sorted by date in descending order, with a limit of one.
+(5) What is the velocity dispersion error for the most recent spectroscopic object in the specobj table?
+(6) "Retrieve the velocity dispersion error from the most recent spectroscopic object in descending order by modified Julian date, with a limit of one."
+(7) Find the velocity dispersion error from the most recent spectroscopic object in the table, sorted by modified Julian date, limited to 1.
+
+
+Re-ranked choices:
+7.718  Retrieve the velocity dispersion error for the most recent spectroscopic object in the specobj table, ordered by modified Julian date and limited to one result.
+7.718  Get the velocity dispersion error from the most recent spectroscopic object in the specobj table, ordered by modified Julian date and limited to 1 result.
+6.321  Find the velocity dispersion error from the most recent spectroscopic object in the table, sorted by modified Julian date, limited to 1.
+6.321  "Retrieve the velocity dispersion error from the most recent spectroscopic object in descending order by modified Julian date, with a limit of one."
+6.320  Get the velocity dispersion error from the latest entry in the specobj table for all spectroscopic objects, sorted by date in descending order, with a limit of one.
+5.622  Get the velocity dispersion error from the most recent spectroscopic object in descending order of modified Julian date.
+4.224  What is the velocity dispersion error of the latest spectroscopic object?
+4.223  What is the velocity dispersion error for the most recent spectroscopic object in the specobj table?
+

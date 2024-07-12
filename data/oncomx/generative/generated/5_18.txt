@@ -1,0 +1,16 @@
+SELECT disease_mutation.mutation_freq FROM disease_mutation AS disease_mutation    ORDER BY disease_mutation.id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.mutation_freq FROM disease_mutation AS T1    ORDER BY T1.id DESC LIMIT 1
+GPT-3 choices:
+(0) What is the frequency of mutations listed in the "disease_mutation" table, ordered from highest to lowest, and limited to only the most recent entry?
+(1) What is the mutation frequency of the most recent entry in the disease_mutation table?
+(2) "Retrieve the mutation frequency from the most recent entry in the disease_mutation table, ordered by id in descending order, limited to 1."
+(3) Get the frequency of mutations in the most recent entry in the "disease_mutation" table, sorted by descending order of ID, and only return the top result.
+(4) Retrieve the mutation frequency from the latest entry in the table "disease_mutation", sorted by ID in descending order, limited to only one result.
+(5) Get the mutation frequency of the latest entry in the disease_mutation table.
+(6) What is the frequency of mutations in the most recent entry in the "disease_mutation" table?
+(7) Retrieve the mutation frequency from the most recent record in the table "disease_mutation", ordered by ID in descending order, limited to 1 result.

@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.title = "Evaluation"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.title = "Evaluation"
+GPT-3 choices:
+(0) What is the description of the subject area with the title "Evaluation"?
+(1) Find the description for the subject area with a title of "Evaluation" in the subject_areas table.
+(2) Retrieve the description of the subject area "Evaluation" from the table "subject_areas".
+(3) Retrieve the description from the subject_areas table where the title is "Evaluation".
+(4) What is the description for the subject area with a title of "Evaluation"?
+(5) What is the description for the subject area "Evaluation" in the table "subject_areas"?
+(6) What is the description of the subject area with the title "Evaluation"?
+(7) What is the description of the subject area with the title "Evaluation"?

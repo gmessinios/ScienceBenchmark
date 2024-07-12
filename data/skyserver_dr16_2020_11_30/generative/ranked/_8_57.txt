@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid != 1237645876861468766
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.neighborobjid != 1237645876861468766
+GPT-3 choices:
+(0) Get the type of objects that are nearest neighbors to the object with ID 1237645876861468766.
+(1) Find the type of all objects that are nearest neighbors to object 1237645876861468766.
+(2) Find the type of all nearest neighbor objects, excluding the one with ID 1237645876861468766.
+(3) "Retrieve the type of all objects that are nearest neighbors to an object with ID 1237645876861468766."
+(4) What is the type of all nearest neighbor objects, excluding the object with ID 1237645876861468766?
+(5) Retrieve the type of all objects that are nearest neighbours to the object with ID 1237645876861468766.
+(6) "Get the type of objects that are neighbors to object with ID 1237645876861468766 from the table 'neighbors'."
+(7) Get the type of all objects that are neighbors of an object with the ID 1237645876861468766.
+
+
+Re-ranked choices:
+5.662  Get the type of all objects that are neighbors of an object with the ID 1237645876861468766.
+5.654  Get the type of objects that are nearest neighbors to the object with ID 1237645876861468766.
+5.650  "Retrieve the type of all objects that are nearest neighbors to an object with ID 1237645876861468766."
+5.647  "Get the type of objects that are neighbors to object with ID 1237645876861468766 from the table 'neighbors'."
+5.644  What is the type of all nearest neighbor objects, excluding the object with ID 1237645876861468766?
+5.643  Retrieve the type of all objects that are nearest neighbours to the object with ID 1237645876861468766.
+4.262  Find the type of all objects that are nearest neighbors to object 1237645876861468766.
+4.247  Find the type of all nearest neighbor objects, excluding the one with ID 1237645876861468766.
+

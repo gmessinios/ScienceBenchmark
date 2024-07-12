@@ -1,0 +1,28 @@
+SELECT biomarker_fda_drug.biomarker_fda_id FROM biomarker_fda_drug AS biomarker_fda_drug JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_drug.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_trade_name != "Oncomine Dx Target Test"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_drug AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_trade_name != "Oncomine Dx Target Test"
+GPT-3 choices:
+(0) Retrieve the biomarker FDA ID from the biomarker FDA drug table for all entries where the associated biomarker FDA has a test trade name that is not "Oncomine Dx Target Test".
+(1) Get the biomarker FDA IDs from the "biomarker_fda_drug" table where the corresponding biomarker FDA's test trade name is not "Oncomine Dx Target Test" in the "biomarker_fda" table.
+(2) Find the biomarker FDA ID for all biomarker FDA drugs where the test trade name is not "Oncomine Dx Target Test".
+(3) Get the FDA biomarker IDs for all drugs that are associated with a biomarker and have a test trade name different from "Oncomine Dx Target Test".
+(4) Find all biomarker FDA IDs from the table "biomarker_fda_drug" where the corresponding biomarker FDA test trade name is not "Oncomine Dx Target Test".
+(5) Retrieve all biomarker FDA IDs from the "biomarker_fda_drug" table where the associated biomarker FDA's test trade name is not "Oncomine Dx Target Test".
+(6) Retrieve the FDA biomarker IDs for biomarker and drug combinations where the associated FDA biomarker has a trade name that is not "Oncomine Dx Target Test".
+(7) "Retrieve the biomarker FDA IDs from the biomarker FDA drug table where the corresponding test trade name in the biomarker FDA table is not "Oncomine Dx Target Test"."
+
+
+Re-ranked choices:
+11.920  Retrieve the biomarker FDA ID from the biomarker FDA drug table for all entries where the associated biomarker FDA has a test trade name that is not "Oncomine Dx Target Test".
+10.534  Find the biomarker FDA ID for all biomarker FDA drugs where the test trade name is not "Oncomine Dx Target Test".
+10.521  Retrieve the FDA biomarker IDs for biomarker and drug combinations where the associated FDA biomarker has a trade name that is not "Oncomine Dx Target Test".
+10.519  "Retrieve the biomarker FDA IDs from the biomarker FDA drug table where the corresponding test trade name in the biomarker FDA table is not "Oncomine Dx Target Test"."
+9.123  Get the FDA biomarker IDs for all drugs that are associated with a biomarker and have a test trade name different from "Oncomine Dx Target Test".
+9.121  Find all biomarker FDA IDs from the table "biomarker_fda_drug" where the corresponding biomarker FDA test trade name is not "Oncomine Dx Target Test".
+9.120  Retrieve all biomarker FDA IDs from the "biomarker_fda_drug" table where the associated biomarker FDA's test trade name is not "Oncomine Dx Target Test".
+9.118  Get the biomarker FDA IDs from the "biomarker_fda_drug" table where the corresponding biomarker FDA's test trade name is not "Oncomine Dx Target Test" in the "biomarker_fda" table.
+

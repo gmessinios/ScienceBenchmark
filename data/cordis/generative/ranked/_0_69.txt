@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.parent = "ENV.3.1."
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.parent = "ENV.3.1."
+GPT-3 choices:
+(0) Retrieve the RCN value from the "programmes" table where the parent column is equal to "ENV.3.1.".
+(1) Find the research council numbers for all programmes that have a parent programme with the code "ENV.3.1.".
+(2) Get the RCN of all programmes from the table "programmes" where the parent is equal to "ENV.3.1.".
+(3) Find the RCN of all programmes where the parent is "ENV.3.1.".
+(4) Retrieve the RCN from the Programmes table where the parent column is equal to "ENV.3.1.".
+(5) What is the Research Council Number of all programmes that have a parent code of "ENV.3.1."?
+(6) Get the rcn values from the programmes table where the parent value is equal to "ENV.3.1.".
+(7) Find the research project reference number from the "programmes" table where the parent column is equal to "ENV.3.1.".
+
+
+Re-ranked choices:
+4.260  Find the RCN of all programmes where the parent is "ENV.3.1.".
+4.238  Retrieve the RCN from the Programmes table where the parent column is equal to "ENV.3.1.".
+4.237  Retrieve the RCN value from the "programmes" table where the parent column is equal to "ENV.3.1.".
+4.236  Get the RCN of all programmes from the table "programmes" where the parent is equal to "ENV.3.1.".
+4.233  Get the rcn values from the programmes table where the parent value is equal to "ENV.3.1.".
+2.837  What is the Research Council Number of all programmes that have a parent code of "ENV.3.1."?
+2.831  Find the research council numbers for all programmes that have a parent programme with the code "ENV.3.1.".
+2.830  Find the research project reference number from the "programmes" table where the parent column is equal to "ENV.3.1.".
+

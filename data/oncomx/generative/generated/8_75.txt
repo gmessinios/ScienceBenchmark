@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.ensembl_gene_id FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.speciesid != 9606
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id FROM xref_gene_ensembl AS T1 WHERE T1.speciesid != 9606
+GPT-3 choices:
+(0) Return the Ensembl gene ID from the xref_gene_ensembl table where the species ID is not equal to 9606.
+(1) Retrieve the Ensembl gene ID from the table xref_gene_ensembl for all entries where the species ID is not equal to 9606.
+(2) What is the Ensembl gene ID for species other than Homo sapiens in the xref_gene_ensembl table?
+(3) Retrieve the Ensembl gene IDs from the Xref Gene Ensembl table for all species except for 9606.
+(4) Get the Ensembl gene ID for all genes in the xref_gene_ensembl table where the species ID is not equal to 9606.
+(5) Find the Ensembl gene IDs for all species except human in the xref_gene_ensembl table.
+(6) Retrieve the Ensembl gene ID from the table "xref_gene_ensembl" where the species ID is not equal to 9606.
+(7) Find the Ensembl gene IDs from the xref_gene_ensembl table for species that are not 9606.

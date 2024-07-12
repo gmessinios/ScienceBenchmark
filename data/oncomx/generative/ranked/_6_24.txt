@@ -1,0 +1,28 @@
+SELECT differential_expression.subjects_up FROM differential_expression AS differential_expression WHERE differential_expression.subjects_nochange = 48 and differential_expression.expression_change_direction = "down"
+
+###
+
+
+Original Query:
+SELECT T1.subjects_up FROM differential_expression AS T1 WHERE T1.subjects_nochange = 48 and T1.expression_change_direction = "down"
+GPT-3 choices:
+(0) Find the number of subjects that had an expression change in a downward direction and no change for a total of 48 subjects in a table called differential_expression.
+(1) Retrieve the number of subjects that have an expression change direction of "down" and 48 subjects with no change from a table called differential_expression.
+(2) What are the subjects that have an upregulated differential expression and a total of 48 subjects with no change in expression?
+(3) Find the number of subjects whose expression did not change and whose expression changed in the downward direction in the table "differential_expression" where there are 48 subjects.
+(4) Retrieve the number of subjects that have an expression change direction of "down" and a subject count of 48 from the table differential_expression.
+(5) Retrieve the number of subjects that have decreased expression and a total of 48 subjects with no change in expression from the table "differential_expression".
+(6) Find the number of subjects whose expression was decreased and did not change in a differential expression study where there were 48 total subjects.
+(7) Retrieve the number of subjects whose expression did not change and changed in the downward direction from the differential_expression table.
+
+
+Re-ranked choices:
+6.324  Retrieve the number of subjects that have an expression change direction of "down" and 48 subjects with no change from a table called differential_expression.
+6.322  Retrieve the number of subjects that have an expression change direction of "down" and a subject count of 48 from the table differential_expression.
+5.626  Find the number of subjects whose expression was decreased and did not change in a differential expression study where there were 48 total subjects.
+5.622  Retrieve the number of subjects whose expression did not change and changed in the downward direction from the differential_expression table.
+5.622  What are the subjects that have an upregulated differential expression and a total of 48 subjects with no change in expression?
+5.622  Find the number of subjects whose expression did not change and whose expression changed in the downward direction in the table "differential_expression" where there are 48 subjects.
+5.621  Find the number of subjects that had an expression change in a downward direction and no change for a total of 48 subjects in a table called differential_expression.
+4.222  Retrieve the number of subjects that have decreased expression and a total of 48 subjects with no change in expression from the table "differential_expression".
+

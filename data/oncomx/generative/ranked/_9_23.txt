@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.test_submission FROM biomarker_fda_test_use AS biomarker_fda_test_use JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_use.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.platform_method != "D, S"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test_use AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.platform_method != "D, S"
+GPT-3 choices:
+(0) Get the submission information from the FDA biomarker test use table where the test trade name in the use table is equal to the test trade name in the FDA biomarker test table and the platform method in the FDA biomarker test table is not "D, S".
+(1) Find the test submissions from the biomarker FDA test use table where the corresponding test trade name in the biomarker FDA test table has a platform method that is not equal to "D, S".
+(2) Retrieve the test submission from the biomarker_fda_test_use table for all test trade names in the biomarker_fda_test table where the platform method is not equal to "D, S".
+(3) Find the test submissions from biomarker_fda_test_use where the platform method is not equal to "D, S" and the test_trade_name matches between biomarker_fda_test_use and biomarker_fda_test.
+(4) Find the test submissions for all biomarkers from the FDA that are not using D or S platform methods.
+(5) Find the submission for FDA test use from biomarker fda test where the platform method is not "D, S" by joining biomarker fda test use with biomarker fda test on the trade name.
+(6) Find the test submission from the table biomarker_fda_test_use where the platform method is not equal to "D, S", joined with the table biomarker_fda_test on their test trade names.
+(7) Get the test submission information from the biomarker FDA test use table, where the platform method in the biomarker FDA test table is not equal to "D, S".
+
+
+Re-ranked choices:
+13.317  Get the submission information from the FDA biomarker test use table where the test trade name in the use table is equal to the test trade name in the FDA biomarker test table and the platform method in the FDA biomarker test table is not "D, S".
+12.621  Find the submission for FDA test use from biomarker fda test where the platform method is not "D, S" by joining biomarker fda test use with biomarker fda test on the trade name.
+11.923  Find the test submissions from the biomarker FDA test use table where the corresponding test trade name in the biomarker FDA test table has a platform method that is not equal to "D, S".
+10.525  Get the test submission information from the biomarker FDA test use table, where the platform method in the biomarker FDA test table is not equal to "D, S".
+8.424  Find the test submission from the table biomarker_fda_test_use where the platform method is not equal to "D, S", joined with the table biomarker_fda_test on their test trade names.
+7.722  Retrieve the test submission from the biomarker_fda_test_use table for all test trade names in the biomarker_fda_test table where the platform method is not equal to "D, S".
+5.642  Find the test submissions for all biomarkers from the FDA that are not using D or S platform methods.
+4.921  Find the test submissions from biomarker_fda_test_use where the platform method is not equal to "D, S" and the test_trade_name matches between biomarker_fda_test_use and biomarker_fda_test.
+

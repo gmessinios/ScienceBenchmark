@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.biomarker_type, count(*) FROM biomarker_edrn AS biomarker_edrn  GROUP BY biomarker_edrn.biomarker_type
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_type, count(*) FROM biomarker_edrn AS T1  GROUP BY T1.biomarker_type
+GPT-3 choices:
+(0) How many biomarker types are there in the biomarker_edrn table and what is the count for each type?
+(1) "How many biomarkers are there for each biomarker type in the EDRN database?"
+(2) How many biomarkers of each type are there in the biomarker_edrn table?
+(3) What is the count of each type of biomarker in the biomarker_edrn table?
+(4) What is the number of biomarkers grouped by their type in the table called "biomarker_edrn" in the database named "biomarker_edrn"?
+(5) How many biomarkers are there for each type in the database?
+(6) Count the number of biomarkers for each biomarker type in the biomarker_edrn table.
+(7) "How many biomarkers are there for each type in the database?"
+
+
+Re-ranked choices:
+4.265  "How many biomarkers are there for each biomarker type in the EDRN database?"
+2.852  What is the count of each type of biomarker in the biomarker_edrn table?
+2.837  Count the number of biomarkers for each biomarker type in the biomarker_edrn table.
+2.128  What is the number of biomarkers grouped by their type in the table called "biomarker_edrn" in the database named "biomarker_edrn"?
+1.503  How many biomarkers are there for each type in the database?
+1.503  "How many biomarkers are there for each type in the database?"
+1.456  How many biomarkers of each type are there in the biomarker_edrn table?
+1.439  How many biomarker types are there in the biomarker_edrn table and what is the count for each type?
+

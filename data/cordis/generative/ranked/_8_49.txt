@@ -1,0 +1,28 @@
+SELECT institutions.geocode_regions_3 FROM institutions AS institutions WHERE institutions.country_id != 213
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions_3 FROM institutions AS T1 WHERE T1.country_id != 213
+GPT-3 choices:
+(0) "Retrieve the geocode regions 3 from institutions where the country ID is not equal to 213."
+(1) What are the geocode regions 3 for institutions that have a country ID different from 213?
+(2) Find the geocode regions 3 for institutions that are not located in country with ID 213.
+(3) Find all the geocode regions 3 for institutions where the country ID is not equal to 213.
+(4) Get the geocode region 3 for all institutions where the country ID is not equal to 213.
+(5) Retrieve the geocode regions 3 for all institutions that are not located in country with ID 213.
+(6) Find all the geocode regions in institutions where the country ID is not equal to 213.
+(7) Find the geocode regions 3 for all institutions except those in country with id number 213.
+
+
+Re-ranked choices:
+8.447  Find all the geocode regions 3 for institutions where the country ID is not equal to 213.
+8.442  "Retrieve the geocode regions 3 from institutions where the country ID is not equal to 213."
+8.442  What are the geocode regions 3 for institutions that have a country ID different from 213?
+8.442  Find the geocode regions 3 for institutions that are not located in country with ID 213.
+8.437  Find the geocode regions 3 for all institutions except those in country with id number 213.
+8.434  Retrieve the geocode regions 3 for all institutions that are not located in country with ID 213.
+7.050  Find all the geocode regions in institutions where the country ID is not equal to 213.
+7.047  Get the geocode region 3 for all institutions where the country ID is not equal to 213.
+

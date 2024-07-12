@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics AS topics WHERE topics.rcn = "703620" and topics.title = "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.rcn = "703620" and T1.title = "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C"
+GPT-3 choices:
+(0) What is the topic code for "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN of 703620 in the topics database?
+(1) Find the code for a topic titled "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN value of 703620 from the table of topics.
+(2) Find the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" in the topics table where the RCN is equal to 703620.
+(3) What is the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with RCN number 703620?
+(4) Find the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN of 703620 in the topics table.
+(5) Retrieve the code for a topic with RCN number 703620 and title "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C".
+(6) What is the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with RCN number 703620 in the topics table?
+(7) What is the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN of 703620?
+
+
+Re-ranked choices:
+9.822  Find the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" in the topics table where the RCN is equal to 703620.
+9.821  Find the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN of 703620 in the topics table.
+9.821  Retrieve the code for a topic with RCN number 703620 and title "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C".
+9.821  What is the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with RCN number 703620 in the topics table?
+9.820  What is the topic code for "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN of 703620 in the topics database?
+8.423  What is the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN of 703620?
+8.422  What is the code for the topic "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with RCN number 703620?
+8.419  Find the code for a topic titled "Innovative Primary and Secondary Electrical Distribution Network for Regional A/C" with an RCN value of 703620 from the table of topics.
+

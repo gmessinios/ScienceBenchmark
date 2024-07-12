@@ -1,0 +1,22 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.zerr = 7.737748e-08
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.zerr = 7.737748e-08
+GPT-3 choices:
+(0) How many Spectroscopic objects have a zerr value of 7.737748e-08 in the specobj table?
+(1) How many spectroscopic objects have a redshift error of 7.737748e-08?
+(2) How many spectroscopic objects have a redshift error of 7.737748e-08?
+(3) How many spectroscopic objects have a redshift error of 7.737748e-08?
+(4) How many spectroscopic objects have a redshift error of 7.737748e-08?
+(5) How many spectroscopic objects have a redshift error of 7.737748e-08?
+(6) How many spectroscopic objects have a redshift error of 7.737748e-08?
+(7) How many spectroscopic objects have a redshift error of 7.737748e-08?
+
+
+Re-ranked choices:
+4.242  How many spectroscopic objects have a redshift error of 7.737748e-08?
+1.453  How many Spectroscopic objects have a zerr value of 7.737748e-08 in the specobj table?
+

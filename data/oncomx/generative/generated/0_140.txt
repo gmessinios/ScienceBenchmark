@@ -1,0 +1,16 @@
+SELECT healthy_expression.uberon_anatomical_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.expression_rank_score = 93.60
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM healthy_expression AS T1 WHERE T1.expression_rank_score = 93.60
+GPT-3 choices:
+(0) Find the Uberon anatomical ID from healthy expression where the expression rank score is 93.60.
+(1) What is the uberon anatomical id for healthy expression with an expression rank score of 93.60?
+(2) Find the uberon anatomical ID for healthy expressions with an expression rank score of 93.60 in the healthy_expression table.
+(3) What is the uberon anatomical id for the healthy expression with an expression rank score of 93.60?
+(4) "Find the anatomical ID from healthy expression where the expression rank score is equal to 93.60."
+(5) Retrieve the anatomical ID from the table "healthy_expression" where the expression rank score is 93.60.
+(6) Find the uberon anatomical ID from the healthy expression table where the expression rank score is 93.60.
+(7) What is the uberon anatomical ID for healthy expression with an expression rank score of 93.60 in the table healthy_expression?

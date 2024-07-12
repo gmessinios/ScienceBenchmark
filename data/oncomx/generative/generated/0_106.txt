@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.id = 1884
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 WHERE T1.id = 1884
+GPT-3 choices:
+(0) Get the feature key from the disease mutation site annotation table where the id is 1884.
+(1) What is the feature key associated with the mutation site annotation with an ID of 1884 in the disease_mutation_site_annotation table?
+(2) What is the feature key for disease mutation site annotation with ID 1884?
+(3) Find the feature key of a disease mutation site annotation with an ID of 1884 in the table "disease_mutation_site_annotation".
+(4) Retrieve the feature key of the disease mutation site annotation with an ID of 1884 from the disease mutation site annotation table.
+(5) Retrieve the feature key of the disease mutation site annotation with an ID of 1884 from the disease mutation site annotation table.
+(6) What is the feature key for the disease mutation site annotation with an ID of 1884 in the disease mutation site annotation table?
+(7) What is the feature key for disease mutation site annotation with an ID of 1884?

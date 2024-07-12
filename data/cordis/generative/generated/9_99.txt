@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.title != "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.title != "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation"
+GPT-3 choices:
+(0) Find the name of the framework program from ec_framework_programs that is associated with a project title other than "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation".
+(1) Get the name of the framework program for all projects, excluding "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation".
+(2) Retrieve the name of the framework program from the EC Framework Programs table where the title of a project is not "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation".
+(3) What are the names of the EC framework programs that are associated with projects, excluding "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation"?
+(4) Retrieve the name of all framework programs from ec_framework_programs where the project title is not "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation".
+(5) Retrieve the name of all framework programs from the "ec_framework_programs" table that have been used in a project other than "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation".
+(6) What is the name of the framework program for projects that are not titled "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation"?
+(7) Retrieve the name of the framework program for projects that are not titled "A contribution to the fundamental understanding of Shear-Refinement of polymer melts by entanglement manipulation".

@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.gene_symbol = "1700013G24Rik"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.gene_symbol = "1700013G24Rik"
+GPT-3 choices:
+(0) What is the species ID for the gene with the symbol "1700013G24Rik" in the xref_gene_ensembl table?
+(1) Find the species ID of the gene symbol "1700013G24Rik" in the xref_gene_ensembl table.
+(2) What is the species ID for the gene with the gene symbol "1700013G24Rik" in the xref_gene_ensembl table?
+(3) Retrieve the species ID from the xref_gene_ensembl table where the gene symbol is "1700013G24Rik".
+(4) Get the species ID from the xref_gene_ensembl table where the gene symbol is "1700013G24Rik".
+(5) Find the species ID of the gene "1700013G24Rik" in the table xref_gene_ensembl.
+(6) What is the species ID for the gene symbol "1700013G24Rik" in the table xref_gene_ensembl?
+(7) What is the species ID for the gene symbol "1700013G24Rik" in the xref_gene_ensembl table?
+
+
+Re-ranked choices:
+3.543  What is the species ID for the gene with the symbol "1700013G24Rik" in the xref_gene_ensembl table?
+3.543  Find the species ID of the gene symbol "1700013G24Rik" in the xref_gene_ensembl table.
+3.541  What is the species ID for the gene with the gene symbol "1700013G24Rik" in the xref_gene_ensembl table?
+3.541  Retrieve the species ID from the xref_gene_ensembl table where the gene symbol is "1700013G24Rik".
+3.541  Get the species ID from the xref_gene_ensembl table where the gene symbol is "1700013G24Rik".
+3.541  What is the species ID for the gene symbol "1700013G24Rik" in the table xref_gene_ensembl?
+3.541  What is the species ID for the gene symbol "1700013G24Rik" in the xref_gene_ensembl table?
+2.156  Find the species ID of the gene "1700013G24Rik" in the table xref_gene_ensembl.
+

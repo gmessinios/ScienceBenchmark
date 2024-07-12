@@ -1,0 +1,26 @@
+SELECT count(*) FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "Partner"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles AS T1 WHERE T1.description = "Partner"
+GPT-3 choices:
+(0) How many project members have a role of "Partner"?
+(1) How many project member roles have a description of "Partner"?
+(2) How many rows are in the project_member_roles table where the description is "Partner"?
+(3) How many project member roles are there where the description is "Partner"?
+(4) How many project member roles have the description of "Partner"?
+(5) How many rows are in the project_member_roles table where the description is "Partner"?
+(6) How many project members have a role of "Partner"?
+(7) How many project member roles have the description "Partner"?
+
+
+Re-ranked choices:
+6.368  How many project member roles are there where the description is "Partner"?
+6.368  How many project member roles have the description "Partner"?
+6.362  How many project member roles have a description of "Partner"?
+6.362  How many project member roles have the description of "Partner"?
+2.243  How many project members have a role of "Partner"?
+2.142  How many rows are in the project_member_roles table where the description is "Partner"?
+

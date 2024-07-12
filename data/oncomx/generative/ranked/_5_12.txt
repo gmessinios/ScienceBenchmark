@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_study_design FROM biomarker_fda_test AS biomarker_fda_test    ORDER BY biomarker_fda_test.doid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.test_study_design FROM biomarker_fda_test AS T1    ORDER BY T1.doid DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the test study design from the latest biomarker FDA test entry in descending order by doid with a limit of one result.
+(1) What is the study design for the most recent entry in the biomarker_fda_test table, sorted by disease ontology identifier in descending order?
+(2) Get the study design from the most recent biomarker FDA test, ordered by DOID in descending order and limited to one result.
+(3) What is the study design for the latest entry in the biomarker_fda_test table, ordered by doid in descending order?
+(4) What is the study design for the last test listed in the biomarker FDA test table, ordered by descending disease ontology identifier and limited to one result?
+(5) Get the study design for the most recent entry in the biomarker_fda_test table, sorted by descending doid, limited to 1.
+(6) Retrieve the test study design from the most recently entered row in the biomarker_fda_test table, ordered by doid in descending order and limited to 1 result.
+(7) Retrieve the test study design from the latest entry in the table biomarker_fda_test, ordered by descending doid, with a limit of 1 result.
+
+
+Re-ranked choices:
+9.128  Retrieve the test study design from the latest biomarker FDA test entry in descending order by doid with a limit of one result.
+7.726  Get the study design from the most recent biomarker FDA test, ordered by DOID in descending order and limited to one result.
+7.722  What is the study design for the last test listed in the biomarker FDA test table, ordered by descending disease ontology identifier and limited to one result?
+6.319  Retrieve the test study design from the most recently entered row in the biomarker_fda_test table, ordered by doid in descending order and limited to 1 result.
+4.926  What is the study design for the latest entry in the biomarker_fda_test table, ordered by doid in descending order?
+4.923  Retrieve the test study design from the latest entry in the table biomarker_fda_test, ordered by descending doid, with a limit of 1 result.
+3.523  Get the study design for the most recent entry in the biomarker_fda_test table, sorted by descending doid, limited to 1.
+3.520  What is the study design for the most recent entry in the biomarker_fda_test table, sorted by disease ontology identifier in descending order?
+

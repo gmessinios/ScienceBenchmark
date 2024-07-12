@@ -1,0 +1,16 @@
+SELECT biomarker_alias.biomarker_internal_id, count(*) FROM biomarker_alias AS biomarker_alias  GROUP BY biomarker_alias.biomarker_internal_id
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id, count(*) FROM biomarker_alias AS T1  GROUP BY T1.biomarker_internal_id
+GPT-3 choices:
+(0) Count the number of aliases for each biomarker in the biomarker_alias table and group the results by the internal ID of each biomarker.
+(1) "Count the number of biomarker aliases for each biomarker and group the results by their corresponding internal ID."
+(2) How many biomarker aliases are there for each biomarker internal ID in the biomarker alias table?
+(3) Count the number of biomarker aliases for each unique biomarker internal ID from the biomarker_alias table.
+(4) How many biomarker aliases are associated with each unique biomarker internal ID in the biomarker_alias table?
+(5) "How many biomarker aliases are associated with each biomarker internal ID?"
+(6) Count the number of occurrences for each biomarker internal ID in the biomarker alias table and group them by their respective internal IDs.
+(7) Count the number of aliases for each biomarker internal ID from the table "biomarker_alias".

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_number_genes FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_manufacturer != "Dako Denmark A/S"
+
+###
+
+
+Original Query:
+SELECT T1.test_number_genes FROM biomarker_fda_test AS T1 WHERE T1.test_manufacturer != "Dako Denmark A/S"
+GPT-3 choices:
+(0) Retrieve the number of genes tested in all FDA tests, excluding those manufactured by "Dako Denmark A/S".
+(1) What is the number of genes tested by biomarker FDA tests excluding those from Dako Denmark A/S?
+(2) Retrieve the number of genes tested in all FDA tests, excluding those conducted by Dako Denmark A/S.
+(3) How many test numbers are there in the biomarker_fda_test table where the test manufacturer is not "Dako Denmark A/S"?
+(4) What is the number of genes tested by biomarker FDA tests where the manufacturer is not Dako Denmark A/S?
+(5) Find the number of genes tested by the FDA in biomarker tests that were not manufactured by Dako Denmark A/S.
+(6) What is the number of genes tested by biomarker FDA tests where the test manufacturer is not Dako Denmark A/S?
+(7) How many genes are associated with FDA tests that were not manufactured by Dako Denmark A/S in the biomarker_fda_test table?

@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.ec_fund_scheme != "CSA-SA(POC)"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.ec_fund_scheme != "CSA-SA(POC)"
+GPT-3 choices:
+(0) Find the names of all framework programs that are associated with projects where the EC fund scheme is not "CSA-SA(POC)".
+(1) Find the names of all framework programs from the EC Framework Programs table that are also listed in the Projects table, but only for projects where the EC Fund Scheme is not CSA-SA(POC).
+(2) Find the names of framework programs from the ec_framework_programs table that match with the framework_program column in the projects table, but exclude any programs where the ec_fund_scheme is not "CSA-SA(POC)".
+(3) Retrieve the names of all framework programs from the EC Framework Programs table that are referenced by projects in which the EC Fund Scheme is not "CSA-SA(POC)".
+(4) Find the names of all framework programs in the EC Framework Programs table that are associated with projects whose EC fund scheme is not "CSA-SA(POC)".
+(5) Find the names of all framework programs that have been used in projects where the EC fund scheme is not CSA-SA(POC).
+(6) Retrieve the name of each framework program from the ec_framework_programs table that matches the framework program listed in the projects table, but only for projects where the ec_fund_scheme is not equal to "CSA-SA(POC)".
+(7) Retrieve the names of all framework programs that are associated with projects whose EC fund scheme is not "CSA-SA(POC)".

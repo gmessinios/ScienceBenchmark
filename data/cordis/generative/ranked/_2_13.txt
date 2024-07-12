@@ -1,0 +1,28 @@
+SELECT programmes.code, count(*) FROM programmes AS programmes  GROUP BY programmes.code
+
+###
+
+
+Original Query:
+SELECT T1.code, count(*) FROM programmes AS T1  GROUP BY T1.code
+GPT-3 choices:
+(0) What is the number of occurrences for each unique code in the "programmes" table?
+(1) Count the number of programmes for each code in the programmes table.
+(2) Count the number of occurrences in the "code" column of the "programmes" table and group them together, resulting in a list of codes and their corresponding count.
+(3) "Count the number of programmes for each unique programme code from the table 'programmes' and group the results by programme code."
+(4) Count the number of records in the "programmes" table and group them by their code.
+(5) Count the number of occurrences of each code in the programmes table.
+(6) Count the number of programmes for each code from the table "programmes".
+(7) Get the count of the number of programmes for each code from the table "programmes" and group them by their respective codes.
+
+
+Re-ranked choices:
+3.529  Get the count of the number of programmes for each code from the table "programmes" and group them by their respective codes.
+3.525  "Count the number of programmes for each unique programme code from the table 'programmes' and group the results by programme code."
+2.847  Count the number of programmes for each code in the programmes table.
+2.847  Count the number of programmes for each code from the table "programmes".
+2.845  Count the number of occurrences of each code in the programmes table.
+2.841  What is the number of occurrences for each unique code in the "programmes" table?
+2.822  Count the number of occurrences in the "code" column of the "programmes" table and group them together, resulting in a list of codes and their corresponding count.
+2.156  Count the number of records in the "programmes" table and group them by their code.
+

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 WHERE T1.neighbortype = 0
+GPT-3 choices:
+(0) "Select the object IDs of nearest neighbor objects from the neighbors table where the neighbor type is 0."
+(1) Get the neighbor object ID from the nearest neighbor objects table where the neighbor type is equal to 0.
+(2) Get the IDs of all objects that are nearest neighbors and have a neighbor type of 0 from the neighbors table.
+(3) "Retrieve the neighborobjid from the nearest_neighbour_objects where neighbortype is equal to 0."
+(4) Get the neighborobjid from Nearest_neighbour_objects where neighbortype is equal to 0.
+(5) Get the neighborobjid for objects that are nearest neighbours with neighbortype 0 from the neighbors table.
+(6) Find the object IDs of all nearest neighbor objects from the neighbors table where the neighbor type is equal to 0.
+(7) Find the object IDs of all nearest neighbor objects from the "neighbors" table where the neighbor type is equal to 0.
+
+
+Re-ranked choices:
+7.036  Get the neighbor object ID from the nearest neighbor objects table where the neighbor type is equal to 0.
+5.638  Find the object IDs of all nearest neighbor objects from the neighbors table where the neighbor type is equal to 0.
+5.638  Find the object IDs of all nearest neighbor objects from the "neighbors" table where the neighbor type is equal to 0.
+5.637  "Select the object IDs of nearest neighbor objects from the neighbors table where the neighbor type is 0."
+4.238  Get the IDs of all objects that are nearest neighbors and have a neighbor type of 0 from the neighbors table.
+1.426  Get the neighborobjid for objects that are nearest neighbours with neighbortype 0 from the neighbors table.
+0.732  Get the neighborobjid from Nearest_neighbour_objects where neighbortype is equal to 0.
+0.727  "Retrieve the neighborobjid from the nearest_neighbour_objects where neighbortype is equal to 0."
+

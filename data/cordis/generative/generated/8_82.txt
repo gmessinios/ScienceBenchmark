@@ -1,0 +1,16 @@
+SELECT projects.ec_fund_scheme FROM projects AS projects WHERE projects.unics_id != 144076
+
+###
+
+
+Original Query:
+SELECT T1.ec_fund_scheme FROM projects AS T1 WHERE T1.unics_id != 144076
+GPT-3 choices:
+(0) Retrieve the EC funding scheme from all projects except for project with a UNICS ID of 144076.
+(1) Get the EC fund scheme for all projects except the one with a UNICS ID of 144076.
+(2) Retrieve the economic funding scheme from all projects except for the one with a unique identifier of 144076.
+(3) Show the EC funding scheme of all projects except for the project with UNICS ID 144076.
+(4) Find the EC fund scheme for projects with a UNICS ID that is not equal to 144076.
+(5) Retrieve the EC funding scheme from all projects except for the one with a UNICS ID of 144076.
+(6) Show the ec_fund_scheme value for all projects except for project with unics_id of 144076.
+(7) Retrieve the EC fund scheme for all projects except project with a UNICS ID of 144076 from the Projects table.

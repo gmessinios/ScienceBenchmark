@@ -1,0 +1,28 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.id = "FDA000149"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.id = "FDA000149"
+GPT-3 choices:
+(0) Get the test submission for biomarker "FDA000149" from the FDA table in the biomarker database.
+(1) Retrieve the test submission for biomarker with ID "FDA000149" from the FDA biomarker database.
+(2) What is the test submission for the FDA biomarker with ID "FDA000149"?
+(3) What is the test submission for biomarker FDA000149 in the biomarker_fda table?
+(4) What is the test submission for FDA biomarker with the ID "FDA000149"?
+(5) What is the test submission for FDA biomarker with ID "FDA000149" in the biomarker_fda table?
+(6) Get the test submission information from biomarker_fda where the ID is "FDA000149".
+(7) Retrieve the test submission from the biomarker_fda table for the record with an ID of "FDA000149".
+
+
+Re-ranked choices:
+7.768  What is the test submission for the FDA biomarker with ID "FDA000149"?
+7.768  What is the test submission for FDA biomarker with the ID "FDA000149"?
+7.747  Retrieve the test submission for biomarker with ID "FDA000149" from the FDA biomarker database.
+7.738  What is the test submission for FDA biomarker with ID "FDA000149" in the biomarker_fda table?
+6.344  Get the test submission for biomarker "FDA000149" from the FDA table in the biomarker database.
+4.938  What is the test submission for biomarker FDA000149 in the biomarker_fda table?
+4.937  Retrieve the test submission from the biomarker_fda table for the record with an ID of "FDA000149".
+4.933  Get the test submission information from biomarker_fda where the ID is "FDA000149".
+

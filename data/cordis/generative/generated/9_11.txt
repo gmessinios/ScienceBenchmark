@@ -1,0 +1,16 @@
+SELECT countries.country_code2 FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.wikidata_url != "http://www.wikidata.org/wiki/Q4475799"
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.wikidata_url != "http://www.wikidata.org/wiki/Q4475799"
+GPT-3 choices:
+(0) Which country codes correspond to institutions that have a Wikidata URL different from "http://www.wikidata.org/wiki/Q4475799"?
+(1) Find the country code 2 for all countries where their unics ID matches with the country ID of institutions, excluding institutions with a Wikidata URL of http://www.wikidata.org/wiki/Q4475799.
+(2) Retrieve the two-letter country codes from the countries table for institutions that have a different Wikidata URL than "http://www.wikidata.org/wiki/Q4475799" and are joined with the institutions table through their unique IDs.
+(3) "Retrieve the two-letter country codes from the countries table where the UNICS ID matches with the country ID in the institutions table, excluding any results where the wikidata URL is equal to "http://www.wikidata.org/wiki/Q4475799"."
+(4) Show me the country codes for all countries where an institution's country ID is equal to a country's UNICS ID, as long as the institution's Wikidata URL is not equal to "http://www.wikidata.org/wiki/Q4475799".
+(5) Find the country code for countries that have a non-null wikidata URL in institutions, and match it to the corresponding country code in the countries table.
+(6) Get the country code2 for all countries where the institution's unics_id matches the country_id in institutions, excluding any with a wikidata_url of "http://www.wikidata.org/wiki/Q4475799".
+(7) Get the country code2 from the countries table for institutions that have a country_id matching the unics_id in the countries table, where their wikidata_url is not equal to "http://www.wikidata.org/wiki/Q4475799".

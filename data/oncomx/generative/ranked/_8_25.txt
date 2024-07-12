@@ -1,0 +1,28 @@
+SELECT disease.name FROM disease AS disease WHERE disease.id != 3953
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1 WHERE T1.id != 3953
+GPT-3 choices:
+(0) Find the names of all diseases in the disease table except for the one with an id of 3953.
+(1) Find the names of diseases that are not equal to 3953.
+(2) Retrieve the names of all diseases from the table "disease" where the disease ID is not equal to 3953.
+(3) Find the names of all diseases from the disease table except for the one with an ID of 3953.
+(4) Find the names of all diseases except for "3953" in the "disease" table.
+(5) "Get the names of all diseases except for disease ID 3953 from the table 'disease'."
+(6) Find the name of all diseases from the "disease" table except for disease with an id of 3953.
+(7) Retrieve the names of all diseases from the "disease" table except for the disease with an id of 3953.
+
+
+Re-ranked choices:
+4.238  Find the name of all diseases from the "disease" table except for disease with an id of 3953.
+2.854  "Get the names of all diseases except for disease ID 3953 from the table 'disease'."
+2.850  Find the names of all diseases from the disease table except for the one with an ID of 3953.
+2.843  Find the names of all diseases in the disease table except for the one with an id of 3953.
+2.842  Retrieve the names of all diseases from the table "disease" where the disease ID is not equal to 3953.
+2.837  Retrieve the names of all diseases from the "disease" table except for the disease with an id of 3953.
+1.462  Find the names of all diseases except for "3953" in the "disease" table.
+0.176  Find the names of diseases that are not equal to 3953.
+

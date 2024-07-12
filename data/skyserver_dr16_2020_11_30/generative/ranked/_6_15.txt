@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861469275 and Nearest_neighbour_objects.type = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 WHERE T1.neighborobjid = 1237645876861469275 and T1.type = 0
+GPT-3 choices:
+(0) Find the type of the nearest neighbor object that has an id of 1237645876861469275 and a type value of 0 in the neighbors table.
+(1) Retrieve the type of neighbor from the table "neighbors" where the neighbor object ID is 1237645876861469275 and the type is equal to 0.
+(2) Retrieve the type of the nearest neighbor object with an ID of 1237645876861469275 from a table called "neighbors" where the neighbor's object ID is equal to 1237645876861469275 and its type is equal to 0.
+(3) Retrieve the type of nearest neighbour objects where the neighbor object ID is 1237645876861469275 and the type is 0.
+(4) Retrieve the type of nearest neighbor object with the neighbor ID 1237645876861469275 and a type of 0 from the neighbors table.
+(5) Find the type of nearest neighbour for the object with an ID of 1237645876861469275 from a table called Nearest_neighbour_objects, where the type is equal to 0.
+(6) What is the neighbor type of the nearest neighbour object with an ID of 1237645876861469275 and a type of 0 in the neighbors table?
+(7) Find the type of nearest neighbour object with the neighborobjid 1237645876861469275 and type equal to 0.
+
+
+Re-ranked choices:
+8.437  Retrieve the type of nearest neighbour objects where the neighbor object ID is 1237645876861469275 and the type is 0.
+7.030  What is the neighbor type of the nearest neighbour object with an ID of 1237645876861469275 and a type of 0 in the neighbors table?
+5.638  Retrieve the type of nearest neighbor object with the neighbor ID 1237645876861469275 and a type of 0 from the neighbors table.
+5.634  Retrieve the type of neighbor from the table "neighbors" where the neighbor object ID is 1237645876861469275 and the type is equal to 0.
+5.630  Find the type of the nearest neighbor object that has an id of 1237645876861469275 and a type value of 0 in the neighbors table.
+5.625  Retrieve the type of the nearest neighbor object with an ID of 1237645876861469275 from a table called "neighbors" where the neighbor's object ID is equal to 1237645876861469275 and its type is equal to 0.
+5.625  Find the type of nearest neighbour for the object with an ID of 1237645876861469275 from a table called Nearest_neighbour_objects, where the type is equal to 0.
+4.237  Find the type of nearest neighbour object with the neighborobjid 1237645876861469275 and type equal to 0.
+

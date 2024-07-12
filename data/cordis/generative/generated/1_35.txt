@@ -1,0 +1,16 @@
+SELECT institutions.short_name FROM institutions AS institutions JOIN project_members AS project_members ON institutions.unics_id = project_members.institution_id WHERE project_members.member_short_name = "Puridify Ltd"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id WHERE T2.member_short_name = "Puridify Ltd"
+GPT-3 choices:
+(0) What is the short name of the institution that has a corresponding unics id in the institutions table and is also associated with the member "Puridify Ltd" in the project_members table?
+(1) Retrieve the short name of institutions where the member short name is "Puridify Ltd" from the tables "institutions" and "project_members".
+(2) Retrieve the short name of institutions where Puridify Ltd is a member through their common UNICS ID in the database.
+(3) Retrieve the short name of institutions where the member's short name is "Puridify Ltd" from a table called institutions, which is joined with another table called project_members using their unique IDs.
+(4) Retrieve the short name of the institution from the Institutions table where the member's short name is "Puridify Ltd" in the Project Members table.
+(5) Show the short names of institutions from which members of Puridify Ltd are affiliated with, by joining the institutions table with project_members and selecting only those where the unics_id matches the institution_id and member_short_name equals "Puridify Ltd".
+(6) Find the short name of the institution associated with the member "Puridify Ltd" in the project members table, using information from the institutions table.
+(7) Retrieve the short name of institutions where Puridify Ltd is a member in the project.

@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.biomarker_type FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.uberon_anatomical_id = "UBERON:0002048" or biomarker_edrn.phase = "Two"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_type FROM biomarker_edrn AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0002048" or T1.phase = "Two"
+GPT-3 choices:
+(0) Find all biomarker types from the database biomarker_edrn where the anatomical ID is "UBERON:0002048" or the phase is "Two".
+(1) Retrieve the biomarker type from the EDRN database for any biomarkers with a UBERON anatomical ID of "UBERON:0002048" or a phase of "Two".
+(2) Retrieve the biomarker type from the biomarker_edrn table where the uberon_anatomical_id is "UBERON:0002048" or the phase is "Two".
+(3) Retrieve the biomarker types from the EDRN biomarker database for which the corresponding Uberon anatomical ID is "UBERON:0002048" or phase is "Two".
+(4) Retrieve the biomarker type from the biomarker_edrn table where the uberon_anatomical_id is equal to "UBERON:0002048" or the phase is equal to "Two".
+(5) Retrieve the type of biomarker from the table "biomarker_edrn" where the anatomical ID is "UBERON:0002048" or the phase is "Two".
+(6) Retrieve the biomarker type from the EDRN biomarker database for biomarkers associated with the UBERON anatomical ID "UBERON:0002048" or in Phase Two of development.
+(7) Which biomarker types are associated with the anatomical location UBERON:0002048 or phase Two in the EDRN database?
+
+
+Re-ranked choices:
+11.226  Retrieve the biomarker type from the EDRN database for any biomarkers with a UBERON anatomical ID of "UBERON:0002048" or a phase of "Two".
+11.219  Retrieve the biomarker type from the EDRN biomarker database for biomarkers associated with the UBERON anatomical ID "UBERON:0002048" or in Phase Two of development.
+9.824  Retrieve the biomarker types from the EDRN biomarker database for which the corresponding Uberon anatomical ID is "UBERON:0002048" or phase is "Two".
+8.428  Retrieve the type of biomarker from the table "biomarker_edrn" where the anatomical ID is "UBERON:0002048" or the phase is "Two".
+7.033  Find all biomarker types from the database biomarker_edrn where the anatomical ID is "UBERON:0002048" or the phase is "Two".
+7.025  Which biomarker types are associated with the anatomical location UBERON:0002048 or phase Two in the EDRN database?
+5.627  Retrieve the biomarker type from the biomarker_edrn table where the uberon_anatomical_id is "UBERON:0002048" or the phase is "Two".
+5.627  Retrieve the biomarker type from the biomarker_edrn table where the uberon_anatomical_id is equal to "UBERON:0002048" or the phase is equal to "Two".
+

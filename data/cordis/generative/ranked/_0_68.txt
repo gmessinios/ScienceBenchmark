@@ -1,0 +1,28 @@
+SELECT institutions.unics_id FROM institutions AS institutions WHERE institutions.wikidata_url = "http://www.wikidata.org/wiki/Q3140964"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM institutions AS T1 WHERE T1.wikidata_url = "http://www.wikidata.org/wiki/Q3140964"
+GPT-3 choices:
+(0) Retrieve the unique identifier from the institutions table for the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964".
+(1) What is the UNICS ID of the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964"?
+(2) What is the UNICS ID for the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964"?
+(3) What is the unique ID for an institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964"?
+(4) Retrieve the unique identifier from the institutions table for an institution with a Wikidata URL that matches "http://www.wikidata.org/wiki/Q3140964".
+(5) Find the UNICS ID of the institution in the "institutions" table where the wikidata URL is equal to "http://www.wikidata.org/wiki/Q3140964".
+(6) Get the unique identifier for institutions from the table "institutions" where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q3140964".
+(7) Get the UNICS ID from institutions where the wikidata URL is equal to "http://www.wikidata.org/wiki/Q3140964".
+
+
+Re-ranked choices:
+7.028  Get the UNICS ID from institutions where the wikidata URL is equal to "http://www.wikidata.org/wiki/Q3140964".
+7.022  Find the UNICS ID of the institution in the "institutions" table where the wikidata URL is equal to "http://www.wikidata.org/wiki/Q3140964".
+5.631  What is the UNICS ID of the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964"?
+5.631  What is the UNICS ID for the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964"?
+4.234  What is the unique ID for an institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964"?
+4.222  Get the unique identifier for institutions from the table "institutions" where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q3140964".
+4.221  Retrieve the unique identifier from the institutions table for the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q3140964".
+4.220  Retrieve the unique identifier from the institutions table for an institution with a Wikidata URL that matches "http://www.wikidata.org/wiki/Q3140964".
+

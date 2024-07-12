@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.survey FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.plateid = 504403190142232576 and Spectroscopic_objects.veldisp = 184.6734
+
+###
+
+
+Original Query:
+SELECT T1.survey FROM specobj AS T1 WHERE T1.plateid = 504403190142232576 and T1.veldisp = 184.6734
+GPT-3 choices:
+(0) Retrieve the survey of the spectroscopic object from the specobj table where the plateid is 504403190142232576 and the veldisp is equal to 184.6734.
+(1) Find the survey name for a spectroscopic object with a plateid of 504403190142232576 and veldisp of 184.6734 in the specobj table.
+(2) What is the survey of the spectroscopic object with a plate ID of 504403190142232576 and a velocity dispersion of 184.6734?
+(3) Retrieve the survey from the Spectroscopic_objects table where the plateid is equal to 504403190142232576 and veldisp is equal to 184.6734.
+(4) What is the survey for spectroscopic objects with a plateid of 504403190142232576 and a velocity dispersion of 184.6734?
+(5) Retrieve the survey from the specobj table for a spectroscopic object with a plate ID of 504403190142232576 and velocity dispersion of 184.6734.
+(6) What is the survey of the spectroscopic object with a plate ID of 504403190142232576 and velocity dispersion of 184.6734?
+(7) Retrieve the survey from the Spectroscopic_objects table where the plateid is equal to 504403190142232576 and veldisp is equal to 184.6734.

@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.disease_mutation_id != 307527
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 WHERE T1.disease_mutation_id != 307527
+GPT-3 choices:
+(0) Get the feature key from the disease mutation site annotation table where the disease mutation id is not equal to 307527.
+(1) Retrieve the feature key from the disease mutation site annotation table for all entries where the disease mutation ID is not 307527.
+(2) Retrieve the feature keys from disease mutation site annotation where the disease mutation ID is not equal to 307527.
+(3) Retrieve the feature key of all disease mutation sites from the table "disease_mutation_site_annotation" where the disease mutation ID is not 307527.
+(4) Retrieve the feature key from the disease mutation site annotation table where the disease mutation ID is not equal to 307527.
+(5) Find the feature key from disease_mutation_site_annotation where the disease mutation ID is not equal to 307527.
+(6) "Retrieve the feature key from the disease mutation site annotation table where the disease mutation id is not equal to 307527."
+(7) Retrieve the feature key from the disease mutation site annotation table where the disease mutation ID is not equal to 307527.

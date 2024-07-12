@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Alberto BROGGI"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Alberto BROGGI"
+GPT-3 choices:
+(0) Retrieve the unique identification number for a person with the full name "Alberto BROGGI" from the table of people.
+(1) Get the UNICS ID for the person whose full name is "Alberto BROGGI" from the table of people.
+(2) Get the UNICS ID of the person named "Alberto BROGGI" from the table of people.
+(3) Retrieve the unique ID of a person named "Alberto BROGGI" from the table "people".
+(4) Retrieve the unique identifier of a person with the full name "Alberto BROGGI" from the table "people".
+(5) Retrieve the unique identifier (unics_id) of the person named "Alberto BROGGI" from the table "people" where their full name matches.
+(6) Find the UNICS ID of the person with a full name of "Alberto BROGGI".
+(7) Retrieve the unics_id of the person with the full name "Alberto BROGGI" from the people table.

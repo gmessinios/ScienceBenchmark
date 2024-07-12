@@ -1,0 +1,16 @@
+SELECT biomarker_edrn.biomarker_title FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.qa_state != "Curated"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_title FROM biomarker_edrn AS T1 WHERE T1.qa_state != "Curated"
+GPT-3 choices:
+(0) Retrieve the biomarker titles from the biomarker_edrn table where the QA state is not "Curated".
+(1) What are the biomarker titles from the biomarker_edrn table where the QA state is not "Curated"?
+(2) "Find the title of all biomarkers in the EDRN database that are not currently in a curated state."
+(3) "Find the titles of biomarkers from the EDRN database that do not have a QA state of "Curated"."
+(4) Retrieve the title of all biomarkers from the table "biomarker_edrn" where the quality assurance state is not equal to "Curated".
+(5) What are the biomarker titles from the table "biomarker_edrn" where the quality assurance state is not equal to "Curated"?
+(6) Retrieve the title of biomarkers from the database where the quality assurance state is not "Curated".
+(7) What is the title of all biomarkers that have not been curated in the EDRN database?

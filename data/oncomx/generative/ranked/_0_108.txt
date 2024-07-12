@@ -1,0 +1,27 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.biomarker_fda_id = "FDA000109"
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker FROM biomarker_fda_ncit_term AS T1 WHERE T1.biomarker_fda_id = "FDA000109"
+GPT-3 choices:
+(0) What is the NCIt biomarker term associated with the FDA biomarker ID "FDA000109"?
+(1) What is the NCIt term associated with the FDA biomarker with an ID of "FDA000109"?
+(2) What is the NCIt term for the biomarker with FDA ID "FDA000109"?
+(3) What is the FDA NCIt term for the biomarker with an ID of "FDA000109"?
+(4) Retrieve the NCIt term for the biomarker that has an FDA ID of "FDA000109" from the biomarker_fda_ncit_term table.
+(5) What is the NCIt biomarker term associated with the FDA biomarker ID "FDA000109"?
+(6) What is the FDA-National Cancer Institute Thesaurus (NCIT) term for biomarker "FDA000109"?
+(7) What is the NCIt biomarker term for the FDA biomarker with ID "FDA000109"?
+
+
+Re-ranked choices:
+7.797  What is the NCIt term for the biomarker with FDA ID "FDA000109"?
+7.777  What is the FDA NCIt term for the biomarker with an ID of "FDA000109"?
+7.765  What is the NCIt biomarker term for the FDA biomarker with ID "FDA000109"?
+7.745  What is the NCIt term associated with the FDA biomarker with an ID of "FDA000109"?
+7.737  What is the NCIt biomarker term associated with the FDA biomarker ID "FDA000109"?
+7.731  Retrieve the NCIt term for the biomarker that has an FDA ID of "FDA000109" from the biomarker_fda_ncit_term table.
+3.529  What is the FDA-National Cancer Institute Thesaurus (NCIT) term for biomarker "FDA000109"?
+

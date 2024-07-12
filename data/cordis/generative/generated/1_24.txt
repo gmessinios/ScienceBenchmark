@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units JOIN institutions AS institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.db_pedia_url = "http://dbpedia.org/resource/Università_per_stranieri_%22Dante_Alighieri%22_di_Reggio_Calabria"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 JOIN institutions AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.db_pedia_url = "http://dbpedia.org/resource/Università_per_stranieri_%22Dante_Alighieri%22_di_Reggio_Calabria"
+GPT-3 choices:
+(0) Retrieve the description of the territorial unit associated with a university's geocode region, specifically for the institution "Università per stranieri 'Dante Alighieri' di Reggio Calabria" from the EU Territorial Units dataset.
+(1) What is the description of the territorial unit that has the same geocode region as the institution with a DBpedia URL of "http://dbpedia.org/resource/Università_per_stranieri_%22Dante_Alighieri%22_di_Reggio_Calabria"?
+(2) Retrieve the description of the territorial unit from the European Union's database for institutions where the DBpedia URL is "http://dbpedia.org/resource/Università_per_stranieri_%22Dante_Alighieri%22_di_Reggio_Calabria".
+(3) Retrieve the description of the European territorial unit that corresponds to the geocode region for which an institution's DBpedia URL is "http://dbpedia.org/resource/Università_per_stranieri_%22Dante_Alighieri%22_di_Reggio_Calabria".
+(4) Retrieve the description of a European territorial unit from an institution's database where the institution's DBpedia URL is equal to "http://dbpedia.org/resource/Università_per_stranieri_%22Dante_Alighieri%22_di_Reggio_Calabria".
+(5) Retrieve the description of the territorial unit for the institution "Università per stranieri 'Dante Alighieri' di Reggio Calabria" from the database.
+(6) Retrieve the description of a territorial unit from the European Union's database based on the geocode region code associated with an institution's third-level geocode regions, where the institution has a specific DBpedia URL.
+(7) Get the description of the territorial units from the European Union for the institution "Università per stranieri 'Dante Alighieri' di Reggio Calabria" by joining tables eu_territorial_units and institutions and filtering by matching geocode regions.

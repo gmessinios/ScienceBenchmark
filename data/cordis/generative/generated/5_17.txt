@@ -1,0 +1,16 @@
+SELECT projects.framework_program FROM projects AS projects    ORDER BY projects.end_year DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.framework_program FROM projects AS T1    ORDER BY T1.end_year DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the most recent framework program from the projects table, ordered by end year in descending order, and limit the result to one.
+(1) Retrieve the framework program used in the latest project, sorted by descending end year and limited to one result.
+(2) "Show the programming framework used in the most recent project, ordered by its end year."
+(3) Find the framework program of the most recent project in descending order by end year.
+(4) "Retrieve the framework program used in the most recently ended project, sorted by descending end year and limited to one result."
+(5) Get the framework program for the most recent project in descending order by end year.
+(6) Show the programming framework used in the latest project by ordering projects in descending order of end year and limit the result to one.
+(7) "Show the framework program for the latest project based on its end year."

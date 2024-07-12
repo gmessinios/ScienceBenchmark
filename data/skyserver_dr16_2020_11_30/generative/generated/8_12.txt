@@ -1,0 +1,16 @@
+SELECT Photometric_objects.objid FROM photoobj AS Photometric_objects WHERE Photometric_objects.r != 12.40652
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM photoobj AS T1 WHERE T1.r != 12.40652
+GPT-3 choices:
+(0) Find the object ID for all objects in the photoobj table where the r value is not equal to 12.40652.
+(1) Find the object IDs for all photometric objects where the value of "r" is not equal to 12.40652 in the photoobj table.
+(2) "Retrieve the objid values of objects from the photoobj table with a non-zero r value that is not equal to 12.40652."
+(3) Find the objid of all objects from the photoobj table where the r value is not equal to 12.40652.
+(4) Retrieve the object ID from the photoobj table for all objects with a red magnitude value that is not equal to 12.40652.
+(5) "Find the object ID for all photometric objects from the photoobj table where the value in the r column is not equal to 12.40652."
+(6) Find the object ID for all photometric objects in the photoobj table where the value of r is not equal to 12.40652.
+(7) "Select the objid of Photometric_objects from photoobj where the r value is not equal to 12.40652."

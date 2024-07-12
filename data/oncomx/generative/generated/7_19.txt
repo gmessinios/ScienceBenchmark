@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.ensembl_gene_id FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.gene_symbol = "1700054K19Rik" or xref_gene_ensembl.speciesid = 9606
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id FROM xref_gene_ensembl AS T1 WHERE T1.gene_symbol = "1700054K19Rik" or T1.speciesid = 9606
+GPT-3 choices:
+(0) Retrieve the Ensembl gene ID for the gene with the symbol "1700054K19Rik" or a species ID of 9606 from the xref_gene_ensembl table.
+(1) Retrieve the Ensembl gene ID from the table of xref_gene_ensembl where either the gene symbol is equal to "1700054K19Rik" or the species ID is equal to 9606.
+(2) What is the Ensembl gene ID for the gene symbol "1700054K19Rik" or for the species with ID 9606 in the xref_gene_ensembl table?
+(3) Find the Ensembl gene ID for the gene symbol "1700054K19Rik" or species ID 9606 in the xref_gene_ensembl table.
+(4) Get the Ensembl gene ID for the gene with a symbol of "1700054K19Rik" or a species ID of 9606 from the xref_gene_ensembl table.
+(5) Retrieve the Ensembl gene ID from the xref_gene_ensembl table where the gene symbol is equal to "1700054K19Rik" or the species ID is equal to 9606.
+(6) Get the Ensembl gene ID for the gene with a symbol of "1700054K19Rik" or belonging to species ID 9606 from the xref_gene_ensembl table.
+(7) What is the Ensembl gene ID for the gene symbol "1700054K19Rik" in the species with ID 9606?

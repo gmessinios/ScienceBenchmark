@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Massimo Tavoni"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Massimo Tavoni"
+GPT-3 choices:
+(0) Retrieve the unique identifier of a person with the full name "Massimo Tavoni" from the database.
+(1) Retrieve the UNICS ID for the person whose full name is "Massimo Tavoni" from the table of people.
+(2) Find the UNICS ID for the person with full name "Massimo Tavoni" in the table "people".
+(3) Get the UNICS ID for Massimo Tavoni from the people table where the full name is "Massimo Tavoni".
+(4) Find the UNICS ID for the person named "Massimo Tavoni".
+(5) Retrieve the UNICS ID of the person with the full name "Massimo Tavoni" from the table of people.
+(6) Get the unics ID for the person with the full name "Massimo Tavoni" from the people table.
+(7) Retrieve the unics ID for the person with the full name "Massimo Tavoni" from the table of people.

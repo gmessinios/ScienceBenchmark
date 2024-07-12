@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.longitude != 24.7420807
+
+###
+
+
+Original Query:
+SELECT T1.description FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.longitude != 24.7420807
+GPT-3 choices:
+(0) Show me the description of the activity type that is associated with a project member whose longitude is not 24.7420807.
+(1) Retrieve the description from the activity types table where the code matches with the activity type of project members whose longitude is not equal to 24.7420807.
+(2) Get the description of the activity type from the project members table where the longitude is not equal to 24.7420807.
+(3) Retrieve the description of activity types for all project members whose longitude is not equal to 24.7420807.
+(4) Find the description of all activity types for project members whose longitude is not equal to 24.7420807.
+(5) What is the description of all activity types for project members with a longitude other than 24.7420807?
+(6) Get the description of all activity types from the project_members table where the longitude is not equal to 24.7420807, and join it with the description column in the activity_types table based on matching codes.
+(7) Show me the description of activity type from the project members table where the longitude is not equal to 24.7420807.

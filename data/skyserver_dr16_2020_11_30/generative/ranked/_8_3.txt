@@ -1,0 +1,27 @@
+SELECT Spectroscopic_objects.survey FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.programname != "photoz"
+
+###
+
+
+Original Query:
+SELECT T1.survey FROM specobj AS T1 WHERE T1.programname != "photoz"
+GPT-3 choices:
+(0) What survey data is available for spectroscopic objects that were not part of the "photoz" program?
+(1) "Retrieve the survey of all objects in the Spectroscopic_objects table, excluding those from the 'photoz' program."
+(2) Retrieve the survey information from the table "specobj" for all spectroscopic objects whose program name is not "photoz".
+(3) Find the survey name of all spectroscopic objects where the program name is not "photoz".
+(4) "What is the survey of all spectroscopic objects where the program name is not 'photoz'?"
+(5) "What is the survey of all spectroscopic objects where the program name is not 'photoz'?"
+(6) "Retrieve the survey information for all spectroscopic objects where the program name is not 'photoz'."
+(7) "Retrieve the survey data for spectroscopic objects where the program name is not 'photoz'."
+
+
+Re-ranked choices:
+4.933  Find the survey name of all spectroscopic objects where the program name is not "photoz".
+4.933  "What is the survey of all spectroscopic objects where the program name is not 'photoz'?"
+4.931  "Retrieve the survey data for spectroscopic objects where the program name is not 'photoz'."
+4.927  "Retrieve the survey information for all spectroscopic objects where the program name is not 'photoz'."
+4.922  Retrieve the survey information from the table "specobj" for all spectroscopic objects whose program name is not "photoz".
+4.222  "Retrieve the survey of all objects in the Spectroscopic_objects table, excluding those from the 'photoz' program."
+3.529  What survey data is available for spectroscopic objects that were not part of the "photoz" program?
+

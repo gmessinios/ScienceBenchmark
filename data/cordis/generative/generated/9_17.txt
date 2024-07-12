@@ -1,0 +1,16 @@
+SELECT programmes.parent FROM programmes AS programmes JOIN project_programmes AS project_programmes ON programmes.code = project_programmes.programme JOIN projects AS projects ON project_programmes.project = projects.unics_id WHERE projects.end_year != 2012
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 JOIN project_programmes AS T3 ON T1.code = T3.programme JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.end_year != 2012
+GPT-3 choices:
+(0) Retrieve the names of all programmes that are parents of projects that were not completed in the year 2012.
+(1) Find the names of all programmes whose parent is linked to a project that did not end in the year 2012.
+(2) Get the parent programme of programmes that are associated with projects that have an end year different from 2012 through the relationship between project_programmes and projects.
+(3) Find the names of all parent programmes for projects that were not completed in 2012.
+(4) Find the parent programmes of all programmes associated with projects that do not have an end year of 2012.
+(5) Retrieve the parent programme of all programmes that are associated with projects that did not end in the year 2012.
+(6) Get the names of the parent programmes for all projects that are associated with a programme through the project_programmes table, where the project's end year is not equal to 2012.
+(7) Get the parent programme of programmes that are linked to projects through the project_programmes table, but only for projects with an end year other than 2012.

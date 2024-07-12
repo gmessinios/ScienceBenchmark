@@ -1,0 +1,16 @@
+SELECT stage.name FROM stage AS stage WHERE stage.id != "UBERON:0034920"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 WHERE T1.id != "UBERON:0034920"
+GPT-3 choices:
+(0) What are the names of stages in which the ID is not equal to "UBERON:0034920"?
+(1) What is the name of all stages except for "UBERON:0034920"?
+(2) Find the name of all stages except "UBERON:0034920".
+(3) "Retrieve the name of all stages excluding the one with ID 'UBERON:0034920' from the stage table."
+(4) What is the name of all stages except "UBERON:0034920" in the stage table?
+(5) What are the names of all stages except "UBERON:0034920"?
+(6) What are the names of all stages except for "UBERON:0034920"?
+(7) Retrieve the names of all stages except for "UBERON:0034920" from the table named "stage".

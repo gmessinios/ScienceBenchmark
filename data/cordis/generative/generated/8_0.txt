@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.short_name != "Marie-Sklodowska-Curie Actions"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.short_name != "Marie-Sklodowska-Curie Actions"
+GPT-3 choices:
+(0) "Find the research council number of all programmes except for those with a short name of 'Marie-Sklodowska-Curie Actions'."
+(1) Find the Research Council Number for all programmes except those with the short name "Marie-Sklodowska-Curie Actions".
+(2) Retrieve the RCN of programmes where the short name is not "Marie-Sklodowska-Curie Actions".
+(3) Find the Research Council Number of all programmes except for those with a short name of "Marie-Sklodowska-Curie Actions".
+(4) Retrieve the RCN (Research Council Number) from the Programmes table where the short name is not "Marie-Sklodowska-Curie Actions".
+(5) Find the RCN of all programmes except for those with a short name of "Marie-Sklodowska-Curie Actions".
+(6) Get the RCN from the programmes table where the short name is not "Marie-Sklodowska-Curie Actions".
+(7) Find the RCN of all programmes, excluding "Marie-Sklodowska-Curie Actions".

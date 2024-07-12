@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Umbria" and eu_territorial_units.geocode_regions = "EEXX"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.description = "Umbria" and T1.geocode_regions = "EEXX"
+GPT-3 choices:
+(0) Retrieve the NUTS version from the EU territorial units where the description is "Umbria" and the geocode regions are "EEXX".
+(1) Retrieve the NUTS version from the EU territorial units table where the description is "Umbria" and the geocode regions are "EEXX".
+(2) Retrieve the NUTS version for the region of Umbria, with a geocode of "EEXX".
+(3) Retrieve the NUTS version for the region of Umbria with the geocode "EEXX" from the table eu_territorial_units.
+(4) What is the NUTS version for the Umbria region with the geocode "EEXX"?
+(5) Retrieve the version of NUTS for Umbria where the geocode regions is "EEXX" from the EU Territorial Units table.
+(6) What is the NUTS version of Umbria in the EU territorial units where the description is "Umbria" and the geocode regions are "EEXX"?
+(7) What is the NUTS version for Umbria in the EU territorial units where the description is "Umbria" and the geocode region is "EEXX"?
+
+
+Re-ranked choices:
+12.625  Retrieve the NUTS version from the EU territorial units where the description is "Umbria" and the geocode regions are "EEXX".
+12.624  Retrieve the NUTS version from the EU territorial units table where the description is "Umbria" and the geocode regions are "EEXX".
+12.623  What is the NUTS version of Umbria in the EU territorial units where the description is "Umbria" and the geocode regions are "EEXX"?
+11.226  Retrieve the version of NUTS for Umbria where the geocode regions is "EEXX" from the EU Territorial Units table.
+11.223  What is the NUTS version for Umbria in the EU territorial units where the description is "Umbria" and the geocode region is "EEXX"?
+5.654  What is the NUTS version for the Umbria region with the geocode "EEXX"?
+5.623  Retrieve the NUTS version for the region of Umbria with the geocode "EEXX" from the table eu_territorial_units.
+4.942  Retrieve the NUTS version for the region of Umbria, with a geocode of "EEXX".
+

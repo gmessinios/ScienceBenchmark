@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code = "CIP-ICT-PSP.2013.3.3d"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code = "CIP-ICT-PSP.2013.3.3d"
+GPT-3 choices:
+(0) Find the Research Council Number of the topic with the code "CIP-ICT-PSP.2013.3.3d" from the topics table.
+(1) Find the RCN of the topic with the code "CIP-ICT-PSP.2013.3.3d" in the topics table.
+(2) What is the research council number for the topic with code "CIP-ICT-PSP.2013.3.3d" in the topics database?
+(3) What is the research call number for the topic with a code of "CIP-ICT-PSP.2013.3.3d"?
+(4) What is the research council number for the topic with the code "CIP-ICT-PSP.2013.3.3d" in the topics table?
+(5) Retrieve the RCN of topics where the code is "CIP-ICT-PSP.2013.3.3d".
+(6) What is the Research Council Number of the topic with the code "CIP-ICT-PSP.2013.3.3d"?
+(7) What is the RCN for the topic with a code of "CIP-ICT-PSP.2013.3.3d" in the topics table?
+
+
+Re-ranked choices:
+4.320  Find the RCN of the topic with the code "CIP-ICT-PSP.2013.3.3d" in the topics table.
+4.303  What is the RCN for the topic with a code of "CIP-ICT-PSP.2013.3.3d" in the topics table?
+4.281  Retrieve the RCN of topics where the code is "CIP-ICT-PSP.2013.3.3d".
+2.873  Find the Research Council Number of the topic with the code "CIP-ICT-PSP.2013.3.3d" from the topics table.
+2.871  What is the research council number for the topic with the code "CIP-ICT-PSP.2013.3.3d" in the topics table?
+2.859  What is the research council number for the topic with code "CIP-ICT-PSP.2013.3.3d" in the topics database?
+1.458  What is the research call number for the topic with a code of "CIP-ICT-PSP.2013.3.3d"?
+1.450  What is the Research Council Number of the topic with the code "CIP-ICT-PSP.2013.3.3d"?
+

@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas WHERE subject_areas.description = "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology; other specific technologies NOT INcluded elsewhere."
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 WHERE T1.description = "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology; other specific technologies NOT INcluded elsewhere."
+GPT-3 choices:
+(0) Retrieve the titles of subject areas where the description is "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology; other specific technologies NOT INcluded elsewhere".
+(1) What is the title of the subject area that includes textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology and other specific technologies not included elsewhere?
+(2) What are the titles of subject areas that have descriptions including "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology" but do not include other specific technologies?
+(3) What are the titles of all subject areas that have a description including textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, and other specific technologies not included elsewhere?
+(4) Retrieve the title of all subject areas where the description includes textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, and other specific technologies not included elsewhere.
+(5) What are the titles of subject areas that fall under textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, and other specific technologies not included elsewhere?
+(6) Retrieve the title of all subject areas where the description includes textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, or other specific technologies not included elsewhere.
+(7) Retrieve the title of all subject areas that have a description of "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology; other specific technologies NOT INcluded elsewhere." from the subject_areas table.
+
+
+Re-ranked choices:
+14.017  Retrieve the title of all subject areas that have a description of "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology; other specific technologies NOT INcluded elsewhere." from the subject_areas table.
+13.313  Retrieve the titles of subject areas where the description is "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology; other specific technologies NOT INcluded elsewhere".
+11.913  Retrieve the title of all subject areas where the description includes textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, and other specific technologies not included elsewhere.
+11.913  Retrieve the title of all subject areas where the description includes textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, or other specific technologies not included elsewhere.
+10.513  What are the titles of all subject areas that have a description including textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, and other specific technologies not included elsewhere?
+9.814  What are the titles of subject areas that have descriptions including "Textile technology; laser technology; membrane technology; vacuum engineering; hydraulics; particle technology" but do not include other specific technologies?
+9.114  What is the title of the subject area that includes textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology and other specific technologies not included elsewhere?
+9.114  What are the titles of subject areas that fall under textile technology, laser technology, membrane technology, vacuum engineering, hydraulics, particle technology, and other specific technologies not included elsewhere?
+

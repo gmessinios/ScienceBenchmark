@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_manufacturer FROM biomarker_fda_test AS biomarker_fda_test JOIN biomarker_fda_test_trial AS biomarker_fda_test_trial ON biomarker_fda_test.test_trade_name = biomarker_fda_test_trial.test_trade_name WHERE biomarker_fda_test_trial.test_trade_name != "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)"
+
+###
+
+
+Original Query:
+SELECT T1.test_manufacturer FROM biomarker_fda_test AS T1 JOIN biomarker_fda_test_trial AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_trade_name != "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)"
+GPT-3 choices:
+(0) Get the manufacturer for all tests in the biomarker_fda_test table, except for the "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)" test, by joining it with the biomarker_fda_test_trial table on matching trade names.
+(1) Retrieve the test manufacturers from all biomarker FDA tests that have associated trials, except for "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(2) Show the manufacturer for all tests that are not "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(3) Get the test manufacturer from the biomarker_fda_test table, for all entries in the biomarker_fda_test_trial table where the test trade name is not "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(4) Find the manufacturer for all biomarker FDA tests that have a trade name different from "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(5) Get the test manufacturer from the biomarker_fda_test table where the test trade name in biomarker_fda_test matches the test trade name in biomarker_fda_test_trial, except for "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(6) Get the manufacturer for all biomarker tests from the FDA that have a trade name listed in both the "biomarker_fda_test" and "biomarker_fda_test_trial" tables, excluding the specific test named "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(7) "Get the test manufacturers for all biomarker FDA tests that have a trial listed in the biomarker FDA test trial table, excluding the "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)" test."

@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.biomarker_title FROM biomarker_edrn AS biomarker_edrn JOIN anatomical_entity AS anatomical_entity ON biomarker_edrn.uberon_anatomical_id = anatomical_entity.id WHERE anatomical_entity.id = "UBERON:0002450"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_title FROM biomarker_edrn AS T1 JOIN anatomical_entity AS T2 ON T1.uberon_anatomical_id = T2.id WHERE T2.id = "UBERON:0002450"
+GPT-3 choices:
+(0) Get the title of biomarkers from the EDRN database that are associated with the anatomical entity identified by UBERON ID "UBERON:0002450".
+(1) Retrieve the title of the biomarker from the database "biomarker_edrn" where the associated anatomical entity has an ID of "UBERON:0002450".
+(2) What is the biomarker title for the anatomical entity with the identifier "UBERON:0002450"?
+(3) Retrieve the title of all biomarkers from the EDRN database that are associated with an anatomical entity with the ID "UBERON:0002450" in the Uberon ontology.
+(4) Retrieve the title of biomarkers associated with the anatomical entity identified by the UBERON identifier "UBERON:0002450" from the EDRN biomarker database.
+(5) What is the title of all biomarkers associated with the anatomical entity UBERON:0002450 in the biomarker_edrn and anatomical_entity tables?
+(6) Retrieve the title of biomarkers from the EDRN database that are associated with the anatomical entity "UBERON:0002450" as defined by the UBeron ontology.
+(7) What is the title of all biomarkers associated with the anatomical entity "UBERON:0002450"?
+
+
+Re-ranked choices:
+9.121  Get the title of biomarkers from the EDRN database that are associated with the anatomical entity identified by UBERON ID "UBERON:0002450".
+9.119  Retrieve the title of all biomarkers from the EDRN database that are associated with an anatomical entity with the ID "UBERON:0002450" in the Uberon ontology.
+9.117  Retrieve the title of biomarkers associated with the anatomical entity identified by the UBERON identifier "UBERON:0002450" from the EDRN biomarker database.
+7.721  Retrieve the title of the biomarker from the database "biomarker_edrn" where the associated anatomical entity has an ID of "UBERON:0002450".
+7.718  Retrieve the title of biomarkers from the EDRN database that are associated with the anatomical entity "UBERON:0002450" as defined by the UBeron ontology.
+6.329  What is the biomarker title for the anatomical entity with the identifier "UBERON:0002450"?
+4.926  What is the title of all biomarkers associated with the anatomical entity "UBERON:0002450"?
+4.919  What is the title of all biomarkers associated with the anatomical entity UBERON:0002450 in the biomarker_edrn and anatomical_entity tables?
+

@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas WHERE subject_areas.code = "ITT"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 WHERE T1.code = "ITT"
+GPT-3 choices:
+(0) What is the title of the subject area with a code of "ITT"?
+(1) Retrieve the title of the subject area from the "subject_areas" table where the code is equal to "ITT".
+(2) What is the title of the subject area with a code of "ITT"?
+(3) Retrieve the title of the subject area from the table "subject_areas" where the code is equal to "ITT".
+(4) Retrieve the title of the subject area with the code "ITT" from the table "subject_areas".
+(5) Retrieve the title of the subject area with the code "ITT" from the table of subject areas.
+(6) Retrieve the title of the subject area with the code "ITT" from the subject areas table.
+(7) Retrieve the title of the subject area with the code "ITT" from the table "subject_areas".

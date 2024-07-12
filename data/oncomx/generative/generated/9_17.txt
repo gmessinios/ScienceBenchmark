@@ -1,0 +1,16 @@
+SELECT healthy_expression.expression_rank_score FROM healthy_expression AS healthy_expression JOIN stage AS stage ON healthy_expression.uberon_developmental_id = stage.id WHERE stage.name != "neonate stage"
+
+###
+
+
+Original Query:
+SELECT T1.expression_rank_score FROM healthy_expression AS T1 JOIN stage AS T2 ON T1.uberon_developmental_id = T2.id WHERE T2.name != "neonate stage"
+GPT-3 choices:
+(0) Retrieve the expression rank score from the table of healthy expressions for developmental stages that are not neonate stage, by joining it with the table of stages on their corresponding IDs.
+(1) Retrieve the expression rank score from healthy expression data for all developmental stages except for neonate stage, based on their corresponding IDs in the stage table.
+(2) Retrieve the expression rank score from healthy_expression where the name of the stage is not "neonate stage" by joining it with stage on matching IDs for uberon_developmental_id and id.
+(3) Retrieve the expression rank score from healthy expression data for all developmental stages except for the neonate stage.
+(4) Retrieve the expression rank scores for all healthy expressions in developmental stages other than neonate stage, based on their corresponding developmental ID.
+(5) Retrieve the expression rank score from healthy_expression where the stage name is not "neonate stage" by joining it with the id of uberon_developmental_id in stage.
+(6) Get the expression rank scores from the table of healthy expressions for all stages except neonate stage, joining it with the stage table on their corresponding developmental IDs.
+(7) Get the expression rank scores from the healthy expression table for developmental stages that are not neonates by joining it with the stage table on their corresponding IDs.

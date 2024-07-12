@@ -1,0 +1,16 @@
+SELECT count(*) FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.uniprotkb_ac = "A0A0C4DH35"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_protein_disease_mutation AS T1 WHERE T1.uniprotkb_ac = "A0A0C4DH35"
+GPT-3 choices:
+(0) How many records are in the table "map_protein_disease_mutation" where the value in the column "uniprotkb_ac" is equal to "A0A0C4DH35"?
+(1) How many records are there in the map_protein_disease_mutation table where the uniprotkb_ac is "A0A0C4DH35"?
+(2) How many entries are in the table map_protein_disease_mutation where the uniprotkb_ac is equal to "A0A0C4DH35"?
+(3) How many protein-disease-mutation mappings have the UniProtKB accession number "A0A0C4DH35"?
+(4) How many mutations are associated with the UniProtKB accession number A0A0C4DH35 in the map_protein_disease_mutation table?
+(5) How many rows are there in the map_protein_disease_mutation table where the uniprotkb_ac column is equal to "A0A0C4DH35"?
+(6) How many entries are there in the "map_protein_disease_mutation" table where the "uniprotkb_ac" column is equal to "A0A0C4DH35"?
+(7) How many entries are there in the map_protein_disease_mutation table where the uniprotkb_ac column is equal to "A0A0C4DH35"?

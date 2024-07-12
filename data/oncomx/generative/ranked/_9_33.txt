@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.gene_symbol FROM xref_gene_ensembl AS xref_gene_ensembl JOIN healthy_expression AS healthy_expression ON xref_gene_ensembl.ensembl_gene_id = healthy_expression.ensembl_gene_id WHERE healthy_expression.uberon_developmental_id != "MmusDv:0000061"
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM xref_gene_ensembl AS T1 JOIN healthy_expression AS T2 ON T1.ensembl_gene_id = T2.ensembl_gene_id WHERE T2.uberon_developmental_id != "MmusDv:0000061"
+GPT-3 choices:
+(0) Retrieve the gene symbols from the xref_gene_ensembl table where the ensembl_gene_id matches that in the healthy_expression table and filter out any rows where uberon_developmental_id is not equal to "MmusDv:0000061".
+(1) Retrieve the gene symbols from the xref_gene_ensembl table for genes that have expression in healthy tissue but do not belong to the MmusDv:0000061 developmental stage.
+(2) Retrieve the gene symbols from the xref_gene_ensembl table for all genes that have a corresponding entry in the healthy_expression table, but only if their uberon_developmental_id is not equal to "MmusDv:0000061".
+(3) Get the gene symbols from the xref_gene_ensembl table where the ensembl_gene_id matches with that of the healthy_expression table and exclude those rows where uberon_developmental_id equals "MmusDv:0000061".
+(4) Get the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id matches with that in the healthy_expression table, but only if the uberon_developmental_id in healthy_expression is not equal to "MmusDv:0000061".
+(5) What is the gene symbol for each gene in the xref_gene_ensembl table that has a matching ensembl_gene_id in the healthy_expression table and where the corresponding uberon_developmental_id is not equal to "MmusDv:0000061"?
+(6) Find the gene symbol from xref_gene_ensembl that corresponds to an ensembl_gene_id in healthy_expression, where the uberon_developmental_id is not equal to "MmusDv:0000061".
+(7) Retrieve the gene symbol from the xref_gene_ensembl table for all genes that are present in both xref_gene_ensembl and healthy_expression tables, but only if the corresponding uberon_developmental_id in healthy_expression is not equal to "MmusDv:0000061".
+
+
+Re-ranked choices:
+6.320  Retrieve the gene symbols from the xref_gene_ensembl table for genes that have expression in healthy tissue but do not belong to the MmusDv:0000061 developmental stage.
+3.516  Find the gene symbol from xref_gene_ensembl that corresponds to an ensembl_gene_id in healthy_expression, where the uberon_developmental_id is not equal to "MmusDv:0000061".
+3.515  What is the gene symbol for each gene in the xref_gene_ensembl table that has a matching ensembl_gene_id in the healthy_expression table and where the corresponding uberon_developmental_id is not equal to "MmusDv:0000061"?
+3.514  Get the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id matches with that in the healthy_expression table, but only if the uberon_developmental_id in healthy_expression is not equal to "MmusDv:0000061".
+3.513  Retrieve the gene symbol from the xref_gene_ensembl table for all genes that are present in both xref_gene_ensembl and healthy_expression tables, but only if the corresponding uberon_developmental_id in healthy_expression is not equal to "MmusDv:0000061".
+2.116  Retrieve the gene symbols from the xref_gene_ensembl table for all genes that have a corresponding entry in the healthy_expression table, but only if their uberon_developmental_id is not equal to "MmusDv:0000061".
+2.115  Retrieve the gene symbols from the xref_gene_ensembl table where the ensembl_gene_id matches that in the healthy_expression table and filter out any rows where uberon_developmental_id is not equal to "MmusDv:0000061".
+2.115  Get the gene symbols from the xref_gene_ensembl table where the ensembl_gene_id matches with that of the healthy_expression table and exclude those rows where uberon_developmental_id equals "MmusDv:0000061".
+

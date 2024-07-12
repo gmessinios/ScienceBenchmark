@@ -1,0 +1,27 @@
+SELECT institutions.institutions_name FROM institutions AS institutions WHERE institutions.wikidata_url = "http://www.wikidata.org/wiki/Q62140"
+
+###
+
+
+Original Query:
+SELECT T1.institutions_name FROM institutions AS T1 WHERE T1.wikidata_url = "http://www.wikidata.org/wiki/Q62140"
+GPT-3 choices:
+(0) What is the name of the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q62140"?
+(1) Retrieve the name of the institution that has a Wikidata URL of "http://www.wikidata.org/wiki/Q62140".
+(2) Retrieve the name of the institution whose Wikidata URL is "http://www.wikidata.org/wiki/Q62140".
+(3) Retrieve the name of the institution from the table "institutions" where the wikidata URL is equal to "http://www.wikidata.org/wiki/Q62140".
+(4) Get the name of the institution from the "institutions" table where the "wikidata_url" is equal to "http://www.wikidata.org/wiki/Q62140".
+(5) Get the name of the institution from the "institutions" table where its wikidata_url is equal to "http://www.wikidata.org/wiki/Q62140".
+(6) What is the name of the institution that has a wikidata URL of "http://www.wikidata.org/wiki/Q62140"?
+(7) What is the name of the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q62140"?
+
+
+Re-ranked choices:
+5.622  Retrieve the name of the institution from the table "institutions" where the wikidata URL is equal to "http://www.wikidata.org/wiki/Q62140".
+4.232  What is the name of the institution with a Wikidata URL of "http://www.wikidata.org/wiki/Q62140"?
+4.231  What is the name of the institution that has a wikidata URL of "http://www.wikidata.org/wiki/Q62140"?
+4.228  Retrieve the name of the institution that has a Wikidata URL of "http://www.wikidata.org/wiki/Q62140".
+4.227  Retrieve the name of the institution whose Wikidata URL is "http://www.wikidata.org/wiki/Q62140".
+2.823  Get the name of the institution from the "institutions" table where the "wikidata_url" is equal to "http://www.wikidata.org/wiki/Q62140".
+2.823  Get the name of the institution from the "institutions" table where its wikidata_url is equal to "http://www.wikidata.org/wiki/Q62140".
+

@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.description != "Star: A self-luminous gaseous celestial body."
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.description != "Star: A self-luminous gaseous celestial body."
+GPT-3 choices:
+(0) Get the values of objects that have been observed photometrically and are not stars.
+(1) Retrieve the values from the photometrically_observed table where the description is not "Star: A self-luminous gaseous celestial body.".
+(2) Get the value from the photo_type table where the description is not equal to "Star: A self-luminous gaseous celestial body."
+(3) What are the values of all photometrically observed objects that are not stars?
+(4) What is the value for objects observed using photometric methods, excluding stars?
+(5) What is the value of photometrically observed objects that are not stars?
+(6) Find the values in the column "value" from the table "photo_type" where the description is not equal to "Star: A self-luminous gaseous celestial body." and label this information as "photometrically observed".
+(7) "Retrieve the values from the photometrically observed column where the description is not 'Star: A self-luminous gaseous celestial body'."
+
+
+Re-ranked choices:
+9.129  Find the values in the column "value" from the table "photo_type" where the description is not equal to "Star: A self-luminous gaseous celestial body." and label this information as "photometrically observed".
+8.423  "Retrieve the values from the photometrically observed column where the description is not 'Star: A self-luminous gaseous celestial body'."
+6.327  Get the value from the photo_type table where the description is not equal to "Star: A self-luminous gaseous celestial body."
+5.622  Retrieve the values from the photometrically_observed table where the description is not "Star: A self-luminous gaseous celestial body.".
+4.233  What is the value of photometrically observed objects that are not stars?
+2.836  What are the values of all photometrically observed objects that are not stars?
+2.834  Get the values of objects that have been observed photometrically and are not stars.
+2.829  What is the value for objects observed using photometric methods, excluding stars?
+

@@ -1,0 +1,16 @@
+SELECT institutions.unics_id, count(*) FROM institutions AS institutions  GROUP BY institutions.unics_id
+
+###
+
+
+Original Query:
+SELECT T1.unics_id, count(*) FROM institutions AS T1  GROUP BY T1.unics_id
+GPT-3 choices:
+(0) Get the number of records grouped by the UNICS ID for each institution in the institutions table.
+(1) Count the number of institutions for each unique identifier in the "unics_id" column and group the results by these identifiers.
+(2) Count the number of institutions grouped by their unique ID.
+(3) Count the number of institutions for each unique unics ID and group them by the unics ID.
+(4) Count the number of institutions grouped by their unique identifier.
+(5) Count the number of rows in the institutions table for each unique unics_id and group them by the unics_id.
+(6) "How many institutions have the same unics ID and how many times does each unics ID appear in the table?"
+(7) Count the number of institutions for each unique unics_id in the institutions table.

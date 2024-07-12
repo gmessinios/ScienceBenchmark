@@ -1,0 +1,16 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article WHERE biomarker_article.biomarker_internal_id = "EDRN00446"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 WHERE T1.biomarker_internal_id = "EDRN00446"
+GPT-3 choices:
+(0) What is the PubMed ID for the article associated with the biomarker with internal ID "EDRN00446"?
+(1) Retrieve the PMID numbers for articles associated with biomarker EDRN00446 from the biomarker_article table.
+(2) "Retrieve the PMID for an article associated with the biomarker identified as "EDRN00446".
+(3) Retrieve the PMID values from the biomarker_article table where the biomarker_internal_id is equal to "EDRN00446".
+(4) "Retrieve the PubMed ID from the biomarker_article table where the biomarker_internal_id is equal to 'EDRN00446'."
+(5) What is the PMID for the article associated with biomarker EDRN00446 in the table biomarker_article?
+(6) What is the PubMed ID for the article associated with the internal ID "EDRN00446" in the biomarker_article table?
+(7) What is the PMID for the biomarker associated with the internal ID "EDRN00446" in the biomarker_article table?

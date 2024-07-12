@@ -1,0 +1,26 @@
+SELECT count(*) FROM activity_types AS activity_types WHERE activity_types.code = "N/A"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types AS T1 WHERE T1.code = "N/A"
+GPT-3 choices:
+(0) How many records are in the "activity_types" table with a code of "N/A"?
+(1) How many activity types have a code of "N/A"?
+(2) How many activity types have a code of "N/A"?
+(3) How many records are there in the activity_types table where the code is "N/A"?
+(4) How many rows are there in the activity_types table where the code is equal to "N/A"?
+(5) How many activity types have a code of "N/A"?
+(6) How many activities are there in the activity types table with the code "N/A"?
+(7) How many rows are in the "activity_types" table where the value of the "code" column is equal to "N/A"?
+
+
+Re-ranked choices:
+4.991  How many activity types have a code of "N/A"?
+4.939  How many activities are there in the activity types table with the code "N/A"?
+2.150  How many records are in the "activity_types" table with a code of "N/A"?
+2.150  How many rows are there in the activity_types table where the code is equal to "N/A"?
+2.147  How many records are there in the activity_types table where the code is "N/A"?
+2.136  How many rows are in the "activity_types" table where the value of the "code" column is equal to "N/A"?
+

@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries AS countries WHERE countries.unics_id != 60
+
+###
+
+
+Original Query:
+SELECT T1.country_name FROM countries AS T1 WHERE T1.unics_id != 60
+GPT-3 choices:
+(0) Get all country names from the "countries" table where the unics_id is not equal to 60.
+(1) Find the names of countries where the unique identifier is not equal to 60.
+(2) Get the names of all countries where the unique ID is not equal to 60.
+(3) Get the names of all countries except for Country X, where X has a unique identifier of 60.
+(4) Show me the names of all countries that do not have a UNICS ID of 60.
+(5) Find the country names from the table of countries where the unique identifier is not equal to 60.
+(6) "Get the names of all countries that have a unique identifier different from 60."
+(7) Retrieve the names of all countries from the database except for "60".

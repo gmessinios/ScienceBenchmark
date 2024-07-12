@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed    ORDER BY photometrically_observed.value DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1    ORDER BY T1.value DESC LIMIT 1
+GPT-3 choices:
+(0) "What is the description for the highest value in the photo_type table, ordered by descending order and limited to one result?"
+(1) Get the description from the photo type table for the entry with the highest value, ordered by descending value, limited to one result.
+(2) Get the description from the photometrically observed photo type, ordered by value in descending order, and only retrieve the first result.
+(3) Find the description of the photo type that is ordered by its value in descending order and has a limit of 1.
+(4) Find the description of the most frequently observed type of photometrically observed photos, ordered by their value in descending order, and limit the result to only one.
+(5) "Retrieve the description from the table photo_type for the observation type with the highest value, sorted in descending order and limit the result to one."
+(6) Show the description of the photometrically observed photo type, ordered in descending order based on its value, and limit the result to one row.
+(7) Find the description for the photo type that was observed using photometric methods and display it in descending order, limited to only one result.
+
+
+Re-ranked choices:
+6.322  Get the description from the photometrically observed photo type, ordered by value in descending order, and only retrieve the first result.
+6.320  Find the description of the most frequently observed type of photometrically observed photos, ordered by their value in descending order, and limit the result to only one.
+4.222  Show the description of the photometrically observed photo type, ordered in descending order based on its value, and limit the result to one row.
+3.532  Find the description of the photo type that is ordered by its value in descending order and has a limit of 1.
+3.524  "What is the description for the highest value in the photo_type table, ordered by descending order and limited to one result?"
+2.822  Find the description for the photo type that was observed using photometric methods and display it in descending order, limited to only one result.
+2.124  Get the description from the photo type table for the entry with the highest value, ordered by descending value, limited to one result.
+1.421  "Retrieve the description from the table photo_type for the observation type with the highest value, sorted in descending order and limit the result to one."
+

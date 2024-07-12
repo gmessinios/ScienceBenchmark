@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_canonical_ac != "E5RHQ5-1"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_canonical_ac != "E5RHQ5-1"
+GPT-3 choices:
+(0) Retrieve the uniprotkb_ac from the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1".
+(1) Get the Uniprot canonical IDs for all entries in the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1".
+(2) What is the uniprot AC for the canonical ID in the map_uniprot_canonical_id table, where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1"?
+(3) Retrieve the UniprotKB canonical accession number from the "map_uniprot_canonical_id" table, where the canonical accession number is not equal to "E5RHQ5-1".
+(4) What is the UniProtKB canonical ID for all entries in the map_uniprot_canonical_id table where the UniProtKB canonical AC is not equal to "E5RHQ5-1"?
+(5) Retrieve the uniprotkb_ac from map_uniprot_canonical_id where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1".
+(6) Retrieve the UniProtKB accession number for all entries in the map_uniprot_canonical_id table where the canonical accession number is not "E5RHQ5-1".
+(7) Retrieve the uniprot accession number from the table of canonical uniprot identifiers, excluding any records where the canonical identifier is "E5RHQ5-1".
+
+
+Re-ranked choices:
+6.321  What is the uniprot AC for the canonical ID in the map_uniprot_canonical_id table, where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1"?
+6.320  What is the UniProtKB canonical ID for all entries in the map_uniprot_canonical_id table where the UniProtKB canonical AC is not equal to "E5RHQ5-1"?
+3.520  Get the Uniprot canonical IDs for all entries in the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1".
+3.519  Retrieve the uniprot accession number from the table of canonical uniprot identifiers, excluding any records where the canonical identifier is "E5RHQ5-1".
+3.518  Retrieve the UniprotKB canonical accession number from the "map_uniprot_canonical_id" table, where the canonical accession number is not equal to "E5RHQ5-1".
+3.518  Retrieve the UniProtKB accession number for all entries in the map_uniprot_canonical_id table where the canonical accession number is not "E5RHQ5-1".
+0.719  Retrieve the uniprotkb_ac from the map_uniprot_canonical_id table where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1".
+0.719  Retrieve the uniprotkb_ac from map_uniprot_canonical_id where the uniprotkb_canonical_ac is not equal to "E5RHQ5-1".
+

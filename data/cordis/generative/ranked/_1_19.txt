@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.start_date = "2021-04-22"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.start_date = "2021-04-22"
+GPT-3 choices:
+(0) Get the name of the framework program from the ec_framework_programs table that matches the framework program listed in the projects table for a project with a start date of April 22, 2021.
+(1) Get the name of the framework program for all projects that have a start date of April 22nd, 2021.
+(2) What is the name of the framework program for projects that have a start date of April 22, 2021?
+(3) What are the names of all framework programs that are equal to the value of the "framework_program" column in the "projects" table for projects with a start date of April 22, 2021?
+(4) Find the name of the framework program from the ec_framework_programs table that matches the value in the framework_program column of the projects table where the start date is equal to "2021-04-22".
+(5) Get the names of all the framework programs from the "ec_framework_programs" table that have been used as the framework program in any project starting on April 22nd, 2021.
+(6) Show me the name of the framework program for all projects with a start date of April 22, 2021.
+(7) Retrieve the name of all framework programs from the table "ec_framework_programs" that are associated with projects starting on April 22, 2021.
+
+
+Re-ranked choices:
+9.121  Find the name of the framework program from the ec_framework_programs table that matches the value in the framework_program column of the projects table where the start date is equal to "2021-04-22".
+8.462  Get the name of the framework program for all projects that have a start date of April 22nd, 2021.
+8.462  What is the name of the framework program for projects that have a start date of April 22, 2021?
+8.462  Show me the name of the framework program for all projects with a start date of April 22, 2021.
+8.423  Get the name of the framework program from the ec_framework_programs table that matches the framework program listed in the projects table for a project with a start date of April 22, 2021.
+7.027  What are the names of all framework programs that are equal to the value of the "framework_program" column in the "projects" table for projects with a start date of April 22, 2021?
+6.327  Retrieve the name of all framework programs from the table "ec_framework_programs" that are associated with projects starting on April 22, 2021.
+4.926  Get the names of all the framework programs from the "ec_framework_programs" table that have been used as the framework program in any project starting on April 22nd, 2021.
+

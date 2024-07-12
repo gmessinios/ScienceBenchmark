@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.code != "LS"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM erc_research_domains AS T1 WHERE T1.code != "LS"
+GPT-3 choices:
+(0) What are the descriptions of research domains that do not have a code of "LS"?
+(1) Retrieve the description from erc_research_domains where the code is not equal to "LS".
+(2) What are the descriptions for all research domains except "LS"?
+(3) What is the description of all research domains except for "LS"?
+(4) What is the description for all research domains except "LS"?
+(5) Retrieve the description of all research domains from the ERC Research Domains table, excluding those with a code of "LS".
+(6) Show me the descriptions of all research domains except for the one with code "LS" from the table erc_research_domains.
+(7) What is the description of all research domains except "LS"?

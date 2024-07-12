@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl JOIN healthy_expression AS healthy_expression ON xref_gene_ensembl.ensembl_gene_id = healthy_expression.ensembl_gene_id WHERE healthy_expression.expression_score != 72.20000
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 JOIN healthy_expression AS T2 ON T1.ensembl_gene_id = T2.ensembl_gene_id WHERE T2.expression_score != 72.20000
+GPT-3 choices:
+(0) Retrieve the species ID from the xref_gene_ensembl table where the ensembl_gene_id matches with the one in healthy_expression table and expression_score is not equal to 72.20000.
+(1) Retrieve the species ID from the xref_gene_ensembl table where the ensembl_gene_id matches between xref_gene_ensembl and healthy_expression, and where the expression_score in healthy_expression is not equal to 72.20000.
+(2) Find the speciesid from the xref_gene_ensembl table where the ensembl_gene_id matches between xref_gene_ensembl and healthy_expression, but only return results where the expression_score is not equal to 72.20000 in the healthy_expression table.
+(3) Find the species IDs from the xref_gene_ensembl table for which there are expression scores that are not equal to 72.20000 in the healthy_expression table, where the ensembl_gene_id matches between the two tables.
+(4) Get the species IDs from the xref_gene_ensembl table for genes that have a corresponding expression score in the healthy_expression table that is not equal to 72.20000.
+(5) Retrieve the species ID from the xref_gene_ensembl table for all genes where their expression score in the healthy_expression table is not equal to 72.20000.
+(6) Get the speciesid from the xref_gene_ensembl table for all genes that have an ensembl_gene_id that is present in both the xref_gene_ensembl and healthy_expression tables, where the expression_score in healthy_expression is not equal to 72.20000.
+(7) Find the speciesid from xref_gene_ensembl where the ensembl_gene_id matches with healthy_expression and the expression_score is not equal to 72.20000.
+
+
+Re-ranked choices:
+4.224  Retrieve the species ID from the xref_gene_ensembl table for all genes where their expression score in the healthy_expression table is not equal to 72.20000.
+2.823  Get the species IDs from the xref_gene_ensembl table for genes that have a corresponding expression score in the healthy_expression table that is not equal to 72.20000.
+1.429  Find the species IDs from the xref_gene_ensembl table for which there are expression scores that are not equal to 72.20000 in the healthy_expression table, where the ensembl_gene_id matches between the two tables.
+1.420  Find the speciesid from xref_gene_ensembl where the ensembl_gene_id matches with healthy_expression and the expression_score is not equal to 72.20000.
+1.420  Retrieve the species ID from the xref_gene_ensembl table where the ensembl_gene_id matches with the one in healthy_expression table and expression_score is not equal to 72.20000.
+1.419  Find the speciesid from the xref_gene_ensembl table where the ensembl_gene_id matches between xref_gene_ensembl and healthy_expression, but only return results where the expression_score is not equal to 72.20000 in the healthy_expression table.
+1.416  Retrieve the species ID from the xref_gene_ensembl table where the ensembl_gene_id matches between xref_gene_ensembl and healthy_expression, and where the expression_score in healthy_expression is not equal to 72.20000.
+1.415  Get the speciesid from the xref_gene_ensembl table for all genes that have an ensembl_gene_id that is present in both the xref_gene_ensembl and healthy_expression tables, where the expression_score in healthy_expression is not equal to 72.20000.
+

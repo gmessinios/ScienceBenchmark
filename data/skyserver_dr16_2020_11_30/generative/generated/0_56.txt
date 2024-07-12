@@ -1,0 +1,16 @@
+SELECT Photometric_objects.cmodelmag_r FROM photoobj AS Photometric_objects WHERE Photometric_objects.r = 12.36489
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_r FROM photoobj AS T1 WHERE T1.r = 12.36489
+GPT-3 choices:
+(0) What is the cmodel magnitude in the r-band for a photometric object with an r-value of 12.36489?
+(1) Find the cmodel magnitude in the r-band for photometric objects with a r-band value of 12.36489 in the photoobj table.
+(2) What is the cmodel magnitude in the r-band for a photometric object with an r-band magnitude of 12.36489?
+(3) What is the cmodel magnitude in the r-band for an object with an r magnitude of 12.36489 in the photoobj table?
+(4) What is the cmodel magnitude in the r-band for objects with a magnitude of 12.36489 in the r-band?
+(5) What is the cmodel magnitude in the r band for a photometric object with an r-band magnitude of 12.36489?
+(6) What is the cmodel magnitude in the r-band for the Photometric_objects with an r-band value of 12.36489?
+(7) Get the cmodelmag_r value for all objects in the photoobj table with an r value of 12.36489.

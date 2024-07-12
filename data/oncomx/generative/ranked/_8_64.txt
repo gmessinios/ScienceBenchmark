@@ -1,0 +1,27 @@
+SELECT differential_expression.gene_symbol FROM differential_expression AS differential_expression WHERE differential_expression.adjpvalue != 6.74e-122
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM differential_expression AS T1 WHERE T1.adjpvalue != 6.74e-122
+GPT-3 choices:
+(0) Get the gene symbols from the table "differential_expression" where the adjusted p-value is not equal to 6.74e-122.
+(1) Retrieve the gene symbols from the table of differential expression where the adjusted p-value is not equal to 6.74e-12.
+(2) What is the gene symbol of all entries in the differential expression table where the adjusted p-value is not equal to 6.74e-12?
+(3) Retrieve the gene symbols from the table "differential_expression" where the adjusted p-value is not equal to 6.74e-12.
+(4) Retrieve the gene symbols from the differential_expression table where the adjpvalue is not equal to 6.74e-12.
+(5) Retrieve the gene symbols from the differential_expression table where the adjpvalue is not equal to 6.74e-12.
+(6) Retrieve the gene symbol from the differential expression table where the adjusted p-value is not equal to 6.74e-12.
+(7) Find all gene symbols from the table of differential expression where the adjusted p-value is not equal to 6.74e-122.
+
+
+Re-ranked choices:
+5.629  Retrieve the gene symbol from the differential expression table where the adjusted p-value is not equal to 6.74e-12.
+5.628  What is the gene symbol of all entries in the differential expression table where the adjusted p-value is not equal to 6.74e-12?
+4.232  Find all gene symbols from the table of differential expression where the adjusted p-value is not equal to 6.74e-122.
+4.228  Retrieve the gene symbols from the table of differential expression where the adjusted p-value is not equal to 6.74e-12.
+2.823  Retrieve the gene symbols from the differential_expression table where the adjpvalue is not equal to 6.74e-12.
+1.430  Get the gene symbols from the table "differential_expression" where the adjusted p-value is not equal to 6.74e-122.
+1.427  Retrieve the gene symbols from the table "differential_expression" where the adjusted p-value is not equal to 6.74e-12.
+

@@ -1,0 +1,28 @@
+SELECT map_protein_disease_mutation.uniprotkb_ac FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.peptide_id != "ENSP00000226253"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_protein_disease_mutation AS T1 WHERE T1.peptide_id != "ENSP00000226253"
+GPT-3 choices:
+(0) What is the UniProtKB accession number for all protein-disease-mutation mappings, excluding those with a peptide ID of "ENSP00000226253"?
+(1) Find the UniProtKB accession numbers from the map_protein_disease_mutation table where the peptide_id is not "ENSP00000226253".
+(2) Retrieve the UniProtKB accession number for proteins associated with a disease and mutation, excluding those related to the ENSP00000226253 peptide.
+(3) Find the UniProtKB accessions for protein-disease-mutation mappings where the peptide ID is not "ENSP00000226253".
+(4) Retrieve the UniprotKB accession code for proteins associated with disease mutations that are not linked to the peptide ID "ENSP00000226253".
+(5) Get all the UniProtKB accession numbers from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000226253".
+(6) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the peptide_id is not "ENSP00000226253".
+(7) Retrieve the UniprotKB accession number from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000226253".
+
+
+Re-ranked choices:
+6.323  Retrieve the UniprotKB accession code for proteins associated with disease mutations that are not linked to the peptide ID "ENSP00000226253".
+4.925  Find the UniProtKB accessions for protein-disease-mutation mappings where the peptide ID is not "ENSP00000226253".
+4.922  What is the UniProtKB accession number for all protein-disease-mutation mappings, excluding those with a peptide ID of "ENSP00000226253"?
+3.518  Retrieve the UniProtKB accession number for proteins associated with a disease and mutation, excluding those related to the ENSP00000226253 peptide.
+2.124  Find the UniProtKB accession numbers from the map_protein_disease_mutation table where the peptide_id is not "ENSP00000226253".
+2.124  Get all the UniProtKB accession numbers from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000226253".
+2.123  Retrieve the UniprotKB accession number from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000226253".
+2.122  Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the peptide_id is not "ENSP00000226253".
+

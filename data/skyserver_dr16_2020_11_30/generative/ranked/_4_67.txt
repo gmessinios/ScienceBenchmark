@@ -1,0 +1,28 @@
+SELECT count(*) FROM galspecline AS Emission_line_estimates WHERE Emission_line_estimates.specobjid = 299517714991441920
+
+###
+
+
+Original Query:
+SELECT count(*) FROM galspecline AS T1 WHERE T1.specobjid = 299517714991441920
+GPT-3 choices:
+(0) How many rows are in the table Emission_line_estimates where the specobjid column has a value of 299517714991441920?
+(1) How many emission line estimates are there for the specobjid 299517714991441920 in the galspecline table?
+(2) How many emission line estimates are there for a specific specobjid?
+(3) How many emission line estimates are associated with the specobjid 299517714991441920 in the galspecline table?
+(4) How many rows are there in the "galspecline" table where the specobjid is equal to 299517714991441920?
+(5) How many emission line estimates are associated with the spectrum object with ID 299517714991441920 in the galspecline table?
+(6) How many rows are in the "Emission_line_estimates" table where the value of "specobjid" is 299517714991441920?
+(7) How many rows are in the galspecline table where the specobjid is 299517714991441920 in the Emission_line_estimates table?
+
+
+Re-ranked choices:
+5.627  How many emission line estimates are associated with the spectrum object with ID 299517714991441920 in the galspecline table?
+2.841  How many emission line estimates are there for a specific specobjid?
+2.834  How many emission line estimates are there for the specobjid 299517714991441920 in the galspecline table?
+2.824  How many emission line estimates are associated with the specobjid 299517714991441920 in the galspecline table?
+0.733  How many rows are in the "Emission_line_estimates" table where the value of "specobjid" is 299517714991441920?
+0.731  How many rows are in the table Emission_line_estimates where the specobjid column has a value of 299517714991441920?
+0.728  How many rows are in the galspecline table where the specobjid is 299517714991441920 in the Emission_line_estimates table?
+0.044  How many rows are there in the "galspecline" table where the specobjid is equal to 299517714991441920?
+

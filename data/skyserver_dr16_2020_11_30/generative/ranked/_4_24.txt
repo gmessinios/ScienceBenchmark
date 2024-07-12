@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.description = "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"
+GPT-3 choices:
+(0) How many photometrically observed photos are caused by a defect in the telescope or processing pipeline and are not used?
+(1) How many entries are there in the table "photo_type" where the description is "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"?
+(2) How many photo types are there that have a description of "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)" in the table photometrically_observed?
+(3) How many photometrically observed photo types are caused by a defect in the telescope or processing pipeline and are not used?
+(4) How many objects have been photometrically observed and are described as being caused by a defect in the telescope or processing pipeline, but are not currently used?
+(5) How many records are there in the photo_type table where the description is "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"?
+(6) How many photos are classified as photometrically observed and described as "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"?
+(7) How many observations in the photo_type table are classified as "Defect: Object is caused by a defect in the telescope or processing pipeline"?
+
+
+Re-ranked choices:
+10.521  How many photos are classified as photometrically observed and described as "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"?
+9.133  How many photo types are there that have a description of "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)" in the table photometrically_observed?
+9.125  How many records are there in the photo_type table where the description is "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"?
+9.123  How many entries are there in the table "photo_type" where the description is "Defect: Object is caused by a defect in the telescope or processing pipeline. (not used)"?
+8.427  How many photometrically observed photos are caused by a defect in the telescope or processing pipeline and are not used?
+8.426  How many photometrically observed photo types are caused by a defect in the telescope or processing pipeline and are not used?
+7.722  How many objects have been photometrically observed and are described as being caused by a defect in the telescope or processing pipeline, but are not currently used?
+7.022  How many observations in the photo_type table are classified as "Defect: Object is caused by a defect in the telescope or processing pipeline"?
+

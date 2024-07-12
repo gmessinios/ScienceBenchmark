@@ -1,0 +1,27 @@
+SELECT differential_expression.subjects_up FROM differential_expression AS differential_expression WHERE differential_expression.subjects_down = 52
+
+###
+
+
+Original Query:
+SELECT T1.subjects_up FROM differential_expression AS T1 WHERE T1.subjects_down = 52
+GPT-3 choices:
+(0) Retrieve the subjects that have an increase in expression from the differential_expression table where the number of subjects with a decrease in expression is equal to 52.
+(1) Find the number of subjects with an increase in expression from the table "differential_expression" where the number of subjects with a decrease in expression is equal to 52.
+(2) Retrieve the number of subjects with increased expression from a table of differential expression where the number of subjects with decreased expression is equal to 52.
+(3) Retrieve the list of subjects who have a higher expression compared to a given subject with an ID of 52 in the table "differential_expression".
+(4) Retrieve the number of subjects that have increased differential expression from the table differential_expression where the number of subjects with decreased differential expression is 52.
+(5) Get the list of subjects whose number of down differential expressions is equal to 52 from the table "differential_expression".
+(6) Retrieve the number of subjects with increased expression from a table of differential expression where the number of subjects with decreased expression is equal to 52.
+(7) Retrieve the list of subjects that have a difference in expression level between two conditions where the number of down-regulated subjects is 52.
+
+
+Re-ranked choices:
+4.225  Get the list of subjects whose number of down differential expressions is equal to 52 from the table "differential_expression".
+4.221  Retrieve the number of subjects with increased expression from a table of differential expression where the number of subjects with decreased expression is equal to 52.
+4.217  Retrieve the number of subjects that have increased differential expression from the table differential_expression where the number of subjects with decreased differential expression is 52.
+2.824  Retrieve the list of subjects who have a higher expression compared to a given subject with an ID of 52 in the table "differential_expression".
+2.822  Retrieve the list of subjects that have a difference in expression level between two conditions where the number of down-regulated subjects is 52.
+2.822  Retrieve the subjects that have an increase in expression from the differential_expression table where the number of subjects with a decrease in expression is equal to 52.
+2.821  Find the number of subjects with an increase in expression from the table "differential_expression" where the number of subjects with a decrease in expression is equal to 52.
+

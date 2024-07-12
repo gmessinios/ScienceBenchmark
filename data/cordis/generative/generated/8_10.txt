@@ -1,0 +1,16 @@
+SELECT countries.country_code3 FROM countries AS countries WHERE countries.country_name != "Poland"
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 WHERE T1.country_name != "Poland"
+GPT-3 choices:
+(0) What is the country code3 for countries that are not Poland in the table "countries"?
+(1) "Retrieve the country code3 from the countries table where the country name is not "Poland"."
+(2) What are the country codes (in 3-letter format) of all countries except for Poland?
+(3) Retrieve the country code 3 for all countries, excluding Poland, from the countries table.
+(4) Show me the country codes for all countries except for Poland in the "countries" table.
+(5) Find the country code3 for all countries in the "countries" table where the country name is not equal to "Poland".
+(6) "Select the country code3 from the countries table where the country name is not Poland."
+(7) What is the country code3 for all countries except Poland?

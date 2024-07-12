@@ -1,0 +1,16 @@
+SELECT biomarker_fda.id FROM biomarker_fda AS biomarker_fda JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.test_manufacturer = "THERASCREEN EGFR RGQ PCR KIT"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_manufacturer = "THERASCREEN EGFR RGQ PCR KIT"
+GPT-3 choices:
+(0) Find the ID numbers for all biomarkers listed in the FDA database that have a test trade name matching "THERASCREEN EGFR RGQ PCR KIT" and are manufactured by the company "THERASCREEN EGFR RGQ PCR KIT".
+(1) What is the ID of all biomarkers from the FDA database that have a corresponding test trade name in the biomarker FDA test database with a manufacturer listed as "THERASCREEN EGFR RGQ PCR KIT"?
+(2) Retrieve the ID from the biomarker_fda table for a test that is in both the biomarker_fda and biomarker_fda_test tables, with the test trade name being "THERASCREEN EGFR RGQ PCR KIT" and the test manufacturer also being "THERASCREEN EGFR RGQ PCR KIT".
+(3) Retrieve the ID from the biomarker_fda table where the test_trade_name matches a test in the biomarker_fda_test table with a test_manufacturer of "THERASCREEN EGFR RGQ PCR KIT".
+(4) "Find the id of biomarkers from the FDA database that have a test trade name matching one listed in the FDA biomarker test list with a manufacturer named "THERASCREEN EGFR RGQ PCR KIT"."
+(5) Find the ID of biomarker_fda where the test trade name is equal to "THERASCREEN EGFR RGQ PCR KIT" and the test manufacturer is equal to "THERASCREEN EGFR RGQ PCR KIT".
+(6) "Retrieve the ID of biomarkers from the FDA database that correspond to tests listed in the FDA biomarker test registry as THERASCREEN EGFR RGQ PCR KIT and are manufactured by a company listed in the manufacturer column."
+(7) "Retrieve the ID of biomarkers from the FDA that have a corresponding test trade name in the biomarker FDA test database, with a test manufacturer of "THERASCREEN EGFR RGQ PCR KIT"."

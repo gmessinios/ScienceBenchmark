@@ -1,0 +1,28 @@
+SELECT project_members.ec_contribution FROM project_members AS project_members WHERE project_members.longitude = 6.09301334051913
+
+###
+
+
+Original Query:
+SELECT T1.ec_contribution FROM project_members AS T1 WHERE T1.longitude = 6.09301334051913
+GPT-3 choices:
+(0) What is the EC contribution for project members with a longitude of 6.09301334051913?
+(1) Retrieve the EC contribution of all project members with a longitude value of 6.09301334051913.
+(2) Find the EC contribution of all project members whose longitude is equal to 6.09301334051913.
+(3) What is the ec_contribution of project members with a longitude of 6.09301334051913?
+(4) What is the amount of funding received by project members with a longitude value of 6.09301334051913?
+(5) What is the EC contribution of project members who have a longitude value of 6.09301334051913?
+(6) What is the EC contribution for members of the project with a longitude value of 6.09301334051913?
+(7) What is the ec contribution of project members with a longitude of 6.09301334051913?
+
+
+Re-ranked choices:
+7.047  Find the EC contribution of all project members whose longitude is equal to 6.09301334051913.
+7.042  What is the EC contribution for project members with a longitude of 6.09301334051913?
+7.042  What is the EC contribution for members of the project with a longitude value of 6.09301334051913?
+7.037  What is the EC contribution of project members who have a longitude value of 6.09301334051913?
+7.037  What is the ec contribution of project members with a longitude of 6.09301334051913?
+7.034  Retrieve the EC contribution of all project members with a longitude value of 6.09301334051913.
+4.242  What is the amount of funding received by project members with a longitude value of 6.09301334051913?
+4.233  What is the ec_contribution of project members with a longitude of 6.09301334051913?
+

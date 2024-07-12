@@ -1,0 +1,28 @@
+SELECT institutions.acronym FROM institutions AS institutions JOIN eu_territorial_units AS eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.description != "Mid Lancashire"
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM institutions AS T1 JOIN eu_territorial_units AS T2 ON T1.geocode_regions_3 = T2.geocode_regions WHERE T2.description != "Mid Lancashire"
+GPT-3 choices:
+(0) Retrieve the acronyms of institutions whose geocode_regions_3 matches that of the EU territorial units except for those with a description of "Mid Lancashire".
+(1) Retrieve the acronym of institutions that are associated with EU territorial units where the description is not "Mid Lancashire".
+(2) Find the acronyms of institutions that are located in European territorial units, excluding "Mid Lancashire".
+(3) Retrieve the acronym of institutions located in EU territorial units that are not named "Mid Lancashire".
+(4) Retrieve the acronyms of all institutions that are associated with a European territorial unit, excluding those with the description "Mid Lancashire".
+(5) Find the acronyms of institutions located in EU territorial units other than "Mid Lancashire".
+(6) Retrieve the acronym of all institutions that are located in a European territorial unit, where the description of the unit is not "Mid Lancashire".
+(7) Find the acronyms of institutions whose geocode_regions_3 matches with eu_territorial_units and have a description that is not "Mid Lancashire".
+
+
+Re-ranked choices:
+9.821  Retrieve the acronym of institutions that are associated with EU territorial units where the description is not "Mid Lancashire".
+8.423  Retrieve the acronym of institutions located in EU territorial units that are not named "Mid Lancashire".
+8.421  Retrieve the acronyms of institutions whose geocode_regions_3 matches that of the EU territorial units except for those with a description of "Mid Lancashire".
+7.025  Find the acronyms of institutions located in EU territorial units other than "Mid Lancashire".
+7.020  Retrieve the acronym of all institutions that are located in a European territorial unit, where the description of the unit is not "Mid Lancashire".
+5.619  Retrieve the acronyms of all institutions that are associated with a European territorial unit, excluding those with the description "Mid Lancashire".
+4.222  Find the acronyms of institutions that are located in European territorial units, excluding "Mid Lancashire".
+4.220  Find the acronyms of institutions whose geocode_regions_3 matches with eu_territorial_units and have a description that is not "Mid Lancashire".
+

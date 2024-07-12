@@ -1,0 +1,28 @@
+SELECT healthy_expression.expression_level_anatomical_relative FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_developmental_id != "MmusDv:0000076"
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_anatomical_relative FROM healthy_expression AS T1 WHERE T1.uberon_developmental_id != "MmusDv:0000076"
+GPT-3 choices:
+(0) Retrieve the expression levels of genes in healthy tissue, excluding developmental tissue, from the database "healthy_expression".
+(1) Retrieve the relative expression levels in healthy tissue from all anatomical regions except for the developmental stage "adult" in mice.
+(2) Retrieve the relative expression levels in anatomical structures for healthy samples where the developmental stage is not "adult".
+(3) Retrieve the expression level of anatomical structures relative to a given developmental stage from the table "healthy_expression" excluding data for Mus musculus embryos.
+(4) Retrieve the relative expression levels in anatomical structures for healthy samples, excluding those from Mus musculus developmental stage 22.
+(5) Retrieve the expression level in an anatomical context from healthy mice where the developmental stage is not embryonic.
+(6) Retrieve the expression level in anatomical context from healthy individuals, excluding the developmental stage corresponding to "mouse embryo".
+(7) Get the expression level anatomical relative from the table healthy_expression, but only for rows where the developmental identifier is not "MmusDv:0000076".
+
+
+Re-ranked choices:
+7.717  Get the expression level anatomical relative from the table healthy_expression, but only for rows where the developmental identifier is not "MmusDv:0000076".
+7.024  Retrieve the relative expression levels in anatomical structures for healthy samples where the developmental stage is not "adult".
+7.024  Retrieve the expression level in an anatomical context from healthy mice where the developmental stage is not embryonic.
+7.022  Retrieve the relative expression levels in healthy tissue from all anatomical regions except for the developmental stage "adult" in mice.
+7.021  Retrieve the relative expression levels in anatomical structures for healthy samples, excluding those from Mus musculus developmental stage 22.
+7.018  Retrieve the expression level of anatomical structures relative to a given developmental stage from the table "healthy_expression" excluding data for Mus musculus embryos.
+7.017  Retrieve the expression level in anatomical context from healthy individuals, excluding the developmental stage corresponding to "mouse embryo".
+4.221  Retrieve the expression levels of genes in healthy tissue, excluding developmental tissue, from the database "healthy_expression".
+

@@ -1,0 +1,28 @@
+SELECT disease_mutation.cds_pos FROM disease_mutation AS disease_mutation    ORDER BY disease_mutation.id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.cds_pos FROM disease_mutation AS T1    ORDER BY T1.id DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the coding sequence position from the latest entry in the disease_mutation table, ordered by descending id and limiting to 1.
+(1) Retrieve the coding sequence position from the most recently added entry in the disease_mutation table.
+(2) Retrieve the coding sequence position from the most recent entry in the table "disease_mutation".
+(3) Retrieve the coding sequence position from the most recent entry in the disease_mutation table, ordered by id in descending order and limited to one entry.
+(4) What is the latest CDS position recorded in the disease_mutation table?
+(5) What is the coding sequence position of the most recent disease mutation entry in the database?
+(6) What is the last CDS position for disease mutations in the disease_mutation table, ordered by descending id?
+(7) Get the CDS positions of all disease mutations in descending order, limited to the last entry in the table.
+
+
+Re-ranked choices:
+3.523  What is the last CDS position for disease mutations in the disease_mutation table, ordered by descending id?
+2.832  What is the coding sequence position of the most recent disease mutation entry in the database?
+2.828  Get the CDS positions of all disease mutations in descending order, limited to the last entry in the table.
+2.120  Retrieve the coding sequence position from the latest entry in the disease_mutation table, ordered by descending id and limiting to 1.
+2.118  Retrieve the coding sequence position from the most recent entry in the disease_mutation table, ordered by id in descending order and limited to one entry.
+1.430  What is the latest CDS position recorded in the disease_mutation table?
+0.024  Retrieve the coding sequence position from the most recent entry in the table "disease_mutation".
+0.024  Retrieve the coding sequence position from the most recently added entry in the disease_mutation table.
+

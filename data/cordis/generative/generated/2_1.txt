@@ -1,0 +1,16 @@
+SELECT projects.start_date, count(*) FROM projects AS projects  GROUP BY projects.start_date
+
+###
+
+
+Original Query:
+SELECT T1.start_date, count(*) FROM projects AS T1  GROUP BY T1.start_date
+GPT-3 choices:
+(0) Find the start dates and count the number of projects for each start date in the "projects" table.
+(1) "Count the number of projects for each start date."
+(2) Find the start date of all projects and count the total number of projects for each start date.
+(3) Find the number of projects and their start dates in a table called "projects" and group them by their start date.
+(4) Count the number of projects for each start date in the projects table.
+(5) Get the start date and count the number of projects for each start date from the table "projects".
+(6) Count the number of projects for each start date.
+(7) "Count the number of projects for each start date and display the start date along with the corresponding count."

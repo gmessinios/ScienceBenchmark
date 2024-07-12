@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "DEFECT"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name = "DEFECT"
+GPT-3 choices:
+(0) What is the description of the photo type with the name "DEFECT" in the table "photometrically_observed"?
+(1) What is the description for the photo type "DEFECT" in the table "photometrically_observed"?
+(2) What is the description of the photo type "DEFECT" in the photometrically observed category?
+(3) What is the description for a photo type named "DEFECT"?
+(4) What is the description of the photometrically observed photo type with the name "DEFECT"?
+(5) What is the description of the photometrically observed photo type named "DEFECT"?
+(6) What is the description of a photo type named "DEFECT" in the table "photometrically_observed"?
+(7) What is the description of the photo type "DEFECT"?

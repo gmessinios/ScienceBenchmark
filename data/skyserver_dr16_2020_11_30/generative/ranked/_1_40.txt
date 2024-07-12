@@ -1,0 +1,28 @@
+SELECT Photometric_objects.loadversion FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name = "UNKNOWN"
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name = "UNKNOWN"
+GPT-3 choices:
+(0) Find the loadversion value from Photometric_objects for all photoobj where type equals to "UNKNOWN" and photometrically_observed.name is equal to "UNKNOWN".
+(1) "Select the load version from the photo objects table where the type is unknown and is observed photometrically."
+(2) Retrieve the load version from the photometric_objects table for all objects that have a type of "UNKNOWN" according to the photo_type table.
+(3) Retrieve the load version for all photometric objects that have an unknown type.
+(4) Find the loadversion for all objects in the photoobj table that have a type of "UNKNOWN" according to the photometrically_observed table.
+(5) Retrieve the load version of photometric objects from the photoobj table where the type matches with "UNKNOWN" in the photo_type table and is classified as photometrically observed.
+(6) What is the load version for all photometric objects that have an unknown photo type?
+(7) Retrieve the load version of photometric objects from the photoobj table, where the type value matches "UNKNOWN" in the photo_type table and is equivalent to being classified as photometrically observed.
+
+
+Re-ranked choices:
+9.116  Retrieve the load version of photometric objects from the photoobj table, where the type value matches "UNKNOWN" in the photo_type table and is equivalent to being classified as photometrically observed.
+7.726  "Select the load version from the photo objects table where the type is unknown and is observed photometrically."
+7.717  Retrieve the load version of photometric objects from the photoobj table where the type matches with "UNKNOWN" in the photo_type table and is classified as photometrically observed.
+7.025  Retrieve the load version from the photometric_objects table for all objects that have a type of "UNKNOWN" according to the photo_type table.
+4.942  Retrieve the load version for all photometric objects that have an unknown type.
+4.937  What is the load version for all photometric objects that have an unknown photo type?
+4.224  Find the loadversion value from Photometric_objects for all photoobj where type equals to "UNKNOWN" and photometrically_observed.name is equal to "UNKNOWN".
+4.220  Find the loadversion for all objects in the photoobj table that have a type of "UNKNOWN" according to the photometrically_observed table.
+

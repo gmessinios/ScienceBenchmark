@@ -1,0 +1,28 @@
+SELECT project_members.project FROM project_members AS project_members WHERE project_members.latitude = 52.37232325 or project_members.vat_number = "IT01638690501"
+
+###
+
+
+Original Query:
+SELECT T1.project FROM project_members AS T1 WHERE T1.latitude = 52.37232325 or T1.vat_number = "IT01638690501"
+GPT-3 choices:
+(0) Find the project that has either a latitude value of 52.37232325 or a VAT number of "IT01638690501" listed in its members.
+(1) Retrieve the project from the project_members table where either the latitude is equal to 52.37232325 or the vat_number is equal to "IT01638690501".
+(2) Find the project associated with a member who has a latitude of 52.37232325 or a VAT number of "IT01638690501".
+(3) Get the project name from the project_members table where either the latitude is equal to 52.37232325 or the VAT number is equal to "IT01638690501".
+(4) Retrieve the project of all members whose latitude is 52.37232325 or VAT number is "IT01638690501".
+(5) Find the project that has a member with a latitude of 52.37232325 or a VAT number of "IT01638690501".
+(6) Retrieve the project name from the project_members table where either the latitude is equal to 52.37232325 or the VAT number is equal to "IT01638690501".
+(7) Retrieve the project from the table of project members where either the latitude is equal to 52.37232325 or the VAT number is equal to "IT01638690501".
+
+
+Re-ranked choices:
+7.811  Retrieve the project of all members whose latitude is 52.37232325 or VAT number is "IT01638690501".
+7.765  Retrieve the project from the table of project members where either the latitude is equal to 52.37232325 or the VAT number is equal to "IT01638690501".
+6.443  Find the project that has a member with a latitude of 52.37232325 or a VAT number of "IT01638690501".
+6.379  Find the project that has either a latitude value of 52.37232325 or a VAT number of "IT01638690501" listed in its members.
+6.368  Get the project name from the project_members table where either the latitude is equal to 52.37232325 or the VAT number is equal to "IT01638690501".
+6.365  Find the project associated with a member who has a latitude of 52.37232325 or a VAT number of "IT01638690501".
+6.354  Retrieve the project name from the project_members table where either the latitude is equal to 52.37232325 or the VAT number is equal to "IT01638690501".
+3.558  Retrieve the project from the project_members table where either the latitude is equal to 52.37232325 or the vat_number is equal to "IT01638690501".
+

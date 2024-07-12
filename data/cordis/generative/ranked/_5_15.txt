@@ -1,0 +1,28 @@
+SELECT project_members.city FROM project_members AS project_members    ORDER BY project_members.longitude DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.city FROM project_members AS T1    ORDER BY T1.longitude DESC LIMIT 1
+GPT-3 choices:
+(0) "Retrieve the city of the project member with the highest longitude value, sorted in descending order."
+(1) "Retrieve the city of the project member who has the highest longitude value, sorted in descending order, from the project_members table."
+(2) Get the city of all project members in descending order by their longitude, limited to only the first result.
+(3) Find the city of the project member with the highest longitude, in descending order.
+(4) Retrieve the city from the project members table, ordering by longitude in descending order and returning only the first result.
+(5) "Retrieve the city of the project member located at the highest longitude, ordered from highest to lowest, limited to only one result."
+(6) What is the city of the project member with the highest longitude?
+(7) "Select the city of all project members and order them by longitude in descending order, returning only the first result."
+
+
+Re-ranked choices:
+6.327  "Select the city of all project members and order them by longitude in descending order, returning only the first result."
+6.324  Retrieve the city from the project members table, ordering by longitude in descending order and returning only the first result.
+4.932  Get the city of all project members in descending order by their longitude, limited to only the first result.
+4.232  "Retrieve the city of the project member with the highest longitude value, sorted in descending order."
+4.224  "Retrieve the city of the project member who has the highest longitude value, sorted in descending order, from the project_members table."
+2.868  What is the city of the project member with the highest longitude?
+2.839  Find the city of the project member with the highest longitude, in descending order.
+2.825  "Retrieve the city of the project member located at the highest longitude, ordered from highest to lowest, limited to only one result."
+

@@ -1,0 +1,16 @@
+SELECT Photometric_objects.g FROM photoobj AS Photometric_objects WHERE Photometric_objects.ra = 0.00336103860473713 and Photometric_objects.dec = -19.0418600002173
+
+###
+
+
+Original Query:
+SELECT T1.g FROM photoobj AS T1 WHERE T1.ra = 0.00336103860473713 and T1.dec = -19.0418600002173
+GPT-3 choices:
+(0) Retrieve the value of column "g" from the table "photoobj" where the values of columns "ra" and "dec" are 0.00336103860473713 and -19.0418600002173 respectively, and alias this table as "Photometric_objects".
+(1) Retrieve the photometric objects from the photoobj table with a ra value of 0.00336103860473713 and a dec value of -19.0418600002173.
+(2) What is the value of column "g" from table "Photometric_objects" for objects with a right ascension of 0.00336103860473713 and a declination of -19.0418600002173 in table "photoobj"?
+(3) Retrieve the value of "g" from the "photoobj" table where the "ra" column is equal to 0.00336103860473713 and the "dec" column is equal to -19.0418600002173, and refer to this data as "Photometric_objects".
+(4) Retrieve the magnitude value from the "g" column in the "photoobj" table for all objects where their right ascension is equal to 0.00336103860473713 and their declination is equal to -19.0418600002173.
+(5) What is the value of g from the photometric_objects table for an object with a right ascension of 0.00336103860473713 and a declination of -19.0418600002173?
+(6) Find the value of "g" from the table "photoobj" where the value for "ra" is 0.00336103860473713 and the value for "dec" is -19.0418600002173, under the alias "Photometric_objects".
+(7) Find the g magnitude value from the photoobj table for a photometric object with a right ascension of 0.00336103860473713 and a declination of -19.0418600002173.

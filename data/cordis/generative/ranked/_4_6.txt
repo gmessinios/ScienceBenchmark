@@ -1,0 +1,27 @@
+SELECT count(*) FROM institutions AS institutions WHERE institutions.grid_id = "grid.424684.8"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions AS T1 WHERE T1.grid_id = "grid.424684.8"
+GPT-3 choices:
+(0) How many institutions are there with a grid ID of "grid.424684.8"?
+(1) How many institutions have a grid_id of "grid.424684.8"?
+(2) How many institutions have a grid ID of "grid.424684.8"?
+(3) How many institutions have a GRID ID of "grid.424684.8"?
+(4) How many institutions have a grid_id value of "grid.424684.8"?
+(5) How many institutions have a grid ID of "grid.424684.8"?
+(6) How many institutions are there with a grid_id of "grid.424684.8" in the institutions table?
+(7) How many institutions have a grid_id value of "grid.424684.8" in the institutions table?
+
+
+Re-ranked choices:
+4.291  How many institutions have a grid ID of "grid.424684.8"?
+4.291  How many institutions have a GRID ID of "grid.424684.8"?
+4.275  How many institutions are there with a grid ID of "grid.424684.8"?
+1.473  How many institutions have a grid_id of "grid.424684.8"?
+1.468  How many institutions have a grid_id value of "grid.424684.8"?
+1.462  How many institutions are there with a grid_id of "grid.424684.8" in the institutions table?
+1.452  How many institutions have a grid_id value of "grid.424684.8" in the institutions table?
+

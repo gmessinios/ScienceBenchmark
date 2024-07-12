@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_manufacturer FROM biomarker_fda_test AS biomarker_fda_test JOIN disease AS disease ON biomarker_fda_test.doid = disease.id WHERE disease.id != 9256
+
+###
+
+
+Original Query:
+SELECT T1.test_manufacturer FROM biomarker_fda_test AS T1 JOIN disease AS T2 ON T1.doid = T2.id WHERE T2.id != 9256
+GPT-3 choices:
+(0) Get the names of all test manufacturers from the biomarker_fda_test table for diseases that are not Parkinson's disease.
+(1) Find the manufacturers of biomarker tests that have been approved by the FDA for diseases other than Alzheimer's disease.
+(2) What are the test manufacturers for all biomarker tests associated with diseases that are not osteoarthritis?
+(3) Find the test manufacturers for all biomarkers that have been FDA tested and are associated with diseases other than lung cancer.
+(4) Retrieve the test manufacturer for all biomarker FDA tests that have been approved for diseases other than type 2 diabetes.
+(5) Find the manufacturers of biomarker tests that have been approved by the FDA for any diseases except breast cancer.
+(6) "Select the test manufacturers of biomarkers approved by the FDA for diseases other than amyotrophic lateral sclerosis (ALS)."
+(7) What are the names of all test manufacturers for biomarkers that have been approved by the FDA for diseases other than COVID-19?
+
+
+Re-ranked choices:
+5.627  Retrieve the test manufacturer for all biomarker FDA tests that have been approved for diseases other than type 2 diabetes.
+2.832  Find the manufacturers of biomarker tests that have been approved by the FDA for diseases other than Alzheimer's disease.
+2.832  Find the manufacturers of biomarker tests that have been approved by the FDA for any diseases except breast cancer.
+2.832  What are the names of all test manufacturers for biomarkers that have been approved by the FDA for diseases other than COVID-19?
+2.826  Find the test manufacturers for all biomarkers that have been FDA tested and are associated with diseases other than lung cancer.
+2.825  What are the test manufacturers for all biomarker tests associated with diseases that are not osteoarthritis?
+2.824  "Select the test manufacturers of biomarkers approved by the FDA for diseases other than amyotrophic lateral sclerosis (ALS)."
+1.427  Get the names of all test manufacturers from the biomarker_fda_test table for diseases that are not Parkinson's disease.
+

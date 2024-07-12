@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.rcn = "12174" and topics.title = "Integrated resource management based on land and land-use management"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.rcn = "12174" and T1.title = "Integrated resource management based on land and land-use management"
+GPT-3 choices:
+(0) What is the code for the topic "Integrated resource management based on land and land-use management" with an RCN of 12174 in the Topics table?
+(1) Retrieve the code for a topic with an RCN of 12174 and a title of "Integrated resource management based on land and land-use management" from the Topics table.
+(2) What is the code for the topic "Integrated resource management based on land and land-use management" with RCN number 12174?
+(3) Find the code for the topic "Integrated resource management based on land and land-use management" in the topics table with an rcn value of 12174.
+(4) What is the code for topics with an rcn of 12174 and a title of "Integrated resource management based on land and land-use management" in the topics table?
+(5) Retrieve the code of the topic for integrated resource management that is based on land and land-use management with an RCN number of 12174.
+(6) Retrieve the code of all topics with an RCN of 12174 and a title of "Integrated resource management based on land and land-use management" from the "topics" table.
+(7) Get the code of topics that have a rcn of 12174 and a title of "Integrated resource management based on land and land-use management".

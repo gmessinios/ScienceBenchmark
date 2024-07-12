@@ -1,0 +1,28 @@
+SELECT project_members.department_name FROM project_members AS project_members JOIN institutions AS institutions ON project_members.institution_id = institutions.unics_id WHERE institutions.website != "http://www.aslto3.piemonte.it/"
+
+###
+
+
+Original Query:
+SELECT T1.department_name FROM project_members AS T1 JOIN institutions AS T2 ON T1.institution_id = T2.unics_id WHERE T2.website != "http://www.aslto3.piemonte.it/"
+GPT-3 choices:
+(0) Retrieve the department name of project members from institutions where the institution's website is not "http://www.aslto3.piemonte.it/".
+(1) Find the department names of project members whose institution's website is not "http://www.aslto3.piemonte.it/" by joining the project_members and institutions tables.
+(2) What are the department names of project members from institutions whose website is not "http://www.aslto3.piemonte.it/"?
+(3) Retrieve the department name from project members where the institution website is not equal to "http://www.aslto3.piemonte.it/".
+(4) Find the department names of all project members who belong to institutions with a website that is not "http://www.aslto3.piemonte.it/".
+(5) Retrieve the department names of project members from institutions whose website is not "http://www.aslto3.piemonte.it/".
+(6) Get the department names of all project members whose institutions' websites are not "http://www.aslto3.piemonte.it/" by joining the project_members and institutions tables and selecting the department name column from project_members.
+(7) What is the department name for all project members who are affiliated with an institution that has a website other than "http://www.aslto3.piemonte.it/"?
+
+
+Re-ranked choices:
+9.825  Retrieve the department name of project members from institutions where the institution's website is not "http://www.aslto3.piemonte.it/".
+8.432  Retrieve the department name from project members where the institution website is not equal to "http://www.aslto3.piemonte.it/".
+8.428  Find the department names of project members whose institution's website is not "http://www.aslto3.piemonte.it/" by joining the project_members and institutions tables.
+8.425  What is the department name for all project members who are affiliated with an institution that has a website other than "http://www.aslto3.piemonte.it/"?
+7.033  What are the department names of project members from institutions whose website is not "http://www.aslto3.piemonte.it/"?
+7.032  Find the department names of all project members who belong to institutions with a website that is not "http://www.aslto3.piemonte.it/".
+7.030  Retrieve the department names of project members from institutions whose website is not "http://www.aslto3.piemonte.it/".
+7.024  Get the department names of all project members whose institutions' websites are not "http://www.aslto3.piemonte.it/" by joining the project_members and institutions tables and selecting the department name column from project_members.
+

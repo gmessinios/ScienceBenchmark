@@ -1,0 +1,16 @@
+SELECT biomarker_edrn.uberon_anatomical_id FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.biomarker_type = "Genomic" and biomarker_edrn.biomarker_title = "GGT1"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM biomarker_edrn AS T1 WHERE T1.biomarker_type = "Genomic" and T1.biomarker_title = "GGT1"
+GPT-3 choices:
+(0) Find the Uberon anatomical ID for a genomic biomarker with the title "GGT1" in the EDRN database.
+(1) What is the Uberon anatomical ID for a genomic biomarker titled "GGT1" in the biomarker_edrn table?
+(2) Find the UBERON anatomical ID for the Genomic biomarker "GGT1" in the biomarker_edrn database.
+(3) What is the Uberon anatomical ID for a genomic biomarker with the title "GGT1"?
+(4) Find the uberon anatomical id for a genomic biomarker with a title of "GGT1" in the biomarker_edrn table.
+(5) What is the uberon anatomical ID for the Genomic biomarker with the title "GGT1"?
+(6) What is the Uberon anatomical ID of a genomic biomarker with the title "GGT1"?
+(7) Retrieve the Uberon anatomical ID from the EDRN biomarker database for the biomarker with a type of "Genomic" and title of "GGT1".

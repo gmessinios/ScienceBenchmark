@@ -1,0 +1,16 @@
+SELECT project_members.postal_code FROM project_members AS project_members WHERE project_members.activity_type != "REC"
+
+###
+
+
+Original Query:
+SELECT T1.postal_code FROM project_members AS T1 WHERE T1.activity_type != "REC"
+GPT-3 choices:
+(0) Find the postal code for project members who are not involved in recreational activities.
+(1) What is the postal code of all project members who have an activity type other than "REC"?
+(2) Find the postal code of project members who have an activity type other than "REC".
+(3) Find the postal codes for all project members who have an activity type that is not "REC".
+(4) Find the postal code for project members who have an activity type that is not "REC".
+(5) Find the postal codes of all project members who are not involved in recreational activities.
+(6) What are the postal codes of project members who have a different activity type than "REC"?
+(7) Find the postal codes for all members in the project who have an activity type other than "REC".

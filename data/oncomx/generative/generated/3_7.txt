@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda AS biomarker_fda
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda AS T1
+GPT-3 choices:
+(0) How many biomarkers are there in the FDA database for biomarker_fda?
+(1) How many rows are there in the biomarker_fda table of the database, named "biomarker_fda"?
+(2) How many records are in the biomarker_fda table of the database, specifically in the column named count?
+(3) How many records are there in the "biomarker_fda" table?
+(4) How many biomarkers are there in the FDA's biomarker database?
+(5) How many biomarkers are present in the FDA's biomarker database?
+(6) How many biomarkers are in the FDA's biomarker list?
+(7) How many biomarkers are there in the FDA's biomarker database?

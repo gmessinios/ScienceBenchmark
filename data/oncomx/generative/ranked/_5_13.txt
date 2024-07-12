@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_submission FROM biomarker_fda_test AS biomarker_fda_test    ORDER BY biomarker_fda_test.doid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test AS T1    ORDER BY T1.doid DESC LIMIT 1
+GPT-3 choices:
+(0) What is the most recent test submission in the biomarker_fda_test table?
+(1) Get the test submission for the latest biomarker FDA test, ordered by its disease ontology ID in descending order, with a limit of one result.
+(2) Get the test submission for the most recent entry in the biomarker_fda_test table ordered by doid in descending order.
+(3) Get the latest test submission from biomarker_fda_test sorted by descending doid.
+(4) Get the test submission from the most recent record in the biomarker_fda_test table, sorted by descending disease identifier (doid) and limited to 1 result.
+(5) Show the test submission from the latest FDA biomarker test ordered by the disease ID in descending order, with a limit of 1.
+(6) "Retrieve the test submission column from the latest entry in the biomarker_fda_test table, ordered by descending disease ID and limited to only one result."
+(7) What is the most recent test submission from the table biomarker_fda_test, ordered by descending doid and limited to 1 result?
+
+
+Re-ranked choices:
+6.330  Show the test submission from the latest FDA biomarker test ordered by the disease ID in descending order, with a limit of 1.
+6.323  Get the test submission for the latest biomarker FDA test, ordered by its disease ontology ID in descending order, with a limit of one result.
+4.924  Get the test submission for the most recent entry in the biomarker_fda_test table ordered by doid in descending order.
+4.923  What is the most recent test submission from the table biomarker_fda_test, ordered by descending doid and limited to 1 result?
+3.528  Get the latest test submission from biomarker_fda_test sorted by descending doid.
+3.520  "Retrieve the test submission column from the latest entry in the biomarker_fda_test table, ordered by descending disease ID and limited to only one result."
+3.519  Get the test submission from the most recent record in the biomarker_fda_test table, sorted by descending disease identifier (doid) and limited to 1 result.
+2.841  What is the most recent test submission in the biomarker_fda_test table?
+

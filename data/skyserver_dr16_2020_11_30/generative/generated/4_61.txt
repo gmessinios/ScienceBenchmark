@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.subclass = "K7"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.subclass = "K7"
+GPT-3 choices:
+(0) How many spectroscopic objects have a subclass of "K7"?
+(1) How many spectroscopic objects have a subclass of "K7"?
+(2) How many objects are in the Spectroscopic_objects table with a subclass of "K7"?
+(3) How many Spectroscopic_objects are there that have a subclass of "K7"?
+(4) How many Spectroscopic objects have a subclass of "K7"?
+(5) How many Spectroscopic objects have a subclass of "K7"?
+(6) How many Spectroscopic objects have a subclass of "K7"?
+(7) How many spectroscopic objects have a subclass of "K7"?

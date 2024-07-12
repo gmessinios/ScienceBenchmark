@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_approval_status FROM biomarker_fda_test AS biomarker_fda_test    ORDER BY biomarker_fda_test.test_number_genes DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.test_approval_status FROM biomarker_fda_test AS T1    ORDER BY T1.test_number_genes DESC LIMIT 1
+GPT-3 choices:
+(0) What is the approval status of the test with the highest number of genes from the FDA biomarker test database, ordered by descending gene count?
+(1) Find the approval status for the test with the highest number of genes in the biomarker_fda_test table.
+(2) What is the approval status of the FDA test with the highest number of genes in the biomarker_fda_test table?
+(3) Find the FDA test approval status for the biomarker with the highest number of genes in descending order.
+(4) What is the FDA approval status of the test with the highest number of genes in the biomarker_fda_test table?
+(5) Retrieve the approval status of the test with the highest number of genes from the biomarker_fda_test table, ordered by descending gene count.
+(6) Get the approval status of the most recent FDA test for biomarkers, ordered by the number of genes tested, limited to one result.
+(7) Retrieve the approval status of the test with the highest number of genes from the biomarker FDA test table, sorted in descending order.
+
+
+Re-ranked choices:
+10.528  What is the approval status of the test with the highest number of genes from the FDA biomarker test database, ordered by descending gene count?
+9.837  Find the FDA test approval status for the biomarker with the highest number of genes in descending order.
+9.827  Retrieve the approval status of the test with the highest number of genes from the biomarker FDA test table, sorted in descending order.
+9.130  Get the approval status of the most recent FDA test for biomarkers, ordered by the number of genes tested, limited to one result.
+8.432  What is the approval status of the FDA test with the highest number of genes in the biomarker_fda_test table?
+8.432  What is the FDA approval status of the test with the highest number of genes in the biomarker_fda_test table?
+7.726  Retrieve the approval status of the test with the highest number of genes from the biomarker_fda_test table, ordered by descending gene count.
+7.035  Find the approval status for the test with the highest number of genes in the biomarker_fda_test table.
+

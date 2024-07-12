@@ -1,0 +1,28 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.ncit_biomarker = "MET"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 WHERE T1.ncit_biomarker = "MET"
+GPT-3 choices:
+(0) What is the biomarker FDA ID for the biomarker NCIT term where the NCIT biomarker is "MET"?
+(1) What is the FDA biomarker ID for the term "MET" in the NCIT biomarker database?
+(2) What is the biomarker FDA ID for the biomarker that has an NCIt term of "MET"?
+(3) What is the biomarker FDA ID for the NCIt biomarker "MET"?
+(4) Find the FDA biomarker ID for the term "MET" in the table biomarker_fda_ncit_term.
+(5) What is the biomarker FDA ID for "MET" in the biomarker FDA NCIT term database?
+(6) Retrieve the biomarker FDA ID from the biomarker_fda_ncit_term table where the NCIT biomarker is equal to "MET".
+(7) What is the FDA biomarker ID for the NCIt biomarker "MET"?
+
+
+Re-ranked choices:
+7.765  What is the biomarker FDA ID for the biomarker that has an NCIt term of "MET"?
+7.756  What is the FDA biomarker ID for the term "MET" in the NCIT biomarker database?
+7.756  What is the biomarker FDA ID for "MET" in the biomarker FDA NCIT term database?
+7.742  What is the biomarker FDA ID for the biomarker NCIT term where the NCIT biomarker is "MET"?
+6.377  What is the biomarker FDA ID for the NCIt biomarker "MET"?
+6.377  What is the FDA biomarker ID for the NCIt biomarker "MET"?
+6.344  Find the FDA biomarker ID for the term "MET" in the table biomarker_fda_ncit_term.
+6.328  Retrieve the biomarker FDA ID from the biomarker_fda_ncit_term table where the NCIT biomarker is equal to "MET".
+

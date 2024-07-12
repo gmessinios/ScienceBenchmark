@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.doid, count(*) FROM biomarker_fda_test AS biomarker_fda_test  GROUP BY biomarker_fda_test.doid
+
+###
+
+
+Original Query:
+SELECT T1.doid, count(*) FROM biomarker_fda_test AS T1  GROUP BY T1.doid
+GPT-3 choices:
+(0) What is the number of biomarker tests for each disease in the biomarker_fda_test table?
+(1) How many entries are there for each disease in the biomarker_fda_test table?
+(2) What is the number of occurrences for each disease identifier in the biomarker_fda_test table?
+(3) How many times does each unique disease ID appear in the biomarker_fda_test table?
+(4) Find the count of instances for each disease ID in the FDA's biomarker testing database.
+(5) Count the number of occurrences for each disease ID in the biomarker_fda_test table.
+(6) "Count the number of entries in the 'biomarker_fda_test' table for each distinct disease (represented by doid) and group the results accordingly."
+(7) What is the count of records for each disease (identified by their DOID) in the biomarker_fda_test table?
+
+
+Re-ranked choices:
+2.854  Find the count of instances for each disease ID in the FDA's biomarker testing database.
+1.441  What is the number of biomarker tests for each disease in the biomarker_fda_test table?
+0.731  What is the count of records for each disease (identified by their DOID) in the biomarker_fda_test table?
+0.720  "Count the number of entries in the 'biomarker_fda_test' table for each distinct disease (represented by doid) and group the results accordingly."
+0.045  How many entries are there for each disease in the biomarker_fda_test table?
+0.043  How many times does each unique disease ID appear in the biomarker_fda_test table?
+0.037  Count the number of occurrences for each disease ID in the biomarker_fda_test table.
+0.028  What is the number of occurrences for each disease identifier in the biomarker_fda_test table?
+

@@ -1,0 +1,16 @@
+SELECT activity_types.code, count(*) FROM activity_types AS activity_types  GROUP BY activity_types.code
+
+###
+
+
+Original Query:
+SELECT T1.code, count(*) FROM activity_types AS T1  GROUP BY T1.code
+GPT-3 choices:
+(0) Get the code and the count of all activity types from the activity_types table grouped by their code.
+(1) Count the number of times each code appears in the activity types table and group them by code.
+(2) "Count the number of activities for each activity type and group them by their respective codes."
+(3) Count the number of activities for each code in the activity types table.
+(4) Count the number of occurrences for each activity code in the activity types table.
+(5) How many activity types are there for each code in the table "activity_types"?
+(6) Count the number of activities for each code in the activity types table.
+(7) Count the number of activities for each activity code in the activity types table.

@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.special_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.zerr = 3.583556e-06 or Spectroscopic_objects.subclass = "M0III (168720)"
+
+###
+
+
+Original Query:
+SELECT T1.special_target1 FROM specobj AS T1 WHERE T1.zerr = 3.583556e-06 or T1.subclass = "M0III (168720)"
+GPT-3 choices:
+(0) Find the special target1 for all objects in the specobj table where zerr is equal to 3.583556e-06 or subclass is equal to "M0III (168720)".
+(1) Retrieve the special target1 value from the Spectroscopic_objects table for objects where the zerr value is equal to 3.583556e-06 or the subclass is "M0III (168720)".
+(2) What is the special target 1 for objects with a redshift error of 3.583556e-06 or a subclass of "M0III (168720)" in the Spectroscopic_objects table in specobj?
+(3) What is the special target 1 for a spectroscopic object with a redshift error of 3.583556e-06 or subclass of "M0III (168720)"?
+(4) Retrieve the special target 1 of all spectroscopic objects where the redshift error is equal to 3.583556e-06 or the subclass is "M0III (168720)".
+(5) Retrieve the special target 1 for objects with a redshift error of 3.583556e-06 or subclass "M0III (168720)".
+(6) What is the special target 1 for objects in the Spectroscopic_objects table with a redshift error of 3.583556e-06 or a subclass of "M0III (168720)"?
+(7) Retrieve the special target 1 column value from the specobj table for objects where either the redshift error is equal to 3.583556e-06 or the subclass is "M0III (168720)".
+
+
+Re-ranked choices:
+9.845  Retrieve the special target 1 of all spectroscopic objects where the redshift error is equal to 3.583556e-06 or the subclass is "M0III (168720)".
+9.144  What is the special target 1 for objects in the Spectroscopic_objects table with a redshift error of 3.583556e-06 or a subclass of "M0III (168720)"?
+9.137  What is the special target 1 for objects with a redshift error of 3.583556e-06 or a subclass of "M0III (168720)" in the Spectroscopic_objects table in specobj?
+8.456  Retrieve the special target 1 for objects with a redshift error of 3.583556e-06 or subclass "M0III (168720)".
+8.448  What is the special target 1 for a spectroscopic object with a redshift error of 3.583556e-06 or subclass of "M0III (168720)"?
+8.441  Retrieve the special target 1 column value from the specobj table for objects where either the redshift error is equal to 3.583556e-06 or the subclass is "M0III (168720)".
+6.337  Retrieve the special target1 value from the Spectroscopic_objects table for objects where the zerr value is equal to 3.583556e-06 or the subclass is "M0III (168720)".
+5.647  Find the special target1 for all objects in the specobj table where zerr is equal to 3.583556e-06 or subclass is equal to "M0III (168720)".
+

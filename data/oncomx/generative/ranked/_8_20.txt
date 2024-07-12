@@ -1,0 +1,28 @@
+SELECT healthy_expression.expression_level_gene_relative FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_anatomical_id != "UBERON:0001782"
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_gene_relative FROM healthy_expression AS T1 WHERE T1.uberon_anatomical_id != "UBERON:0001782"
+GPT-3 choices:
+(0) Retrieve the expression level relative to the gene from healthy individuals for all anatomical locations except for the fallopian tube.
+(1) Retrieve the relative expression levels of genes from healthy individuals, excluding those from the anatomical site with the ID "UBERON:0001782".
+(2) Retrieve the relative gene expression levels from healthy tissues, excluding those from the anatomical structure with ID "UBERON:0001782".
+(3) Retrieve the expression levels of genes from healthy individuals, excluding those from the anatomical region with ID "UBERON:0001782", as stored in the table "healthy_expression", specifically selecting the relative expression level column.
+(4) Retrieve the relative gene expression levels from healthy individuals for all anatomical locations except for "UBERON:0001782".
+(5) Retrieve the gene relative expression level from healthy individuals for all anatomical locations except "UBERON:0001782".
+(6) Retrieve the expression levels relative to each gene from the healthy_expression table, excluding those with an associated UBERON anatomical ID of "UBERON:0001782".
+(7) Retrieve the relative expression levels of genes from healthy tissue excluding those from the anatomical location "UBERON:0001782".
+
+
+Re-ranked choices:
+9.124  Retrieve the relative gene expression levels from healthy tissues, excluding those from the anatomical structure with ID "UBERON:0001782".
+9.120  Retrieve the gene relative expression level from healthy individuals for all anatomical locations except "UBERON:0001782".
+9.119  Retrieve the expression levels relative to each gene from the healthy_expression table, excluding those with an associated UBERON anatomical ID of "UBERON:0001782".
+9.115  Retrieve the expression levels of genes from healthy individuals, excluding those from the anatomical region with ID "UBERON:0001782", as stored in the table "healthy_expression", specifically selecting the relative expression level column.
+8.421  Retrieve the expression level relative to the gene from healthy individuals for all anatomical locations except for the fallopian tube.
+7.723  Retrieve the relative expression levels of genes from healthy individuals, excluding those from the anatomical site with the ID "UBERON:0001782".
+7.721  Retrieve the relative gene expression levels from healthy individuals for all anatomical locations except for "UBERON:0001782".
+6.323  Retrieve the relative expression levels of genes from healthy tissue excluding those from the anatomical location "UBERON:0001782".
+

@@ -1,0 +1,28 @@
+SELECT disease_mutation_impact_prediction.tool FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction JOIN disease_mutation AS disease_mutation ON disease_mutation_impact_prediction.disease_mutation_id = disease_mutation.id WHERE disease_mutation.ref_aa = "Y"
+
+###
+
+
+Original Query:
+SELECT T1.tool FROM disease_mutation_impact_prediction AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.ref_aa = "Y"
+GPT-3 choices:
+(0) Find the tool used in predicting the impact of a disease mutation for a specific reference amino acid.
+(1) Find the tool used for predicting the impact of disease mutation where the reference amino acid is "Y".
+(2) Retrieve the name of the tool used for predicting the impact of a disease mutation on a protein with a reference amino acid of "Y".
+(3) Find the tool used in predicting the impact of a disease mutation where the reference amino acid is "Y".
+(4) What tools are used for predicting the impact of disease mutations that result in a reference amino acid of "Y"?
+(5) "Retrieve the name of the tool used for predicting the impact of mutations in diseases where the reference amino acid is 'Y'."
+(6) Get the tool used in predicting the impact of a disease mutation when the reference amino acid is "Y".
+(7) What is the tool used for predicting the impact of a disease mutation where the reference amino acid is "Y"?
+
+
+Re-ranked choices:
+7.028  Retrieve the name of the tool used for predicting the impact of a disease mutation on a protein with a reference amino acid of "Y".
+6.337  Find the tool used for predicting the impact of disease mutation where the reference amino acid is "Y".
+6.336  Find the tool used in predicting the impact of a disease mutation where the reference amino acid is "Y".
+6.336  Get the tool used in predicting the impact of a disease mutation when the reference amino acid is "Y".
+6.334  What is the tool used for predicting the impact of a disease mutation where the reference amino acid is "Y"?
+5.629  Find the tool used in predicting the impact of a disease mutation for a specific reference amino acid.
+3.532  "Retrieve the name of the tool used for predicting the impact of mutations in diseases where the reference amino acid is 'Y'."
+3.530  What tools are used for predicting the impact of disease mutations that result in a reference amino acid of "Y"?
+

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbormode != 2
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.neighbormode != 2
+GPT-3 choices:
+(0) Find the type of nearest neighbour objects where the neighbour mode is not equal to 2.
+(1) Find the type of nearest neighbour objects that have a neighbormode not equal to 2.
+(2) What type of objects are the nearest neighbours of the objects in the 'neighbors' table where the neighbormode is not equal to 2?
+(3) Get the type of nearest neighbor objects from a table called "neighbors" where the neighbor mode is not equal to 2.
+(4) Find the type of nearest neighbour objects that are not in neighbor mode 2.
+(5) What are the types of nearest neighbour objects that have a neighbormode not equal to 2 in the neighbors table?
+(6) Find the types of nearest neighbor objects where the neighbor mode is not equal to 2.
+(7) Find the type of nearest neighbor objects where the neighboring mode is not equal to 2.
+
+
+Re-ranked choices:
+8.448  Find the type of nearest neighbour objects that are not in neighbor mode 2.
+7.050  Find the type of nearest neighbor objects where the neighboring mode is not equal to 2.
+7.038  Get the type of nearest neighbor objects from a table called "neighbors" where the neighbor mode is not equal to 2.
+7.037  Find the type of nearest neighbour objects where the neighbour mode is not equal to 2.
+5.650  Find the types of nearest neighbor objects where the neighbor mode is not equal to 2.
+5.639  Find the type of nearest neighbour objects that have a neighbormode not equal to 2.
+4.228  What type of objects are the nearest neighbours of the objects in the 'neighbors' table where the neighbormode is not equal to 2?
+4.228  What are the types of nearest neighbour objects that have a neighbormode not equal to 2 in the neighbors table?
+

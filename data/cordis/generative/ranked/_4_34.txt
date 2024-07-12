@@ -1,0 +1,28 @@
+SELECT count(*) FROM countries AS countries WHERE countries.country_code3 = "CZE"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries AS T1 WHERE T1.country_code3 = "CZE"
+GPT-3 choices:
+(0) How many countries are there in the "countries" table where the country code3 is "CZE"?
+(1) How many countries have a country code of "CZE" in the countries table?
+(2) How many countries are there in the "countries" table with a country code of "CZE"?
+(3) How many countries have a country code of "CZE" in the "countries" table?
+(4) How many countries are in the table "countries" where the country code3 is "CZE"?
+(5) How many countries are in the table "countries" where the country code three is equal to "CZE"?
+(6) How many countries are there in the "countries" table where the country code is equal to "CZE"?
+(7) How many countries have a country code of "CZE" in the table named "countries"?
+
+
+Re-ranked choices:
+4.958  How many countries are in the table "countries" where the country code3 is "CZE"?
+4.954  How many countries are there in the "countries" table where the country code3 is "CZE"?
+3.562  How many countries have a country code of "CZE" in the countries table?
+3.562  How many countries have a country code of "CZE" in the "countries" table?
+3.558  How many countries are in the table "countries" where the country code three is equal to "CZE"?
+3.558  How many countries are there in the "countries" table where the country code is equal to "CZE"?
+3.558  How many countries have a country code of "CZE" in the table named "countries"?
+3.554  How many countries are there in the "countries" table with a country code of "CZE"?
+

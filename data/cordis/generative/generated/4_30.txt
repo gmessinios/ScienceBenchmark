@@ -1,0 +1,16 @@
+SELECT count(*) FROM subject_areas AS subject_areas WHERE subject_areas.description = "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste."
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1 WHERE T1.description = "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste."
+GPT-3 choices:
+(0) How many subject areas have a description of "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?
+(1) How many subject areas are there where the description is "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?
+(2) How many subject areas are there with a description of "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?
+(3) How many subject areas are there where the description is "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?
+(4) How many subject areas are there where the description is "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?
+(5) How many subject areas have the description "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?
+(6) How many subject areas have the description "Non-nuclear waste (for other types see Radioactive Waste); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?
+(7) How many subject areas are there that have a description of "Non-nuclear waste (for other types see "Radioactive Waste"); recycling, recovery and reclamation; incineration and pyrolysis; land and sea disposal; bioconversion; landfill; industrial waste; energy from waste"?

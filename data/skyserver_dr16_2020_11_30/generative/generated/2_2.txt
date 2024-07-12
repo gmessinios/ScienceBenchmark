@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.mode, count(*) FROM neighbors AS Nearest_neighbour_objects  GROUP BY Nearest_neighbour_objects.mode
+
+###
+
+
+Original Query:
+SELECT T1.mode, count(*) FROM neighbors AS T1  GROUP BY T1.mode
+GPT-3 choices:
+(0) "Count the number of nearest neighbor objects grouped by their mode."
+(1) "How many objects are there for each mode, when grouped by the mode, from the table of nearest neighbor objects?"
+(2) "Count the number of objects in the 'neighbors' table and group them by their mode."
+(3) Find the mode and count the number of occurrences for each mode in the table named "neighbors".
+(4) Count the number of times each mode appears in the "neighbors" table and group the results by mode.
+(5) What is the number of occurrences for each mode value in the "neighbors" table?
+(6) Find the number of objects and their corresponding modes in the table "neighbors" grouped by mode.
+(7) Find the mode of the nearest neighbour objects and count how many instances there are for each mode.

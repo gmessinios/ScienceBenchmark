@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_approval_status FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.biomarker_origin = "somatic mutation"
+
+###
+
+
+Original Query:
+SELECT T1.test_approval_status FROM biomarker_fda_test AS T1 WHERE T1.biomarker_origin = "somatic mutation"
+GPT-3 choices:
+(0) Retrieve the test approval status for all biomarkers with a somatic mutation origin from the FDA test data.
+(1) What is the FDA approval status of all somatic mutation biomarkers in the biomarker_fda_test database?
+(2) Retrieve the approval status for a test from the biomarker_fda_test table where the biomarker origin is "somatic mutation".
+(3) Retrieve the approval status of all biomarker FDA tests that have a somatic mutation as their origin.
+(4) What is the test approval status of somatic mutation biomarkers in the biomarker_fda_test database?
+(5) Retrieve the test approval status from the FDA for somatic mutation biomarkers.
+(6) What is the FDA approval status for biomarker tests associated with somatic mutations?
+(7) What is the approval status of tests for biomarkers that originate from somatic mutations in the FDA database?

@@ -1,0 +1,16 @@
+SELECT anatomical_entity.name FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.id = "UBERON:0004913" or anatomical_entity.description = "the part of the cerebral cortex responsible for processing visual information."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM anatomical_entity AS T1 WHERE T1.id = "UBERON:0004913" or T1.description = "the part of the cerebral cortex responsible for processing visual information."
+GPT-3 choices:
+(0) What is the name of the anatomical entity or part of the cerebral cortex that processes visual information?
+(1) What is the name of the anatomical entity that has an ID of "UBERON:0004913" or a description of "the part of the cerebral cortex responsible for processing visual information"?
+(2) What is the name of the anatomical entity that corresponds to "UBERON:0004913" or has a description of "the part of the cerebral cortex responsible for processing visual information"?
+(3) Get the name of the anatomical entity from the table "anatomical_entity" where its ID is "UBERON:0004913" or its description is "the part of the cerebral cortex responsible for processing visual information."
+(4) What is the name of the anatomical entity or its description that corresponds to "the part of the cerebral cortex responsible for processing visual information"?
+(5) What is the name of the anatomical entity that is either identified by "UBERON:0004913" or described as being responsible for processing visual information in the cerebral cortex?
+(6) Retrieve the name of the anatomical entity from the UBERON database where the ID is "UBERON:0004913" or the description is "the part of the cerebral cortex responsible for processing visual information".
+(7) What is the name of the anatomical entity or structure that corresponds to the UBERON ID "UBERON:0004913" or has a description of "the part of the cerebral cortex responsible for processing visual information"?

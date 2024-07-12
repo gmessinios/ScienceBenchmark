@@ -1,0 +1,16 @@
+SELECT projects.ec_call FROM projects AS projects WHERE projects.ec_max_contribution = 1499813.0 or projects.total_cost = 2496268.0
+
+###
+
+
+Original Query:
+SELECT T1.ec_call FROM projects AS T1 WHERE T1.ec_max_contribution = 1499813.0 or T1.total_cost = 2496268.0
+GPT-3 choices:
+(0) Find the EC call for projects where either the EC max contribution is equal to 1499813.0 or the total cost is equal to 2496268.0.
+(1) "Find the EC call for projects with either a maximum contribution of 1499813.0 or a total cost of 2496268.0 from the projects table."
+(2) Retrieve the EC call for all projects where the EC maximum contribution is 1499813.0 or the total cost is 2496268.0 from the projects table.
+(3) Find the name of the project's ec_call from the projects table where either its ec_max_contribution is equal to 1499813.0 or its total_cost is equal to 2496268.0.
+(4) Retrieve the EC call from the projects table where the EC maximum contribution is equal to 1499813.0 or the total cost is equal to 2496268.0.
+(5) Retrieve the EC call for projects where the maximum contribution is equal to 1499813.0 or the total cost is equal to 2496268.0 from the projects table.
+(6) Retrieve the EC call for projects where the maximum contribution is 1499813.0 or the total cost is 2496268.0 from the projects table.
+(7) Retrieve the name of the European Commission call for projects with a maximum contribution of 1499813.0 or a total cost of 2496268.0 from the table "projects".

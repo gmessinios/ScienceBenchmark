@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.histological_type FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_trade_name = "DAKO HERCEPTEST"
+
+###
+
+
+Original Query:
+SELECT T1.histological_type FROM biomarker_fda_test AS T1 WHERE T1.test_trade_name = "DAKO HERCEPTEST"
+GPT-3 choices:
+(0) Retrieve the histological type of biomarker test with the trade name "DAKO HERCEPTEST" from the table "biomarker_fda_test".
+(1) What is the histological type associated with the DAKO HERCEPTEST in biomarker_fda_test?
+(2) Find the histological type associated with the test trade name "DAKO HERCEPTEST" in the table biomarker_fda_test.
+(3) What is the histological type associated with the DAKO HERCEPTEST trade name in the biomarker_fda_test table?
+(4) What is the histological type associated with the "DAKO HERCEPTEST" test in the biomarker_fda_test table?
+(5) What is the histological type of the biomarker test with a test trade name of "DAKO HERCEPTEST" in the FDA-approved biomarker testing database?
+(6) Find the histological type from the FDA-approved biomarker test with a trade name of "DAKO HERCEPTEST".
+(7) What is the histological type associated with the HERCEPTEST test made by DAKO?

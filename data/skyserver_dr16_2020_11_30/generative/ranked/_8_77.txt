@@ -1,0 +1,28 @@
+SELECT Photometric_objects.dec FROM photoobj AS Photometric_objects WHERE Photometric_objects.z != 11.72341
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM photoobj AS T1 WHERE T1.z != 11.72341
+GPT-3 choices:
+(0) Find the declination of photometric objects from the photoobj table where their redshift is not equal to 11.72341.
+(1) Find the declination values from the photoobj table for photometric objects where the redshift value is not equal to 11.72341.
+(2) What is the declination of all objects in the photoobj table that have a redshift value not equal to 11.72341?
+(3) Retrieve the declination values from the "dec" column of the "photoobj" table for all objects that do not have a redshift value of 11.72341.
+(4) Retrieve the declination values of objects from the photoobj table where the redshift value is not equal to 11.72341.
+(5) Find the declination of photometric objects from the photoobj table where the redshift is not equal to 11.72341.
+(6) Retrieve the declination values of all photometric objects from the photoobj table, excluding those with a redshift value of 11.72341.
+(7) "Retrieve the declination values from the photometric objects where the redshift is not equal to 11.72341."
+
+
+Re-ranked choices:
+4.232  "Retrieve the declination values from the photometric objects where the redshift is not equal to 11.72341."
+4.231  What is the declination of all objects in the photoobj table that have a redshift value not equal to 11.72341?
+4.229  Retrieve the declination values of objects from the photoobj table where the redshift value is not equal to 11.72341.
+4.227  Find the declination of photometric objects from the photoobj table where their redshift is not equal to 11.72341.
+4.227  Find the declination of photometric objects from the photoobj table where the redshift is not equal to 11.72341.
+4.225  Find the declination values from the photoobj table for photometric objects where the redshift value is not equal to 11.72341.
+4.222  Retrieve the declination values from the "dec" column of the "photoobj" table for all objects that do not have a redshift value of 11.72341.
+4.221  Retrieve the declination values of all photometric objects from the photoobj table, excluding those with a redshift value of 11.72341.
+

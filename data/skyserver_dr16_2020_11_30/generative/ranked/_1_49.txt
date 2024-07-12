@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.plateid = 696932076829566976
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.plateid = 696932076829566976
+GPT-3 choices:
+(0) Find the specobjid from the Emission_line_estimates table where the plateid is equal to 696932076829566976 and join it with the specobj table.
+(1) Retrieve the specobjid values from the galspecline table where the plateid value in the specobj table is equal to 696932076829566976.
+(2) Retrieve the specobjid from the galspecline table for all entries where the plateid in the specobj table is equal to 696932076829566976.
+(3) Find the specobjid from the Emission_line_estimates table where the Spectroscopic_objects table has a plateid value of 696932076829566976.
+(4) Get the specobjid from the galspecline table for all rows that have a matching specobjid in both the Emission_line_estimates and specobj tables, where the plateid in the Spectroscopic_objects table is equal to 696932076829566976.
+(5) Retrieve the specobjid from the galspecline table for all rows where the plateid in the specobj table is equal to 696932076829566976.
+(6) Get the specobjid values from the galspecline table for all emission line estimates that have a corresponding record in the specobj table where the plateid is equal to 696932076829566976.
+(7) Find the specobjid for all galspecline where the plateid is equal to 696932076829566976.
+
+
+Re-ranked choices:
+2.819  Get the specobjid values from the galspecline table for all emission line estimates that have a corresponding record in the specobj table where the plateid is equal to 696932076829566976.
+1.423  Find the specobjid from the Emission_line_estimates table where the Spectroscopic_objects table has a plateid value of 696932076829566976.
+1.415  Get the specobjid from the galspecline table for all rows that have a matching specobjid in both the Emission_line_estimates and specobj tables, where the plateid in the Spectroscopic_objects table is equal to 696932076829566976.
+0.728  Find the specobjid from the Emission_line_estimates table where the plateid is equal to 696932076829566976 and join it with the specobj table.
+0.045  Find the specobjid for all galspecline where the plateid is equal to 696932076829566976.
+0.028  Retrieve the specobjid from the galspecline table for all rows where the plateid in the specobj table is equal to 696932076829566976.
+0.025  Retrieve the specobjid from the galspecline table for all entries where the plateid in the specobj table is equal to 696932076829566976.
+0.024  Retrieve the specobjid values from the galspecline table where the plateid value in the specobj table is equal to 696932076829566976.
+

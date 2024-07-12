@@ -1,0 +1,16 @@
+SELECT Photometric_objects.mjd FROM photoobj AS Photometric_objects WHERE Photometric_objects.rerun != 301
+
+###
+
+
+Original Query:
+SELECT T1.mjd FROM photoobj AS T1 WHERE T1.rerun != 301
+GPT-3 choices:
+(0) Find the MJD values from the photoobj table where the rerun is not equal to 301.
+(1) Retrieve the Modified Julian Date of all objects from the photoobj table where the rerun value is not equal to 301, and alias this table as Photometric_objects.
+(2) Find the mjd values from the photoobj table for all objects with a rerun value that is not equal to 301.
+(3) What is the modified Julian Date for photometric objects where the rerun is not equal to 301 in the photoobj table?
+(4) Find the modified Julian date for photometric objects that are not from rerun 301 in the photoobj table.
+(5) What is the Modified Julian Date of all photometric objects that do not have a rerun value of 301?
+(6) What is the modified Julian date for all photometric objects that were not part of rerun 301 in the photoobj table?
+(7) Find the modified Julian date for objects in the photoobj table that have a rerun value different than 301.

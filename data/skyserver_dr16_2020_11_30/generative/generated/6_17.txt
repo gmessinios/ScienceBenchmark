@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 6 and photometrically_observed.name = "STAR"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.value = 6 and T1.name = "STAR"
+GPT-3 choices:
+(0) Retrieve the description from the photo_type table for any stars that have a photometrically observed value of 6.
+(1) "Retrieve the description of all photo types with a value of 6 and a name of 'STAR' from the photometrically observed table."
+(2) "Retrieve the description for stars that have been observed photometrically."
+(3) What is the description for a star that has been observed photometrically and has a value of 6 in the "photo_type" table?
+(4) Get the description of stars that have a photometric value of 6.
+(5) What is the description for a star that has a photometric observation value of 6?
+(6) Retrieve the description from the photo_type table for stars that have been observed photometrically.
+(7) Retrieve the description of a star with photometric observations having a value of 6 from the table photo_type.

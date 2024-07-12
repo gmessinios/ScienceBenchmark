@@ -1,0 +1,28 @@
+SELECT countries.country_code3 FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.institutions_name != "IPSOS NV"
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.institutions_name != "IPSOS NV"
+GPT-3 choices:
+(0) Find the three-letter country code for all countries that have institutions whose name is not "IPSOS NV".
+(1) Retrieve the country code3 of countries where the institution's name is not "IPSOS NV" by joining the institutions table with the countries table on their respective unics_id and country_id.
+(2) Which three-letter country codes are associated with institutions that are not named "IPSOS NV" in the countries and institutions tables?
+(3) What is the 3-letter country code for all countries where the institution name is not "IPSOS NV"?
+(4) Retrieve the country code 3 for all countries that have institutions listed in the "institutions" table, excluding any institutions with the name "IPSOS NV".
+(5) Retrieve the country code 3 for countries that are associated with institutions, but only include institutions where the institution name is not "IPSOS NV".
+(6) "Retrieve the three-letter country code from the 'countries' table for all institutions whose name is not 'IPSOS NV', using the shared attribute 'country_id' between the 'institutions' and 'countries' tables."
+(7) Retrieve the country code3 of countries where the institutions_name is not "IPSOS NV" and match the unics_id of countries with the country_id of institutions.
+
+
+Re-ranked choices:
+9.118  Retrieve the country code3 of countries where the institution's name is not "IPSOS NV" by joining the institutions table with the countries table on their respective unics_id and country_id.
+7.031  Find the three-letter country code for all countries that have institutions whose name is not "IPSOS NV".
+7.020  Retrieve the country code 3 for all countries that have institutions listed in the "institutions" table, excluding any institutions with the name "IPSOS NV".
+7.019  Retrieve the country code 3 for countries that are associated with institutions, but only include institutions where the institution name is not "IPSOS NV".
+7.018  "Retrieve the three-letter country code from the 'countries' table for all institutions whose name is not 'IPSOS NV', using the shared attribute 'country_id' between the 'institutions' and 'countries' tables."
+5.635  What is the 3-letter country code for all countries where the institution name is not "IPSOS NV"?
+5.621  Which three-letter country codes are associated with institutions that are not named "IPSOS NV" in the countries and institutions tables?
+5.620  Retrieve the country code3 of countries where the institutions_name is not "IPSOS NV" and match the unics_id of countries with the country_id of institutions.
+

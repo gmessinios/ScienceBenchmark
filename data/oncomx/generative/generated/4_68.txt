@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation AS disease_mutation WHERE disease_mutation.ref_aa = "T"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation AS T1 WHERE T1.ref_aa = "T"
+GPT-3 choices:
+(0) How many disease mutations have a reference amino acid of "T"?
+(1) Count the number of entries in the table disease_mutation where the value in the ref_aa column is "T".
+(2) How many rows are in the disease_mutation table where the ref_aa column has a value of "T"?
+(3) How many occurrences are there in the disease_mutation table where the ref_aa column has a value of "T"?
+(4) How many disease mutations are there where the reference amino acid is "T"?
+(5) How many disease-mutation entries have a reference amino acid of "T"?
+(6) Count the number of records in the "disease_mutation" table where the value in the "ref_aa" column is equal to "T".
+(7) How many records are there in the disease_mutation table where the reference amino acid is "T"?

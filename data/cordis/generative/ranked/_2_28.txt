@@ -1,0 +1,28 @@
+SELECT project_member_roles.code, count(*) FROM project_member_roles AS project_member_roles  GROUP BY project_member_roles.code
+
+###
+
+
+Original Query:
+SELECT T1.code, count(*) FROM project_member_roles AS T1  GROUP BY T1.code
+GPT-3 choices:
+(0) "How many project member roles are there for each code in the project member roles table?"
+(1) How many project member roles are there for each code in the project_member_roles table?
+(2) Count the number of project members for each role and group them by the role code.
+(3) How many members are in each project role?
+(4) Count the number of times each project member role code appears in the project_member_roles table.
+(5) Count the number of times each code appears in the "code" column of the "project_member_roles" table and group the results by code.
+(6) How many project member roles have a code and how many times does each code appear in the table?
+(7) Get the number of occurrences for each unique code in the project_member_roles table.
+
+
+Re-ranked choices:
+5.662  "How many project member roles are there for each code in the project member roles table?"
+5.650  How many project member roles have a code and how many times does each code appear in the table?
+5.647  How many project member roles are there for each code in the project_member_roles table?
+4.237  Count the number of times each project member role code appears in the project_member_roles table.
+2.183  Count the number of project members for each role and group them by the role code.
+2.132  Count the number of times each code appears in the "code" column of the "project_member_roles" table and group the results by code.
+2.000  How many members are in each project role?
+1.442  Get the number of occurrences for each unique code in the project_member_roles table.
+

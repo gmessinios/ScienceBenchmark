@@ -1,0 +1,28 @@
+SELECT Photometric_objects.field FROM photoobj AS Photometric_objects JOIN specobj AS Spectroscopic_objects ON Photometric_objects.objid = Spectroscopic_objects.bestobjid WHERE Spectroscopic_objects.special_target1 != 2147483648
+
+###
+
+
+Original Query:
+SELECT T1.field FROM photoobj AS T1 JOIN specobj AS T2 ON T1.objid = T2.bestobjid WHERE T2.special_target1 != 2147483648
+GPT-3 choices:
+(0) Retrieve the field values from the Photometric_objects table where the Spectroscopic_objects bestobjid value is equal to the objid value in the Photometric_objects table and where the special_target1 value in Spectroscopic_objects is not equal to 2147483648.
+(1) Find the field from photoobj where the objid matches the bestobjid in specobj and the special_target1 is not equal to 2147483648.
+(2) Retrieve the fields from Photometric_objects where the bestobjid in Spectroscopic_objects is not equal to 2147483648 for special_target1.
+(3) "Retrieve the field value from Photometric_objects where the bestobjid in Spectroscopic_objects matches the objid in Photometric_objects and the special_target1 is not equal to 2147483648."
+(4) Return the field values from the photoobj table for objects in which the bestobjid value in the specobj table does not have a special_target1 value of 2147483648.
+(5) Get the field from the table of photometric objects where the object ID in the photometric objects table is equal to the best object ID in the spectroscopic objects table and where special target 1 in the spectroscopic objects table does not equal 2147483648.
+(6) Find the field values from the photoobj table for objects where the objid value in Photometric_objects is equal to the bestobjid value in Spectroscopic_objects, and where special_target1 in Spectroscopic_objects is not equal to 2147483648.
+(7) Find the field value from the photoobj table for objects where the bestobjid in the specobj table is equal to the objid in the photoobj table, and where special_target1 in the specobj table is not equal to 2147483648.
+
+
+Re-ranked choices:
+8.416  Get the field from the table of photometric objects where the object ID in the photometric objects table is equal to the best object ID in the spectroscopic objects table and where special target 1 in the spectroscopic objects table does not equal 2147483648.
+4.214  Find the field values from the photoobj table for objects where the objid value in Photometric_objects is equal to the bestobjid value in Spectroscopic_objects, and where special_target1 in Spectroscopic_objects is not equal to 2147483648.
+2.819  Return the field values from the photoobj table for objects in which the bestobjid value in the specobj table does not have a special_target1 value of 2147483648.
+2.816  "Retrieve the field value from Photometric_objects where the bestobjid in Spectroscopic_objects matches the objid in Photometric_objects and the special_target1 is not equal to 2147483648."
+2.814  Find the field value from the photoobj table for objects where the bestobjid in the specobj table is equal to the objid in the photoobj table, and where special_target1 in the specobj table is not equal to 2147483648.
+2.813  Retrieve the field values from the Photometric_objects table where the Spectroscopic_objects bestobjid value is equal to the objid value in the Photometric_objects table and where the special_target1 value in Spectroscopic_objects is not equal to 2147483648.
+1.423  Find the field from photoobj where the objid matches the bestobjid in specobj and the special_target1 is not equal to 2147483648.
+1.421  Retrieve the fields from Photometric_objects where the bestobjid in Spectroscopic_objects is not equal to 2147483648 for special_target1.
+

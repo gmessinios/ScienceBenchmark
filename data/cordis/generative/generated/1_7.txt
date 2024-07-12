@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles JOIN project_members AS project_members ON project_member_roles.code = project_members.member_role WHERE project_members.street = "AVENUE DE PARIS 112"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 JOIN project_members AS T2 ON T1.code = T2.member_role WHERE T2.street = "AVENUE DE PARIS 112"
+GPT-3 choices:
+(0) Get the project member role code from the project member roles table where the street address of a project member in the project members table is "AVENUE DE PARIS 112".
+(1) Retrieve the project member role code from the project member roles table where the street address of the project members is "Avenue de Paris 112".
+(2) Retrieve the code for the role of a project member from the project member roles table where the street is "Avenue de Paris 112" and it matches with the code in the project members table.
+(3) Retrieve the code of project member roles for project members who have a street address of "Avenue de Paris 112".
+(4) Retrieve the code of project member roles for project members whose street is "Avenue de Paris 112".
+(5) Retrieve the code for each project member role from the project_member_roles table where the member_role in the project_members table is equal to "AVENUE DE PARIS 112".
+(6) Get the code of all project member roles for members who have the street "Avenue de Paris 112" in their profile.
+(7) What are the project member roles of members whose street is "Avenue de Paris 112"?

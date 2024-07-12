@@ -1,0 +1,16 @@
+SELECT institutions.acronym FROM institutions AS institutions WHERE institutions.website = "https://www.toscanalifesciences.org/" and institutions.unics_id = 1736
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM institutions AS T1 WHERE T1.website = "https://www.toscanalifesciences.org/" and T1.unics_id = 1736
+GPT-3 choices:
+(0) Retrieve the acronym of the institution from the table "institutions" where the website is "https://www.toscanalifesciences.org/" and the unics_id is 1736.
+(1) What is the acronym of the institution with a website of "https://www.toscanalifesciences.org/" and a unique ID of 1736 in the institutions database?
+(2) Retrieve the acronym of the institution whose website is "https://www.toscanalifesciences.org/" and unics_id is 1736 from the institutions table.
+(3) "Retrieve the acronym of the institution with a website URL of "https://www.toscanalifesciences.org/" and a UNICS ID of 1736 from the table institutions."
+(4) Find the acronym for institutions whose website is "https://www.toscanalifesciences.org/" and unics_id is 1736.
+(5) Retrieve the acronym for all institutions where their website is "https://www.toscanalifesciences.org/" and their unics_id is 1736.
+(6) Find the acronym of the institution with a website of "https://www.toscanalifesciences.org/" and a UNICS ID of 1736 in the institutions table.
+(7) Find the acronym for an institution whose website is "https://www.toscanalifesciences.org/" and unics_id is 1736.

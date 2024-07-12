@@ -1,0 +1,16 @@
+SELECT Photometric_objects.type FROM photoobj AS Photometric_objects WHERE Photometric_objects.b = -73.6010540812628
+
+###
+
+
+Original Query:
+SELECT T1.type FROM photoobj AS T1 WHERE T1.b = -73.6010540812628
+GPT-3 choices:
+(0) What is the type of the photometric object with a b value of -73.6010540812628 in the photoobj table?
+(1) Find the type of Photometric objects where the b value is equal to -73.6010540812628 in the photoobj table.
+(2) Find the type of photometric objects where b is equal to -73.6010540812628 in the photoobj table.
+(3) Retrieve the type of Photometric objects where the b value is equal to -73.6010540812628 from the photoobj table.
+(4) Find the type of objects from the table "photoobj" where the value of column "b" is equal to -73.6010540812628.
+(5) What is the type of Photometric_objects where b = -73.6010540812628 in the photoobj table?
+(6) Retrieve the type of photometric object from the table "photoobj" where the value in column "b" is equal to -73.6010540812628.
+(7) Retrieve the type of photometric objects where the b value is equal to -73.6010540812628 from the photoobj table.

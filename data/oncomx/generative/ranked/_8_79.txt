@@ -1,0 +1,27 @@
+SELECT anatomical_entity.description FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.id != "CL:0002180"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM anatomical_entity AS T1 WHERE T1.id != "CL:0002180"
+GPT-3 choices:
+(0) Get the description of all anatomical entities, excluding those with the identifier "CL:0002180".
+(1) Retrieve the description of all anatomical entities except for CL:0002180 from the table anatomical_entity.
+(2) What is the description of all anatomical entities except for "CL:0002180"?
+(3) What is the description of all anatomical entities excluding "CL:0002180"?
+(4) Retrieve the descriptions of all anatomical entities excluding "CL:0002180".
+(5) Retrieve the description of all anatomical entities except for "CL:0002180".
+(6) Get the description of all anatomical entities except for "CL:0002180".
+(7) Get the description of all anatomical entities except for "CL:0002180".
+
+
+Re-ranked choices:
+3.539  What is the description of all anatomical entities except for "CL:0002180"?
+3.536  Get the description of all anatomical entities except for "CL:0002180".
+3.531  What is the description of all anatomical entities excluding "CL:0002180"?
+3.531  Retrieve the description of all anatomical entities except for "CL:0002180".
+3.528  Get the description of all anatomical entities, excluding those with the identifier "CL:0002180".
+3.524  Retrieve the description of all anatomical entities except for CL:0002180 from the table anatomical_entity.
+2.126  Retrieve the descriptions of all anatomical entities excluding "CL:0002180".
+

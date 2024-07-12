@@ -1,0 +1,28 @@
+SELECT anatomical_entity.name FROM anatomical_entity AS anatomical_entity JOIN cancer_tissue AS cancer_tissue ON anatomical_entity.id = cancer_tissue.uberon_anatomical_id WHERE cancer_tissue.doid != 3571
+
+###
+
+
+Original Query:
+SELECT T1.name FROM anatomical_entity AS T1 JOIN cancer_tissue AS T2 ON T1.id = T2.uberon_anatomical_id WHERE T2.doid != 3571
+GPT-3 choices:
+(0) What is the name of all anatomical entities that are associated with cancer tissue, but are not associated with DOID 3571?
+(1) Retrieve the name of all anatomical entities that are associated with cancer tissues, but not associated with a specific type of cancer (other than breast cancer).
+(2) Retrieve the names of anatomical entities that are associated with cancer tissues other than prostate cancer.
+(3) What are the names of anatomical entities associated with cancer tissues, excluding those related to breast cancer?
+(4) Find the name of anatomical entities that are associated with cancer tissue, but not associated with the disease with the ID 3571.
+(5) What are the names of anatomical entities that are associated with cancer tissue, but not associated with the disease known as lymphoma?
+(6) What are the names of anatomical entities that have a corresponding ID in the cancer_tissue table but do not have a doid value equal to 3571?
+(7) Get the names of anatomical entities from the table "anatomical_entity" that are linked to cancer tissues in the "cancer_tissue" table but are not associated with the disease with ID 3571.
+
+
+Re-ranked choices:
+5.623  Find the name of anatomical entities that are associated with cancer tissue, but not associated with the disease with the ID 3571.
+5.622  What is the name of all anatomical entities that are associated with cancer tissue, but are not associated with DOID 3571?
+4.225  What are the names of anatomical entities that have a corresponding ID in the cancer_tissue table but do not have a doid value equal to 3571?
+4.220  Get the names of anatomical entities from the table "anatomical_entity" that are linked to cancer tissues in the "cancer_tissue" table but are not associated with the disease with ID 3571.
+4.219  Retrieve the name of all anatomical entities that are associated with cancer tissues, but not associated with a specific type of cancer (other than breast cancer).
+2.825  Retrieve the names of anatomical entities that are associated with cancer tissues other than prostate cancer.
+2.823  What are the names of anatomical entities that are associated with cancer tissue, but not associated with the disease known as lymphoma?
+2.822  What are the names of anatomical entities associated with cancer tissues, excluding those related to breast cancer?
+

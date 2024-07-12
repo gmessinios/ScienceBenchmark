@@ -1,0 +1,28 @@
+SELECT countries.country_code2 FROM countries AS countries WHERE countries.country_code3 != "MDV"
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 WHERE T1.country_code3 != "MDV"
+GPT-3 choices:
+(0) Return the country code2 from countries where the country code3 is not equal to "MDV".
+(1) Find the country code2 for all countries in the table "countries" where the country code3 is not equal to "MDV".
+(2) Return the country code 2 for all countries in the "countries" table except for those with a country code 3 of "MDV".
+(3) Retrieve the country code 2 of all countries from the table "countries" except for the country with a country code 3 of "MDV".
+(4) Get the country code2 from countries where the country code3 is not equal to "MDV".
+(5) Retrieve the country code 2 for all countries in the "countries" table where the country code 3 is not equal to "MDV".
+(6) Retrieve the country code2 from the countries table, excluding any entries where the country code3 is "MDV".
+(7) Retrieve the country code2 from the countries table where the country code3 is not equal to "MDV".
+
+
+Re-ranked choices:
+6.368  Get the country code2 from countries where the country code3 is not equal to "MDV".
+6.354  Return the country code2 from countries where the country code3 is not equal to "MDV".
+6.347  Retrieve the country code2 from the countries table where the country code3 is not equal to "MDV".
+6.339  Find the country code2 for all countries in the table "countries" where the country code3 is not equal to "MDV".
+6.334  Retrieve the country code2 from the countries table, excluding any entries where the country code3 is "MDV".
+3.536  Return the country code 2 for all countries in the "countries" table except for those with a country code 3 of "MDV".
+3.536  Retrieve the country code 2 for all countries in the "countries" table where the country code 3 is not equal to "MDV".
+3.534  Retrieve the country code 2 of all countries from the table "countries" except for the country with a country code 3 of "MDV".
+

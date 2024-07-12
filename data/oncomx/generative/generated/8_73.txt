@@ -1,0 +1,16 @@
+SELECT disease_mutation_article.pmid FROM disease_mutation_article AS disease_mutation_article WHERE disease_mutation_article.disease_mutation_id != 102881
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM disease_mutation_article AS T1 WHERE T1.disease_mutation_id != 102881
+GPT-3 choices:
+(0) Retrieve the PMID of all articles in the disease_mutation_article table, excluding those with a disease_mutation_id equal to 102881.
+(1) Get the PMID from the disease_mutation_article table where the disease_mutation_id is not equal to 102881.
+(2) What are the PubMed IDs of articles that have a disease-mutation relationship, excluding the one with the ID 102881?
+(3) Find the PMID for articles related to disease-mutation pairs, excluding those with a specific disease-mutation pair.
+(4) Retrieve the PMID numbers from the disease_mutation_article table where the disease_mutation_id is not equal to 102881.
+(5) What is the PMID of articles that are related to disease mutation but not specifically related to ID number 102881?
+(6) Find the PubMed IDs for articles in which there is a disease mutation other than 102881.
+(7) Retrieve the PMID for all articles in which a disease mutation is not associated with ID 102881 from the "disease_mutation_article" table.

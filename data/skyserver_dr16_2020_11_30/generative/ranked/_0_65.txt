@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype = 6
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.neighbortype = 6
+GPT-3 choices:
+(0) Retrieve the object IDs of the nearest neighbor objects from the neighbors table where their neighbor type is equal to 6.
+(1) Find the object IDs of the nearest neighbor objects from a table called "neighbors" where the neighbor type is 6.
+(2) Find the object IDs of the nearest neighbour objects whose neighbortype is 6 from the table called "neighbors".
+(3) Find the object IDs of the nearest neighbors whose neighbor type is 6 from the table "neighbors" and return them from the table "Nearest_neighbour_objects".
+(4) Find the object IDs of the nearest neighbors that have a neighbor type of 6 in the table named "neighbors".
+(5) "Retrieve the object IDs for all nearest neighbors that have a neighbor type of 6 from the table 'neighbors'."
+(6) Get the object IDs of the nearest neighbor objects from the "neighbors" table where the neighbor type is equal to 6.
+(7) Find the IDs of objects that are nearest neighbours with a neighbour type of 6 in the "neighbors" table.
+
+
+Re-ranked choices:
+5.638  Get the object IDs of the nearest neighbor objects from the "neighbors" table where the neighbor type is equal to 6.
+5.634  Find the object IDs of the nearest neighbor objects from a table called "neighbors" where the neighbor type is 6.
+5.633  Retrieve the object IDs of the nearest neighbor objects from the neighbors table where their neighbor type is equal to 6.
+4.924  Find the object IDs of the nearest neighbors whose neighbor type is 6 from the table "neighbors" and return them from the table "Nearest_neighbour_objects".
+4.239  Find the object IDs of the nearest neighbors that have a neighbor type of 6 in the table named "neighbors".
+4.236  "Retrieve the object IDs for all nearest neighbors that have a neighbor type of 6 from the table 'neighbors'."
+4.233  Find the IDs of objects that are nearest neighbours with a neighbour type of 6 in the "neighbors" table.
+4.230  Find the object IDs of the nearest neighbour objects whose neighbortype is 6 from the table called "neighbors".
+

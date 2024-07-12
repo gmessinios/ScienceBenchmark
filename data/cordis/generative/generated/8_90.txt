@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics WHERE topics.code != "CE-NMBP-42-2020"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.code != "CE-NMBP-42-2020"
+GPT-3 choices:
+(0) Get the titles of all topics, excluding the one with the code "CE-NMBP-42-2020".
+(1) What are the titles of all topics except for "CE-NMBP-42-2020"?
+(2) Find the titles of all topics except for "CE-NMBP-42-2020".
+(3) Retrieve the titles of all topics except for the one with code "CE-NMBP-42-2020".
+(4) Retrieve the title of all topics except for "CE-NMBP-42-2020".
+(5) Retrieve the titles of all topics from the "topics" table where the code is not equal to "CE-NMBP-42-2020".
+(6) Retrieve the titles of all topics, except for "CE-NMBP-42-2020", from the table named "topics".
+(7) Find the titles of all topics except for "CE-NMBP-42-2020".

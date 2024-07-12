@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 2
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.value = 2
+GPT-3 choices:
+(0) How many photos have a photometric observation value of 2?
+(1) How many photometrically observed photo types have a value of 2?
+(2) How many photo types have a value of "photometrically observed" equal to 2?
+(3) How many records are there in the photo_type table where the photometrically_observed column has a value of 2?
+(4) How many rows are in the table "photo_type" where the column "value" is equal to 2 and has a value of "photometrically observed"?
+(5) How many types of photos have been observed photometrically with a value of 2?
+(6) Count the number of photo types where the value for "photometrically observed" is equal to 2.
+(7) Count the number of observations that have been photometrically observed with a value of 2 in the photo_type table.
+
+
+Re-ranked choices:
+4.236  How many photo types have a value of "photometrically observed" equal to 2?
+4.234  How many photometrically observed photo types have a value of 2?
+4.234  How many types of photos have been observed photometrically with a value of 2?
+4.232  Count the number of photo types where the value for "photometrically observed" is equal to 2.
+4.227  How many rows are in the table "photo_type" where the column "value" is equal to 2 and has a value of "photometrically observed"?
+4.225  Count the number of observations that have been photometrically observed with a value of 2 in the photo_type table.
+2.129  How many records are there in the photo_type table where the photometrically_observed column has a value of 2?
+1.431  How many photos have a photometric observation value of 2?
+

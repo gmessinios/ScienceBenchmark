@@ -1,0 +1,28 @@
+SELECT stage.name FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.expression_level_gene_relative = "LOW"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.expression_level_gene_relative = "LOW"
+GPT-3 choices:
+(0) "Retrieve the name of all stages where the relative expression level of genes is low in healthy developmental tissue based on data from the stage and healthy_expression tables."
+(1) Retrieve the names of all stages where the relative expression level of a gene in healthy tissue is "LOW" from the stage and healthy_expression tables, using the developmental ID from stage and joining it with uberon_developmental_id from healthy_expression.
+(2) What are the names of stages where the relative expression level of genes is "LOW" in healthy expressions?
+(3) Find the names of all stages where the expression level for a gene in healthy tissue is considered "LOW" based on data from both the stage and healthy_expression tables.
+(4) What is the name of the stage where genes have a low relative expression level in healthy developmental tissues?
+(5) What is the name of the developmental stage where the relative gene expression level is considered low, based on data from the table "stage" and "healthy_expression"?
+(6) Retrieve the names of all developmental stages for which the relative expression level of a gene is considered "LOW" in healthy individuals based on data from the stage and healthy_expression tables.
+(7) Find the name of stages where the expression level of a gene is considered "LOW" according to data from healthy_expression and stage tables.
+
+
+Re-ranked choices:
+11.916  Retrieve the names of all stages where the relative expression level of a gene in healthy tissue is "LOW" from the stage and healthy_expression tables, using the developmental ID from stage and joining it with uberon_developmental_id from healthy_expression.
+11.221  "Retrieve the name of all stages where the relative expression level of genes is low in healthy developmental tissue based on data from the stage and healthy_expression tables."
+11.218  Retrieve the names of all developmental stages for which the relative expression level of a gene is considered "LOW" in healthy individuals based on data from the stage and healthy_expression tables.
+10.532  What is the name of the stage where genes have a low relative expression level in healthy developmental tissues?
+10.522  What is the name of the developmental stage where the relative gene expression level is considered low, based on data from the table "stage" and "healthy_expression"?
+8.425  Find the names of all stages where the expression level for a gene in healthy tissue is considered "LOW" based on data from both the stage and healthy_expression tables.
+7.727  Find the name of stages where the expression level of a gene is considered "LOW" according to data from healthy_expression and stage tables.
+6.337  What are the names of stages where the relative expression level of genes is "LOW" in healthy expressions?
+

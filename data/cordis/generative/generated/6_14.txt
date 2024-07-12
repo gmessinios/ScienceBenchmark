@@ -1,0 +1,16 @@
+SELECT project_members.street FROM project_members AS project_members WHERE project_members.postal_code = "AIC 5S7" and project_members.latitude = 52.289565
+
+###
+
+
+Original Query:
+SELECT T1.street FROM project_members AS T1 WHERE T1.postal_code = "AIC 5S7" and T1.latitude = 52.289565
+GPT-3 choices:
+(0) Get the street name for all project members who have a postal code of "AIC 5S7" and a latitude of 52.289565 from the table project_members.
+(1) Retrieve the street address from the project members table where the postal code is "AIC 5S7" and the latitude is 52.289565.
+(2) "Retrieve the street address for project members where the postal code is "AIC 5S7" and latitude is 52.289565."
+(3) Retrieve the street address of all project members who have a postal code of "AIC 5S7" and a latitude of 52.289565.
+(4) "Get the street name for all project members who have a postal code of AIC 5S7 and a latitude of 52.289565."
+(5) Find the street address for project members where the postal code is "AIC 5S7" and the latitude is 52.289565.
+(6) Find the street name for project members who have a postal code of "AIC 5S7" and a latitude of 52.289565 in the project_members table.
+(7) Retrieve the street address from the project_members table where the postal code is "AIC 5S7" and the latitude is 52.289565.

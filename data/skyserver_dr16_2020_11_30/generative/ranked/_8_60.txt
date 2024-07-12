@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid != 1237645876861469424
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.neighborobjid != 1237645876861469424
+GPT-3 choices:
+(0) Find the object ID of the nearest neighbor objects that are not equal to 1237645876861469424.
+(1) Find the object ID of the nearest neighbor objects from a table called "neighbors" where the neighbor object ID is not equal to 1237645876861469424.
+(2) Find the object IDs of the nearest neighbor objects that are not equal to 1237645876861469424.
+(3) Find the objects that are nearest neighbours to object 1237645876861469424.
+(4) "Retrieve the object IDs of the nearest neighbors from the 'neighbors' table where the neighbor's object ID is not equal to 1237645876861469424."
+(5) Find the object IDs of all nearest neighbors in the "neighbors" table that are not equal to 1237645876861469424.
+(6) Find the object IDs of nearest neighbors from the "neighbors" table where the neighbor's object ID is not equal to 1237645876861469424.
+(7) Which objects are the nearest neighbors of the object with ID 1237645876861469424?
+
+
+Re-ranked choices:
+5.654  Find the object ID of the nearest neighbor objects that are not equal to 1237645876861469424.
+5.633  Find the object ID of the nearest neighbor objects from a table called "neighbors" where the neighbor object ID is not equal to 1237645876861469424.
+4.268  Which objects are the nearest neighbors of the object with ID 1237645876861469424?
+4.254  Find the object IDs of the nearest neighbor objects that are not equal to 1237645876861469424.
+4.238  Find the object IDs of nearest neighbors from the "neighbors" table where the neighbor's object ID is not equal to 1237645876861469424.
+4.232  "Retrieve the object IDs of the nearest neighbors from the 'neighbors' table where the neighbor's object ID is not equal to 1237645876861469424."
+2.852  Find the objects that are nearest neighbours to object 1237645876861469424.
+1.444  Find the object IDs of all nearest neighbors in the "neighbors" table that are not equal to 1237645876861469424.
+

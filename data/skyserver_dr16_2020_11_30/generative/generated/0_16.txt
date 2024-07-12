@@ -1,0 +1,16 @@
+SELECT Photometric_objects.flags FROM photoobj AS Photometric_objects WHERE Photometric_objects.run = 8083
+
+###
+
+
+Original Query:
+SELECT T1.flags FROM photoobj AS T1 WHERE T1.run = 8083
+GPT-3 choices:
+(0) What are the flags of all photometric objects from the photoobj table with a run value of 8083?
+(1) Retrieve the flags of all photometric objects from the photoobj table with a run value of 8083.
+(2) Retrieve the flags from the Photometric_objects table for objects observed in the 8083 run.
+(3) Get the flags of photometric objects from the photoobj table where the run is equal to 8083.
+(4) Retrieve the flags of photometric objects from the photoobj table where the run number is 8083.
+(5) Get the flags from the photo objects where the run is equal to 8083.
+(6) Retrieve the flags of photometric objects from the photoobj table where the run is equal to 8083.
+(7) What are the flags for photometric objects in the photoobj table where the run is 8083?

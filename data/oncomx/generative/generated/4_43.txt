@@ -1,0 +1,16 @@
+SELECT count(*) FROM healthy_expression AS healthy_expression WHERE healthy_expression.expression_rank_score = 93.30
+
+###
+
+
+Original Query:
+SELECT count(*) FROM healthy_expression AS T1 WHERE T1.expression_rank_score = 93.30
+GPT-3 choices:
+(0) How many entries are there in the healthy_expression table where the expression_rank_score is equal to 93.30?
+(1) Count the number of entries in the table "healthy_expression" where the "expression_rank_score" is equal to 93.30.
+(2) How many entries are in the table "healthy_expression" where the expression rank score is 93.30?
+(3) Count the number of entries in the healthy_expression table where the expression_rank_score is equal to 93.30.
+(4) How many records are in the healthy_expression table where the expression_rank_score is equal to 93.30?
+(5) How many rows are there in the healthy_expression table where the expression_rank_score is 93.30?
+(6) "How many entries are there in the 'healthy_expression' table where the expression_rank_score is equal to 93.30?"
+(7) How many entries are in the healthy expression database with an expression rank score of 93.30?

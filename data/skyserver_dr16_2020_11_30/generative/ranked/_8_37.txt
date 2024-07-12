@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.mode != 1
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 WHERE T1.mode != 1
+GPT-3 choices:
+(0) Retrieve the mode of all nearest neighbor objects where the mode is not equal to 1 from the neighbors table.
+(1) Find the neighboring mode for all objects in the neighbors table where the mode is not equal to 1.
+(2) Retrieve the neighbor mode from the Nearest_neighbour_objects table for all neighbors where the mode is not equal to 1.
+(3) Find the neighboring objects where the neighbor mode is not equal to 1 from the neighbors table.
+(4) Find the neighbor mode for all nearest neighbor objects where the mode is not equal to 1.
+(5) Get the neighbor mode from the nearest neighbor objects where the mode is not equal to 1.
+(6) "Find the neighbor mode from the nearest neighbor objects where the mode is not equal to 1."
+(7) Retrieve the neighbor mode from the nearest neighbor objects where the mode is not equal to 1.
+
+
+Re-ranked choices:
+5.639  Retrieve the mode of all nearest neighbor objects where the mode is not equal to 1 from the neighbors table.
+4.258  Find the neighbor mode for all nearest neighbor objects where the mode is not equal to 1.
+4.258  Get the neighbor mode from the nearest neighbor objects where the mode is not equal to 1.
+4.258  "Find the neighbor mode from the nearest neighbor objects where the mode is not equal to 1."
+4.247  Retrieve the neighbor mode from the nearest neighbor objects where the mode is not equal to 1.
+4.239  Find the neighboring objects where the neighbor mode is not equal to 1 from the neighbors table.
+3.532  Retrieve the neighbor mode from the Nearest_neighbour_objects table for all neighbors where the mode is not equal to 1.
+2.842  Find the neighboring mode for all objects in the neighbors table where the mode is not equal to 1.
+

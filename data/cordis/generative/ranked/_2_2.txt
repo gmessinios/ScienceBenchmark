@@ -1,0 +1,28 @@
+SELECT project_member_roles.description, count(*) FROM project_member_roles AS project_member_roles  GROUP BY project_member_roles.description
+
+###
+
+
+Original Query:
+SELECT T1.description, count(*) FROM project_member_roles AS T1  GROUP BY T1.description
+GPT-3 choices:
+(0) Get the description and count of all project member roles from the table "project_member_roles" grouped by their description.
+(1) "How many project member roles are there in each description category and what is the total count of members assigned to each role?"
+(2) Find the number of project members for each project member role and group them by their respective descriptions.
+(3) How many project member roles are there and what is the description of each role?
+(4) "How many project members are in each role and what is the description of that role?"
+(5) Find the number of project member roles for each description in the project_member_roles table.
+(6) "Find the number of project members in each role and group them by their description."
+(7) How many project members are assigned to each role, and what is the description of each role?
+
+
+Re-ranked choices:
+6.333  Get the description and count of all project member roles from the table "project_member_roles" grouped by their description.
+5.656  How many project member roles are there and what is the description of each role?
+5.634  Find the number of project member roles for each description in the project_member_roles table.
+5.630  "How many project member roles are there in each description category and what is the total count of members assigned to each role?"
+3.538  Find the number of project members for each project member role and group them by their respective descriptions.
+2.862  "How many project members are in each role and what is the description of that role?"
+2.858  How many project members are assigned to each role, and what is the description of each role?
+2.154  "Find the number of project members in each role and group them by their description."
+

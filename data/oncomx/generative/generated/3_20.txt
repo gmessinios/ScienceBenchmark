@@ -1,0 +1,16 @@
+SELECT count(*) FROM species AS species
+
+###
+
+
+Original Query:
+SELECT count(*) FROM species AS T1
+GPT-3 choices:
+(0) How many species are there in the database table "species"?
+(1) How many rows are in the "species" table?
+(2) How many species are there in the "species" table?
+(3) How many species are there in the table called "species"?
+(4) How many species are there in the database?
+(5) How many species are there in the table named "species"?
+(6) How many species are there in the species table?
+(7) How many species are there in the database?

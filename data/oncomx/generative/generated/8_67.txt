@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_trade_name FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_submission != "P160018"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_trial AS T1 WHERE T1.test_submission != "P160018"
+GPT-3 choices:
+(0) What are the trade names for biomarker tests submitted to FDA that do not have a submission ID of "P160018"?
+(1) What is the trade name for all biomarker FDA test trials where the test submission is not "P160018"?
+(2) Retrieve the test trade name from the biomarker FDA test trial where the test submission is not "P160018".
+(3) Find the trade names from the biomarker FDA test trials where the test submission is not "P160018".
+(4) Which test trade names were not submitted for FDA testing in biomarker_fda_test_trial except "P160018"?
+(5) Find the test trade names from biomarker_fda_test_trial where the test submission is not "P160018".
+(6) Retrieve the trade names of biomarker FDA test trials where the test submission is not equal to "P160018".
+(7) "Retrieve the test trade names from the biomarker FDA test trial table where the test submission is not equal to 'P160018'."

@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.nuts_version = "2021"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 WHERE T1.nuts_version = "2021"
+GPT-3 choices:
+(0) Retrieve the description of European territorial units with a NUTS version of 2021.
+(1) Get the description of EU territorial units for the year 2021.
+(2) Retrieve the description from the European Territorial Units table where the nuts_version is "2021".
+(3) "Retrieve the description from EU territorial units where the NUTS version is 2021."
+(4) Retrieve the descriptions of all European territorial units from the table "eu_territorial_units" where the NUTS version is "2021".
+(5) What are the descriptions of all European territorial units for which the nuts version is "2021"?
+(6) Retrieve the description of European territorial units with a NUTS version of 2021 from the "eu_territorial_units" table.
+(7) Retrieve the description for all EU territorial units where the nuts_version is "2021".

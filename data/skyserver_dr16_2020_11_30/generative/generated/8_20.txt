@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.ra FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.veldisperr != 7.423635
+
+###
+
+
+Original Query:
+SELECT T1.ra FROM specobj AS T1 WHERE T1.veldisperr != 7.423635
+GPT-3 choices:
+(0) Get the right ascension of objects from the table "specobj" where the velocity dispersion error is not equal to 7.423635.
+(1) Retrieve the right ascension values for objects in the "specobj" table that have a veldisperr value not equal to 7.423635, and name this table "Spectroscopic_objects".
+(2) What are the right ascensions of all objects in the specobj table that have a veldisperr value not equal to 7.423635?
+(3) Get the right ascension values from the "specobj" table for objects with a non-null value in the "veldisperr" column that is not equal to 7.423635.
+(4) What is the right ascension of all spectroscopic objects from the specobj table that have a veldisperr value other than 7.423635?
+(5) Find the right ascension of all objects from the table "specobj" where the velocity dispersion error is not equal to 7.423635.
+(6) Retrieve the right ascension values from the "specobj" table for all objects in the "Spectroscopic_objects" view that do not have a velocity dispersion error of 7.423635.
+(7) Find the right ascension value from the specobj table for objects in Spectroscopic_objects that have a veldisperr value different than 7.423635.

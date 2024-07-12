@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions AS institutions    ORDER BY institutions.unics_id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM institutions AS T1    ORDER BY T1.unics_id DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the short name of the most recently added institution, sorted in descending order by its unique identifier.
+(1) Find the short names of institutions and list them in descending order by their unique ID, limited to only the last one.
+(2) Get the short name of the institution with the highest UNICS ID, sorted in descending order, limited to 1 result.
+(3) Get the short name of the institution with the highest UNICS ID from the institutions table, sorted in descending order, with a limit of one result.
+(4) Get the short name of the last institution in the table "institutions", ordered by their unique identifier in descending order and limited to one result.
+(5) Get the short name of the latest institution in descending order based on their unics ID from the table institutions.
+(6) Find the short name of the institution with the highest UNICS ID, in descending order.
+(7) Get the short name of the last institution in descending order by their UNICS ID from the "institutions" table.
+
+
+Re-ranked choices:
+7.729  Get the short name of the last institution in descending order by their UNICS ID from the "institutions" table.
+7.023  Get the short name of the institution with the highest UNICS ID from the institutions table, sorted in descending order, with a limit of one result.
+5.625  Get the short name of the latest institution in descending order based on their unics ID from the table institutions.
+4.921  Get the short name of the last institution in the table "institutions", ordered by their unique identifier in descending order and limited to one result.
+4.233  Find the short name of the institution with the highest UNICS ID, in descending order.
+4.225  Get the short name of the institution with the highest UNICS ID, sorted in descending order, limited to 1 result.
+3.532  Find the short names of institutions and list them in descending order by their unique ID, limited to only the last one.
+3.526  Retrieve the short name of the most recently added institution, sorted in descending order by its unique identifier.
+

@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease AS disease WHERE disease.name = "sarcoma"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease AS T1 WHERE T1.name = "sarcoma"
+GPT-3 choices:
+(0) How many diseases are there with the name "sarcoma"?
+(1) How many diseases are there with the name "sarcoma"?
+(2) How many diseases are there with the name "sarcoma"?
+(3) "How many diseases are there in the database with the name 'sarcoma'?"
+(4) How many records are in the disease table where the name is "sarcoma"?
+(5) How many diseases are there in the disease database with the name "sarcoma"?
+(6) How many diseases are there in the database that have the name "sarcoma"?
+(7) How many records are there in the disease table where the name is "sarcoma"?

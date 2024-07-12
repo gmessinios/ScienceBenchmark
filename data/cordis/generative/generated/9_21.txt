@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.unics_id != 143946
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.unics_id != 143946
+GPT-3 choices:
+(0) Show me the titles of topics that are associated with projects other than project 143946, by joining the tables topics, project_topics, and projects.
+(1) Get the titles of all topics for projects that have a project topic code and are not the same as project with UNICS ID 143946.
+(2) Get the titles of topics that are associated with projects that do not have the unique identifier 143946 by joining the tables topics, project_topics, and projects.
+(3) Retrieve the title of all topics associated with projects that have a unique identifier other than 143946.
+(4) Find the titles of all topics that are associated with projects except for the project with an ID of 143946.
+(5) Get the titles of topics that have been assigned to projects other than the project with unics_id 143946.
+(6) Find the title of all topics associated with projects, excluding the project with an ID of 143946.
+(7) Get the title of all topics that are associated with projects other than the one with the unique identifier 143946.

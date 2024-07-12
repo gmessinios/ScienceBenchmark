@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.website != "http://www.ispo.toscana.it/"
+
+###
+
+
+Original Query:
+SELECT T1.country_name FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.website != "http://www.ispo.toscana.it/"
+GPT-3 choices:
+(0) Show me the country names of all institutions, excluding those with the website http://www.ispo.toscana.it/, by joining the countries and institutions tables using the unics_id and country_id columns.
+(1) Find the country names for institutions whose website is not equal to "http://www.ispo.toscana.it/" by joining the countries table on the unics_id column in countries and the country_id column in institutions.
+(2) Find the country name for all countries where their associated institution's website is not equal to "http://www.ispo.toscana.it/".
+(3) List the country names from the table of countries where the website of institutions is not "http://www.ispo.toscana.it/".
+(4) Get the names of countries where the institutions' website is not "http://www.ispo.toscana.it/".
+(5) Find the names of countries that have institutions with a website other than "http://www.ispo.toscana.it/".
+(6) Retrieve the names of all countries that have institutions with a website, excluding the website for the institution "http://www.ispo.toscana.it/".
+(7) Retrieve the name of all countries whose unique identifier in the "countries" table matches the country identifier in the "institutions" table, and where the corresponding website in the institutions table is not equal to "http://www.ispo.toscana.it/".

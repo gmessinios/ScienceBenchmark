@@ -1,0 +1,28 @@
+SELECT institutions.country_id FROM institutions AS institutions WHERE institutions.db_pedia_url = "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa"
+
+###
+
+
+Original Query:
+SELECT T1.country_id FROM institutions AS T1 WHERE T1.db_pedia_url = "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa"
+GPT-3 choices:
+(0) Find the country ID of the institution that has a DBpedia URL of "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa".
+(1) Find the country ID for the institution with a DBpedia URL of "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" in the table "institutions".
+(2) What is the country ID for the institution whose DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" in the institutions table?
+(3) Retrieve the country ID for the institution whose DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" from the institutions table.
+(4) Find the country ID for the institution Scuola Normale Superiore di Pisa from the table of institutions where its DBpedia URL is equal to "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa".
+(5) Get the country ID of the institution whose DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" from the table "institutions".
+(6) Retrieve the country ID of the institution "Scuola Normale Superiore di Pisa" from the database, where its DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa".
+(7) What is the country ID of the institution with a DBpedia URL of "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" in the table "institutions"?
+
+
+Re-ranked choices:
+5.622  What is the country ID of the institution with a DBpedia URL of "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" in the table "institutions"?
+5.620  Find the country ID for the institution with a DBpedia URL of "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" in the table "institutions".
+5.620  What is the country ID for the institution whose DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" in the institutions table?
+5.619  Retrieve the country ID for the institution whose DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" from the institutions table.
+5.619  Get the country ID of the institution whose DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa" from the table "institutions".
+5.613  Find the country ID for the institution Scuola Normale Superiore di Pisa from the table of institutions where its DBpedia URL is equal to "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa".
+4.219  Find the country ID of the institution that has a DBpedia URL of "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa".
+4.213  Retrieve the country ID of the institution "Scuola Normale Superiore di Pisa" from the database, where its DBpedia URL is "http://dbpedia.org/page/Scuola_Normale_Superiore_di_Pisa".
+

@@ -1,0 +1,16 @@
+SELECT project_members.city FROM project_members AS project_members WHERE project_members.unics_id = 620545 and project_members.member_short_name = "Kilgray DE"
+
+###
+
+
+Original Query:
+SELECT T1.city FROM project_members AS T1 WHERE T1.unics_id = 620545 and T1.member_short_name = "Kilgray DE"
+GPT-3 choices:
+(0) Find the city for a project member with a UNICS ID of 620545 and a member short name of "Kilgray DE".
+(1) What is the city of the project member with a Unics ID of 620545 and a short name of "Kilgray DE"?
+(2) Retrieve the city of residence for the project member with UNICS ID 620545 and a member short name of "Kilgray DE" from the table "project_members".
+(3) Get the city of project member with unics_id 620545 and member_short_name "Kilgray DE" from the project_members table.
+(4) Retrieve the city of residence for the project member with a UNICS ID of 620545 and a member short name of "Kilgray DE" from the project members table.
+(5) "Retrieve the city from the project members table where the unics_id is 620545 and the member_short_name is 'Kilgray DE'."
+(6) What is the city for project members with a UNICS ID of 620545 and a member short name of "Kilgray DE"?
+(7) Find the city associated with the project member who has an unics ID of 620545 and a member short name of "Kilgray DE".

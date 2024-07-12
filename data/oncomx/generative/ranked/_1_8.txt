@@ -1,0 +1,28 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue JOIN disease AS disease ON cancer_tissue.doid = disease.id WHERE disease.id = 263
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1 JOIN disease AS T2 ON T1.doid = T2.id WHERE T2.id = 263
+GPT-3 choices:
+(0) Find the uberon anatomical ID of cancer tissue where the disease is associated with DOID 263.
+(1) Get the UBeron anatomical ID from cancer tissues where the disease is identified as 263.
+(2) What is the Uberon anatomical ID for cancer tissues associated with disease 263?
+(3) What is the Uberon anatomical ID for cancer tissue associated with disease with ID 263?
+(4) Retrieve the uberon anatomical ID for all cancer tissues associated with a disease with an ID of 263.
+(5) Find the Uberon anatomical ID of cancer tissues associated with the disease with the ID 263.
+(6) Retrieve the anatomical ID from the cancer_tissue table where the disease ID is 263 and it matches with the disease ID in the disease table.
+(7) Find the Uberon anatomical ID for cancer tissue associated with the disease "hemangioma" (disease ID: 263).
+
+
+Re-ranked choices:
+9.826  Find the uberon anatomical ID of cancer tissue where the disease is associated with DOID 263.
+8.430  What is the Uberon anatomical ID for cancer tissue associated with disease with ID 263?
+8.422  Find the Uberon anatomical ID for cancer tissue associated with the disease "hemangioma" (disease ID: 263).
+7.033  Get the UBeron anatomical ID from cancer tissues where the disease is identified as 263.
+7.029  What is the Uberon anatomical ID for cancer tissues associated with disease 263?
+7.029  Find the Uberon anatomical ID of cancer tissues associated with the disease with the ID 263.
+7.027  Retrieve the uberon anatomical ID for all cancer tissues associated with a disease with an ID of 263.
+4.226  Retrieve the anatomical ID from the cancer_tissue table where the disease ID is 263 and it matches with the disease ID in the disease table.
+

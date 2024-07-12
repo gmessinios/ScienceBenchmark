@@ -1,0 +1,16 @@
+SELECT disease.name FROM disease AS disease JOIN differential_expression AS differential_expression ON disease.id = differential_expression.doid WHERE differential_expression.adjpvalue = 8.41e-243
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1 JOIN differential_expression AS T2 ON T1.id = T2.doid WHERE T2.adjpvalue = 8.41e-243
+GPT-3 choices:
+(0) Find the names of diseases that are associated with differential expressions where the adjusted p-value is 8.41e-243.
+(1) Which disease names are associated with differential expressions where the adjusted p-value is 8.41e-24?
+(2) What are the names of diseases for which there is a differential expression with an adjusted p-value of 8.41e-24?
+(3) What are the names of diseases that have a differential expression with an adjusted p-value of 8.41e-243?
+(4) Retrieve the name of diseases where the adjusted p-value in the differential expression is equal to 8.41e-243.
+(5) Retrieve the name of the disease from the "disease" table where its ID matches with that of the "differential_expression" table and its adjusted p-value is equal to 8.41e-243.
+(6) What are the names of diseases associated with a differential expression p-value of 8.41e-243?
+(7) Retrieve the name of the disease from the disease table, where the p-value in the differential expression table is equal to 8.41e-24 and it shares an id with that disease in both tables.

@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.distance FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type = 0 and Nearest_neighbour_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT T1.distance FROM neighbors AS T1 WHERE T1.type = 0 and T1.mode = 1
+GPT-3 choices:
+(0) What is the distance of the nearest neighbor with a type value of 0 and a mode value of 1 in the "neighbors" table?
+(1) Find the distance of nearest neighbor objects that have a type of 0 and a mode of 1.
+(2) Find the distance of all nearest neighbour objects that have a type of 0 and a mode of 1.
+(3) What are the distances of nearest neighbor objects that have a type of 0 and a mode of 1?
+(4) Find the distance of the nearest neighbor objects that have a type of 0 and a mode of 1.
+(5) Retrieve the distances from the nearest neighbor objects where their type is 0 and mode is 1.
+(6) What is the distance of the nearest neighbour object that has a type of 0 and mode of 1?
+(7) What is the distance for all nearest neighbors of type 0 and mode 1 in the "neighbors" table?

@@ -1,0 +1,28 @@
+SELECT species.speciesid FROM species AS species WHERE species.species = "musculus"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM species AS T1 WHERE T1.species = "musculus"
+GPT-3 choices:
+(0) What is the ID for the species "musculus" in the species table?
+(1) Find the species ID for the species "musculus" from the table called "species".
+(2) Get the species ID for the species "musculus" from the table of species.
+(3) Find the species ID for "musculus" in the species table.
+(4) Retrieve the species ID of all species in the "species" table where the species name is "musculus".
+(5) Retrieve the speciesid from the "species" table where the species name is "musculus".
+(6) Find the species ID for the mouse species named "musculus".
+(7) Find the speciesid from the species table where the species is "musculus".
+
+
+Re-ranked choices:
+3.547  Find the speciesid from the species table where the species is "musculus".
+3.544  Retrieve the speciesid from the "species" table where the species name is "musculus".
+2.186  Find the species ID for the mouse species named "musculus".
+2.165  Find the species ID for the species "musculus" from the table called "species".
+2.165  Get the species ID for the species "musculus" from the table of species.
+2.164  Find the species ID for "musculus" in the species table.
+2.156  What is the ID for the species "musculus" in the species table?
+2.148  Retrieve the species ID of all species in the "species" table where the species name is "musculus".
+

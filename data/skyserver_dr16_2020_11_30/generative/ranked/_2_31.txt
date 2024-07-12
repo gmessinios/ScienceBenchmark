@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.distance, count(*) FROM neighbors AS Nearest_neighbour_objects  GROUP BY Nearest_neighbour_objects.distance
+
+###
+
+
+Original Query:
+SELECT T1.distance, count(*) FROM neighbors AS T1  GROUP BY T1.distance
+GPT-3 choices:
+(0) What is the number of objects and their respective distances in the "Nearest_neighbour_objects" table, grouped by distance?
+(1) How many nearest neighbor objects are there for each distance, and what is the count for each distance?
+(2) Find the distance and count of objects that are nearest neighbours, grouped by their distance.
+(3) Count the number of objects for each distance value from the table "neighbors" and group them by their respective distances.
+(4) How many rows are there in the "neighbors" table when grouped by distance and counting the number of occurrences for each distance?
+(5) Find the distance and count the number of occurrences for all nearest neighbor objects in the table "neighbors".
+(6) Find the number of objects and their corresponding distances from the nearest neighbors, grouped by distance.
+(7) Find the distance and count the number of objects for each nearest neighbor in the neighbors table.
+
+
+Re-ranked choices:
+7.039  Find the distance and count the number of objects for each nearest neighbor in the neighbors table.
+7.033  Find the distance and count the number of occurrences for all nearest neighbor objects in the table "neighbors".
+6.345  Find the distance and count of objects that are nearest neighbours, grouped by their distance.
+6.330  Count the number of objects for each distance value from the table "neighbors" and group them by their respective distances.
+5.644  How many nearest neighbor objects are there for each distance, and what is the count for each distance?
+5.628  What is the number of objects and their respective distances in the "Nearest_neighbour_objects" table, grouped by distance?
+4.932  How many rows are there in the "neighbors" table when grouped by distance and counting the number of occurrences for each distance?
+4.932  Find the number of objects and their corresponding distances from the nearest neighbors, grouped by distance.
+

@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_level != 1
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.geocode_level != 1
+GPT-3 choices:
+(0) Retrieve all geocode regions from the EU territorial units where the geocode level is not equal to 1.
+(1) "Retrieve the geocode regions from the European territorial units table where the geocode level is not equal to 1."
+(2) What are the geocode_regions for all EU territorial units where the geocode_level is not equal to 1?
+(3) Get the geocode regions from the EU Territorial Units table where the geocode level is not equal to 1.
+(4) Retrieve the geocode_regions from the eu_territorial_units table where the geocode_level is not equal to 1.
+(5) Get the geocode_regions from the eu_territorial_units table where the geocode_level is not equal to 1.
+(6) Retrieve the geocode_regions from eu_territorial_units where the geocode_level is not equal to 1.
+(7) Get the geocode regions from EU territorial units where the geocode level is not equal to 1.
+
+
+Re-ranked choices:
+8.439  Get the geocode regions from EU territorial units where the geocode level is not equal to 1.
+8.437  Retrieve all geocode regions from the EU territorial units where the geocode level is not equal to 1.
+8.436  Get the geocode regions from the EU Territorial Units table where the geocode level is not equal to 1.
+7.032  "Retrieve the geocode regions from the European territorial units table where the geocode level is not equal to 1."
+4.239  What are the geocode_regions for all EU territorial units where the geocode_level is not equal to 1?
+0.030  Get the geocode_regions from the eu_territorial_units table where the geocode_level is not equal to 1.
+0.029  Retrieve the geocode_regions from eu_territorial_units where the geocode_level is not equal to 1.
+0.027  Retrieve the geocode_regions from the eu_territorial_units table where the geocode_level is not equal to 1.
+

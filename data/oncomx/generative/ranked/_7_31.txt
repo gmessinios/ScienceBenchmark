@@ -1,0 +1,28 @@
+SELECT healthy_expression.uberon_developmental_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.ensembl_gene_id = "ENSG00000053770" or healthy_expression.call_quality = "BRONZE"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_developmental_id FROM healthy_expression AS T1 WHERE T1.ensembl_gene_id = "ENSG00000053770" or T1.call_quality = "BRONZE"
+GPT-3 choices:
+(0) Retrieve the developmental uberon identifier from the healthy_expression table for the gene with ensembl ID ENSG00000053770 or any entries where the call quality is "BRONZE".
+(1) Retrieve the uberon developmental ID from healthy expression data for the gene ENSG00000053770 or any entries with a call quality of "BRONZE".
+(2) Find the UBERON developmental ID from healthy expression data for the gene with Ensembl ID ENSG00000053770 or a call quality of bronze.
+(3) Retrieve the UBERON developmental ID from the healthy_expression table where the Ensembl gene ID is equal to "ENSG00000053770" or the call quality is equal to "BRONZE".
+(4) Retrieve the uberon developmental ID from healthy expression data where the ensembl gene ID is "ENSG00000053770" or the call quality is "BRONZE".
+(5) Find the uberon developmental ID for healthy expression where the ensembl gene ID is equal to "ENSG00000053770" or the call quality is equal to "BRONZE".
+(6) Retrieve the Uberon developmental ID from the healthy expression data where either the Ensembl gene ID is "ENSG00000053770" or the call quality is "BRONZE".
+(7) Retrieve the uberon developmental ID from healthy expression data for a gene with Ensembl ID ENSG00000053770 or with a call quality of bronze.
+
+
+Re-ranked choices:
+14.022  Retrieve the uberon developmental ID from healthy expression data where the ensembl gene ID is "ENSG00000053770" or the call quality is "BRONZE".
+14.022  Find the uberon developmental ID for healthy expression where the ensembl gene ID is equal to "ENSG00000053770" or the call quality is equal to "BRONZE".
+14.020  Retrieve the Uberon developmental ID from the healthy expression data where either the Ensembl gene ID is "ENSG00000053770" or the call quality is "BRONZE".
+13.322  Find the UBERON developmental ID from healthy expression data for the gene with Ensembl ID ENSG00000053770 or a call quality of bronze.
+13.321  Retrieve the uberon developmental ID from healthy expression data for a gene with Ensembl ID ENSG00000053770 or with a call quality of bronze.
+12.623  Retrieve the uberon developmental ID from healthy expression data for the gene ENSG00000053770 or any entries with a call quality of "BRONZE".
+11.219  Retrieve the UBERON developmental ID from the healthy_expression table where the Ensembl gene ID is equal to "ENSG00000053770" or the call quality is equal to "BRONZE".
+11.217  Retrieve the developmental uberon identifier from the healthy_expression table for the gene with ensembl ID ENSG00000053770 or any entries where the call quality is "BRONZE".
+

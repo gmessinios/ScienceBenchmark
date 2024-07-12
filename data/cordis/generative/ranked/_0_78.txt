@@ -1,0 +1,27 @@
+SELECT institutions.institutions_name FROM institutions AS institutions WHERE institutions.short_name = "PRES ParisTech"
+
+###
+
+
+Original Query:
+SELECT T1.institutions_name FROM institutions AS T1 WHERE T1.short_name = "PRES ParisTech"
+GPT-3 choices:
+(0) Find the name of the institution whose short name is "PRES ParisTech".
+(1) What is the name of the institution whose short name is "PRES ParisTech"?
+(2) What is the full name of the institution with a short name of "PRES ParisTech"?
+(3) Find the name of the institution where the short name is "PRES ParisTech".
+(4) What is the name of the institution whose short name is "PRES ParisTech"?
+(5) Retrieve the full name of the institution where the short name is "PRES ParisTech" from a table called "institutions".
+(6) Find the name of the institution with the short name "PRES ParisTech" from the table "institutions".
+(7) Retrieve the name of the institution from the table "institutions" where the short name is equal to "PRES ParisTech".
+
+
+Re-ranked choices:
+5.632  Find the name of the institution with the short name "PRES ParisTech" from the table "institutions".
+5.629  Retrieve the full name of the institution where the short name is "PRES ParisTech" from a table called "institutions".
+5.629  Retrieve the name of the institution from the table "institutions" where the short name is equal to "PRES ParisTech".
+4.256  Find the name of the institution whose short name is "PRES ParisTech".
+4.252  What is the name of the institution whose short name is "PRES ParisTech"?
+4.252  Find the name of the institution where the short name is "PRES ParisTech".
+4.245  What is the full name of the institution with a short name of "PRES ParisTech"?
+

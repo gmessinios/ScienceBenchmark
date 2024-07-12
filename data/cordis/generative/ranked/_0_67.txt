@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.title = "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.title = "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"
+GPT-3 choices:
+(0) What is the research council number for the programme "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+(1) What is the RCN for the programme titled "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+(2) Find the RCN number for the programme "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation".
+(3) Find the RCN of the programme with the title "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation".
+(4) What is the research project reference number for "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+(5) Find the Research Council Number for a programme with the title "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation".
+(6) Retrieve the research project reference code from the "programmes" table for the integrated approach to advanced avionics systems for new cockpit architectures and all-conditions operation in aircraft.
+(7) What is the RCN of the programme with the title "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+
+
+Re-ranked choices:
+11.919  What is the RCN of the programme with the title "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+11.918  Find the RCN of the programme with the title "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation".
+10.518  What is the RCN for the programme titled "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+10.517  Find the RCN number for the programme "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation".
+10.517  Find the Research Council Number for a programme with the title "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation".
+9.816  Retrieve the research project reference code from the "programmes" table for the integrated approach to advanced avionics systems for new cockpit architectures and all-conditions operation in aircraft.
+9.118  What is the research project reference number for "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+9.117  What is the research council number for the programme "Integrated approach to advanced avionics systems for new cockpit architectures and aircraft all-conditions operation"?
+

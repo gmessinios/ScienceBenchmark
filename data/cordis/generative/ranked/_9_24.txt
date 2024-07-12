@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.ec_max_contribution != 276681.6
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.ec_max_contribution != 276681.6
+GPT-3 choices:
+(0) Get the code for all ERC research domains that are part of an ERC panel, which is associated with a project that has an EC max contribution different than 276681.6.
+(1) Retrieve the codes for research domains that are part of panels which have been assigned to projects with a maximum EC contribution different from 276681.6.
+(2) Find the code for ERC research domains that are associated with panels that are a part of projects where the EC max contribution is not equal to 276681.6.
+(3) Retrieve the code for research domains from the ERC Research Domains table, where it is also a part of an ERC panel that is associated with a project in the Project ERC Panels table, and that project has an EC maximum contribution different than 276681.6 in the Projects table.
+(4) Retrieve the research domain codes of all ERC panels that are part of a project with an EC max contribution that is not equal to 276681.6.
+(5) Get the code for all ERC research domains that are part of a panel, and which are associated with projects where the maximum European Commission contribution is not equal to 276681.6.
+(6) Retrieve the research domain codes from the ERC Research Domains table for projects where the maximum EC contribution is not equal to 276681.6, which are associated with panels that are part of other ERC panels in the Project ERC Panels table and linked to projects in the Projects table through their UNICS IDs.
+(7) Retrieve the code for ERC research domains that are part of a panel, which is listed in the project_erc_panels table and corresponds to a project with an EC max contribution not equal to 276681.6 in the projects table.
+
+
+Re-ranked choices:
+13.332  Retrieve the code for ERC research domains that are part of a panel, which is listed in the project_erc_panels table and corresponds to a project with an EC max contribution not equal to 276681.6 in the projects table.
+11.926  Retrieve the code for research domains from the ERC Research Domains table, where it is also a part of an ERC panel that is associated with a project in the Project ERC Panels table, and that project has an EC maximum contribution different than 276681.6 in the Projects table.
+11.225  Find the code for ERC research domains that are associated with panels that are a part of projects where the EC max contribution is not equal to 276681.6.
+11.224  Retrieve the research domain codes from the ERC Research Domains table for projects where the maximum EC contribution is not equal to 276681.6, which are associated with panels that are part of other ERC panels in the Project ERC Panels table and linked to projects in the Projects table through their UNICS IDs.
+11.222  Get the code for all ERC research domains that are part of an ERC panel, which is associated with a project that has an EC max contribution different than 276681.6.
+8.430  Retrieve the research domain codes of all ERC panels that are part of a project with an EC max contribution that is not equal to 276681.6.
+8.421  Get the code for all ERC research domains that are part of a panel, and which are associated with projects where the maximum European Commission contribution is not equal to 276681.6.
+7.025  Retrieve the codes for research domains that are part of panels which have been assigned to projects with a maximum EC contribution different from 276681.6.
+

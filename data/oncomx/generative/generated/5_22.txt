@@ -1,0 +1,16 @@
+SELECT disease_mutation.peptide_pos FROM disease_mutation AS disease_mutation    ORDER BY disease_mutation.aa_pos_uniprotkb DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.peptide_pos FROM disease_mutation AS T1    ORDER BY T1.aa_pos_uniprotkb DESC LIMIT 1
+GPT-3 choices:
+(0) What is the highest peptide position for disease mutations in the database, sorted by amino acid position in the UniprotKB?
+(1) Retrieve the highest value of the peptide position column in the disease_mutation table, sorted in descending order by the aa_pos_uniprotkb column and limited to only one result.
+(2) Get the peptide position from the disease_mutation table, sort by the aa_pos_uniprotkb column in descending order, and return only one row.
+(3) Get the peptide position from the table disease_mutation and sort it by the uniprotkb amino acid position in descending order, then return only one result.
+(4) Retrieve the last position of the peptide from the table of disease mutations, sorted by the amino acid position in UniProtKB in descending order, with a limit of one result.
+(5) Retrieve the peptide position from the disease mutation table and sort it in descending order by the amino acid position on UniProtKB, with a limit of one result.
+(6) Retrieve the peptide position from the disease mutation table, ordered by amino acid position in UniProtKB in descending order, with a limit of one result.
+(7) Get the peptide position from the disease mutation table, ordering by the amino acid position in UniprotKB in descending order and limiting to one result.

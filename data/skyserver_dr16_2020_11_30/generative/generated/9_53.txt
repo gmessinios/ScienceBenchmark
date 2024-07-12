@@ -1,0 +1,16 @@
+SELECT Photometric_objects.cmodelmag_g FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name != "SKY"
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_g FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name != "SKY"
+GPT-3 choices:
+(0) Find the g-band cmodel magnitude of all objects from the photoobj table that have a type value that is not "SKY" according to the photo_type table.
+(1) Find the g-band cmodel magnitude of objects observed in photometric data, excluding sky objects.
+(2) Retrieve the cmodel magnitude values in the g band for all photometrically observed objects, excluding any that have a type of "SKY".
+(3) Retrieve the cmodelmag_g value from Photometric_objects for all photo objects that are not classified as "SKY" in the photo_type table.
+(4) Find the g-band cmodel magnitude of objects that were observed photometrically and are not classified as "SKY" in the photoobj and photo_type tables.
+(5) Find the cmodelmag_g value from the photoobj table for all objects that have a type different from "SKY" as defined by the photo_type table.
+(6) Get the g-band cmodel magnitudes for all objects that have been photometrically observed, excluding any that are classified as "SKY".
+(7) "Retrieve the g-band cmodel magnitudes of photometric objects from the photoobj table, excluding any sky objects."

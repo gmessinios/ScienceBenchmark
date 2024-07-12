@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.title != "Robotics"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.title != "Robotics"
+GPT-3 choices:
+(0) Retrieve the description of all subject areas except "Robotics" from the table "subject_areas".
+(1) Retrieve the description from subject areas where the title is not "Robotics".
+(2) Find the descriptions for all subject areas except for "Robotics".
+(3) Retrieve the description of all subject areas except for "Robotics" from the database table "subject_areas".
+(4) Get the description of all subject areas except for "Robotics".
+(5) Retrieve the description from subject areas where the title is not "Robotics".
+(6) "Retrieve the description of all subject areas except for 'Robotics' from the table 'subject_areas'."
+(7) What are the descriptions of all subject areas except for "Robotics"?

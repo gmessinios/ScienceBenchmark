@@ -1,0 +1,26 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_trade_name = "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.test_trade_name = "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)"
+GPT-3 choices:
+(0) Retrieve the test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants) from the biomarker_fda table.
+(1) Retrieve the test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants) from the biomarker_fda table.
+(2) Retrieve the test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants) from the biomarker_fda table.
+(3) Retrieve the test submission data from the FDA for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants).
+(4) Retrieve the test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants) from the biomarker_fda database.
+(5) Retrieve the test submission from the biomarker_fda table where the test trade name is "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(6) Find the test submission from biomarker_fda where the test trade name is "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+(7) Find the FDA test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 with selected variants in its trade name.
+
+
+Re-ranked choices:
+12.626  Find the test submission from biomarker_fda where the test trade name is "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+12.622  Retrieve the test submission from the biomarker_fda table where the test trade name is "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)".
+11.228  Find the FDA test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 with selected variants in its trade name.
+10.527  Retrieve the test submission data from the FDA for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants).
+9.823  Retrieve the test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants) from the biomarker_fda table.
+9.823  Retrieve the test submission for the 23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants) from the biomarker_fda database.
+

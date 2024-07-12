@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.title = "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" and programmes.code = "ENV-3.2.4"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.title = "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" and T1.code = "ENV-3.2.4"
+GPT-3 choices:
+(0) Find the RCN of the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with a code of ENV-3.2.4 from the programmes table.
+(1) What is the reference number of the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with the code ENV-3.2.4?
+(2) What is the RCN for the programme with the title "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" and code "ENV-3.2.4"?
+(3) Find the RCN number for the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with a code of "ENV-3.2.4".
+(4) What is the reference control number for the programme "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with the code "ENV-3.2.4"?
+(5) Retrieve the RCN number from the "Programmes" table for the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with a code of "ENV-3.2.4".
+(6) Find the RCN of the programme "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with code ENV-3.2.4 in the table named "programmes".
+(7) Find the RCN number for the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with the code "ENV-3.2.4".
+
+
+Re-ranked choices:
+9.826  Find the RCN of the programme "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with code ENV-3.2.4 in the table named "programmes".
+9.825  Find the RCN of the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with a code of ENV-3.2.4 from the programmes table.
+9.819  What is the RCN for the programme with the title "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" and code "ENV-3.2.4"?
+9.815  Retrieve the RCN number from the "Programmes" table for the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with a code of "ENV-3.2.4".
+8.418  Find the RCN number for the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with the code "ENV-3.2.4".
+8.418  Find the RCN number for the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with a code of "ENV-3.2.4".
+7.018  What is the reference number of the programme titled "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with the code ENV-3.2.4?
+7.018  What is the reference control number for the programme "Highly innovative research in HIV/AIDS, malaria and tuberculosis between Indian and European partners" with the code "ENV-3.2.4"?
+

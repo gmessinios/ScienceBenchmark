@@ -1,0 +1,28 @@
+SELECT topics.rcn, count(*) FROM topics  GROUP BY topics.rcn
+
+###
+
+
+Original Query:
+SELECT topics.rcn, count(*) FROM topics  GROUP BY topics.rcn
+GPT-3 choices:
+(0) How many different region codes are there?
+(1) Show me all the institutions with a region code > RCN
+(2) How many topics are associated with the region code?
+(3) Show me the number of topics that contain the abbreviation “rcn”
+(4) How many different subject areas are there?
+(5) Retrieve the number of topics
+(6) How many different subject code are in the database?
+(7) Show me how many topics there are
+
+
+Re-ranked choices:
+4.400  Show me how many topics there are
+1.462  Show me all the institutions with a region code > RCN
+1.458  Retrieve the number of topics
+1.438  How many topics are associated with the region code?
+1.435  Show me the number of topics that contain the abbreviation “rcn”
+0.081  How many different region codes are there?
+0.068  How many different subject code are in the database?
+0.050  How many different subject areas are there?
+

@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types AS activity_types WHERE activity_types.code != "OTH"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM activity_types AS T1 WHERE T1.code != "OTH"
+GPT-3 choices:
+(0) "Retrieve the description from the activity types table where the code is not equal to 'OTH'."
+(1) What is the description of all activity types except for "OTH"?
+(2) Retrieve the description of all activity types, except for "OTH", from the activity_types table.
+(3) Retrieve the descriptions from the activity types table excluding any code that is equal to "OTH".
+(4) Show me the descriptions of all activity types except "other".
+(5) Find the description of all activity types except "OTH" from the table "activity_types".
+(6) Get the descriptions of all activity types except for "OTH" from the table "activity_types".
+(7) "Retrieve the description of all activity types, excluding those with the code 'OTH', from the table 'activity_types'."

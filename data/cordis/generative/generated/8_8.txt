@@ -1,0 +1,16 @@
+SELECT projects.principal_investigator FROM projects AS projects WHERE projects.ec_ref != "101001282"
+
+###
+
+
+Original Query:
+SELECT T1.principal_investigator FROM projects AS T1 WHERE T1.ec_ref != "101001282"
+GPT-3 choices:
+(0) Get the principal investigator of projects where the ec_ref is not equal to "101001282".
+(1) Retrieve the principal investigator from the projects table where the EC reference is not equal to "101001282".
+(2) What is the name of the principal investigator for projects that do not have an EC reference of "101001282"?
+(3) Which principal investigator is associated with projects that have an EC reference other than "101001282"?
+(4) Which principal investigator is associated with a project that does not have an EC reference number of "101001282"?
+(5) What is the name of the principal investigator for projects that do not have an ec_ref value of "101001282"?
+(6) What are the names of the principal investigators for all projects that do not have an EC reference number of "101001282"?
+(7) What is the name of the principal investigator for the project with an ec_ref value that is not equal to "101001282"?

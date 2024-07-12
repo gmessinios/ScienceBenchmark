@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.distance FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbormode != 2
+
+###
+
+
+Original Query:
+SELECT T1.distance FROM neighbors AS T1 WHERE T1.neighbormode != 2
+GPT-3 choices:
+(0) Find the distance of the nearest neighbors that have a neighbor mode other than 2.
+(1) Get the distance from the nearest neighbor objects where the neighboring mode is not equal to 2.
+(2) Find the distance of the nearest neighbor objects from the table "neighbors" where their neighbor mode is not equal to 2.
+(3) Find the distance of the nearest neighbor objects where the neighbor mode is not equal to 2.
+(4) What is the distance for each nearest neighbor object where the neighbor mode is not equal to 2?
+(5) Find the distance of the nearest neighbor objects where the neighbormode is not equal to 2 from the table "neighbors".
+(6) What is the distance of the nearest neighbor object where the neighbor mode is not equal to 2?
+(7) Find the distance of nearest neighbor objects where the neighbor mode is not equal to 2.

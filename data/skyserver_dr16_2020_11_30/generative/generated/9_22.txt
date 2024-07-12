@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.neighbortype != 0
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.neighbortype != 0
+GPT-3 choices:
+(0) Retrieve the description of the photo type for objects that have a nearest neighbor type other than zero from the photometrically_observed table.
+(1) Retrieve the description from the photometrically observed photo type for all objects that are not of type 0 according to their nearest neighbor.
+(2) "Retrieve the description of all photometrically observed objects that are neighbors to any object with a non-zero neighbor type."
+(3) Find the description of photometrically observed objects that are not listed as type 0 in the table of nearest neighbor objects.
+(4) Retrieve the description of photometrically observed objects that are not the nearest neighbors to any other type of object.
+(5) Find the description of objects that have been photometrically observed, for all objects that are not type 0 according to the neighbor type in the neighbors table.
+(6) Retrieve the descriptions of all photometrically observed objects from a list of nearest neighbor objects, where the neighbor type is not equal to zero.
+(7) Get the description of all photometrically observed objects that are not type 0 and have a neighbor.

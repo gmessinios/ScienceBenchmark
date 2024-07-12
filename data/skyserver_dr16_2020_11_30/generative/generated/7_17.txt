@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.bestobjid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.loadversion = 1017 or Spectroscopic_objects.plateid = 325385106464204800
+
+###
+
+
+Original Query:
+SELECT T1.bestobjid FROM specobj AS T1 WHERE T1.loadversion = 1017 or T1.plateid = 325385106464204800
+GPT-3 choices:
+(0) Find the best object ID from the spectroscopic objects where either the load version is 1017 or the plate ID is equal to 325385106464204800.
+(1) Find the best object identifier for spectroscopic objects with either a load version of 1017 or a plate ID of 325385106464204800.
+(2) What is the best object ID from the spectroscopic objects where the load version is 1017 or the plate ID is 325385106464204800?
+(3) Find the best object ID from the table "Spectroscopic_objects" where either the load version is 1017 or the plate ID is 325385106464204800.
+(4) Retrieve the best object identification numbers from the specobj table for spectroscopic objects with a loadversion of 1017 or a plateid of 325385106464204800.
+(5) Retrieve the best object identification numbers for spectroscopic objects from the specobj table where the load version is equal to 1017 or the plate ID is equal to 325385106464204800.
+(6) Find the best object identification numbers for all spectroscopic objects in the "specobj" table where the load version is 1017 or the plate ID is equal to 325385106464204800.
+(7) Find the bestobjid from the Spectroscopic_objects table where the loadversion is 1017 or the plateid is equal to 325385106464204800.

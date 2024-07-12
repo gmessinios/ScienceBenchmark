@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title = "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and topics.rcn = "704322"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title = "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and T1.rcn = "704322"
+GPT-3 choices:
+(0) Retrieve the code for the topic with the title "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and RCN number "704322".
+(1) Retrieve the code of the topic from the "topics" table where the title is "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and the rcn is "704322".
+(2) Get the code for the topic "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with the RCN number "704322".
+(3) Retrieve the code of the topic titled "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with an RCN number of "704322".
+(4) Get the code for the topic "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with an RCN of "704322".
+(5) Retrieve the code for the topic titled "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with RCN number 704322.
+(6) Get the code from topics where the title is "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and the rcn is "704322".
+(7) Retrieve the code for a topic with title "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and rcn "704322" from the topics table.
+
+
+Re-ranked choices:
+14.020  Get the code from topics where the title is "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and the rcn is "704322".
+14.018  Retrieve the code for a topic with title "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and rcn "704322" from the topics table.
+14.017  Retrieve the code of the topic from the "topics" table where the title is "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and the rcn is "704322".
+12.620  Retrieve the code for the topic with the title "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" and RCN number "704322".
+11.223  Get the code for the topic "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with the RCN number "704322".
+11.223  Get the code for the topic "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with an RCN of "704322".
+11.221  Retrieve the code for the topic titled "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with RCN number 704322.
+11.220  Retrieve the code of the topic titled "Validation tests of electromechanical actuators and its dedicated control units at TRL 6 level" with an RCN number of "704322".
+

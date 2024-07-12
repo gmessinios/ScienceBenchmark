@@ -1,0 +1,28 @@
+SELECT projects.start_date FROM projects AS projects    ORDER BY projects.total_cost DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.start_date FROM projects AS T1    ORDER BY T1.total_cost DESC LIMIT 1
+GPT-3 choices:
+(0) Show the start date of the project with the highest total cost, ordered by descending total cost.
+(1) Show the start date of the project with the highest total cost, sorted in descending order by total cost and limit to 1 result.
+(2) Get the start date of the project with the highest total cost.
+(3) "Get the start date from the projects table, order by total cost in descending order and limit the results to one."
+(4) Show the start date for the project with the highest total cost, sorted in descending order, limited to one result.
+(5) Get the start date of the project with the highest total cost, sorted in descending order by total cost, from the table of projects.
+(6) Find the start date of the project with the highest total cost, in ascending order.
+(7) Get the start date from the projects table, order by the total cost in descending order, and limit the result to 1 row.
+
+
+Re-ranked choices:
+7.734  Get the start date from the projects table, order by the total cost in descending order, and limit the result to 1 row.
+7.733  "Get the start date from the projects table, order by total cost in descending order and limit the results to one."
+6.329  Show the start date of the project with the highest total cost, sorted in descending order by total cost and limit to 1 result.
+4.939  Show the start date of the project with the highest total cost, ordered by descending total cost.
+4.933  Get the start date of the project with the highest total cost, sorted in descending order by total cost, from the table of projects.
+4.291  Get the start date of the project with the highest total cost.
+4.254  Find the start date of the project with the highest total cost, in ascending order.
+4.230  Show the start date for the project with the highest total cost, sorted in descending order, limited to one result.
+

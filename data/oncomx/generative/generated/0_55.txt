@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id = 17732
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id = 17732
+GPT-3 choices:
+(0) What is the unique anatomical ID of the tissue associated with the disease mutation with an ID of 17732 in the table "disease_mutation_tissue"?
+(1) What is the Uberon anatomical identifier for the tissue associated with the disease mutation with an ID of 17732?
+(2) Get the anatomical ID from the disease_mutation_tissue table where the disease_mutation_id is equal to 17732.
+(3) What is the Uberon anatomical ID associated with the disease-mutation-tissue relationship where the disease-mutation ID is equal to 17732?
+(4) What is the uberon anatomical id for the disease mutation with an id of 17732 in the disease_mutation_tissue table?
+(5) Retrieve the anatomical ID from the disease_mutation_tissue table where the disease mutation ID is equal to 17732.
+(6) Find the Uberon anatomical ID associated with a disease mutation with the ID 17732 in the disease_mutation_tissue table.
+(7) Find the anatomical ID from the disease mutation tissue table where the disease mutation ID is 17732.

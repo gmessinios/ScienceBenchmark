@@ -1,0 +1,16 @@
+SELECT Photometric_objects.cmodelmag_r FROM photoobj AS Photometric_objects WHERE Photometric_objects.dec != -17.5891895421151
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_r FROM photoobj AS T1 WHERE T1.dec != -17.5891895421151
+GPT-3 choices:
+(0) Get the r-band cmodel magnitude of all objects from the photoobj table where the declination is not equal to -17.5891895421151.
+(1) Retrieve the cmodelmag_r values from the photoobj table for Photometric_objects that have a declination not equal to -17.5891895421151.
+(2) Find the cmodelmag_r value for Photometric objects from the photoobj table, excluding any objects with a declination of -17.5891895421151.
+(3) Find the r-band model magnitude from the photoobj table for photometric objects with a declination not equal to -17.5891895421151.
+(4) What is the cmodelmag_r value for all photometric objects with a declination that is not -17.5891895421151?
+(5) What are the cmodelmag_r values from Photometric_objects for objects with a declination other than -17.5891895421151?
+(6) Retrieve the cmodel magnitude in the r band from all photometric objects except those with a declination of -17.5891895421151.
+(7) Get the cmodelmag_r values for all objects from the photoobj table where the corresponding dec value is not equal to -17.5891895421151.

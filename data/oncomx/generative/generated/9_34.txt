@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.tool FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction JOIN disease_mutation AS disease_mutation ON disease_mutation_impact_prediction.disease_mutation_id = disease_mutation.id WHERE disease_mutation.chromosome_id != "10"
+
+###
+
+
+Original Query:
+SELECT T1.tool FROM disease_mutation_impact_prediction AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.chromosome_id != "10"
+GPT-3 choices:
+(0) Which tools are used in predicting the impact of mutations on diseases, specifically for disease mutations that are not located on chromosome 10?
+(1) Retrieve the name of the tool used in predicting the impact of mutations on diseases for all disease-mutation pairs where the chromosome is not "10".
+(2) Retrieve the tool used for predicting the impact of mutations associated with diseases, excluding those located on chromosome 10.
+(3) What tools were used for predicting the impact of disease mutations on chromosomes other than chromosome 10?
+(4) Find the tools used for predicting the impact of mutations associated with diseases on chromosomes that are not chromosome 10.
+(5) What is the name of the tool used for predicting the impact of a mutation on a disease that is not located on chromosome 10?
+(6) Get the tool used for predicting the impact of mutations in diseases where the chromosome is not equal to 10.
+(7) What are the tools used for predicting the impact of mutations associated with diseases, for all disease-mutation pairs that do not have a chromosome ID of 10?

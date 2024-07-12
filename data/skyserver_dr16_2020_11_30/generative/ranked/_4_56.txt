@@ -1,0 +1,27 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 311934504467982336
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 311934504467982336
+GPT-3 choices:
+(0) How many stellar spectral line indices are there in the spplines table with a specobjid of 311934504467982336?
+(1) How many rows are there in the spplines table where the specobjid is equal to 311934504467982336?
+(2) How many spectral lines are there for the object with the ID 311934504467982336 in the "spplines" table?
+(3) How many stellar spectral lines are there in the table "spplines" where the specobjid is equal to 311934504467982336?
+(4) How many spectral lines are there in the table "Stellar_spectal_line_indices" for the specobjid 311934504467982336?
+(5) How many rows are there in the table "Stellar_spectal_line_indices" where the value in the "specobjid" column is equal to 311934504467982336?
+(6) How many rows are in the "spplines" table where the "specobjid" column equals 311934504467982336?
+(7) How many rows are there in the spplines table where the specobjid is equal to 311934504467982336?
+
+
+Re-ranked choices:
+2.848  How many spectral lines are there for the object with the ID 311934504467982336 in the "spplines" table?
+2.831  How many stellar spectral line indices are there in the spplines table with a specobjid of 311934504467982336?
+0.736  How many spectral lines are there in the table "Stellar_spectal_line_indices" for the specobjid 311934504467982336?
+0.728  How many rows are there in the table "Stellar_spectal_line_indices" where the value in the "specobjid" column is equal to 311934504467982336?
+0.044  How many rows are there in the spplines table where the specobjid is equal to 311934504467982336?
+0.042  How many rows are in the "spplines" table where the "specobjid" column equals 311934504467982336?
+0.034  How many stellar spectral lines are there in the table "spplines" where the specobjid is equal to 311934504467982336?
+

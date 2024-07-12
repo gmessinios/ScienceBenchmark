@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_level = 0
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.geocode_level = 0
+GPT-3 choices:
+(0) What is the NUTS version for all European territorial units where the geocode level is equal to 0?
+(1) Get the NUTS version from the EU territorial units table where the geocode level is equal to 0.
+(2) What is the NUTS version for all EU territorial units at geocode level 0?
+(3) Retrieve the version of NUTS (Nomenclature of Territorial Units for Statistics) from the table "eu_territorial_units" where the geocode level is equal to 0.
+(4) What is the NUTS version of the top-level geographic unit in the EU Territorial Units table?
+(5) Get the nuts version from the EU territorial units table where geocode level is equal to 0.
+(6) Find the NUTS version for all territorial units with a geocode level of 0 in the EU.
+(7) What is the NUTS version of all EU territorial units with a geocode level of 0?
+
+
+Re-ranked choices:
+9.847  What is the NUTS version for all EU territorial units at geocode level 0?
+9.842  What is the NUTS version of all EU territorial units with a geocode level of 0?
+9.839  Get the nuts version from the EU territorial units table where geocode level is equal to 0.
+9.837  Get the NUTS version from the EU territorial units table where the geocode level is equal to 0.
+8.439  Find the NUTS version for all territorial units with a geocode level of 0 in the EU.
+8.437  What is the NUTS version for all European territorial units where the geocode level is equal to 0?
+8.419  Retrieve the version of NUTS (Nomenclature of Territorial Units for Statistics) from the table "eu_territorial_units" where the geocode level is equal to 0.
+7.032  What is the NUTS version of the top-level geographic unit in the EU Territorial Units table?
+

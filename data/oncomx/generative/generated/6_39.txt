@@ -1,0 +1,16 @@
+SELECT species.genus FROM species AS species WHERE species.speciescommonname = "mouse" and species.speciesid = 10090
+
+###
+
+
+Original Query:
+SELECT T1.genus FROM species AS T1 WHERE T1.speciescommonname = "mouse" and T1.speciesid = 10090
+GPT-3 choices:
+(0) What is the genus of the species with a common name of "mouse" and a species ID of 10090 in the table "species"?
+(1) What is the genus of the species with a common name of "mouse" and a species ID of 10090 in the "species" table?
+(2) Get the genus of the species where its common name is "mouse" and its species ID is 10090.
+(3) "Retrieve the genus of the species with a common name of 'mouse' and a species ID of 10090 from the 'species' table."
+(4) Retrieve the genus name of a species with the common name "mouse" and a species ID of 10090 from the table "species".
+(5) What is the genus of the species with the common name "mouse" and a species ID of 10090?
+(6) What is the genus of the species with a common name of "mouse" and a species ID of 10090?
+(7) "Get the genus of a species with the common name 'mouse' and the ID 10090 from the table 'species'."

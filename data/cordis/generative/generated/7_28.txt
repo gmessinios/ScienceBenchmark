@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code = "ENERGY-2007-8.1-02" or topics.title = "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code = "ENERGY-2007-8.1-02" or T1.title = "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries"
+GPT-3 choices:
+(0) Find the RCN for a topic with the code "ENERGY-2007-8.1-02" or title "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries".
+(1) Retrieve the RCN of topics from the table "topics" where the code is "ENERGY-2007-8.1-02" or the title is "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries".
+(2) Find the RCN code from the topics table where either the code is "ENERGY-2007-8.1-02" or the title is "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries".
+(3) Retrieve the Research Council Number for the topic "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries" or with code "ENERGY-2007-8.1-02" from the Topics table.
+(4) Find the RCN value for the topic with the code "ENERGY-2007-8.1-02" or title "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries".
+(5) Retrieve the RCN for the topic with code "ENERGY-2007-8.1-02" or title "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries" from the Topics table.
+(6) Find the RCN for topics that have a code of "ENERGY-2007-8.1-02" or a title of "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries".
+(7) Retrieve the RCN of the topic with code "ENERGY-2007-8.1-02" or title "Resolve logistical, infrastructural and technological challenges to valorise residual and side streams from aquaculture, fisheries and the aquatic biomass processing industries".

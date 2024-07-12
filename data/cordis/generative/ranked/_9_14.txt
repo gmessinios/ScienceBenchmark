@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.principal_investigator != 1214960
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.principal_investigator != 1214960
+GPT-3 choices:
+(0) What are the RCNs of topics for projects where the principal investigator is not 1214960?
+(1) Retrieve the research topic code from the topics table for all projects that have a principal investigator who is not assigned to person ID 1214960.
+(2) What are the research council numbers for topics that are associated with projects where the principal investigator is not 1214960?
+(3) "Retrieve the research council number for topics that have been assigned to projects where the principal investigator is not equal to 1214960."
+(4) Find the topic RCN for all projects where the principal investigator is not 1214960 and the topic code matches a project's topic.
+(5) Retrieve the research code numbers for topics that are associated with projects led by a principal investigator who is not identified as user 1214960.
+(6) Find the research topic codes for projects that have a project topic code and are associated with a principal investigator who is not 1214960.
+(7) Retrieve the Research Council Number of topics that are associated with projects where the principal investigator is not equal to 1214960.
+
+
+Re-ranked choices:
+9.128  Find the topic RCN for all projects where the principal investigator is not 1214960 and the topic code matches a project's topic.
+9.125  Retrieve the research topic code from the topics table for all projects that have a principal investigator who is not assigned to person ID 1214960.
+7.726  Find the research topic codes for projects that have a project topic code and are associated with a principal investigator who is not 1214960.
+7.022  Retrieve the research code numbers for topics that are associated with projects led by a principal investigator who is not identified as user 1214960.
+5.637  What are the RCNs of topics for projects where the principal investigator is not 1214960?
+5.628  "Retrieve the research council number for topics that have been assigned to projects where the principal investigator is not equal to 1214960."
+5.624  What are the research council numbers for topics that are associated with projects where the principal investigator is not 1214960?
+5.624  Retrieve the Research Council Number of topics that are associated with projects where the principal investigator is not equal to 1214960.
+

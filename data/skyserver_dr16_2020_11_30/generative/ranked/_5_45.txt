@@ -1,0 +1,28 @@
+SELECT Photometric_objects.dec FROM photoobj AS Photometric_objects    ORDER BY Photometric_objects.z DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM photoobj AS T1    ORDER BY T1.z DESC LIMIT 1
+GPT-3 choices:
+(0) Get the declination value of the photometric object with the highest redshift from the photoobj table, in descending order.
+(1) Retrieve the declination of the object with the highest redshift from the photoobj table, ordered by redshift in descending order, limited to one result.
+(2) Find the declination of the photometric object with the highest redshift from the photoobj table, in descending order, limited to only one result.
+(3) "Get the declination values of the photometric objects from the photoobj table, ordered by their redshift in descending order, and limit the results to one object."
+(4) Retrieve the declination value from the photoobj table for photometric objects, ordered by redshift in descending order, limited to one result.
+(5) Find the declination of the photometric object with the highest redshift from the photoobj table, sorted in descending order by redshift, and limit to only one result.
+(6) Find the declination value for the object with the highest redshift from the photoobj table, ordered in descending order by redshift and limiting the results to one.
+(7) Get the declination of the object with the highest redshift from the photoobj table, sorted in descending order by redshift, and limit the results to one.
+
+
+Re-ranked choices:
+4.919  "Get the declination values of the photometric objects from the photoobj table, ordered by their redshift in descending order, and limit the results to one object."
+3.521  Get the declination of the object with the highest redshift from the photoobj table, sorted in descending order by redshift, and limit the results to one.
+3.520  Retrieve the declination of the object with the highest redshift from the photoobj table, ordered by redshift in descending order, limited to one result.
+3.520  Find the declination value for the object with the highest redshift from the photoobj table, ordered in descending order by redshift and limiting the results to one.
+3.519  Retrieve the declination value from the photoobj table for photometric objects, ordered by redshift in descending order, limited to one result.
+3.519  Find the declination of the photometric object with the highest redshift from the photoobj table, sorted in descending order by redshift, and limit to only one result.
+2.821  Get the declination value of the photometric object with the highest redshift from the photoobj table, in descending order.
+2.819  Find the declination of the photometric object with the highest redshift from the photoobj table, in descending order, limited to only one result.
+

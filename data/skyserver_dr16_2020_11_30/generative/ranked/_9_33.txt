@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.plate FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid != 300784352017541120
+
+###
+
+
+Original Query:
+SELECT T1.plate FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid != 300784352017541120
+GPT-3 choices:
+(0) Find the plate number of all spectroscopic objects that have an emission line estimate, except for the one with specobjid 300784352017541120.
+(1) What is the plate number of all spectroscopic objects that have a specobjid different from 300784352017541120 in the table Emission_line_estimates?
+(2) Retrieve the plate number of all spectroscopic objects from the tables "specobj" and "galspecline" where the specobjid does not equal 300784352017541120.
+(3) Find the plate numbers from the Spectroscopic_objects table where the specobjid is not equal to 300784352017541120 in the Emission_line_estimates table.
+(4) Find the plate numbers for all spectroscopic objects that have an emission line estimate, except for the object with a specobjid of 300784352017541120.
+(5) Get the plate number for all spectroscopic objects from the "specobj" table and join it with the "galspecline" table on matching specobjid, but exclude a specific value, and then return only those plate numbers.
+(6) Find the plate number for all spectroscopic objects where the specobjid is not equal to 300784352017541120 and there exists an emission line estimate with that same specobjid in the galspecline table.
+(7) Find the plate number of all spectroscopic objects from the table "specobj" where the specobjid is not equal to 300784352017541120 in the table "galspecline" and join them together based on their matching specobjid.
+
+
+Re-ranked choices:
+7.027  Find the plate number of all spectroscopic objects that have an emission line estimate, except for the one with specobjid 300784352017541120.
+7.025  Find the plate numbers for all spectroscopic objects that have an emission line estimate, except for the object with a specobjid of 300784352017541120.
+7.019  Find the plate number for all spectroscopic objects where the specobjid is not equal to 300784352017541120 and there exists an emission line estimate with that same specobjid in the galspecline table.
+6.317  Find the plate number of all spectroscopic objects from the table "specobj" where the specobjid is not equal to 300784352017541120 in the table "galspecline" and join them together based on their matching specobjid.
+6.316  Get the plate number for all spectroscopic objects from the "specobj" table and join it with the "galspecline" table on matching specobjid, but exclude a specific value, and then return only those plate numbers.
+5.625  Retrieve the plate number of all spectroscopic objects from the tables "specobj" and "galspecline" where the specobjid does not equal 300784352017541120.
+5.623  What is the plate number of all spectroscopic objects that have a specobjid different from 300784352017541120 in the table Emission_line_estimates?
+2.825  Find the plate numbers from the Spectroscopic_objects table where the specobjid is not equal to 300784352017541120 in the Emission_line_estimates table.
+

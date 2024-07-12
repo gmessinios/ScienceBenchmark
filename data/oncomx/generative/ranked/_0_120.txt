@@ -1,0 +1,28 @@
+SELECT biomarker_fda.id FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_submission = "P140020"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda AS T1 WHERE T1.test_submission = "P140020"
+GPT-3 choices:
+(0) Retrieve the id from the biomarker_fda table where test_submission is equal to "P140020".
+(1) Find the ID from the FDA biomarker table where the test submission is equal to "P140020".
+(2) "Retrieve the ID of biomarkers from the FDA database where the test submission is labeled as P140020."
+(3) What is the ID of the biomarker FDA test submission with the code "P140020"?
+(4) "Find the ID of the biomarker in FDA's database that corresponds to test submission number P140020."
+(5) What is the ID of the biomarker associated with test submission number P140020 in the FDA database?
+(6) Find the ID of the biomarker from FDA that has a test submission of "P140020".
+(7) Find the ID of biomarkers from the FDA database that have a test submission number of "P140020".
+
+
+Re-ranked choices:
+7.775  What is the ID of the biomarker FDA test submission with the code "P140020"?
+7.768  Find the ID of the biomarker from FDA that has a test submission of "P140020".
+7.750  Find the ID from the FDA biomarker table where the test submission is equal to "P140020".
+7.734  What is the ID of the biomarker associated with test submission number P140020 in the FDA database?
+7.042  "Find the ID of the biomarker in FDA's database that corresponds to test submission number P140020."
+6.347  Find the ID of biomarkers from the FDA database that have a test submission number of "P140020".
+5.639  "Retrieve the ID of biomarkers from the FDA database where the test submission is labeled as P140020."
+2.133  Retrieve the id from the biomarker_fda table where test_submission is equal to "P140020".
+

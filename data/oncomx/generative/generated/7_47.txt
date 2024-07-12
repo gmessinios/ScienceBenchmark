@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.ensembl_gene_id FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.speciesid = 10090 or xref_gene_ensembl.gene_symbol = "1810058I24Rik"
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id FROM xref_gene_ensembl AS T1 WHERE T1.speciesid = 10090 or T1.gene_symbol = "1810058I24Rik"
+GPT-3 choices:
+(0) Find the Ensembl gene ID for the species with ID 10090 or for genes with the symbol "1810058I24Rik" in the xref_gene_ensembl table.
+(1) Get the Ensembl gene ID for the gene symbol "1810058I24Rik" or the species with an ID of 10090 from the xref_gene_ensembl table.
+(2) Retrieve the Ensembl gene ID for the gene "1810058I24Rik" from the xref_gene_ensembl table for either species with ID 10090.
+(3) Find the Ensembl gene ID for the species with ID 10090 or for the gene with symbol "1810058I24Rik" in the xref_gene_ensembl table.
+(4) Retrieve the Ensembl gene ID for the gene symbol "1810058I24Rik" from the table xref_gene_ensembl, where the species ID is equal to 10090 or the gene symbol matches "1810058I24Rik".
+(5) Retrieve the Ensembl gene ID for the gene "1810058I24Rik" from the xref_gene_ensembl table where the species ID is 10090 or the gene symbol is "1810058I24Rik".
+(6) Retrieve the Ensembl gene ID for the gene "1810058I24Rik" from the xref_gene_ensembl table where the species ID is equal to 10090 or the gene symbol is equal to "1810058I24Rik".
+(7) Find the Ensembl gene ID for the gene symbol "1810058I24Rik" in either speciesid 10090.

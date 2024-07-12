@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_trade_name, count(*) FROM biomarker_fda_test_trial AS biomarker_fda_test_trial  GROUP BY biomarker_fda_test_trial.test_trade_name
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name, count(*) FROM biomarker_fda_test_trial AS T1  GROUP BY T1.test_trade_name
+GPT-3 choices:
+(0) What is the count of test_trade_name in the biomarker_fda_test_trial table, grouped by each individual test_trade_name?
+(1) Count the number of times each test trade name appears in the biomarker_fda_test_trial table.
+(2) Find the number of instances for each unique test trade name in the biomarker_fda_test_trial table.
+(3) "Find the count of each unique test trade name in the biomarker_fda_test_trial table and group the results by test trade name."
+(4) Find the number of times each test trade name appears in the biomarker_fda_test_trial table.
+(5) "Find the number of occurrences of each test trade name in the biomarker_fda_test_trial table."
+(6) How many biomarker FDA test trials are there for each test trade name?
+(7) Find the number of biomarker FDA test trials grouped by their respective test trade names.

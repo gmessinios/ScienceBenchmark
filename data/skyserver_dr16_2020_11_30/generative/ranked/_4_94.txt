@@ -1,0 +1,28 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.segue2_target1 = -2147483615
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.segue2_target1 = -2147483615
+GPT-3 choices:
+(0) How many spectroscopic objects are there in the "specobj" table where the "segue2_target1" column has a value of -2147483615?
+(1) Count the number of Spectroscopic objects where the segue2_target1 value is equal to -2147483615.
+(2) How many Spectroscopic objects have a segue2_target1 value of -2147483615 in the specobj table?
+(3) How many spectroscopic objects are there in the Spectroscopic_objects table where segue2_target1 is equal to -2147483615?
+(4) How many spectroscopic objects have a target of -2147483615 in the segue2_target1 field?
+(5) How many Spectroscopic objects have a segue2_target1 value of -2147483615?
+(6) How many spectroscopic objects have a segue2_target1 value of -2147483615 in the SpecObj table?
+(7) How many Spectroscopic objects have the segue2_target1 value equal to -2147483615?
+
+
+Re-ranked choices:
+2.128  How many spectroscopic objects are there in the Spectroscopic_objects table where segue2_target1 is equal to -2147483615?
+1.442  How many spectroscopic objects have a target of -2147483615 in the segue2_target1 field?
+1.439  How many Spectroscopic objects have the segue2_target1 value equal to -2147483615?
+1.436  How many Spectroscopic objects have a segue2_target1 value of -2147483615?
+1.434  Count the number of Spectroscopic objects where the segue2_target1 value is equal to -2147483615.
+1.431  How many Spectroscopic objects have a segue2_target1 value of -2147483615 in the specobj table?
+1.431  How many spectroscopic objects have a segue2_target1 value of -2147483615 in the SpecObj table?
+1.429  How many spectroscopic objects are there in the "specobj" table where the "segue2_target1" column has a value of -2147483615?
+

@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_ac = "B7ZAP0"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_ac = "B7ZAP0"
+GPT-3 choices:
+(0) What is the canonical UniProtKB accession ID for the UniProtKB accession ID "B7ZAP0" according to the mapping in the table "map_uniprot_canonical_id"?
+(1) Retrieve the uniprot canonical ID from the map_uniprot_canonical_id table where the uniprot AC is "B7ZAP0".
+(2) What is the Uniprot canonical accession number for the protein with Uniprot accession number "B7ZAP0"?
+(3) Retrieve the uniprot_canonical_ac from map_uniprot_canonical_id where the uniprotkb_ac is equal to "B7ZAP0".
+(4) Retrieve the UniProtKB canonical AC for the UniProtKB AC "B7ZAP0" from the map_uniprot_canonical_id table.
+(5) Retrieve the UniprotKB canonical accession number from the map_uniprot_canonical_id table where the UniprotKB accession number is equal to "B7ZAP0".
+(6) What is the canonical UniProtKB ID for the UniProtKB AC "B7ZAP0"?
+(7) What is the uniprot_canonical_ac from map_uniprot_canonical_id where the uniprotkb_ac is "B7ZAP0"?
+
+
+Re-ranked choices:
+6.336  What is the canonical UniProtKB ID for the UniProtKB AC "B7ZAP0"?
+6.323  Retrieve the uniprot canonical ID from the map_uniprot_canonical_id table where the uniprot AC is "B7ZAP0".
+4.920  Retrieve the UniProtKB canonical AC for the UniProtKB AC "B7ZAP0" from the map_uniprot_canonical_id table.
+4.917  What is the canonical UniProtKB accession ID for the UniProtKB accession ID "B7ZAP0" according to the mapping in the table "map_uniprot_canonical_id"?
+3.524  What is the Uniprot canonical accession number for the protein with Uniprot accession number "B7ZAP0"?
+3.517  Retrieve the UniprotKB canonical accession number from the map_uniprot_canonical_id table where the UniprotKB accession number is equal to "B7ZAP0".
+0.718  What is the uniprot_canonical_ac from map_uniprot_canonical_id where the uniprotkb_ac is "B7ZAP0"?
+0.718  Retrieve the uniprot_canonical_ac from map_uniprot_canonical_id where the uniprotkb_ac is equal to "B7ZAP0".
+

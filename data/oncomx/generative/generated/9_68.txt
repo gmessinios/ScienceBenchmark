@@ -1,0 +1,16 @@
+SELECT biomarker.biomarker_description FROM biomarker AS biomarker JOIN biomarker_alias AS biomarker_alias ON biomarker.id = biomarker_alias.biomarker_internal_id WHERE biomarker_alias.alias != "acylcholine acylhydrolase"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_description FROM biomarker AS T1 JOIN biomarker_alias AS T2 ON T1.id = T2.biomarker_internal_id WHERE T2.alias != "acylcholine acylhydrolase"
+GPT-3 choices:
+(0) Find the description of biomarkers that have aliases other than "acylcholine acylhydrolase".
+(1) What is the description of the biomarker that is associated with an alias other than "acylcholine acylhydrolase"?
+(2) What is the description of the biomarker that has an alias other than "acylcholine acylhydrolase"?
+(3) "Retrieve the biomarker description from the biomarker table where the alias is not equal to "acylcholine acylhydrolase" in the biomarker_alias table."
+(4) Get the biomarker description from the table biomarker where the alias is not "acylcholine acylhydrolase" and join it with the table biomarker_alias using their respective IDs.
+(5) What is the biomarker description for all biomarkers where the alias is not "acylcholine acylhydrolase"?
+(6) Retrieve the description of all biomarkers, excluding those with the alias "acylcholine acylhydrolase".
+(7) Retrieve the description of all biomarkers that have an alias other than "acylcholine acylhydrolase".

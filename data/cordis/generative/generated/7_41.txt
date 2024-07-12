@@ -1,0 +1,16 @@
+SELECT project_members.postal_code FROM project_members AS project_members WHERE project_members.institution_id = 195585 or project_members.member_name = "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD"
+
+###
+
+
+Original Query:
+SELECT T1.postal_code FROM project_members AS T1 WHERE T1.institution_id = 195585 or T1.member_name = "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD"
+GPT-3 choices:
+(0) Retrieve the postal code of all project members from the institution with an ID of 195585 or with the name "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD".
+(1) Retrieve the postal code for all project members who belong to the institution with an ID of 195585 or have a member name of "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD".
+(2) Find the postal code for project members who are either part of institution 195585 or are named "Sustainable Ireland Co-Operative Society Ltd".
+(3) What is the postal code of project members from the Sustainable Ireland Co-operative Society Ltd or those who belong to institution ID 195585?
+(4) What is the postal code of project members who are either affiliated with institution ID 195585 or are members of "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD"?
+(5) Retrieve the postal code for the project member with an institution ID of 195585 or a member name of "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD".
+(6) Retrieve the postal code of all members in the project_members table where their institution_id is equal to 195585 or their member_name is "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD".
+(7) Retrieve the postal code of all members who belong to the institution with an ID of 195585 or whose member name is "SUSTAINABLE IRELAND CO-OPERATIVE SOCIETY LTD" from the project_members table.

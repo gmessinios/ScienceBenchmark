@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_article AS disease_mutation_article
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_article AS T1
+GPT-3 choices:
+(0) How many disease-mutation articles are there?
+(1) How many articles are there in the "disease_mutation_article" table?
+(2) How many rows are in the table "disease_mutation_article"?
+(3) How many rows are in the table disease_mutation_article?
+(4) How many records are there in the table disease_mutation_article for each combination of disease and mutation?
+(5) How many rows are there in the table "disease_mutation_article" where a disease and mutation are mentioned in an article?
+(6) How many rows are in the disease_mutation_article table?
+(7) "How many rows are in the table 'disease_mutation_article'?"

@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_fda_id = "FDA000121"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_fda_id = "FDA000121"
+GPT-3 choices:
+(0) How many rows are there in the biomarker_fda_drug table where the biomarker_fda_id is "FDA000121"?
+(1) How many biomarker-fda-drug pairs have a biomarker fda id of "FDA000121"?
+(2) How many biomarker-fda-drug relationships are there where the biomarker-fda-id is "FDA000121"?
+(3) How many entries are there in the biomarker_fda_drug table where the biomarker_fda_id is "FDA000121"?
+(4) How many biomarker-fda-drug entries are there in the database with the FDA ID "FDA000121"?
+(5) How many biomarker-fda-drug pairs are there with a biomarker fda id of "FDA000121"?
+(6) How many biomarker-fda-drug relationships are there in which the biomarker has an fda id of "FDA000121"?
+(7) How many biomarker-fda-drug relationships are associated with the FDA biomarker ID "FDA000121"?
+
+
+Re-ranked choices:
+4.945  How many biomarker-fda-drug pairs are there with a biomarker fda id of "FDA000121"?
+4.943  How many biomarker-fda-drug pairs have a biomarker fda id of "FDA000121"?
+4.927  How many biomarker-fda-drug relationships are there in which the biomarker has an fda id of "FDA000121"?
+4.927  How many biomarker-fda-drug relationships are associated with the FDA biomarker ID "FDA000121"?
+3.548  How many biomarker-fda-drug entries are there in the database with the FDA ID "FDA000121"?
+0.736  How many rows are there in the biomarker_fda_drug table where the biomarker_fda_id is "FDA000121"?
+0.731  How many biomarker-fda-drug relationships are there where the biomarker-fda-id is "FDA000121"?
+0.731  How many entries are there in the biomarker_fda_drug table where the biomarker_fda_id is "FDA000121"?
+

@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation AS disease_mutation WHERE disease_mutation.ensembl_transcript_id = "ENST00000226432"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation AS T1 WHERE T1.ensembl_transcript_id = "ENST00000226432"
+GPT-3 choices:
+(0) How many disease-mutation records are associated with the ensembl transcript ID "ENST00000226432"?
+(1) How many mutations are there for the disease associated with the ENST00000226432 transcript?
+(2) How many rows are there in the disease_mutation table where the ensembl_transcript_id column is equal to "ENST00000226432"?
+(3) How many rows are there in the disease_mutation table where the ensembl_transcript_id column is equal to "ENST00000226432"?
+(4) How many records are there in the disease_mutation table where the ensembl_transcript_id is "ENST00000226432"?
+(5) How many disease-mutation entries are there for the ensembl transcript ID "ENST00000226432"?
+(6) How many rows are in the table "disease_mutation" where the value in the column "ensembl_transcript_id" is equal to "ENST00000226432"?
+(7) How many disease-mutation records have an ensembl transcript ID of "ENST00000226432"?

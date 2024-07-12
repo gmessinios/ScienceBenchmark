@@ -1,0 +1,27 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'TR904'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'TR904'
+GPT-3 choices:
+(0) How many territorial units are in TR904?
+(1) 
+(2) How many territorial units are there in TR904?
+(3) Retrieve the number of territorial units in TR904
+(4) How many eu_territorial_units are inside the region TR904 ?
+(5) How many distinct territorial units are there in the region TR904?
+(6) Count the number of territorial unit geocode regions in region TR904.
+(7) Show me the total number of eu territorial units within region TR904
+
+
+Re-ranked choices:
+4.929  Show me the total number of eu territorial units within region TR904
+4.239  Count the number of territorial unit geocode regions in region TR904.
+3.534  Retrieve the number of territorial units in TR904
+2.858  How many territorial units are there in TR904?
+2.850  How many territorial units are in TR904?
+2.847  How many distinct territorial units are there in the region TR904?
+0.725  How many eu_territorial_units are inside the region TR904 ?
+

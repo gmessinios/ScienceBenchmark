@@ -1,0 +1,27 @@
+SELECT count(*) FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.uberon_anatomical_id = "UBERON:0002113"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM cancer_tissue AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0002113"
+GPT-3 choices:
+(0) How many cancer tissues are there in the dataset with the anatomical ID "UBERON:0002113"?
+(1) How many rows are in the cancer_tissue table where the uberon_anatomical_id column is equal to "UBERON:0002113"?
+(2) How many rows are in the cancer_tissue table where the uberon_anatomical_id column is equal to "UBERON:0002113"?
+(3) How many records are in the cancer_tissue table that have the uberon_anatomical_id of "UBERON:0002113"?
+(4) How many records are in the cancer_tissue table where the uberon_anatomical_id column equals "UBERON:0002113"?
+(5) How many entries are there in the cancer_tissue table where the uberon_anatomical_id column has a value of "UBERON:0002113"?
+(6) How many records are there in the cancer_tissue table where the anatomical ID is "UBERON:0002113"?
+(7) How many records are in the cancer tissue table that have an Uberon anatomical ID of "UBERON:0002113"?
+
+
+Re-ranked choices:
+7.736  How many records are in the cancer tissue table that have an Uberon anatomical ID of "UBERON:0002113"?
+4.948  How many cancer tissues are there in the dataset with the anatomical ID "UBERON:0002113"?
+3.545  How many records are there in the cancer_tissue table where the anatomical ID is "UBERON:0002113"?
+0.736  How many records are in the cancer_tissue table that have the uberon_anatomical_id of "UBERON:0002113"?
+0.736  How many records are in the cancer_tissue table where the uberon_anatomical_id column equals "UBERON:0002113"?
+0.733  How many rows are in the cancer_tissue table where the uberon_anatomical_id column is equal to "UBERON:0002113"?
+0.730  How many entries are there in the cancer_tissue table where the uberon_anatomical_id column has a value of "UBERON:0002113"?
+

@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions = "EL251" or eu_territorial_units.geocode_level = 2
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 WHERE T1.geocode_regions = "EL251" or T1.geocode_level = 2
+GPT-3 choices:
+(0) Retrieve the description of all EU territorial units where the geocode_regions is "EL251" or the geocode_level is 2.
+(1) Retrieve the description of a territorial unit from the table "eu_territorial_units" where either its geocode_regions equals "EL251" or its geocode_level is equal to 2.
+(2) "Retrieve the description from the EU territorial units table for the region with geocode_regions "EL251" or a geocode_level of 2."
+(3) What is the description of the EU territorial unit that has a geocode region of "EL251" or a geocode level of 2?
+(4) What is the description of the territorial unit in the European Union with geocode regions equal to "EL251" or geocode level equal to 2?
+(5) Retrieve the description of a territorial unit with geocode_regions "EL251" or geocode_level 2 from the table eu_territorial_units.
+(6) Get the description of the European territorial unit with a geocode of "EL251" or a geocode level of 2.
+(7) Retrieve the description of EU territorial units where the geocode_regions is "EL251" or the geocode_level is 2.
+
+
+Re-ranked choices:
+7.732  What is the description of the EU territorial unit that has a geocode region of "EL251" or a geocode level of 2?
+7.729  What is the description of the territorial unit in the European Union with geocode regions equal to "EL251" or geocode level equal to 2?
+6.334  Retrieve the description of EU territorial units where the geocode_regions is "EL251" or the geocode_level is 2.
+6.333  Retrieve the description of all EU territorial units where the geocode_regions is "EL251" or the geocode_level is 2.
+6.332  Get the description of the European territorial unit with a geocode of "EL251" or a geocode level of 2.
+6.325  "Retrieve the description from the EU territorial units table for the region with geocode_regions "EL251" or a geocode_level of 2."
+3.521  Retrieve the description of a territorial unit with geocode_regions "EL251" or geocode_level 2 from the table eu_territorial_units.
+3.520  Retrieve the description of a territorial unit from the table "eu_territorial_units" where either its geocode_regions equals "EL251" or its geocode_level is equal to 2.
+

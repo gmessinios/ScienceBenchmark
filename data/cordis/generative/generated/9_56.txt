@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.acronym != "GEOCLIME"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.acronym != "GEOCLIME"
+GPT-3 choices:
+(0) What are the research code numbers for topics that are related to projects with an acronym other than "GEOCLIME"?
+(1) Find the RCN number of all topics that are associated with projects (excluding the project with acronym "GEOCLIME") through the code in project_topics.
+(2) Get the research code numbers (rcn) for topics that are associated with projects, where the project's acronym is not "GEOCLIME".
+(3) Retrieve the research topic codes for all projects, except "GEOCLIME", by joining the tables topics, project_topics, and projects on their corresponding columns.
+(4) "Retrieve the research topic codes for all projects, excluding those with the acronym 'GEOCLIME', that are associated with a specific research topic."
+(5) Retrieve the research topic code from the topics table for projects that are not affiliated with "GEOCLIME" by joining the topics, project_topics, and projects tables.
+(6) Retrieve the research topic codes for all projects, excluding "GEOCLIME", by joining the tables topics, project_topics, and projects and selecting the topic codes from topics that are connected to the project through project_topics.
+(7) Find the research council number (rcn) for topics that have been assigned to projects with acronyms other than "GEOCLIME".

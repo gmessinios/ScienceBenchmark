@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description != "Coordinator"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description != "Coordinator"
+GPT-3 choices:
+(0) Get the codes for all project member roles that are not "Coordinator".
+(1) Find the codes for all project member roles except for "Coordinator" in the table named "project_member_roles".
+(2) Select the code of all project member roles from the table "project_member_roles" where the description is not equal to "Coordinator".
+(3) Retrieve the code for all project member roles from the table "project_member_roles" where the description is not "Coordinator".
+(4) Find the code for all project member roles except for "Coordinator".
+(5) Select the code of project member roles from the table "project_member_roles" where the description is not "Coordinator".
+(6) Find the code for all project member roles where the description is not "Coordinator".
+(7) Retrieve the code of all project member roles that are not "Coordinator".

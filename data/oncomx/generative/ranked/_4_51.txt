@@ -1,0 +1,28 @@
+SELECT count(*) FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.uniprotkb_ac = "F2Z2N8"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_protein_disease_mutation AS T1 WHERE T1.uniprotkb_ac = "F2Z2N8"
+GPT-3 choices:
+(0) Count the number of rows in the "map_protein_disease_mutation" table where the uniprotkb_ac column is equal to "F2Z2N8".
+(1) How many rows are in the table "map_protein_disease_mutation" where the uniprotkb_ac column is equal to "F2Z2N8"?
+(2) How many rows are in the "map_protein_disease_mutation" table where the "uniprotkb_ac" column has a value of "F2Z2N8"?
+(3) How many records are there in the map_protein_disease_mutation table where the uniprotkb_ac is "F2Z2N8"?
+(4) How many records are in the map_protein_disease_mutation table where the uniprotkb_ac column is equal to "F2Z2N8"?
+(5) How many protein-disease-mutation mappings exist for the UniProtKB accession code F2Z2N8?
+(6) How many records are there in the map_protein_disease_mutation table where the uniprotkb_ac column is equal to "F2Z2N8"?
+(7) How many rows are in the table map_protein_disease_mutation where the value of uniprotkb_ac is "F2Z2N8"?
+
+
+Re-ranked choices:
+1.425  How many protein-disease-mutation mappings exist for the UniProtKB accession code F2Z2N8?
+0.731  How many records are there in the map_protein_disease_mutation table where the uniprotkb_ac column is equal to "F2Z2N8"?
+0.731  How many records are there in the map_protein_disease_mutation table where the uniprotkb_ac is "F2Z2N8"?
+0.730  How many rows are in the table map_protein_disease_mutation where the value of uniprotkb_ac is "F2Z2N8"?
+0.729  How many rows are in the table "map_protein_disease_mutation" where the uniprotkb_ac column is equal to "F2Z2N8"?
+0.729  How many records are in the map_protein_disease_mutation table where the uniprotkb_ac column is equal to "F2Z2N8"?
+0.728  Count the number of rows in the "map_protein_disease_mutation" table where the uniprotkb_ac column is equal to "F2Z2N8".
+0.728  How many rows are in the "map_protein_disease_mutation" table where the "uniprotkb_ac" column has a value of "F2Z2N8"?
+

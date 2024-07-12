@@ -1,0 +1,16 @@
+SELECT biomarker.biomarker_description FROM biomarker AS biomarker JOIN biomarker_fda AS biomarker_fda ON biomarker.id = biomarker_fda.id WHERE biomarker_fda.test_trade_name != "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_description FROM biomarker AS T1 JOIN biomarker_fda AS T2 ON T1.id = T2.id WHERE T2.test_trade_name != "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY"
+GPT-3 choices:
+(0) What is the description of all biomarkers that are associated with a test trade name other than "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(1) Find the description of the biomarker from the biomarker table where the test trade name is not "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY" in the biomarker_fda table.
+(2) What is the description of all biomarkers whose trade name is not "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(3) What is the description of the biomarker that does not have a test trade name of "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(4) What is the description of the biomarker that does not have a test trade name of "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY" in the FDA biomarker table?
+(5) What is the description of the biomarker that does not have a test trade name of "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(6) Get the description of all biomarkers from the FDA biomarker table where the test trade name is not "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY".
+(7) What is the description of biomarkers that have been approved by the FDA and do not have the test trade name "VENTANA ANTI-MLH-1(M1) MOUSE MONOCLONAL PRIMARY ANTIBODY"?

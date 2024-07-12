@@ -1,0 +1,27 @@
+SELECT projects.framework_program FROM projects AS projects WHERE projects.acronym = "TRACKDEV"
+
+###
+
+
+Original Query:
+SELECT T1.framework_program FROM projects AS T1 WHERE T1.acronym = "TRACKDEV"
+GPT-3 choices:
+(0) Retrieve the framework program used for the project with the acronym "TRACKDEV".
+(1) Retrieve the name of the framework program used in the project with acronym "TRACKDEV".
+(2) What is the framework program for the project with acronym "TRACKDEV"?
+(3) Retrieve the framework program associated with the project that has an acronym of "TRACKDEV".
+(4) Retrieve the framework program for a project with the acronym "TRACKDEV" from the projects table.
+(5) What is the framework program for the project with an acronym of "TRACKDEV"?
+(6) Retrieve the framework program used for the project with the acronym "TRACKDEV".
+(7) Retrieve the framework program for the project with the acronym "TRACKDEV".
+
+
+Re-ranked choices:
+6.338  Retrieve the framework program for a project with the acronym "TRACKDEV" from the projects table.
+4.952  What is the framework program for the project with an acronym of "TRACKDEV"?
+4.948  What is the framework program for the project with acronym "TRACKDEV"?
+4.945  Retrieve the framework program used for the project with the acronym "TRACKDEV".
+4.941  Retrieve the name of the framework program used in the project with acronym "TRACKDEV".
+4.941  Retrieve the framework program for the project with the acronym "TRACKDEV".
+4.931  Retrieve the framework program associated with the project that has an acronym of "TRACKDEV".
+

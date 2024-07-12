@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.bestobjid = 1237645943978524843
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.bestobjid = 1237645943978524843
+GPT-3 choices:
+(0) How many Spectroscopic objects have a bestobjid value of 1237645943978524843 in the specobj table?
+(1) How many spectroscopic objects have a bestobjid of 1237645943978524843?
+(2) How many spectroscopic objects are there where the bestobjid is 1237645943978524843 in the table Specobj?
+(3) How many spectroscopic objects are there with a bestobjid value of 1237645943978524843?
+(4) How many spectroscopic objects have a best object ID of 1237645943978524843?
+(5) How many spectroscopic objects have a bestobjid value of 1237645943978524843?
+(6) How many spectroscopic objects have a best object ID of 1237645943978524843?
+(7) How many spectroscopic objects have a bestobjid equal to 1237645943978524843?

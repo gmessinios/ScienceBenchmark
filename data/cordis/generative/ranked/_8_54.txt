@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics AS topics WHERE topics.rcn != "15432"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.rcn != "15432"
+GPT-3 choices:
+(0) What is the title of the topics that do not have an rcn of "15432"?
+(1) What are the titles of all topics except for the one with RCN number 15432?
+(2) Show the title of all topics, except for the one with RCN 15432.
+(3) Get the title of all topics that have an RCN value different from "15432".
+(4) Retrieve the title of all topics except the one with rcn equal to 15432.
+(5) Retrieve the titles of all topics, excluding the topic with an RCN of "15432".
+(6) Find the title of all topics that do not have an RCN value of "15432".
+(7) What is the title of all topics, excluding the one with an RCN of 15432?
+
+
+Re-ranked choices:
+4.268  Find the title of all topics that do not have an RCN value of "15432".
+4.258  What is the title of the topics that do not have an rcn of "15432"?
+4.248  Retrieve the title of all topics except the one with rcn equal to 15432.
+4.247  Get the title of all topics that have an RCN value different from "15432".
+2.883  Show the title of all topics, except for the one with RCN 15432.
+2.854  What are the titles of all topics except for the one with RCN number 15432?
+2.854  What is the title of all topics, excluding the one with an RCN of 15432?
+1.447  Retrieve the titles of all topics, excluding the topic with an RCN of "15432".
+

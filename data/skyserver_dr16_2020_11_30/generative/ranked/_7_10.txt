@@ -1,0 +1,28 @@
+SELECT Photometric_objects.run FROM photoobj AS Photometric_objects WHERE Photometric_objects.colc = 64.76644 or Photometric_objects.g = 13.3994
+
+###
+
+
+Original Query:
+SELECT T1.run FROM photoobj AS T1 WHERE T1.colc = 64.76644 or T1.g = 13.3994
+GPT-3 choices:
+(0) Get the run number for all photometric objects where either the colc value is 64.76644 or the g value is 13.3994 from the photoobj table.
+(1) Retrieve the run from the photoobj table for all Photometric_objects where their colc value is equal to 64.76644 or their g value is equal to 13.3994.
+(2) Find the run from the photoobj table where either the colc column is equal to 64.76644 or the g column is equal to 13.3994 for Photometric objects.
+(3) Find the run values for objects in the photoobj table where the colc value is 64.76644 or the g value is 13.3994, and label them as Photometric_objects.
+(4) Find the run number from the Photometric_objects table where the colc column is equal to 64.76644 or the g column is equal to 13.3994.
+(5) Retrieve the run from the photoobj table where the colc value is equal to 64.76644 or g value is equal to 13.3994 and alias this table as Photometric_objects.
+(6) Retrieve the run number from the table "Photometric_objects" for objects where the value in column "colc" is equal to 64.76644 or the value in column "g" is equal to 13.3994.
+(7) Retrieve the run from the photoobj table for objects with a colc value of 64.76644 or a g value of 13.3994.
+
+
+Re-ranked choices:
+7.738  Retrieve the run number from the table "Photometric_objects" for objects where the value in column "colc" is equal to 64.76644 or the value in column "g" is equal to 13.3994.
+6.356  Find the run number from the Photometric_objects table where the colc column is equal to 64.76644 or the g column is equal to 13.3994.
+5.648  Get the run number for all photometric objects where either the colc value is 64.76644 or the g value is 13.3994 from the photoobj table.
+4.257  Find the run from the photoobj table where either the colc column is equal to 64.76644 or the g column is equal to 13.3994 for Photometric objects.
+4.252  Retrieve the run from the photoobj table for objects with a colc value of 64.76644 or a g value of 13.3994.
+4.247  Find the run values for objects in the photoobj table where the colc value is 64.76644 or the g value is 13.3994, and label them as Photometric_objects.
+3.544  Retrieve the run from the photoobj table for all Photometric_objects where their colc value is equal to 64.76644 or their g value is equal to 13.3994.
+2.845  Retrieve the run from the photoobj table where the colc value is equal to 64.76644 or g value is equal to 13.3994 and alias this table as Photometric_objects.
+

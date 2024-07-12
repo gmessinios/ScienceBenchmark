@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.nuts_version = "2021"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units AS T1 WHERE T1.nuts_version = "2021"
+GPT-3 choices:
+(0) How many records are in the "eu_territorial_units" table where the value of the "nuts_version" column is equal to 2021?
+(1) Count the number of rows in the table "eu_territorial_units" where the value in the column "nuts_version" is equal to "2021".
+(2) How many rows are in the table "eu_territorial_units" where the value of the column "nuts_version" is equal to 2021?
+(3) How many territorial units are there in the European Union with a NUTS version of 2021?
+(4) How many records are there in the "eu_territorial_units" table with the NUTS version of 2021?
+(5) How many rows are in the table "eu_territorial_units" where the value of the column "nuts_version" is equal to "2021"?
+(6) How many territorial units are there in the European Union's NUTS version 2021?
+(7) How many rows are there in the EU Territorial Units table with a NUTS version of 2021?

@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description != "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies."
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description != "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies."
+GPT-3 choices:
+(0) What are the codes for all subject areas, excluding the one with the description "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies"?
+(1) What is the code for subject areas excluding the one with description "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies"?
+(2) Find the codes for subject areas where the description is not "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies."
+(3) Find the code for subject areas that do not have the description of "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies."
+(4) Get the code for all subject areas except for "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies."
+(5) Retrieve the code for all subject areas where the description is not "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies."
+(6) "Retrieve the code of subject areas where the description is not 'Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies' from the table named 'subject_areas'."
+(7) Retrieve the code for all subject areas except for "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies".

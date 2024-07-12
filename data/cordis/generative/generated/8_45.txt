@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description != "Edirne"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.description != "Edirne"
+GPT-3 choices:
+(0) Retrieve the NUTS version of all European territorial units, excluding those with the description "Edirne".
+(1) Retrieve the NUTS version of all EU territorial units except for "Edirne".
+(2) Retrieve the NUTS version for all EU territorial units except for "Edirne".
+(3) What is the NUTS version for all EU territorial units except for Edirne?
+(4) Retrieve the NUTS version from the EU territorial units where the description is not "Edirne".
+(5) Find the version of the EU territorial units for all descriptions except "Edirne".
+(6) "Retrieve the NUTS version of all European territorial units except for Edirne."
+(7) Retrieve the version of NUTS (Nomenclature of Territorial Units for Statistics) from the EU Territorial Units table, excluding any rows with the description "Edirne".

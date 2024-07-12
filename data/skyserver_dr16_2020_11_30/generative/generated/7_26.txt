@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "DEFECT" or photometrically_observed.description = "Ghost: Object created by reflected or refracted light. (not used)"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.name = "DEFECT" or T1.description = "Ghost: Object created by reflected or refracted light. (not used)"
+GPT-3 choices:
+(0) Retrieve the value of photometrically observed objects that are either labeled as "DEFECT" or described as being created by reflected or refracted light.
+(1) Get the value of photometrically observed objects that have a name of "DEFECT" or a description of "Ghost: Object created by reflected or refracted light. (not used)".
+(2) Get the values of the photometrically observed objects that are either labeled as "DEFECT" or have a description of "Ghost: Object created by reflected or refracted light (not used)".
+(3) Retrieve the value of photometrically observed objects where the name is "DEFECT" or the description is "Ghost: Object created by reflected or refracted light. (not used)".
+(4) Retrieve the value for photometrically observed objects that are labeled as "DEFECT" or described as "Ghost: Object created by reflected or refracted light."
+(5) Find the value of photometrically observed objects that are labeled as "DEFECT" or have a description of "Ghost: Object created by reflected or refracted light. (not used)".
+(6) Retrieve the value from the "photometrically_observed" column where the name is equal to "DEFECT" or the description is equal to "Ghost: Object created by reflected or refracted light. (not used)".
+(7) Retrieve the values of photometrically observed objects that are classified as "DEFECT" or have a description indicating they are created by reflected or refracted light.

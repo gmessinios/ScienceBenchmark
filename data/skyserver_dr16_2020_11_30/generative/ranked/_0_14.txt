@@ -1,0 +1,27 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 1
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value = 1
+GPT-3 choices:
+(0) Retrieve the names of all observations that have been marked as being photometrically observed.
+(1) Find the names of all objects in the database that have a photometric observation value of 1.
+(2) "What are the names of all objects that have been observed photometrically?"
+(3) "Retrieve the names of objects from the photo_type table that have a value of 1 for photometrically_observed."
+(4) Retrieve the names of all objects that have been observed photometrically.
+(5) Retrieve the names of all photo types that have a value of 1 for being photometrically observed.
+(6) Retrieve the names of all objects that have been observed photometrically.
+(7) Retrieve the name of all objects that have been observed photometrically.
+
+
+Re-ranked choices:
+2.834  Retrieve the name of all objects that have been observed photometrically.
+2.830  Retrieve the names of all photo types that have a value of 1 for being photometrically observed.
+1.438  "What are the names of all objects that have been observed photometrically?"
+1.434  Find the names of all objects in the database that have a photometric observation value of 1.
+1.434  Retrieve the names of all objects that have been observed photometrically.
+1.427  Retrieve the names of all observations that have been marked as being photometrically observed.
+1.427  "Retrieve the names of objects from the photo_type table that have a value of 1 for photometrically_observed."
+

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trial_id FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name != "GeneSearch Breast Lymph Node (BLN) Test Kit"
+
+###
+
+
+Original Query:
+SELECT T1.test_trial_id FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name != "GeneSearch Breast Lymph Node (BLN) Test Kit"
+GPT-3 choices:
+(0) "Find the test trial ID from the FDA biomarker test trials where the trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit"."
+(1) Retrieve the test trial ID from the biomarker FDA test trial table where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(2) Find the test trial ID from the FDA biomarker test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(3) Find the test trial ID for all biomarker FDA test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(4) Find the test trial IDs from the biomarker FDA test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(5) Find all test trial IDs from the biomarker FDA test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(6) Find the test trial ID from biomarker FDA test trial where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(7) Find the test trial IDs for all test trials in the biomarker_fda_test_trial table where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+
+
+Re-ranked choices:
+14.034  Find the test trial ID from biomarker FDA test trial where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+14.032  Find the test trial ID from the FDA biomarker test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+14.032  Find the test trial ID for all biomarker FDA test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+14.031  Retrieve the test trial ID from the biomarker FDA test trial table where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+14.028  "Find the test trial ID from the FDA biomarker test trials where the trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit"."
+12.632  Find the test trial IDs from the biomarker FDA test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+12.632  Find all test trial IDs from the biomarker FDA test trials where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+9.824  Find the test trial IDs for all test trials in the biomarker_fda_test_trial table where the test trade name is not "GeneSearch Breast Lymph Node (BLN) Test Kit".
+

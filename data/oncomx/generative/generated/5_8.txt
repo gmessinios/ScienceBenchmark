@@ -1,0 +1,16 @@
+SELECT disease_mutation.ref_aa FROM disease_mutation AS disease_mutation    ORDER BY disease_mutation.aa_pos_uniprotkb DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.ref_aa FROM disease_mutation AS T1    ORDER BY T1.aa_pos_uniprotkb DESC LIMIT 1
+GPT-3 choices:
+(0) What is the amino acid at the highest position in the UniprotKB database for all disease mutations?
+(1) "Get the reference amino acid from the disease mutation table, sorted in descending order by the UniProtKB amino acid position and limited to one result."
+(2) Find the amino acid abbreviation for the highest numbered position in the UniProtKB column of the disease_mutation table, and list it in ascending order with only one result.
+(3) "Retrieve the reference amino acid from the disease mutation table, ordering by the amino acid position in UniProtKB in descending order and limiting the result to one row."
+(4) Find the amino acid reference for a disease mutation by sorting the results in descending order based on its position and selecting only one result.
+(5) What is the reference amino acid for the disease mutation in the highest position according to the UniProtKB?
+(6) What is the reference amino acid from the "disease_mutation" table, ordered by the uniprotkb position in descending order and limited to 1 result?
+(7) What is the amino acid at the position with the highest number in the disease_mutation table, ordered from highest to lowest, limited to only one result?

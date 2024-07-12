@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics WHERE topics.code = "AAT.2010.4.1-6."
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.code = "AAT.2010.4.1-6."
+GPT-3 choices:
+(0) Retrieve the title of the topic from the table "topics" where the code is equal to "AAT.2010.4.1-6.".
+(1) Get the title of the topic with the code "AAT.2010.4.1-6." from a table called "topics".
+(2) Get the title of all topics where the code is equal to "AAT.2010.4.1-6." from the table "topics".
+(3) Retrieve the title from the topics table where the code is equal to "AAT.2010.4.1-6.".
+(4) What is the title of the topic with the code "AAT.2010.4.1-6."?
+(5) Retrieve the title of the topic from the table topics where the code is equal to "AAT.2010.4.1-6.".
+(6) Find the title of the topic with the code "AAT.2010.4.1-6." in the table "topics".
+(7) Retrieve the title from the "topics" table where the code is equal to "AAT.2010.4.1-6.".

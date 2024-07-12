@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.type != 3
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.type != 3
+GPT-3 choices:
+(0) Find the mode of the neighbor objects from a table called "neighbors" joined with another table called "photoobj", where the object IDs are equal and the type is not equal to 3 in the latter table.
+(1) Find the neighbor mode for the nearest neighbor objects that have a different type from 3 in the table of neighbors, joined with the table of photometric objects based on their shared object ID.
+(2) What is the neighbor mode for all nearest neighbour objects that have an object ID in the neighbors table and a type not equal to 3 in the photoobj table?
+(3) Retrieve the nearest neighbour mode of each object from the neighbors table, where the object's type is not equal to 3 in the photoobj table.
+(4) Find the neighbormode of nearest neighbors from objects with objid in the neighbors table, only including those from photoobj where type is not equal to 3.
+(5) Find the mode of nearest neighbour objects from the neighbor table for objects in the photoobj table where their type is not equal to 3.
+(6) Retrieve the mode of the neighboring objects from the neighbors table for all Photometric objects that are not of type 3.
+(7) Retrieve the neighbor mode from the nearest neighbour objects for all photometric objects where the object type is not equal to 3.
+
+
+Re-ranked choices:
+10.521  Find the neighbor mode for the nearest neighbor objects that have a different type from 3 in the table of neighbors, joined with the table of photometric objects based on their shared object ID.
+9.826  Retrieve the neighbor mode from the nearest neighbour objects for all photometric objects where the object type is not equal to 3.
+9.821  What is the neighbor mode for all nearest neighbour objects that have an object ID in the neighbors table and a type not equal to 3 in the photoobj table?
+8.426  Find the mode of nearest neighbour objects from the neighbor table for objects in the photoobj table where their type is not equal to 3.
+8.419  Find the mode of the neighbor objects from a table called "neighbors" joined with another table called "photoobj", where the object IDs are equal and the type is not equal to 3 in the latter table.
+7.029  Retrieve the mode of the neighboring objects from the neighbors table for all Photometric objects that are not of type 3.
+7.024  Retrieve the nearest neighbour mode of each object from the neighbors table, where the object's type is not equal to 3 in the photoobj table.
+4.220  Find the neighbormode of nearest neighbors from objects with objid in the neighbors table, only including those from photoobj where type is not equal to 3.
+

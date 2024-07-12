@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.id FROM biomarker_fda_test_use AS biomarker_fda_test_use JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_use.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.test_submission = "P190004"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda_test_use AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_submission = "P190004"
+GPT-3 choices:
+(0) Find the ID of biomarker FDA test use for a biomarker FDA test with a submission number of "P190004".
+(1) Find the id from the biomarker_fda_test_use table where the test_trade_name matches that of biomarker_fda_test and where test_submission is equal to "P190004".
+(2) Find the ID from the table of biomarker FDA test use where the trade name matches between the tables of biomarker FDA test use and biomarker FDA test, and the submission number in the biomarker FDA test table is "P190004".
+(3) Find the ID of the biomarker FDA test use for a given test submission (P190004) by joining the tables biomarker_fda_test_use and biomarker_fda_test on their respective trade names.
+(4) Get the ID from the table biomarker_fda_test_use where the test trade name in the table biomarker_fda_test matches with "P190004" in the column test_submission.
+(5) Find the ID from the table biomarker_fda_test_use where the test trade name in biomarker_fda_test_use is equal to the test trade name in biomarker_fda_test for the test submission "P190004".
+(6) Find the id of the biomarker_fda_test_use where the test_trade_name is equal to the test_trade_name in biomarker_fda_test and the test_submission is equal to "P190004".
+(7) Find the ID of all instances where a biomarker has been used in FDA tests and is associated with a test submission code "P190004".

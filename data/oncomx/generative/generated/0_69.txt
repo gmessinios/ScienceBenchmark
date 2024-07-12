@@ -1,0 +1,16 @@
+SELECT biomarker.id FROM biomarker AS biomarker WHERE biomarker.test_is_a_panel = False
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker AS T1 WHERE T1.test_is_a_panel = False
+GPT-3 choices:
+(0) Find the id of biomarker from the table biomarker where test_is_a_panel is false.
+(1) "Retrieve the id of biomarkers that are not classified as panels."
+(2) Get the ID of all biomarkers that are not a panel test from the "biomarker" table.
+(3) Retrieve the id of all biomarkers from the biomarker table where the test is not a panel.
+(4) Get the IDs of all biomarkers that are not panels from the table "biomarker".
+(5) Get the id of biomarker from the table biomarker where test_is_a_panel is not equal to True.
+(6) What is the ID of all biomarkers that are not part of a panel test?
+(7) Find the ID of all biomarkers that are not part of a panel test.

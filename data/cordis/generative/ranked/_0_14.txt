@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.title = "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.title = "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype"
+GPT-3 choices:
+(0) What is the research council number for the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype"?
+(1) Find the research council number for a topic called "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype".
+(2) Retrieve the research concept number for the topic "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype" from the table "topics".
+(3) Retrieve the research concept number for the topic "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype".
+(4) Find the record control number for the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype" in the topics table.
+(5) Find the RCN number for the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype" from the table called "topics".
+(6) Find the RCN number of the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype".
+(7) Find the research concept number for the topic related to developing system pipework and tooling for sub-assembly and final assembly of the HLFC-wing prototype.
+
+
+Re-ranked choices:
+9.821  Find the RCN number for the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype" from the table called "topics".
+8.422  Find the RCN number of the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype".
+8.420  Retrieve the research concept number for the topic "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype" from the table "topics".
+8.419  Find the record control number for the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype" in the topics table.
+7.021  Find the research council number for a topic called "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype".
+7.021  What is the research council number for the topic titled "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype"?
+7.020  Retrieve the research concept number for the topic "Development of System pipework and Tooling for Sub-Assembly, Final-Assembly of the HLFC-wing Prototype".
+5.619  Find the research concept number for the topic related to developing system pipework and tooling for sub-assembly and final assembly of the HLFC-wing prototype.
+

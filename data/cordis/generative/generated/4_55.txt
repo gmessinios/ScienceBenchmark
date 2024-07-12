@@ -1,0 +1,16 @@
+SELECT count(*) FROM subject_areas AS subject_areas WHERE subject_areas.code = "ICT"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1 WHERE T1.code = "ICT"
+GPT-3 choices:
+(0) How many subject areas with a code of "ICT" are there in the subject_areas table?
+(1) How many subject areas are there with a code of "ICT"?
+(2) How many subject areas have a code of "ICT" in the database table named subject_areas?
+(3) "How many subject areas have a code of "ICT"?"
+(4) How many subject areas have a code of "ICT"?
+(5) How many subject areas are there with the code "ICT"?
+(6) How many subject areas are there in the database with a code of "ICT"?
+(7) How many rows are there in the subject_areas table where the code column is equal to "ICT"?

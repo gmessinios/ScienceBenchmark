@@ -1,0 +1,27 @@
+SELECT differential_expression.adjpvalue FROM differential_expression AS differential_expression WHERE differential_expression.subjects_total != 45
+
+###
+
+
+Original Query:
+SELECT T1.adjpvalue FROM differential_expression AS T1 WHERE T1.subjects_total != 45
+GPT-3 choices:
+(0) What are the adjusted p-values for differential expression where the total number of subjects is not equal to 45?
+(1) What are the adjusted p-values for differential expression for subjects where the total number of subjects is not equal to 45?
+(2) What is the adjusted p-value for all differential expression results where the total number of subjects is not equal to 45?
+(3) Get the adjusted p-value from the differential expression table for all records where the total number of subjects is not equal to 45.
+(4) What are the adjusted p-values from the differential expression table for cases where the total number of subjects is not equal to 45?
+(5) What are the adjusted p-values for differential expression where the total number of subjects is not equal to 45?
+(6) Retrieve the adjusted p-values from the differential_expression table for subjects where the total number of subjects is not equal to 45.
+(7) What is the adjusted p-value from the table of differential expression for all cases where the total number of subjects is not equal to 45?
+
+
+Re-ranked choices:
+5.628  What are the adjusted p-values for differential expression where the total number of subjects is not equal to 45?
+5.627  Get the adjusted p-value from the differential expression table for all records where the total number of subjects is not equal to 45.
+5.626  What are the adjusted p-values for differential expression for subjects where the total number of subjects is not equal to 45?
+5.626  What is the adjusted p-value for all differential expression results where the total number of subjects is not equal to 45?
+5.625  What is the adjusted p-value from the table of differential expression for all cases where the total number of subjects is not equal to 45?
+5.624  What are the adjusted p-values from the differential expression table for cases where the total number of subjects is not equal to 45?
+2.824  Retrieve the adjusted p-values from the differential_expression table for subjects where the total number of subjects is not equal to 45.
+

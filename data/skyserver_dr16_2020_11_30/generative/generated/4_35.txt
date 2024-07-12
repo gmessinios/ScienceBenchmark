@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.run = 8095
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.run = 8095
+GPT-3 choices:
+(0) How many objects are there in the photoobj table with a run value of 8095?
+(1) How many photometric objects are there in the photoobj table with a run number of 8095?
+(2) How many Photometric objects are there in the photoobj table with a run value of 8095?
+(3) How many photometric objects are there in the photoobj table where the run number is 8095?
+(4) Count the number of objects in the photometric data set from run 8095.
+(5) Count the number of objects in the Photometric_objects table where the run column has a value of 8095.
+(6) How many Photometric objects are there in the photoobj table with a run value of 8095?
+(7) How many objects are there in the photoobj table with a run value of 8095?

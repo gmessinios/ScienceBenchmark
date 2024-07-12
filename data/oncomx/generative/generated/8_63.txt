@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_submission FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name != "BRACAnalysis CDx"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name != "BRACAnalysis CDx"
+GPT-3 choices:
+(0) What is the test submission for the FDA biomarker test trial that does not have a trade name of "BRACAnalysis CDx"?
+(1) Find all test submissions from the biomarker_fda_test_trial table where the test trade name is not "BRACAnalysis CDx".
+(2) Retrieve the test submission for biomarker FDA test trials where the test trade name is not "BRACAnalysis CDx".
+(3) Retrieve the test submissions from the biomarker_fda_test_trial table where the test trade name is not "BRACAnalysis CDx".
+(4) Find the test submission from the FDA biomarker test trials where the test trade name is not "BRACAnalysis CDx".
+(5) Retrieve the test submissions from all entries in the biomarker_fda_test_trial table where the test trade name is not equal to "BRACAnalysis CDx".
+(6) Retrieve the test submissions from the FDA biomarker test trials where the test trade name is not "BRACAnalysis CDx".
+(7) What are the test submissions from all trials in the biomarker_fda_test_trial table where the test trade name is not "BRACAnalysis CDx"?

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.actual_use FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission = "K062696" or biomarker_fda_test_use.approved_indication = "companion diagnosis"
+
+###
+
+
+Original Query:
+SELECT T1.actual_use FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission = "K062696" or T1.approved_indication = "companion diagnosis"
+GPT-3 choices:
+(0) What is the actual use of biomarker tests submitted under test submission number K062696 or approved for companion diagnosis by the FDA?
+(1) What is the actual use for biomarkers in FDA test submissions with the code K062696 or those that have been approved for companion diagnosis?
+(2) What are the actual uses of biomarker test submission "K062696" or for approved indications of "companion diagnosis"?
+(3) Find the actual use for biomarker tests submitted under the test submission number "K062696" or approved for use as a companion diagnostic.
+(4) What are the actual uses for biomarker tests associated with either FDA test submission K062696 or an approved indication of companion diagnosis?
+(5) What are the actual uses of FDA-approved tests that were submitted under "K062696" or have an approved indication for companion diagnosis?
+(6) What is the actual use of biomarkers for test submission "K062696" or approved for companion diagnosis by FDA?
+(7) Retrieve the actual use of biomarkers from FDA test submissions or approved indications for companion diagnosis.

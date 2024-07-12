@@ -1,0 +1,28 @@
+SELECT institutions.wikidata_url FROM institutions WHERE institutions.db_pedia_url != 'http://dbpedia.org/page/Cergy-Pontoise_University'
+
+###
+
+
+Original Query:
+SELECT institutions.wikidata_url FROM institutions WHERE institutions.db_pedia_url != 'http://dbpedia.org/page/Cergy-Pontoise_University'
+GPT-3 choices:
+(0) Retrieve all project associated with a different Wikipedia entry than "Cergy-Pontoise University"
+(1) Show me institutions with a wikidata URL that is different from http://dbpedia.org/page/Cergy-Pontoise_University
+(2) Show me all institutions that have a different project name than the wikidata url for the institution Cergy-Pontoise University
+(3) Retrieve institutions wikidata URL that do not have the same dbpedia URL as "Cergy-Pontoise University"
+(4) Show all institutions ids with a wikidata url different from the dbpedia url of “Cergy-Pontoise University”
+(5) Display the wikidata url of all institutions except for the one located in Cergy-Pontoise
+(6) Show me all the wikipedia URL's of institutions that are not the "Cergy-Pontoise University"
+(7) Show me all the institutions that don't have the dbpedia page about their city
+
+
+Re-ranked choices:
+4.220  Display the wikidata url of all institutions except for the one located in Cergy-Pontoise
+4.219  Retrieve institutions wikidata URL that do not have the same dbpedia URL as "Cergy-Pontoise University"
+4.219  Show me all institutions that have a different project name than the wikidata url for the institution Cergy-Pontoise University
+4.216  Show all institutions ids with a wikidata url different from the dbpedia url of “Cergy-Pontoise University”
+4.215  Show me institutions with a wikidata URL that is different from http://dbpedia.org/page/Cergy-Pontoise_University
+2.828  Show me all the wikipedia URL's of institutions that are not the "Cergy-Pontoise University"
+1.441  Show me all the institutions that don't have the dbpedia page about their city
+0.019  Retrieve all project associated with a different Wikipedia entry than "Cergy-Pontoise University"
+

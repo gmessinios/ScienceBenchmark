@@ -1,0 +1,16 @@
+SELECT institutions.db_pedia_url FROM institutions AS institutions WHERE institutions.unics_id = 64 or institutions.grid_id = "grid.10863.3c"
+
+###
+
+
+Original Query:
+SELECT T1.db_pedia_url FROM institutions AS T1 WHERE T1.unics_id = 64 or T1.grid_id = "grid.10863.3c"
+GPT-3 choices:
+(0) Retrieve the DBpedia URL of institutions where the UNICS ID is 64 or the GRID ID is "grid.10863.3c".
+(1) Find the DBPedia URL for an institution where its UNICS ID is equal to 64 or its GRID ID is "grid.10863.3c".
+(2) Retrieve the DBPedia URL of institutions where their UNICS ID is 64 or their GRID ID is "grid.10863.3c".
+(3) What is the dbpedia url of the institution with a UNICS ID of 64 or a grid ID of "grid.10863.3c"?
+(4) Find the DBpedia URL of institutions where the UNICS ID is equal to 64 or the GRID ID is equal to "grid.10863.3c".
+(5) What is the DBpedia URL for an institution with a UNICS ID of 64 or a GRID ID of "grid.10863.3c"?
+(6) What is the DBPedia URL for institutions with a UNICS ID of 64 or a GRID ID of "grid.10863.3c"?
+(7) Find the DBPedia URL for institutions that have a UNICS ID of 64 or a GRID ID of "grid.10863.3c".

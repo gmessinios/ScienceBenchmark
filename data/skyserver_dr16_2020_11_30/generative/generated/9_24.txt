@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.neighbortype != 6
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.neighbortype != 6
+GPT-3 choices:
+(0) Find the names of objects that have been observed photometrically and are not of type 6, according to their nearest neighbors.
+(1) Find the names of all objects that have a neighbor type different from 6 in the table "photo_type".
+(2) What are the names of all photometrically observed objects that have a nearest neighbor type that is not equal to 6?
+(3) Retrieve the names of objects that have been photometrically observed and are not type 6 according to the table of neighboring objects.
+(4) What are the names of all photometrically observed objects that have a nearest neighbor object type other than 6?
+(5) Find the names of all photometrically observed objects that have a neighbor type that is not equal to 6.
+(6) What is the name of all objects that have been photometrically observed and are not classified as nearest neighbor type 6?
+(7) Retrieve the names of all photometrically observed objects that are not type 6, according to the list of nearest neighbor objects.

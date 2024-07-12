@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.special_target1 FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.plate DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.special_target1 FROM specobj AS T1    ORDER BY T1.plate DESC LIMIT 1
+GPT-3 choices:
+(0) What is the special target1 for the most recently observed spectroscopic object?
+(1) What is the special target of the most recent plate in the specobj table?
+(2) What is the special target for the last plate in the list of spectroscopic objects?
+(3) Retrieve the special target of the last spectroscopic object in descending order by plate number.
+(4) Retrieve the value of the "special_target1" attribute from the "specobj" table, sorted in descending order by the "plate" attribute and limit the results to 1.
+(5) Retrieve the value of the "special_target1" column for the most recent plate in the table "specobj".
+(6) Retrieve the special target1 of the most recently added spectroscopic object from the specobj table, ordering by plate number in descending order and limiting to 1 result.
+(7) What is the special target1 of the most recent object in the specobj table, ordered by plate number?
+
+
+Re-ranked choices:
+4.919  Retrieve the special target1 of the most recently added spectroscopic object from the specobj table, ordering by plate number in descending order and limiting to 1 result.
+3.533  What is the special target1 of the most recent object in the specobj table, ordered by plate number?
+3.529  Retrieve the special target of the last spectroscopic object in descending order by plate number.
+2.848  What is the special target of the most recent plate in the specobj table?
+2.844  What is the special target for the last plate in the list of spectroscopic objects?
+2.121  Retrieve the value of the "special_target1" attribute from the "specobj" table, sorted in descending order by the "plate" attribute and limit the results to 1.
+1.432  Retrieve the value of the "special_target1" column for the most recent plate in the table "specobj".
+1.429  What is the special target1 for the most recently observed spectroscopic object?
+

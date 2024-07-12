@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861599987 and Nearest_neighbour_objects.neighbortype = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 WHERE T1.neighborobjid = 1237645876861599987 and T1.neighbortype = 0
+GPT-3 choices:
+(0) What is the neighbor mode for the object with ID 1237645876861599987 in the neighbors table where the neighbor type is equal to 0?
+(1) Find the mode of the nearest neighbor object with an ID of 1237645876861599987 and a type of 0 in the table called "neighbors."
+(2) Retrieve the neighbormode of the nearest neighbor object with a neighborobjid of 1237645876861599987 and neighbortype of 0 from the neighbors table.
+(3) Find the nearest neighbor object's mode from the neighbors table where the neighbor object ID is 1237645876861599987 and the neighbor type is 0.
+(4) Retrieve the neighbor mode for the nearest neighbour object with an ID of 1237645876861599987 and a neighbor type of 0 from the neighbors table.
+(5) Retrieve the mode of the nearest neighbor for the object with an ID of 1237645876861599987, where the type of neighbor is 0.
+(6) What is the nearest neighbor mode of the object with ID 1237645876861599987 and type 0 in the neighbors table?
+(7) Retrieve the nearest neighbor mode from the neighbors table for object ID 1237645876861599987 and with a neighbor type of 0.
+
+
+Re-ranked choices:
+9.830  Retrieve the neighbor mode for the nearest neighbour object with an ID of 1237645876861599987 and a neighbor type of 0 from the neighbors table.
+8.442  Retrieve the mode of the nearest neighbor for the object with an ID of 1237645876861599987, where the type of neighbor is 0.
+8.442  What is the nearest neighbor mode of the object with ID 1237645876861599987 and type 0 in the neighbors table?
+8.440  Find the mode of the nearest neighbor object with an ID of 1237645876861599987 and a type of 0 in the table called "neighbors."
+8.434  Retrieve the nearest neighbor mode from the neighbors table for object ID 1237645876861599987 and with a neighbor type of 0.
+7.040  What is the neighbor mode for the object with ID 1237645876861599987 in the neighbors table where the neighbor type is equal to 0?
+7.034  Find the nearest neighbor object's mode from the neighbors table where the neighbor object ID is 1237645876861599987 and the neighbor type is 0.
+4.223  Retrieve the neighbormode of the nearest neighbor object with a neighborobjid of 1237645876861599987 and neighbortype of 0 from the neighbors table.
+

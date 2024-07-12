@@ -1,0 +1,28 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 310890518194186240
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 310890518194186240
+GPT-3 choices:
+(0) How many spectral lines are there for the object with a specobjid of 310890518194186240 in the spplines table?
+(1) How many spectral lines are in the SPPLines table for the object with a specobjid of 310890518194186240?
+(2) How many spectral lines are present in the table "spplines" for the object with specobjid = 310890518194186240?
+(3) How many stellar spectral lines are there for the specobjid 310890518194186240 in the spplines table?
+(4) How many stellar spectral line indices are there for the specobjid 310890518194186240 in the spplines table?
+(5) How many stellar spectral line indices are there for the specobjid 310890518194186240?
+(6) How many rows are in the "spplines" table where the "specobjid" column equals 310890518194186240?
+(7) How many spectral line indices are there in the Stellar_spectal_line_indices table for the object with a specobjid of 310890518194186240?
+
+
+Re-ranked choices:
+4.929  How many spectral line indices are there in the Stellar_spectal_line_indices table for the object with a specobjid of 310890518194186240?
+2.856  How many stellar spectral line indices are there for the specobjid 310890518194186240?
+2.833  How many stellar spectral line indices are there for the specobjid 310890518194186240 in the spplines table?
+1.438  How many spectral lines are present in the table "spplines" for the object with specobjid = 310890518194186240?
+1.436  How many spectral lines are in the SPPLines table for the object with a specobjid of 310890518194186240?
+1.434  How many spectral lines are there for the object with a specobjid of 310890518194186240 in the spplines table?
+0.042  How many rows are in the "spplines" table where the "specobjid" column equals 310890518194186240?
+0.039  How many stellar spectral lines are there for the specobjid 310890518194186240 in the spplines table?
+

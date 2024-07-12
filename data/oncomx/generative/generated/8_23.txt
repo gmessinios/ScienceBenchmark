@@ -1,0 +1,16 @@
+SELECT biomarker_alias.alias FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.biomarker_internal_id != "EDRN00129"
+
+###
+
+
+Original Query:
+SELECT T1.alias FROM biomarker_alias AS T1 WHERE T1.biomarker_internal_id != "EDRN00129"
+GPT-3 choices:
+(0) What are the aliases for biomarkers other than "EDRN00129"?
+(1) What are the aliases of biomarkers that have a different internal ID from "EDRN00129"?
+(2) Retrieve all aliases for biomarkers except for "EDRN00129".
+(3) What are the aliases of biomarkers with internal ID not equal to "EDRN00129"?
+(4) Retrieve all the aliases associated with biomarker "EDRN00129" from the table "biomarker_alias" except for its own internal ID.
+(5) Get the alias of a biomarker where the internal ID is not equal to "EDRN00129".
+(6) What are the aliases for biomarkers, excluding "EDRN00129"?
+(7) What is the alias for a biomarker that has an internal ID not equal to "EDRN00129"?

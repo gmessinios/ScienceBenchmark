@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description != "Host institution"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description != "Host institution"
+GPT-3 choices:
+(0) Retrieve the code of all project member roles, excluding "Host institution", from the table "project_member_roles".
+(1) Retrieve the code from the project member roles table where the description is not "Host institution".
+(2) Find the code of all project member roles where the description is not "Host institution".
+(3) Find the code for all project member roles where the description is not "Host institution".
+(4) Find the code of all project member roles where the description is not "Host institution".
+(5) Retrieve the code from project_member_roles where the description is not equal to "Host institution".
+(6) Find the codes of all project member roles where the description is not "Host institution".
+(7) Retrieve the project member role codes from the project_member_roles table where the description is not "Host institution".

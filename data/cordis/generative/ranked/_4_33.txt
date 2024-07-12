@@ -1,0 +1,28 @@
+SELECT count(*) FROM topics AS topics WHERE topics.rcn = "664922"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics AS T1 WHERE T1.rcn = "664922"
+GPT-3 choices:
+(0) How many topics have an RCN value of "664922"?
+(1) How many topics have an rcn value of 664922?
+(2) How many topics are there in the database with an rcn value of "664922"?
+(3) How many topics have an rcn value of "664922"?
+(4) How many rows are there in the "topics" table where the value of the "rcn" column is equal to "664922"?
+(5) How many topics have an rcn of "664922"?
+(6) How many topics have the RCN value of "664922"?
+(7) How many rows are there in the topics table where the rcn value is equal to "664922"?
+
+
+Re-ranked choices:
+2.943  How many topics have an RCN value of "664922"?
+2.943  How many topics have the RCN value of "664922"?
+2.920  How many topics have an rcn of "664922"?
+2.873  How many topics have an rcn value of 664922?
+2.873  How many topics have an rcn value of "664922"?
+2.850  How many topics are there in the database with an rcn value of "664922"?
+2.848  How many rows are there in the topics table where the rcn value is equal to "664922"?
+2.841  How many rows are there in the "topics" table where the value of the "rcn" column is equal to "664922"?
+

@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.unics_id = 144391
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.unics_id = 144391
+GPT-3 choices:
+(0) Get the code for the research domain from erc_research_domains that is related to a panel in erc_panels which is associated with a project in project_erc_panels that has an unics_id of 144391.
+(1) Retrieve the code of ERC research domains that are part of a panel, which is assigned to a project with an UNICS ID of 144391.
+(2) Get the code for the research domain from erc_research_domains where it is a part of a panel in erc_panels, which is then linked to a project in project_erc_panels and finally matched with a specific project using its UNICS ID.
+(3) Find the research domain code for ERC research domains that are part of ERC panels which are included in projects with a UNICS ID of 144391.
+(4) Retrieve the code for the research domain from the ERC research domains table where the code matches a panel in the ERC panels table which is part of a project in the project ERC panels table and that project has a unique ID of 144391 in the projects table.
+(5) What are the research domains that are associated with the ERC panels that are part of the project ERC Research Panels and have a code equal to 144391?
+(6) Retrieve the code for the research domain from erc_research_domains that is associated with a panel from erc_panels that is part of a project in project_erc_panels that has an unics_id of 144391 in projects.
+(7) What are the research domains that are part of the panels that belong to a project with UNICS ID 144391?

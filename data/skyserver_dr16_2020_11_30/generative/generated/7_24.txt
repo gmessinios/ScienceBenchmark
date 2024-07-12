@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 4 or photometrically_observed.name = "UNKNOWN"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.value = 4 or T1.name = "UNKNOWN"
+GPT-3 choices:
+(0) What are the descriptions of photo types that have a value of 4 or a name of "UNKNOWN" in the photometrically_observed table?
+(1) What is the description of photometrically observed photo types with a value of 4 or a name of "UNKNOWN"?
+(2) Find the description for photometrically observed photo types where the value is equal to 4 or the name is "UNKNOWN".
+(3) What is the description of photometrically observed objects with a value of 4 or named "UNKNOWN"?
+(4) What is the description of the photo type "photometrically observed" with a value of 4 or a name of "UNKNOWN"?
+(5) "What is the description of photo types where the value is equal to 4 or the name is 'UNKNOWN'?"
+(6) Retrieve the description from the photo_type table for photometrically observed data where the value is 4 or the name is "UNKNOWN".
+(7) Get the description of photometrically observed data from the table "photo_type" where the value is equal to 4 or the name is equal to "UNKNOWN".

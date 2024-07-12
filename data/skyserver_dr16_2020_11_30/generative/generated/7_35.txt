@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type = 0 or Nearest_neighbour_objects.neighbormode = 2
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 WHERE T1.type = 0 or T1.neighbormode = 2
+GPT-3 choices:
+(0) Find the type of nearest neighbor objects where the type is equal to 0 or the neighbor mode is equal to 2.
+(1) Find the type of nearest neighbour objects where the type is either 0 or the neighbor mode is 2.
+(2) "Retrieve the neighbor type from the neighbors table for objects where the type is equal to 0 or the neighbor mode is equal to 2."
+(3) Get the type of nearest neighbor objects from the "neighbors" table where the type is either 0 or the neighbor mode is equal to 2.
+(4) What is the type of nearest neighbor objects that have a type of 0 or a neighbor mode of 2 in the neighbors table?
+(5) "Retrieve the neighbor type of the nearest neighbor objects where the type is equal to 0 or the neighbor mode is equal to 2."
+(6) Find the type of nearest neighbors that are either of type 0 or have a neighbor mode of 2.
+(7) Find the neighbor types of all nearest neighbor objects where the type is equal to 0 or the neighbor mode is equal to 2.

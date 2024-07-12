@@ -1,0 +1,28 @@
+SELECT Photometric_objects.cmodelmag_u FROM photoobj AS Photometric_objects WHERE Photometric_objects.mjd = 52664 or Photometric_objects.ra = 0.0294510887318324
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_u FROM photoobj AS T1 WHERE T1.mjd = 52664 or T1.ra = 0.0294510887318324
+GPT-3 choices:
+(0) Find the cmodelmag_u value for Photometric objects with an mjd of 52664 or a ra of 0.0294510887318324 from the photoobj table.
+(1) Retrieve the u-band cmodel magnitude of photometric objects from the photoobj table where the mjd value is equal to 52664 or the ra value is equal to 0.0294510887318324.
+(2) Find the cmodelmag_u value from the table of Photometric_objects where either the mjd column is equal to 52664 or the ra column is equal to 0.0294510887318324.
+(3) What is the cmodelmag_u value for Photometric_objects in the photoobj table where the mjd is 52664 or ra is 0.0294510887318324?
+(4) Find the u-band cmodel magnitude of photometric objects from the photoobj table where the mjd column is equal to 52664 or the ra column is equal to 0.0294510887318324.
+(5) Retrieve the u-band model magnitude of photometric objects from the photoobj table where the mjd column is equal to 52664 or the ra column is equal to 0.0294510887318324.
+(6) Find the cmodel magnitude in the u band for photometric objects from the photoobj table where either the mjd value is 52664 or the right ascension is 0.0294510887318324.
+(7) Retrieve the cmodel magnitude in the u-band for photometric objects from the photoobj table where either the modified Julian date is equal to 52664 or the right ascension is equal to 0.0294510887318324.
+
+
+Re-ranked choices:
+8.418  Retrieve the cmodel magnitude in the u-band for photometric objects from the photoobj table where either the modified Julian date is equal to 52664 or the right ascension is equal to 0.0294510887318324.
+7.019  Find the cmodel magnitude in the u band for photometric objects from the photoobj table where either the mjd value is 52664 or the right ascension is 0.0294510887318324.
+4.220  Retrieve the u-band model magnitude of photometric objects from the photoobj table where the mjd column is equal to 52664 or the ra column is equal to 0.0294510887318324.
+2.819  Retrieve the u-band cmodel magnitude of photometric objects from the photoobj table where the mjd value is equal to 52664 or the ra value is equal to 0.0294510887318324.
+2.819  Find the u-band cmodel magnitude of photometric objects from the photoobj table where the mjd column is equal to 52664 or the ra column is equal to 0.0294510887318324.
+1.430  Find the cmodelmag_u value for Photometric objects with an mjd of 52664 or a ra of 0.0294510887318324 from the photoobj table.
+0.722  What is the cmodelmag_u value for Photometric_objects in the photoobj table where the mjd is 52664 or ra is 0.0294510887318324?
+0.721  Find the cmodelmag_u value from the table of Photometric_objects where either the mjd column is equal to 52664 or the ra column is equal to 0.0294510887318324.
+

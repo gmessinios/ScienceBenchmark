@@ -1,0 +1,27 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.id = 1473
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.id = 1473
+GPT-3 choices:
+(0) Retrieve the description from the disease_mutation_site_annotation table where the id is 1473.
+(1) Get the description from the disease mutation site annotation table for the entry with an id of 1473.
+(2) What is the description of the disease mutation site annotation with an ID of 1473?
+(3) Find the description of a disease mutation site annotation with an ID of 1473.
+(4) What is the description of disease mutation site annotation with an ID of 1473?
+(5) What is the description of the disease mutation site annotation with an ID of 1473?
+(6) What is the description of the disease mutation site annotation with an ID of 1473 in the database?
+(7) What is the description for the disease mutation site with an ID of 1473 in the disease_mutation_site_annotation table?
+
+
+Re-ranked choices:
+8.437  What is the description of the disease mutation site annotation with an ID of 1473?
+8.434  Find the description of a disease mutation site annotation with an ID of 1473.
+8.434  What is the description of disease mutation site annotation with an ID of 1473?
+8.433  What is the description of the disease mutation site annotation with an ID of 1473 in the database?
+8.427  Get the description from the disease mutation site annotation table for the entry with an id of 1473.
+7.026  What is the description for the disease mutation site with an ID of 1473 in the disease_mutation_site_annotation table?
+2.824  Retrieve the description from the disease_mutation_site_annotation table where the id is 1473.
+

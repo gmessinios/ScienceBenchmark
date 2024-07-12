@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles JOIN project_members AS project_members ON project_member_roles.code = project_members.member_role WHERE project_members.longitude != -6.2738249
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 JOIN project_members AS T2 ON T1.code = T2.member_role WHERE T2.longitude != -6.2738249
+GPT-3 choices:
+(0) Get the project member role code from the project_member_roles table where the longitude value of project_members table is not -6.2738249.
+(1) Find the code of project member roles for all project members whose longitude is not equal to -6.2738249.
+(2) Retrieve the project member role codes for all project members whose longitude is not -6.2738249.
+(3) Show the code for all project member roles from the project_member_roles table that are associated with members in the project_members table who have a longitude value other than -6.2738249.
+(4) Retrieve the code of all project member roles for project members with a longitude value that is not equal to -6.2738249.
+(5) Retrieve the project member role code from the project member roles table, where the longitude of the project members is not equal to -6.2738249.
+(6) Retrieve the code of all project member roles where the longitude is not equal to -6.2738249 in the project_member_roles and project_members tables.
+(7) Show the project member role codes from the project member roles table where the longitude of the project members is not equal to -6.2738249.

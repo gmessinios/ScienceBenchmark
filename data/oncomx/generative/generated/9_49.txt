@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_submission != "P940004"
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_submission != "P940004"
+GPT-3 choices:
+(0) Retrieve the NCIt biomarker terms from the NCIt biomarker FDA table where the corresponding FDA biomarker has a test submission that is not equal to "P940004".
+(1) Get the NCIt biomarker term from the biomarker_fda_ncit_term table for all FDA biomarkers in the biomarker_fda table, excluding any with a test submission of "P940004".
+(2) Retrieve the NCIt biomarker term from the biomarker_fda_ncit_term table for all biomarkers in the biomarker_fda table that do not have a test_submission value of "P940004".
+(3) Retrieve the NCIt biomarker term associated with FDA biomarkers that have a test submission not equal to "P940004".
+(4) What is the NCIt biomarker term for all biomarkers in the FDA database that do not have a test submission of "P940004"?
+(5) Which biomarkers have an associated NCIt term from the FDA database, excluding those with a test submission of "P940004"?
+(6) What is the NCIt biomarker associated with FDA biomarkers that do not have a test submission of "P940004"?
+(7) Get the NCIt biomarker terms from the database table biomarker_fda_ncit_term for all FDA biomarkers in the table biomarker_fda, excluding those with a test submission of "P940004".

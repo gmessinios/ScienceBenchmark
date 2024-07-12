@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.code = "LS"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains AS T1 WHERE T1.code = "LS"
+GPT-3 choices:
+(0) How many research domains have the code "LS"?
+(1) Count the number of entries in the erc_research_domains table where the code is equal to "LS".
+(2) How many research domains are there in the erc_research_domains table with the code "LS"?
+(3) How many research domains are there with a code of "LS" in the ERC database?
+(4) How many research domains are there with a code of "LS" in the ERC research domains database?
+(5) How many research domains have a code of "LS"?
+(6) How many research domains are there with the code "LS"?
+(7) Count the number of rows in the table "erc_research_domains" where the column "code" has a value of "LS".

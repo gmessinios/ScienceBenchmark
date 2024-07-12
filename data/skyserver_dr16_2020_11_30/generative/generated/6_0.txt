@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.specobjid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.plateid = 953637261797255168 and Spectroscopic_objects.dec = -16.761242
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM specobj AS T1 WHERE T1.plateid = 953637261797255168 and T1.dec = -16.761242
+GPT-3 choices:
+(0) Find the spectroscopic object ID from the specobj table where the plateid is equal to 953637261797255168 and the dec is -16.761242.
+(1) What is the spectobjid for objects in the specobj table where the plateid is 953637261797255168 and the declination is -16.761242?
+(2) Retrieve the specobjid of all objects from the specobj table where the plateid is equal to 953637261797255168 and the dec is -16.761242.
+(3) Find the specobjid of Spectroscopic_objects where the plateid is equal to 953637261797255168 and the dec is -16.761242.
+(4) Retrieve the specobjid from the table specobj for objects in which the plateid is 953637261797255168 and dec is -16.761242.
+(5) Get the specobjid from the table Spectroscopic_objects for all rows where plateid is equal to 953637261797255168 and dec is equal to -16.761242.
+(6) What is the Spectroscopic Object ID for objects with a plate ID of 953637261797255168 and a declination of -16.761242?
+(7) What is the spectroscopic object ID for an object with a plate ID of 953637261797255168 and a declination of -16.761242?

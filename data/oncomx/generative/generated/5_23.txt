@@ -1,0 +1,16 @@
+SELECT species.species FROM species AS species    ORDER BY species.speciesid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.species FROM species AS T1    ORDER BY T1.speciesid DESC LIMIT 1
+GPT-3 choices:
+(0) Show the name of the most recently added species in alphabetical order.
+(1) Give me the name of the most recent species in the database, sorted by their ID number.
+(2) Show the most recent species listed in the "species" table, ordered by their unique ID number in descending order.
+(3) Show the most recent species in alphabetical order.
+(4) Get the most recent species name from the list of species in descending order by their ID.
+(5) Show the name of the most recently added species in descending order based on their species id.
+(6) Get the name of the most recently added species in descending order from the "species" table.
+(7) Retrieve the name of the latest species from the list of species, sorted in descending order by their unique identifier and only return one result.

@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_fda_id = "FDA000118"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_fda_id = "FDA000118"
+GPT-3 choices:
+(0) How many records are there in the biomarker_fda_drug table where the biomarker_fda_id is "FDA000118"?
+(1) How many drugs are associated with the biomarker "FDA000118" in the biomarker FDA database?
+(2) How many biomarker-drug pairs are there in the FDA database for biomarker "FDA000118"?
+(3) How many biomarker-fda-drug combinations have an FDA ID of "FDA000118"?
+(4) How many rows are there in the table "biomarker_fda_drug" where the value in the column "biomarker_fda_id" is equal to "FDA000118"?
+(5) How many biomarkers have associated FDA drugs with an FDA ID of "FDA000118"?
+(6) How many drugs have biomarkers associated with the FDA identification number "FDA000118"?
+(7) How many entries are in the biomarker_fda_drug table that have a biomarker_fda_id of "FDA000118"?
+
+
+Re-ranked choices:
+3.562  How many biomarker-drug pairs are there in the FDA database for biomarker "FDA000118"?
+3.550  How many biomarkers have associated FDA drugs with an FDA ID of "FDA000118"?
+3.543  How many biomarker-fda-drug combinations have an FDA ID of "FDA000118"?
+3.539  How many drugs are associated with the biomarker "FDA000118" in the biomarker FDA database?
+2.129  How many drugs have biomarkers associated with the FDA identification number "FDA000118"?
+0.736  How many records are there in the biomarker_fda_drug table where the biomarker_fda_id is "FDA000118"?
+0.731  How many entries are in the biomarker_fda_drug table that have a biomarker_fda_id of "FDA000118"?
+0.728  How many rows are there in the table "biomarker_fda_drug" where the value in the column "biomarker_fda_id" is equal to "FDA000118"?
+

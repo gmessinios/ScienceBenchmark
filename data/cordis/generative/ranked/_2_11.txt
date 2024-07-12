@@ -1,0 +1,28 @@
+SELECT project_members.activity_type, count(*) FROM project_members AS project_members  GROUP BY project_members.activity_type
+
+###
+
+
+Original Query:
+SELECT T1.activity_type, count(*) FROM project_members AS T1  GROUP BY T1.activity_type
+GPT-3 choices:
+(0) "Count the number of project members for each type of activity."
+(1) How many members are involved in each type of activity within the project?
+(2) Count the number of project members for each activity type.
+(3) Count the number of members in each activity type for all project members.
+(4) Count the number of project members grouped by their activity type.
+(5) Count the number of activities for each type from the project members.
+(6) How many project members are there in each activity type?
+(7) How many members are in each activity type for the project?
+
+
+Re-ranked choices:
+5.642  Count the number of members in each activity type for all project members.
+4.947  Count the number of project members grouped by their activity type.
+4.262  How many project members are there in each activity type?
+4.258  How many members are in each activity type for the project?
+4.250  Count the number of project members for each activity type.
+4.247  "Count the number of project members for each type of activity."
+4.242  How many members are involved in each type of activity within the project?
+2.854  Count the number of activities for each type from the project members.
+

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.platform_method, count(*) FROM biomarker_fda_test AS biomarker_fda_test  GROUP BY biomarker_fda_test.platform_method
+
+###
+
+
+Original Query:
+SELECT T1.platform_method, count(*) FROM biomarker_fda_test AS T1  GROUP BY T1.platform_method
+GPT-3 choices:
+(0) Count the number of biomarkers for each unique platform method in the FDA's biomarker testing database.
+(1) How many distinct platform methods are used in the FDA biomarker testing dataset and how many records correspond to each method?
+(2) "How many times does each platform method appear in the biomarker_fda_test table?"
+(3) How many biomarker FDA tests have been conducted per platform method?
+(4) How many times has each platform method been used in the biomarker_fda_test table?
+(5) How many biomarker entries are there for each platform method in the FDA test?
+(6) How many biomarkers have been tested using each platform method in the FDA's biomarker database?
+(7) How many records are there in the biomarker_fda_test table grouped by platform methods?
+
+
+Re-ranked choices:
+5.675  How many biomarker entries are there for each platform method in the FDA test?
+5.644  How many biomarkers have been tested using each platform method in the FDA's biomarker database?
+5.642  Count the number of biomarkers for each unique platform method in the FDA's biomarker testing database.
+4.258  How many biomarker FDA tests have been conducted per platform method?
+4.238  How many distinct platform methods are used in the FDA biomarker testing dataset and how many records correspond to each method?
+2.852  How many times has each platform method been used in the biomarker_fda_test table?
+2.845  "How many times does each platform method appear in the biomarker_fda_test table?"
+2.143  How many records are there in the biomarker_fda_test table grouped by platform methods?
+

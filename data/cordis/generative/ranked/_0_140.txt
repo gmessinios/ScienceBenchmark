@@ -1,0 +1,28 @@
+SELECT projects.ec_ref FROM projects AS projects WHERE projects.ec_max_contribution = 2941865.0
+
+###
+
+
+Original Query:
+SELECT T1.ec_ref FROM projects AS T1 WHERE T1.ec_max_contribution = 2941865.0
+GPT-3 choices:
+(0) Retrieve the ec_ref value from projects where the ec_max_contribution is equal to 2941865.0.
+(1) Find the EC reference number for a project from the projects table where the maximum contribution is 2941865.0.
+(2) What is the EC reference number for a project in the projects table where the maximum contribution is equal to 2941865.0?
+(3) Retrieve the EC reference numbers from projects where the maximum contribution is equal to 2941865.0.
+(4) Find the EC reference numbers for projects where the maximum contribution is 2941865.0.
+(5) Retrieve the ec_ref value from the projects table where the ec_max_contribution is equal to 2941865.0.
+(6) Get the ec_ref value from the projects table where the ec_max_contribution is equal to 2941865.0.
+(7) Find the EC reference number of the project with a maximum contribution of 2941865.0 in the projects table.
+
+
+Re-ranked choices:
+4.254  Find the EC reference number of the project with a maximum contribution of 2941865.0 in the projects table.
+4.236  Find the EC reference numbers for projects where the maximum contribution is 2941865.0.
+4.233  Find the EC reference number for a project from the projects table where the maximum contribution is 2941865.0.
+4.233  What is the EC reference number for a project in the projects table where the maximum contribution is equal to 2941865.0?
+4.233  Retrieve the EC reference numbers from projects where the maximum contribution is equal to 2941865.0.
+1.433  Retrieve the ec_ref value from projects where the ec_max_contribution is equal to 2941865.0.
+1.430  Retrieve the ec_ref value from the projects table where the ec_max_contribution is equal to 2941865.0.
+1.430  Get the ec_ref value from the projects table where the ec_max_contribution is equal to 2941865.0.
+

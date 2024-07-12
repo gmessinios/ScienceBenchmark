@@ -1,0 +1,16 @@
+SELECT disease_mutation.ref_aa FROM disease_mutation AS disease_mutation WHERE disease_mutation.id = 4712
+
+###
+
+
+Original Query:
+SELECT T1.ref_aa FROM disease_mutation AS T1 WHERE T1.id = 4712
+GPT-3 choices:
+(0) What is the reference amino acid for the disease mutation with an ID of 4712 in the table "disease_mutation"?
+(1) Retrieve the reference amino acid from the disease_mutation table where the id is 4712.
+(2) What is the reference amino acid for the disease mutation with an ID of 4712 in the disease_mutation table?
+(3) What is the reference amino acid for the disease mutation with ID 4712 in the "disease_mutation" table?
+(4) What is the reference amino acid for the disease mutation with an id of 4712?
+(5) What is the reference amino acid for the disease mutation with an ID of 4712 in the table "disease_mutation"?
+(6) What is the reference amino acid of the disease mutation with an ID of 4712 in the disease_mutation table?
+(7) What is the reference amino acid for the disease mutation with an ID of 4712 in the disease_mutation table?

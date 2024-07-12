@@ -1,0 +1,28 @@
+SELECT count(*) FROM stage AS stage
+
+###
+
+
+Original Query:
+SELECT count(*) FROM stage AS T1
+GPT-3 choices:
+(0) How many rows are in the stage table?
+(1) How many records are in the stage table?
+(2) "How many rows are in the stage table?"
+(3) How many rows are in the "stage" table?
+(4) How many records are there in the "stage" table?
+(5) How many records are there in the stage table?
+(6) How many entries are there in the stage table?
+(7) Count the number of rows in the stage table.
+
+
+Re-ranked choices:
+2.000  How many rows are in the stage table?
+2.000  How many records are in the stage table?
+2.000  "How many rows are in the stage table?"
+2.000  How many rows are in the "stage" table?
+1.733  How many records are there in the "stage" table?
+1.733  How many records are there in the stage table?
+1.543  How many entries are there in the stage table?
+1.543  Count the number of rows in the stage table.
+

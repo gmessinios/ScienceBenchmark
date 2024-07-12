@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 1 or photometrically_observed.description = "NotAType:"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value = 1 or T1.description = "NotAType:"
+GPT-3 choices:
+(0) Which names are associated with a photometrically observed photo type that has a value of 1 or a description of "NotAType:"?
+(1) Return the name of the object that has been photometrically observed, where either the value is 1 or the description is "NotAType:".
+(2) Which names are associated with photometrically observed objects that have a value of 1 or a description of "NotAType:"?
+(3) Show the names of all types from the "photo_type" table where either the value is equal to 1 or the description contains "NotAType:".
+(4) Return the names of photometric types from the photo_type table where the value is 1 or the description is "NotAType:".
+(5) Retrieve the name of all photometrically observed objects from the "photo_type" table where their value is equal to 1 or their description is not a type.
+(6) Find the name of any photometrically observed object that has a value of 1 or a description of "NotAType:".
+(7) What are the names of all objects that have a photometrically observed value of 1 or have a description that does not include the phrase "NotAType:"?
+
+
+Re-ranked choices:
+7.726  Find the name of any photometrically observed object that has a value of 1 or a description of "NotAType:".
+7.024  Retrieve the name of all photometrically observed objects from the "photo_type" table where their value is equal to 1 or their description is not a type.
+6.323  Return the name of the object that has been photometrically observed, where either the value is 1 or the description is "NotAType:".
+6.323  What are the names of all objects that have a photometrically observed value of 1 or have a description that does not include the phrase "NotAType:"?
+6.322  Which names are associated with a photometrically observed photo type that has a value of 1 or a description of "NotAType:"?
+6.321  Which names are associated with photometrically observed objects that have a value of 1 or a description of "NotAType:"?
+3.528  Show the names of all types from the "photo_type" table where either the value is equal to 1 or the description contains "NotAType:".
+3.525  Return the names of photometric types from the photo_type table where the value is 1 or the description is "NotAType:".
+

@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861534997
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.neighborobjid = 1237645876861534997
+GPT-3 choices:
+(0) What is the photometric value for the nearest neighbor object with an objid of 1237645876861534997 and a neighbortype matching that of photometrically observed?
+(1) Retrieve the photometrically observed value for the nearest neighbor object with an ID of 1237645876861534997 from the photo type table.
+(2) Retrieve the photometrically observed value from the photo type table where the neighbor object ID is equal to 1237645876861534997 and the photometrically observed value matches the neighboring object type.
+(3) What is the photometrically observed value for the neighbor object with ID 1237645876861534997, as determined by its nearest neighbor type?
+(4) Retrieve the value from the "photometrically_observed" table where the value is equal to the neighbor type of the object with ID 1237645876861534997 in the "neighbors" table.
+(5) Retrieve the value of the photometrically observed photo type for the nearest neighbor object with the neighborobjid of 1237645876861534997 from the neighbors table.
+(6) What is the value of photometrically observed in the photo type table where the neighbor object ID in the neighbors table matches 1237645876861534997?
+(7) Retrieve the value of the photometrically observed type for the neighbor object with an ID of 1237645876861534997, which is located in the table "neighbors" and joined with the "photo_type" table.

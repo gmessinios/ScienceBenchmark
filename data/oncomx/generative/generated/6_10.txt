@@ -1,0 +1,16 @@
+SELECT anatomical_entity.id FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.name = "prostate gland ventral lobe" and anatomical_entity.description = "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm. [WP,unvetted]."
+
+###
+
+
+Original Query:
+SELECT T1.id FROM anatomical_entity AS T1 WHERE T1.name = "prostate gland ventral lobe" and T1.description = "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm. [WP,unvetted]."
+GPT-3 choices:
+(0) What is the ID of the anatomical entity that has the name "prostate gland ventral lobe" and description "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm."?
+(1) Find the ID of the anatomical entity in the prostate gland ventral lobe that is called "supraoptic nucleus" and has a description of "a nucleus of magnocellular neurosecretory cells in the hypothalamus, located at the base of the brain near the optic chiasm".
+(2) Find the ID of the anatomical entity in the prostate gland ventral lobe that is described as the supraoptic nucleus, which is a nucleus made up of large neurosecretory cells located in the hypothalamus near the optic chiasm.
+(3) Retrieve the ID of the anatomical entity "prostate gland ventral lobe" that has the description "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm."
+(4) Find the ID for the anatomical entity named "prostate gland ventral lobe" with a description of "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm."
+(5) What is the ID of the anatomical entity "prostate gland ventral lobe" with a description of "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm."?
+(6) Find the ID of the anatomical entity that is named "prostate gland ventral lobe" and has a description of "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm."
+(7) Find the ID of the anatomical entity called "prostate gland ventral lobe" that has a description of "The supraoptic nucleus (SON) is a nucleus of magnocellular neurosecretory cells in the hypothalamus of the mammalian brain. The nucleus is situated at the base of the brain, adjacent to the optic chiasm."

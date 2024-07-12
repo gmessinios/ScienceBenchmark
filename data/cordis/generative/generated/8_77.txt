@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name != "Carlo Ghezzi"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name != "Carlo Ghezzi"
+GPT-3 choices:
+(0) Find the unique ID of all people whose full name is not "Carlo Ghezzi".
+(1) Get the unique ID of all people from the table "people" where their full name is not "Carlo Ghezzi".
+(2) Retrieve the unique identification numbers of all people whose full name is not "Carlo Ghezzi".
+(3) Get the unique identifier for all people who have a full name that is not "Carlo Ghezzi".
+(4) Retrieve the unique ID of all people whose full name is not "Carlo Ghezzi".
+(5) Retrieve the unique ID numbers of all people who have a full name that is not "Carlo Ghezzi".
+(6) Retrieve the UNICS ID of all people, except for Carlo Ghezzi, from the people table.
+(7) Get the unics ID of all people in the "people" table except for those with the full name "Carlo Ghezzi".

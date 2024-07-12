@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people AS people WHERE people.unics_id != 1209124
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 WHERE T1.unics_id != 1209124
+GPT-3 choices:
+(0) Retrieve the full names of all people whose unique identification number is not equal to 1209124.
+(1) Retrieve the full name of all people who do not have a UNICS ID of 1209124.
+(2) Retrieve the full names of all people who do not have a unics ID of 1209124.
+(3) "Get the full names of all people from the table 'people' except for those with a unics_id equal to 1209124."
+(4) "Retrieve the full names of all people in the database who do not have a UNICS ID of 1209124."
+(5) Retrieve the full name of all people who have a UNICS ID that is not equal to 1209124.
+(6) Get the full name of all people in the "people" table except for the person with a UNICS ID of 1209124.
+(7) Get the full names of all people whose unics ID is not 1209124 from the table called "people".

@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description = "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat." or subject_areas.title = "Mathematics and Statistics"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description = "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat." or T1.title = "Mathematics and Statistics"
+GPT-3 choices:
+(0) Retrieve the subject area code for "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat" or "Mathematics and Statistics" from the subject_areas table.
+(1) Retrieve the code for subject areas that have a description of "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat." or a title of "Mathematics and Statistics".
+(2) Find the code for subject areas related to either energy conservation or mathematics and statistics.
+(3) Retrieve the code for subject areas with a description of "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat" or a title of "Mathematics and Statistics".
+(4) Find the code for subject areas where the description is "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat" or the title is "Mathematics and Statistics".
+(5) Retrieve the code for subject areas with a description of "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat." or a title of "Mathematics and Statistics".
+(6) Find the code for subject areas that have a description of "Energy conservation; increased efficiency of energy use; energy audits; heat transmission and storage; heat pumps; thermal insulation; use of waste heat" or a title of "Mathematics and Statistics".
+(7) Find the subject area codes for energy conservation, increased efficiency of energy use, energy audits, heat transmission and storage, heat pumps, thermal insulation, use of waste heat or mathematics and statistics.

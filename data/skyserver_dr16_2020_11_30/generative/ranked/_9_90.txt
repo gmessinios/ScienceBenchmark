@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.programname FROM specobj AS Spectroscopic_objects JOIN photoobj AS Photometric_objects ON Spectroscopic_objects.bestobjid = Photometric_objects.objid WHERE Photometric_objects.type != 3
+
+###
+
+
+Original Query:
+SELECT T1.programname FROM specobj AS T1 JOIN photoobj AS T2 ON T1.bestobjid = T2.objid WHERE T2.type != 3
+GPT-3 choices:
+(0) What are the names of the programs for all spectroscopic objects where their best objid does not match with an objid from photometric objects that has a type other than 3?
+(1) Get the program name for spectroscopic objects where the best object ID in the specobj table is equal to the object ID in the photoobj table and where the type in the photoobj table is not equal to 3.
+(2) Find the program names for all spectroscopic objects where their best photometric object ID does not have a type of 3.
+(3) Find the program names for all spectroscopic objects where the best object ID matches with the object ID in the photoobj table, but only for rows where the type is not equal to 3.
+(4) Find the program names of spectroscopic objects whose best object IDs are matched with photometric objects' object IDs and have a type that is not equal to 3.
+(5) What is the program name of all spectroscopic objects where their best object ID does not match any photometric objects with a type other than 3?
+(6) Find the program names for spectroscopic objects whose best photometric object identification does not have a type of 3.
+(7) Find the program names of all spectroscopic objects whose best object IDs do not correspond to photometric objects that have a type other than 3.
+
+
+Re-ranked choices:
+8.427  What is the program name of all spectroscopic objects where their best object ID does not match any photometric objects with a type other than 3?
+8.417  Get the program name for spectroscopic objects where the best object ID in the specobj table is equal to the object ID in the photoobj table and where the type in the photoobj table is not equal to 3.
+7.033  Find the program names for all spectroscopic objects where their best photometric object ID does not have a type of 3.
+7.021  Find the program names for all spectroscopic objects where the best object ID matches with the object ID in the photoobj table, but only for rows where the type is not equal to 3.
+5.625  Find the program names of spectroscopic objects whose best object IDs are matched with photometric objects' object IDs and have a type that is not equal to 3.
+5.625  Find the program names for spectroscopic objects whose best photometric object identification does not have a type of 3.
+5.625  Find the program names of all spectroscopic objects whose best object IDs do not correspond to photometric objects that have a type other than 3.
+4.220  What are the names of the programs for all spectroscopic objects where their best objid does not match with an objid from photometric objects that has a type other than 3?
+

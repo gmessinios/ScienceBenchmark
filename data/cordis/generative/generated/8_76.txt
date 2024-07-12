@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes AS funding_schemes WHERE funding_schemes.code != "NET"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM funding_schemes AS T1 WHERE T1.code != "NET"
+GPT-3 choices:
+(0) Retrieve the titles of all funding schemes, excluding those with a code of "NET".
+(1) Retrieve the titles of all funding schemes that have a code other than "NET".
+(2) Find the titles of all funding schemes from the "funding_schemes" table, except for those with the code "NET".
+(3) Retrieve the titles of all funding schemes from the "funding_schemes" table except for those with a code of "NET".
+(4) Find the titles of all funding schemes except for those with a code of "NET".
+(5) Find the titles of all funding schemes, except for those with a code of "NET".
+(6) What are the titles of all funding schemes except for "NET"?
+(7) Show the titles of all funding schemes, excluding the one with code "NET".

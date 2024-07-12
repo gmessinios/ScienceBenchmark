@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.actual_use = "prognostic predictive"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test_use AS T1 WHERE T1.actual_use = "prognostic predictive"
+GPT-3 choices:
+(0) How many biomarker FDA tests are there that have both prognostic and predictive actual uses?
+(1) How many biomarkers in the FDA test use database have an actual use of "prognostic predictive"?
+(2) How many biomarkers in the FDA test use have been categorized as both prognostic and predictive?
+(3) How many entries are there in the table of FDA-approved biomarkers that are used for both prognostic and predictive purposes?
+(4) How many biomarkers in the FDA test database have an actual use listed as "prognostic predictive"?
+(5) How many biomarker FDA test uses are classified as "prognostic predictive"?
+(6) How many biomarker FDA tests are used for both prognostic and predictive purposes?
+(7) How many biomarker-fda-test-uses are there where the actual use is "prognostic predictive"?
+
+
+Re-ranked choices:
+7.036  How many biomarkers in the FDA test use database have an actual use of "prognostic predictive"?
+7.032  How many biomarkers in the FDA test database have an actual use listed as "prognostic predictive"?
+5.637  How many biomarker FDA tests are there that have both prognostic and predictive actual uses?
+5.634  How many biomarker FDA test uses are classified as "prognostic predictive"?
+4.936  How many biomarkers in the FDA test use have been categorized as both prognostic and predictive?
+4.242  How many biomarker FDA tests are used for both prognostic and predictive purposes?
+4.224  How many biomarker-fda-test-uses are there where the actual use is "prognostic predictive"?
+1.430  How many entries are there in the table of FDA-approved biomarkers that are used for both prognostic and predictive purposes?
+

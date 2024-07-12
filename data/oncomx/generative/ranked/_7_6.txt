@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.ensembl_gene_id = "ENSG00000060709" or xref_gene_ensembl.gene_symbol = "1700024P16Rik"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.ensembl_gene_id = "ENSG00000060709" or T1.gene_symbol = "1700024P16Rik"
+GPT-3 choices:
+(0) What is the species ID for the gene with Ensembl ID ENSG00000060709 or gene symbol 1700024P16Rik in the xref_gene_ensembl table?
+(1) Retrieve the species ID for the gene with Ensembl gene ID "ENSG00000060709" or gene symbol "1700024P16Rik" from the xref_gene_ensembl table.
+(2) Find the species ID from the table containing Ensembl gene IDs and gene symbols, where the Ensembl gene ID is equal to "ENSG00000060709" or the gene symbol is equal to "1700024P16Rik".
+(3) What is the species ID for the gene with an Ensembl gene ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik"?
+(4) Retrieve the species ID from the "xref_gene_ensembl" table where the ensembl_gene_id is equal to "ENSG00000060709" or the gene_symbol is equal to "1700024P16Rik".
+(5) Retrieve the species ID for the gene with an Ensembl ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik" from the table xref_gene_ensembl.
+(6) What is the species ID for the gene with an Ensembl gene ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik" in the xref_gene_ensembl table?
+(7) What is the species ID for a gene with an Ensembl ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik" in the table xref_gene_ensembl?
+
+
+Re-ranked choices:
+7.038  What is the species ID for the gene with an Ensembl gene ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik"?
+7.025  What is the species ID for the gene with Ensembl ID ENSG00000060709 or gene symbol 1700024P16Rik in the xref_gene_ensembl table?
+7.025  Retrieve the species ID for the gene with Ensembl gene ID "ENSG00000060709" or gene symbol "1700024P16Rik" from the xref_gene_ensembl table.
+7.025  Retrieve the species ID for the gene with an Ensembl ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik" from the table xref_gene_ensembl.
+7.024  What is the species ID for a gene with an Ensembl ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik" in the table xref_gene_ensembl?
+7.024  What is the species ID for the gene with an Ensembl gene ID of "ENSG00000060709" or a gene symbol of "1700024P16Rik" in the xref_gene_ensembl table?
+7.020  Find the species ID from the table containing Ensembl gene IDs and gene symbols, where the Ensembl gene ID is equal to "ENSG00000060709" or the gene symbol is equal to "1700024P16Rik".
+2.824  Retrieve the species ID from the "xref_gene_ensembl" table where the ensembl_gene_id is equal to "ENSG00000060709" or the gene_symbol is equal to "1700024P16Rik".
+

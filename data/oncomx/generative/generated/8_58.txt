@@ -1,0 +1,16 @@
+SELECT biomarker_article.biomarker_internal_id FROM biomarker_article AS biomarker_article WHERE biomarker_article.pmid != "21300873"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id FROM biomarker_article AS T1 WHERE T1.pmid != "21300873"
+GPT-3 choices:
+(0) Find the internal ID of biomarkers from articles that have a PMID different than 21300873.
+(1) Find the internal ID of a biomarker from the "biomarker_article" table where the PMID is not equal to "21300873".
+(2) What is the biomarker internal ID for articles in the database that have a PMID value different from "21300873"?
+(3) Retrieve the internal ID of biomarkers from articles where the PMID is not "21300873".
+(4) Retrieve the internal IDs of all biomarkers from articles where the PMID is not equal to "21300873".
+(5) Retrieve the internal IDs of biomarkers from articles, excluding the article with a PMID of "21300873".
+(6) Find the internal IDs of biomarkers mentioned in articles, excluding those with a PMID of 21300873.
+(7) Retrieve the biomarker internal ID from the biomarker_article table where the PMID is not equal to "21300873".

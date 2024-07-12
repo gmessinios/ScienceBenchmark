@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbormode = 1 or Nearest_neighbour_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.neighbormode = 1 or T1.mode = 1
+GPT-3 choices:
+(0) Retrieve the type of nearest neighbor objects where the neighbor mode or mode is equal to 1.
+(1) Find the type of objects that are nearest neighbors and have a neighbor mode or mode value of 1.
+(2) What is the type of objects that are either in neighbor mode 1 or have a mode value of 1 from the neighbors table?
+(3) Retrieve the type of nearest neighbor objects that have a neighbor mode value of 1 or a mode value of 1.
+(4) Get the types of nearest neighbor objects where the neighbor mode is either 1 or the mode is also 1.
+(5) Get the type of objects from the nearest neighbors where either the neighbormode or mode is equal to 1.
+(6) "Retrieve the type of objects belonging to neighboring or mode 1 in the neighbors table."
+(7) Retrieve the types of nearest neighbor objects where the neighbormode or mode is equal to 1.

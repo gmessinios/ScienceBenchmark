@@ -1,0 +1,27 @@
+SELECT count(*) FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trial_id = "NCT02042379"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trial_id = "NCT02042379"
+GPT-3 choices:
+(0) How many rows are there in the table biomarker_fda_test_trial where the test_trial_id is equal to "NCT02042379"?
+(1) How many biomarker FDA test trials have a test trial ID of "NCT02042379"?
+(2) How many biomarkers were recorded in the FDA test trial with a corresponding test trial ID of "NCT02042379"?
+(3) How many records are in the biomarker FDA test trial table for the test trial with an ID of "NCT02042379"?
+(4) How many biomarker FDA test trials are associated with the test trial NCT02042379?
+(5) How many biomarker FDA test trials are associated with the test trial "NCT02042379"?
+(6) How many records are in the biomarker FDA test trial table for the NCT02042379 test trial?
+(7) How many biomarker FDA test trials have a test trial ID of "NCT02042379"?
+
+
+Re-ranked choices:
+7.762  How many biomarker FDA test trials have a test trial ID of "NCT02042379"?
+7.739  How many records are in the biomarker FDA test trial table for the test trial with an ID of "NCT02042379"?
+6.350  How many records are in the biomarker FDA test trial table for the NCT02042379 test trial?
+6.337  How many biomarkers were recorded in the FDA test trial with a corresponding test trial ID of "NCT02042379"?
+6.336  How many biomarker FDA test trials are associated with the test trial "NCT02042379"?
+5.636  How many biomarker FDA test trials are associated with the test trial NCT02042379?
+0.732  How many rows are there in the table biomarker_fda_test_trial where the test_trial_id is equal to "NCT02042379"?
+

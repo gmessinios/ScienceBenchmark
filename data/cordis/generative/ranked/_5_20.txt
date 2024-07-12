@@ -1,0 +1,28 @@
+SELECT projects.start_date FROM projects AS projects    ORDER BY projects.principal_investigator DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.start_date FROM projects AS T1    ORDER BY T1.principal_investigator DESC LIMIT 1
+GPT-3 choices:
+(0) Find the start date of the project with the highest ranking principal investigator, in ascending order, limiting to only one result.
+(1) Get the start date of the most recent project in ascending order by principal investigator.
+(2) Retrieve the starting date of the project with the highest-ranked principal investigator, sorted in descending order by their rank, limited to only one result.
+(3) Get the start date of the project with the highest ranked principal investigator.
+(4) Find the start date of the project with the highest ranked principal investigator.
+(5) "Retrieve the start date of the project with the highest principal investigator, in ascending order, from the list of projects."
+(6) Find the start date of the project with the highest ranking principal investigator, in ascending order, limited to one result.
+(7) What is the start date of the project with the highest ranked principal investigator, sorted in descending order by principal investigator, and limited to only one result?
+
+
+Re-ranked choices:
+4.929  Get the start date of the most recent project in ascending order by principal investigator.
+4.919  What is the start date of the project with the highest ranked principal investigator, sorted in descending order by principal investigator, and limited to only one result?
+4.242  Get the start date of the project with the highest ranked principal investigator.
+4.242  Find the start date of the project with the highest ranked principal investigator.
+4.227  "Retrieve the start date of the project with the highest principal investigator, in ascending order, from the list of projects."
+4.224  Find the start date of the project with the highest ranking principal investigator, in ascending order, limited to one result.
+4.224  Find the start date of the project with the highest ranking principal investigator, in ascending order, limiting to only one result.
+3.520  Retrieve the starting date of the project with the highest-ranked principal investigator, sorted in descending order by their rank, limited to only one result.
+

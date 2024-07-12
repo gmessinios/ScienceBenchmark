@@ -1,0 +1,28 @@
+SELECT Photometric_objects.run FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.description = "NotAType:"
+
+###
+
+
+Original Query:
+SELECT T1.run FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.description = "NotAType:"
+GPT-3 choices:
+(0) Find the run value from the photoobj table for objects that have been observed photometrically and are not classified as any specific type.
+(1) Find the run from the Photometric_objects table where the type is equal to "NotAType:" as described in the photometrically_observed table.
+(2) Find the run of Photometric objects where the type is equal to "NotAType:".
+(3) Retrieve the name of the run from all photometric objects that have a type that is not classified as any particular type.
+(4) Find the runs from photometric objects where the description for the type is "NotAType:".
+(5) Get the name of the run from the photoobj table for photometric objects where type is equal to the value associated with photometrically observed and the description is "NotAType:".
+(6) Find the run values from the photoobj table for objects that were photometrically observed and whose type is not a specified type.
+(7) Retrieve the run number from the photoobj table for objects that have a type of "NotAType" according to the photometrically_observed table.
+
+
+Re-ranked choices:
+10.517  Get the name of the run from the photoobj table for photometric objects where type is equal to the value associated with photometrically observed and the description is "NotAType:".
+7.026  Find the run values from the photoobj table for objects that were photometrically observed and whose type is not a specified type.
+7.023  Find the run value from the photoobj table for objects that have been observed photometrically and are not classified as any specific type.
+6.320  Retrieve the run number from the photoobj table for objects that have a type of "NotAType" according to the photometrically_observed table.
+4.943  Find the run of Photometric objects where the type is equal to "NotAType:".
+4.935  Find the runs from photometric objects where the description for the type is "NotAType:".
+4.923  Find the run from the Photometric_objects table where the type is equal to "NotAType:" as described in the photometrically_observed table.
+4.228  Retrieve the name of the run from all photometric objects that have a type that is not classified as any particular type.
+

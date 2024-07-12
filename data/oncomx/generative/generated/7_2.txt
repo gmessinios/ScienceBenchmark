@@ -1,0 +1,16 @@
+SELECT species.genus FROM species AS species WHERE species.species = "sapiens" or species.speciesid = 10090
+
+###
+
+
+Original Query:
+SELECT T1.genus FROM species AS T1 WHERE T1.species = "sapiens" or T1.speciesid = 10090
+GPT-3 choices:
+(0) What is the genus of the species "sapiens" or with a species ID of 10090?
+(1) Retrieve the genus of all species where the species is "sapiens" or the species ID is 10090.
+(2) "Retrieve the genus of species where the species name is "sapiens" or the species ID is 10090 from the table "species"."
+(3) Get the genus of a species from the "species" table where the species is "sapiens" or its species ID is 10090.
+(4) "Retrieve the genus from the species table for either the species with a name of "sapiens" or a species ID of 10090."
+(5) What is the genus of the species with the name "sapiens" or the species ID 10090 in the table "species"?
+(6) Find the genus of the species whose name is "sapiens" or whose species ID is 10090 in the "species" table.
+(7) Find the genus of species where the species name is "sapiens" or the species ID is 10090.

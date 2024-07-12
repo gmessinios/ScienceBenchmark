@@ -1,0 +1,16 @@
+SELECT count(*) FROM galspecline AS Emission_line_estimates WHERE Emission_line_estimates.specobjid = 300725803023362048
+
+###
+
+
+Original Query:
+SELECT count(*) FROM galspecline AS T1 WHERE T1.specobjid = 300725803023362048
+GPT-3 choices:
+(0) How many emission lines are there in the galspecline table for the specobjid 300725803023362048?
+(1) How many emission lines estimates are there for the specobjid 300725803023362048 in the galspecline table?
+(2) How many emission line estimates are associated with the specobjid number 300725803023362048 in the galspecline table?
+(3) How many rows are in the galspecline table where the specobjid column matches 300725803023362048 in the Emission_line_estimates table?
+(4) How many emission line estimates are there in the galspecline table for the specobjid 300725803023362048?
+(5) How many emission line estimates are there for a specific spectral object with the ID 300725803023362048 in the galspecline table?
+(6) How many emission line estimates are there for the spectrum object with a specobjid of 300725803023362048 in the galspecline table?
+(7) How many emission line estimates are there for a specific specobjid?

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trade_name FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trial_id = "NCT00585195" and biomarker_fda_test_trial.test_submission = "K062706"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trial_id = "NCT00585195" and T1.test_submission = "K062706"
+GPT-3 choices:
+(0) Retrieve the test trade name for a biomarker FDA test trial with the test trial ID "NCT00585195" and the test submission "K062706".
+(1) What is the trade name of the test from the biomarker_fda_test_trial table where the test trial ID is "NCT00585195" and the test submission is "K062706"?
+(2) Get the test trade name from the biomarker FDA test trial table where the test trial ID is "NCT00585195" and the test submission is "K062706".
+(3) Retrieve the trade name for a biomarker FDA test trial with the ID "NCT00585195" and submission "K062706".
+(4) What is the trade name for the test with a trial ID of "NCT00585195" and a submission code of "K062706" in the Biomarker FDA Test Trial table?
+(5) What is the trade name of the test used in trial NCT00585195 with submission number K062706?
+(6) What is the test trade name for the biomarker with test trial ID "NCT00585195" and test submission "K062706"?
+(7) "Retrieve the trade name of the test from biomarker FDA trial with test ID NCT00585195 and submission code K062706."
+
+
+Re-ranked choices:
+12.639  Retrieve the trade name for a biomarker FDA test trial with the ID "NCT00585195" and submission "K062706".
+12.636  Retrieve the test trade name for a biomarker FDA test trial with the test trial ID "NCT00585195" and the test submission "K062706".
+12.632  Get the test trade name from the biomarker FDA test trial table where the test trial ID is "NCT00585195" and the test submission is "K062706".
+12.629  What is the trade name for the test with a trial ID of "NCT00585195" and a submission code of "K062706" in the Biomarker FDA Test Trial table?
+11.942  "Retrieve the trade name of the test from biomarker FDA trial with test ID NCT00585195 and submission code K062706."
+11.244  What is the test trade name for the biomarker with test trial ID "NCT00585195" and test submission "K062706"?
+9.826  What is the trade name of the test from the biomarker_fda_test_trial table where the test trial ID is "NCT00585195" and the test submission is "K062706"?
+7.750  What is the trade name of the test used in trial NCT00585195 with submission number K062706?
+

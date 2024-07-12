@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes JOIN projects AS projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.principal_investigator != 1210532
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 JOIN projects AS T2 ON T1.code = T2.ec_fund_scheme WHERE T2.principal_investigator != 1210532
+GPT-3 choices:
+(0) Find the funding scheme code from the funding schemes table for all projects where the principal investigator is not equal to 1210532.
+(1) Get the codes of all funding schemes from the funding_schemes table that correspond to projects in the projects table where the principal investigator is not 1210532.
+(2) Retrieve the code of the funding scheme from the table "funding_schemes" for projects where the principal investigator is not equal to 1210532, and join it with the "projects" table on matching codes.
+(3) Find the funding scheme code from the table "funding_schemes" where the principal investigator is not 1210532 in the "projects" table.
+(4) Retrieve the code from the funding_schemes table for all projects that have a principal investigator who is not 1210532.
+(5) Find the code of funding schemes where the principal investigator is not 1210532 for projects that have been joined with funding schemes.
+(6) Retrieve the code of all funding schemes where the principal investigator is not 1210532 from projects.
+(7) Retrieve the code of all funding schemes for projects where the principal investigator is not equal to 1210532.

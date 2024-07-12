@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.uberon_anatomical_id, count(*) FROM biomarker_edrn AS biomarker_edrn  GROUP BY biomarker_edrn.uberon_anatomical_id
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id, count(*) FROM biomarker_edrn AS T1  GROUP BY T1.uberon_anatomical_id
+GPT-3 choices:
+(0) How many biomarkers have been recorded for each anatomical location in the EDRN database?
+(1) How many counts of unique UBeron anatomical identifiers are there for each entry in the biomarker_edrn table?
+(2) Count the number of occurrences in the biomarker_edrn table grouped by the uberon_anatomical_id column.
+(3) Count the number of biomarkers for each anatomical region identified by the unique UBERON identifier and group the results by that identifier.
+(4) Get the count of all uberon anatomical IDs and group them by the corresponding uberon anatomical ID in the biomarker_edrn table.
+(5) "Count the number of biomarkers for each unique uberon anatomical ID in the biomarker_edrn table."
+(6) How many biomarkers are associated with each uberon anatomical ID in the EDRN database?
+(7) "Retrieve the number of biomarkers associated with each unique anatomical location in the EDRN database."
+
+
+Re-ranked choices:
+5.628  How many biomarkers are associated with each uberon anatomical ID in the EDRN database?
+4.923  Get the count of all uberon anatomical IDs and group them by the corresponding uberon anatomical ID in the biomarker_edrn table.
+4.230  "Count the number of biomarkers for each unique uberon anatomical ID in the biomarker_edrn table."
+3.523  Count the number of biomarkers for each anatomical region identified by the unique UBERON identifier and group the results by that identifier.
+2.835  How many biomarkers have been recorded for each anatomical location in the EDRN database?
+2.828  How many counts of unique UBeron anatomical identifiers are there for each entry in the biomarker_edrn table?
+2.824  "Retrieve the number of biomarkers associated with each unique anatomical location in the EDRN database."
+0.728  Count the number of occurrences in the biomarker_edrn table grouped by the uberon_anatomical_id column.
+

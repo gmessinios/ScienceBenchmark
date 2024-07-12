@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "NOTATYPE"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.name = "NOTATYPE"
+GPT-3 choices:
+(0) How many photometrically observed photos are there with the name "NOTATYPE"?
+(1) How many rows are in the table "photo_type" where the name column is equal to "NOTATYPE"?
+(2) How many photos have been observed photometrically with the type "NOTATYPE"?
+(3) How many photo types have been photometrically observed and are named "NOTATYPE"?
+(4) How many types of photos have been observed photometrically with the name "NOTATYPE"?
+(5) How many photos have been observed in a photometric manner with the type "NOTATYPE"?
+(6) How many photometrically observed photos are there with the type name "NOTATYPE"?
+(7) How many photometrically observed photo types are there with the name "NOTATYPE"?
+
+
+Re-ranked choices:
+4.932  How many types of photos have been observed photometrically with the name "NOTATYPE"?
+4.931  How many photometrically observed photos are there with the name "NOTATYPE"?
+4.929  How many photometrically observed photos are there with the type name "NOTATYPE"?
+4.929  How many photometrically observed photo types are there with the name "NOTATYPE"?
+3.531  How many photos have been observed photometrically with the type "NOTATYPE"?
+3.529  How many photo types have been photometrically observed and are named "NOTATYPE"?
+2.143  How many rows are in the table "photo_type" where the name column is equal to "NOTATYPE"?
+2.135  How many photos have been observed in a photometric manner with the type "NOTATYPE"?
+

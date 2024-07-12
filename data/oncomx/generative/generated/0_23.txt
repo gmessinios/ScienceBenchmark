@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.site_prediction FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.probability = 0.032
+
+###
+
+
+Original Query:
+SELECT T1.site_prediction FROM disease_mutation_impact_prediction AS T1 WHERE T1.probability = 0.032
+GPT-3 choices:
+(0) Retrieve the site prediction from the disease mutation impact prediction table where the probability is 0.032.
+(1) What are the site predictions from the table disease_mutation_impact_prediction where the probability is 0.032?
+(2) What is the predicted site from disease_mutation_impact_prediction where the probability is 0.032?
+(3) Find the site predictions from the disease_mutation_impact_prediction table where the probability is equal to 0.032.
+(4) What is the site prediction for disease mutation impact predictions where the probability is equal to 0.032?
+(5) What is the site prediction for disease mutation impact predictions where the probability is 0.032?
+(6) "Retrieve the site prediction from disease mutation impact predictions where the probability is equal to 0.032."
+(7) What is the site prediction from disease_mutation_impact_prediction where the probability is equal to 0.032?

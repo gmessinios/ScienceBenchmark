@@ -1,0 +1,16 @@
+SELECT Photometric_objects.clean FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.description != "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)"
+
+###
+
+
+Original Query:
+SELECT T1.clean FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.description != "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)"
+GPT-3 choices:
+(0) Retrieve the "clean" column from the "photoobj" table for objects that have been photometrically observed and are not labeled as coming from a catalog other than SDSS.
+(1) Find the clean values from the photoobj table for photometric objects that have been observed and are not from another catalog.
+(2) Find all clean photometric objects from the photoobj table that have been classified as photometrically observed in the photo_type table, excluding those labeled as known objects from a different catalog.
+(3) Find the clean column from the photoobj table for objects that are described as being photometrically observed but not from another catalog in the photo_type table.
+(4) Find the clean column from the Photometric_objects table where the type matches a value in the photo_type table and the description does not equal "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)".
+(5) Retrieve the clean attribute from the Photometric_objects table for objects that have been photometrically observed, excluding those that have come from a different catalog.
+(6) Get the clean value from the photoobj table for all objects that have a type matching a description in the photometrically_observed table, where the description is not "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)".
+(7) Retrieve the clean column from the Photometric_objects table where the type matches a value in the photo_type table, but exclude any objects that have a description of "KnownObject: Object came from some other catalog (not the SDSS catalog)".

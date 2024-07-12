@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "GHOST"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name != "GHOST"
+GPT-3 choices:
+(0) Retrieve the description from the photometrically observed photo type table where the name is not "GHOST".
+(1) Find the descriptions of all photo types that are not equal to "GHOST".
+(2) What is the description for all photo types except for "GHOST"?
+(3) Retrieve the description of all photo types that are not equal to "GHOST".
+(4) What is the description of photo types that are not "GHOST"?
+(5) Retrieve the descriptions of all photo types that are not "GHOST" from the table "photometrically_observed".
+(6) Retrieve the description of all photo types that are not named "GHOST" from the table of photometrically observed observations.
+(7) What are the descriptions of photo types that are not named "GHOST"?

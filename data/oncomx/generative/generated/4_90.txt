@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_study_design = "ProObs"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test AS T1 WHERE T1.test_study_design = "ProObs"
+GPT-3 choices:
+(0) How many biomarkers have a test study design of "ProObs" in the FDA's biomarker testing database?
+(1) "How many entries are in the FDA biomarker test database for studies with a test study design of "ProObs"?"
+(2) How many records are there in the biomarker_fda_test table where the test_study_design column is equal to "ProObs"?
+(3) How many biomarker FDA tests have a study design of "ProObs"?
+(4) How many biomarkers have been tested in studies with a test study design of "ProObs" in the biomarker FDA test database?
+(5) How many biomarker FDA tests have a test study design of "ProObs"?
+(6) How many records are there in the FDA test data for biomarkers where the study design is "ProObs"?
+(7) How many records are there in the biomarker_fda_test table where the test_study_design column is equal to "ProObs"?

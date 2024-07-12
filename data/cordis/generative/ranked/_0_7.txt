@@ -1,0 +1,28 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Sander Woutersen"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Sander Woutersen"
+GPT-3 choices:
+(0) Retrieve the unique identifier (unics_id) for the person with the full name "Sander Woutersen" from the table of people.
+(1) Retrieve the unique ID of the person with the full name "Sander Woutersen" from the table of people.
+(2) Find the unique ID of the person with the full name "Sander Woutersen".
+(3) Retrieve the unique identifier for the person with the full name "Sander Woutersen" from the table of people.
+(4) Find the UNICS ID for the person with the full name "Sander Woutersen" from the table of people.
+(5) What is the UNICS ID for the person with the full name "Sander Woutersen" in the table of people?
+(6) Retrieve the unique identifier (unics_id) for the person whose full name is "Sander Woutersen".
+(7) Retrieve the UNICS ID for the person with a full name of "Sander Woutersen" from the people table.
+
+
+Re-ranked choices:
+8.439  Retrieve the UNICS ID for the person with a full name of "Sander Woutersen" from the people table.
+7.039  Find the UNICS ID for the person with the full name "Sander Woutersen" from the table of people.
+7.037  What is the UNICS ID for the person with the full name "Sander Woutersen" in the table of people?
+5.686  Find the unique ID of the person with the full name "Sander Woutersen".
+5.645  Retrieve the unique ID of the person with the full name "Sander Woutersen" from the table of people.
+4.236  Retrieve the unique identifier (unics_id) for the person whose full name is "Sander Woutersen".
+4.233  Retrieve the unique identifier for the person with the full name "Sander Woutersen" from the table of people.
+4.229  Retrieve the unique identifier (unics_id) for the person with the full name "Sander Woutersen" from the table of people.
+

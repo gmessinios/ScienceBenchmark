@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes JOIN projects AS projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.acronym != "DynAMic"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 JOIN projects AS T2 ON T1.code = T2.ec_fund_scheme WHERE T2.acronym != "DynAMic"
+GPT-3 choices:
+(0) Retrieve the code of the funding schemes that are used by projects with acronyms other than "DynAMic".
+(1) Retrieve the code of all funding schemes for projects with acronyms other than "DynAMic".
+(2) Retrieve the code for all funding schemes from the table "funding_schemes" where the acronym of a project in the table "projects" is not equal to "DynAMic".
+(3) Retrieve the code for all funding schemes from the table "funding_schemes" where the acronym for a project in the table "projects" is not equal to "DynAMic".
+(4) Retrieve the codes of all funding schemes from the table "funding_schemes" where the project acronym is not equal to "DynAMic" and join it with the table "projects" on matching codes in order to get only those funding schemes that have been used for projects.
+(5) Retrieve the code of all funding schemes from the funding_schemes table that have been used for projects in which the acronym is not "DynAMic".
+(6) What is the code for the funding scheme associated with projects that have an acronym other than "DynAMic"?
+(7) Retrieve the code for all funding schemes associated with projects that have an acronym other than "DynAMic".
+
+
+Re-ranked choices:
+7.730  Retrieve the code of all funding schemes from the funding_schemes table that have been used for projects in which the acronym is not "DynAMic".
+7.730  What is the code for the funding scheme associated with projects that have an acronym other than "DynAMic"?
+7.728  Retrieve the code for all funding schemes from the table "funding_schemes" where the acronym of a project in the table "projects" is not equal to "DynAMic".
+7.728  Retrieve the code for all funding schemes from the table "funding_schemes" where the acronym for a project in the table "projects" is not equal to "DynAMic".
+7.728  Retrieve the code for all funding schemes associated with projects that have an acronym other than "DynAMic".
+7.017  Retrieve the codes of all funding schemes from the table "funding_schemes" where the project acronym is not equal to "DynAMic" and join it with the table "projects" on matching codes in order to get only those funding schemes that have been used for projects.
+6.341  Retrieve the code of the funding schemes that are used by projects with acronyms other than "DynAMic".
+6.341  Retrieve the code of all funding schemes for projects with acronyms other than "DynAMic".
+

@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.plateid = 872572466306770944
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.plateid = 872572466306770944
+GPT-3 choices:
+(0) Find the specobjid from the table spplines where the plateid in table specobj is equal to 872572466306770944 and then join it with the table Spectroscopic_objects to retrieve all spectroscopic objects.
+(1) Retrieve the specobjid from Stellar_spectal_line_indices for objects in Spectroscopic_objects with a plateid of 872572466306770944.
+(2) What are the specobjids from the table spplines that correspond to objects in the Spectroscopic_objects table with a plateid of 872572466306770944?
+(3) Get the specobjid from the spplines table for the Spectroscopic_objects that have a matching specobjid in both tables and whose plateid is equal to 872572466306770944.
+(4) Get the specobjid from spplines where the plateid of Spectroscopic_objects is equal to 872572466306770944.
+(5) Retrieve the specobjid from the Stellar_spectal_line_indices table where the Spectroscopic_objects' plateid is equal to 872572466306770944.
+(6) Find the specobjid from spplines where the plateid is equal to 872572466306770944 and join it with specobj, which has a matching specobjid, in order to retrieve all stellar spectral line indices.
+(7) Find the specobjid values from the spplines table where the corresponding plateid in the specobj table is equal to 872572466306770944.
+
+
+Re-ranked choices:
+2.823  Retrieve the specobjid from Stellar_spectal_line_indices for objects in Spectroscopic_objects with a plateid of 872572466306770944.
+2.123  What are the specobjids from the table spplines that correspond to objects in the Spectroscopic_objects table with a plateid of 872572466306770944?
+2.117  Find the specobjid from the table spplines where the plateid in table specobj is equal to 872572466306770944 and then join it with the table Spectroscopic_objects to retrieve all spectroscopic objects.
+1.423  Retrieve the specobjid from the Stellar_spectal_line_indices table where the Spectroscopic_objects' plateid is equal to 872572466306770944.
+1.418  Find the specobjid from spplines where the plateid is equal to 872572466306770944 and join it with specobj, which has a matching specobjid, in order to retrieve all stellar spectral line indices.
+0.732  Get the specobjid from spplines where the plateid of Spectroscopic_objects is equal to 872572466306770944.
+0.720  Get the specobjid from the spplines table for the Spectroscopic_objects that have a matching specobjid in both tables and whose plateid is equal to 872572466306770944.
+0.024  Find the specobjid values from the spplines table where the corresponding plateid in the specobj table is equal to 872572466306770944.
+

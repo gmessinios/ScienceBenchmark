@@ -1,0 +1,28 @@
+SELECT people.unics_id FROM people AS people JOIN projects AS projects ON people.unics_id = projects.principal_investigator WHERE projects.end_date = "2018-04-03"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 JOIN projects AS T2 ON T1.unics_id = T2.principal_investigator WHERE T2.end_date = "2018-04-03"
+GPT-3 choices:
+(0) Retrieve the unique IDs of people who are principal investigators for projects that ended on April 3rd, 2018.
+(1) Find the UNICS ID of all people who are principal investigators for projects that ended on April 3rd, 2018.
+(2) Find the UNICS IDs of people who are principal investigators on projects that ended on April 3rd, 2018.
+(3) "Find the UNICS ID of all people who are listed as the principal investigator on a project that ended on April 3, 2018."
+(4) Retrieve the unique identifier for all people who are listed as the principal investigator on a project that ended on April 3, 2018.
+(5) Retrieve the UNICS IDs of all people who are listed as the principal investigator in any project that ended on April 3, 2018.
+(6) Retrieve the unique identification numbers of all people who are listed as the principal investigator for a project that ended on April 3rd, 2018.
+(7) Retrieve the UNICS IDs of all people who are principal investigators on projects that ended on April 3, 2018.
+
+
+Re-ranked choices:
+7.732  Find the UNICS ID of all people who are principal investigators for projects that ended on April 3rd, 2018.
+7.728  "Find the UNICS ID of all people who are listed as the principal investigator on a project that ended on April 3, 2018."
+6.333  Find the UNICS IDs of people who are principal investigators on projects that ended on April 3rd, 2018.
+6.329  Retrieve the UNICS IDs of all people who are principal investigators on projects that ended on April 3, 2018.
+6.328  Retrieve the UNICS IDs of all people who are listed as the principal investigator in any project that ended on April 3, 2018.
+4.933  Retrieve the unique IDs of people who are principal investigators for projects that ended on April 3rd, 2018.
+4.924  Retrieve the unique identifier for all people who are listed as the principal investigator on a project that ended on April 3, 2018.
+4.924  Retrieve the unique identification numbers of all people who are listed as the principal investigator for a project that ended on April 3rd, 2018.
+

@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.specobjid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.subclass != "L1"
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM specobj AS T1 WHERE T1.subclass != "L1"
+GPT-3 choices:
+(0) Retrieve the specobjid from the specobj table where the subclass is not equal to "L1".
+(1) Find the specobjid of all objects in the specobj table where the subclass is not "L1".
+(2) Retrieve the specobjid of all objects in the Spectroscopic_objects table where the subclass is not equal to "L1".
+(3) Retrieve the spectroscopic object identification numbers from the specobj table for all objects where the subclass is not equal to "L1".
+(4) Find the specobjid for all objects in the Spectroscopic_objects table where the subclass is not "L1".
+(5) Retrieve the specobjid from the specobj table for objects in which the subclass is not "L1".
+(6) Get the specobjid for all spectroscopic objects where their subclass is not "L1".
+(7) Find the specobjid of spectroscopic objects that do not have a subclass of "L1".

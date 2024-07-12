@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 8 and photometrically_observed.description = "Galaxy: An extended object composed of many stars and other matter."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value = 8 and T1.description = "Galaxy: An extended object composed of many stars and other matter."
+GPT-3 choices:
+(0) What are the names of all objects that have been observed to have a photometric value of 8 and are described as galaxies?
+(1) Find the name of galaxies that have been photometrically observed with a value of 8, and are described as extended objects made up of multiple stars and other matter.
+(2) Find the names of galaxies that have a photometric value of 8 and are described as extended objects composed of stars and other matter.
+(3) What are the names of galaxies that have been photometrically observed and described as an extended object composed of many stars and other matter with a value of 8?
+(4) Retrieve the name of all objects that have a photo type value of 8 and description indicating it is an extended object composed of stars and other matter.
+(5) What are the names of galaxies that have been photometrically observed and identified as extended objects composed of many stars and other matter?
+(6) Get the names of galaxies that have been observed photometrically and are described as extended objects made up of multiple stars and other matter.
+(7) Find the names of all objects that have a photo type value of 8 and a description indicating that they are galaxies.
+
+
+Re-ranked choices:
+10.521  What are the names of galaxies that have been photometrically observed and described as an extended object composed of many stars and other matter with a value of 8?
+9.123  Retrieve the name of all objects that have a photo type value of 8 and description indicating it is an extended object composed of stars and other matter.
+8.421  Find the name of galaxies that have been photometrically observed with a value of 8, and are described as extended objects made up of multiple stars and other matter.
+7.022  What are the names of galaxies that have been photometrically observed and identified as extended objects composed of many stars and other matter?
+5.622  Get the names of galaxies that have been observed photometrically and are described as extended objects made up of multiple stars and other matter.
+4.926  Find the names of galaxies that have a photometric value of 8 and are described as extended objects composed of stars and other matter.
+3.530  What are the names of all objects that have been observed to have a photometric value of 8 and are described as galaxies?
+3.528  Find the names of all objects that have a photo type value of 8 and a description indicating that they are galaxies.
+

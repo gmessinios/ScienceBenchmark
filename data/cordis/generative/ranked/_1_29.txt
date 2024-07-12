@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.end_year = 2020
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.end_year = 2020
+GPT-3 choices:
+(0) Retrieve the title of all subject areas that are associated with projects that have an end year of 2020.
+(1) Find the title of all subject areas for projects with an end year of 2020.
+(2) "Retrieve the title of all subject areas for projects that have a completion year of 2020."
+(3) "Get the titles of subject areas for all projects that ended in 2020."
+(4) Get the title of all subject areas associated with projects that have an end year of 2020, by joining the tables subject_areas, project_subject_areas, and projects.
+(5) Get the title of all subject areas where the end year of the corresponding project is 2020.
+(6) Get the titles of subject areas that are associated with projects that ended in the year 2020.
+(7) Find the titles of all subject areas that were included in projects with an end year of 2020.
+
+
+Re-ranked choices:
+8.468  Find the title of all subject areas for projects with an end year of 2020.
+8.439  Get the title of all subject areas where the end year of the corresponding project is 2020.
+8.436  Retrieve the title of all subject areas that are associated with projects that have an end year of 2020.
+8.421  Get the title of all subject areas associated with projects that have an end year of 2020, by joining the tables subject_areas, project_subject_areas, and projects.
+7.044  Find the titles of all subject areas that were included in projects with an end year of 2020.
+7.042  "Retrieve the title of all subject areas for projects that have a completion year of 2020."
+5.634  Get the titles of subject areas that are associated with projects that ended in the year 2020.
+4.262  "Get the titles of subject areas for all projects that ended in 2020."
+

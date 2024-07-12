@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.id != 1269
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 WHERE T1.id != 1269
+GPT-3 choices:
+(0) Retrieve the feature key from the disease mutation site annotation table for all entries except for entry 1269.
+(1) What are the feature keys from the disease mutation site annotation table where the ID is not equal to 1269?
+(2) What is the feature key of all entries in disease_mutation_site_annotation table except for the one with id=1269?
+(3) What are the feature keys of all disease mutation sites except for the one with an ID of 1269 in the table "disease_mutation_site_annotation"?
+(4) Find all feature keys from the disease mutation site annotation table except for the one with an ID of 1269.
+(5) Find the feature key for all disease mutation site annotations except for ID 1269.
+(6) "Retrieve the feature key from the disease mutation site annotation table where the id is not equal to 1269."
+(7) What is the feature key of all disease mutation sites, excluding the site with an ID of 1269?

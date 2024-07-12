@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.platform_method FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.biomarker_origin = "amplification" and biomarker_fda_test.test_manufacturer = "BIOGENEX LABORATORIES INC."
+
+###
+
+
+Original Query:
+SELECT T1.platform_method FROM biomarker_fda_test AS T1 WHERE T1.biomarker_origin = "amplification" and T1.test_manufacturer = "BIOGENEX LABORATORIES INC."
+GPT-3 choices:
+(0) "Retrieve the platform method from the FDA-approved biomarker tests by BIOGENEX LABORATORIES INC. for amplification."
+(1) Retrieve the platform method from the FDA biomarker test results for biomarkers with an origin of "amplification" and a test manufacturer of "BIOGENEX LABORATORIES INC.".
+(2) What platform methods were used by Biogenex Laboratories Inc. for biomarkers originating from amplification in the FDA test data?
+(3) What is the platform method for biomarker FDA testing for amplification that was done by BIOGENEX LABORATORIES INC.?
+(4) What is the platform method for biomarkers associated with amplification that were tested by BIOGENEX LABORATORIES INC.?
+(5) Find the platform method used by Biogenex Laboratories Inc. for amplification biomarker tests in the FDA-approved biomarker database.
+(6) "Retrieve the platform method used for amplification biomarkers from the FDA-approved biomarker tests, specifically from those manufactured by BIOGENEX LABORATORIES INC."
+(7) Find the platform method used by BIOGENEX LABORATORIES INC. for biomarker tests related to amplification.

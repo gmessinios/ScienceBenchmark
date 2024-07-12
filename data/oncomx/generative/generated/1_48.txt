@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue JOIN disease_mutation AS disease_mutation ON disease_mutation_tissue.disease_mutation_id = disease_mutation.id WHERE disease_mutation.ref_aa = "D"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.ref_aa = "D"
+GPT-3 choices:
+(0) Get the anatomical identifier of tissues from a table that joins two tables, one containing information on disease mutations and the other containing information on tissue locations, where the reference amino acid for each mutation is "D".
+(1) Retrieve the uberon anatomical ID from the disease_mutation_tissue table where the reference amino acid in the corresponding disease_mutation record is "D".
+(2) What is the uberon anatomical ID for tissues associated with disease mutations that have a reference amino acid of "D"?
+(3) Find the Uberon anatomical ID for tissues associated with a disease mutation where the reference amino acid is "D".
+(4) Retrieve the Uberon anatomical ID from the disease_mutation_tissue table where the ref_aa column in the disease_mutation table is equal to "D".
+(5) Retrieve the unique anatomical identifier for tissues affected by mutations in diseases where the mutated amino acid is "D".
+(6) Retrieve the unique anatomical identifier from the disease_mutation_tissue table for all records where the ref_aa column in the disease_mutation table is equal to "D".
+(7) Find the uberon anatomical ID for disease mutation tissue where the reference amino acid is "D".

@@ -1,0 +1,26 @@
+SELECT disease_mutation.ref_aa FROM disease_mutation AS disease_mutation WHERE disease_mutation.ref_nt = "C"
+
+###
+
+
+Original Query:
+SELECT T1.ref_aa FROM disease_mutation AS T1 WHERE T1.ref_nt = "C"
+GPT-3 choices:
+(0) "Retrieve the amino acid reference sequence from disease mutations where the nucleotide reference sequence is 'C'."
+(1) Retrieve the amino acid reference sequence from the disease_mutation table where the nucleotide reference is equal to "C".
+(2) Retrieve the reference amino acid from the disease mutation table where the reference nucleotide is "C".
+(3) Retrieve the reference amino acid from the disease_mutation table where the reference nucleotide is equal to "C".
+(4) Retrieve the reference amino acid from the disease_mutation table where the reference nucleotide is equal to "C".
+(5) Retrieve the reference amino acid from the disease_mutation table where the reference nucleotide is equal to "C".
+(6) Retrieve the reference amino acid from the disease mutation table where the reference nucleotide is equal to "C".
+(7) What is the reference amino acid for all disease mutations where the reference nucleotide is "C"?
+
+
+Re-ranked choices:
+3.529  Retrieve the reference amino acid from the disease mutation table where the reference nucleotide is equal to "C".
+3.528  Retrieve the reference amino acid from the disease mutation table where the reference nucleotide is "C".
+2.132  What is the reference amino acid for all disease mutations where the reference nucleotide is "C"?
+2.125  "Retrieve the amino acid reference sequence from disease mutations where the nucleotide reference sequence is 'C'."
+0.727  Retrieve the reference amino acid from the disease_mutation table where the reference nucleotide is equal to "C".
+0.726  Retrieve the amino acid reference sequence from the disease_mutation table where the nucleotide reference is equal to "C".
+

@@ -1,0 +1,28 @@
+SELECT Photometric_objects.ra FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_r = 12.89864 or Photometric_objects.colc = 64.34244
+
+###
+
+
+Original Query:
+SELECT T1.ra FROM photoobj AS T1 WHERE T1.cmodelmag_r = 12.89864 or T1.colc = 64.34244
+GPT-3 choices:
+(0) Find the right ascension of photometric objects where either their cmodel magnitude in the red band is 12.89864 or their color code is 64.34244.
+(1) Find the right ascension of objects in the "photoobj" table where the cmodel magnitude in the r band is equal to 12.89864 or where colc is equal to 64.34244.
+(2) Find the right ascension of photometric objects from the table photoobj where their cmodel magnitude in the r-band is equal to 12.89864 or their color-corrected magnitude is equal to 64.34244.
+(3) Retrieve the right ascension of photometric objects from the photoobj table where the cmodelmag_r column is equal to 12.89864 or the colc column is equal to 64.34244.
+(4) Find the right ascension values for objects in the photoobj table where the cmodelmag_r value is equal to 12.89864 or colc is equal to 64.34244.
+(5) Find the right ascension of photometric objects where either their CModel magnitude in the r band is 12.89864 or their color c is equal to 64.34244.
+(6) Retrieve the right ascension (RA) values for objects in the photoobj table where either their cmodel magnitude in the red band is equal to 12.89864 or their color index (colc) is equal to 64.34244.
+(7) Find the right ascension of photometric objects in the photoobj table where the cmodel magnitude in the r band is equal to 12.89864 or colc is equal to 64.34244.
+
+
+Re-ranked choices:
+7.043  Find the right ascension of photometric objects where either their CModel magnitude in the r band is 12.89864 or their color c is equal to 64.34244.
+7.036  Find the right ascension of objects in the "photoobj" table where the cmodel magnitude in the r band is equal to 12.89864 or where colc is equal to 64.34244.
+7.031  Find the right ascension of photometric objects in the photoobj table where the cmodel magnitude in the r band is equal to 12.89864 or colc is equal to 64.34244.
+5.638  Find the right ascension of photometric objects where either their cmodel magnitude in the red band is 12.89864 or their color code is 64.34244.
+5.629  Retrieve the right ascension of photometric objects from the photoobj table where the cmodelmag_r column is equal to 12.89864 or the colc column is equal to 64.34244.
+5.628  Retrieve the right ascension (RA) values for objects in the photoobj table where either their cmodel magnitude in the red band is equal to 12.89864 or their color index (colc) is equal to 64.34244.
+5.627  Find the right ascension of photometric objects from the table photoobj where their cmodel magnitude in the r-band is equal to 12.89864 or their color-corrected magnitude is equal to 64.34244.
+4.234  Find the right ascension values for objects in the photoobj table where the cmodelmag_r value is equal to 12.89864 or colc is equal to 64.34244.
+

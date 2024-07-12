@@ -1,0 +1,16 @@
+SELECT anatomical_entity.id FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.description = "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity." and anatomical_entity.name = "adrenal medulla"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM anatomical_entity AS T1 WHERE T1.description = "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity." and T1.name = "adrenal medulla"
+GPT-3 choices:
+(0) Find the ID of the anatomical entity that has a description of "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity." and a name of "adrenal medulla".
+(1) Retrieve the ID of the anatomical entity that corresponds to the adrenal medulla, specifically referring to its description as "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity."
+(2) Find the ID of the anatomical entity with the name "adrenal medulla" and description "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity."
+(3) Find the ID of the anatomical entity with the name "adrenal medulla" and description of "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity."
+(4) Find the ID of an anatomical entity called "adrenal medulla" that has a description including "1. The mucous membrane lining the canal of the cervix uteri" and "2. The region of the opening of the uterine cervix into the uterine cavity."
+(5) "Retrieve the ID of the anatomical entity representing the adrenal medulla, which is described as the mucous membrane lining the cervix uteri canal and is also known as the region where the uterine cervix opens into the uterine cavity."
+(6) Find the ID of the anatomical entity that has a description of being both the mucous membrane lining the cervix uteri and also being in the region of the opening from the uterine cervix to the uterine cavity, with a name of "adrenal medulla".
+(7) Find the ID of the anatomical entity with the name "adrenal medulla" and a description of "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity."

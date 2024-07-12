@@ -1,0 +1,28 @@
+SELECT Photometric_objects.extinction_r FROM photoobj AS Photometric_objects WHERE Photometric_objects.dec = -18.8098484043374 or Photometric_objects.clean = 0
+
+###
+
+
+Original Query:
+SELECT T1.extinction_r FROM photoobj AS T1 WHERE T1.dec = -18.8098484043374 or T1.clean = 0
+GPT-3 choices:
+(0) Find the extinction value in the r-band for all objects with a declination of -18.8098484043374 or a cleanliness flag of 0 from the photoobj table.
+(1) Retrieve the extinction value for objects in the photoobj table with a declination of -18.8098484043374 or that have been identified as unclean.
+(2) Retrieve the value of extinction_r from the photoobj table for objects with a declination of -18.8098484043374 or a clean value of 0.
+(3) Get the extinction in r-band for all objects where the declination is equal to -18.8098484043374 or the clean flag is equal to 0 from the photoobj table.
+(4) What is the extinction in the r band for objects with a declination of -18.8098484043374 or that are not considered clean in the photometric data?
+(5) Retrieve the extinction in the r band for photometric objects where their declination is equal to -18.8098484043374 or their cleanliness is 0.
+(6) Retrieve the extinction values for objects with a declination of -18.8098484043374 or with a clean status of 0 from the photoobj table.
+(7) Retrieve the extinction values for objects in the photometric database where the declination is -18.8098484043374 or the object has been flagged as unclean.
+
+
+Re-ranked choices:
+7.050  Get the extinction in r-band for all objects where the declination is equal to -18.8098484043374 or the clean flag is equal to 0 from the photoobj table.
+7.043  What is the extinction in the r band for objects with a declination of -18.8098484043374 or that are not considered clean in the photometric data?
+5.647  Retrieve the extinction in the r band for photometric objects where their declination is equal to -18.8098484043374 or their cleanliness is 0.
+5.644  Find the extinction value in the r-band for all objects with a declination of -18.8098484043374 or a cleanliness flag of 0 from the photoobj table.
+5.641  Retrieve the extinction values for objects with a declination of -18.8098484043374 or with a clean status of 0 from the photoobj table.
+4.241  Retrieve the value of extinction_r from the photoobj table for objects with a declination of -18.8098484043374 or a clean value of 0.
+4.238  Retrieve the extinction values for objects in the photometric database where the declination is -18.8098484043374 or the object has been flagged as unclean.
+4.235  Retrieve the extinction value for objects in the photoobj table with a declination of -18.8098484043374 or that have been identified as unclean.
+

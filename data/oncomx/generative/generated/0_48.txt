@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_trade_name FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trial_id = "NCT01107418"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trial_id = "NCT01107418"
+GPT-3 choices:
+(0) What is the test trade name of the biomarker fda test trial with a test trial id of "NCT01107418"?
+(1) What is the test trade name for the biomarker FDA test trial with an ID of "NCT01107418"?
+(2) What is the test trade name associated with the NCT01107418 test trial in the biomarker FDA test trial database?
+(3) Retrieve the test trade name from the FDA biomarker test trial with a trial ID of "NCT01107418".
+(4) Retrieve the test trade name from the biomarker FDA test trial with the ID "NCT01107418".
+(5) What is the trade name of the test in biomarker FDA test trial with a test trial ID of "NCT01107418"?
+(6) What is the trade name of the test being conducted in the FDA trial with the identifier "NCT01107418"?
+(7) What is the trade name of the biomarker FDA test trial with the ID "NCT01107418"?

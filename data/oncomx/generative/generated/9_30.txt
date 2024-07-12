@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation JOIN disease_mutation AS disease_mutation ON disease_mutation_site_annotation.disease_mutation_id = disease_mutation.id WHERE disease_mutation.data_source != "cosmic"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.data_source != "cosmic"
+GPT-3 choices:
+(0) Retrieve the descriptions from disease mutation site annotations for all disease mutations that are not from the data source "cosmic".
+(1) Retrieve the description of disease mutation site annotations for all disease mutations that are not from the data source "cosmic".
+(2) Retrieve the description of all disease mutation sites from the disease_mutation_site_annotation table where the data source is not "cosmic".
+(3) Get the description from the disease_mutation_site_annotation table where the data_source in the disease_mutation table is not "cosmic".
+(4) Retrieve the description from the disease mutation site annotation table where the data source for the associated disease mutation is not "cosmic".
+(5) Retrieve the description of the disease mutation sites from the annotations table for all disease mutations except those from the data source "cosmic".
+(6) Get the description of disease mutation sites from the database for all disease mutations except those from COSMIC as stored in the tables "disease_mutation_site_annotation" and "disease_mutation".
+(7) Retrieve the description from the disease mutation site annotations table for all disease mutations that are not from the data source "cosmic".

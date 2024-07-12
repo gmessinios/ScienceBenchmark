@@ -1,0 +1,28 @@
+SELECT species.speciescommonname FROM species AS species JOIN xref_gene_ensembl AS xref_gene_ensembl ON species.speciesid = xref_gene_ensembl.speciesid WHERE xref_gene_ensembl.gene_symbol = "1700016A09Rik"
+
+###
+
+
+Original Query:
+SELECT T1.speciescommonname FROM species AS T1 JOIN xref_gene_ensembl AS T2 ON T1.speciesid = T2.speciesid WHERE T2.gene_symbol = "1700016A09Rik"
+GPT-3 choices:
+(0) Retrieve the common name of the species associated with the gene symbol "1700016A09Rik" by joining the species and xref_gene_ensembl tables on their shared speciesid.
+(1) What is the common name of the species that has a gene symbol of "1700016A09Rik" in the xref_gene_ensembl table?
+(2) Retrieve the common name of the species that is associated with the gene symbol "1700016A09Rik" in the xref_gene_ensembl table.
+(3) Get the common name of a species where its gene symbol is "1700016A09Rik" by joining the tables for species and xref_gene_ensembl on their shared species ID.
+(4) Find the common name of the species that is associated with the gene symbol "1700016A09Rik" in the table xref_gene_ensembl.
+(5) What is the common name of the species associated with the gene symbol "1700016A09Rik" in the xref_gene_ensembl table?
+(6) Retrieve the common name of a species from the database that has a gene symbol "1700016A09Rik" in its Ensembl cross-reference table.
+(7) Retrieve the common name of the species that is associated with the gene symbol "1700016A09Rik" through a join between the species and xref_gene_ensembl tables.
+
+
+Re-ranked choices:
+6.327  Retrieve the common name of a species from the database that has a gene symbol "1700016A09Rik" in its Ensembl cross-reference table.
+5.628  Get the common name of a species where its gene symbol is "1700016A09Rik" by joining the tables for species and xref_gene_ensembl on their shared species ID.
+5.622  Retrieve the common name of the species associated with the gene symbol "1700016A09Rik" by joining the species and xref_gene_ensembl tables on their shared speciesid.
+4.937  What is the common name of the species that has a gene symbol of "1700016A09Rik" in the xref_gene_ensembl table?
+4.929  Find the common name of the species that is associated with the gene symbol "1700016A09Rik" in the table xref_gene_ensembl.
+4.927  What is the common name of the species associated with the gene symbol "1700016A09Rik" in the xref_gene_ensembl table?
+4.926  Retrieve the common name of the species that is associated with the gene symbol "1700016A09Rik" in the xref_gene_ensembl table.
+4.924  Retrieve the common name of the species that is associated with the gene symbol "1700016A09Rik" through a join between the species and xref_gene_ensembl tables.
+

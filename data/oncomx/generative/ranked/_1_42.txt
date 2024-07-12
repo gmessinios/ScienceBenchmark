@@ -1,0 +1,28 @@
+SELECT map_protein_disease_mutation.peptide_id FROM map_protein_disease_mutation AS map_protein_disease_mutation JOIN disease_mutation AS disease_mutation ON map_protein_disease_mutation.ensembl_transcript_id = disease_mutation.ensembl_transcript_id WHERE disease_mutation.alt_nt = "T"
+
+###
+
+
+Original Query:
+SELECT T1.peptide_id FROM map_protein_disease_mutation AS T1 JOIN disease_mutation AS T2 ON T1.ensembl_transcript_id = T2.ensembl_transcript_id WHERE T2.alt_nt = "T"
+GPT-3 choices:
+(0) Find the peptide IDs from the map of protein-disease-mutation where the alternate nucleotide is "T" for transcripts with matching ensembl transcript IDs in both the map and disease_mutation tables.
+(1) Find the peptide ids from the map_protein_disease_mutation table where the disease mutation's alternate nucleotide is "T" and it matches with the ensembl transcript id in both tables.
+(2) What are the peptide IDs for mutations that have a thymine nucleotide variant in the disease_mutation table, joined with the ensembl_transcript_id column from the map_protein_disease_mutation table?
+(3) "Retrieve the peptide IDs from the map_protein_disease_mutation table for all entries where the alternate nucleotide in disease_mutation is "T"."
+(4) Retrieve the peptide IDs from the map_protein_disease_mutation table where the alternative nucleotide in the corresponding disease_mutation entry is "T".
+(5) Retrieve the peptide ID from the map of protein-disease mutations for those that have an alternative nucleotide "T" in their associated disease mutation.
+(6) "Retrieve the peptide IDs from the map_protein_disease_mutation table where the ensembl_transcript_id matches with that of disease_mutation and the alt_nt value is 'T'."
+(7) Retrieve the peptide IDs from the map_protein_disease_mutation table for mutations in diseases where the alternate nucleotide is "T".
+
+
+Re-ranked choices:
+9.117  Find the peptide ids from the map_protein_disease_mutation table where the disease mutation's alternate nucleotide is "T" and it matches with the ensembl transcript id in both tables.
+6.321  Retrieve the peptide ID from the map of protein-disease mutations for those that have an alternative nucleotide "T" in their associated disease mutation.
+6.318  Find the peptide IDs from the map of protein-disease-mutation where the alternate nucleotide is "T" for transcripts with matching ensembl transcript IDs in both the map and disease_mutation tables.
+2.124  Retrieve the peptide IDs from the map_protein_disease_mutation table for mutations in diseases where the alternate nucleotide is "T".
+2.119  "Retrieve the peptide IDs from the map_protein_disease_mutation table for all entries where the alternate nucleotide in disease_mutation is "T"."
+2.118  Retrieve the peptide IDs from the map_protein_disease_mutation table where the alternative nucleotide in the corresponding disease_mutation entry is "T".
+2.117  "Retrieve the peptide IDs from the map_protein_disease_mutation table where the ensembl_transcript_id matches with that of disease_mutation and the alt_nt value is 'T'."
+1.417  What are the peptide IDs for mutations that have a thymine nucleotide variant in the disease_mutation table, joined with the ensembl_transcript_id column from the map_protein_disease_mutation table?
+

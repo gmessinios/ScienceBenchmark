@@ -1,0 +1,28 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.unics_id = 21
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.unics_id = 21
+GPT-3 choices:
+(0) Retrieve the geocode country code from the countries table for the country with a unics ID of 21.
+(1) Retrieve the geocode country code from the "countries" table for the country with a unics_id of 21.
+(2) Retrieve the geocode country code for the country with a UNICS ID of 21 from the countries table.
+(3) Find the geocode country code for the country with a UNICS ID of 21 in the "countries" table.
+(4) Retrieve the geocode country code from the countries table where the unics_id is equal to 21.
+(5) Get the geocode country code for the country with a unique ID of 21 from the table countries.
+(6) What is the geographic country code for the country with a unique ID of 21 in the "countries" table?
+(7) Find the geocode country code for a country with a UNICS ID of 21 in the countries table.
+
+
+Re-ranked choices:
+8.445  Find the geocode country code for the country with a UNICS ID of 21 in the "countries" table.
+8.445  Find the geocode country code for a country with a UNICS ID of 21 in the countries table.
+8.438  Retrieve the geocode country code for the country with a UNICS ID of 21 from the countries table.
+8.434  Retrieve the geocode country code from the countries table for the country with a unics ID of 21.
+5.654  Get the geocode country code for the country with a unique ID of 21 from the table countries.
+5.643  Retrieve the geocode country code from the countries table where the unics_id is equal to 21.
+5.636  What is the geographic country code for the country with a unique ID of 21 in the "countries" table?
+5.631  Retrieve the geocode country code from the "countries" table for the country with a unics_id of 21.
+

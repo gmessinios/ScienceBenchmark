@@ -1,0 +1,16 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.doid = 263
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1 WHERE T1.doid = 263
+GPT-3 choices:
+(0) Find the Uberon anatomical ID from the cancer tissue table where the disease identifier is 263.
+(1) Retrieve the uberon anatomical ID for cancer tissues associated with disease identifier 263 in the cancer_tissue table.
+(2) What is the Uberon anatomical ID for cancer tissue with a DOID of 263?
+(3) What is the anatomical identifier for all cancer tissues associated with the disease DOID 263?
+(4) Retrieve the Uberon anatomical ID from the cancer tissue dataset where the DOID is equal to 263.
+(5) Get the unique anatomical identifier for tissues affected by cancer, specifically those with a DOID of 263.
+(6) Get the Uberon anatomical ID from the cancer tissue table for tissues associated with disease of type 263.
+(7) Get the anatomical ID for the cancer tissue with disease ontology ID 263 from the table "cancer_tissue".

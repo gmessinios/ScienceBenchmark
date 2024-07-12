@@ -1,0 +1,16 @@
+SELECT Photometric_objects.extinction_r FROM photoobj AS Photometric_objects WHERE Photometric_objects.run = 2134
+
+###
+
+
+Original Query:
+SELECT T1.extinction_r FROM photoobj AS T1 WHERE T1.run = 2134
+GPT-3 choices:
+(0) What is the extinction value in the r-band for photometric objects from run 2134 in the photoobj table?
+(1) Retrieve the extinction value in the r band for all objects from the photoobj table where the run number is 2134.
+(2) Retrieve the value for the extinction in the r band from the photometric objects table where the run is equal to 2134.
+(3) Find the extinction in the r band for photometric objects from run 2134 in the photoobj table.
+(4) Retrieve the extinction_r value from the photoobj table for Photometric_objects where the run is 2134.
+(5) What is the extinction_r value for all objects in the photoobj table where run = 2134?
+(6) Retrieve the extinction value for objects with photometric data from a run with ID 2134.
+(7) Retrieve the value of the extinction_r column from the Photometric_objects table for all rows where the run column is equal to 2134.

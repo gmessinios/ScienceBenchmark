@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects    ORDER BY Nearest_neighbour_objects.neighbormode DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1    ORDER BY T1.neighbormode DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the type of the nearest neighbor object based on their neighbor mode, sorted in descending order, with a limit of 1 result.
+(1) "Retrieve the type of the nearest neighbor objects, sorted by their neighbor mode in descending order and limited to only one result."
+(2) Select the type of the nearest neighbour objects from the neighbors table, ordering by their neighbormode in descending order and returning only one result.
+(3) Get the type of the nearest neighbor object from the neighbors table, sorting by neighbormode in descending order and only returning the first result.
+(4) Get the type of the nearest neighbor object from the neighbors table, ordering by the neighbormode in descending order and limiting to only one result.
+(5) Select the type of objects from the nearest neighbor table, ordered by neighbormode in descending order and limit the results to only one object.
+(6) Retrieve the type of the nearest neighbor object from the "neighbors" table, ordering by the neighbormode column in descending order and limiting to only one result.
+(7) Get the type of the nearest neighbor object by sorting the neighbors in descending order based on their mode and limiting it to only one result.
+
+
+Re-ranked choices:
+7.724  Get the type of the nearest neighbor object by sorting the neighbors in descending order based on their mode and limiting it to only one result.
+6.325  "Retrieve the type of the nearest neighbor objects, sorted by their neighbor mode in descending order and limited to only one result."
+6.322  Get the type of the nearest neighbor object from the neighbors table, sorting by neighbormode in descending order and only returning the first result.
+6.322  Select the type of objects from the nearest neighbor table, ordered by neighbormode in descending order and limit the results to only one object.
+6.321  Get the type of the nearest neighbor object from the neighbors table, ordering by the neighbormode in descending order and limiting to only one result.
+6.319  Retrieve the type of the nearest neighbor object from the "neighbors" table, ordering by the neighbormode column in descending order and limiting to only one result.
+6.319  Select the type of the nearest neighbour objects from the neighbors table, ordering by their neighbormode in descending order and returning only one result.
+5.627  Retrieve the type of the nearest neighbor object based on their neighbor mode, sorted in descending order, with a limit of 1 result.
+

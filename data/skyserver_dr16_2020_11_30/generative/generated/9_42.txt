@@ -1,0 +1,16 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.bestobjid != 1237645943978984236
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.bestobjid != 1237645943978984236
+GPT-3 choices:
+(0) Select the specobjid from the spplines table where the bestobjid in the specobj table is not equal to 1237645943978984236.
+(1) Find the specobjid values from the spplines table where the corresponding Spectroscopic_objects bestobjid value is not equal to 1237645943978984236.
+(2) Find the specobjid from the spplines table where the bestobjid in the specobj table is not equal to 1237645943978984236.
+(3) Retrieve the specobjid from the spplines table for stellar spectral line indices, where the bestobjid in the associated Spectroscopic_objects table does not equal 1237645943978984236.
+(4) Find the spectobjid from spplines for stellar spectral line indices where the bestobjid in specobj does not equal 1237645943978984236.
+(5) Retrieve the specobjid from the table spplines for all objects in the Spectroscopic_objects table except for those with a bestobjid of 1237645943978984236.
+(6) Find the specobjid from spplines where the bestobjid of its corresponding entry in specobj is not equal to 1237645943978984236.
+(7) Retrieve the specobjid from the spplines table for spectroscopic objects in the Spectroscopic_objects table where bestobjid is not equal to 1237645943978984236.

@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.description = "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+GPT-3 choices:
+(0) How many photo types have the description "Sky: Blank sky spectrogram (no objects in this arcsecond area)" in the table photometrically_observed?
+(1) How many photo types have the description "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+(2) How many observations are there in the photo_type table where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+(3) How many records are in the "photo_type" table where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+(4) How many photos are there where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)" in the photo_type table?
+(5) How many blank sky spectrograms are there with no objects within an arcsecond area?
+(6) How many blank sky spectrograms (with no objects in the arcsecond area) are recorded in the photometrically observed photo type?
+(7) How many photos have been observed where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+
+
+Re-ranked choices:
+9.128  How many photos have been observed where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+7.731  How many photo types have the description "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+7.726  How many records are in the "photo_type" table where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+7.725  How many photos are there where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)" in the photo_type table?
+7.723  How many observations are there in the photo_type table where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+7.722  How many photo types have the description "Sky: Blank sky spectrogram (no objects in this arcsecond area)" in the table photometrically_observed?
+6.323  How many blank sky spectrograms (with no objects in the arcsecond area) are recorded in the photometrically observed photo type?
+2.841  How many blank sky spectrograms are there with no objects within an arcsecond area?
+

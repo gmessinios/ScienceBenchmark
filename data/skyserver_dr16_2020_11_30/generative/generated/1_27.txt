@@ -1,0 +1,16 @@
+SELECT Photometric_objects.clean FROM photoobj AS Photometric_objects JOIN neighbors AS Nearest_neighbour_objects ON Photometric_objects.objid = Nearest_neighbour_objects.objid WHERE Nearest_neighbour_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT T1.clean FROM photoobj AS T1 JOIN neighbors AS T2 ON T1.objid = T2.objid WHERE T2.mode = 1
+GPT-3 choices:
+(0) Find the clean value for all Photometric objects where their objid matches with the objid of their nearest neighbor object, and the mode of the nearest neighbor object is equal to 1.
+(1) Find the clean data for all objects in the Photometric_objects table whose objid value matches that of the Nearest_neighbour_objects table when their mode is equal to 1.
+(2) Find the clean column from the photoobj table where the objid in Photometric_objects is equal to the objid in Nearest_neighbour_objects and the mode in Nearest_neighbour_objects is equal to 1.
+(3) Retrieve the clean value from the photoobj table for objects where their objid matches with the objid of nearest neighbor objects in the neighbors table, where the mode of those nearest neighbor objects is equal to 1.
+(4) Find the clean photometric objects from the photoobj table that have a mode value of 1 in the neighbors table based on their matching objid values.
+(5) Retrieve the clean value from the photoobj table for objects that have an objid in both the Photometric_objects and Nearest_neighbour_objects tables and where the mode in Nearest_neighbour_objects is equal to 1.
+(6) Find the clean value for objects in the Photometric_objects table that have a matching objid in both the photoobj and neighbors tables where the mode value in the neighbors table is equal to 1.
+(7) Find the clean data for Photometric objects that have a nearest neighbor in Nearest_neighbour_objects with a mode value of 1.

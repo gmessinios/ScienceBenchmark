@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes AS funding_schemes WHERE funding_schemes.title = "No contract type"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes AS T1 WHERE T1.title = "No contract type"
+GPT-3 choices:
+(0) How many funding schemes are there with the title "No contract type"?
+(1) How many funding schemes have the title "No contract type"?
+(2) How many funding schemes have a title of "No contract type"?
+(3) How many funding schemes have a title of "No contract type"?
+(4) How many funding schemes have a title of "No contract type"?
+(5) How many funding schemes have the title "No contract type"?
+(6) How many funding schemes are there with the title "No contract type"?
+(7) How many funding schemes have the title "No contract type"?

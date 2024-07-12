@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.special_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.mjd = 52404 and Spectroscopic_objects.plateid = 394064995765217280
+
+###
+
+
+Original Query:
+SELECT T1.special_target1 FROM specobj AS T1 WHERE T1.mjd = 52404 and T1.plateid = 394064995765217280
+GPT-3 choices:
+(0) Find the special target 1 for the spectroscopic object with an mjd of 52404 and a plateid of 394064995765217280 in the table specobj.
+(1) What is the special target 1 for the spectroscopic object with an mjd of 52404 and a plateid of 394064995765217280 in the specobj table?
+(2) Retrieve the value of "special_target1" for the spectroscopic object from the "specobj" table with a specific MJD and plate ID.
+(3) Retrieve the value in the "special_target1" column from the table "specobj" where the mjd value is equal to 52404 and the plateid value is equal to 394064995765217280, with an alias of "Spectroscopic_objects".
+(4) "Retrieve the value of special_target1 for the spectroscopic object with an mjd of 52404 and a plateid of 394064995765217280."
+(5) Find the special target1 for objects in the specobj table with an mjd value of 52404 and plateid of 394064995765217280.
+(6) Retrieve the special target 1 value from the Spectroscopic_objects table for the entry with an mjd value of 52404 and a plateid value of 394064995765217280.
+(7) Retrieve the special target 1 for spectroscopic objects from the table specobj where the MJD is equal to 52404 and the plateid is equal to 394064995765217280.

@@ -1,0 +1,28 @@
+SELECT species.genus FROM species AS species WHERE species.speciesid != 9606
+
+###
+
+
+Original Query:
+SELECT T1.genus FROM species AS T1 WHERE T1.speciesid != 9606
+GPT-3 choices:
+(0) Retrieve the genus names from the species table where the species id is not equal to 9606.
+(1) Find the genus of all species except for 9606 in the "species" table.
+(2) Retrieve the genus of all species except for those with a species ID of 9606 from the table "species".
+(3) Get the genus of all species in the database except for the one with a speciesid of 9606.
+(4) What are the genus names of all species in the "species" table, excluding those with a species ID of 9606?
+(5) What are the genus names of all species in the species table where the speciesid is not equal to 9606?
+(6) Retrieve the genus names of all species from the "species" table where the species ID is not equal to 9606.
+(7) Find the genus of all species except for the one with a species ID of 9606.
+
+
+Re-ranked choices:
+4.256  Get the genus of all species in the database except for the one with a speciesid of 9606.
+4.248  What are the genus names of all species in the species table where the speciesid is not equal to 9606?
+2.883  Find the genus of all species except for 9606 in the "species" table.
+2.883  Find the genus of all species except for the one with a species ID of 9606.
+2.860  Retrieve the genus names from the species table where the species id is not equal to 9606.
+2.858  Retrieve the genus names of all species from the "species" table where the species ID is not equal to 9606.
+2.850  Retrieve the genus of all species except for those with a species ID of 9606 from the table "species".
+2.847  What are the genus names of all species in the "species" table, excluding those with a species ID of 9606?
+

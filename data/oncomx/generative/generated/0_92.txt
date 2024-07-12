@@ -1,0 +1,16 @@
+SELECT biomarker_edrn.uberon_anatomical_id FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.qa_state = "Under Review"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM biomarker_edrn AS T1 WHERE T1.qa_state = "Under Review"
+GPT-3 choices:
+(0) Find the anatomical IDs from the EDRN biomarker database where the QA state is "Under Review".
+(1) What is the uberon anatomical ID for all biomarkers in the edrn database that are currently under review?
+(2) Find the UBERON anatomical IDs for biomarkers under review in the EDRN database.
+(3) What are the uberon anatomical IDs for biomarkers that are currently under review in the EDRN database?
+(4) Retrieve the Uberon anatomical ID from the biomarker_edrn table where the QA state is "Under Review".
+(5) Retrieve the uberon anatomical ID from the biomarker_edrn table where the QA state is "Under Review".
+(6) What are the uberon anatomical IDs for biomarkers that are currently under review in the edrn database?
+(7) Retrieve the anatomical IDs from the EDRN biomarker table where the QA state is "Under Review".

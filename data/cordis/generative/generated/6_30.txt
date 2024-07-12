@@ -1,0 +1,16 @@
+SELECT project_members.institution_id FROM project_members AS project_members WHERE project_members.member_name = "SQUADRON SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" and project_members.member_short_name = "Watt-IS"
+
+###
+
+
+Original Query:
+SELECT T1.institution_id FROM project_members AS T1 WHERE T1.member_name = "SQUADRON SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" and T1.member_short_name = "Watt-IS"
+GPT-3 choices:
+(0) Find the institution ID for project members from Squadron Spolka Z Ograniczona Odpowiedzialnoscia with a member name of "Watt-IS" and a member short name of "Watt-IS".
+(1) Get the institution ID from the project members where the member name is "Squadron Spolka z Ograniczona Odpowiedzialnoscia" and the member short name is "Watt-IS".
+(2) Retrieve the institution ID of the project member with a full name of "SQUADRON SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" and a short name of "Watt-IS".
+(3) Find the institution ID for the member "SQUADRON SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" with the short name "Watt-IS" in the project_members table.
+(4) "Retrieve the institution ID for the project member named "Watt-IS" belonging to "Squadron Spolka z Ograniczona Odpowiedzialnoscia"."
+(5) Get the institution ID for "SQUADRON SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" with the member name "Watt-IS" from the project_members table.
+(6) What is the institution ID for the project member named "Watt-IS" and with the member short name of "SQUADRON SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA"?
+(7) Retrieve the institution ID from the project members table where the member name is "SQUADRON SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" and the member short name is "Watt-IS".

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.biomarker_fda_id = "FDA000263"
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker FROM biomarker_fda_ncit_term AS T1 WHERE T1.biomarker_fda_id = "FDA000263"
+GPT-3 choices:
+(0) Retrieve the NCIt term for the biomarker listed as "FDA000263" in the biomarker_fda_ncit_term table.
+(1) What is the FDA NCIt term associated with biomarker with the ID "FDA000263"?
+(2) Retrieve the NCIt biomarker term for the biomarker FDA ID "FDA000263" from the table of biomarker FDA-NCIt terms.
+(3) What is the NCIt biomarker associated with the FDA biomarker ID "FDA000263"?
+(4) Retrieve the NCIt biomarker term from the biomarker FDA and NCIt term table where the biomarker FDA ID is "FDA000263".
+(5) Retrieve the term representing the National Cancer Institute Thesaurus biomarker associated with the FDA identifier "FDA000263" from the table containing both FDA identifiers and NCIT terms.
+(6) Get the NCIt biomarker term from the table "biomarker_fda_ncit_term" where the biomarker FDA ID is equal to "FDA000263".
+(7) What is the FDA National Cancer Institute Term for the biomarker with ID "FDA000263"?
+
+
+Re-ranked choices:
+7.743  What is the FDA NCIt term associated with biomarker with the ID "FDA000263"?
+7.734  Retrieve the NCIt biomarker term for the biomarker FDA ID "FDA000263" from the table of biomarker FDA-NCIt terms.
+7.731  Retrieve the NCIt biomarker term from the biomarker FDA and NCIt term table where the biomarker FDA ID is "FDA000263".
+7.731  Get the NCIt biomarker term from the table "biomarker_fda_ncit_term" where the biomarker FDA ID is equal to "FDA000263".
+6.347  What is the FDA National Cancer Institute Term for the biomarker with ID "FDA000263"?
+6.338  What is the NCIt biomarker associated with the FDA biomarker ID "FDA000263"?
+6.317  Retrieve the term representing the National Cancer Institute Thesaurus biomarker associated with the FDA identifier "FDA000263" from the table containing both FDA identifiers and NCIT terms.
+4.932  Retrieve the NCIt term for the biomarker listed as "FDA000263" in the biomarker_fda_ncit_term table.
+

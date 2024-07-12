@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.mode = 1 and Nearest_neighbour_objects.neighbortype = 6
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.mode = 1 and T1.neighbortype = 6
+GPT-3 choices:
+(0) Get the object IDs of nearest neighbors that have a mode of 1 and a neighbor type of 6.
+(1) Find the object IDs of nearest neighbour objects that are in mode 1 and have a neighbour type of 6.
+(2) Find the object IDs of the nearest neighbors that have a mode value of 1 and a neighbor type of 6 in the "neighbors" table.
+(3) Find the object IDs of nearest neighbor objects that are in mode 1 and have a neighbor type of 6.
+(4) "Find the objid of the nearest neighbour objects where the mode is equal to 1 and neighbortype is equal to 6."
+(5) Retrieve the object IDs of the nearest neighbor objects with a mode of 1 and a neighbor type of 6 from the "neighbors" table.
+(6) Find the object IDs of the nearest neighbor objects that are in mode 1 and have a neighbor type of 6.
+(7) Find the object ID for the nearest neighbor in which the mode is 1 and neighbortype is 6.

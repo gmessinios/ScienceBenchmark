@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.ncit_biomarker != "DIAPH3"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 WHERE T1.ncit_biomarker != "DIAPH3"
+GPT-3 choices:
+(0) Retrieve the FDA biomarker ID from the NCIt terms for all entries where the NCIt biomarker is not "DIAPH3".
+(1) What is the biomarker_fda_id for the entry in the biomarker_fda_ncit_term table where the ncit_biomarker is not equal to "DIAPH3"?
+(2) Retrieve the biomarker FDA ID from the table of biomarker FDA and NCIT terms where the NCIT biomarker is not equal to "DIAPH3".
+(3) Retrieve the FDA biomarker ID from the table of biomarker FDA and NCIt terms where the NCIt biomarker is not equal to "DIAPH3".
+(4) What is the FDA biomarker ID for any biomarkers with an NCIt term that is not equal to "DIAPH3"?
+(5) What is the FDA biomarker ID for biomarkers that do not have an NCIT term matching "DIAPH3"?
+(6) Retrieve the ID of the biomarker from the FDA database where the NCIt biomarker is not "DIAPH3".
+(7) What is the biomarker FDA ID for all entries in the biomarker FDA NCIT term table where the NCIT biomarker is not equal to "DIAPH3"?

@@ -1,0 +1,28 @@
+SELECT Photometric_objects.field FROM photoobj AS Photometric_objects WHERE Photometric_objects.rerun = 301 or Photometric_objects.loadversion = 344
+
+###
+
+
+Original Query:
+SELECT T1.field FROM photoobj AS T1 WHERE T1.rerun = 301 or T1.loadversion = 344
+GPT-3 choices:
+(0) "Retrieve the field from the photoobj table for photometric objects with a rerun value of 301 or a loadversion value of 344."
+(1) Find the field information from the photoobj table for all objects with a rerun value of 301 or a loadversion value of 344.
+(2) Show the field of photometric objects from the photoobj table where the rerun value is equal to 301 or the loadversion value is equal to 344.
+(3) Find the fields from the photoobj table where the rerun is equal to 301 or the loadversion is equal to 344, and label them as Photometric_objects.
+(4) Select the field from the photoobj table for objects that have a rerun value of 301 or a loadversion value of 344.
+(5) Find the field information from the photoobj table for objects with a rerun of 301 or loadversion of 344 in the Photometric_objects database.
+(6) Find the fields of objects in the photometric database that have a rerun number of 301 or a load version of 344.
+(7) Get the field data for all photometric objects from the photoobj table where the rerun is equal to 301 or the loadversion is equal to 344.
+
+
+Re-ranked choices:
+7.032  Find the fields of objects in the photometric database that have a rerun number of 301 or a load version of 344.
+4.921  Find the field information from the photoobj table for objects with a rerun of 301 or loadversion of 344 in the Photometric_objects database.
+4.226  Select the field from the photoobj table for objects that have a rerun value of 301 or a loadversion value of 344.
+4.224  "Retrieve the field from the photoobj table for photometric objects with a rerun value of 301 or a loadversion value of 344."
+4.223  Find the field information from the photoobj table for all objects with a rerun value of 301 or a loadversion value of 344.
+4.223  Show the field of photometric objects from the photoobj table where the rerun value is equal to 301 or the loadversion value is equal to 344.
+4.223  Get the field data for all photometric objects from the photoobj table where the rerun is equal to 301 or the loadversion is equal to 344.
+1.423  Find the fields from the photoobj table where the rerun is equal to 301 or the loadversion is equal to 344, and label them as Photometric_objects.
+

@@ -1,0 +1,16 @@
+SELECT institutions.country_id FROM institutions AS institutions WHERE institutions.unics_id = 1716 and institutions.wikidata_url = "http://www.wikidata.org/wiki/Q693450"
+
+###
+
+
+Original Query:
+SELECT T1.country_id FROM institutions AS T1 WHERE T1.unics_id = 1716 and T1.wikidata_url = "http://www.wikidata.org/wiki/Q693450"
+GPT-3 choices:
+(0) Get the country ID from the institutions table where the UNICS ID is 1716 and the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q693450".
+(1) Find the country ID of the institution with a UNICS ID of 1716 and a Wikidata URL of "http://www.wikidata.org/wiki/Q693450".
+(2) What is the country ID for the institution with a UNICS ID of 1716 and a Wikidata URL of "http://www.wikidata.org/wiki/Q693450"?
+(3) What is the country ID for an institution with a UNICS ID of 1716 and a Wikidata URL of "http://www.wikidata.org/wiki/Q693450"?
+(4) What is the country ID of the institution with a UNICS ID of 1716 and a Wikidata URL of "http://www.wikidata.org/wiki/Q693450"?
+(5) What is the country_id for the institution with unics_id of 1716 and wikidata_url of "http://www.wikidata.org/wiki/Q693450" in the institutions table?
+(6) Retrieve the country ID from the institutions table where the UNICS ID is 1716 and the Wikidata URL is "http://www.wikidata.org/wiki/Q693450".
+(7) Find the country ID for the institution with a UNICS ID of 1716 and a Wikidata URL of "http://www.wikidata.org/wiki/Q693450".

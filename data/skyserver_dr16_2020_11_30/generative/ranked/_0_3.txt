@@ -1,0 +1,27 @@
+SELECT Spectroscopic_objects.zwarning FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.z = -0.001723453
+
+###
+
+
+Original Query:
+SELECT T1.zwarning FROM specobj AS T1 WHERE T1.z = -0.001723453
+GPT-3 choices:
+(0) What is the zwarning for the spectroscopic object with a redshift value of -0.001723453?
+(1) Select the zwarning column from the specobj table where the z value is equal to -0.001723453 for spectroscopic objects.
+(2) What is the zwarning for the spectroscopic object with a redshift value of -0.001723453?
+(3) What is the zwarning for a spectroscopic object with a redshift of -0.001723453?
+(4) Retrieve the zwarning from the specobj table for all rows where the z column is equal to -0.001723453, and name this set of rows Spectroscopic_objects.
+(5) What is the zwarning value for an object in the Spectroscopic_objects table where its z value is equal to -0.001723453?
+(6) Get the zwarning value from the specobj table for objects with a z value of -0.001723453.
+(7) Retrieve the zwarning value for a spectroscopic object with a z value of -0.001723453 from the specobj table.
+
+
+Re-ranked choices:
+1.438  Get the zwarning value from the specobj table for objects with a z value of -0.001723453.
+1.437  What is the zwarning for a spectroscopic object with a redshift of -0.001723453?
+1.435  What is the zwarning for the spectroscopic object with a redshift value of -0.001723453?
+0.728  What is the zwarning value for an object in the Spectroscopic_objects table where its z value is equal to -0.001723453?
+0.045  Retrieve the zwarning from the specobj table for all rows where the z column is equal to -0.001723453, and name this set of rows Spectroscopic_objects.
+0.039  Retrieve the zwarning value for a spectroscopic object with a z value of -0.001723453 from the specobj table.
+0.038  Select the zwarning column from the specobj table where the z value is equal to -0.001723453 for spectroscopic objects.
+

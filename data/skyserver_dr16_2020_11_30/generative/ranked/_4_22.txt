@@ -1,0 +1,27 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "GALAXY"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.name = "GALAXY"
+GPT-3 choices:
+(0) How many objects are there in the "photo_type" table where the object type is a galaxy?
+(1) How many photos are there in the database that have been photometrically observed and have a type of "GALAXY"?
+(2) How many photos have been observed using photometric methods and classified as galaxies?
+(3) How many rows are in the "photo_type" table where the value in the "name" column is "GALAXY"?
+(4) How many photo types are there where the name is "GALAXY" and they have been observed photometrically?
+(5) How many galaxies have been photometrically observed?
+(6) How many galaxies have been photometrically observed?
+(7) How many photos have been observed photometrically that are classified as galaxies?
+
+
+Re-ranked choices:
+3.534  How many photo types are there where the name is "GALAXY" and they have been observed photometrically?
+3.532  How many photos are there in the database that have been photometrically observed and have a type of "GALAXY"?
+2.826  How many photos have been observed photometrically that are classified as galaxies?
+2.139  How many rows are in the "photo_type" table where the value in the "name" column is "GALAXY"?
+1.428  How many photos have been observed using photometric methods and classified as galaxies?
+1.425  How many galaxies have been photometrically observed?
+0.042  How many objects are there in the "photo_type" table where the object type is a galaxy?
+

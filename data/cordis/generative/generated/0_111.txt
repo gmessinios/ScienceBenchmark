@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.title = "Social Aspects"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.title = "Social Aspects"
+GPT-3 choices:
+(0) Find the description for the subject area titled "Social Aspects" in the subject areas table.
+(1) Get the description of the "Social Aspects" subject area from the table of subject areas.
+(2) Retrieve the description from the subject_areas table where the title is "Social Aspects".
+(3) Retrieve the description of the subject area "Social Aspects" from the table "subject_areas".
+(4) Retrieve the description for the subject area with a title of "Social Aspects" from the table called "subject_areas".
+(5) Retrieve the description from the subject areas table where the title is "Social Aspects".
+(6) What is the description of the subject area "Social Aspects"?
+(7) Retrieve the description from the subject area table for the title "Social Aspects".

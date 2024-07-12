@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.gene_symbol FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.speciesid = 10090 or xref_gene_ensembl.ensembl_gene_id = "ENSG00000006116"
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM xref_gene_ensembl AS T1 WHERE T1.speciesid = 10090 or T1.ensembl_gene_id = "ENSG00000006116"
+GPT-3 choices:
+(0) Retrieve the gene symbol from the xref_gene_ensembl table where either the species ID is 10090 or the Ensembl gene ID is "ENSG00000006116".
+(1) Retrieve the gene symbol from the xref_gene_ensembl table for either mouse species with ID 10090 or human gene with Ensembl ID "ENSG00000006116".
+(2) Return the gene symbol from the table xref_gene_ensembl where the species ID is 10090 or the Ensembl gene ID is "ENSG00000006116".
+(3) Retrieve the gene symbol from the xref_gene_ensembl table for all rows where the speciesid is 10090 or the ensembl_gene_id is "ENSG00000006116".
+(4) Retrieve the gene symbol for all genes from the species 10090 or with the Ensembl gene ID "ENSG00000006116" in the table xref_gene_ensembl.
+(5) Retrieve the gene symbol from the xref_gene_ensembl table where the species ID is 10090 or the Ensembl gene ID is "ENSG00000006116".
+(6) Retrieve the gene symbol from the table xref_gene_ensembl where either the speciesid is equal to 10090 or the ensembl_gene_id is equal to "ENSG00000006116".
+(7) Retrieve the gene symbol from the xref_gene_ensembl table for a species with ID 10090 or an Ensembl gene ID of "ENSG00000006116".
+
+
+Re-ranked choices:
+6.324  Return the gene symbol from the table xref_gene_ensembl where the species ID is 10090 or the Ensembl gene ID is "ENSG00000006116".
+6.324  Retrieve the gene symbol from the xref_gene_ensembl table where the species ID is 10090 or the Ensembl gene ID is "ENSG00000006116".
+6.324  Retrieve the gene symbol from the xref_gene_ensembl table for a species with ID 10090 or an Ensembl gene ID of "ENSG00000006116".
+6.324  Retrieve the gene symbol from the xref_gene_ensembl table where either the species ID is 10090 or the Ensembl gene ID is "ENSG00000006116".
+6.324  Retrieve the gene symbol from the xref_gene_ensembl table for either mouse species with ID 10090 or human gene with Ensembl ID "ENSG00000006116".
+6.324  Retrieve the gene symbol for all genes from the species 10090 or with the Ensembl gene ID "ENSG00000006116" in the table xref_gene_ensembl.
+4.923  Retrieve the gene symbol from the xref_gene_ensembl table for all rows where the speciesid is 10090 or the ensembl_gene_id is "ENSG00000006116".
+4.921  Retrieve the gene symbol from the table xref_gene_ensembl where either the speciesid is equal to 10090 or the ensembl_gene_id is equal to "ENSG00000006116".
+

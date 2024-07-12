@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.description != "Interdisciplinary"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 WHERE T1.description != "Interdisciplinary"
+GPT-3 choices:
+(0) Retrieve the code for all research domains from the ERC Research Domains table where the description is not "Interdisciplinary".
+(1) What are the codes for research domains that are not classified as "Interdisciplinary"?
+(2) Retrieve the code of research domains from ERC that are not labeled as "Interdisciplinary".
+(3) Get the code for all research domains from erc_research_domains except for "Interdisciplinary".
+(4) Retrieve the code from the research domains table for all domains except those labeled as "Interdisciplinary".
+(5) What is the code for all research domains that are not classified as "Interdisciplinary"?
+(6) Find the code of all research domains in erc_research_domains where the description is not "Interdisciplinary".
+(7) What are the research domains for which the description is not "Interdisciplinary"?

@@ -1,0 +1,27 @@
+SELECT count(*) FROM countries AS countries WHERE countries.country_code2 = "ZW"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries AS T1 WHERE T1.country_code2 = "ZW"
+GPT-3 choices:
+(0) How many countries are there in the table "countries" where the country code 2 is equal to "ZW"?
+(1) How many countries are there with the country code of "ZW"?
+(2) How many countries are there in the "countries" table where the country_code2 column equals "ZW"?
+(3) How many countries are there where the country code is "ZW"?
+(4) How many countries are there in the "countries" table where the country_code2 is equal to "ZW"?
+(5) How many countries are in the "countries" table where the country_code2 is equal to "ZW"?
+(6) How many rows are there in the "countries" table where the value in the "country_code2" column is equal to "ZW"?
+(7) How many countries are in the "countries" table where the country_code2 is equal to "ZW"?
+
+
+Re-ranked choices:
+3.577  How many countries are there with the country code of "ZW"?
+3.577  How many countries are there where the country code is "ZW"?
+3.545  How many countries are there in the table "countries" where the country code 2 is equal to "ZW"?
+2.145  How many countries are in the "countries" table where the country_code2 is equal to "ZW"?
+2.143  How many countries are there in the "countries" table where the country_code2 is equal to "ZW"?
+2.138  How many countries are there in the "countries" table where the country_code2 column equals "ZW"?
+2.135  How many rows are there in the "countries" table where the value in the "country_code2" column is equal to "ZW"?
+

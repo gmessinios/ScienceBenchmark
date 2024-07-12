@@ -1,0 +1,26 @@
+SELECT count(*) FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions = "EE00A"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units AS T1 WHERE T1.geocode_regions = "EE00A"
+GPT-3 choices:
+(0) Count the number of rows in the EU Territorial Units table where the geocode_regions column is equal to "EE00A".
+(1) How many territorial units are there in the European Union with a geocode region of "EE00A"?
+(2) How many entries are in the EU Territorial Units table where the geocode_regions is "EE00A"?
+(3) How many territorial units are there in the European Union with the geocode region "EE00A"?
+(4) How many territorial units are there in the European Union with a geocode region of "EE00A"?
+(5) How many records are there in the EU territorial units table where the geocode_regions column is equal to "EE00A"?
+(6) How many territorial units are there in the EU with a geocode region of "EE00A"?
+(7) How many territorial units are there in the European Union with a geocode region of "EE00A"?
+
+
+Re-ranked choices:
+6.354  How many territorial units are there in the EU with a geocode region of "EE00A"?
+4.942  How many territorial units are there in the European Union with a geocode region of "EE00A"?
+4.937  How many entries are in the EU Territorial Units table where the geocode_regions is "EE00A"?
+4.937  How many territorial units are there in the European Union with the geocode region "EE00A"?
+4.936  Count the number of rows in the EU Territorial Units table where the geocode_regions column is equal to "EE00A".
+4.936  How many records are there in the EU territorial units table where the geocode_regions column is equal to "EE00A"?
+

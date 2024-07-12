@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.description = "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)"
+GPT-3 choices:
+(0) Retrieve the value of the photometrically observed property for objects that are described as coming from a catalog other than SDSS and have not been used yet.
+(1) What is the value of the photometrically observed data for objects that are known to have come from a catalog other than SDSS?
+(2) Retrieve the value of the photometrically observed field for a known object that came from a catalog other than SDSS and is not currently in use.
+(3) Retrieve the value from the "photometrically_observed" column in the "photo_type" table where the description is "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)".
+(4) What is the value of photometrically observed for known objects that originated from a catalog other than SDSS and are not yet used?
+(5) Retrieve the value from the photometrically_observed table for objects that are marked as being from a catalog other than SDSS and have not yet been used.
+(6) Find the value for the observed photometry of an object that is known to have come from a catalog other than SDSS.
+(7) Retrieve the values of photometrically observed objects that are described as coming from a catalog other than SDSS and not yet used.
+
+
+Re-ranked choices:
+11.227  Retrieve the value from the "photometrically_observed" column in the "photo_type" table where the description is "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)".
+8.424  Retrieve the value of the photometrically observed field for a known object that came from a catalog other than SDSS and is not currently in use.
+7.724  What is the value of photometrically observed for known objects that originated from a catalog other than SDSS and are not yet used?
+7.022  Retrieve the value of the photometrically observed property for objects that are described as coming from a catalog other than SDSS and have not been used yet.
+6.327  What is the value of the photometrically observed data for objects that are known to have come from a catalog other than SDSS?
+6.325  Retrieve the values of photometrically observed objects that are described as coming from a catalog other than SDSS and not yet used.
+5.632  Find the value for the observed photometry of an object that is known to have come from a catalog other than SDSS.
+5.624  Retrieve the value from the photometrically_observed table for objects that are marked as being from a catalog other than SDSS and have not yet been used.
+

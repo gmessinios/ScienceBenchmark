@@ -1,0 +1,16 @@
+SELECT biomarker_fda_drug.biomarker_fda_id FROM biomarker_fda_drug AS biomarker_fda_drug JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_drug.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_trade_name = "Oncomine Dx Target Test"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_drug AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_trade_name = "Oncomine Dx Target Test"
+GPT-3 choices:
+(0) Find the ID of biomarkers that are associated with drugs in the FDA database, where the trade name of the test is "Oncomine Dx Target Test".
+(1) Retrieve the biomarker FDA IDs from the table "biomarker_fda_drug" where the associated test trade name in the table "biomarker_fda" is "Oncomine Dx Target Test".
+(2) Find the ID of biomarkers associated with drugs in the FDA database where the corresponding FDA biomarker is for a test with trade name "Oncomine Dx Target Test".
+(3) Find the FDA biomarker ID for the biomarker associated with the test trade name "Oncomine Dx Target Test".
+(4) Retrieve the ID of all biomarker-FDA combinations where the FDA-approved biomarker test has a trade name of "Oncomine Dx Target Test".
+(5) Find the FDA ID of biomarkers that are associated with drugs in the Oncomine Dx Target Test.
+(6) Retrieve the FDA biomarker ID for the biomarker drug associated with the Oncomine Dx Target Test from the biomarker_fda_drug and biomarker_fda tables.
+(7) Find the biomarker FDA ID for the drug associated with the biomarker FDA test "Oncomine Dx Target Test".

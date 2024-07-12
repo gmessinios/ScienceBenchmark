@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.specobjid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.plateid = 624874486314854400
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM specobj AS T1 WHERE T1.plateid = 624874486314854400
+GPT-3 choices:
+(0) Find the specobjid of all spectroscopic objects from the table specobj where the plateid is equal to 624874486314854400.
+(1) Get the specobjid for all spectroscopic objects from the specobj table where the plateid is 624874486314854400.
+(2) Find the specobjid of Spectroscopic_objects from the specobj table where the plateid is equal to 624874486314854400.
+(3) Retrieve the specobjid from the table specobj where the plateid is equal to 624874486314854400.
+(4) Retrieve the specobjid for all spectroscopic objects from the table specobj where the plateid is equal to 624874486314854400.
+(5) Find the specobjid from the specobj table for all objects where the plateid is equal to 624874486314854400.
+(6) "Retrieve the specobjid values from the Spectroscopic_objects table where the plateid is equal to 624874486314854400."
+(7) Find the specobjid from the specobj table where the plateid is equal to 624874486314854400.
+
+
+Re-ranked choices:
+2.831  Find the specobjid of all spectroscopic objects from the table specobj where the plateid is equal to 624874486314854400.
+2.829  Get the specobjid for all spectroscopic objects from the specobj table where the plateid is 624874486314854400.
+2.827  Retrieve the specobjid for all spectroscopic objects from the table specobj where the plateid is equal to 624874486314854400.
+1.437  Find the specobjid from the specobj table for all objects where the plateid is equal to 624874486314854400.
+0.730  "Retrieve the specobjid values from the Spectroscopic_objects table where the plateid is equal to 624874486314854400."
+0.729  Find the specobjid of Spectroscopic_objects from the specobj table where the plateid is equal to 624874486314854400.
+0.051  Find the specobjid from the specobj table where the plateid is equal to 624874486314854400.
+0.043  Retrieve the specobjid from the table specobj where the plateid is equal to 624874486314854400.
+

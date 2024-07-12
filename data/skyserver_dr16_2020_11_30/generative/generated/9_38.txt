@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.loadversion FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid != 300700239378016256
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid != 300700239378016256
+GPT-3 choices:
+(0) Find the load version for spectroscopic objects where the specobjid does not equal 300700239378016256 and is joined with emission line estimates on the specobjid.
+(1) Retrieve the load version from the table of spectroscopic objects for any entry in the galactic spectral line table where the object's specobjid is not equal to 300700239378016256.
+(2) Retrieve the load version from the Spectroscopic Objects table for all objects where the specobjid in Emission Line Estimates is not equal to 300700239378016256.
+(3) Retrieve the load version of all spectroscopic objects where the specobjid does not equal 300700239378016256 from the Spectroscopic_objects and galspecline tables, while joining on the specobjid column in order to also include any associated emission line estimates.
+(4) Retrieve the load version from the Spectroscopic_objects table for all objects with matching specobjid in both the specobj and galspecline tables, excluding those with a specobjid of 300700239378016256 in the Emission_line_estimates table.
+(5) Find the loadversion from the table Spectroscopic_objects for all objects where the specobjid in galspecline does not equal 300700239378016256.
+(6) Find the load version for a spectroscopic object where the specobjid in the emission line estimates table does not equal 300700239378016256.
+(7) Retrieve the load version of the spectroscopic objects for each emission line estimate that has a specobjid different from 300700239378016256.

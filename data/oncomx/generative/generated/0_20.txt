@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.disease_mutation_id = 327852
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.disease_mutation_id = 327852
+GPT-3 choices:
+(0) What is the description of the disease mutation site annotation associated with the disease mutation ID 327852?
+(1) Retrieve the description of the disease mutation site annotation for the disease mutation with an ID of 327852.
+(2) What is the description of the disease mutation site for a given disease mutation ID of 327852?
+(3) Retrieve the description from the disease_mutation_site_annotation table where the disease_mutation_id is equal to 327852.
+(4) What is the description for the disease mutation with an ID of 327852?
+(5) What is the description for the disease mutation site annotation with a disease mutation ID of 327852?
+(6) Get the description of the disease mutation site annotation for the mutation with an ID of 327852 from the disease_mutation_site_annotation table.
+(7) What is the description of the disease mutation site for a specific disease mutation with an ID of 327852?

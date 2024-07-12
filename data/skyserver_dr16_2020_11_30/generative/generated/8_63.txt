@@ -1,0 +1,16 @@
+SELECT Photometric_objects.extinction_r FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_g != 13.05159
+
+###
+
+
+Original Query:
+SELECT T1.extinction_r FROM photoobj AS T1 WHERE T1.cmodelmag_g != 13.05159
+GPT-3 choices:
+(0) Retrieve the r-band extinction values from the photoobj table for all objects where the g-band cmodel magnitude is not equal to 13.05159.
+(1) "Retrieve the extinction value in the r-band for photometric objects from the photoobj table, where the g-band cmodel magnitude is not equal to 13.05159."
+(2) What is the extinction_r value from the photoobj table for objects with a cmodelmag_g value not equal to 13.05159 in the Photometric_objects table?
+(3) Get the extinction value for objects from the photoobj table where the g-band cmodel magnitude is not equal to 13.05159.
+(4) Retrieve the extinction value in the r band for all objects with a cmodel magnitude in the g band not equal to 13.05159 from the photoobj table.
+(5) Find the extinction in the r band for all photometric objects where the cmodel magnitude in the g band is not equal to 13.05159.
+(6) "Retrieve the value for extinction in r-band from the photoobj table for objects where the cmodel magnitude in g-band is not equal to 13.05159."
+(7) Find the extinction values in the "extinction_r" column for all objects where the cmodelmag_g is not equal to 13.05159 in the table "photoobj".

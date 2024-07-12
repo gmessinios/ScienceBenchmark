@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid != 1237645876861599951
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.neighborobjid != 1237645876861599951
+GPT-3 choices:
+(0) Find the objid of the nearest neighbor objects that are not equal to 1237645876861599951 from the table "neighbors."
+(1) Find the objid of the nearest neighbour objects that are not equal to 1237645876861599951 in the table named neighbors.
+(2) Find the IDs of the nearest neighboring objects that are not equal to 1237645876861599951.
+(3) "Find the object IDs of the nearest neighbors that are not equal to 1237645876861599951."
+(4) Find the object IDs of the nearest neighboring objects where the neighbor object ID is not equal to 1237645876861599951.
+(5) Get the object IDs of the nearest neighbors of an object with ID 1237645876861599951.
+(6) Find the object IDs of the nearest neighbors that are not equal to 1237645876861599951.
+(7) Retrieve the IDs of all objects that are neighbors of an object with ID 1237645876861599951.
+
+
+Re-ranked choices:
+5.636  Find the object IDs of the nearest neighboring objects where the neighbor object ID is not equal to 1237645876861599951.
+4.254  Retrieve the IDs of all objects that are neighbors of an object with ID 1237645876861599951.
+2.858  Get the object IDs of the nearest neighbors of an object with ID 1237645876861599951.
+2.838  Find the objid of the nearest neighbor objects that are not equal to 1237645876861599951 from the table "neighbors."
+2.833  Find the objid of the nearest neighbour objects that are not equal to 1237645876861599951 in the table named neighbors.
+1.475  "Find the object IDs of the nearest neighbors that are not equal to 1237645876861599951."
+1.475  Find the object IDs of the nearest neighbors that are not equal to 1237645876861599951.
+1.458  Find the IDs of the nearest neighboring objects that are not equal to 1237645876861599951.
+

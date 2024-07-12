@@ -1,0 +1,25 @@
+SELECT count(*) FROM people AS people
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people AS T1
+GPT-3 choices:
+(0) How many people are there in the table named "people"?
+(1) How many people are there in the "people" table?
+(2) How many rows are there in the table named "people" as represented by the alias "people"?
+(3) How many people are there in the table named "people"?
+(4) How many people are there in the table named "people"?
+(5) How many rows are in the table "people" with all columns selected?
+(6) "How many people are there in the database?"
+(7) How many people are there in the table named "people"?
+
+
+Re-ranked choices:
+1.503  "How many people are there in the database?"
+1.491  How many people are there in the "people" table?
+1.481  How many people are there in the table named "people"?
+1.454  How many rows are in the table "people" with all columns selected?
+1.442  How many rows are there in the table named "people" as represented by the alias "people"?
+

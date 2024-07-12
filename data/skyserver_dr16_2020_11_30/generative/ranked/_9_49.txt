@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.subclass != "G0Va (143761)"
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.subclass != "G0Va (143761)"
+GPT-3 choices:
+(0) Find the specobjid of stellar spectral line indices for all spectroscopic objects that do not have a subclass of "G0Va (143761)".
+(1) Find the specobjid for all Stellar_spectal_line_indices where the corresponding Spectroscopic_objects have a subclass that is not "G0Va (143761)".
+(2) Retrieve the specobjid from Stellar_spectal_line_indices for Spectroscopic_objects where the subclass is not "G0Va (143761)".
+(3) Retrieve the specobjid from the spplines table where the corresponding spectroscopic object's subclass is not equal to "G0Va (143761)".
+(4) Retrieve the specobjid values from the spplines table where the associated Spectroscopic_objects have a subclass that is not equal to "G0Va (143761)".
+(5) Find the specobjid from spplines where the subclass of Spectroscopic_objects is not "G0Va (143761)".
+(6) Retrieve the specobjid from the spplines table where the subclass of Spectroscopic_objects is not "G0Va (143761)" and match it with the corresponding specobjid in the specobj table.
+(7) Find the specobjid values from Stellar_spectal_line_indices table that are not associated with Spectroscopic_objects having a subclass of "G0Va (143761)".
+
+
+Re-ranked choices:
+8.427  Find the specobjid of stellar spectral line indices for all spectroscopic objects that do not have a subclass of "G0Va (143761)".
+5.622  Retrieve the specobjid from the spplines table where the corresponding spectroscopic object's subclass is not equal to "G0Va (143761)".
+4.223  Retrieve the specobjid from Stellar_spectal_line_indices for Spectroscopic_objects where the subclass is not "G0Va (143761)".
+4.222  Find the specobjid for all Stellar_spectal_line_indices where the corresponding Spectroscopic_objects have a subclass that is not "G0Va (143761)".
+4.219  Find the specobjid values from Stellar_spectal_line_indices table that are not associated with Spectroscopic_objects having a subclass of "G0Va (143761)".
+3.528  Find the specobjid from spplines where the subclass of Spectroscopic_objects is not "G0Va (143761)".
+3.520  Retrieve the specobjid values from the spplines table where the associated Spectroscopic_objects have a subclass that is not equal to "G0Va (143761)".
+3.517  Retrieve the specobjid from the spplines table where the subclass of Spectroscopic_objects is not "G0Va (143761)" and match it with the corresponding specobjid in the specobj table.
+

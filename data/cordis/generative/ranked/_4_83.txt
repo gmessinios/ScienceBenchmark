@@ -1,0 +1,28 @@
+SELECT count(*) FROM programmes AS programmes WHERE programmes.parent = "KBBE.1.5"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes AS T1 WHERE T1.parent = "KBBE.1.5"
+GPT-3 choices:
+(0) How many programmes are there where the parent is "KBBE.1.5"?
+(1) How many programmes have a parent category of "KBBE.1.5"?
+(2) How many programmes are there that have a parent programme with the identifier "KBBE.1.5"?
+(3) How many programmes have a parent code of "KBBE.1.5"?
+(4) How many programmes have "KBBE.1.5" as their parent?
+(5) How many programmes are there that have a parent with the code "KBBE.1.5"?
+(6) How many programmes are there that have a parent with the value "KBBE.1.5"?
+(7) How many programmes are there in the KBBE.1.5 category that have a parent category?
+
+
+Re-ranked choices:
+2.873  How many programmes have a parent code of "KBBE.1.5"?
+2.867  How many programmes are there where the parent is "KBBE.1.5"?
+2.854  How many programmes are there that have a parent with the code "KBBE.1.5"?
+2.854  How many programmes are there that have a parent with the value "KBBE.1.5"?
+2.837  How many programmes are there in the KBBE.1.5 category that have a parent category?
+2.834  How many programmes have a parent category of "KBBE.1.5"?
+2.832  How many programmes are there that have a parent programme with the identifier "KBBE.1.5"?
+1.491  How many programmes have "KBBE.1.5" as their parent?
+

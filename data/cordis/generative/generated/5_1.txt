@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people AS people    ORDER BY people.unics_id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1    ORDER BY T1.unics_id DESC LIMIT 1
+GPT-3 choices:
+(0) Get the full name of the person with the highest unics_id, sorted in descending order, from the table "people".
+(1) Get the full name of the person with the highest unics_id from the people table, ordered in descending order, limited to one result.
+(2) Show me the full name of the person who has the highest unics ID, in descending order.
+(3) Get the full name of the person with the highest unics ID, sorted in descending order and limit the result to only one record.
+(4) Get the full names of all people in descending order by their unics_id, limiting the results to only the last record.
+(5) Show me the full name of the person with the highest unique identifier, sorted in descending order, limited to 1 result.
+(6) "Retrieve the full name of the person from the table 'people', in descending order based on their unique ID, with a limit of one result."
+(7) Get the full name of the last person in the table "people" when sorted by their unique identifier in descending order.

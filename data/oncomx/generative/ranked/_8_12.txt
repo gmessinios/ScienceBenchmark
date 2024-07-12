@@ -1,0 +1,28 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_trade_name != "BRACAnalysis CDx"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.test_trade_name != "BRACAnalysis CDx"
+GPT-3 choices:
+(0) Retrieve the test submission from the FDA biomarker database, where the trade name is not "BRACAnalysis CDx".
+(1) Retrieve the test submission for all entries in the biomarker_fda table where the test trade name is not "BRACAnalysis CDx".
+(2) Retrieve the test submission for all biomarkers in the FDA database that do not have a trade name of "BRACAnalysis CDx".
+(3) Retrieve all test submissions from biomarkers that are not the BRACAnalysis CDx.
+(4) Find all test submissions in the FDA biomarker database where the trade name is not "BRACAnalysis CDx".
+(5) What are the test submissions for all entries in biomarker_fda where the trade name is not "BRACAnalysis CDx"?
+(6) What are the test submissions from biomarker_fda where the test trade name is not "BRACAnalysis CDx"?
+(7) Find all test submissions from biomarker_fda where the test trade name is not "BRACAnalysis CDx".
+
+
+Re-ranked choices:
+9.828  Retrieve the test submission from the FDA biomarker database, where the trade name is not "BRACAnalysis CDx".
+8.428  Find all test submissions in the FDA biomarker database where the trade name is not "BRACAnalysis CDx".
+8.427  Retrieve the test submission for all biomarkers in the FDA database that do not have a trade name of "BRACAnalysis CDx".
+7.021  Retrieve the test submission for all entries in the biomarker_fda table where the test trade name is not "BRACAnalysis CDx".
+5.627  Find all test submissions from biomarker_fda where the test trade name is not "BRACAnalysis CDx".
+5.626  What are the test submissions from biomarker_fda where the test trade name is not "BRACAnalysis CDx"?
+5.625  What are the test submissions for all entries in biomarker_fda where the trade name is not "BRACAnalysis CDx"?
+2.127  Retrieve all test submissions from biomarkers that are not the BRACAnalysis CDx.
+

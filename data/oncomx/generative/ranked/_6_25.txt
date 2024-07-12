@@ -1,0 +1,27 @@
+SELECT anatomical_entity.description FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.id = "UBERON:0001236" and anatomical_entity.name = "urinary bladder urothelium"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM anatomical_entity AS T1 WHERE T1.id = "UBERON:0001236" and T1.name = "urinary bladder urothelium"
+GPT-3 choices:
+(0) What is the description of the urinary bladder urothelium?
+(1) Retrieve the description for the anatomical entity with ID "UBERON:0001236" and name "urinary bladder urothelium".
+(2) Retrieve the description of the anatomical entity with an ID of "UBERON:0001236" and a name of "urinary bladder urothelium".
+(3) Get the description for the anatomical entity with an ID of "UBERON:0001236" and a name of "urinary bladder urothelium" from the table "anatomical_entity".
+(4) What is the description of the anatomical entity with ID "UBERON:0001236" and name "urinary bladder urothelium"?
+(5) Retrieve the description of the anatomical entity with the ID "UBERON:0001236" and name "urinary bladder urothelium".
+(6) Get the description of the anatomical entity with the ID "UBERON:0001236" and name "urinary bladder urothelium" from the table "anatomical_entity".
+(7) What is the description of the anatomical entity with ID "UBERON:0001236" and name "urinary bladder urothelium"?
+
+
+Re-ranked choices:
+9.826  What is the description of the anatomical entity with ID "UBERON:0001236" and name "urinary bladder urothelium"?
+9.824  Retrieve the description for the anatomical entity with ID "UBERON:0001236" and name "urinary bladder urothelium".
+9.824  Retrieve the description of the anatomical entity with an ID of "UBERON:0001236" and a name of "urinary bladder urothelium".
+9.824  Retrieve the description of the anatomical entity with the ID "UBERON:0001236" and name "urinary bladder urothelium".
+9.819  Get the description for the anatomical entity with an ID of "UBERON:0001236" and a name of "urinary bladder urothelium" from the table "anatomical_entity".
+9.819  Get the description of the anatomical entity with the ID "UBERON:0001236" and name "urinary bladder urothelium" from the table "anatomical_entity".
+2.833  What is the description of the urinary bladder urothelium?
+

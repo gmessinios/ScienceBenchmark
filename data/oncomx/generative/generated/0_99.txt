@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.uniprotkb_ac FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.peptide_id = "ENSP00000216733"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_protein_disease_mutation AS T1 WHERE T1.peptide_id = "ENSP00000216733"
+GPT-3 choices:
+(0) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the peptide_id is "ENSP00000216733".
+(1) Get the uniprotkb_ac value from the map_protein_disease_mutation table where peptide_id is equal to "ENSP00000216733".
+(2) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the peptide_id is equal to "ENSP00000216733".
+(3) Find the UniProtKB accession code for the protein-disease-mutation mapping where the peptide ID is "ENSP00000216733".
+(4) Retrieve the UniprotKB accession code from the protein-disease-mutation mapping table for the peptide with ID "ENSP00000216733".
+(5) Retrieve the uniprotkb accession number from the map_protein_disease_mutation table where the peptide_id is equal to "ENSP00000216733".
+(6) Retrieve the UniProtKB accession code for proteins associated with mutations in the peptide with ID "ENSP00000216733" from the map_protein_disease_mutation table.
+(7) Retrieve the uniprotkb accession number from the map_protein_disease_mutation table for entries where the peptide_id is "ENSP00000216733".

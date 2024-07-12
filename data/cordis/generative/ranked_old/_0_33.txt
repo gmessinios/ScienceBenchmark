@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'IPC'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'IPC'
+GPT-3 choices:
+(0) Show me the title of funding schemes with code IPC
+(1) What are the titles of the funding schemes with code IPC?
+(2) Show me all funding schemes with code IPC.$
+(3) What are the different titles of funding schemes with code IPC?
+(4) Show me the different funding schemes with IPC as code
+(5) Show all funding schemes associated with IPC
+(6) What are the title of funding schemes having the code IPC?
+(7) Show the titles of funding schemes that have the code IPC.
+
+
+Re-ranked choices:
+6.420  Show me the title of funding schemes with code IPC
+5.675  What are the title of funding schemes having the code IPC?
+4.981  Show me the different funding schemes with IPC as code
+4.800  Show me all funding schemes with code IPC.$
+4.303  What are the titles of the funding schemes with code IPC?
+4.303  Show the titles of funding schemes that have the code IPC.
+4.258  What are the different titles of funding schemes with code IPC?
+3.542  Show all funding schemes associated with IPC
+

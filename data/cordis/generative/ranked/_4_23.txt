@@ -1,0 +1,24 @@
+SELECT count(*) FROM funding_schemes AS funding_schemes WHERE funding_schemes.title = "Joint Technology Initiatives"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes AS T1 WHERE T1.title = "Joint Technology Initiatives"
+GPT-3 choices:
+(0) How many funding schemes have a title of "Joint Technology Initiatives"?
+(1) How many funding schemes are there in the table "funding_schemes" that have a title of "Joint Technology Initiatives"?
+(2) How many records are there in the funding schemes table where the title is "Joint Technology Initiatives"?
+(3) How many funding schemes are there with the title "Joint Technology Initiatives"?
+(4) How many funding schemes are there with the title "Joint Technology Initiatives"?
+(5) How many funding schemes are there with the title "Joint Technology Initiatives"?
+(6) How many funding schemes have a title of "Joint Technology Initiatives"?
+(7) How many funding schemes are there with the title "Joint Technology Initiatives"?
+
+
+Re-ranked choices:
+6.339  How many funding schemes have a title of "Joint Technology Initiatives"?
+6.337  How many funding schemes are there with the title "Joint Technology Initiatives"?
+6.334  How many records are there in the funding schemes table where the title is "Joint Technology Initiatives"?
+6.333  How many funding schemes are there in the table "funding_schemes" that have a title of "Joint Technology Initiatives"?
+

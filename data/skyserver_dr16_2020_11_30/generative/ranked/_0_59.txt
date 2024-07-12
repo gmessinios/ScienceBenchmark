@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Galaxy: An extended object composed of many stars and other matter."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Galaxy: An extended object composed of many stars and other matter."
+GPT-3 choices:
+(0) Retrieve the names of all objects that have been observed photometrically and are described as galaxies, which are extended objects made up of stars and other matter.
+(1) Retrieve the names of all objects in the photo_type table that have a description stating they are galaxies.
+(2) Retrieve the name of all objects observed photometrically that are described as galaxies.
+(3) Which names belong to objects that have been observed photometrically and are described as galaxies?
+(4) Retrieve the names of galaxies that have been photometrically observed.
+(5) What are the names of objects that have been observed through photometric methods and described as galaxies?
+(6) Find the names of all objects in the database that have a description of "Galaxy: An extended object composed of many stars and other matter." under the column "description" in the table called "photo_type".
+(7) What are the names of objects in photometrically observed data that are described as galaxies?
+
+
+Re-ranked choices:
+7.734  Find the names of all objects in the database that have a description of "Galaxy: An extended object composed of many stars and other matter." under the column "description" in the table called "photo_type".
+5.622  Retrieve the names of all objects that have been observed photometrically and are described as galaxies, which are extended objects made up of stars and other matter.
+4.928  Retrieve the name of all objects observed photometrically that are described as galaxies.
+3.529  What are the names of objects in photometrically observed data that are described as galaxies?
+2.829  Which names belong to objects that have been observed photometrically and are described as galaxies?
+2.134  What are the names of objects that have been observed through photometric methods and described as galaxies?
+2.129  Retrieve the names of all objects in the photo_type table that have a description stating they are galaxies.
+2.128  Retrieve the names of galaxies that have been photometrically observed.
+

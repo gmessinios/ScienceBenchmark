@@ -1,0 +1,25 @@
+SELECT count(*) FROM biomarker_article AS biomarker_article
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_article AS T1
+GPT-3 choices:
+(0) How many articles are there in the biomarker_article table?
+(1) How many articles are there in the biomarker_article table?
+(2) How many articles are there in the biomarker database?
+(3) How many rows are there in the biomarker_article table in the database?
+(4) How many articles are there in the biomarker_article table?
+(5) "How many rows are in the biomarker_article table?"
+(6) How many rows are there in the table biomarker_article?
+(7) How many rows are there in the table biomarker_article?
+
+
+Re-ranked choices:
+1.468  How many articles are there in the biomarker database?
+0.068  How many rows are there in the table biomarker_article?
+0.058  "How many rows are in the biomarker_article table?"
+0.054  How many rows are there in the biomarker_article table in the database?
+0.037  How many articles are there in the biomarker_article table?
+

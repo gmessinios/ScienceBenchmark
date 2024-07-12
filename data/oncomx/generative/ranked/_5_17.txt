@@ -1,0 +1,28 @@
+SELECT disease.name FROM disease AS disease    ORDER BY disease.id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1    ORDER BY T1.id DESC LIMIT 1
+GPT-3 choices:
+(0) Get the name of the most recently added disease from the "disease" table in descending order by ID, with a limit of one result.
+(1) Get the name of the most recent disease in descending order.
+(2) Show the name of the most recent disease in descending order.
+(3) Retrieve the name of the most recently added disease, ordered from newest to oldest.
+(4) "Get the name of the most recently added disease from the disease table, sorted in descending order by its ID and limit the result to one."
+(5) Retrieve the name of the most recently added disease in descending order from the disease table.
+(6) Get the name of the latest disease in alphabetical order.
+(7) Get the name of the latest disease in descending order.
+
+
+Re-ranked choices:
+4.927  "Get the name of the most recently added disease from the disease table, sorted in descending order by its ID and limit the result to one."
+3.529  Get the name of the most recently added disease from the "disease" table in descending order by ID, with a limit of one result.
+2.850  Get the name of the latest disease in descending order.
+2.847  Get the name of the most recent disease in descending order.
+2.847  Show the name of the most recent disease in descending order.
+2.836  Get the name of the latest disease in alphabetical order.
+2.832  Retrieve the name of the most recently added disease in descending order from the disease table.
+1.439  Retrieve the name of the most recently added disease, ordered from newest to oldest.
+

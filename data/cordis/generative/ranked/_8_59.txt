@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types AS activity_types WHERE activity_types.code != "GOV"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM activity_types AS T1 WHERE T1.code != "GOV"
+GPT-3 choices:
+(0) Show me the descriptions of all activity types except for "GOV".
+(1) Find the descriptions of all activity types from the table "activity_types" except for those with code "GOV".
+(2) Find the description for all activity types except "GOV" from the table "activity_types".
+(3) What is the description of all activity types, except for "GOV"?
+(4) Get the description of all activity types except for "GOV" from the table "activity_types".
+(5) Find the description of all activity types except for those with a code of "GOV".
+(6) Retrieve the description from the activity_types table where the code is not equal to "GOV".
+(7) What are the descriptions of activity types that have a code other than "GOV"?
+
+
+Re-ranked choices:
+6.344  Find the description of all activity types except for those with a code of "GOV".
+4.947  What are the descriptions of activity types that have a code other than "GOV"?
+4.930  Find the descriptions of all activity types from the table "activity_types" except for those with code "GOV".
+4.928  Find the description for all activity types except "GOV" from the table "activity_types".
+4.927  Get the description of all activity types except for "GOV" from the table "activity_types".
+3.547  Show me the descriptions of all activity types except for "GOV".
+3.547  What is the description of all activity types, except for "GOV"?
+3.538  Retrieve the description from the activity_types table where the code is not equal to "GOV".
+

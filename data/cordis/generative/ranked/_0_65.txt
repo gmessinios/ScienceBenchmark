@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes AS programmes WHERE programmes.rcn = "18055"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM programmes AS T1 WHERE T1.rcn = "18055"
+GPT-3 choices:
+(0) Retrieve the code for a programme from the "programmes" table where the RCN is equal to 18055.
+(1) Find the programme code for the programme with an RCN number of "18055".
+(2) Find the code for the programme with a RCN of "18055" in the programmes table.
+(3) What is the code of the programme with the RCN number "18055"?
+(4) What is the programme code for the programme with an RCN of "18055"?
+(5) Find the code of a programme with the research council number "18055" in the table called "programmes".
+(6) Retrieve the code of the programmes with an rcn of "18055".
+(7) Show me the programme code for the programme with RCN number 18055.
+
+
+Re-ranked choices:
+4.251  Retrieve the code of the programmes with an rcn of "18055".
+4.242  Retrieve the code for a programme from the "programmes" table where the RCN is equal to 18055.
+4.241  Find the code for the programme with a RCN of "18055" in the programmes table.
+2.870  What is the code of the programme with the RCN number "18055"?
+2.854  Find the programme code for the programme with an RCN number of "18055".
+2.854  What is the programme code for the programme with an RCN of "18055"?
+2.847  Show me the programme code for the programme with RCN number 18055.
+2.831  Find the code of a programme with the research council number "18055" in the table called "programmes".
+

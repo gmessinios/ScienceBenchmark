@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "Participant"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description = "Participant"
+GPT-3 choices:
+(0) Find the code for project member roles where the description is "Participant".
+(1) Find the code for the project member role that has a description of "Participant".
+(2) Find the code for all project member roles where the description is "Participant".
+(3) Find the code for a project member role whose description is "Participant" in the table "project_member_roles".
+(4) Find the code for all roles in the "project_member_roles" table where the description is "Participant".
+(5) What is the code for the role of "Participant" in the project member roles table?
+(6) Retrieve the code of all project member roles where the description is "Participant" from the table "project_member_roles".
+(7) What is the project member role code for the description "Participant"?

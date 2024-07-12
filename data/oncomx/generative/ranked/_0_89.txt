@@ -1,0 +1,27 @@
+SELECT biomarker_fda_drug.biomarker_fda_id FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_drug = "IRESSA (gefitinib)"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_drug = "IRESSA (gefitinib)"
+GPT-3 choices:
+(0) Retrieve the biomarker FDA ID from the biomarker_fda_drug table where the biomarker_drug is "IRESSA (gefitinib)".
+(1) What is the FDA biomarker ID for IRESSA (gefitinib)?
+(2) "Retrieve the FDA biomarker ID from the biomarker_fda_drug table where the biomarker drug is equal to 'IRESSA (gefitinib)'."
+(3) "Retrieve the biomarker FDA ID for IRESSA (gefitinib) from the table biomarker_fda_drug."
+(4) Get the ID of the biomarker associated with the FDA-approved drug IRESSA (gefitinib) from the table biomarker_fda_drug.
+(5) Find the FDA biomarker ID for the drug "IRESSA (gefitinib)" in the table of FDA-approved biomarkers for drugs.
+(6) What is the biomarker FDA ID for the drug IRESSA (gefitinib)?
+(7) What is the biomarker FDA ID for the drug IRESSA (gefitinib)?
+
+
+Re-ranked choices:
+7.034  Find the FDA biomarker ID for the drug "IRESSA (gefitinib)" in the table of FDA-approved biomarkers for drugs.
+7.025  "Retrieve the FDA biomarker ID from the biomarker_fda_drug table where the biomarker drug is equal to 'IRESSA (gefitinib)'."
+6.350  What is the biomarker FDA ID for the drug IRESSA (gefitinib)?
+5.625  "Retrieve the biomarker FDA ID for IRESSA (gefitinib) from the table biomarker_fda_drug."
+5.623  Retrieve the biomarker FDA ID from the biomarker_fda_drug table where the biomarker_drug is "IRESSA (gefitinib)".
+5.621  Get the ID of the biomarker associated with the FDA-approved drug IRESSA (gefitinib) from the table biomarker_fda_drug.
+4.957  What is the FDA biomarker ID for IRESSA (gefitinib)?
+

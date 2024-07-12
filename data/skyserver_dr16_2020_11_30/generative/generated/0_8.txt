@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.ancillary_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.loadversion = 1017
+
+###
+
+
+Original Query:
+SELECT T1.ancillary_target1 FROM specobj AS T1 WHERE T1.loadversion = 1017
+GPT-3 choices:
+(0) Retrieve the value of ancillary_target1 for all objects in the specobj table where the loadversion is 1017.
+(1) What is the value of the "ancillary_target1" column for all objects in the "specobj" table with a load version of 1017?
+(2) What is the ancillary target1 of all spectroscopic objects from the specobj table where the loadversion is 1017?
+(3) Retrieve the ancillary_target1 values from the Spectroscopic_objects table where the loadversion is equal to 1017.
+(4) What is the ancillary target 1 for spectroscopic objects in the specobj table where the load version is 1017?
+(5) What are the ancillary target1 values for objects in the specobj table with a load version of 1017?
+(6) What is the ancillary target1 of all spectroscopic objects from the specobj table where the loadversion is 1017?
+(7) What is the ancillary target1 for all spectroscopic objects from the specobj table with a loadversion of 1017?

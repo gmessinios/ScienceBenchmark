@@ -1,0 +1,28 @@
+SELECT Photometric_objects.flags FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_r = 12.36533
+
+###
+
+
+Original Query:
+SELECT T1.flags FROM photoobj AS T1 WHERE T1.cmodelmag_r = 12.36533
+GPT-3 choices:
+(0) Retrieve the flags from the photo objects where the r-band CModel magnitude is equal to 12.36533.
+(1) Retrieve the flags of all photometric objects with a cmodel magnitude in the r band equal to 12.36533 from the photoobj table.
+(2) Retrieve the flags from the photoobj table for all objects with a cmodelmag_r value of 12.36533.
+(3) Find the flags for photometric objects where the cmodel magnitude in the r-band is 12.36533.
+(4) Retrieve the flags of all photometric objects from the photoobj table where the r-band cmodel magnitude is equal to 12.36533.
+(5) Retrieve the flags from the photometric_objects table for objects with a cmodel magnitude in the r band equal to 12.36533.
+(6) Find the flags for objects in the photoobj table with a cmodel magnitude of 12.36533 in the r-band.
+(7) Find the flags of all photometric objects whose C-model magnitude in the r-band is 12.36533.
+
+
+Re-ranked choices:
+6.328  Retrieve the flags from the photometric_objects table for objects with a cmodel magnitude in the r band equal to 12.36533.
+5.637  Retrieve the flags from the photo objects where the r-band CModel magnitude is equal to 12.36533.
+5.636  Retrieve the flags of all photometric objects with a cmodel magnitude in the r band equal to 12.36533 from the photoobj table.
+4.257  Find the flags for objects in the photoobj table with a cmodel magnitude of 12.36533 in the r-band.
+4.237  Find the flags of all photometric objects whose C-model magnitude in the r-band is 12.36533.
+4.233  Find the flags for photometric objects where the cmodel magnitude in the r-band is 12.36533.
+4.225  Retrieve the flags of all photometric objects from the photoobj table where the r-band cmodel magnitude is equal to 12.36533.
+2.833  Retrieve the flags from the photoobj table for all objects with a cmodelmag_r value of 12.36533.
+

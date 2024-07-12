@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.end_year != 2007
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.end_year != 2007
+GPT-3 choices:
+(0) Find the names of all framework programs from the table "ec_framework_programs" that are mentioned in the column "framework_program" in the table "projects" and have a value different than 2007 in the column "end_year".
+(1) Find the names of all framework programs from the table "ec_framework_programs" that are associated with projects whose end year is not 2007.
+(2) Retrieve the names of framework programs that are associated with projects that did not end in 2007.
+(3) Retrieve the name of the framework program from the table "ec_framework_programs" for all projects that have an end year different than 2007.
+(4) Retrieve the name of all framework programs from the table "ec_framework_programs" that are referenced in the "framework_program" column of the table "projects" and whose end year is not equal to 2007.
+(5) Get the names of all framework programs from ec_framework_programs that are used in projects with an end year other than 2007.
+(6) Retrieve the name of the framework program from the EC Framework Programs table for projects that have an end year other than 2007.
+(7) Get the name of all framework programs from the EC Framework Programs table that are associated with projects whose end year is not equal to 2007.

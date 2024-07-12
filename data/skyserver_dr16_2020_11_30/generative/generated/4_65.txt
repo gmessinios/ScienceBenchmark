@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.plate = 876
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.plate = 876
+GPT-3 choices:
+(0) How many spectroscopic objects are there on plate 876?
+(1) "How many spectroscopic objects are there in the plate 876?"
+(2) How many spectroscopic objects are there on plate 876?
+(3) How many spectroscopic objects are there with a plate number of 876?
+(4) How many spectroscopic objects are there on plate 876?
+(5) How many spectroscopic objects have a plate value of 876?
+(6) Count the total number of rows in the "specobj" table where the "plate" column equals 876 and label it as "Spectroscopic_objects".
+(7) "How many spectroscopic objects are there on plate 876?"

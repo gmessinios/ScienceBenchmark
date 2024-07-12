@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description = "Electronic circuits, components and equipment; semiconductors; magnetic and superconducting materials and devices; power systems; printed circuits and integrated circuits (ICs); microwave technology and waveguides."
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description = "Electronic circuits, components and equipment; semiconductors; magnetic and superconducting materials and devices; power systems; printed circuits and integrated circuits (ICs); microwave technology and waveguides."
+GPT-3 choices:
+(0) Find the subject area code for "Electronic circuits, components and equipment; semiconductors; magnetic and superconducting materials and devices; power systems; printed circuits and integrated circuits (ICs); microwave technology and waveguides".
+(1) Retrieve the code of subject areas for the description "Electronic circuits, components and equipment; semiconductors; magnetic and superconducting materials and devices; power systems; printed circuits and integrated circuits (ICs); microwave technology and waveguides".
+(2) What is the code for the subject area "Electronic circuits, components and equipment; semiconductors; magnetic and superconducting materials and devices; power systems; printed circuits and integrated circuits (ICs); microwave technology and waveguides"?
+(3) What is the code for subject areas that describe electronic circuits, components and equipment, semiconductors, magnetic and superconducting materials and devices, power systems, printed circuits and integrated circuits (ICs), microwave technology, and waveguides?
+(4) Retrieve the code for the subject area that corresponds to "Electronic circuits, components and equipment; semiconductors; magnetic and superconducting materials and devices; power systems; printed circuits and integrated circuits (ICs); microwave technology and waveguides".
+(5) Find the code for the subject area that includes electronic circuits, components, and equipment as well as semiconductors, magnetic and superconducting materials and devices, power systems, printed circuits and integrated circuits (ICs), microwave technology, and waveguides.
+(6) Retrieve the code for subject areas that have a description of "Electronic circuits, components and equipment; semiconductors; magnetic and superconducting materials and devices; power systems; printed circuits and integrated circuits (ICs); microwave technology and waveguides." from the subject_areas table.
+(7) Retrieve the code for the subject area that deals with electronic circuits, components and equipment, semiconductors, magnetic and superconducting materials and devices, power systems, printed circuits and integrated circuits (ICs), microwave technology, and waveguides.

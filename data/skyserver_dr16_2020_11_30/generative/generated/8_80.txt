@@ -1,0 +1,16 @@
+SELECT Photometric_objects.mode FROM photoobj AS Photometric_objects WHERE Photometric_objects.u != 14.35719
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM photoobj AS T1 WHERE T1.u != 14.35719
+GPT-3 choices:
+(0) What is the mode for all photometric objects where the u value is not equal to 14.35719?
+(1) What is the mode of Photometric objects from the photoobj table where the u value is not equal to 14.35719?
+(2) Find the mode of the photometric objects where the u value is not equal to 14.35719 in the photoobj table.
+(3) What is the mode of Photometric objects from the photoobj table where the u value is not equal to 14.35719?
+(4) What is the mode of Photometric objects from the table photoobj where the value in the column "u" is not equal to 14.35719?
+(5) Retrieve the mode column from the photoobj table where the u column is not equal to 14.35719, and assign it to a table called Photometric_objects.
+(6) Find the mode of all photometric objects from the photoobj table where the value for u is not equal to 14.35719.
+(7) What is the mode of all photometric objects in the photoobj table where the u value is not equal to 14.35719?

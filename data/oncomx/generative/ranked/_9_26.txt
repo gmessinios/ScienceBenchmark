@@ -1,0 +1,28 @@
+SELECT stage.name FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.expression_level_anatomical_relative != "LOW"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.expression_level_anatomical_relative != "LOW"
+GPT-3 choices:
+(0) Retrieve the name of all stages where healthy expression is not low in terms of relative anatomical expression level.
+(1) Retrieve the names of stages where the expression level in healthy tissue is not considered "LOW" in comparison to other anatomical regions, by joining the stage table with the healthy_expression table on their respective developmental IDs.
+(2) Find the names of stages where healthy expression is associated with an expression level that is not "LOW".
+(3) Retrieve the name of the stage from the stage table where there is a match in the healthy_expression table based on the ID, and where the expression level anatomical relative is not "LOW".
+(4) Retrieve the names of all stages where the expression level is not considered "LOW" in the healthy expression dataset.
+(5) What is the name of the stage for which there exists a healthy expression with an anatomical relative expression level that is not low?
+(6) What is the name of each stage that has a corresponding entry in the healthy_expression table with a non-"LOW" value for expression_level_anatomical_relative?
+(7) What is the name of the stage that corresponds to an uberon developmental ID in healthy expression where the expression level anatomical relative is not "LOW"?
+
+
+Re-ranked choices:
+14.721  What is the name of the stage that corresponds to an uberon developmental ID in healthy expression where the expression level anatomical relative is not "LOW"?
+9.829  What is the name of the stage for which there exists a healthy expression with an anatomical relative expression level that is not low?
+9.822  Retrieve the name of the stage from the stage table where there is a match in the healthy_expression table based on the ID, and where the expression level anatomical relative is not "LOW".
+9.816  Retrieve the names of stages where the expression level in healthy tissue is not considered "LOW" in comparison to other anatomical regions, by joining the stage table with the healthy_expression table on their respective developmental IDs.
+7.732  Retrieve the name of all stages where healthy expression is not low in terms of relative anatomical expression level.
+4.936  Retrieve the names of all stages where the expression level is not considered "LOW" in the healthy expression dataset.
+4.933  Find the names of stages where healthy expression is associated with an expression level that is not "LOW".
+3.523  What is the name of each stage that has a corresponding entry in the healthy_expression table with a non-"LOW" value for expression_level_anatomical_relative?
+

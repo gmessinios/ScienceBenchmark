@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.site_prediction = "unknown"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_impact_prediction AS T1 WHERE T1.site_prediction = "unknown"
+GPT-3 choices:
+(0) "How many rows are there in the table 'disease_mutation_impact_prediction' where the value for 'site_prediction' is equal to 'unknown'?"
+(1) How many rows are in the disease_mutation_impact_prediction table where the site_prediction column is equal to "unknown"?
+(2) How many records are in the disease_mutation_impact_prediction table where the site_prediction is "unknown"?
+(3) How many rows are in the disease_mutation_impact_prediction table where the site_prediction column is "unknown"?
+(4) How many rows are in the disease_mutation_impact_prediction table where the site_prediction column is equal to "unknown"?
+(5) How many rows are in the disease_mutation_impact_prediction table where the site_prediction column is "unknown"?
+(6) How many entries are there in the disease_mutation_impact_prediction table where the site prediction is unknown?
+(7) How many entries are there in the disease mutation impact prediction table where the site prediction is "unknown"?

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_submission FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.clinical_significance = "The THxIDTM BRAF kit is an In Vitro Diagnostic device intended for the qualitative detection of the BRAF V600E and V600K mutations in DNA samples extracted from formalin-fixed paraffin-embedded (FFPE) human melanoma tissue." or biomarker_fda_test.specimen_type = "human stool"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test AS T1 WHERE T1.clinical_significance = "The THxIDTM BRAF kit is an In Vitro Diagnostic device intended for the qualitative detection of the BRAF V600E and V600K mutations in DNA samples extracted from formalin-fixed paraffin-embedded (FFPE) human melanoma tissue." or T1.specimen_type = "human stool"
+GPT-3 choices:
+(0) Find all test submissions from the biomarker_fda_test table where the clinical significance is "The THxIDTM BRAF kit is an In Vitro Diagnostic device intended for the qualitative detection of the BRAF V600E and V600K mutations in DNA samples extracted from formalin-fixed paraffin-embedded (FFPE) human melanoma tissue" or the specimen type is "human stool".
+(1) Find the test submissions from the biomarker_fda_test table where the clinical significance is "The THxIDTM BRAF kit is an In Vitro Diagnostic device intended for the qualitative detection of the BRAF V600E and V600K mutations in DNA samples extracted from formalin-fixed paraffin-embedded (FFPE) human melanoma tissue" or the specimen type is "human stool".
+(2) What is the test submission for the THxIDTM BRAF kit and human stool samples as described in the FDA-approved biomarker_fda_test database?
+(3) Get the test submission from the FDA for a biomarker testing kit used to detect BRAF mutations in FFPE human melanoma tissue or human stool samples.
+(4) Get the test submission results from the biomarker FDA test where the clinical significance is that the THxIDTM BRAF kit can detect mutations in DNA from human melanoma tissue or where the specimen type is human stool.
+(5) Retrieve the test submission from the biomarker FDA test where the clinical significance is that the THxIDTM BRAF kit is an in vitro diagnostic device intended for detecting BRAF V600E and V600K mutations in DNA samples extracted from formalin-fixed paraffin-embedded human melanoma tissue, or the specimen type is human stool.
+(6) Find all test submissions from the biomarker_fda_test table where the clinical significance is "The THxIDTM BRAF kit is an In Vitro Diagnostic device intended for the qualitative detection of the BRAF V600E and V600K mutations in DNA samples extracted from formalin-fixed paraffin-embedded (FFPE) human melanoma tissue" or the specimen type is "human stool".
+(7) Retrieve the test submission for the THxIDTM BRAF kit from the biomarker FDA test data where the clinical significance is related to detecting BRAF V600E and V600K mutations in DNA samples extracted from human melanoma tissue stored in FFPE form, or where the specimen type is human stool.

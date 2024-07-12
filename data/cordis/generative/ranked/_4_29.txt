@@ -1,0 +1,25 @@
+SELECT count(*) FROM activity_types AS activity_types WHERE activity_types.code = "REC"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types AS T1 WHERE T1.code = "REC"
+GPT-3 choices:
+(0) How many activity types are there with the code "REC"?
+(1) How many activity types have the code "REC"?
+(2) Count the number of rows in the "activity_types" table where the code is equal to "REC".
+(3) How many activity types are there with the code "REC"?
+(4) How many activity types are there with the code "REC"?
+(5) How many activity types are there with a code of "REC" in the activity_types table?
+(6) How many activity types are there with the code "REC"?
+(7) How many rows are in the table "activity_types" where the code is equal to "REC"?
+
+
+Re-ranked choices:
+4.981  How many activity types are there with the code "REC"?
+4.973  How many activity types have the code "REC"?
+4.937  How many activity types are there with a code of "REC" in the activity_types table?
+2.154  How many rows are in the table "activity_types" where the code is equal to "REC"?
+2.142  Count the number of rows in the "activity_types" table where the code is equal to "REC".
+

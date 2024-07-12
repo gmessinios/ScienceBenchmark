@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.segue2_target1 FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.veldisp DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.segue2_target1 FROM specobj AS T1    ORDER BY T1.veldisp DESC LIMIT 1
+GPT-3 choices:
+(0) Find the highest velocity dispersion value among all objects in the specobj table, and return the corresponding segue2_target1 value.
+(1) Retrieve the Segue 2 Target 1 name from the Spectroscopic Objects table, sorting by velocity dispersion in descending order and only returning the top result.
+(2) Retrieve the target of the highest velocity dispersion from the spectroscopic objects in the specobj table, sorted in descending order by velocity dispersion, and limit the results to 1.
+(3) What is the segue2_target1 value of the specobj with the highest veldisp from the Spectroscopic_objects table, in descending order?
+(4) What is the SEGUE-2 target name for the spectroscopic object with the largest velocity dispersion?
+(5) What is the most massive Spectroscopic Object's SEGUE2 Target1 from the SpecObj table, ordered by its velocity dispersion in descending order and only returning 1 result?
+(6) Retrieve the segue2_target1 value from the specobj table, sorted by veldisp in descending order, and only return the top result.
+(7) What is the largest target from the Segue 2 survey based on its velocity dispersion?

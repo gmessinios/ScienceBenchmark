@@ -1,0 +1,16 @@
+SELECT count(*) FROM xref_gene_ensembl AS xref_gene_ensembl
+
+###
+
+
+Original Query:
+SELECT count(*) FROM xref_gene_ensembl AS T1
+GPT-3 choices:
+(0) How many rows are in the table "xref_gene_ensembl" in the database and what is the total number of records for all columns?
+(1) How many gene-ensembl cross-references are there in the xref_gene_ensembl table?
+(2) How many entries are there in the xref_gene_ensembl table of the database for gene-Ensembl cross-references?
+(3) How many records are there in the xref_gene_ensembl table for gene-Ensembl cross-references?
+(4) How many rows are in the table "xref_gene_ensembl" in which the column "xref_gene_ensembl" has a non-null value?
+(5) How many records are in the table "xref_gene_ensembl"?
+(6) How many gene-Ensembl cross-references are there in the xref_gene_ensembl table?
+(7) How many gene entries are there in the xref_gene_ensembl table of the database, named xref_gene_ensembl?

@@ -1,0 +1,28 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_name = "Georgia"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_name = "Georgia"
+GPT-3 choices:
+(0) Find the geocode country code for the country named "Georgia" in the countries table.
+(1) Get the geocode country code from the countries table for the country with a country name of "Georgia".
+(2) Find the geocode country code for the country named Georgia in the countries table.
+(3) Retrieve the geocode country code for the country of Georgia from the countries table where the country name is "Georgia".
+(4) What is the geocode country code for the country of Georgia?
+(5) Find the geocode country code for the country with a country name of "Georgia" in the countries table.
+(6) Retrieve the geocode country code from the countries table for the country with a country name of "Georgia".
+(7) Retrieve the geocode country code for the country with a name of "Georgia" from the countries table.
+
+
+Re-ranked choices:
+7.744  Get the geocode country code from the countries table for the country with a country name of "Georgia".
+7.744  Find the geocode country code for the country with a country name of "Georgia" in the countries table.
+7.739  Retrieve the geocode country code for the country with a name of "Georgia" from the countries table.
+7.737  Retrieve the geocode country code from the countries table for the country with a country name of "Georgia".
+7.734  Retrieve the geocode country code for the country of Georgia from the countries table where the country name is "Georgia".
+6.347  Find the geocode country code for the country named "Georgia" in the countries table.
+6.347  Find the geocode country code for the country named Georgia in the countries table.
+4.275  What is the geocode country code for the country of Georgia?
+

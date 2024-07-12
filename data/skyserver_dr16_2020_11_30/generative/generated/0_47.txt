@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+GPT-3 choices:
+(0) What is the name of all the photo types that have a description of "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+(1) Retrieve the names of all objects observed photometrically with blank sky spectrograms.
+(2) What are the names of the photo types that have a description of "Sky: Blank sky spectrogram (no objects in this arcsecond area)."?
+(3) What are the names of objects that have been photometrically observed in a blank sky spectrogram (with no objects in the arcsecond area)?
+(4) Retrieve the names of objects from the photometrically observed photo type where the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+(5) Which objects have been observed photometrically in a blank sky spectrogram (with no objects in the area of one arcsecond)?
+(6) Retrieve the names of all objects observed photometrically with a blank sky spectrogram and no objects within one arcsecond area.
+(7) Find the names of all photo types that have a description of "Sky: Blank sky spectrogram (no objects in this arcsecond area)".

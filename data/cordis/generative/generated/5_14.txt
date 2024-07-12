@@ -1,0 +1,16 @@
+SELECT projects.unics_id FROM projects AS projects    ORDER BY projects.total_cost DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM projects AS T1    ORDER BY T1.total_cost DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the UNICS ID of the project with the highest total cost from the projects table, ordered in descending order by total cost and limited to one result.
+(1) Get the UNICS ID of the project with the highest total cost from the Projects table, in descending order, limited to one result.
+(2) Retrieve the unics_id of the project with the highest total cost, sorted in descending order and limited to 1 result.
+(3) Find the UNICS ID of the project with the highest total cost, in descending order.
+(4) What is the unique ID of the project with the highest total cost, when projects are arranged in descending order based on their total cost?
+(5) Retrieve the UNICS ID of the project with the highest total cost from the Projects table.
+(6) Retrieve the UNICS ID of the project with the highest total cost from all projects, in descending order.
+(7) Find the project's UNICS ID with the highest total cost, and arrange them in descending order, then only select the top result.

@@ -1,0 +1,16 @@
+SELECT count(*) FROM differential_expression AS differential_expression WHERE differential_expression.subjects_nocoverage = 82
+
+###
+
+
+Original Query:
+SELECT count(*) FROM differential_expression AS T1 WHERE T1.subjects_nocoverage = 82
+GPT-3 choices:
+(0) How many rows are in the differential_expression table where the value for subjects_nocoverage is equal to 82?
+(1) How many entries are in the table "differential_expression" where the value of "subjects_nocoverage" is equal to 82?
+(2) How many rows are there in the "differential_expression" table where the value for "subjects_nocoverage" is equal to 82?
+(3) How many instances are there in the differential_expression table where the subjects_nocoverage column has a value of 82?
+(4) How many rows are there in the differential_expression table where the value in the subjects_nocoverage column is equal to 82?
+(5) How many rows are there in the "differential_expression" table where the value of the "subjects_nocoverage" column is 82?
+(6) How many rows are in the table "differential_expression" where the value for the column "subjects_nocoverage" is 82?
+(7) Count the number of rows in the differential_expression table where the subjects_nocoverage column is equal to 82.

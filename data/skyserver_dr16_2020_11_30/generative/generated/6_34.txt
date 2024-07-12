@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.segue2_target2 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.specobjid = 300643889407092736 and Spectroscopic_objects.zwarning = 0
+
+###
+
+
+Original Query:
+SELECT T1.segue2_target2 FROM specobj AS T1 WHERE T1.specobjid = 300643889407092736 and T1.zwarning = 0
+GPT-3 choices:
+(0) Retrieve the segue2_target2 value from the Spectroscopic_objects table for the row with specobjid equal to 300643889407092736 and zwarning equal to 0.
+(1) What is the SEGUE2 target2 from specobj for a spectroscopic object with a specobjid of 300643889407092736 and zwarning of 0?
+(2) What is the target for SEGUE-2 of the object with a specobjid of 300643889407092736 and a zwarning value of 0?
+(3) Retrieve the SEGUE2 target 2 for the spectroscopic object with specobjid 300643889407092736, if its zwarning value is equal to 0.
+(4) What is the SEGUE2 target2 for the spectroscopic object with specobjid = 300643889407092736 and zwarning = 0?
+(5) Retrieve the second SEGUE-2 target from the Spectroscopic objects table where the specobjid is equal to 300643889407092736 and the zwarning is equal to 0.
+(6) Retrieve the SEGUE-2 Target 2 value from the specobj table for an object with a specobjid of 300643889407092736 and a zwarning of 0.
+(7) Find the segue2_target2 value for the spectroscopic object with specobjid = 300643889407092736 and zwarning = 0.

@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.ra FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.veldisp DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.ra FROM specobj AS T1    ORDER BY T1.veldisp DESC LIMIT 1
+GPT-3 choices:
+(0) What is the right ascension of the object with the highest velocity dispersion from the table "specobj"?
+(1) What is the right ascension of the object with the highest velocity dispersion in the specobj table?
+(2) What is the right ascension of the spectroscopic object with the highest velocity dispersion in ascending order, limited to only one result?
+(3) Find the right ascension value for the spectroscopic object with the highest velocity dispersion, ordering it in descending order and limiting to one result.
+(4) Find the right ascension value of the object with the highest velocity dispersion from the table "specobj" ordered in descending order, limited to 1 result.
+(5) Retrieve the right ascension value of the object with the highest velocity dispersion from the specobj table in descending order and limit the result to one.
+(6) Get the right ascension of the spectroscopic object with the highest velocity dispersion from the specobj table, in descending order, with a limit of one.
+(7) Find the right ascension of the object with the highest velocity dispersion from the spectroscopic objects in order of decreasing velocity dispersion, limiting to only one result.

@@ -1,0 +1,28 @@
+SELECT Photometric_objects.u, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.u
+
+###
+
+
+Original Query:
+SELECT T1.u, count(*) FROM photoobj AS T1  GROUP BY T1.u
+GPT-3 choices:
+(0) Count the number of objects in the photoobj table grouped by their u values.
+(1) What is the total number of objects in the photometric catalog grouped by their u-band magnitude?
+(2) How many objects are there in the photoobj table, grouped by the value of their u column?
+(3) Get the count of all objects in the "photoobj" table grouped by their "u" values and display only the "u" value and count.
+(4) Count the number of photo objects and group them by their "u" values.
+(5) What is the count of objects in the photoobj table grouped by their u values?
+(6) Count the number of photo objects in the database grouped by their "u" value.
+(7) Count the number of objects in the photoobj table grouped by their u value.
+
+
+Re-ranked choices:
+3.562  Count the number of photo objects and group them by their "u" values.
+3.547  Count the number of photo objects in the database grouped by their "u" value.
+3.545  What is the count of objects in the photoobj table grouped by their u values?
+3.541  Count the number of objects in the photoobj table grouped by their u values.
+3.541  How many objects are there in the photoobj table, grouped by the value of their u column?
+3.541  Count the number of objects in the photoobj table grouped by their u value.
+3.531  Get the count of all objects in the "photoobj" table grouped by their "u" values and display only the "u" value and count.
+2.132  What is the total number of objects in the photometric catalog grouped by their u-band magnitude?
+

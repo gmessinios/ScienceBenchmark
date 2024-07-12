@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Galaxy: An extended object composed of many stars and other matter."
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.description = "Galaxy: An extended object composed of many stars and other matter."
+GPT-3 choices:
+(0) "Retrieve the value of photometrically observed objects that are described as galaxies."
+(1) What are the values of photometrically observed galaxies?
+(2) Retrieve the value of photometrically observed objects that are described as galaxies.
+(3) Retrieve the value of all photometrically observed objects that have a description of "Galaxy", defined as an extended object made up of stars and other matter.
+(4) Retrieve the value of the photometrically observed data for objects that are described as galaxies.
+(5) Retrieve the value of the photometrically observed column from the photo_type table where the description is "Galaxy: An extended object composed of many stars and other matter.".
+(6) "Retrieve the value from the photo_type table where the description is 'Galaxy: An extended object composed of many stars and other matter'."
+(7) Retrieve the values of photometrically observed objects that are described as galaxies.

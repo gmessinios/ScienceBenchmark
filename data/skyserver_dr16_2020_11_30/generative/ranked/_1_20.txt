@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.neighbormode = 2
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.neighbormode = 2
+GPT-3 choices:
+(0) What are the descriptions of all photometrically observed objects that are neighbors in the 2nd mode?
+(1) "Retrieve the description from photometrically observed photo types for nearest neighbor objects with a mode of 2."
+(2) What are the descriptions of photometrically observed objects that are also nearest neighbor objects with a neighbor mode value of 2?
+(3) What is the description of all photometrically observed objects that are the nearest neighbor to a certain type of object where the neighbor mode is 2?
+(4) What are the descriptions of objects that have been observed photometrically and are the nearest neighbors to a specific object?
+(5) What is the description of photometrically observed objects that are nearest neighbors in mode 2, based on their neighbor type?
+(6) Retrieve the description of the photometrically observed type for the nearest neighbor objects in which their neighbor mode is equal to 2.
+(7) What is the description of the photometrically observed neighbor type for objects that are nearest neighbors in mode 2?
+
+
+Re-ranked choices:
+11.228  What is the description of the photometrically observed neighbor type for objects that are nearest neighbors in mode 2?
+11.225  Retrieve the description of the photometrically observed type for the nearest neighbor objects in which their neighbor mode is equal to 2.
+11.224  What is the description of all photometrically observed objects that are the nearest neighbor to a certain type of object where the neighbor mode is 2?
+10.527  What is the description of photometrically observed objects that are nearest neighbors in mode 2, based on their neighbor type?
+9.824  "Retrieve the description from photometrically observed photo types for nearest neighbor objects with a mode of 2."
+9.824  What are the descriptions of photometrically observed objects that are also nearest neighbor objects with a neighbor mode value of 2?
+5.632  What are the descriptions of all photometrically observed objects that are neighbors in the 2nd mode?
+5.624  What are the descriptions of objects that have been observed photometrically and are the nearest neighbors to a specific object?
+

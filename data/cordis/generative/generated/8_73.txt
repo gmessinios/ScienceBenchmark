@@ -1,0 +1,16 @@
+SELECT programmes.parent FROM programmes AS programmes WHERE programmes.code != "ENERGY-2007-2.2-02"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 WHERE T1.code != "ENERGY-2007-2.2-02"
+GPT-3 choices:
+(0) Find the parent programme for all programmes except the one with the code "ENERGY-2007-2.2-02".
+(1) Retrieve the parent of all programmes except for "ENERGY-2007-2.2-02" from the table "programmes".
+(2) Show me the parent of all programmes, except for "ENERGY-2007-2.2-02".
+(3) Find the parent programme for all programmes except "ENERGY-2007-2.2-02".
+(4) Find the parent programme of all programmes except for "ENERGY-2007-2.2-02".
+(5) Retrieve the parent programme from the programmes table, excluding any programme with a code of "ENERGY-2007-2.2-02".
+(6) Retrieve the parent programme from the table of programmes, excluding any with a code of "ENERGY-2007-2.2-02".
+(7) Show the parent programme of all programmes, except the one with code "ENERGY-2007-2.2-02".

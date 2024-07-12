@@ -1,0 +1,24 @@
+SELECT count(*) FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.biomarker_internal_id = "EDRN00228"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_alias AS T1 WHERE T1.biomarker_internal_id = "EDRN00228"
+GPT-3 choices:
+(0) How many biomarker aliases are associated with the biomarker "EDRN00228"?
+(1) How many aliases does the biomarker with an internal ID of "EDRN00228" have in the biomarker_alias table?
+(2) How many biomarker aliases are associated with the biomarker "EDRN00228"?
+(3) How many biomarker aliases are associated with the biomarker "EDRN00228"?
+(4) How many biomarker aliases are associated with the biomarker "EDRN00228"?
+(5) How many biomarker aliases are associated with the biomarker with internal ID "EDRN00228"?
+(6) How many biomarker aliases are associated with the biomarker "EDRN00228"?
+(7) How many biomarker aliases are associated with the biomarker with an internal ID of "EDRN00228"?
+
+
+Re-ranked choices:
+4.939  How many aliases does the biomarker with an internal ID of "EDRN00228" have in the biomarker_alias table?
+4.933  How many biomarker aliases are associated with the biomarker with an internal ID of "EDRN00228"?
+4.932  How many biomarker aliases are associated with the biomarker with internal ID "EDRN00228"?
+2.136  How many biomarker aliases are associated with the biomarker "EDRN00228"?
+

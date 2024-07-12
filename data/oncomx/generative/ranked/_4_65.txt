@@ -1,0 +1,27 @@
+SELECT count(*) FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_manufacturer = "Ventana Medical Systems"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test AS T1 WHERE T1.test_manufacturer = "Ventana Medical Systems"
+GPT-3 choices:
+(0) How many biomarker tests from Ventana Medical Systems are in the FDA database?
+(1) How many rows are in the biomarker_fda_test table where the test manufacturer is "Ventana Medical Systems"?
+(2) How many biomarker FDA tests were performed by Ventana Medical Systems?
+(3) How many biomarker FDA tests were performed by Ventana Medical Systems?
+(4) How many biomarker tests from the FDA have been conducted by Ventana Medical Systems?
+(5) How many biomarker FDA tests are there by the manufacturer Ventana Medical Systems?
+(6) How many biomarker FDA tests have been performed by Ventana Medical Systems?
+(7) How many entries are there in the FDA biomarker testing database for tests manufactured by Ventana Medical Systems?
+
+
+Re-ranked choices:
+5.629  How many biomarker FDA tests are there by the manufacturer Ventana Medical Systems?
+4.937  How many biomarker tests from Ventana Medical Systems are in the FDA database?
+4.924  How many rows are in the biomarker_fda_test table where the test manufacturer is "Ventana Medical Systems"?
+4.241  How many biomarker FDA tests were performed by Ventana Medical Systems?
+4.238  How many biomarker FDA tests have been performed by Ventana Medical Systems?
+4.235  How many biomarker tests from the FDA have been conducted by Ventana Medical Systems?
+4.227  How many entries are there in the FDA biomarker testing database for tests manufactured by Ventana Medical Systems?
+

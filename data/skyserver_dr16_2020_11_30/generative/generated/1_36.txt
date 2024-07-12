@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.programname FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid = 299621343962359808
+
+###
+
+
+Original Query:
+SELECT T1.programname FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid = 299621343962359808
+GPT-3 choices:
+(0) What is the name of the program for the spectroscopic object with a specobjid of 299621343962359808 that has corresponding emission line estimates in the galspecline table?
+(1) Retrieve the program name from the spectroscopic_objects table for a given specobjid where that same specobjid can be found in both the specobj and galspecline tables.
+(2) Retrieve the program name from the spectroscopic objects for which there is an emission line estimate with a specobjid of 299621343962359808.
+(3) Retrieve the program name of the spectroscopic object where its specobjid matches that of the emission line estimate with a specobjid of 299621343962359808.
+(4) Retrieve the program name of the spectroscopic object that has a specobjid of 299621343962359808 in the table specobj, joined with the table galspecline where the specobjid matches and has emission line estimates.
+(5) Find the name of the program for a spectroscopic object with a specobjid of 299621343962359808 that has emission line estimates in the galspecline table.
+(6) Retrieve the program name of a spectroscopic object from the table of specobj and join it with the emission line estimates on their shared specobjid, for a specific specobjid value.
+(7) Retrieve the program name for the spectroscopic object with a specobjid of 299621343962359808 from the tables specobj and galspecline.

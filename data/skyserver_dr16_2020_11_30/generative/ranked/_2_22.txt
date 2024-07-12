@@ -1,0 +1,28 @@
+SELECT Photometric_objects.cmodelmag_g, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.cmodelmag_g
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_g, count(*) FROM photoobj AS T1  GROUP BY T1.cmodelmag_g
+GPT-3 choices:
+(0) How many photometric objects are there and what is their CModel magnitude in the G band?
+(1) What is the count of all objects grouped by their g-band cmodel magnitudes in the Photometric_objects table from the photoobj database?
+(2) How many Photometric objects have a cmodel magnitude in the g-band, and what is the total count for each unique value?
+(3) Count the number of objects and their cmodelmag_g values from the photoobj table, grouping them by their cmodelmag_g value and selecting only the count and cmodelmag_g columns from the Photometric_objects table.
+(4) "Find the count of objects in the photoobj table grouped by their cmodelmag_g value from the Photometric_objects table."
+(5) How many photometric objects are there and what is the g-band cmodel magnitude of each one?
+(6) Retrieve the count of objects in the photoobj table grouped by their g-band cmodel magnitude, and also include their corresponding cmodelmag_g values.
+(7) "Count the number of photometric objects and their corresponding cmodelmag_g values from the photoobj table, grouping them by their cmodelmag_g values."
+
+
+Re-ranked choices:
+4.233  How many photometric objects are there and what is their CModel magnitude in the G band?
+2.833  How many photometric objects are there and what is the g-band cmodel magnitude of each one?
+2.830  How many Photometric objects have a cmodel magnitude in the g-band, and what is the total count for each unique value?
+2.824  What is the count of all objects grouped by their g-band cmodel magnitudes in the Photometric_objects table from the photoobj database?
+2.824  "Find the count of objects in the photoobj table grouped by their cmodelmag_g value from the Photometric_objects table."
+2.815  Count the number of objects and their cmodelmag_g values from the photoobj table, grouping them by their cmodelmag_g value and selecting only the count and cmodelmag_g columns from the Photometric_objects table.
+2.119  Retrieve the count of objects in the photoobj table grouped by their g-band cmodel magnitude, and also include their corresponding cmodelmag_g values.
+2.118  "Count the number of photometric objects and their corresponding cmodelmag_g values from the photoobj table, grouping them by their cmodelmag_g values."
+

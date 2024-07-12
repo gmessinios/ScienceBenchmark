@@ -1,0 +1,16 @@
+SELECT anatomical_entity.name FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.description = "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM anatomical_entity AS T1 WHERE T1.description = "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance."
+GPT-3 choices:
+(0) What is the name of the anatomical entity that has a description of being tissue containing cells that create non-polarized extracellular matrix made up of connective tissue fibers and ground substance?
+(1) Retrieve the name of all anatomical entities where the description is "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance".
+(2) Find the name of an anatomical entity that has a description of "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance."
+(3) Get the name of anatomical entities that are described as tissue containing cells that produce extracellular matrix without a specific orientation, including fibers and ground substance.
+(4) Retrieve the name of anatomical entities where their description is "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance."
+(5) Find the name of an anatomical entity that has a description of "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance."
+(6) Find the name of anatomical entities that have a description of "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance."
+(7) What is the name of the anatomical entity that refers to tissue containing cells that secrete extracellular matrix without any specific alignment, which includes connective tissue fibers and ground substance?

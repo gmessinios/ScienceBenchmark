@@ -1,0 +1,16 @@
+SELECT project_members.street FROM project_members AS project_members JOIN activity_types AS activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.code != "REC_TUSCANY"
+
+###
+
+
+Original Query:
+SELECT T1.street FROM project_members AS T1 JOIN activity_types AS T2 ON T1.activity_type = T2.code WHERE T2.code != "REC_TUSCANY"
+GPT-3 choices:
+(0) Retrieve the street addresses of project members who are not involved in the "REC_TUSCANY" activity type.
+(1) Retrieve the street names of all project members who have an activity type that is not "REC_TUSCANY".
+(2) Retrieve the street addresses of project members who are assigned an activity type other than "REC_TUSCANY".
+(3) "Retrieve the street addresses of project members who are not associated with the activity type 'REC_TUSCANY' from the tables 'project_members' and 'activity_types'."
+(4) Retrieve the street address of all project members who are not associated with the activity type "REC_TUSCANY".
+(5) Retrieve the street names for all project members who have a non-REC_TUSCANY activity type.
+(6) Get the street of the members who are involved in projects with activity types other than "REC_TUSCANY".
+(7) Find the street addresses of all project members who have an activity type that is not "REC_TUSCANY".

@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1
+GPT-3 choices:
+(0) How many rows are in the photo_type table where photometrically_observed is true?
+(1) How many rows are in the table "photo_type" where the column "photometrically_observed" is populated?
+(2) How many photo types are there that have been observed photometrically?
+(3) How many rows are in the table for photometrically observed photo types?
+(4) How many rows are there in the photo_type table where photometrically_observed is a value?
+(5) How many rows are in the table "photo_type" where the value in the column "photometrically_observed" is not null?
+(6) How many photos have been observed photometrically in the photo type table?
+(7) How many photometrically observed photo types are there in the database?
+
+
+Re-ranked choices:
+2.834  How many photometrically observed photo types are there in the database?
+2.833  How many rows are in the table for photometrically observed photo types?
+2.829  How many photos have been observed photometrically in the photo type table?
+1.439  How many photo types are there that have been observed photometrically?
+0.030  How many rows are there in the photo_type table where photometrically_observed is a value?
+0.029  How many rows are in the photo_type table where photometrically_observed is true?
+0.029  How many rows are in the table "photo_type" where the value in the column "photometrically_observed" is not null?
+0.024  How many rows are in the table "photo_type" where the column "photometrically_observed" is populated?
+

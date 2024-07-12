@@ -1,0 +1,28 @@
+SELECT Photometric_objects.run FROM photoobj AS Photometric_objects JOIN specobj AS Spectroscopic_objects ON Photometric_objects.objid = Spectroscopic_objects.bestobjid WHERE Spectroscopic_objects.subclass != "B0IVe (5394)"
+
+###
+
+
+Original Query:
+SELECT T1.run FROM photoobj AS T1 JOIN specobj AS T2 ON T1.objid = T2.bestobjid WHERE T2.subclass != "B0IVe (5394)"
+GPT-3 choices:
+(0) Find the run from the photoobj table where the objid matches with the bestobjid in the specobj table, but only for entries where subclass is not equal to "B0IVe (5394)".
+(1) Retrieve the name of the run from the photoobj table for objects where the bestobjid in the specobj table does not have a subclass of "B0IVe (5394)".
+(2) Retrieve the run number of all photometric objects that have a matching object identification with spectroscopic objects where the subclass is not "B0IVe (5394)".
+(3) Find the runs of Photometric_objects where the objid matches the bestobjid of Spectroscopic_objects and the subclass is not "B0IVe (5394)".
+(4) "Retrieve the run value from the photoobj table for objects that have a matching objid in both the photoobj and specobj tables, but only if their subclass is not equal to 'B0IVe (5394)' in the specobj table."
+(5) Find the runs from the photoobj table where the objid matches the bestobjid in the specobj table and exclude any results where the subclass is "B0IVe (5394)".
+(6) Find the run from the photoobj table where the bestobjid in specobj does not correspond to "B0IVe (5394)" subclass in the Spectroscopic_objects table.
+(7) Select the run from photoobj where the objid matches the bestobjid in specobj and the subclass is not equal to "B0IVe (5394)".
+
+
+Re-ranked choices:
+9.822  Retrieve the run number of all photometric objects that have a matching object identification with spectroscopic objects where the subclass is not "B0IVe (5394)".
+5.623  Retrieve the name of the run from the photoobj table for objects where the bestobjid in the specobj table does not have a subclass of "B0IVe (5394)".
+5.616  "Retrieve the run value from the photoobj table for objects that have a matching objid in both the photoobj and specobj tables, but only if their subclass is not equal to 'B0IVe (5394)' in the specobj table."
+4.920  Find the run from the photoobj table where the bestobjid in specobj does not correspond to "B0IVe (5394)" subclass in the Spectroscopic_objects table.
+4.222  Select the run from photoobj where the objid matches the bestobjid in specobj and the subclass is not equal to "B0IVe (5394)".
+4.221  Find the runs of Photometric_objects where the objid matches the bestobjid of Spectroscopic_objects and the subclass is not "B0IVe (5394)".
+4.218  Find the run from the photoobj table where the objid matches with the bestobjid in the specobj table, but only for entries where subclass is not equal to "B0IVe (5394)".
+2.819  Find the runs from the photoobj table where the objid matches the bestobjid in the specobj table and exclude any results where the subclass is "B0IVe (5394)".
+

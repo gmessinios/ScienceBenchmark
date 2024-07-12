@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes AS programmes WHERE programmes.rcn = "11925" and programmes.code = "ENV-2009.4.2.3.2"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM programmes AS T1 WHERE T1.rcn = "11925" and T1.code = "ENV-2009.4.2.3.2"
+GPT-3 choices:
+(0) Retrieve the title of the programme where its RCN is "11925" and its code is "ENV-2009.4.2.3.2".
+(1) What is the title of the programme with an RCN of 11925 and a code of ENV-2009.4.2.3.2?
+(2) What is the title of the programme with an RCN of 11925 and a code of ENV-2009.4.2.3.2?
+(3) Retrieve the title of a programme with the RCN number 11925 and code ENV-2009.4.2.3.2 from the programmes table.
+(4) Show the title of the programme with the RCN number 11925 and code ENV-2009.4.2.3.2 from the table named "programmes".
+(5) What is the title of the programme with an RCN value of 11925 and a code of ENV-2009.4.2.3.2?
+(6) Find the title of the programme with RCN 11925 and code ENV-2009.4.2.3.2 from the table "programmes".
+(7) What is the title of the programme with an RCN value of 11925 and a code of ENV-2009.4.2.3.2 in the programmes table?

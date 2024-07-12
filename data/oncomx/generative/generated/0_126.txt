@@ -1,0 +1,16 @@
+SELECT disease_mutation_article.pmid FROM disease_mutation_article AS disease_mutation_article WHERE disease_mutation_article.disease_mutation_id = 50517
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM disease_mutation_article AS T1 WHERE T1.disease_mutation_id = 50517
+GPT-3 choices:
+(0) What is the PubMed ID for the article associated with the disease-mutation combination with an ID of 50517 in the database?
+(1) What is the PMID of the article associated with disease mutation ID 50517 in the table "disease_mutation_article"?
+(2) Retrieve the PubMed ID for articles associated with a specific disease mutation ID (50517) from the "disease_mutation_article" table.
+(3) Retrieve the PubMed ID (pmid) of articles that mention a specific disease-mutation relationship with an ID of 50517.
+(4) Retrieve the PubMed ID for articles that mention a specific disease mutation identified by its ID.
+(5) Retrieve the PMID from disease_mutation_article where the disease_mutation_id is equal to 50517.
+(6) What is the PMID for a disease-mutation article with a disease-mutation ID of 50517?
+(7) Retrieve the PubMed IDs of articles that contain a specific disease mutation with an ID of 50517.

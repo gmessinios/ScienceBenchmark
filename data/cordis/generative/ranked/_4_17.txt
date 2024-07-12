@@ -1,0 +1,28 @@
+SELECT count(*) FROM countries AS countries WHERE countries.country_code3 = "NGA"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries AS T1 WHERE T1.country_code3 = "NGA"
+GPT-3 choices:
+(0) How many countries in the "countries" table have a country code of "NGA" with three characters?
+(1) How many countries are there in the "countries" table where the country code is "NGA"?
+(2) How many countries are there where the country code3 is "NGA"?
+(3) How many countries have a country code of "NGA" in the countries table?
+(4) How many countries have a country code of "NGA" in the table "countries"?
+(5) How many countries are there where the country code is "NGA"?
+(6) How many countries have a country code of "NGA" in the "countries" table?
+(7) How many rows are in the "countries" table where the country_code3 column has a value of "NGA"?
+
+
+Re-ranked choices:
+5.003  How many countries are there where the country code3 is "NGA"?
+3.603  How many countries are there where the country code is "NGA"?
+3.562  How many countries have a country code of "NGA" in the countries table?
+3.562  How many countries have a country code of "NGA" in the table "countries"?
+3.562  How many countries have a country code of "NGA" in the "countries" table?
+3.554  How many countries are there in the "countries" table where the country code is "NGA"?
+3.542  How many countries in the "countries" table have a country code of "NGA" with three characters?
+2.139  How many rows are in the "countries" table where the country_code3 column has a value of "NGA"?
+

@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.mode = 1
+GPT-3 choices:
+(0) Get the descriptions of all photo types for objects that are the nearest neighbors and have been photometrically observed.
+(1) Retrieve the description of the photometrically observed objects from the neighbor type table where the mode is equal to 1.
+(2) Retrieve the description of the photometrically observed photo type for the nearest neighbor objects that have a mode value of 1 in the neighbors table.
+(3) Find the description for photometrically observed objects that have a neighbor of type "nearest neighbor" with a mode value of 1.
+(4) Retrieve the description of photometrically observed objects from a table containing different types of observations, only for those objects which are considered nearest neighbors in another table and have a mode value of 1.
+(5) Retrieve the description of photometrically observed objects from a table of different types of photographs, where the value in that table matches the neighbor type of the nearest neighbor object in a separate table, and where the mode in that separate table is equal to 1.
+(6) Find the description of the photometrically observed objects that are the nearest neighbors with a mode of 1.
+(7) What is the description for the type of photometrically observed photos of nearest neighbor objects that are in mode 1?

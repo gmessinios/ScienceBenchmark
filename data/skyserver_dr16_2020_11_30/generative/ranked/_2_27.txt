@@ -1,0 +1,28 @@
+SELECT Photometric_objects.rerun, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.rerun
+
+###
+
+
+Original Query:
+SELECT T1.rerun, count(*) FROM photoobj AS T1  GROUP BY T1.rerun
+GPT-3 choices:
+(0) Count the number of photometric objects grouped by their rerun value from the photoobj table.
+(1) Find the number of objects in each rerun from the Photometric_objects table.
+(2) "Count the number of objects in each rerun group from the photoobj table, listing the rerun value and corresponding count."
+(3) Count the number of photometric objects for each rerun in the photoobj table.
+(4) Count the number of objects in each rerun group from the table photoobj, and group them by their corresponding rerun values.
+(5) What is the number of photometric objects grouped by their rerun?
+(6) How many objects are there in each rerun of the photoobj table?
+(7) Count the number of objects in each rerun for Photometric_objects from the photoobj table and group them by their corresponding rerun values.
+
+
+Re-ranked choices:
+5.623  Count the number of objects in each rerun for Photometric_objects from the photoobj table and group them by their corresponding rerun values.
+4.933  Find the number of objects in each rerun from the Photometric_objects table.
+4.930  Count the number of photometric objects grouped by their rerun value from the photoobj table.
+4.927  Count the number of objects in each rerun group from the table photoobj, and group them by their corresponding rerun values.
+4.232  Count the number of photometric objects for each rerun in the photoobj table.
+4.225  "Count the number of objects in each rerun group from the photoobj table, listing the rerun value and corresponding count."
+3.547  What is the number of photometric objects grouped by their rerun?
+2.856  How many objects are there in each rerun of the photoobj table?
+

@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.mjd FROM specobj AS Spectroscopic_objects JOIN photoobj AS Photometric_objects ON Spectroscopic_objects.bestobjid = Photometric_objects.objid WHERE Photometric_objects.type = 3
+
+###
+
+
+Original Query:
+SELECT T1.mjd FROM specobj AS T1 JOIN photoobj AS T2 ON T1.bestobjid = T2.objid WHERE T2.type = 3
+GPT-3 choices:
+(0) Retrieve the Modified Julian Date for all spectroscopic objects where the corresponding bestobjid in the photoobj table is of type 3.
+(1) Retrieve the modified Julian date (mjd) values from the "specobj" table for all objects where the "type" value in the "photoobj" table is equal to 3, while matching the "bestobjid" values between both tables.
+(2) Find the Modified Julian Date of all objects that have a spectroscopic record and a corresponding photometric record indicating a type 3 object.
+(3) Find the MJD values for all spectroscopic objects where the corresponding photometric object has a type of 3.
+(4) Find the modified Julian date for spectroscopic objects that have a bestobjid matching with photometric objects of type 3.
+(5) Retrieve the Modified Julian Date for all spectroscopic objects that have a matching best object ID with a photometric object of type 3.
+(6) Retrieve the Modified Julian Date (mjd) of all objects that have both spectroscopic and photometric data, where the object's bestobjid in the spectroscopic data matches the objid in the photometric data and the type of the object in the photometric data is a galaxy (type = 3).
+(7) Find the modified Julian date of all spectroscopic objects where the corresponding photoobj has a type value of 3.
+
+
+Re-ranked choices:
+9.824  Retrieve the Modified Julian Date for all spectroscopic objects that have a matching best object ID with a photometric object of type 3.
+7.012  Retrieve the Modified Julian Date (mjd) of all objects that have both spectroscopic and photometric data, where the object's bestobjid in the spectroscopic data matches the objid in the photometric data and the type of the object in the photometric data is a galaxy (type = 3).
+5.626  Find the modified Julian date of all spectroscopic objects where the corresponding photoobj has a type value of 3.
+5.622  Find the Modified Julian Date of all objects that have a spectroscopic record and a corresponding photometric record indicating a type 3 object.
+5.621  Find the modified Julian date for spectroscopic objects that have a bestobjid matching with photometric objects of type 3.
+5.619  Retrieve the Modified Julian Date for all spectroscopic objects where the corresponding bestobjid in the photoobj table is of type 3.
+5.615  Retrieve the modified Julian date (mjd) values from the "specobj" table for all objects where the "type" value in the "photoobj" table is equal to 3, while matching the "bestobjid" values between both tables.
+4.226  Find the MJD values for all spectroscopic objects where the corresponding photometric object has a type of 3.
+

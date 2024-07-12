@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_submission = "K062765"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda AS T1 WHERE T1.test_submission = "K062765"
+GPT-3 choices:
+(0) How many biomarkers have been submitted for the test with the submission number "K062765" in the FDA database?
+(1) How many biomarkers have been submitted for test with submission number "K062765" in the FDA database?
+(2) How many biomarkers are included in the FDA submission for test K062765?
+(3) How many biomarkers are in the FDA's database for test submission "K062765"?
+(4) How many biomarkers are there in the FDA database where the test submission number is "K062765"?
+(5) How many biomarker submissions with the test submission number "K062765" are there in the FDA's biomarker database?
+(6) How many biomarkers are there in the FDA database with a test submission number of "K062765"?
+(7) How many biomarkers are in the FDA's database with a test submission number of "K062765"?
+
+
+Re-ranked choices:
+6.334  How many biomarker submissions with the test submission number "K062765" are there in the FDA's biomarker database?
+4.968  How many biomarkers are in the FDA's database for test submission "K062765"?
+4.954  How many biomarkers are in the FDA's database with a test submission number of "K062765"?
+4.950  How many biomarkers are there in the FDA database where the test submission number is "K062765"?
+4.950  How many biomarkers are there in the FDA database with a test submission number of "K062765"?
+4.942  How many biomarkers have been submitted for test with submission number "K062765" in the FDA database?
+4.937  How many biomarkers have been submitted for the test with the submission number "K062765" in the FDA database?
+4.254  How many biomarkers are included in the FDA submission for test K062765?
+

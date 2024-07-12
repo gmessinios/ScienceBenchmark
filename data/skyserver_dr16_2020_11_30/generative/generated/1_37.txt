@@ -1,0 +1,16 @@
+SELECT Photometric_objects.mjd FROM photoobj AS Photometric_objects JOIN neighbors AS Nearest_neighbour_objects ON Photometric_objects.objid = Nearest_neighbour_objects.objid WHERE Nearest_neighbour_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT T1.mjd FROM photoobj AS T1 JOIN neighbors AS T2 ON T1.objid = T2.objid WHERE T2.mode = 1
+GPT-3 choices:
+(0) Retrieve the modified Julian date of objects from the photometric database for all nearest neighbor objects in which their mode is equal to 1.
+(1) Find the MJD values for all Photometric objects where the corresponding objid also appears in the neighbors table with a mode value of 1.
+(2) Retrieve the modified Julian date of photometric objects from the photoobj table, joining it with the neighbors table on matching objid values and filtering for only those with a mode value of 1.
+(3) Retrieve the mjd values for all photometric objects that have a nearest neighbor object with mode equal to 1.
+(4) Retrieve the Modified Julian Date of all photometric objects where the nearest neighbor object's mode is equal to 1.
+(5) What is the modified Julian date (mjd) of photometric objects where their object id matches with the nearest neighbour objects and their mode is equal to 1?
+(6) Get the Modified Julian Date for all Photometric objects that have a nearest neighbor with mode 1.
+(7) Find the modified Julian date of all objects in the photometric dataset that have a nearest neighbor in the same dataset and where the mode of the nearest neighbor is equal to 1.

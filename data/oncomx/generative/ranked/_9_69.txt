@@ -1,0 +1,28 @@
+SELECT stage.id FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.uberon_anatomical_id != "UBERON:0002890"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.uberon_anatomical_id != "UBERON:0002890"
+GPT-3 choices:
+(0) Find the IDs of stages where the UBERON developmental ID is equal to the UBERON anatomical ID and both are not equal to "UBERON:0002890".
+(1) Find the stage IDs from the stage table that match the developmental IDs in the healthy_expression table, excluding those with an anatomical ID of "UBERON:0002890".
+(2) What are the IDs of all stages that have a relationship with an uberon development ID through the table stage and an uberon anatomical ID through the table healthy_expression?
+(3) Find the developmental stage IDs from the stage table that have a corresponding entry in the healthy_expression table with a different uberon_anatomical_id than "UBERON:0002890".
+(4) Get the stage IDs from the stage table where the UBERON anatomical ID is not equal to "UBERON:0002890" in the healthy_expression table.
+(5) Find the IDs of stages where the corresponding healthy expression data exists for a given uberon_anatomical_id that is not equal to "UBERON:0002890".
+(6) Retrieve the stage IDs from the stage table, where the ID matches with the uberon_developmental_id in the healthy_expression table, and where the uberon_anatomical_id is not equal to "UBERON:0002890".
+(7) Get the IDs of stages that are associated with healthy expression data in both the stage and healthy_expression tables, but only if the uberon_anatomical_id in the healthy_expression table is not equal to "UBERON:0002890".
+
+
+Re-ranked choices:
+6.329  Get the stage IDs from the stage table where the UBERON anatomical ID is not equal to "UBERON:0002890" in the healthy_expression table.
+6.325  Find the IDs of stages where the UBERON developmental ID is equal to the UBERON anatomical ID and both are not equal to "UBERON:0002890".
+6.323  Find the stage IDs from the stage table that match the developmental IDs in the healthy_expression table, excluding those with an anatomical ID of "UBERON:0002890".
+5.621  What are the IDs of all stages that have a relationship with an uberon development ID through the table stage and an uberon anatomical ID through the table healthy_expression?
+4.918  Get the IDs of stages that are associated with healthy expression data in both the stage and healthy_expression tables, but only if the uberon_anatomical_id in the healthy_expression table is not equal to "UBERON:0002890".
+3.524  Find the IDs of stages where the corresponding healthy expression data exists for a given uberon_anatomical_id that is not equal to "UBERON:0002890".
+3.519  Find the developmental stage IDs from the stage table that have a corresponding entry in the healthy_expression table with a different uberon_anatomical_id than "UBERON:0002890".
+3.519  Retrieve the stage IDs from the stage table, where the ID matches with the uberon_developmental_id in the healthy_expression table, and where the uberon_anatomical_id is not equal to "UBERON:0002890".
+

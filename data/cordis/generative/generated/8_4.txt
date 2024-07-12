@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types WHERE activity_types.description != "Undefined"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 WHERE T1.description != "Undefined"
+GPT-3 choices:
+(0) "Retrieve the code of all activity types from the 'activity_types' table where the description is not equal to 'Undefined'."
+(1) Find the code for all activity types where the description is not equal to "Undefined".
+(2) Find the code for all activity types where the description is not "Undefined".
+(3) Find the code for activity types in which the description is not "Undefined".
+(4) What is the code for all activity types that are not undefined?
+(5) Find the code for all activity types from the "activity_types" table where the description is not "Undefined".
+(6) What is the code of all activity types, except for "Undefined", from the table "activity_types"?
+(7) What is the code for all activity types except "Undefined"?

@@ -1,0 +1,28 @@
+SELECT biomarker_alias.alias, count(*) FROM biomarker_alias AS biomarker_alias  GROUP BY biomarker_alias.alias
+
+###
+
+
+Original Query:
+SELECT T1.alias, count(*) FROM biomarker_alias AS T1  GROUP BY T1.alias
+GPT-3 choices:
+(0) Count the number of occurrences for each biomarker alias in the table biomarker_alias.
+(1) Count the number of occurrences for each biomarker alias in the biomarker_alias table.
+(2) How many biomarkers have an alias and what are the total number of times each alias appears in the database?
+(3) Count the number of occurrences of each biomarker alias in the biomarker_alias table.
+(4) How many biomarkers have an alias, and what is the count for each alias?
+(5) How many times does each biomarker alias appear in the biomarker_alias table?
+(6) Count the number of occurrences for each biomarker alias and group them by their aliases.
+(7) Find the number of occurrences of each biomarker alias in the biomarker_alias table.
+
+
+Re-ranked choices:
+3.554  Count the number of occurrences for each biomarker alias and group them by their aliases.
+2.868  How many times does each biomarker alias appear in the biomarker_alias table?
+2.842  Count the number of occurrences for each biomarker alias in the table biomarker_alias.
+2.842  Count the number of occurrences for each biomarker alias in the biomarker_alias table.
+2.842  Count the number of occurrences of each biomarker alias in the biomarker_alias table.
+2.842  Find the number of occurrences of each biomarker alias in the biomarker_alias table.
+1.435  How many biomarkers have an alias and what are the total number of times each alias appears in the database?
+0.103  How many biomarkers have an alias, and what is the count for each alias?
+

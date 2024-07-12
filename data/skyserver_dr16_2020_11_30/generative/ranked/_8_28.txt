@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.veldisp FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.scienceprimary != 1
+
+###
+
+
+Original Query:
+SELECT T1.veldisp FROM specobj AS T1 WHERE T1.scienceprimary != 1
+GPT-3 choices:
+(0) Retrieve the velocity dispersion for all objects in the specobj table where the science primary flag is not equal to 1.
+(1) Retrieve the velocity dispersion from the specobj table for objects that are not designated as the primary source of scientific data.
+(2) Retrieve the velocity dispersion from the spectroscopic objects table for all objects that are not marked as primary science targets.
+(3) "Find the velocity dispersion of spectroscopic objects that are not designated as primary science targets."
+(4) Retrieve the velocity dispersion values from the table of spectroscopic objects where the object is not a primary science target.
+(5) Retrieve the velocity dispersion value for all spectroscopic objects where they are not the primary object of scientific interest.
+(6) Retrieve the velocity dispersion of all spectroscopic objects that are not considered as the primary science object.
+(7) Retrieve the velocity dispersion from the specobj table for all objects that are not designated as primary science objects.
+
+
+Re-ranked choices:
+4.227  Retrieve the velocity dispersion for all objects in the specobj table where the science primary flag is not equal to 1.
+4.222  Retrieve the velocity dispersion from the spectroscopic objects table for all objects that are not marked as primary science targets.
+4.222  Retrieve the velocity dispersion of all spectroscopic objects that are not considered as the primary science object.
+4.221  Retrieve the velocity dispersion from the specobj table for all objects that are not designated as primary science objects.
+4.221  Retrieve the velocity dispersion values from the table of spectroscopic objects where the object is not a primary science target.
+4.220  Retrieve the velocity dispersion from the specobj table for objects that are not designated as the primary source of scientific data.
+4.220  "Find the velocity dispersion of spectroscopic objects that are not designated as primary science targets."
+4.219  Retrieve the velocity dispersion value for all spectroscopic objects where they are not the primary object of scientific interest.
+

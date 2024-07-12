@@ -1,0 +1,28 @@
+SELECT biomarker_fda.test_submission, count(*) FROM biomarker_fda AS biomarker_fda  GROUP BY biomarker_fda.test_submission
+
+###
+
+
+Original Query:
+SELECT T1.test_submission, count(*) FROM biomarker_fda AS T1  GROUP BY T1.test_submission
+GPT-3 choices:
+(0) How many test submissions are there in the biomarker_fda table?
+(1) Count the number of rows in the table "biomarker_fda" grouped by the column "test_submission".
+(2) Find the number of biomarkers for each test submission in the table biomarker_fda and group them together by test submission.
+(3) How many times has each test submission in the biomarker_fda table appeared?
+(4) Count the number of test submissions in the biomarker_fda table and group them by test submission.
+(5) How many test submissions are there for each biomarker in the FDA database?
+(6) How many entries are there in the biomarker_fda table grouped by test submissions?
+(7) How many test submissions are there for each type of biomarker in the biomarker_fda database?
+
+
+Re-ranked choices:
+4.262  How many test submissions are there for each biomarker in the FDA database?
+3.525  Find the number of biomarkers for each test submission in the table biomarker_fda and group them together by test submission.
+2.838  How many times has each test submission in the biomarker_fda table appeared?
+2.838  How many test submissions are there for each type of biomarker in the biomarker_fda database?
+2.137  How many entries are there in the biomarker_fda table grouped by test submissions?
+2.132  Count the number of test submissions in the biomarker_fda table and group them by test submission.
+1.443  How many test submissions are there in the biomarker_fda table?
+0.731  Count the number of rows in the table "biomarker_fda" grouped by the column "test_submission".
+

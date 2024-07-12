@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.segue2_target1 != -2147483584
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.segue2_target1 != -2147483584
+GPT-3 choices:
+(0) Retrieve the specobjid from the table Emission_line_estimates where the segue2_target1 value in the table Spectroscopic_objects is not equal to -2147483584.
+(1) Find the specobjid from the table Emission_line_estimates where the specobjid is also in the table Spectroscopic_objects but exclude any rows with a segue2_target1 value of -2147483584.
+(2) Find the specobjid from the galspecline table for objects in the Spectroscopic_objects table that have a segue2_target1 value not equal to -2147483584.
+(3) Find the specobjid from the Emission_line_estimates table where the Spectroscopic_objects table's segue2_target1 column does not equal -2147483584.
+(4) What is the specobjid for Emission_line_estimates where Spectroscopic_objects have a segue2_target1 value that is not equal to -2147483584?
+(5) Retrieve the specobjid from the Emission_line_estimates table where the segue2_target1 value in the corresponding row in the Spectroscopic_objects table is not equal to -2147483584.
+(6) Retrieve the specobjid values from the Emission_line_estimates table where the segue2_target1 value in the corresponding row of the Spectroscopic_objects table is not equal to -2147483584.
+(7) What are the specobjid values from the table Emission_line_estimates for all spectroscopic objects that have a segue2_target1 value not equal to -2147483584 in the table Spectroscopic_objects?
+
+
+Re-ranked choices:
+3.519  What are the specobjid values from the table Emission_line_estimates for all spectroscopic objects that have a segue2_target1 value not equal to -2147483584 in the table Spectroscopic_objects?
+2.124  Find the specobjid from the galspecline table for objects in the Spectroscopic_objects table that have a segue2_target1 value not equal to -2147483584.
+1.424  What is the specobjid for Emission_line_estimates where Spectroscopic_objects have a segue2_target1 value that is not equal to -2147483584?
+1.423  Find the specobjid from the Emission_line_estimates table where the Spectroscopic_objects table's segue2_target1 column does not equal -2147483584.
+1.421  Retrieve the specobjid from the table Emission_line_estimates where the segue2_target1 value in the table Spectroscopic_objects is not equal to -2147483584.
+1.419  Retrieve the specobjid from the Emission_line_estimates table where the segue2_target1 value in the corresponding row in the Spectroscopic_objects table is not equal to -2147483584.
+1.418  Retrieve the specobjid values from the Emission_line_estimates table where the segue2_target1 value in the corresponding row of the Spectroscopic_objects table is not equal to -2147483584.
+1.418  Find the specobjid from the table Emission_line_estimates where the specobjid is also in the table Spectroscopic_objects but exclude any rows with a segue2_target1 value of -2147483584.
+

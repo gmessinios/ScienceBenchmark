@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries AS countries WHERE countries.country_code2 != "SJ"
+
+###
+
+
+Original Query:
+SELECT T1.country_name FROM countries AS T1 WHERE T1.country_code2 != "SJ"
+GPT-3 choices:
+(0) Retrieve the names of all countries from the database "countries" where the country code is not equal to "SJ".
+(1) Retrieve the names of all countries that have a country code different from "SJ" from the database named "countries".
+(2) Show me the names of all countries in the "countries" table except for "SJ".
+(3) Find the country name from the "countries" table where the country code is not equal to "SJ".
+(4) Find the names of all countries except "SJ".
+(5) Find the names of all countries where the country code2 is not equal to "SJ".
+(6) Which country names are not "SJ" in the table "countries"?
+(7) Find the names of countries in the table "countries" excluding those with a country code of "SJ".

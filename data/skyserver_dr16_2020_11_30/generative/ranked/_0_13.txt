@@ -1,0 +1,28 @@
+SELECT Photometric_objects.colc FROM photoobj AS Photometric_objects WHERE Photometric_objects.flags = 217165464320
+
+###
+
+
+Original Query:
+SELECT T1.colc FROM photoobj AS T1 WHERE T1.flags = 217165464320
+GPT-3 choices:
+(0) Retrieve the colc value from the photoobj table where the flags value is equal to 217165464320 in the Photometric_objects table.
+(1) Find the column "colc" from the table "photoobj" for objects in the table "Photometric_objects" where the flags are equal to 217165464320.
+(2) Get the colc column from the photoobj table for objects in the Photometric_objects that have a flags value of 217165464320.
+(3) Retrieve the color values from the column "colc" in the table "Photometric_objects" where the flags are equal to 217165464320.
+(4) Retrieve the colc values from the photoobj table where the flags column in Photometric_objects is equal to 217165464320.
+(5) Find the column "colc" from the table "Photometric_objects" in the database "photoobj" where the flags equal 217165464320.
+(6) Get the color column from the photoobj table for objects where the flags value is 217165464320.
+(7) Retrieve the column "colc" from the table "photoobj" where the flags column is equal to 217165464320.
+
+
+Re-ranked choices:
+4.927  Find the column "colc" from the table "photoobj" for objects in the table "Photometric_objects" where the flags are equal to 217165464320.
+4.925  Get the colc column from the photoobj table for objects in the Photometric_objects that have a flags value of 217165464320.
+4.237  Get the color column from the photoobj table for objects where the flags value is 217165464320.
+3.529  Retrieve the color values from the column "colc" in the table "Photometric_objects" where the flags are equal to 217165464320.
+3.528  Find the column "colc" from the table "Photometric_objects" in the database "photoobj" where the flags equal 217165464320.
+3.525  Retrieve the colc values from the photoobj table where the flags column in Photometric_objects is equal to 217165464320.
+2.833  Retrieve the column "colc" from the table "photoobj" where the flags column is equal to 217165464320.
+2.125  Retrieve the colc value from the photoobj table where the flags value is equal to 217165464320 in the Photometric_objects table.
+

@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.disease_mutation_id FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.probability = 0.975 and disease_mutation_impact_prediction.id = 2895
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_impact_prediction AS T1 WHERE T1.probability = 0.975 and T1.id = 2895
+GPT-3 choices:
+(0) Find the disease mutation ID from the table of disease mutation impact predictions where the probability is 0.975 and the ID is 2895.
+(1) Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the probability is 0.975 and the id is 2895.
+(2) Retrieve the disease mutation ID from the "disease_mutation_impact_prediction" table where the probability is 0.975 and the ID is 2895.
+(3) "Retrieve the disease mutation ID from the table 'disease_mutation_impact_prediction' where the probability is 0.975 and the ID is equal to 2895."
+(4) What is the disease mutation ID for the impact prediction that has a probability of 0.975 and an ID of 2895?
+(5) "Retrieve the disease mutation ID from the impact prediction table where the probability is 0.975 and the ID is 2895."
+(6) What is the disease mutation ID for the entry in the table "disease_mutation_impact_prediction" with a probability of 0.975 and an ID of 2895?
+(7) Find the disease mutation impact prediction with a probability of 0.975 and an ID of 2895 in the table disease_mutation_impact_prediction.

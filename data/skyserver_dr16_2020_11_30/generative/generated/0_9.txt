@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype = 3
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1 WHERE T1.neighbortype = 3
+GPT-3 choices:
+(0) What is the mode of the nearest neighbors for objects with a neighbor type of 3?
+(1) Find the mode of nearest neighbor objects where the neighbor type is 3.
+(2) What is the mode of the nearest neighbor objects with a neighbor type of 3?
+(3) Find the mode of the nearest neighbour objects with a neighbor type of 3.
+(4) What is the mode of the nearest neighbor objects from the neighbors table where the neighbor type is 3?
+(5) Find the mode of nearest neighbor objects where the neighbor type is 3.
+(6) Retrieve the mode value for the nearest neighbour objects from the neighbors table where neighbortype is equal to 3.
+(7) What is the mode of all objects that are the nearest neighbours with a neighbor type of 3?

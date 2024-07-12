@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "DEFECT"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name != "DEFECT"
+GPT-3 choices:
+(0) Retrieve the description of all photo types where the name is not "DEFECT".
+(1) Retrieve the description of all photo types except for "DEFECT" from the table "photometrically_observed".
+(2) Retrieve the description from the photo type table for all entries except those with the name "DEFECT".
+(3) Retrieve the description of all photo types that are not labeled as "DEFECT".
+(4) Retrieve the descriptions from the table of photometrically observed photo types, excluding any with the name "DEFECT".
+(5) Retrieve the description of all photo types from the table "photometrically_observed" where the name is not "DEFECT".
+(6) Get the description from the photometrically observed photo types except for those with the name "DEFECT".
+(7) Retrieve the description from photometrically observed photo types where the name is not "DEFECT".
+
+
+Re-ranked choices:
+6.328  Get the description from the photometrically observed photo types except for those with the name "DEFECT".
+6.327  Retrieve the description from photometrically observed photo types where the name is not "DEFECT".
+4.924  Retrieve the descriptions from the table of photometrically observed photo types, excluding any with the name "DEFECT".
+4.227  Retrieve the description of all photo types from the table "photometrically_observed" where the name is not "DEFECT".
+3.550  Retrieve the description of all photo types where the name is not "DEFECT".
+3.534  Retrieve the description from the photo type table for all entries except those with the name "DEFECT".
+2.824  Retrieve the description of all photo types except for "DEFECT" from the table "photometrically_observed".
+2.142  Retrieve the description of all photo types that are not labeled as "DEFECT".
+

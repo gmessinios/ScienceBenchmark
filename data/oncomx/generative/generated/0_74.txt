@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.description = "Phosphotyrosine"
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 WHERE T1.description = "Phosphotyrosine"
+GPT-3 choices:
+(0) Retrieve the feature key from the disease_mutation_site_annotation table where the description is "Phosphotyrosine".
+(1) Retrieve the feature key from the disease mutation site annotation table where the description is "Phosphotyrosine".
+(2) Retrieve the feature key for all disease mutation sites annotated as being a "Phosphotyrosine".
+(3) Get the feature key from the disease mutation site annotation table where the description is "Phosphotyrosine".
+(4) Get the feature key for disease mutation site annotations where the description is "Phosphotyrosine".
+(5) Retrieve the feature key for disease mutation sites from the disease mutation site annotation table where the description is "Phosphotyrosine".
+(6) Retrieve the feature key for all disease mutation site annotations where the description is "Phosphotyrosine".
+(7) Get the feature keys from disease mutation site annotations where the description is "Phosphotyrosine".

@@ -1,0 +1,16 @@
+SELECT projects.principal_investigator, count(*) FROM projects AS projects  GROUP BY projects.principal_investigator
+
+###
+
+
+Original Query:
+SELECT T1.principal_investigator, count(*) FROM projects AS T1  GROUP BY T1.principal_investigator
+GPT-3 choices:
+(0) Count the number of projects for each principal investigator.
+(1) Find the count of projects grouped by principal investigator from the "projects" table.
+(2) How many projects are there for each principal investigator?
+(3) Count the number of projects for each principal investigator in the projects table.
+(4) Count the number of projects for each principal investigator.
+(5) How many projects does each principal investigator have?
+(6) What is the count of projects for each principal investigator in the database?
+(7) What is the count of projects grouped by principal investigator?

@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes AS programmes WHERE programmes.title = "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM programmes AS T1 WHERE T1.title = "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration"
+GPT-3 choices:
+(0) Find the code for the programme titled "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration" in the table called "programmes".
+(1) What is the code for the programme titled "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration"?
+(2) Get the programme code from the "programmes" table for a technology development and fabrication of high-temperature high-frequency capacitors for power switch integration.
+(3) Find the code of the programme with the title "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+(4) Get the code of programmes for which the title is "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+(5) Retrieve the code for the programme with the title "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+(6) Get the code of the programme with the title "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration" from the programmes table.
+(7) Find the code for the programme with a title of "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+
+
+Re-ranked choices:
+11.916  Get the code of programmes for which the title is "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+11.914  Get the code of the programme with the title "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration" from the programmes table.
+10.516  Find the code for the programme with a title of "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+10.515  Find the code of the programme with the title "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+10.515  Retrieve the code for the programme with the title "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration".
+10.515  Find the code for the programme titled "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration" in the table called "programmes".
+9.814  Get the programme code from the "programmes" table for a technology development and fabrication of high-temperature high-frequency capacitors for power switch integration.
+9.115  What is the code for the programme titled "Technology development and fabrication of high-temperature high-frequency capacitors for power switch integration"?
+

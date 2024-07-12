@@ -1,0 +1,28 @@
+SELECT Photometric_objects.type FROM photoobj AS Photometric_objects WHERE Photometric_objects.rowc = 58.19047 or Photometric_objects.mjd = 53439
+
+###
+
+
+Original Query:
+SELECT T1.type FROM photoobj AS T1 WHERE T1.rowc = 58.19047 or T1.mjd = 53439
+GPT-3 choices:
+(0) What are the types of objects from the photoobj table that have a rowc value of 58.19047 or an mjd value of 53439?
+(1) Find the type of photometric objects where the rowc value is 58.19047 or the mjd value is 53439 in the photoobj table.
+(2) Get the type of photometric objects from the photoobj table where either their rowc value is equal to 58.19047 or their mjd value is equal to 53439.
+(3) Retrieve the type of photometric objects where the rowc is equal to 58.19047 or the mjd is equal to 53439 from the photoobj table.
+(4) Retrieve the type of photometric objects from the photoobj table where either the rowc value is 58.19047 or the mjd value is 53439.
+(5) Retrieve the type of objects from the photoobj table where either the rowc value is equal to 58.19047 or the mjd value is equal to 53439.
+(6) Find the type of Photometric object with a rowc value of 58.19047 or an mjd value of 53439 from the photoobj table.
+(7) Find the type of photometric objects with a rowc value of 58.19047 or an mjd value of 53439 in the photoobj table.
+
+
+Re-ranked choices:
+2.841  Retrieve the type of photometric objects where the rowc is equal to 58.19047 or the mjd is equal to 53439 from the photoobj table.
+2.838  Retrieve the type of objects from the photoobj table where either the rowc value is equal to 58.19047 or the mjd value is equal to 53439.
+2.837  Get the type of photometric objects from the photoobj table where either their rowc value is equal to 58.19047 or their mjd value is equal to 53439.
+2.837  Find the type of photometric objects where the rowc value is 58.19047 or the mjd value is 53439 in the photoobj table.
+2.836  Retrieve the type of photometric objects from the photoobj table where either the rowc value is 58.19047 or the mjd value is 53439.
+2.833  Find the type of Photometric object with a rowc value of 58.19047 or an mjd value of 53439 from the photoobj table.
+2.833  Find the type of photometric objects with a rowc value of 58.19047 or an mjd value of 53439 in the photoobj table.
+1.442  What are the types of objects from the photoobj table that have a rowc value of 58.19047 or an mjd value of 53439?
+

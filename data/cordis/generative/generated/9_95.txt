@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.cordis_ref != "100591"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.cordis_ref != "100591"
+GPT-3 choices:
+(0) Find the title of topics that are associated with projects in which the CORDIS reference number is not equal to "100591".
+(1) Get the titles of topics that are associated with projects, where the project's cordis_ref is not equal to "100591".
+(2) Retrieve the titles of all topics that are associated with projects where the cordis_ref is not equal to "100591".
+(3) Get the titles of all topics that are associated with projects, where the CORDIS reference number is not equal to "100591".
+(4) Retrieve the titles of topics associated with projects that have a CORDIS reference number different from "100591".
+(5) Retrieve the titles of topics that are associated with projects, where the project's cordis_ref is not equal to "100591".
+(6) Retrieve the title of all topics associated with projects that have a cordis_ref value other than "100591".
+(7) Find the titles of topics that are joined with project topics and have a corresponding project in which the CORDIS reference is not equal to "100591".

@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes AS funding_schemes WHERE funding_schemes.code = "MSCA-IF-EF-CAR"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes AS T1 WHERE T1.code = "MSCA-IF-EF-CAR"
+GPT-3 choices:
+(0) How many entries are there in the funding schemes table with the code "MSCA-IF-EF-CAR"?
+(1) How many funding schemes have a code of "MSCA-IF-EF-CAR"?
+(2) How many funding schemes with the code "MSCA-IF-EF-CAR" are there in the database?
+(3) How many funding schemes are there in the "MSCA-IF-EF-CAR" code?
+(4) How many entries are there in the "funding_schemes" table where the code is equal to "MSCA-IF-EF-CAR"?
+(5) How many funding schemes have a code of "MSCA-IF-EF-CAR"?
+(6) How many entries are in the funding schemes table where the code is "MSCA-IF-EF-CAR"?
+(7) How many rows are there in the "funding_schemes" table where the value in the "code" column is "MSCA-IF-EF-CAR"?

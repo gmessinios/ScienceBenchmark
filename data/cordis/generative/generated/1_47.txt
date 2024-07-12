@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.start_year = 2016
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.start_year = 2016
+GPT-3 choices:
+(0) Find the research council numbers for all topics that are associated with projects in the year 2016.
+(1) Find the Research Council Number for all topics that are associated with projects that have a start year of 2016.
+(2) Find the research topic codes associated with projects that started in the year 2016.
+(3) Get the Research Council Number (RCN) for all topics that are associated with projects started in the year 2016.
+(4) Find the research council numbers of topics that are related to projects with a starting year of 2016.
+(5) Retrieve the research code number from topics where the project topic is equal to topics.code and the project is equal to projects.unics_id and the start year of the project is 2016.
+(6) Find the research council numbers of all topics that are associated with projects starting in 2016.
+(7) Retrieve the research code numbers of topics that are associated with projects started in the year 2016.

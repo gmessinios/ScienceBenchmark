@@ -1,0 +1,25 @@
+SELECT count(*) FROM programmes AS programmes WHERE programmes.short_name = "New sustainable business models"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes AS T1 WHERE T1.short_name = "New sustainable business models"
+GPT-3 choices:
+(0) How many programmes have a short name of "New sustainable business models"?
+(1) How many programmes have a short name of "New sustainable business models"?
+(2) "How many programmes are there that have a short name of "New sustainable business models"?
+(3) "How many programmes have a short name of "New sustainable business models"?
+(4) How many programmes are there with the short name "New sustainable business models"?
+(5) How many programmes have a short name of "New sustainable business models"?
+(6) How many programmes have a short name of "New sustainable business models"?
+(7) How many programmes have the short name "New sustainable business models"?
+
+
+Re-ranked choices:
+7.045  How many programmes have a short name of "New sustainable business models"?
+7.043  How many programmes are there with the short name "New sustainable business models"?
+7.041  How many programmes have the short name "New sustainable business models"?
+7.039  "How many programmes are there that have a short name of "New sustainable business models"?
+7.039  "How many programmes have a short name of "New sustainable business models"?
+

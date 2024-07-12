@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.actual_use FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission != "K062728"
+
+###
+
+
+Original Query:
+SELECT T1.actual_use FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission != "K062728"
+GPT-3 choices:
+(0) Find the actual use for a biomarker FDA test that does not have a test submission with the ID "K062728".
+(1) What is the actual use for biomarkers submitted to the FDA for testing, excluding test submission "K062728"?
+(2) Retrieve the actual use of biomarker FDA tests from the table "biomarker_fda_test_use" where the test submission is not equal to "K062728".
+(3) What are the actual uses for biomarker FDA test submissions, excluding "K062728"?
+(4) Retrieve the actual use of biomarkers in FDA tests, excluding those with a test submission code of "K062728".
+(5) What are the actual uses of FDA-approved biomarker tests in which the test submission is not equal to "K062728"?
+(6) Get the actual use from the biomarker FDA test use table for all submissions except for "K062728".
+(7) "What is the actual use of biomarker FDA test submissions that are not equal to "K062728" in the biomarker FDA test use table?"

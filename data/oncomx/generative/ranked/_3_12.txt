@@ -1,0 +1,28 @@
+SELECT count(*) FROM map_uniprot_canonical_id AS map_uniprot_canonical_id
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_uniprot_canonical_id AS T1
+GPT-3 choices:
+(0) How many rows are there in the map_uniprot_canonical_id table?
+(1) How many records are there in the table "map_uniprot_canonical_id" that contains the count of all entries in the column "canonical_id" in the table "uniprot"?
+(2) Count the number of entries in the table "map_uniprot_canonical_id" with the column name "canonical_id" from the database named "uniprot".
+(3) How many rows are there in the table "map_uniprot_canonical_id"?
+(4) How many records are there in the table "map_uniprot_canonical_id"?
+(5) Count the number of rows in the table "map_uniprot_canonical_id" in which there is a match between two columns: "uniprot_id" and "canonical_id".
+(6) How many rows are in the map_uniprot_canonical_id table?
+(7) How many rows are in the table "map_uniprot_canonical_id" with the column "count(*)"?
+
+
+Re-ranked choices:
+1.424  Count the number of entries in the table "map_uniprot_canonical_id" with the column name "canonical_id" from the database named "uniprot".
+1.422  How many records are there in the table "map_uniprot_canonical_id" that contains the count of all entries in the column "canonical_id" in the table "uniprot"?
+0.733  How many rows are in the table "map_uniprot_canonical_id" with the column "count(*)"?
+0.033  How many rows are there in the map_uniprot_canonical_id table?
+0.033  How many rows are there in the table "map_uniprot_canonical_id"?
+0.033  How many records are there in the table "map_uniprot_canonical_id"?
+0.031  How many rows are in the map_uniprot_canonical_id table?
+0.022  Count the number of rows in the table "map_uniprot_canonical_id" in which there is a match between two columns: "uniprot_id" and "canonical_id".
+

@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics AS topics WHERE topics.rcn != "704644"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.rcn != "704644"
+GPT-3 choices:
+(0) Retrieve the title from topics where the rcn is not equal to "704644".
+(1) Find the titles of all topics except for the one with an RCN of "704644".
+(2) Retrieve the title of all topics except for the one with the RCN number "704644".
+(3) Get the title of all topics from the table "topics" except for the one with rcn value of "704644".
+(4) Find the titles of all topics except for the one with an RCN number of 704644.
+(5) What are the titles of all topics that do not have an RCN of "704644"?
+(6) Find the titles of all topics in the "topics" table where the rcn is not equal to "704644".
+(7) Find the titles of all topics where the RCN is not equal to "704644".
+
+
+Re-ranked choices:
+4.265  Retrieve the title from topics where the rcn is not equal to "704644".
+4.254  Retrieve the title of all topics except for the one with the RCN number "704644".
+4.237  Get the title of all topics from the table "topics" except for the one with rcn value of "704644".
+2.903  Find the titles of all topics where the RCN is not equal to "704644".
+2.894  What are the titles of all topics that do not have an RCN of "704644"?
+2.868  Find the titles of all topics except for the one with an RCN of "704644".
+2.850  Find the titles of all topics except for the one with an RCN number of 704644.
+2.845  Find the titles of all topics in the "topics" table where the rcn is not equal to "704644".
+

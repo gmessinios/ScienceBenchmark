@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.gene_symbol FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.speciesid != 10090
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM xref_gene_ensembl AS T1 WHERE T1.speciesid != 10090
+GPT-3 choices:
+(0) What are the gene symbols from xref_gene_ensembl that have a speciesid different than 10090?
+(1) What is the gene symbol for all species except Mus musculus in the xref_gene_ensembl table?
+(2) Return the gene symbols from the table "xref_gene_ensembl" for all species except "10090".
+(3) Get all gene symbols from the xref_gene_ensembl table where the speciesid is not equal to 10090.
+(4) Find the gene symbols from xref_gene_ensembl where the speciesid is not equal to 10090.
+(5) Retrieve the gene symbol from the xref_gene_ensembl table where the speciesid is not equal to 10090.
+(6) Retrieve the gene symbols from the xref_gene_ensembl table for all species except for Mus musculus.
+(7) Return the gene symbols from xref_gene_ensembl for all species except Mus musculus.

@@ -1,0 +1,28 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article WHERE biomarker_article.biomarker_internal_id != "EDRN00706"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 WHERE T1.biomarker_internal_id != "EDRN00706"
+GPT-3 choices:
+(0) Find the PMIDs of biomarker articles where the biomarker internal ID is not equal to "EDRN00706".
+(1) What is the PMID of articles that contain a biomarker internal ID other than "EDRN00706"?
+(2) Find the PubMed ID of articles that have a biomarker internal ID different from "EDRN00706".
+(3) Retrieve the PubMed ID of articles in which biomarkers have been mentioned, excluding articles where the biomarker has an internal ID of "EDRN00706".
+(4) Retrieve the PubMed ID of articles that mention biomarkers, excluding those with the internal ID "EDRN00706".
+(5) Retrieve the PMID of all articles in which the biomarker internal ID is not "EDRN00706".
+(6) What are the PMID numbers for articles that mention a biomarker with an internal ID other than "EDRN00706" in the biomarker_article table?
+(7) Retrieve the PMID numbers of articles that contain a biomarker different from "EDRN00706" in the biomarker_article table.
+
+
+Re-ranked choices:
+6.344  Retrieve the PMID of all articles in which the biomarker internal ID is not "EDRN00706".
+6.337  What is the PMID of articles that contain a biomarker internal ID other than "EDRN00706"?
+6.328  What are the PMID numbers for articles that mention a biomarker with an internal ID other than "EDRN00706" in the biomarker_article table?
+4.937  Find the PubMed ID of articles that have a biomarker internal ID different from "EDRN00706".
+4.937  Find the PMIDs of biomarker articles where the biomarker internal ID is not equal to "EDRN00706".
+4.927  Retrieve the PubMed ID of articles in which biomarkers have been mentioned, excluding articles where the biomarker has an internal ID of "EDRN00706".
+3.532  Retrieve the PubMed ID of articles that mention biomarkers, excluding those with the internal ID "EDRN00706".
+3.527  Retrieve the PMID numbers of articles that contain a biomarker different from "EDRN00706" in the biomarker_article table.
+

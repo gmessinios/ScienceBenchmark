@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.approved_indication FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.id = 58
+
+###
+
+
+Original Query:
+SELECT T1.approved_indication FROM biomarker_fda_test_use AS T1 WHERE T1.id = 58
+GPT-3 choices:
+(0) Retrieve the approved indication from the biomarker_fda_test_use table where the id is equal to 58.
+(1) Find the approved indication for the biomarker with an ID of 58 from the FDA test use database.
+(2) What are the approved indications for biomarker 58 according to the FDA test use data?
+(3) Retrieve the approved indication from biomarker_fda_test_use where the id is equal to 58.
+(4) Find the approved indication for the biomarker_fda_test_use with an ID of 58.
+(5) What is the approved indication for the biomarker with an ID of 58 in the biomarker FDA test use database?
+(6) What is the approved indication for biomarker with id 58 in the biomarker_fda_test_use table?
+(7) What is the approved indication for the biomarker with an ID of 58 in the biomarker_fda_test_use table?
+
+
+Re-ranked choices:
+9.844  Find the approved indication for the biomarker with an ID of 58 from the FDA test use database.
+9.834  What is the approved indication for the biomarker with an ID of 58 in the biomarker FDA test use database?
+7.037  What are the approved indications for biomarker 58 according to the FDA test use data?
+5.631  What is the approved indication for the biomarker with an ID of 58 in the biomarker_fda_test_use table?
+5.628  What is the approved indication for biomarker with id 58 in the biomarker_fda_test_use table?
+4.238  Find the approved indication for the biomarker_fda_test_use with an ID of 58.
+4.233  Retrieve the approved indication from biomarker_fda_test_use where the id is equal to 58.
+4.230  Retrieve the approved indication from the biomarker_fda_test_use table where the id is equal to 58.
+

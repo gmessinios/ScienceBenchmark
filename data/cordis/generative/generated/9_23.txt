@@ -1,0 +1,16 @@
+SELECT project_members.city FROM project_members AS project_members JOIN institutions AS institutions ON project_members.institution_id = institutions.unics_id WHERE institutions.country_id != 6
+
+###
+
+
+Original Query:
+SELECT T1.city FROM project_members AS T1 JOIN institutions AS T2 ON T1.institution_id = T2.unics_id WHERE T2.country_id != 6
+GPT-3 choices:
+(0) Retrieve the cities of project members who belong to institutions in countries other than the United States.
+(1) Find the cities of all project members who are associated with an institution that is not located in the United States.
+(2) Find the cities of project members who are affiliated with institutions located in countries other than the United States.
+(3) "Select the city of all project members from institutions that are not located in country 6."
+(4) Find the city of project members who are affiliated with institutions that are not located in country with ID 6.
+(5) Get the city of project members from institutions that are not located in country with ID 6.
+(6) "Retrieve the cities of all project members who are affiliated with institutions that are not located in the country with ID 6."
+(7) Retrieve the city of all project members from institutions outside of the United States.

@@ -1,0 +1,26 @@
+SELECT countries.country_code3 FROM countries AS countries WHERE countries.country_name = "Bangladesh" or countries.country_code2 = "CL"
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 WHERE T1.country_name = "Bangladesh" or T1.country_code2 = "CL"
+GPT-3 choices:
+(0) Retrieve the country code3 from the countries table where the country name is "Bangladesh" or the country code2 is "CL".
+(1) Retrieve the country code3 from the countries table where the country name is "Bangladesh" or the country code2 is "CL".
+(2) Find the country code3 from the countries table where the country name is "Bangladesh" or the country code2 is "CL".
+(3) Retrieve the country code 3 for the country Bangladesh or the country code 2 for Chile from the table of countries.
+(4) Show me the country code3 for a country named Bangladesh or with a country code2 of CL from the table countries.
+(5) Find the country code3 from the countries table where the country name is "Bangladesh" or the country code2 is "CL".
+(6) "Retrieve the country code3 from the countries table where the country name is Bangladesh or the country code2 is CL."
+(7) Show me the country code3 for a country with a name of "Bangladesh" or a country code2 of "CL" from the countries table.
+
+
+Re-ranked choices:
+8.440  Show me the country code3 for a country with a name of "Bangladesh" or a country code2 of "CL" from the countries table.
+8.439  Retrieve the country code3 from the countries table where the country name is "Bangladesh" or the country code2 is "CL".
+8.439  Find the country code3 from the countries table where the country name is "Bangladesh" or the country code2 is "CL".
+7.739  "Retrieve the country code3 from the countries table where the country name is Bangladesh or the country code2 is CL."
+5.644  Show me the country code3 for a country named Bangladesh or with a country code2 of CL from the table countries.
+2.138  Retrieve the country code 3 for the country Bangladesh or the country code 2 for Chile from the table of countries.
+

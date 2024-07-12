@@ -1,0 +1,28 @@
+SELECT differential_expression.subjects_up FROM differential_expression AS differential_expression JOIN disease AS disease ON differential_expression.doid = disease.id WHERE disease.id = 1324
+
+###
+
+
+Original Query:
+SELECT T1.subjects_up FROM differential_expression AS T1 JOIN disease AS T2 ON T1.doid = T2.id WHERE T2.id = 1324
+GPT-3 choices:
+(0) Find the names of subjects with increased gene expression for a disease with an ID of 1324.
+(1) Retrieve the subjects that have an upregulated differential expression in studies where the associated disease has a DOID identifier of 1324.
+(2) Retrieve the list of subjects with up-regulated gene expression from the differential expression table for the disease with ID 1324, as identified in the disease table by joining on matching IDs.
+(3) Retrieve the subjects with up-regulated differential expression for a disease with an ID of 1324 from the differential_expression table, joining on the disease table where the disease's ID matches the given ID.
+(4) Retrieve the subjects with up-regulated differential expression values from the table "differential_expression" for all diseases that have an ID of 1324 in the table "disease".
+(5) Get the subjects that have increased gene expression in differential expression data associated with the disease with ID 1324, as specified by joining the tables "differential_expression" and "disease" on matching disease IDs.
+(6) Retrieve the list of subjects that have up-regulated genes in differential expression data for the disease with an ID of 1324 from the disease database.
+(7) Retrieve the list of subjects who have an increase in gene expression associated with disease ID 1324, joined from the tables "differential_expression" and "disease".
+
+
+Re-ranked choices:
+7.718  Retrieve the list of subjects with up-regulated gene expression from the differential expression table for the disease with ID 1324, as identified in the disease table by joining on matching IDs.
+7.717  Retrieve the subjects with up-regulated differential expression for a disease with an ID of 1324 from the differential_expression table, joining on the disease table where the disease's ID matches the given ID.
+7.716  Get the subjects that have increased gene expression in differential expression data associated with the disease with ID 1324, as specified by joining the tables "differential_expression" and "disease" on matching disease IDs.
+7.023  Retrieve the list of subjects that have up-regulated genes in differential expression data for the disease with an ID of 1324 from the disease database.
+7.018  Retrieve the subjects with up-regulated differential expression values from the table "differential_expression" for all diseases that have an ID of 1324 in the table "disease".
+7.016  Retrieve the subjects that have an upregulated differential expression in studies where the associated disease has a DOID identifier of 1324.
+5.647  Find the names of subjects with increased gene expression for a disease with an ID of 1324.
+5.620  Retrieve the list of subjects who have an increase in gene expression associated with disease ID 1324, joined from the tables "differential_expression" and "disease".
+

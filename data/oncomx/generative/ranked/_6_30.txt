@@ -1,0 +1,28 @@
+SELECT healthy_expression.uberon_anatomical_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_developmental_id = "MmusDv:0000049" and healthy_expression.expression_score = 52.20000
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM healthy_expression AS T1 WHERE T1.uberon_developmental_id = "MmusDv:0000049" and T1.expression_score = 52.20000
+GPT-3 choices:
+(0) Show me the uberon anatomical ID from healthy expression for all entries where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000.
+(1) What are the uberon anatomical IDs from the table healthy_expression for rows where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000?
+(2) What is the UBeron anatomical ID for healthy expression data where the UBeron developmental ID is "MmusDv:0000049" and the expression score is 52.20000?
+(3) Retrieve the UBERON anatomical ID from healthy expression where the UBERON developmental ID is "MmusDv:0000049" and the expression score is 52.20000.
+(4) What is the uberon anatomical ID for healthy expression data that has a developmental stage of MmusDv:0000049 and an expression score of 52.20000?
+(5) Find the uberon anatomical id from the healthy_expression table where the uberon developmental id is "MmusDv:0000049" and the expression score is 52.20000.
+(6) What are the uberon anatomical IDs from the healthy expression table where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000?
+(7) Find the uberon anatomical ID from the healthy_expression table where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000.
+
+
+Re-ranked choices:
+10.521  What is the uberon anatomical ID for healthy expression data that has a developmental stage of MmusDv:0000049 and an expression score of 52.20000?
+10.521  Retrieve the UBERON anatomical ID from healthy expression where the UBERON developmental ID is "MmusDv:0000049" and the expression score is 52.20000.
+10.521  What are the uberon anatomical IDs from the healthy expression table where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000?
+10.520  Show me the uberon anatomical ID from healthy expression for all entries where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000.
+10.520  What is the UBeron anatomical ID for healthy expression data where the UBeron developmental ID is "MmusDv:0000049" and the expression score is 52.20000?
+9.120  Find the uberon anatomical ID from the healthy_expression table where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000.
+9.119  What are the uberon anatomical IDs from the table healthy_expression for rows where the uberon developmental ID is "MmusDv:0000049" and the expression score is 52.20000?
+9.118  Find the uberon anatomical id from the healthy_expression table where the uberon developmental id is "MmusDv:0000049" and the expression score is 52.20000.
+

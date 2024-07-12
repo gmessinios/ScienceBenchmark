@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.i = 12.0676
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.i = 12.0676
+GPT-3 choices:
+(0) How many photometric objects have an i-band magnitude of 12.0676?
+(1) How many photometric objects have a value of 12.0676 for the "i" column?
+(2) How many objects have a magnitude of 12.0676 in the i-band in the Photometric_objects table?
+(3) How many objects have a magnitude value of 12.0676 in the "i" band in the table "photoobj"?
+(4) How many objects in the photoobj table have an "i" value of 12.0676?
+(5) How many photometric objects have a value of 12.0676 in the column "i"?
+(6) "How many photometric objects have an i-band magnitude of 12.0676?"
+(7) How many Photometric objects have an "i" value of 12.0676?

@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.distance FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.objid = 1237678617430262332 or Nearest_neighbour_objects.neighbormode = 2
+
+###
+
+
+Original Query:
+SELECT T1.distance FROM neighbors AS T1 WHERE T1.objid = 1237678617430262332 or T1.neighbormode = 2
+GPT-3 choices:
+(0) What is the distance of the nearest neighbor object that has an objid of 1237678617430262332 or a neighbormode of 2 in the neighbors table?
+(1) Retrieve the distance of the nearest neighbor object from the neighbors table where the objid is equal to 1237678617430262332 or neighbormode is equal to 2.
+(2) What is the distance of the nearest neighbor object with an object ID of 1237678617430262332 or a neighboring mode of 2 from the table "neighbors"?
+(3) Find the distance of the nearest neighbor object with an objid of 1237678617430262332 or a neighbormode of 2 from the neighbors table.
+(4) Find the distance of the nearest neighbor for object with ID 1237678617430262332 or any neighbor in "Nearest_neighbour_objects" that has a mode of 2.
+(5) What is the distance from the nearest neighbor of an object with an objid of 1237678617430262332 or a neighbormode of 2 in the table "neighbors"?
+(6) What is the distance of the nearest neighbor object where the object id is 1237678617430262332 or its neighbor mode is 2?
+(7) Find the distance of the nearest neighbor objects where either their object ID is equal to 1237678617430262332 or their neighbor mode is equal to 2.

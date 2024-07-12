@@ -1,0 +1,27 @@
+SELECT count(*) FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.speciesid = 9606
+
+###
+
+
+Original Query:
+SELECT count(*) FROM xref_gene_ensembl AS T1 WHERE T1.speciesid = 9606
+GPT-3 choices:
+(0) How many rows are there in the table "xref_gene_ensembl" where the "speciesid" column is equal to 9606?
+(1) How many records are there in the xref_gene_ensembl table where the species ID is 9606?
+(2) How many records are there in the xref_gene_ensembl table where the species ID is 9606?
+(3) How many rows are in the xref_gene_ensembl table where the speciesid is 9606?
+(4) How many rows are in the table xref_gene_ensembl for entries with a speciesid of 9606?
+(5) How many rows are in the table "xref_gene_ensembl" where the species ID is 9606?
+(6) How many entries are there in the xref_gene_ensembl table for species with the ID 9606?
+(7) How many records are there in the "xref_gene_ensembl" table where the species ID is equal to 9606?
+
+
+Re-ranked choices:
+1.444  How many rows are in the xref_gene_ensembl table where the speciesid is 9606?
+1.439  How many rows are in the table xref_gene_ensembl for entries with a speciesid of 9606?
+1.436  How many rows are there in the table "xref_gene_ensembl" where the "speciesid" column is equal to 9606?
+0.048  How many rows are in the table "xref_gene_ensembl" where the species ID is 9606?
+0.048  How many records are there in the "xref_gene_ensembl" table where the species ID is equal to 9606?
+0.045  How many records are there in the xref_gene_ensembl table where the species ID is 9606?
+0.045  How many entries are there in the xref_gene_ensembl table for species with the ID 9606?
+

@@ -1,0 +1,28 @@
+SELECT biomarker.biomarker_description FROM biomarker AS biomarker JOIN biomarker_fda AS biomarker_fda ON biomarker.id = biomarker_fda.id WHERE biomarker_fda.test_trade_name != "Cologuard"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_description FROM biomarker AS T1 JOIN biomarker_fda AS T2 ON T1.id = T2.id WHERE T2.test_trade_name != "Cologuard"
+GPT-3 choices:
+(0) Find the descriptions of biomarkers that are not associated with the test trade name "Cologuard".
+(1) What is the description of biomarkers that are not associated with the test trade name "Cologuard" in the FDA database?
+(2) Retrieve the biomarker description from the biomarker table, joining it with the biomarker_fda table and excluding any entries where the test_trade_name column is equal to "Cologuard".
+(3) Find the description of biomarkers that are not included in a test with the trade name "Cologuard".
+(4) What is the description of all biomarkers that do not have a test trade name of "Cologuard"?
+(5) What are the biomarker descriptions for all biomarkers except "Cologuard" from the biomarker and biomarker_fda tables?
+(6) Find the description of biomarkers from the table "biomarker" that do not have the trade name "Cologuard" in the table "biomarker_fda".
+(7) Retrieve the description of all biomarkers that have been approved by the FDA but are not associated with the test trade name "Cologuard".
+
+
+Re-ranked choices:
+7.728  What is the description of biomarkers that are not associated with the test trade name "Cologuard" in the FDA database?
+7.725  Retrieve the description of all biomarkers that have been approved by the FDA but are not associated with the test trade name "Cologuard".
+6.341  What is the description of all biomarkers that do not have a test trade name of "Cologuard"?
+6.335  Find the description of biomarkers that are not included in a test with the trade name "Cologuard".
+6.324  Find the description of biomarkers from the table "biomarker" that do not have the trade name "Cologuard" in the table "biomarker_fda".
+4.930  Find the descriptions of biomarkers that are not associated with the test trade name "Cologuard".
+3.518  Retrieve the biomarker description from the biomarker table, joining it with the biomarker_fda table and excluding any entries where the test_trade_name column is equal to "Cologuard".
+2.124  What are the biomarker descriptions for all biomarkers except "Cologuard" from the biomarker and biomarker_fda tables?
+

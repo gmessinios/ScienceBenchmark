@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "East Merseyside"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.description = "East Merseyside"
+GPT-3 choices:
+(0) What is the geocode level for the EU territorial unit with the description "East Merseyside"?
+(1) Retrieve the geocode level from the eu_territorial_units table where the description is "East Merseyside".
+(2) What is the geocode level for the East Merseyside region in the EU territorial units dataset?
+(3) What is the geocode level for "East Merseyside" in the eu_territorial_units table?
+(4) What is the geocode level of the East Merseyside region in the EU Territorial Units dataset?
+(5) Retrieve the geocode level from the EU territorial units table for the region with a description of "East Merseyside".
+(6) What is the geocode level for the EU territorial unit with a description of "East Merseyside"?
+(7) Retrieve the geocode level from the EU territorial units where the description is "East Merseyside".
+
+
+Re-ranked choices:
+9.833  Retrieve the geocode level from the EU territorial units where the description is "East Merseyside".
+9.828  Retrieve the geocode level from the EU territorial units table for the region with a description of "East Merseyside".
+8.442  What is the geocode level of the East Merseyside region in the EU Territorial Units dataset?
+8.437  What is the geocode level for the EU territorial unit with the description "East Merseyside"?
+8.437  What is the geocode level for the East Merseyside region in the EU territorial units dataset?
+8.436  What is the geocode level for the EU territorial unit with a description of "East Merseyside"?
+5.623  Retrieve the geocode level from the eu_territorial_units table where the description is "East Merseyside".
+4.227  What is the geocode level for "East Merseyside" in the eu_territorial_units table?
+

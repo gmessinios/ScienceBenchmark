@@ -1,0 +1,16 @@
+SELECT disease_mutation.alt_nt FROM disease_mutation AS disease_mutation WHERE disease_mutation.cds_pos = 408
+
+###
+
+
+Original Query:
+SELECT T1.alt_nt FROM disease_mutation AS T1 WHERE T1.cds_pos = 408
+GPT-3 choices:
+(0) Retrieve the alternate nucleotide from the disease_mutation table where the codon position is 408.
+(1) What is the alternative nucleotide at position 408 in the coding sequence of disease mutations?
+(2) What is the nucleotide in the alternate position for a mutation that occurs at coding sequence position 408 in the disease_mutation table?
+(3) Retrieve the alternate nucleotide from the disease mutation table where the coding sequence position is 408.
+(4) What is the alternate nucleotide at position 408 in the coding sequence for each disease mutation in the table "disease_mutation"?
+(5) What is the alternative nucleotide at position 408 in the coding sequence for disease-related mutations?
+(6) Find the alternative nucleotide for a disease mutation that is located at codon position 408.
+(7) Retrieve the alternate nucleotide for a disease mutation where the coding sequence position is 408.

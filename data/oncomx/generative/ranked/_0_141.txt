@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.id FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.biomarker_title = "ST14"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_edrn AS T1 WHERE T1.biomarker_title = "ST14"
+GPT-3 choices:
+(0) Find the ID of the biomarker with a title of "ST14" in the biomarker_edrn table.
+(1) What is the ID for a biomarker from the EDRN database with a title of "ST14"?
+(2) Find the ID of the biomarker ST14 in the database biomarker_edrn.
+(3) Find the id of a biomarker from the EDRN database with the title "ST14".
+(4) Find the ID of biomarker_edrn where the biomarker_title is "ST14".
+(5) Find the id of the biomarker from biomarker_edrn where the biomarker_title is "ST14".
+(6) Find the id of the biomarker from the table "biomarker_edrn" where the biomarker title is "ST14".
+(7) What is the ID of the biomarker with the title "ST14" in the EDRN biomarker database?
+
+
+Re-ranked choices:
+6.352  What is the ID for a biomarker from the EDRN database with a title of "ST14"?
+6.350  Find the id of a biomarker from the EDRN database with the title "ST14".
+6.343  What is the ID of the biomarker with the title "ST14" in the EDRN biomarker database?
+4.945  Find the ID of the biomarker with a title of "ST14" in the biomarker_edrn table.
+4.933  Find the id of the biomarker from the table "biomarker_edrn" where the biomarker title is "ST14".
+3.548  Find the ID of the biomarker ST14 in the database biomarker_edrn.
+3.538  Find the id of the biomarker from biomarker_edrn where the biomarker_title is "ST14".
+2.152  Find the ID of biomarker_edrn where the biomarker_title is "ST14".
+

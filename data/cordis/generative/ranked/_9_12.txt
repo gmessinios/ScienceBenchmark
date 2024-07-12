@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.start_year != "None"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.start_year != "None"
+GPT-3 choices:
+(0) Find the names of all framework programs that are associated with projects where the start year is not "None".
+(1) Retrieve the framework program names from the table ec_framework_programs where those names also appear in the "framework_program" column of the projects table, but only for projects where the start_year is not equal to "None".
+(2) Show the name of the framework program for all projects that have a start year that is not equal to "None".
+(3) Retrieve the name of each program in the EC framework that has been used as a framework program in at least one project with a specified start year.
+(4) Find the name of the framework program from the table "ec_framework_programs" that is used in projects, but only if the project's start year is not listed as "None".
+(5) Show the framework program names from the EC framework programs table where the start year for a project is not "None".
+(6) Find the names of all framework programs from the table ec_framework_programs that are mentioned in the column "framework_program" in the table projects, as long as the start_year for those projects is not "None".
+(7) What are the names of all framework programs that have been used in projects where the start year is not "None"?
+
+
+Re-ranked choices:
+9.154  Show the name of the framework program for all projects that have a start year that is not equal to "None".
+9.144  Show the framework program names from the EC framework programs table where the start year for a project is not "None".
+7.754  What are the names of all framework programs that have been used in projects where the start year is not "None"?
+7.742  Find the names of all framework programs that are associated with projects where the start year is not "None".
+7.726  Find the name of the framework program from the table "ec_framework_programs" that is used in projects, but only if the project's start year is not listed as "None".
+7.028  Retrieve the name of each program in the EC framework that has been used as a framework program in at least one project with a specified start year.
+4.922  Find the names of all framework programs from the table ec_framework_programs that are mentioned in the column "framework_program" in the table projects, as long as the start_year for those projects is not "None".
+4.920  Retrieve the framework program names from the table ec_framework_programs where those names also appear in the "framework_program" column of the projects table, but only for projects where the start_year is not equal to "None".
+

@@ -1,0 +1,28 @@
+SELECT people.full_name, count(*) FROM people AS people  GROUP BY people.full_name
+
+###
+
+
+Original Query:
+SELECT T1.full_name, count(*) FROM people AS T1  GROUP BY T1.full_name
+GPT-3 choices:
+(0) "How many records are there for each person's full name in the people table?"
+(1) How many people are there for each unique full name in the list of people?
+(2) How many times does each person's full name appear in the list of people?
+(3) Retrieve the full names of all people in the "people" table and count how many times each name appears, grouped by the person's full name.
+(4) Count the number of times each person's full name appears in the "people" table, and display their full name alongside the count.
+(5) Find the full names of all people and the number of times they appear in a database, grouped by their full name.
+(6) Count the number of occurrences for each person's full name in the table "people" and group the results by their full name.
+(7) What is the number of occurrences for each person's full name in the "people" table?
+
+
+Re-ranked choices:
+4.936  Retrieve the full names of all people in the "people" table and count how many times each name appears, grouped by the person's full name.
+4.936  Count the number of occurrences for each person's full name in the table "people" and group the results by their full name.
+4.294  How many people are there for each unique full name in the list of people?
+4.275  "How many records are there for each person's full name in the people table?"
+4.244  What is the number of occurrences for each person's full name in the "people" table?
+4.236  Count the number of times each person's full name appears in the "people" table, and display their full name alongside the count.
+3.542  Find the full names of all people and the number of times they appear in a database, grouped by their full name.
+2.875  How many times does each person's full name appear in the list of people?
+

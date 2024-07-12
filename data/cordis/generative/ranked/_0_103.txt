@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.nuts_version = "2021"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.nuts_version = "2021"
+GPT-3 choices:
+(0) Get the geocode level for all European territorial units with a NUTS version of 2021.
+(1) What is the geocode level for European territorial units with a nuts version of 2021?
+(2) What is the geocode level of all EU territorial units with a NUTS version of 2021?
+(3) What is the geocode level for all EU territorial units in 2021?
+(4) Find the geocode level for each EU territorial unit where the nuts version is "2021".
+(5) What is the geocode level for all territorial units in Europe with a nuts version of 2021?
+(6) What is the geocode level for EU territorial units where the nuts version is "2021"?
+(7) Retrieve the geographic level codes from the European territorial units table where the nuts version is 2021.
+
+
+Re-ranked choices:
+9.844  What is the geocode level for EU territorial units where the nuts version is "2021"?
+9.842  What is the geocode level of all EU territorial units with a NUTS version of 2021?
+8.444  Find the geocode level for each EU territorial unit where the nuts version is "2021".
+8.439  What is the geocode level for all territorial units in Europe with a nuts version of 2021?
+8.437  Get the geocode level for all European territorial units with a NUTS version of 2021.
+8.437  What is the geocode level for European territorial units with a nuts version of 2021?
+7.054  What is the geocode level for all EU territorial units in 2021?
+7.024  Retrieve the geographic level codes from the European territorial units table where the nuts version is 2021.
+

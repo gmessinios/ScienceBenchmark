@@ -1,0 +1,27 @@
+SELECT topics.title FROM topics AS topics WHERE topics.rcn = "704445"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.rcn = "704445"
+GPT-3 choices:
+(0) What is the title of the topic with an RCN value of 704445 in the topics table?
+(1) Retrieve the title of the topic from the topics table where the RCN is equal to "704445".
+(2) What is the title of the topic with the RCN number 704445?
+(3) What is the title of the topic with RCN number 704445 in the topics table?
+(4) Find the title of the topic with an rcn value of "704445" from the table called topics.
+(5) What is the title of the topic with the research control number "704445"?
+(6) What is the title of the topic with an rcn of 704445 in the topics table?
+(7) What is the title of the topic with the RCN number 704445?
+
+
+Re-ranked choices:
+4.254  What is the title of the topic with RCN number 704445 in the topics table?
+4.247  What is the title of the topic with an RCN value of 704445 in the topics table?
+4.247  Retrieve the title of the topic from the topics table where the RCN is equal to "704445".
+4.237  What is the title of the topic with an rcn of 704445 in the topics table?
+2.868  What is the title of the topic with the RCN number 704445?
+2.836  Find the title of the topic with an rcn value of "704445" from the table called topics.
+1.450  What is the title of the topic with the research control number "704445"?
+

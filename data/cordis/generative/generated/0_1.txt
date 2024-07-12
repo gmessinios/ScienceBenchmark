@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.code = "PE"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM erc_research_domains AS T1 WHERE T1.code = "PE"
+GPT-3 choices:
+(0) What is the description of the research domain with a code of "PE"?
+(1) Retrieve the description of the research domain with code "PE" from the erc_research_domains table.
+(2) Retrieve the description from the ERC research domains table where the code is "PE".
+(3) What is the description for the research domain with a code of "PE"?
+(4) Retrieve the description for the research domain with code "PE" from the table "erc_research_domains".
+(5) Find the description for the research domain with the code "PE" from the table "erc_research_domains".
+(6) What is the description for the research domain with the code "PE" in the ERC Research Domains table?
+(7) What is the description for the research domain with the code "PE" in the ERC Research Domains table?

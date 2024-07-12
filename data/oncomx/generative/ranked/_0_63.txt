@@ -1,0 +1,27 @@
+SELECT map_protein_disease_mutation.peptide_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.ensembl_transcript_id = "ENST00000220659"
+
+###
+
+
+Original Query:
+SELECT T1.peptide_id FROM map_protein_disease_mutation AS T1 WHERE T1.ensembl_transcript_id = "ENST00000220659"
+GPT-3 choices:
+(0) What is the peptide ID for a specific ENST00000220659 ensembl transcript in the map_protein_disease_mutation table?
+(1) Find the peptide ID for a protein-disease mutation mapping that has an Ensembl transcript ID of "ENST00000220659".
+(2) Find the peptide ID from the map of protein disease mutation where the Ensembl transcript ID is "ENST00000220659".
+(3) Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000220659".
+(4) Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl transcript ID is "ENST00000220659".
+(5) Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000220659".
+(6) What is the peptide ID associated with the ensembl transcript ID "ENST00000220659" in the table "map_protein_disease_mutation"?
+(7) Which peptide ID is associated with the ENST00000220659 Ensembl transcript in the map_protein_disease_mutation table?
+
+
+Re-ranked choices:
+11.930  Find the peptide ID from the map of protein disease mutation where the Ensembl transcript ID is "ENST00000220659".
+7.728  Find the peptide ID for a protein-disease mutation mapping that has an Ensembl transcript ID of "ENST00000220659".
+6.324  Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl transcript ID is "ENST00000220659".
+6.322  What is the peptide ID for a specific ENST00000220659 ensembl transcript in the map_protein_disease_mutation table?
+6.321  What is the peptide ID associated with the ensembl transcript ID "ENST00000220659" in the table "map_protein_disease_mutation"?
+6.319  Which peptide ID is associated with the ENST00000220659 Ensembl transcript in the map_protein_disease_mutation table?
+3.522  Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000220659".
+

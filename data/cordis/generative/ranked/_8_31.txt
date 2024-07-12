@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description != "International partner"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description != "International partner"
+GPT-3 choices:
+(0) Get the code of project member roles where the description is not "International partner" from the table project_member_roles.
+(1) Select the code of project member roles from the project_member_roles table where the description is not "International partner".
+(2) Retrieve the code of project member roles where the description is not "International partner".
+(3) Find the code for all project member roles that are not international partners.
+(4) Retrieve the code from the project_member_roles table where the description is not "International partner".
+(5) Retrieve the code for all project member roles that have a description other than "International partner" from the table "project_member_roles".
+(6) Retrieve the project member role codes from the project member roles table where the description is not "International partner".
+(7) Get the code from project_member_roles where the description is not equal to "International partner".
+
+
+Re-ranked choices:
+8.434  Retrieve the code of project member roles where the description is not "International partner".
+8.426  Get the code of project member roles where the description is not "International partner" from the table project_member_roles.
+8.426  Select the code of project member roles from the project_member_roles table where the description is not "International partner".
+8.424  Retrieve the code for all project member roles that have a description other than "International partner" from the table "project_member_roles".
+7.028  Retrieve the project member role codes from the project member roles table where the description is not "International partner".
+6.342  Find the code for all project member roles that are not international partners.
+4.230  Get the code from project_member_roles where the description is not equal to "International partner".
+4.224  Retrieve the code from the project_member_roles table where the description is not "International partner".
+

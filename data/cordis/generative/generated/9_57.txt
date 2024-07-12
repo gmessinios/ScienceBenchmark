@@ -1,0 +1,16 @@
+SELECT projects.start_date FROM projects AS projects JOIN people AS people ON projects.principal_investigator = people.unics_id WHERE people.unics_id != 1210280
+
+###
+
+
+Original Query:
+SELECT T1.start_date FROM projects AS T1 JOIN people AS T2 ON T1.principal_investigator = T2.unics_id WHERE T2.unics_id != 1210280
+GPT-3 choices:
+(0) Get the start date of all projects where the principal investigator is not 1210280.
+(1) Retrieve the start date of all projects where the principal investigator is not "1210280".
+(2) Find the start date of all projects where the principal investigator is not 1210280 by joining the projects and people tables.
+(3) Retrieve the start date of all projects where the principal investigator is not 1210280.
+(4) Get the start date of all projects where the principal investigator is not "1210280" by joining the projects table with the people table on their UNICS IDs and selecting only the start date.
+(5) Find the start date of all projects where the principal investigator is not person with UNICS ID 1210280, by joining the projects and people tables.
+(6) Find the start date of all projects that have a principal investigator who is not person with unics_id 1210280.
+(7) Find the start date of projects where the principal investigator is not person with a UNICS ID of 1210280.

@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units JOIN project_members AS project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.geocode_regions_3 = "DE40G"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 JOIN project_members AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.geocode_regions_3 = "DE40G"
+GPT-3 choices:
+(0) "Retrieve the description of the EU territorial unit for which the geocode region is "DE40G", from the project members table."
+(1) Get the description of the territorial unit from the EU Territorial Units table for a specific geocode region that is also present in the Project Members table.
+(2) Find the description of a European territorial unit from the project members table where the geocode_regions_3 is equal to "DE40G".
+(3) "Retrieve the description of the European territorial unit associated with the geocode region "DE40G" from both the eu_territorial_units and project_members tables."
+(4) Get the description from the eu_territorial_units table where the geocode_regions_3 column in the project_members table is equal to "DE40G".
+(5) Retrieve the description of the European territorial unit where the geocode regions is equal to "DE40G" from both the EU Territorial Units and Project Members tables.
+(6) Find the description of the territorial unit from the EU database where the geocode region is "DE40G" and is also listed in the project members table.
+(7) Retrieve the description of the European territorial unit where the geocode regions is "DE40G" from the project members' table.
+
+
+Re-ranked choices:
+11.922  Retrieve the description of the European territorial unit where the geocode regions is equal to "DE40G" from both the EU Territorial Units and Project Members tables.
+9.822  Get the description of the territorial unit from the EU Territorial Units table for a specific geocode region that is also present in the Project Members table.
+9.128  Retrieve the description of the European territorial unit where the geocode regions is "DE40G" from the project members' table.
+9.125  "Retrieve the description of the EU territorial unit for which the geocode region is "DE40G", from the project members table."
+9.124  Find the description of the territorial unit from the EU database where the geocode region is "DE40G" and is also listed in the project members table.
+6.327  Find the description of a European territorial unit from the project members table where the geocode_regions_3 is equal to "DE40G".
+4.915  "Retrieve the description of the European territorial unit associated with the geocode region "DE40G" from both the eu_territorial_units and project_members tables."
+2.121  Get the description from the eu_territorial_units table where the geocode_regions_3 column in the project_members table is equal to "DE40G".
+

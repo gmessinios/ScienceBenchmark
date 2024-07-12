@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.name != "NOTATYPE"
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.name != "NOTATYPE"
+GPT-3 choices:
+(0) Find the type of nearest neighbors that have been photometrically observed, excluding those with a value of "NOTATYPE".
+(1) Find the types of objects that are neighbors with other objects, where the type is photometrically observed and is not equal to "NOTATYPE".
+(2) Find the types of neighbors that have been observed photometrically, excluding those that have a type named "NOTATYPE".
+(3) Get the neighbor type from the nearest neighbor objects where the photometrically observed value is not equal to "NOTATYPE".
+(4) Get the neighbor type for the nearest neighbor objects where the photometrically observed name is not "NOTATYPE".
+(5) Find the neighbor type of objects in the neighbors table that have been photometrically observed and are not classified as "NOTATYPE" in the photo_type table.
+(6) Retrieve the neighbor type for nearest neighbour objects where the associated photo type is not equal to "NOTATYPE".
+(7) "Retrieve the type of neighbors from the 'neighbors' table that have been observed photometrically and are not labeled as 'NOTATYPE' in the 'photo_type' table."

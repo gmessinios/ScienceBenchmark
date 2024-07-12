@@ -1,0 +1,16 @@
+SELECT project_members.vat_number FROM project_members AS project_members WHERE project_members.member_short_name != "AKVO"
+
+###
+
+
+Original Query:
+SELECT T1.vat_number FROM project_members AS T1 WHERE T1.member_short_name != "AKVO"
+GPT-3 choices:
+(0) Show the VAT numbers of all project members who are not affiliated with AKVO.
+(1) "Retrieve the VAT number of all project members whose short name is not "AKVO"."
+(2) Get the VAT number of all project members, excluding those with a member short name of "AKVO".
+(3) Find the VAT number for all project members who are not affiliated with AKVO.
+(4) Retrieve the VAT numbers of all project members whose member short name is not "AKVO".
+(5) Get the VAT numbers of all members in the project, excluding those with a member short name of "AKVO".
+(6) What are the VAT numbers of all project members who are not associated with the member short name "AKVO"?
+(7) What are the VAT numbers for all project members whose member short name is not "AKVO"?

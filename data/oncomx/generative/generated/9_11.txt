@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.gene_symbol FROM xref_gene_ensembl AS xref_gene_ensembl JOIN species AS species ON xref_gene_ensembl.speciesid = species.speciesid WHERE species.genus != "Mus"
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM xref_gene_ensembl AS T1 JOIN species AS T2 ON T1.speciesid = T2.speciesid WHERE T2.genus != "Mus"
+GPT-3 choices:
+(0) Get the gene symbol from the xref_gene_ensembl table for all species that are not of the genus "Mus".
+(1) Retrieve the gene symbols from the table "xref_gene_ensembl" where the genus of the species is not equal to "Mus".
+(2) Get the gene symbol from the xref_gene_ensembl table for species that are not in the genus "Mus".
+(3) Get the gene symbols from xref_gene_ensembl for species that are not part of the "Mus" genus by joining with the species table.
+(4) Find all gene symbols from the xref_gene_ensembl table for species that do not belong to the genus "Mus".
+(5) Retrieve all gene symbols from the Ensembl cross-reference database for species that are not of the genus Mus.
+(6) Find the gene symbols for all species in the xref_gene_ensembl table except those belonging to the genus Mus.
+(7) Retrieve the gene symbol from the table xref_gene_ensembl where the species is not "Mus".

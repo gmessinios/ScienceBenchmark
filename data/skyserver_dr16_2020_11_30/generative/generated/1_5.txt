@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.mjd = 52319
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.mjd = 52319
+GPT-3 choices:
+(0) Find the specobjid from galspecline where the mjd in specobj is equal to 52319.
+(1) Find the specobjid values from the table galspecline where the mjd value in the Spectroscopic_objects table is 52319.
+(2) Find the specobjid for all emission line estimates where the corresponding spectroscopic object has an mjd value of 52319.
+(3) Find the specobjid from the Emission_line_estimates table for all rows where the mjd value in the Spectroscopic_objects table is 52319.
+(4) Get the specobjid from Emission_line_estimates where the mjd in Spectroscopic_objects is equal to 52319.
+(5) Retrieve the specobjid values from the galspecline table where the associated Spectroscopic_objects have an mjd value of 52319.
+(6) Retrieve the specobjid from the galspecline table for all spectroscopic objects with an mjd of 52319 in the specobj table.
+(7) Retrieve the specobjid from the Emission_line_estimates table where the mjd value in the Spectroscopic_objects table is equal to 52319.

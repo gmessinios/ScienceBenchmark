@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.rowc != 52.44669
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.rowc != 52.44669
+GPT-3 choices:
+(0) What are the names of all objects that have been photometrically observed but have a rowc value different from 52.44669 in the photoobj table?
+(1) Retrieve the names of all objects that have been observed photometrically, and are not located at row 52.44669 on the photoobj table.
+(2) Retrieve the names of all objects observed photometrically whose type does not have a rowc value of 52.44669.
+(3) Find the names of objects that have been observed photometrically and have a type value that is not equal to 52.44669 in the photoobj table.
+(4) Find the name of photometrically observed objects where the rowc value is not equal to 52.44669 in the photoobj table and join it with the name from the photo_type table where their type values are the same.
+(5) Find the names of objects that have a photometric type matching that in the photo_type table and whose rowc value is not equal to 52.44669 in the Photometric_objects table.
+(6) Retrieve the names of all objects in the photo_type table that are photometrically observed and have a type value that does not equal 52.44669 in the rowc column of the photoobj table.
+(7) Find the names of objects that have a photometric type equal to the name in the table "photometrically_observed" and whose rowc value is not equal to 52.44669 in the table "Photometric_objects".
+
+
+Re-ranked choices:
+8.430  Find the name of photometrically observed objects where the rowc value is not equal to 52.44669 in the photoobj table and join it with the name from the photo_type table where their type values are the same.
+7.044  Find the names of objects that have been observed photometrically and have a type value that is not equal to 52.44669 in the photoobj table.
+7.033  Find the names of objects that have a photometric type equal to the name in the table "photometrically_observed" and whose rowc value is not equal to 52.44669 in the table "Photometric_objects".
+7.030  Retrieve the names of all objects observed photometrically whose type does not have a rowc value of 52.44669.
+7.029  Retrieve the names of all objects in the photo_type table that are photometrically observed and have a type value that does not equal 52.44669 in the rowc column of the photoobj table.
+5.634  What are the names of all objects that have been photometrically observed but have a rowc value different from 52.44669 in the photoobj table?
+4.941  Retrieve the names of all objects that have been observed photometrically, and are not located at row 52.44669 on the photoobj table.
+4.934  Find the names of objects that have a photometric type matching that in the photo_type table and whose rowc value is not equal to 52.44669 in the Photometric_objects table.
+

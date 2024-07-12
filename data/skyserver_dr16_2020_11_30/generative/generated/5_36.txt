@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects    ORDER BY Nearest_neighbour_objects.type DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1    ORDER BY T1.type DESC LIMIT 1
+GPT-3 choices:
+(0) Get the mode of the nearest neighbour object from the neighbors table, sorted by type in descending order, with a limit of 1.
+(1) What is the mode of the nearest neighbor object ordered by type in descending order with a limit of 1?
+(2) Find the mode of the nearest neighbor objects, ordered by their type in descending order, and limit the results to 1.
+(3) Get the mode of the nearest neighbour object from the neighbor table, ordering by type in descending order and limiting to one result.
+(4) Find the mode of the nearest neighbor objects, sorted by type in descending order, and only return the top result.
+(5) Find the mode of the nearest neighbor objects, ordering them by type in descending order and only selecting the first result.
+(6) What is the mode of the nearest neighbor object with the highest type value in the neighbors table?
+(7) "Find the mode of the nearest neighbor objects sorted by type, limited to one result."

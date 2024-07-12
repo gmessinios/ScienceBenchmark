@@ -1,0 +1,28 @@
+SELECT Photometric_objects.r FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_u != 13.911
+
+###
+
+
+Original Query:
+SELECT T1.r FROM photoobj AS T1 WHERE T1.cmodelmag_u != 13.911
+GPT-3 choices:
+(0) Retrieve the value of the "r" column from the "photoobj" table where the value in the "cmodelmag_u" column is not equal to 13.911.
+(1) Retrieve the values of r from the photometric objects table where the cmodelmag_u column is not equal to 13.91.
+(2) Retrieve the value for the "r" column from the table "photoobj" for all objects where the magnitude in the "cmodelmag_u" column is not equal to 13.911.
+(3) Find the r magnitude values from the photoobj table for objects with a cmodelmag_u value that is not equal to 13.911.
+(4) Retrieve the values in the "r" column from the table "photoobj" where the value in the column "cmodelmag_u" is not equal to 13.911.
+(5) What is the r-band magnitude from the photoobj table for objects where the u-band cmodel magnitude is not equal to 13.911?
+(6) Get the right ascension (r) of all photometric objects from the photoobj table where the cmodelmag_u column is not equal to 13.911.
+(7) Find the r-band magnitude values from the photoobj table for objects with a cmodelmag_u value not equal to 13.911.
+
+
+Re-ranked choices:
+4.227  Find the r magnitude values from the photoobj table for objects with a cmodelmag_u value that is not equal to 13.911.
+4.223  Retrieve the value for the "r" column from the table "photoobj" for all objects where the magnitude in the "cmodelmag_u" column is not equal to 13.911.
+2.829  Retrieve the values of r from the photometric objects table where the cmodelmag_u column is not equal to 13.91.
+2.827  What is the r-band magnitude from the photoobj table for objects where the u-band cmodel magnitude is not equal to 13.911?
+2.826  Find the r-band magnitude values from the photoobj table for objects with a cmodelmag_u value not equal to 13.911.
+1.425  Retrieve the value of the "r" column from the "photoobj" table where the value in the "cmodelmag_u" column is not equal to 13.911.
+1.425  Retrieve the values in the "r" column from the table "photoobj" where the value in the column "cmodelmag_u" is not equal to 13.911.
+1.424  Get the right ascension (r) of all photometric objects from the photoobj table where the cmodelmag_u column is not equal to 13.911.
+

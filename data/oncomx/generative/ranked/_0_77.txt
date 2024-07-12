@@ -1,0 +1,28 @@
+SELECT map_protein_disease_mutation.peptide_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.ensembl_transcript_id = "ENST00000226725"
+
+###
+
+
+Original Query:
+SELECT T1.peptide_id FROM map_protein_disease_mutation AS T1 WHERE T1.ensembl_transcript_id = "ENST00000226725"
+GPT-3 choices:
+(0) Retrieve the peptide IDs from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000226725".
+(1) What are the peptide IDs for the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000226725"?
+(2) Find the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000226725".
+(3) Find the peptide ID from the map_protein_disease_mutation table where the ensembl transcript ID is equal to "ENST00000226725".
+(4) Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000226725".
+(5) Get the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000226725".
+(6) What is the peptide ID from map_protein_disease_mutation where ensembl_transcript_id is equal to "ENST00000226725"?
+(7) What is the peptide ID for the protein disease mutation with an Ensembl transcript ID of "ENST00000226725"?
+
+
+Re-ranked choices:
+10.531  What is the peptide ID for the protein disease mutation with an Ensembl transcript ID of "ENST00000226725"?
+6.328  Find the peptide ID from the map_protein_disease_mutation table where the ensembl transcript ID is equal to "ENST00000226725".
+3.523  What is the peptide ID from map_protein_disease_mutation where ensembl_transcript_id is equal to "ENST00000226725"?
+3.522  Retrieve the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000226725".
+3.521  Find the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000226725".
+3.521  Get the peptide ID from the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000226725".
+2.123  What are the peptide IDs for the map_protein_disease_mutation table where the ensembl_transcript_id is "ENST00000226725"?
+2.122  Retrieve the peptide IDs from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000226725".
+

@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.bestobjid != 1237645943978721411
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.bestobjid != 1237645943978721411
+GPT-3 choices:
+(0) Find the specobjid from the table spplines where the bestobjid of Spectroscopic_objects is not equal to 1237645943978721411.
+(1) Find the specobjid from the spplines table where the corresponding Spectroscopic_objects' bestobjid is not equal to 1237645943978721411.
+(2) Get the specobjid from Stellar_spectal_line_indices where the bestobjid from Spectroscopic_objects is not equal to 1237645943978721411.
+(3) Find the specobjid from the spplines table where the bestobjid in the corresponding row of the specobj table is not equal to 1237645943978721411.
+(4) Retrieve the specobjid from the table spplines where the bestobjid of the corresponding row in table specobj is not equal to 1237645943978721411.
+(5) Retrieve the specobjid from the spplines table where the specobjid is equal to that in the Spectroscopic_objects table, but only for those rows where bestobjid is not equal to 1237645943978721411.
+(6) What is the specobjid for all stellar spectral line indices joined with spectroscopic objects where the bestobjid is not equal to 1237645943978721411?
+(7) Retrieve the specobjid from the Stellar_spectal_line_indices table for all objects in the Spectroscopic_objects table where the bestobjid is not equal to 1237645943978721411.
+
+
+Re-ranked choices:
+5.624  What is the specobjid for all stellar spectral line indices joined with spectroscopic objects where the bestobjid is not equal to 1237645943978721411?
+2.819  Retrieve the specobjid from the Stellar_spectal_line_indices table for all objects in the Spectroscopic_objects table where the bestobjid is not equal to 1237645943978721411.
+1.423  Get the specobjid from Stellar_spectal_line_indices where the bestobjid from Spectroscopic_objects is not equal to 1237645943978721411.
+0.723  Find the specobjid from the table spplines where the bestobjid of Spectroscopic_objects is not equal to 1237645943978721411.
+0.720  Find the specobjid from the spplines table where the corresponding Spectroscopic_objects' bestobjid is not equal to 1237645943978721411.
+0.717  Retrieve the specobjid from the spplines table where the specobjid is equal to that in the Spectroscopic_objects table, but only for those rows where bestobjid is not equal to 1237645943978721411.
+0.022  Find the specobjid from the spplines table where the bestobjid in the corresponding row of the specobj table is not equal to 1237645943978721411.
+0.020  Retrieve the specobjid from the table spplines where the bestobjid of the corresponding row in table specobj is not equal to 1237645943978721411.
+

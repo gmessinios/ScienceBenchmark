@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.gene_symbol FROM xref_gene_ensembl AS xref_gene_ensembl JOIN healthy_expression AS healthy_expression ON xref_gene_ensembl.ensembl_gene_id = healthy_expression.ensembl_gene_id WHERE healthy_expression.ensembl_gene_id != "ENSG00000005513"
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM xref_gene_ensembl AS T1 JOIN healthy_expression AS T2 ON T1.ensembl_gene_id = T2.ensembl_gene_id WHERE T2.ensembl_gene_id != "ENSG00000005513"
+GPT-3 choices:
+(0) Get the gene symbols from the xref_gene_ensembl table for all genes that are present in both the xref_gene_ensembl and healthy_expression tables, excluding those with an ensembl_gene_id equal to "ENSG00000005513".
+(1) Retrieve the gene symbol from xref_gene_ensembl for all entries where the ensembl_gene_id does not match "ENSG00000005513" in healthy_expression.
+(2) What are the gene symbols from the xref_gene_ensembl table for genes in healthy_expression that are not equal to "ENSG00000005513"?
+(3) What are the gene symbols for all genes in the healthy expression table that do not have an ensembl gene ID of "ENSG00000005513"?
+(4) Retrieve the gene symbol from the xref_gene_ensembl table for all genes in healthy_expression that have an Ensembl gene ID different than "ENSG00000005513".
+(5) Find the gene symbol for all genes in the xref_gene_ensembl table that have an ensembl_gene_id that does not equal "ENSG00000005513" and are also present in the healthy_expression table.
+(6) Retrieve the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id matches with the ensembl_gene_id in the healthy_expression table, excluding rows with an ensembl_gene_id of "ENSG00000005513".
+(7) Find the gene symbol for all genes in xref_gene_ensembl that have an ensembl_gene_id that is not equal to "ENSG00000005513" in healthy_expression.
+
+
+Re-ranked choices:
+7.731  What are the gene symbols for all genes in the healthy expression table that do not have an ensembl gene ID of "ENSG00000005513"?
+6.319  Retrieve the gene symbol from the xref_gene_ensembl table for all genes in healthy_expression that have an Ensembl gene ID different than "ENSG00000005513".
+3.522  Find the gene symbol for all genes in xref_gene_ensembl that have an ensembl_gene_id that is not equal to "ENSG00000005513" in healthy_expression.
+3.520  Retrieve the gene symbol from xref_gene_ensembl for all entries where the ensembl_gene_id does not match "ENSG00000005513" in healthy_expression.
+3.520  Find the gene symbol for all genes in the xref_gene_ensembl table that have an ensembl_gene_id that does not equal "ENSG00000005513" and are also present in the healthy_expression table.
+3.514  Retrieve the gene symbol from the xref_gene_ensembl table where the ensembl_gene_id matches with the ensembl_gene_id in the healthy_expression table, excluding rows with an ensembl_gene_id of "ENSG00000005513".
+2.129  What are the gene symbols from the xref_gene_ensembl table for genes in healthy_expression that are not equal to "ENSG00000005513"?
+2.116  Get the gene symbols from the xref_gene_ensembl table for all genes that are present in both the xref_gene_ensembl and healthy_expression tables, excluding those with an ensembl_gene_id equal to "ENSG00000005513".
+

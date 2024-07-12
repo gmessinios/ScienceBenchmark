@@ -1,0 +1,16 @@
+SELECT project_members.country FROM project_members AS project_members WHERE project_members.latitude = 51.49021595 or project_members.longitude = 13.4939189160207
+
+###
+
+
+Original Query:
+SELECT T1.country FROM project_members AS T1 WHERE T1.latitude = 51.49021595 or T1.longitude = 13.4939189160207
+GPT-3 choices:
+(0) Show me the countries of all project members whose latitude is equal to 51.49021595 or longitude is equal to 13.4939189160207 in the table "project_members".
+(1) Find the country of project members where their latitude is 51.49021595 or longitude is 13.4939189160207.
+(2) What is the country of project members whose latitude is 51.49021595 or longitude is 13.4939189160207?
+(3) What countries are associated with project members located at a latitude of 51.49021595 or a longitude of 13.4939189160207?
+(4) What is the country of the project members whose latitude is 51.49021595 or longitude is 13.4939189160207?
+(5) Retrieve the country of all project members whose latitude is equal to 51.49021595 or longitude is equal to 13.4939189160207 from the table "project_members."
+(6) What is the country of the project member with a latitude of 51.49021595 or a longitude of 13.4939189160207?
+(7) Retrieve the country of all project members whose latitude is equal to 51.49021595 or longitude is equal to 13.4939189160207 from the project_members table.

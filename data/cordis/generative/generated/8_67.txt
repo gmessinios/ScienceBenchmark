@@ -1,0 +1,16 @@
+SELECT countries.country_code3 FROM countries AS countries WHERE countries.country_name != "Andorra"
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 WHERE T1.country_name != "Andorra"
+GPT-3 choices:
+(0) "Retrieve the three-letter country codes for all countries except for Andorra from the list of countries."
+(1) Get the country codes for all countries except for Andorra from the "countries" table.
+(2) What is the three-letter country code for all countries except for Andorra?
+(3) Get the country code3 from the table "countries" where the country name is not "Andorra".
+(4) Show the country code3 for all countries except Andorra from the table "countries".
+(5) Get the three-letter country code from the "countries" table for all countries except Andorra.
+(6) Find the country code 3 for all countries except Andorra.
+(7) "Select the country code 3 for all countries except Andorra from the table of countries."

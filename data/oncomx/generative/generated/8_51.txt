@@ -1,0 +1,16 @@
+SELECT healthy_expression.call_quality FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_developmental_id != "MmusDv:0000045"
+
+###
+
+
+Original Query:
+SELECT T1.call_quality FROM healthy_expression AS T1 WHERE T1.uberon_developmental_id != "MmusDv:0000045"
+GPT-3 choices:
+(0) What is the call quality for healthy expression when the uberon developmental ID is not equal to "MmusDv:0000045"?
+(1) What is the call quality of healthy expression data for developmental stages other than "embryonic or postnatal"?
+(2) Find the call quality from healthy expression data, excluding those with a developmental ID of "MmusDv:0000045".
+(3) What is the call quality for healthy expression data, excluding any data from Mus musculus developmental stage MmusDv:0000045?
+(4) What is the call quality for all healthy expressions except for those associated with Mouse developmental stage MmusDv:0000045?
+(5) What is the call quality of healthy expression for all developmental stages except "MmusDv:0000045"?
+(6) Get the call quality from healthy expression where the developmental ID is not equal to "MmusDv:0000045".
+(7) What is the call quality of healthy expression for developmental stages that are not MmusDv:0000045?

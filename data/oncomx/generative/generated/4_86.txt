@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.id = "EDRN00255"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_edrn AS T1 WHERE T1.id = "EDRN00255"
+GPT-3 choices:
+(0) How many rows are there in the biomarker_edrn table where the ID is "EDRN00255"?
+(1) How many rows are there in the EDRN biomarker table where the ID is "EDRN00255"?
+(2) "How many rows in the biomarker_edrn table have an ID of "EDRN00255"?"
+(3) How many rows in the biomarker_edrn table have an ID of "EDRN00255"?
+(4) How many rows are in the biomarker_edrn table where the id is "EDRN00255"?
+(5) How many biomarker entries are there in the EDRN database with the ID "EDRN00255"?
+(6) How many biomarkers have the identifier "EDRN00255" in the EDRN database?
+(7) How many biomarkers are there in the EDRN database with the ID "EDRN00255"?

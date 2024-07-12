@@ -1,0 +1,28 @@
+SELECT activity_types.code FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.postal_code = "26321"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.postal_code = "26321"
+GPT-3 choices:
+(0) Retrieve the code of the activity type from the activity types table for all project members with a postal code of 26321.
+(1) What is the activity type code for project members who have a postal code of 26321?
+(2) What is the activity type code of all project members who have a postal code of "26321"?
+(3) Find the code for activity types where the postal code is equal to 26321 and is joined with project members on the condition that the activity type code matches with the project member's activity type.
+(4) Find the activity code from the activity types table for project members whose postal code is "26321".
+(5) Find the activity type code for project members who have a postal code of "26321" by joining the activity_types and project_members tables.
+(6) What are the activity types with codes that are associated with project members who have a postal code of 26321?
+(7) Get the activity code from the activity types table for all project members whose postal code is "26321".
+
+
+Re-ranked choices:
+10.521  Find the code for activity types where the postal code is equal to 26321 and is joined with project members on the condition that the activity type code matches with the project member's activity type.
+9.832  Retrieve the code of the activity type from the activity types table for all project members with a postal code of 26321.
+8.458  What is the activity type code of all project members who have a postal code of "26321"?
+8.450  What is the activity type code for project members who have a postal code of 26321?
+8.437  Get the activity code from the activity types table for all project members whose postal code is "26321".
+8.434  Find the activity code from the activity types table for project members whose postal code is "26321".
+8.434  What are the activity types with codes that are associated with project members who have a postal code of 26321?
+8.425  Find the activity type code for project members who have a postal code of "26321" by joining the activity_types and project_members tables.
+

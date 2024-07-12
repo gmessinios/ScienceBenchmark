@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions = "DE136" and eu_territorial_units.description = "Staffordshire CC"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.geocode_regions = "DE136" and T1.description = "Staffordshire CC"
+GPT-3 choices:
+(0) Find the geocode level for the Staffordshire county within Germany, from the EU territorial units table.
+(1) Find the geocode level for Staffordshire County Council in Germany with a corresponding geocode region of "DE136" from the EU Territorial Units dataset.
+(2) Find the geocode level for Staffordshire County in Germany.
+(3) What is the geocode level for Staffordshire CC in Germany?
+(4) Find the geocode level of EU territorial units where the geocode regions is "DE136" and the description is "Staffordshire CC".
+(5) Retrieve the geographic code level for the Staffordshire County Council in Germany, where the description is "Staffordshire CC".
+(6) "Retrieve the geocode level from the EU territorial units table where the geocode region is 'DE136' and the description is 'Staffordshire CC'."
+(7) Find the geocode level for the European Union territorial unit with a geocode region of "DE136" and a description of "Staffordshire CC".

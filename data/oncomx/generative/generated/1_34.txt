@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_trade_name FROM biomarker_fda_test_trial AS biomarker_fda_test_trial JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_trial.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.histological_type = "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum."
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_trial AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.histological_type = "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum."
+GPT-3 choices:
+(0) Show me the test trade name from the biomarker FDA test trial table where the histological type in the associated biomarker FDA test table is "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum".
+(1) Retrieve the test trade names from the biomarker_fda_test_trial table, where the histological type in the biomarker_fda_test table is "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum."
+(2) Retrieve the test trade names from the biomarker_fda_test_trial table where the histological type in the biomarker_fda_test table is "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum.".
+(3) Find the test trade names from the biomarker FDA test trial where the corresponding histological type in the biomarker FDA test is "Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum."
+(4) Get the test trade names from the biomarker_fda_test_trial table where the corresponding histological type in the biomarker_fda_test table is "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum.".
+(5) Retrieve the test trade name from the biomarker_fda_test_trial table where the histological type in the biomarker_fda_test table is "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum."
+(6) Retrieve the test trade name from the biomarker_fda_test_trial table where the corresponding histological type in the biomarker_fda_test table is "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum".
+(7) Retrieve the test trade names from the biomarker_fda_test_trial table where the histological type in the corresponding row of biomarker_fda_test table is "C209 Tumors may be present in a single or multiple segments of the colon, rectosigmoid, rectum".

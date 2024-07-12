@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.id != "FDA000298"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.id != "FDA000298"
+GPT-3 choices:
+(0) Find the FDA NCIt terms for biomarkers that have a FDA ID other than "FDA000298" and are also listed in the biomarker_fda table.
+(1) What are the FDA NCIT terms associated with all biomarkers in the biomarker FDA database except for "FDA000298"?
+(2) Find the biomarker FDA IDs from the biomarker FDA NCIT term table where the corresponding ID in the biomarker FDA table is not "FDA000298".
+(3) Which biomarker FDA NCIT terms are associated with biomarker FDA IDs other than "FDA000298"?
+(4) Find the NCIT terms for all biomarker FDA IDs, excluding "FDA000298", that are associated with biomarker FDA.
+(5) "Retrieve the FDA biomarker ID from the table of NCIt terms for FDA-approved biomarkers, excluding the ID "FDA000298"."
+(6) Find the NCIT terms associated with all FDA biomarkers, excluding the one with an ID of "FDA000298".
+(7) Find the biomarker FDA NCIT term for a biomarker FDA ID that is not equal to "FDA000298".

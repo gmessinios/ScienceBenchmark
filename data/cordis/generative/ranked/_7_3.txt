@@ -1,0 +1,27 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.code = "ELM" or subject_areas.title = "Radiation Protection"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.code = "ELM" or T1.title = "Radiation Protection"
+GPT-3 choices:
+(0) Retrieve the description from the subject areas table for either the code "ELM" or title "Radiation Protection".
+(1) Get the description of the subject area with code "ELM" or title "Radiation Protection" from the table "subject_areas".
+(2) Retrieve the description of subject areas where the code is "ELM" or the title is "Radiation Protection".
+(3) Get the description for all subject areas where the code is "ELM" or the title is "Radiation Protection".
+(4) Retrieve the description for the subject area with the code "ELM" or title "Radiation Protection" from the subject areas table.
+(5) Find the description of a subject area that has a code of "ELM" or a title of "Radiation Protection".
+(6) Retrieve the description of subject areas where the code is "ELM" or the title is "Radiation Protection".
+(7) "Retrieve the description of the subject area with code 'ELM' or title 'Radiation Protection' from the table 'subject_areas'."
+
+
+Re-ranked choices:
+9.130  Retrieve the description of subject areas where the code is "ELM" or the title is "Radiation Protection".
+9.129  Get the description for all subject areas where the code is "ELM" or the title is "Radiation Protection".
+9.124  Retrieve the description from the subject areas table for either the code "ELM" or title "Radiation Protection".
+9.124  Retrieve the description for the subject area with the code "ELM" or title "Radiation Protection" from the subject areas table.
+7.732  Find the description of a subject area that has a code of "ELM" or a title of "Radiation Protection".
+7.726  Get the description of the subject area with code "ELM" or title "Radiation Protection" from the table "subject_areas".
+7.724  "Retrieve the description of the subject area with code 'ELM' or title 'Radiation Protection' from the table 'subject_areas'."
+

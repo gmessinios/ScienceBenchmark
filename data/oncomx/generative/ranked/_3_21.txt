@@ -1,0 +1,27 @@
+SELECT count(*) FROM biomarker_fda_drug AS biomarker_fda_drug
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_drug AS T1
+GPT-3 choices:
+(0) How many rows are there in the table "biomarker_fda_drug"?
+(1) How many rows are in the biomarker_fda_drug table?
+(2) How many rows are in the table biomarker_fda_drug?
+(3) "How many biomarker-fda drug combinations are there in the biomarker fda drug table?"
+(4) How many records are there in the biomarker_fda_drug table?
+(5) How many rows are there in the table biomarker_fda_drug?
+(6) "How many entries are in the biomarker_fda_drug table?"
+(7) How many rows are in the table biomarker_fda_drug?
+
+
+Re-ranked choices:
+4.233  "How many biomarker-fda drug combinations are there in the biomarker fda drug table?"
+0.056  How many rows are there in the table "biomarker_fda_drug"?
+0.056  How many records are there in the biomarker_fda_drug table?
+0.056  How many rows are there in the table biomarker_fda_drug?
+0.048  How many rows are in the biomarker_fda_drug table?
+0.048  How many rows are in the table biomarker_fda_drug?
+0.041  "How many entries are in the biomarker_fda_drug table?"
+

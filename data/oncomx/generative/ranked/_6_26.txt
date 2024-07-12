@@ -1,0 +1,28 @@
+SELECT healthy_expression.call_quality FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_anatomical_id = "UBERON:0001769" and healthy_expression.expression_score = 9.52000
+
+###
+
+
+Original Query:
+SELECT T1.call_quality FROM healthy_expression AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0001769" and T1.expression_score = 9.52000
+GPT-3 choices:
+(0) Find the call quality from healthy expression for the anatomical ID "UBERON:0001769" with an expression score of 9.52000.
+(1) Retrieve the call quality from healthy expression where the Uberon anatomical ID is "UBERON:0001769" and the expression score is 9.52000.
+(2) What is the call quality from healthy expression in the anatomical location UBERON:0001769 when the expression score is 9.52000?
+(3) What is the call quality of healthy expression data for anatomical structure UBERON:0001769 with an expression score of 9.52?
+(4) What is the call quality of healthy expression in anatomical structure UBERON:0001769 with an expression score of 9.52000?
+(5) What is the call quality from healthy_expression for the anatomical structure with ID "UBERON:0001769" where the expression score is 9.52?
+(6) Retrieve the call quality score from healthy_expression for anatomical location UBERON:0001769 where the expression score is equal to 9.52000.
+(7) Find the call quality score from the healthy_expression table where the uberon_anatomical_id is "UBERON:0001769" and the expression_score is 9.52000.
+
+
+Re-ranked choices:
+11.925  Retrieve the call quality from healthy expression where the Uberon anatomical ID is "UBERON:0001769" and the expression score is 9.52000.
+10.533  Find the call quality from healthy expression for the anatomical ID "UBERON:0001769" with an expression score of 9.52000.
+9.130  What is the call quality of healthy expression in anatomical structure UBERON:0001769 with an expression score of 9.52000?
+9.129  What is the call quality from healthy expression in the anatomical location UBERON:0001769 when the expression score is 9.52000?
+9.129  What is the call quality of healthy expression data for anatomical structure UBERON:0001769 with an expression score of 9.52?
+9.128  What is the call quality from healthy_expression for the anatomical structure with ID "UBERON:0001769" where the expression score is 9.52?
+7.726  Retrieve the call quality score from healthy_expression for anatomical location UBERON:0001769 where the expression score is equal to 9.52000.
+4.924  Find the call quality score from the healthy_expression table where the uberon_anatomical_id is "UBERON:0001769" and the expression_score is 9.52000.
+

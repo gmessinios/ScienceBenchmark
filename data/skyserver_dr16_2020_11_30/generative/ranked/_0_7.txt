@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type = 6
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 WHERE T1.type = 6
+GPT-3 choices:
+(0) Retrieve the neighbormode of all objects in the neighbors table where the type is equal to 6.
+(1) Retrieve the neighbor mode for the nearest neighbor objects where the type is equal to 6.
+(2) Find the neighbormode of all nearest neighbor objects where their type is equal to 6.
+(3) Get the neighbor mode from the nearest neighbors where the type is equal to 6.
+(4) What is the mode of the nearest neighbour object for type 6 in the "neighbors" table?
+(5) "Retrieve the mode of neighbor objects from the 'neighbors' table where the type is equal to 6."
+(6) Retrieve the neighbor mode from the nearest neighbor objects where the type is equal to 6.
+(7) Get the neighbor mode of nearest neighbour objects from the neighbors table where the type is equal to 6.
+
+
+Re-ranked choices:
+8.437  Get the neighbor mode of nearest neighbour objects from the neighbors table where the type is equal to 6.
+7.047  "Retrieve the mode of neighbor objects from the 'neighbors' table where the type is equal to 6."
+7.043  What is the mode of the nearest neighbour object for type 6 in the "neighbors" table?
+5.650  Retrieve the neighbor mode for the nearest neighbor objects where the type is equal to 6.
+5.650  Retrieve the neighbor mode from the nearest neighbor objects where the type is equal to 6.
+5.645  Find the neighbormode of all nearest neighbor objects where their type is equal to 6.
+4.268  Get the neighbor mode from the nearest neighbors where the type is equal to 6.
+4.235  Retrieve the neighbormode of all objects in the neighbors table where the type is equal to 6.
+

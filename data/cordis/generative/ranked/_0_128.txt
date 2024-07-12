@@ -1,0 +1,28 @@
+SELECT institutions.geocode_regions_3 FROM institutions AS institutions WHERE institutions.country_id = 229
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions_3 FROM institutions AS T1 WHERE T1.country_id = 229
+GPT-3 choices:
+(0) Retrieve the geocode regions for all institutions located in country with ID 229.
+(1) What are the geocode regions for institutions located in country with ID 229?
+(2) Find the geocode regions 3 for institutions located in the country with ID 229 from the table institutions.
+(3) Find the geocode regions 3 for institutions located in country with ID of 229.
+(4) Get the geocode regions of institutions that have a country ID of 229 from the table "institutions".
+(5) Get the geocode regions 3 from institutions where the country ID is equal to 229.
+(6) "Retrieve the geocode_regions_3 data from institutions where the country_id is equal to 229."
+(7) Retrieve the geocode regions 3 for institutions where the country ID is equal to 229.
+
+
+Re-ranked choices:
+8.454  Get the geocode regions 3 from institutions where the country ID is equal to 229.
+8.444  Retrieve the geocode regions 3 for institutions where the country ID is equal to 229.
+8.439  Find the geocode regions 3 for institutions located in country with ID of 229.
+8.429  Find the geocode regions 3 for institutions located in the country with ID 229 from the table institutions.
+7.042  What are the geocode regions for institutions located in country with ID 229?
+7.036  Retrieve the geocode regions for all institutions located in country with ID 229.
+7.034  Get the geocode regions of institutions that have a country ID of 229 from the table "institutions".
+1.436  "Retrieve the geocode_regions_3 data from institutions where the country_id is equal to 229."
+

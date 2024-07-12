@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 0 or photometrically_observed.description = "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value = 0 or T1.description = "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+GPT-3 choices:
+(0) Retrieve the names of all objects that are not photometrically observed, or have a description of "Trail: A satellite or asteroid or meteor trail".
+(1) Find the names of objects that are not photometrically observed or described as a trail.
+(2) Find the names of all photo types where the value is equal to 0 or the description is "Trail: A satellite or asteroid or meteor trail."
+(3) Retrieve the names of all objects in the photo_type table that have a value of 0 or a description of "Trail: A satellite or asteroid or meteor trail".
+(4) Retrieve the names of objects observed photometrically that have a value of 0 or a description of "Trail: A satellite or asteroid or meteor trail".
+(5) Retrieve the names of all objects from the "photo_type" table that have a value of 0 or a description of "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+(6) Find the names of objects that have a photo type value of 0 or a description of "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+(7) What are the names of objects that have been photometrically observed as having a value of 0 or being described as a satellite, asteroid, or meteor trail?

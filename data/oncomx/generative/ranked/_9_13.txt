@@ -1,0 +1,28 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article JOIN biomarker AS biomarker ON biomarker_article.biomarker_internal_id = biomarker.id WHERE biomarker.biomarker_description != "S100 calcium binding protein B"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 JOIN biomarker AS T2 ON T1.biomarker_internal_id = T2.id WHERE T2.biomarker_description != "S100 calcium binding protein B"
+GPT-3 choices:
+(0) Find the PubMed ID of articles that mention a biomarker, excluding those where the biomarker is described as "S100 calcium binding protein B".
+(1) Find the PMID values from biomarker_article for all articles where the biomarker description is not "S100 calcium binding protein B" and the biomarker_internal_id is equal to the id value in biomarker.
+(2) Retrieve the PubMed IDs of all articles that mention a biomarker, except those that refer to S100 calcium binding protein B.
+(3) Retrieve the PMID numbers of articles associated with biomarkers that are not "S100 calcium binding protein B".
+(4) Find the PubMed IDs for articles that mention a biomarker that is not "S100 calcium binding protein B".
+(5) Retrieve the PubMed IDs from articles where the biomarker description is not "S100 calcium binding protein B".
+(6) Find the PMID numbers for articles where the biomarker's description is not "S100 calcium binding protein B".
+(7) Find the PubMed ID for articles that mention a biomarker other than "S100 calcium binding protein B".
+
+
+Re-ranked choices:
+9.118  Find the PMID values from biomarker_article for all articles where the biomarker description is not "S100 calcium binding protein B" and the biomarker_internal_id is equal to the id value in biomarker.
+7.730  Find the PMID numbers for articles where the biomarker's description is not "S100 calcium binding protein B".
+6.334  Find the PubMed ID for articles that mention a biomarker other than "S100 calcium binding protein B".
+6.330  Retrieve the PubMed IDs from articles where the biomarker description is not "S100 calcium binding protein B".
+6.327  Find the PubMed ID of articles that mention a biomarker, excluding those where the biomarker is described as "S100 calcium binding protein B".
+4.937  Find the PubMed IDs for articles that mention a biomarker that is not "S100 calcium binding protein B".
+4.924  Retrieve the PMID numbers of articles associated with biomarkers that are not "S100 calcium binding protein B".
+2.829  Retrieve the PubMed IDs of all articles that mention a biomarker, except those that refer to S100 calcium binding protein B.
+

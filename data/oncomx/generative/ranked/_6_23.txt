@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.biomarker_title FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.phase = "Two" and biomarker_edrn.qa_state = "Curated"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_title FROM biomarker_edrn AS T1 WHERE T1.phase = "Two" and T1.qa_state = "Curated"
+GPT-3 choices:
+(0) Retrieve the titles of biomarkers that are in phase two and have been curated.
+(1) What are the titles of biomarkers that have a phase of Two and are in a curated QA state?
+(2) What are the titles of biomarkers that have been curated and are in phase two?
+(3) What are the titles of biomarkers that have a phase of "Two" and a QA state of "Curated" in the table biomarker_edrn from the database biomarker_edrn?
+(4) Retrieve the biomarker title from the Biomarker EDRN table where the phase is "Two" and QA state is "Curated".
+(5) "Retrieve the title of biomarkers that are in phase two and have been curated."
+(6) Show me the titles of biomarkers from the database biomarker_edrn that have a phase of "Two" and are in a QA state of "Curated".
+(7) What is the title of biomarkers that are in phase two and have been curated?
+
+
+Re-ranked choices:
+9.832  Retrieve the biomarker title from the Biomarker EDRN table where the phase is "Two" and QA state is "Curated".
+5.630  Show me the titles of biomarkers from the database biomarker_edrn that have a phase of "Two" and are in a QA state of "Curated".
+5.623  What are the titles of biomarkers that have a phase of "Two" and a QA state of "Curated" in the table biomarker_edrn from the database biomarker_edrn?
+4.250  What are the titles of biomarkers that have a phase of Two and are in a curated QA state?
+3.554  What is the title of biomarkers that are in phase two and have been curated?
+3.547  "Retrieve the title of biomarkers that are in phase two and have been curated."
+2.154  What are the titles of biomarkers that have been curated and are in phase two?
+2.147  Retrieve the titles of biomarkers that are in phase two and have been curated.
+

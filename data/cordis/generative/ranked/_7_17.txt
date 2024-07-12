@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.title = "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or programmes.code = "ENERGY-2007-1.1-01"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.title = "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or T1.code = "ENERGY-2007-1.1-01"
+GPT-3 choices:
+(0) What is the research council number for the programme titled "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with the code "ENERGY-2007-1.1-01"?
+(1) Find the programme code for "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or "ENERGY-2007-1.1-01".
+(2) What is the RCN for the programme titled "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with code "ENERGY-2007-1.1-01"?
+(3) Retrieve the research council number of programmes where the title is "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or the code is "ENERGY-2007-1.1-01".
+(4) Find the RCN for a programme with the title "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with the code "ENERGY-2007-1.1-01".
+(5) Retrieve the RCN of the programme titled "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with code "ENERGY-2007-1.1-01".
+(6) Retrieve the RCN from the programmes table where the title is "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or code is "ENERGY-2007-1.1-01".
+(7) What is the RCN for the programme "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with code "ENERGY-2007-1.1-01"?
+
+
+Re-ranked choices:
+14.017  Retrieve the RCN from the programmes table where the title is "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or code is "ENERGY-2007-1.1-01".
+12.619  Find the RCN for a programme with the title "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with the code "ENERGY-2007-1.1-01".
+12.617  Retrieve the research council number of programmes where the title is "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or the code is "ENERGY-2007-1.1-01".
+11.219  Retrieve the RCN of the programme titled "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with code "ENERGY-2007-1.1-01".
+11.219  What is the RCN for the programme "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with code "ENERGY-2007-1.1-01"?
+11.219  What is the RCN for the programme titled "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with code "ENERGY-2007-1.1-01"?
+9.820  Find the programme code for "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or "ENERGY-2007-1.1-01".
+9.817  What is the research council number for the programme titled "Impact of specific antibiotic therapies on the prevalence of resistant bacteria in the human host" or with the code "ENERGY-2007-1.1-01"?
+

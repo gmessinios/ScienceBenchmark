@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes WHERE funding_schemes.title != "SME instrument phase 1"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 WHERE T1.title != "SME instrument phase 1"
+GPT-3 choices:
+(0) Retrieve the code from funding schemes where the title is not "SME instrument phase 1".
+(1) Retrieve the codes of all funding schemes, excluding "SME instrument phase 1".
+(2) Get the code from the funding schemes table for all titles except "SME instrument phase 1".
+(3) Retrieve the code from funding schemes where the title is not equal to "SME instrument phase 1".
+(4) Find the codes for all funding schemes except for "SME instrument phase 1".
+(5) Retrieve the codes for all funding schemes, excluding "SME instrument phase 1".
+(6) Retrieve the code for all funding schemes, excluding the one titled "SME instrument phase 1".
+(7) What are the codes for all funding schemes except for "SME instrument phase 1"?

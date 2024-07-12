@@ -1,0 +1,28 @@
+SELECT species.species FROM species AS species WHERE species.speciescommonname = "mouse" and species.genus = "Homo"
+
+###
+
+
+Original Query:
+SELECT T1.species FROM species AS T1 WHERE T1.speciescommonname = "mouse" and T1.genus = "Homo"
+GPT-3 choices:
+(0) "What is the species name for a mouse in the genus Homo?"
+(1) Find the scientific name of the species that has a common name of "mouse" and belongs to the genus "Homo".
+(2) "Retrieve the scientific name of all species with a common name of 'mouse' and a genus of 'Homo' from the table 'species'."
+(3) Retrieve the species name of "mouse" from the table "species", where the common name is also "mouse" and the genus is "Homo".
+(4) Retrieve the species name from the "species" table where the species' common name is "mouse" and the genus is "Homo".
+(5) Find the scientific name for a mouse species that belongs to the genus "Homo".
+(6) What is the scientific name of the species "mouse" from the genus "Homo"?
+(7) Find the species name for a mouse with a common name of "mouse" and a genus of "Homo".
+
+
+Re-ranked choices:
+4.268  Find the species name for a mouse with a common name of "mouse" and a genus of "Homo".
+4.262  What is the scientific name of the species "mouse" from the genus "Homo"?
+4.247  Retrieve the species name from the "species" table where the species' common name is "mouse" and the genus is "Homo".
+4.247  Find the scientific name for a mouse species that belongs to the genus "Homo".
+4.242  Retrieve the species name of "mouse" from the table "species", where the common name is also "mouse" and the genus is "Homo".
+4.239  Find the scientific name of the species that has a common name of "mouse" and belongs to the genus "Homo".
+4.236  "Retrieve the scientific name of all species with a common name of 'mouse' and a genus of 'Homo' from the table 'species'."
+3.643  "What is the species name for a mouse in the genus Homo?"
+

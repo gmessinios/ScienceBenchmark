@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_level = 2 or eu_territorial_units.nuts_version = "2021"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 WHERE T1.geocode_level = 2 or T1.nuts_version = "2021"
+GPT-3 choices:
+(0) What are the descriptions of all EU territorial units that have a geocode level of 2 or a NUTS version of "2021"?
+(1) Retrieve the description of European territorial units where the geocode level is 2 or the NUTS version is "2021".
+(2) Get the description of all European territorial units where the geocode level is 2 or the NUTS version is "2021".
+(3) What is the description of all EU territorial units where the geocode level is 2 or the NUTS version is "2021"?
+(4) Retrieve the description of all European territorial units that have a geocode level of 2 or a NUTS version of "2021".
+(5) Retrieve the description of all EU territorial units with a geocode level of 2 or NUTS version 2021.
+(6) Find the description of all European territorial units with a geocode level of 2 or nuts version of "2021".
+(7) Retrieve the descriptions for all territorial units from the EU dataset where the geocode level is equal to 2 or the nuts version is equal to "2021".

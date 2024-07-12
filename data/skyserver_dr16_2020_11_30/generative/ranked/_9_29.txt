@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.dec != -16.712474
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.dec != -16.712474
+GPT-3 choices:
+(0) Find the specobjid from galspecline for objects that have a dec value not equal to -16.712474 in the Spectroscopic_objects table.
+(1) Find the specobjid from the galspecline table where the declination of Spectroscopic_objects is not equal to -16.712474.
+(2) Find the specobjid of all galspecline emission line estimates for spectroscopic objects that have a declination value other than -16.712474.
+(3) Select the specobjid from the galspecline table where the dec value in the specobj table is not equal to -16.712474.
+(4) Find the specobjid from Emission_line_estimates where the dec value for the corresponding Spectroscopic_objects is not equal to -16.712474.
+(5) Retrieve the specobjid values from the Emission_line_estimates table for all objects that have a non-matching declination value of -16.712474 in the Spectroscopic_objects table.
+(6) Get the specobjid from the galspecline table for all Spectroscopic objects where their dec value is not equal to -16.712474.
+(7) Retrieve the specobjid values from the Emission_line_estimates table for all Spectroscopic_objects where the dec value is not equal to -16.712474.
+
+
+Re-ranked choices:
+7.021  Find the specobjid of all galspecline emission line estimates for spectroscopic objects that have a declination value other than -16.712474.
+4.224  Retrieve the specobjid values from the Emission_line_estimates table for all objects that have a non-matching declination value of -16.712474 in the Spectroscopic_objects table.
+2.826  Get the specobjid from the galspecline table for all Spectroscopic objects where their dec value is not equal to -16.712474.
+2.133  Find the specobjid from galspecline for objects that have a dec value not equal to -16.712474 in the Spectroscopic_objects table.
+2.125  Find the specobjid from the galspecline table where the declination of Spectroscopic_objects is not equal to -16.712474.
+1.422  Find the specobjid from Emission_line_estimates where the dec value for the corresponding Spectroscopic_objects is not equal to -16.712474.
+1.421  Retrieve the specobjid values from the Emission_line_estimates table for all Spectroscopic_objects where the dec value is not equal to -16.712474.
+0.026  Select the specobjid from the galspecline table where the dec value in the specobj table is not equal to -16.712474.
+

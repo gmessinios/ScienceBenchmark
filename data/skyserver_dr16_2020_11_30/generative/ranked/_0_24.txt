@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.distance = 1.20332812333327e-05
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 WHERE T1.distance = 1.20332812333327e-05
+GPT-3 choices:
+(0) Find the mode of the neighbor objects that have a distance of 1.20332812333327e-05 in the "neighbors" table.
+(1) Find the neighbor mode for objects in the neighbors table where the distance is equal to 1.20332812333327e-05.
+(2) Find the neighbor mode for the nearest neighbour objects where the distance is equal to 1.20332812333327e-05.
+(3) Find the neighbor mode for nearest neighbor objects where the distance is equal to 1.20332812333327e-05.
+(4) What is the neighbor mode for the nearest neighbor object with a distance of 1.20332812333327e-05 in the neighbors table?
+(5) Find the neighbor mode from the "neighbors" table where the distance is equal to 1.20332812333327e-05.
+(6) Find the nearest neighbor mode for the object in the "neighbors" table where the distance is equal to 1.20332812333327e-05.
+(7) "Retrieve the neighbor mode of nearest neighbor objects where the distance is equal to 1.20332812333327e-05 from the neighbors table."
+
+
+Re-ranked choices:
+8.497  Find the mode of the neighbor objects that have a distance of 1.20332812333327e-05 in the "neighbors" table.
+8.465  What is the neighbor mode for the nearest neighbor object with a distance of 1.20332812333327e-05 in the neighbors table?
+8.465  "Retrieve the neighbor mode of nearest neighbor objects where the distance is equal to 1.20332812333327e-05 from the neighbors table."
+8.443  Find the neighbor mode for the nearest neighbour objects where the distance is equal to 1.20332812333327e-05.
+7.054  Find the neighbor mode for nearest neighbor objects where the distance is equal to 1.20332812333327e-05.
+7.047  Find the neighbor mode for objects in the neighbors table where the distance is equal to 1.20332812333327e-05.
+7.042  Find the nearest neighbor mode for the object in the "neighbors" table where the distance is equal to 1.20332812333327e-05.
+5.654  Find the neighbor mode from the "neighbors" table where the distance is equal to 1.20332812333327e-05.
+

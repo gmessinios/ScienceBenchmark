@@ -1,0 +1,28 @@
+SELECT institutions.db_pedia_url FROM institutions AS institutions WHERE institutions.country_id = 186 or institutions.short_name = "Fundació Salut i Envelliment"
+
+###
+
+
+Original Query:
+SELECT T1.db_pedia_url FROM institutions AS T1 WHERE T1.country_id = 186 or T1.short_name = "Fundació Salut i Envelliment"
+GPT-3 choices:
+(0) Retrieve the DBPedia URL of all institutions with a country ID of 186 or a short name of "Fundació Salut i Envelliment" from the institutions table.
+(1) Get the DBpedia URL of institutions where the country ID is 186 or the short name is "Fundació Salut i Envelliment".
+(2) What is the DBpedia URL for institutions located in country ID 186 or with the short name "Fundació Salut i Envelliment"?
+(3) What is the DBPedia URL for institutions located in Spain or with the short name "Fundació Salut i Envelliment"?
+(4) Find the DBpedia URL of institutions that have a country ID of 186 or a short name of "Fundació Salut i Envelliment".
+(5) What is the databasepedia url for the institution "Fundació Salut i Envelliment" or any institutions located in country 186?
+(6) Find the DBPedia URL of institutions in which their country ID is equal to 186 or their short name is "Fundació Salut i Envelliment".
+(7) Retrieve the db_pedia_url from the institutions table where the country_id is equal to 186 or the short_name is equal to "Fundació Salut i Envelliment".
+
+
+Re-ranked choices:
+11.221  Get the DBpedia URL of institutions where the country ID is 186 or the short name is "Fundació Salut i Envelliment".
+11.221  Find the DBPedia URL of institutions in which their country ID is equal to 186 or their short name is "Fundació Salut i Envelliment".
+11.220  Find the DBpedia URL of institutions that have a country ID of 186 or a short name of "Fundació Salut i Envelliment".
+11.219  What is the DBpedia URL for institutions located in country ID 186 or with the short name "Fundació Salut i Envelliment"?
+11.217  Retrieve the DBPedia URL of all institutions with a country ID of 186 or a short name of "Fundació Salut i Envelliment" from the institutions table.
+8.420  What is the DBPedia URL for institutions located in Spain or with the short name "Fundació Salut i Envelliment"?
+7.017  What is the databasepedia url for the institution "Fundació Salut i Envelliment" or any institutions located in country 186?
+4.217  Retrieve the db_pedia_url from the institutions table where the country_id is equal to 186 or the short_name is equal to "Fundació Salut i Envelliment".
+

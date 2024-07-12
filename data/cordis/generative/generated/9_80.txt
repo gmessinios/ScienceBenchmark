@@ -1,0 +1,16 @@
+SELECT countries.country_code3 FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.wikidata_url != "http://www.wikidata.org/wiki/Q6095550"
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.wikidata_url != "http://www.wikidata.org/wiki/Q6095550"
+GPT-3 choices:
+(0) What are the three-letter country codes for countries that have institutions with a wikidata URL different from "http://www.wikidata.org/wiki/Q6095550", joining the tables countries and institutions on their respective IDs?
+(1) Retrieve the country codes for all countries that have an institution with a Wikidata URL different from "http://www.wikidata.org/wiki/Q6095550", by joining the countries table and institutions table on their respective IDs.
+(2) What are the country codes for countries that have institutions with a wikidata URL different from "http://www.wikidata.org/wiki/Q6095550"?
+(3) Which countries have a country code of three letters for institutions that have a Wikidata URL different from "http://www.wikidata.org/wiki/Q6095550"?
+(4) What are the three-letter country codes for countries where institutions have a country ID that is not equal to "http://www.wikidata.org/wiki/Q6095550" in the table of countries and institutions?
+(5) Retrieve the country codes of all countries in which institutions are located, excluding the country with a Wikidata URL of "http://www.wikidata.org/wiki/Q6095550".
+(6) Retrieve the three-letter country codes for all countries that are associated with institutions through their UNICS ID, but only if the institution's Wikidata URL is not "http://www.wikidata.org/wiki/Q6095550".
+(7) Find the country code3 from countries that is associated with institutions, excluding those with a wikidata URL of "http://www.wikidata.org/wiki/Q6095550".

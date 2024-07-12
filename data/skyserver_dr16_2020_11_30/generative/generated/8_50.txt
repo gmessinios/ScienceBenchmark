@@ -1,0 +1,16 @@
+SELECT Photometric_objects.rerun FROM photoobj AS Photometric_objects WHERE Photometric_objects.flags != 144753820232
+
+###
+
+
+Original Query:
+SELECT T1.rerun FROM photoobj AS T1 WHERE T1.flags != 144753820232
+GPT-3 choices:
+(0) Retrieve the rerun value for all Photometric objects from the photoobj table where the flags value is not equal to 144753820232.
+(1) Retrieve the rerun information for all Photometric objects from the photoobj table where the flags are not equal to 144753820232.
+(2) Retrieve the rerun value for Photometric objects from the photoobj table where the flags are not equal to 144753820232.
+(3) Find the rerun value from the photoobj table for photometric objects where the flags are not equal to 144753820232.
+(4) Find the rerun value from the Photometric_objects table for all objects in the photoobj table where the flags are not equal to 144753820232.
+(5) Find the rerun value for all Photometric_objects from the photoobj table where the flags are not equal to 144753820232.
+(6) Find the rerun value of Photometric_objects from the photoobj table, where the flags are not equal to 144753820232.
+(7) Retrieve the rerun value from the photometric objects in the photoobj table where the flags column does not equal 144753820232.

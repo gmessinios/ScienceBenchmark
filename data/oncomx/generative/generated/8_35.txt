@@ -1,0 +1,16 @@
+SELECT healthy_expression.expression_level_gene_relative FROM healthy_expression AS healthy_expression WHERE healthy_expression.expression_level_anatomical_relative != "LOW"
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_gene_relative FROM healthy_expression AS T1 WHERE T1.expression_level_anatomical_relative != "LOW"
+GPT-3 choices:
+(0) Find the expression levels for all genes in healthy individuals where the anatomical expression level is not "LOW".
+(1) Retrieve the expression level of genes from healthy individuals where the anatomical expression level is not low.
+(2) Retrieve the relative expression level of healthy genes where the anatomical relative expression level is not "LOW".
+(3) Find the relative expression levels for genes in healthy tissue where the anatomical expression level is not considered "LOW".
+(4) Get the relative gene expression levels from healthy individuals where the anatomical relative expression level is not "LOW".
+(5) "Retrieve the expression level gene relative from healthy_expression where the anatomical relative expression level is not low."
+(6) What is the expression level of genes from healthy tissue that is not considered "LOW" in terms of anatomical relative expression level?
+(7) Retrieve the relative gene expression levels from the healthy_expression table where the anatomical relative expression level is not "LOW".

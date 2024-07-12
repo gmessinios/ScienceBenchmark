@@ -1,0 +1,16 @@
+SELECT Photometric_objects.field FROM photoobj AS Photometric_objects WHERE Photometric_objects.rowc != 59.08637
+
+###
+
+
+Original Query:
+SELECT T1.field FROM photoobj AS T1 WHERE T1.rowc != 59.08637
+GPT-3 choices:
+(0) "Find the field from the photoobj table where the rowc value is not equal to 59.08637 for Photometric_objects."
+(1) Select the field column from the photoobj table where the rowc column is not equal to 59.08637, and rename the table as Photometric_objects.
+(2) Retrieve the field from the photoobj table where the rowc value is not equal to 59.08637 and label it as Photometric_objects.
+(3) Find the field from the table "photoobj" where the rowc value is not equal to 59.08637 for objects with a photometric classification.
+(4) Get the field values from the table photoobj where the rowc value is not equal to 59.08637, and label this column as Photometric_objects.
+(5) Find the field from the photoobj table where the rowc value is not equal to 59.08637 for objects classified as photometric.
+(6) Find the field from the table "photoobj" where the rowc column is not equal to 59.08637, and name it "Photometric_objects."
+(7) Find the field from the table "photoobj" where the rowc value is not equal to 59.08637 and rename it as "Photometric_objects".

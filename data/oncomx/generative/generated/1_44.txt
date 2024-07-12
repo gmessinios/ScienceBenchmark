@@ -1,0 +1,16 @@
+SELECT stage.id FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.uberon_anatomical_id = "UBERON:0001950"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.uberon_anatomical_id = "UBERON:0001950"
+GPT-3 choices:
+(0) What is the identifier for each stage where the uberon anatomical identifier is "UBERON:0001950" and it also appears in the healthy expression table with a matching uberon developmental identifier?
+(1) Retrieve the id for each stage from the stage table where the uberon_anatomical_id is "UBERON:0001950" and join it with the id from healthy_expression table where uberon_developmental_id matches.
+(2) Find the ID of all stages in which healthy expression is present for the anatomical structure with ID "UBERON:0001950".
+(3) Find the stage ID for which there is a corresponding row in the table healthy_expression with an uberon_developmental_id value that matches the id of the given UBERON:0001950 anatomical structure.
+(4) Find the IDs of stages that are associated with healthy expression in the developmental stage, specifically for the anatomical location UBERON:0001950.
+(5) Retrieve the IDs from the "stage" table where the ID matches with the "uberon_developmental_id" column in the "healthy_expression" table, and where the "uberon_anatomical_id" column in the "healthy_expression" table is equal to "UBERON:0001950".
+(6) Retrieve the id of all stages from the stage table where the uberon_developmental_id matches with the id in the healthy_expression table for a given uberon_anatomical_id.
+(7) Retrieve the stage ID from the stage table where the UBERON developmental ID in the healthy_expression table matches and the UBERON anatomical ID equals "UBERON:0001950".

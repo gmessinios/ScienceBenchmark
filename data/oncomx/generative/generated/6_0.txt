@@ -1,0 +1,16 @@
+SELECT biomarker_edrn.id FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.biomarker_title = "STEAP4" and biomarker_edrn.phase = "One"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_edrn AS T1 WHERE T1.biomarker_title = "STEAP4" and T1.phase = "One"
+GPT-3 choices:
+(0) Find the ID of the biomarker with the title "STEAP4" and a phase of "One" in the EDRN database.
+(1) Find the identifier of the biomarker in the database table "biomarker_edrn" with the title "STEAP4" and is currently in phase one.
+(2) Find the ID of the biomarker STEAP4 in phase one from the table biomarker_edrn.
+(3) Find the ID of the biomarker in the EDRN database with a title of "STEAP4" and a phase of "One".
+(4) What is the ID of the biomarker STEAP4 in phase One?
+(5) What is the ID of the biomarker "STEAP4" in phase One from the table "biomarker_edrn"?
+(6) Find the ID of the biomarker STEAP4 in phase One from the biomarker_edrn table.
+(7) What is the ID of the biomarker from the EDRN database with a title of "STEAP4" and a phase of "One"?

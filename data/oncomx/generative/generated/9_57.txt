@@ -1,0 +1,16 @@
+SELECT disease.name FROM disease AS disease JOIN cancer_tissue AS cancer_tissue ON disease.id = cancer_tissue.doid WHERE cancer_tissue.uberon_anatomical_id != "UBERON:0018707"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1 JOIN cancer_tissue AS T2 ON T1.id = T2.doid WHERE T2.uberon_anatomical_id != "UBERON:0018707"
+GPT-3 choices:
+(0) Find the names of diseases that are associated with cancer in a specific anatomical location, excluding the anatomical location "pleural membrane".
+(1) Retrieve the names of diseases that are associated with cancer tissues, excluding those related to the anatomical structure with ID "UBERON:0018707".
+(2) Find the name of all diseases that are associated with a type of cancer, excluding any diseases related to the anatomical structure with ID "UBERON:0018707".
+(3) What are the names of diseases associated with a cancer tissue that is not UBERON:0018707?
+(4) What are the names of diseases that are associated with cancer tissue, excluding those related to the anatomical entity "UBERON:0018707"?
+(5) What are the names of diseases that are associated with a cancer tissue and have an uberon anatomical ID other than "UBERON:0018707"?
+(6) Retrieve the name of diseases that are associated with cancer tissue, excluding those that are related to the anatomical entity "UBERON:0018707".
+(7) What are the names of diseases that are associated with cancer tissue, but not with the anatomical structure "UBERON:0018707"?

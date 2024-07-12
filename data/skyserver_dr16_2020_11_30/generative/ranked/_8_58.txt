@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "KNOWNOBJ"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name != "KNOWNOBJ"
+GPT-3 choices:
+(0) Get the description of all photometrically observed photo types, excluding those with the name "KNOWNOBJ".
+(1) What is the description of all photo types except for "KNOWNOBJ"?
+(2) "Retrieve the description of all photometrically observed objects except those labeled as 'KNOWNOBJ' from the photo_type table."
+(3) What is the description for all photo types that are not known objects?
+(4) Retrieve the descriptions of all photo types except for "KNOWNOBJ" from the table "photometrically_observed."
+(5) Retrieve the description of all photometrically observed photo types, excluding those named "KNOWNOBJ".
+(6) Find the description of all photometrically observed objects except for those with the name "KNOWNOBJ".
+(7) Find the description of all photo types that are not labeled as "KNOWNOBJ".
+
+
+Re-ranked choices:
+6.327  Get the description of all photometrically observed photo types, excluding those with the name "KNOWNOBJ".
+6.327  Find the description of all photometrically observed objects except for those with the name "KNOWNOBJ".
+4.923  Retrieve the description of all photometrically observed photo types, excluding those named "KNOWNOBJ".
+4.921  "Retrieve the description of all photometrically observed objects except those labeled as 'KNOWNOBJ' from the photo_type table."
+2.152  Find the description of all photo types that are not labeled as "KNOWNOBJ".
+2.148  What is the description of all photo types except for "KNOWNOBJ"?
+1.462  What is the description for all photo types that are not known objects?
+0.723  Retrieve the descriptions of all photo types except for "KNOWNOBJ" from the table "photometrically_observed."
+

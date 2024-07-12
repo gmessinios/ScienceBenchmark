@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.start_date != "2012-07-07"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.start_date != "2012-07-07"
+GPT-3 choices:
+(0) Retrieve the code of all topics that are associated with projects that do not have a start date of July 7th, 2012.
+(1) Show me the topic codes of all projects that are not starting on July 7th, 2012.
+(2) Get the topic codes from all topics that are listed in the project_topics table and joined with projects table using their shared topic code, for all projects that have a start date that is not equal to "2012-07-07".
+(3) Get the code of all topics that are assigned to projects that have a start date other than "2012-07-07".
+(4) Retrieve the codes of topics that are assigned to projects with a start date other than July 7, 2012.
+(5) Get the topic codes of all topics associated with projects that have a start date other than July 7, 2012.
+(6) Find the topic codes from topics that are associated with projects through project_topics, and join them with the unics_id of projects where the start date is not equal to "2012-07-07".
+(7) Show me the topic codes for all topics that are listed in the project_topics table and associated with projects whose start date is not July 7, 2012.

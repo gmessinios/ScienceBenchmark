@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.country != "BN"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.country != "BN"
+GPT-3 choices:
+(0) Get the code for activity types that are joined with project members, where the country in project members is not "BN".
+(1) Get the code of all activity types from the activity_types table where the country in project_members is not equal to "BN".
+(2) Retrieve the code of all activity types from the project members table where the country is not equal to "BN", and join it with the activity types table.
+(3) Find the code of all activity types from the project members table where the country is not "BN".
+(4) Retrieve the activity code from the activity types table for all project members whose country is not "BN".
+(5) Find the activity types codes for all project members who have a different country than "BN".
+(6) Retrieve the code of activity types from the project members table for all activities that are not associated with Brunei.
+(7) Find the code for all activity types where the country of the project members is not "BN".

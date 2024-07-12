@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.dec FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.ancillary_target1 = 128 and Spectroscopic_objects.mjd = 53783
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM specobj AS T1 WHERE T1.ancillary_target1 = 128 and T1.mjd = 53783
+GPT-3 choices:
+(0) Find the declination for spectroscopic objects where the ancillary target is 128 and the modified Julian date is 53783.
+(1) What are the declinations of all spectroscopic objects with an ancillary target of 128 and a modified Julian date of 53783?
+(2) Retrieve the declination of spectroscopic objects observed on MJD 53783 that have an ancillary target1 value of 128.
+(3) Find the declination of spectroscopic objects with ancillary target1 equal to 128 and MJD equal to 53783 from the specobj table.
+(4) What are the declinations of all spectroscopic objects with an ancillary target1 value of 128 and an mjd value of 53783?
+(5) Retrieve the declination of spectroscopic objects from the table "specobj" where the ancillary target 1 is equal to 128 and the MJD (modified Julian date) is equal to 53783.
+(6) What is the declination of spectroscopic objects with an ancillary target of 128 and a modified Julian date of 53783?
+(7) Find the declination of all spectroscopic objects with an ancillary target1 value of 128 and an MJD value of 53783.
+
+
+Re-ranked choices:
+7.025  Find the declination for spectroscopic objects where the ancillary target is 128 and the modified Julian date is 53783.
+7.024  What is the declination of spectroscopic objects with an ancillary target of 128 and a modified Julian date of 53783?
+5.626  What are the declinations of all spectroscopic objects with an ancillary target of 128 and a modified Julian date of 53783?
+4.227  Find the declination of all spectroscopic objects with an ancillary target1 value of 128 and an MJD value of 53783.
+4.227  Find the declination of spectroscopic objects with ancillary target1 equal to 128 and MJD equal to 53783 from the specobj table.
+4.226  Retrieve the declination of spectroscopic objects observed on MJD 53783 that have an ancillary target1 value of 128.
+4.221  Retrieve the declination of spectroscopic objects from the table "specobj" where the ancillary target 1 is equal to 128 and the MJD (modified Julian date) is equal to 53783.
+2.822  What are the declinations of all spectroscopic objects with an ancillary target1 value of 128 and an mjd value of 53783?
+

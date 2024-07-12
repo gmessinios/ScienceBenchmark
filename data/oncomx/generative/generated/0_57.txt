@@ -1,0 +1,16 @@
+SELECT biomarker_fda_drug.biomarker_drug FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_fda_id = "FDA000038"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_drug FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_fda_id = "FDA000038"
+GPT-3 choices:
+(0) Find the biomarker drugs associated with FDA biomarker ID "FDA000038".
+(1) Which biomarker drugs are associated with the FDA identifier "FDA000038"?
+(2) Retrieve the name of the drug associated with biomarker FDA000038 from the biomarker_fda_drug table.
+(3) Retrieve the name of the drug associated with the FDA biomarker ID "FDA000038" from the biomarker_fda_drug table.
+(4) What is the name of the drug associated with FDA biomarker ID "FDA000038" in the table biomarker_fda_drug?
+(5) What are the biomarker drugs associated with the FDA ID "FDA000038"?
+(6) "Retrieve the biomarker_drug from the biomarker_fda_drug table where the biomarker_fda_id is equal to "FDA000038".
+(7) Find the biomarker drug associated with the FDA biomarker ID "FDA000038" from the biomarker FDA drug table.

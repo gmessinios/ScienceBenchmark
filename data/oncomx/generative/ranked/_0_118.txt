@@ -1,0 +1,28 @@
+SELECT healthy_expression.expression_level_gene_relative FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_developmental_id = "MmusDv:0000047"
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_gene_relative FROM healthy_expression AS T1 WHERE T1.uberon_developmental_id = "MmusDv:0000047"
+GPT-3 choices:
+(0) Retrieve the relative expression level of genes from healthy tissues where the developmental stage is "postnatal" in mouse.
+(1) Retrieve the relative expression levels of genes in healthy individuals for developmental stage MmusDv:0000047 from the healthy_expression table.
+(2) Get the expression level gene relative from the table of healthy_expression where the uberon_developmental_id is "MmusDv:0000047".
+(3) Get the relative expression levels of genes from the healthy_expression table for all entries with a uberon_developmental_id of "MmusDv:0000047".
+(4) Retrieve the relative expression level of genes from healthy tissue in the developmental stage corresponding to MmusDv:0000047.
+(5) Retrieve the relative gene expression levels from healthy tissue in mice at the developmental stage specified by "MmusDv:0000047".
+(6) Retrieve the expression levels of genes in healthy organisms relative to their developmental stage as specified by the ID "MmusDv:0000047" from the table "healthy_expression".
+(7) Get the expression level relative to the gene from the healthy_expression table for all entries with the uberon_developmental_id "MmusDv:0000047".
+
+
+Re-ranked choices:
+7.722  Retrieve the relative gene expression levels from healthy tissue in mice at the developmental stage specified by "MmusDv:0000047".
+7.719  Retrieve the expression levels of genes in healthy organisms relative to their developmental stage as specified by the ID "MmusDv:0000047" from the table "healthy_expression".
+7.026  Retrieve the relative expression level of genes from healthy tissues where the developmental stage is "postnatal" in mouse.
+7.021  Retrieve the relative expression level of genes from healthy tissue in the developmental stage corresponding to MmusDv:0000047.
+6.320  Get the expression level gene relative from the table of healthy_expression where the uberon_developmental_id is "MmusDv:0000047".
+6.320  Get the expression level relative to the gene from the healthy_expression table for all entries with the uberon_developmental_id "MmusDv:0000047".
+6.317  Retrieve the relative expression levels of genes in healthy individuals for developmental stage MmusDv:0000047 from the healthy_expression table.
+3.519  Get the relative expression levels of genes from the healthy_expression table for all entries with a uberon_developmental_id of "MmusDv:0000047".
+

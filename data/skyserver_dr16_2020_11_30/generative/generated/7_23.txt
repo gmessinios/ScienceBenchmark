@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "STAR" or photometrically_observed.value = 2
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name = "STAR" or T1.value = 2
+GPT-3 choices:
+(0) What are the descriptions of all objects that have a photo type of "STAR" or a value of 2 in the photometrically observed category?
+(1) Find the description for photo types that are either named "STAR" or have a value of 2.
+(2) Retrieve the description from the photo_type table where the name is equal to "STAR" or the value is equal to 2 and assign it to a variable called photometrically_observed.
+(3) Retrieve the description from the table "photometrically_observed" for all entries where the name is "STAR" or the value is 2.
+(4) "Find the description from the photo_type table for objects that are either named "STAR" or have a value of 2."
+(5) Find the description of all stars that have either a name of "STAR" or a value of 2 in the photometrically observed table.
+(6) "What is the description of the photometrically observed star or object with a value of 2 in the photo_type table?"
+(7) Find the description of photo types where the name is "STAR" or the value is 2 in the photometrically observed table.

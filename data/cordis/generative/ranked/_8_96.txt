@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title != "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title != "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"
+GPT-3 choices:
+(0) What is the code for all topics excluding "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+(1) Get the codes of all topics except for the one titled "Self-assessment and self-optimisation of buildings and appliances for a better energy performance".
+(2) What is the code for topics where the title is not "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+(3) Retrieve the codes for topics that are not titled "Self-assessment and self-optimisation of buildings and appliances for a better energy performance".
+(4) What are the codes for topics that have a title other than "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+(5) What are the codes of all topics except for "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+(6) What is the code for topics excluding "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+(7) What is the code for topics that are not titled "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+
+
+Re-ranked choices:
+11.221  What is the code for topics where the title is not "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+9.820  What is the code for topics excluding "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+9.820  What is the code for topics that are not titled "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+9.819  What is the code for all topics excluding "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+9.819  What are the codes for topics that have a title other than "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+8.420  What are the codes of all topics except for "Self-assessment and self-optimisation of buildings and appliances for a better energy performance"?
+8.419  Get the codes of all topics except for the one titled "Self-assessment and self-optimisation of buildings and appliances for a better energy performance".
+8.419  Retrieve the codes for topics that are not titled "Self-assessment and self-optimisation of buildings and appliances for a better energy performance".
+

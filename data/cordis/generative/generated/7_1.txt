@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.title = "Agriculture" or subject_areas.code = "REG"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.title = "Agriculture" or T1.code = "REG"
+GPT-3 choices:
+(0) What is the description of the subject area with a title of "Agriculture" or code of "REG"?
+(1) Retrieve the description for the subject area "Agriculture" or with the code "REG".
+(2) Find the description of the subject area with a title of "Agriculture" or a code of "REG".
+(3) Retrieve the description of all subject areas where the title is "Agriculture" or the code is "REG".
+(4) Find the description for the subject area "Agriculture" or with the code "REG" in the table "subject_areas".
+(5) Retrieve the description of subject areas with a title of "Agriculture" or a code of "REG" from the table "subject_areas".
+(6) Retrieve the description of the subject area "Agriculture" or with the code "REG".
+(7) "Retrieve the description from the subject areas table where the title is equal to "Agriculture" or the code is equal to "REG"."

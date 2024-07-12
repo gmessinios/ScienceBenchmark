@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.veldisp FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.zwarning DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.veldisp FROM specobj AS T1    ORDER BY T1.zwarning DESC LIMIT 1
+GPT-3 choices:
+(0) "Retrieve the velocity dispersion of the highest redshift spectroscopic object in ascending order by its warning status from the specobj table."
+(1) Find the velocity dispersion of the most recent object in the spectroscopic database, ordering by its redshift warning and limiting to one result.
+(2) What is the value for veldisp from the Spectroscopic_objects table, ordered by zwarning in descending order, with a limit of 1 result?
+(3) What is the velocity dispersion of the highest redshift spectroscopic object with a warning, in ascending order?
+(4) "Retrieve the velocity dispersion for the highest redshift object from the specobj table, sorted in descending order by zwarning, with a limit of one result."
+(5) "Get the velocity dispersion from the specobj table for the spectroscopic objects, ordering by zwarning in descending order and limiting to 1 result."
+(6) Retrieve the velocity dispersion of the most recent spectroscopic object from the specobj table, ordered by the zwarning column in descending order, with a limit of 1.
+(7) Find the velocity dispersion from the table of spectroscopic objects sorted by zwarning in descending order with a limit of one.

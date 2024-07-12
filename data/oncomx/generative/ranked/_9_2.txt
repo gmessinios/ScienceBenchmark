@@ -1,0 +1,28 @@
+SELECT stage.id FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.call_quality != "BRONZE"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.call_quality != "BRONZE"
+GPT-3 choices:
+(0) Find the IDs of stages where healthy expression data is available and the call quality is not "BRONZE" in the developmental stage.
+(1) Retrieve the ID of all stages from the stage table, where the developmental ID in the healthy_expression table matches with the ID in the stage table and the call quality is not equal to "BRONZE" in the healthy_expression table.
+(2) Retrieve the ID of each stage where the call quality for healthy expression is not "BRONZE" in the uberon developmental ontology.
+(3) Retrieve the ID from the stage table where it joins with the healthy_expression table on matching IDs and the call quality is not "BRONZE".
+(4) Retrieve the id of stages that are associated with healthy expression data and have a call quality that is not equal to "BRONZE".
+(5) Find all stages in the stage table where there is a matching ID in the healthy_expression table and the call_quality column does not equal "BRONZE".
+(6) Find the stage IDs from the stage table where the ID matches with the developmental ID in the healthy_expression table and excludes any rows where the call quality is not "BRONZE".
+(7) Get the ID of all stages where the call quality in the healthy_expression table is not "BRONZE" and is associated with an uberon_developmental_id in both the stage and healthy_expression tables.
+
+
+Re-ranked choices:
+11.924  Retrieve the ID of each stage where the call quality for healthy expression is not "BRONZE" in the uberon developmental ontology.
+7.728  Retrieve the id of stages that are associated with healthy expression data and have a call quality that is not equal to "BRONZE".
+7.726  Find the IDs of stages where healthy expression data is available and the call quality is not "BRONZE" in the developmental stage.
+7.723  Find the stage IDs from the stage table where the ID matches with the developmental ID in the healthy_expression table and excludes any rows where the call quality is not "BRONZE".
+7.717  Retrieve the ID of all stages from the stage table, where the developmental ID in the healthy_expression table matches with the ID in the stage table and the call quality is not equal to "BRONZE" in the healthy_expression table.
+7.029  Retrieve the ID from the stage table where it joins with the healthy_expression table on matching IDs and the call quality is not "BRONZE".
+6.319  Get the ID of all stages where the call quality in the healthy_expression table is not "BRONZE" and is associated with an uberon_developmental_id in both the stage and healthy_expression tables.
+3.528  Find all stages in the stage table where there is a matching ID in the healthy_expression table and the call_quality column does not equal "BRONZE".
+

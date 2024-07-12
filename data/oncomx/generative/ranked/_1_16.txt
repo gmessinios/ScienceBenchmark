@@ -1,0 +1,28 @@
+SELECT biomarker_alias.biomarker_internal_id FROM biomarker_alias AS biomarker_alias JOIN biomarker AS biomarker ON biomarker_alias.biomarker_internal_id = biomarker.id WHERE biomarker.id = "EDRN00352"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id FROM biomarker_alias AS T1 JOIN biomarker AS T2 ON T1.biomarker_internal_id = T2.id WHERE T2.id = "EDRN00352"
+GPT-3 choices:
+(0) Find the internal ID of the biomarker alias for a biomarker with the internal ID "EDRN00352".
+(1) Find the internal ID of the biomarker alias for the biomarker with the ID "EDRN00352".
+(2) Retrieve the biomarker internal ID from the biomarker alias table for a biomarker with the internal ID "EDRN00352".
+(3) Find the internal ID for a biomarker alias associated with the biomarker "EDRN00352".
+(4) Retrieve the biomarker internal ID from the biomarker alias table where the biomarker internal ID matches the ID "EDRN00352" in the biomarker table.
+(5) Retrieve the internal ID for the biomarker alias associated with the biomarker "EDRN00352" in the biomarker table.
+(6) Find the biomarker internal ID for the alias associated with a biomarker with the internal ID "EDRN00352".
+(7) "Retrieve the internal ID of the biomarker alias for the biomarker with ID "EDRN00352"."
+
+
+Re-ranked choices:
+6.354  Find the internal ID of the biomarker alias for the biomarker with the ID "EDRN00352".
+6.342  Find the internal ID of the biomarker alias for a biomarker with the internal ID "EDRN00352".
+6.341  "Retrieve the internal ID of the biomarker alias for the biomarker with ID "EDRN00352"."
+6.336  Find the internal ID for a biomarker alias associated with the biomarker "EDRN00352".
+6.333  Retrieve the biomarker internal ID from the biomarker alias table for a biomarker with the internal ID "EDRN00352".
+6.330  Retrieve the internal ID for the biomarker alias associated with the biomarker "EDRN00352" in the biomarker table.
+6.330  Find the biomarker internal ID for the alias associated with a biomarker with the internal ID "EDRN00352".
+6.327  Retrieve the biomarker internal ID from the biomarker alias table where the biomarker internal ID matches the ID "EDRN00352" in the biomarker table.
+

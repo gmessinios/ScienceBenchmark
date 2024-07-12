@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people AS people JOIN projects AS projects ON people.unics_id = projects.principal_investigator WHERE projects.start_date != "2013-01-28"
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 JOIN projects AS T2 ON T1.unics_id = T2.principal_investigator WHERE T2.start_date != "2013-01-28"
+GPT-3 choices:
+(0) Find the full names of people who are listed as principal investigators for projects that did not start on January 28, 2013.
+(1) Retrieve the full names of all people who are principal investigators for projects that have a start date different than January 28, 2013.
+(2) Retrieve the full names of people who are principal investigators for projects that did not start on January 28, 2013.
+(3) Retrieve the full names of all people who are listed as the principal investigator on a project that did not start on January 28, 2013, by joining the "people" and "projects" tables on their unics_id and selecting only the full_name column from the resulting table.
+(4) Retrieve the full name of people who are principal investigators on projects, excluding those that started on January 28th, 2013.
+(5) Get the full names of all people who are listed as the principal investigator on a project that did not start on January 28, 2013.
+(6) Retrieve the full names of all people who are principal investigators on projects that do not have a start date of January 28th, 2013.
+(7) Retrieve the full names of all people who are principal investigators for projects that did not start on January 28, 2013.

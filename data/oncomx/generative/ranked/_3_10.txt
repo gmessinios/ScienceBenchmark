@@ -1,0 +1,27 @@
+SELECT count(*) FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_ncit_term AS T1
+GPT-3 choices:
+(0) How many entries are there in the biomarker FDA NCIT term table?
+(1) How many rows are there in the table biomarker_fda_ncit_term?
+(2) How many biomarker-fda-ncit terms are there in the biomarker_fda_ncit_term table?
+(3) How many records are there in the biomarker_fda_ncit_term table?
+(4) How many entries are there in the biomarker_fda_ncit_term table?
+(5) How many rows are there in the table biomarker_fda_ncit_term with the columns biomarker and fda_ncit_term?
+(6) How many biomarker-fda-ncit terms are there in the biomarker_fda_ncit_term table?
+(7) How many biomarker-fda-ncit-term pairs are there in the biomarker_fda_ncit_term table?
+
+
+Re-ranked choices:
+5.656  How many entries are there in the biomarker FDA NCIT term table?
+1.431  How many rows are there in the table biomarker_fda_ncit_term with the columns biomarker and fda_ncit_term?
+0.057  How many rows are there in the table biomarker_fda_ncit_term?
+0.057  How many records are there in the biomarker_fda_ncit_term table?
+0.047  How many entries are there in the biomarker_fda_ncit_term table?
+0.033  How many biomarker-fda-ncit terms are there in the biomarker_fda_ncit_term table?
+0.029  How many biomarker-fda-ncit-term pairs are there in the biomarker_fda_ncit_term table?
+

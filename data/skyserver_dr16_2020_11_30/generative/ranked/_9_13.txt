@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.u != 14.63933
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.u != 14.63933
+GPT-3 choices:
+(0) Find the type of objects that are nearest neighbors to those in the photoobj table, but only if their corresponding u value in the Photometric_objects table is not equal to 14.63933.
+(1) Find the type of nearest neighbor objects from the table "neighbors" where the object ID matches that in the "photoobj" table and the value in the column "u" is not equal to 14.63933.
+(2) Find the type of nearest neighbour objects that are connected to photometric objects where the u value is not equal to 14.63933.
+(3) Find the type of objects that are nearest neighbors to those in the photoobj table, excluding any objects with a u value of 14.63933.
+(4) Find the type of objects that are neighbors to objects in the photoobj table where their u value is not equal to 14.63933.
+(5) Retrieve the type of nearest neighbor objects from a table called neighbors, where the corresponding object's u value in a table called photoobj is not equal to 14.63933.
+(6) Find the type of nearest neighbor objects where the u value is not equal to 14.63933 in the photoobj table joined with the neighbors table on matching objid values.
+(7) "Retrieve the type of nearest neighbor objects from the neighbors table for objects in the photoobj table that do not have a u value of 14.63933 in the Photometric_objects table."
+
+
+Re-ranked choices:
+7.022  Find the type of nearest neighbor objects from the table "neighbors" where the object ID matches that in the "photoobj" table and the value in the column "u" is not equal to 14.63933.
+5.626  Find the type of nearest neighbour objects that are connected to photometric objects where the u value is not equal to 14.63933.
+5.621  Retrieve the type of nearest neighbor objects from a table called neighbors, where the corresponding object's u value in a table called photoobj is not equal to 14.63933.
+4.935  Find the type of nearest neighbor objects where the u value is not equal to 14.63933 in the photoobj table joined with the neighbors table on matching objid values.
+4.930  "Retrieve the type of nearest neighbor objects from the neighbors table for objects in the photoobj table that do not have a u value of 14.63933 in the Photometric_objects table."
+4.920  Find the type of objects that are nearest neighbors to those in the photoobj table, but only if their corresponding u value in the Photometric_objects table is not equal to 14.63933.
+4.231  Find the type of objects that are neighbors to objects in the photoobj table where their u value is not equal to 14.63933.
+4.224  Find the type of objects that are nearest neighbors to those in the photoobj table, excluding any objects with a u value of 14.63933.
+

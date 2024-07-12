@@ -1,0 +1,16 @@
+SELECT disease_mutation.ref_aa FROM disease_mutation AS disease_mutation WHERE disease_mutation.chromosome_pos = 284621
+
+###
+
+
+Original Query:
+SELECT T1.ref_aa FROM disease_mutation AS T1 WHERE T1.chromosome_pos = 284621
+GPT-3 choices:
+(0) Retrieve the reference amino acid from disease mutations where the chromosome position is equal to 284621.
+(1) Find the reference amino acid of a disease mutation at chromosome position 284621 from the disease_mutation table.
+(2) Find the amino acid of the reference mutation for a disease that has a chromosome position of 284621.
+(3) Retrieve the amino acid reference from the disease_mutation table where the chromosome position is equal to 284621.
+(4) What is the reference amino acid at position 284621 for all disease mutations in the disease_mutation table?
+(5) Retrieve the reference amino acid from the disease mutation table where the chromosome position is equal to 284621.
+(6) Retrieve the reference amino acid from the disease_mutation table where the chromosome position is equal to 284621.
+(7) "Retrieve the reference amino acid for the disease mutation with a chromosome position of 284621 from the table 'disease_mutation'."

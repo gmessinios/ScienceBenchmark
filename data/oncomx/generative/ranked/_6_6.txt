@@ -1,0 +1,28 @@
+SELECT disease_mutation_impact_prediction.disease_mutation_id FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.tool = "polyphen" and disease_mutation_impact_prediction.probability = 0.419
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_impact_prediction AS T1 WHERE T1.tool = "polyphen" and T1.probability = 0.419
+GPT-3 choices:
+(0) Retrieve the disease mutation IDs from the disease_mutation_impact_prediction table where the tool is "polyphen" and the probability is 0.419.
+(1) Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the tool is "polyphen" and the probability is 0.419.
+(2) Retrieve the disease mutation ID from the table "disease_mutation_impact_prediction" where the tool is "polyphen" and the probability is 0.419.
+(3) Get the disease mutation ID from the disease_mutation_impact_prediction table where the tool is "polyphen" and the probability is 0.419.
+(4) "Find the disease mutation IDs from the impact prediction table where the tool is PolyPhen and the probability is 0.419."
+(5) Find the disease mutation impact prediction ID for entries in the database where the tool used is "polyphen" and the probability is 0.419.
+(6) "Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the tool is 'polyphen' and the probability is 0.419."
+(7) Find the disease mutation IDs from the table of disease mutation impact predictions where the tool used was PolyPhen and the probability is equal to 0.419.
+
+
+Re-ranked choices:
+10.525  Find the disease mutation impact prediction ID for entries in the database where the tool used is "polyphen" and the probability is 0.419.
+9.125  "Find the disease mutation IDs from the impact prediction table where the tool is PolyPhen and the probability is 0.419."
+7.723  Find the disease mutation IDs from the table of disease mutation impact predictions where the tool used was PolyPhen and the probability is equal to 0.419.
+7.721  Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the tool is "polyphen" and the probability is 0.419.
+7.721  Retrieve the disease mutation ID from the table "disease_mutation_impact_prediction" where the tool is "polyphen" and the probability is 0.419.
+7.721  Get the disease mutation ID from the disease_mutation_impact_prediction table where the tool is "polyphen" and the probability is 0.419.
+7.721  "Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the tool is 'polyphen' and the probability is 0.419."
+6.321  Retrieve the disease mutation IDs from the disease_mutation_impact_prediction table where the tool is "polyphen" and the probability is 0.419.
+

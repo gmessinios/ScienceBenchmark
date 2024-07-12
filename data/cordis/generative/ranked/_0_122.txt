@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Neustadt a. d. Waldnaab"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.description = "Neustadt a. d. Waldnaab"
+GPT-3 choices:
+(0) Retrieve the geographic code regions for Neustadt a. d. Waldnaab from the EU territorial units database.
+(1) Retrieve the geocode regions for Neustadt a. d. Waldnaab from the table eu_territorial_units in the database.
+(2) Retrieve the geocode regions from the EU territorial units table for the region with a description of "Neustadt a. d. Waldnaab".
+(3) Retrieve the geographic code for the region of Neustadt a. d. Waldnaab from the EU territorial units database.
+(4) Get the geocode regions for the EU territorial units where the description is "Neustadt a. d. Waldnaab".
+(5) What are the geocode regions for the EU territorial unit with the description "Neustadt a. d. Waldnaab"?
+(6) Retrieve the geocode regions for the territorial unit with the description "Neustadt a. d. Waldnaab" from the table of European territorial units.
+(7) Get the geocode regions for Neustadt a. d. Waldnaab from the eu_territorial_units table in the EU territorial units database.
+
+
+Re-ranked choices:
+10.524  Retrieve the geocode regions from the EU territorial units table for the region with a description of "Neustadt a. d. Waldnaab".
+9.828  Get the geocode regions for the EU territorial units where the description is "Neustadt a. d. Waldnaab".
+8.428  What are the geocode regions for the EU territorial unit with the description "Neustadt a. d. Waldnaab"?
+8.425  Get the geocode regions for Neustadt a. d. Waldnaab from the eu_territorial_units table in the EU territorial units database.
+7.028  Retrieve the geographic code regions for Neustadt a. d. Waldnaab from the EU territorial units database.
+7.028  Retrieve the geocode regions for the territorial unit with the description "Neustadt a. d. Waldnaab" from the table of European territorial units.
+5.631  Retrieve the geographic code for the region of Neustadt a. d. Waldnaab from the EU territorial units database.
+4.228  Retrieve the geocode regions for Neustadt a. d. Waldnaab from the table eu_territorial_units in the database.
+

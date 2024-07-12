@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.mjd FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid != 300745044476848128
+
+###
+
+
+Original Query:
+SELECT T1.mjd FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid != 300745044476848128
+GPT-3 choices:
+(0) Retrieve the mjd value from the Spectroscopic_objects table for all specobjid values that are not equal to 300745044476848128 in the Emission_line_estimates table.
+(1) Find the mjd values from Spectroscopic_objects where the specobjid is not equal to 300745044476848128 and has a matching specobjid in galspecline.
+(2) Retrieve the modified Julian date from the spectobj table for all spectroscopic objects that have an associated emission line estimate, excluding a specific specobjid.
+(3) Get the MJD values for all spectroscopic objects where the specobjid does not equal 300745044476848128 and is present in both the specobj and galspecline tables.
+(4) Retrieve the MJD values from the Spectroscopic_objects table for all specobjids in the Emission_line_estimates table that are not equal to 300745044476848128.
+(5) Find the MJD values for all spectroscopic objects where the specobjid is not equal to 300745044476848128 in both the specobj and galspecline tables, using the common column specobjid to join them.
+(6) Find the MJD values for all spectroscopic objects that have a specobjid in the Emission_line_estimates table, excluding the value 300745044476848128.
+(7) What is the Modified Julian Date (mjd) for all spectroscopic objects in the galspecline table, except for the one with specobjid 300745044476848128?
+
+
+Re-ranked choices:
+7.015  Retrieve the modified Julian date from the spectobj table for all spectroscopic objects that have an associated emission line estimate, excluding a specific specobjid.
+5.622  What is the Modified Julian Date (mjd) for all spectroscopic objects in the galspecline table, except for the one with specobjid 300745044476848128?
+3.523  Find the MJD values for all spectroscopic objects that have a specobjid in the Emission_line_estimates table, excluding the value 300745044476848128.
+2.824  Get the MJD values for all spectroscopic objects where the specobjid does not equal 300745044476848128 and is present in both the specobj and galspecline tables.
+2.818  Find the MJD values for all spectroscopic objects where the specobjid is not equal to 300745044476848128 in both the specobj and galspecline tables, using the common column specobjid to join them.
+1.424  Retrieve the MJD values from the Spectroscopic_objects table for all specobjids in the Emission_line_estimates table that are not equal to 300745044476848128.
+1.422  Retrieve the mjd value from the Spectroscopic_objects table for all specobjid values that are not equal to 300745044476848128 in the Emission_line_estimates table.
+0.723  Find the mjd values from Spectroscopic_objects where the specobjid is not equal to 300745044476848128 and has a matching specobjid in galspecline.
+

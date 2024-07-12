@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.neighbormode != 1
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.neighbormode != 1
+GPT-3 choices:
+(0) Retrieve the description of photometrically observed objects that are nearest neighbors to objects with a neighbor type different from 1.
+(1) Retrieve the description of the photometrically observed object type from the photo_type table where the value matches the neighbor type in the neighbors table and the neighbor mode is not equal to 1.
+(2) Find the description of photometrically observed objects whose value matches the neighbor type of the nearest neighbor, but only if the neighbor mode is not equal to 1.
+(3) Retrieve the description of all photometrically observed objects that are the nearest neighbors to other objects, but exclude any objects where the neighbor mode is equal to 1.
+(4) "Retrieve the description of photometrically observed objects from a table of photo types, joined with a table of nearest neighbor objects where the neighbor type matches the photometrically observed value and the neighbor mode is not equal to 1."
+(5) "Find the description for all photometrically observed objects that are listed as nearest neighbors with a neighbor type not equal to 1."
+(6) Retrieve the description from photometrically observed objects that have a value equal to the neighbor type in the Nearest_neighbour_objects table, where the neighbor mode is not equal to 1.
+(7) What is the description of photometrically observed objects that are neighbors to objects with a neighbor type that is not equal to 1?
+
+
+Re-ranked choices:
+12.621  Find the description of photometrically observed objects whose value matches the neighbor type of the nearest neighbor, but only if the neighbor mode is not equal to 1.
+12.615  "Retrieve the description of photometrically observed objects from a table of photo types, joined with a table of nearest neighbor objects where the neighbor type matches the photometrically observed value and the neighbor mode is not equal to 1."
+11.919  Retrieve the description from photometrically observed objects that have a value equal to the neighbor type in the Nearest_neighbour_objects table, where the neighbor mode is not equal to 1.
+11.219  Retrieve the description of the photometrically observed object type from the photo_type table where the value matches the neighbor type in the neighbors table and the neighbor mode is not equal to 1.
+9.827  What is the description of photometrically observed objects that are neighbors to objects with a neighbor type that is not equal to 1?
+9.822  Retrieve the description of photometrically observed objects that are nearest neighbors to objects with a neighbor type different from 1.
+9.821  Retrieve the description of all photometrically observed objects that are the nearest neighbors to other objects, but exclude any objects where the neighbor mode is equal to 1.
+8.425  "Find the description for all photometrically observed objects that are listed as nearest neighbors with a neighbor type not equal to 1."
+

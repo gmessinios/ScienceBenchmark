@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.actual_use FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission = "P120022"
+
+###
+
+
+Original Query:
+SELECT T1.actual_use FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission = "P120022"
+GPT-3 choices:
+(0) What is the actual use of the biomarker FDA test submission with the identifier "P120022"?
+(1) What is the actual use of biomarkers in FDA test submissions where the test submission number is "P120022"?
+(2) What is the actual use of the biomarker test submission with code "P120022" in the FDA's biomarker test use database?
+(3) What is the actual use of biomarker FDA test in the submission with ID "P120022"?
+(4) What is the actual use for test submission "P120022" in the biomarker FDA test use table?
+(5) What is the actual use for the FDA test for biomarkers with test submission number P120022?
+(6) What is the actual use of the FDA-approved biomarker test submitted under test submission "P120022"?
+(7) What is the actual use of biomarker FDA test submission P120022 according to the table biomarker_fda_test_use?
+
+
+Re-ranked choices:
+9.154  What is the actual use of biomarker FDA test in the submission with ID "P120022"?
+9.142  What is the actual use for test submission "P120022" in the biomarker FDA test use table?
+9.137  What is the actual use of the biomarker FDA test submission with the identifier "P120022"?
+9.134  What is the actual use of the biomarker test submission with code "P120022" in the FDA's biomarker test use database?
+9.129  What is the actual use of biomarker FDA test submission P120022 according to the table biomarker_fda_test_use?
+7.737  What is the actual use of biomarkers in FDA test submissions where the test submission number is "P120022"?
+7.733  What is the actual use of the FDA-approved biomarker test submitted under test submission "P120022"?
+7.042  What is the actual use for the FDA test for biomarkers with test submission number P120022?
+

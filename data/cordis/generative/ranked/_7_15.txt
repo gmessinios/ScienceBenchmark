@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title = "ERC Advanced Grant" or topics.rcn = "704883"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title = "ERC Advanced Grant" or T1.rcn = "704883"
+GPT-3 choices:
+(0) Retrieve the code of topics with either a title of "ERC Advanced Grant" or an RCN value of "704883".
+(1) Retrieve the code of topics with either a title of "ERC Advanced Grant" or an RCN value of "704883" from the table topics.
+(2) Retrieve the code of the topic with a title "ERC Advanced Grant" or an rcn of "704883" from the topics table.
+(3) Retrieve the code of the topic with the title "ERC Advanced Grant" or RCN number "704883" from the topics table.
+(4) Find the code of the topic with the title "ERC Advanced Grant" or RCN number "704883".
+(5) Retrieve the code of the topic from the "topics" table where the title is "ERC Advanced Grant" or the RCN is "704883".
+(6) Find the code for the topic "ERC Advanced Grant" or with the research council number "704883".
+(7) Find the topic code for the ERC Advanced Grant or the RCN number 704883 in the topics table.
+
+
+Re-ranked choices:
+7.742  Retrieve the code of topics with either a title of "ERC Advanced Grant" or an RCN value of "704883".
+7.736  Retrieve the code of the topic from the "topics" table where the title is "ERC Advanced Grant" or the RCN is "704883".
+7.734  Retrieve the code of topics with either a title of "ERC Advanced Grant" or an RCN value of "704883" from the table topics.
+7.734  Retrieve the code of the topic with the title "ERC Advanced Grant" or RCN number "704883" from the topics table.
+7.730  Retrieve the code of the topic with a title "ERC Advanced Grant" or an rcn of "704883" from the topics table.
+6.350  Find the code of the topic with the title "ERC Advanced Grant" or RCN number "704883".
+6.344  Find the topic code for the ERC Advanced Grant or the RCN number 704883 in the topics table.
+3.550  Find the code for the topic "ERC Advanced Grant" or with the research council number "704883".
+

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trade_name FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trial_id = "NCT01078662" and biomarker_fda_test_trial.test_submission = "K062740"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trial_id = "NCT01078662" and T1.test_submission = "K062740"
+GPT-3 choices:
+(0) Get the trade name for a biomarker test with test trial ID "NCT01078662" and test submission "K062740" from the table biomarker_fda_test_trial.
+(1) What is the trade name for the biomarker FDA test trial with a test trial ID of NCT01078662 and a test submission of K062740?
+(2) What is the trade name of the test associated with trial NCT01078662 and submission K062740 in the biomarker FDA test trial table?
+(3) What is the trade name of the test in the FDA biomarker clinical trial with test trial ID "NCT01078662" and test submission "K062740"?
+(4) Retrieve the trade name for the test trial with ID "NCT01078662" and submission "K062740" from the biomarker FDA test trial database.
+(5) What is the test trade name for biomarker FDA test trial with the test trial ID of "NCT01078662" and the test submission of "K062740"?
+(6) What is the trade name of the biomarker FDA test trial with a test trial ID of "NCT01078662" and a test submission of "K062740"?
+(7) Retrieve the trade name of the test for a biomarker, specifically for a trial with the ID "NCT01078662" and submission number "K062740".
+
+
+Re-ranked choices:
+12.634  What is the trade name of the test in the FDA biomarker clinical trial with test trial ID "NCT01078662" and test submission "K062740"?
+12.633  Retrieve the trade name for the test trial with ID "NCT01078662" and submission "K062740" from the biomarker FDA test trial database.
+12.633  What is the test trade name for biomarker FDA test trial with the test trial ID of "NCT01078662" and the test submission of "K062740"?
+12.633  What is the trade name of the biomarker FDA test trial with a test trial ID of "NCT01078662" and a test submission of "K062740"?
+11.933  What is the trade name for the biomarker FDA test trial with a test trial ID of NCT01078662 and a test submission of K062740?
+11.228  What is the trade name of the test associated with trial NCT01078662 and submission K062740 in the biomarker FDA test trial table?
+11.227  Get the trade name for a biomarker test with test trial ID "NCT01078662" and test submission "K062740" from the table biomarker_fda_test_trial.
+9.828  Retrieve the trade name of the test for a biomarker, specifically for a trial with the ID "NCT01078662" and submission number "K062740".
+

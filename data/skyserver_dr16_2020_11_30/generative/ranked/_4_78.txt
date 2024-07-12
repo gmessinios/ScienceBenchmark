@@ -1,0 +1,28 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.flags = 79792836936
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.flags = 79792836936
+GPT-3 choices:
+(0) How many photometric objects have a flag value of 79792836936 in the photoobj table?
+(1) How many rows are in the table "photoobj" where the flag value is 79792836936?
+(2) How many photometric objects have flags equal to 79792836936 in the photoobj table?
+(3) Count the number of photometric objects where the flags value is equal to 79792836936.
+(4) Count the number of objects in the "Photometric_objects" table that have a flag value of 79792836936.
+(5) How many Photometric objects have flags equal to 79792836936 in the photoobj table?
+(6) How many objects are there in the Photometric_objects table with flags equal to 79792836936?
+(7) How many objects have a flag value of 79792836936 in the photoobj table for Photometric_objects?
+
+
+Re-ranked choices:
+3.547  How many objects are there in the Photometric_objects table with flags equal to 79792836936?
+2.847  Count the number of photometric objects where the flags value is equal to 79792836936.
+2.837  How many photometric objects have flags equal to 79792836936 in the photoobj table?
+2.837  How many Photometric objects have flags equal to 79792836936 in the photoobj table?
+2.136  Count the number of objects in the "Photometric_objects" table that have a flag value of 79792836936.
+1.435  How many photometric objects have a flag value of 79792836936 in the photoobj table?
+1.433  How many objects have a flag value of 79792836936 in the photoobj table for Photometric_objects?
+0.060  How many rows are in the table "photoobj" where the flag value is 79792836936?
+

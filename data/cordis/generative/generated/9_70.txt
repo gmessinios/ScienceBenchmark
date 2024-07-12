@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.unics_id != 144477
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.unics_id != 144477
+GPT-3 choices:
+(0) What are the research domains codes of all ERC panels that are part of a project, except for the project with UNICS ID 144477?
+(1) Show the research domain codes for all projects that have an ERC panel code and are not equal to 144477.
+(2) Get the codes for all research domains that are part of a panel in a project, excluding the project with ID 144477.
+(3) Get the research domain code from ERC research domains that is a part of an ERC panel, which is linked to a project through the project_erc_panels table, and then get the unics_id from projects where the unics_id is not equal to 144477.
+(4) Retrieve the codes for all ERC research domains that are part of a panel which is associated with a project, except for the project with ID 144477.
+(5) Retrieve the code for research domains from the ERC Research Domains table, where the code is part of a panel in the ERC Panels table, which is then linked to a project in the Project ERC Panels table, and finally retrieve all projects except for project with ID 144477 from the Projects table.
+(6) "Retrieve the research domain codes from the ERC Research Domains table for projects that are not equal to project ID 144477 and are part of panels that are associated with ERC panels which have been assigned to projects in the Projects table."
+(7) Retrieve the code of ERC research domains for projects that are not equal to project with UNICS ID 144477.

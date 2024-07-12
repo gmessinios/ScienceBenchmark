@@ -1,0 +1,26 @@
+SELECT stage.name FROM stage AS stage WHERE stage.id = "MmusDv:0000053"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 WHERE T1.id = "MmusDv:0000053"
+GPT-3 choices:
+(0) What is the name of the stage with the id "MmusDv:0000053"?
+(1) Get the name of the stage from the "stage" table where the ID is equal to "MmusDv:0000053".
+(2) What is the name of the stage with the ID "MmusDv:0000053"?
+(3) What is the name of the stage with an ID of "MmusDv:0000053"?
+(4) Get the name of the stage from the table "stage" where the id is equal to "MmusDv:0000053".
+(5) Retrieve the name of the stage from the "stage" table where the id is equal to "MmusDv:0000053".
+(6) What is the name of the stage with an ID of "MmusDv:0000053"?
+(7) What is the name of the stage with the id "MmusDv:0000053"?
+
+
+Re-ranked choices:
+4.977  What is the name of the stage with the ID "MmusDv:0000053"?
+4.970  What is the name of the stage with an ID of "MmusDv:0000053"?
+4.961  What is the name of the stage with the id "MmusDv:0000053"?
+4.948  Get the name of the stage from the "stage" table where the ID is equal to "MmusDv:0000053".
+4.942  Get the name of the stage from the table "stage" where the id is equal to "MmusDv:0000053".
+4.942  Retrieve the name of the stage from the "stage" table where the id is equal to "MmusDv:0000053".
+

@@ -1,0 +1,28 @@
+SELECT project_members.street FROM project_members AS project_members WHERE project_members.activity_type = "PUB"
+
+###
+
+
+Original Query:
+SELECT T1.street FROM project_members AS T1 WHERE T1.activity_type = "PUB"
+GPT-3 choices:
+(0) What are the street addresses of members who participated in projects with an activity type of "PUB"?
+(1) Show the street of the project members where their activity type is "PUB".
+(2) What are the street addresses of all members who have a project activity type of "PUB"?
+(3) What is the street for all project members who have an activity type of "PUB"?
+(4) Retrieve the street names for all project members who have an activity type of "PUB".
+(5) Get the street addresses of all project members who have a "PUB" activity type.
+(6) Retrieve the street address for all project members who have an activity type of "PUB".
+(7) Show the street address of all members in the project who have a activity type of "PUB".
+
+
+Re-ranked choices:
+7.762  Show the street of the project members where their activity type is "PUB".
+7.754  What is the street for all project members who have an activity type of "PUB"?
+7.754  Retrieve the street names for all project members who have an activity type of "PUB".
+7.744  Retrieve the street address for all project members who have an activity type of "PUB".
+7.742  What are the street addresses of all members who have a project activity type of "PUB"?
+7.741  Show the street address of all members in the project who have a activity type of "PUB".
+6.347  Get the street addresses of all project members who have a "PUB" activity type.
+6.330  What are the street addresses of members who participated in projects with an activity type of "PUB"?
+

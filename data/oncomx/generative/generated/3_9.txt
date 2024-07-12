@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_tissue AS disease_mutation_tissue
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_tissue AS T1
+GPT-3 choices:
+(0) How many entries are there in the table 'disease_mutation_tissue'?
+(1) How many disease-mutation-tissue combinations are in the table?
+(2) How many disease-mutation-tissue entries are there in the database?
+(3) How many disease mutation tissue combinations are there in the disease_mutation_tissue table?
+(4) Count the number of records in the disease_mutation_tissue table.
+(5) How many disease mutation tissue combinations are there in the database?
+(6) "How many rows are in the disease_mutation_tissue table?"
+(7) "How many records are there in the disease_mutation_tissue table?"

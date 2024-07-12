@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.ncit_biomarker = "PITRM1"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 WHERE T1.ncit_biomarker = "PITRM1"
+GPT-3 choices:
+(0) Retrieve the biomarker FDA ID from the table "biomarker_fda_ncit_term" where the NCIt biomarker is "PITRM1".
+(1) What is the FDA biomarker ID for the term "PITRM1" in the NCIt database?
+(2) What is the biomarker FDA ID for the term "PITRM1" in the NCIt biomarkers list?
+(3) What is the biomarker FDA ID for PITRM1 in the table of biomarkers with associated NCIT terms?
+(4) What is the biomarker FDA ID associated with the NCIt biomarker "PITRM1"?
+(5) Retrieve the FDA biomarker ID for the term "PITRM1" from the table of biomarker FDA terms with corresponding NCIT biomarkers.
+(6) Find the biomarker FDA ID for a biomarker FDA/NCIT term where the NCIT biomarker is "PITRM1".
+(7) What is the biomarker FDA ID for the NCIT biomarker "PITRM1"?

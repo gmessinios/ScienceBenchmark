@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.title = "Identification of a fluid for diphasic cooling adapted to aircraft applications"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.title = "Identification of a fluid for diphasic cooling adapted to aircraft applications"
+GPT-3 choices:
+(0) What is the RCN of the topic "Identification of a fluid for diphasic cooling adapted to aircraft applications"?
+(1) Find the RCN for the topic "Identification of a fluid for diphasic cooling adapted to aircraft applications".
+(2) Find the RCN number for the topic "Identification of a fluid for diphasic cooling adapted to aircraft applications".
+(3) Find the RCN number of a topic from the table "topics" where the title is "Identification of a fluid for diphasic cooling adapted to aircraft applications".
+(4) What is the unique reference number (rcn) for the topic titled "Identification of a fluid for diphasic cooling adapted to aircraft applications"?
+(5) What is the RCN of the topic with a title of "Identification of a fluid for diphasic cooling adapted to aircraft applications"?
+(6) Find the Research Control Number (RCN) for a topic with the title "Identification of a fluid for diphasic cooling adapted to aircraft applications".
+(7) What is the research control number for a topic titled "Identification of a fluid for diphasic cooling adapted to aircraft applications"?

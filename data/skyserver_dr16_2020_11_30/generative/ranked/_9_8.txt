@@ -1,0 +1,28 @@
+SELECT Photometric_objects.field FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.description != "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+
+###
+
+
+Original Query:
+SELECT T1.field FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.description != "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+GPT-3 choices:
+(0) Show me the fields from the photoobj table for photometric objects that have been observed and are not a satellite, asteroid, or meteor trail.
+(1) Retrieve the field from the photoobj table for objects that have been photometrically observed but are not classified as trails.
+(2) What are the fields from the photoobj table for objects that have been photometrically observed and are not classified as satellite, asteroid, or meteor trails?
+(3) Find the fields from objects in the photoobj table that have been observed photometrically, excluding any that have been classified as a satellite, asteroid, or meteor trail.
+(4) Find the field from the photoobj table where the object's type is marked as photometrically observed and the description is not "Trail: A satellite or asteroid or meteor trail".
+(5) Retrieve the field of all objects from the Photometric_objects table that have been classified as photometrically observed, excluding trails.
+(6) Find the fields from the Photometric_objects table where the type is equal to a value in the photo_type table with a description that is not "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+(7) Find the fields of photometric objects that have been observed through photometry, excluding trails.
+
+
+Re-ranked choices:
+12.619  Find the field from the photoobj table where the object's type is marked as photometrically observed and the description is not "Trail: A satellite or asteroid or meteor trail".
+10.537  Find the fields from the Photometric_objects table where the type is equal to a value in the photo_type table with a description that is not "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+5.625  Retrieve the field from the photoobj table for objects that have been photometrically observed but are not classified as trails.
+4.921  What are the fields from the photoobj table for objects that have been photometrically observed and are not classified as satellite, asteroid, or meteor trails?
+4.921  Retrieve the field of all objects from the Photometric_objects table that have been classified as photometrically observed, excluding trails.
+4.224  Show me the fields from the photoobj table for photometric objects that have been observed and are not a satellite, asteroid, or meteor trail.
+4.219  Find the fields from objects in the photoobj table that have been observed photometrically, excluding any that have been classified as a satellite, asteroid, or meteor trail.
+2.830  Find the fields of photometric objects that have been observed through photometry, excluding trails.
+

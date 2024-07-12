@@ -1,0 +1,28 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.doid != 3571
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1 WHERE T1.doid != 3571
+GPT-3 choices:
+(0) Retrieve the unique anatomical IDs from the cancer_tissue table for all tissues except those with a Disease Ontology ID of 3571.
+(1) Retrieve the anatomical identifier from the Cancer Tissue table for all cancer tissues except those related to leukemia.
+(2) Find the anatomical ID from cancer tissue where the disease ontology ID is not equal to 3571.
+(3) Retrieve the Uberon anatomical ID for all cancer tissues where the DOID is not equal to 3571.
+(4) Retrieve the uberon anatomical ID from the cancer tissue dataset where the disease ontology ID is not equal to 3571.
+(5) Retrieve the Uberon anatomical ID for cancer tissues that are not associated with the disease "systemic lupus erythematosus."
+(6) Find the uberon anatomical ID from cancer tissues that are not associated with the disease ID 3571.
+(7) Find the Uberon anatomical ID from cancer tissue where the DOID is not equal to 3571.
+
+
+Re-ranked choices:
+8.437  Find the Uberon anatomical ID from cancer tissue where the DOID is not equal to 3571.
+7.036  Retrieve the Uberon anatomical ID for all cancer tissues where the DOID is not equal to 3571.
+7.028  Retrieve the uberon anatomical ID from the cancer tissue dataset where the disease ontology ID is not equal to 3571.
+5.634  Find the anatomical ID from cancer tissue where the disease ontology ID is not equal to 3571.
+5.631  Find the uberon anatomical ID from cancer tissues that are not associated with the disease ID 3571.
+5.622  Retrieve the Uberon anatomical ID for cancer tissues that are not associated with the disease "systemic lupus erythematosus."
+4.224  Retrieve the anatomical identifier from the Cancer Tissue table for all cancer tissues except those related to leukemia.
+2.826  Retrieve the unique anatomical IDs from the cancer_tissue table for all tissues except those with a Disease Ontology ID of 3571.
+

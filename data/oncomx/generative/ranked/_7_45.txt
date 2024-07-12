@@ -1,0 +1,28 @@
+SELECT healthy_expression.expression_level_gene_relative FROM healthy_expression AS healthy_expression WHERE healthy_expression.call_quality = "SILVER" or healthy_expression.expression_rank_score = 83.60
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_gene_relative FROM healthy_expression AS T1 WHERE T1.call_quality = "SILVER" or T1.expression_rank_score = 83.60
+GPT-3 choices:
+(0) Retrieve the relative expression levels for all genes from healthy individuals with a call quality of "SILVER" or an expression rank score of 83.60.
+(1) Get the expression level of genes from the healthy expression table where the call quality is "SILVER" or the expression rank score is 83.60.
+(2) "Retrieve the expression level relative to the gene from the healthy_expression table where the call quality is 'SILVER' or the expression rank score is equal to 83.60."
+(3) Retrieve the expression level of genes from healthy individuals that have either a call quality of "SILVER" or an expression rank score of 83.60.
+(4) Retrieve the relative expression levels for genes in healthy individuals from the table "healthy_expression" where the call quality is either "SILVER" or the expression rank score is equal to 83.60.
+(5) "Retrieve the expression level of genes from healthy samples where the call quality is SILVER or the expression rank score is equal to 83.60."
+(6) What is the expression level of genes in healthy individuals that have a call quality of "SILVER" or an expression rank score of 83.60?
+(7) Retrieve the expression level of a gene from healthy individuals where the call quality is "SILVER" or the expression rank score is 83.60.
+
+
+Re-ranked choices:
+11.924  Retrieve the expression level of a gene from healthy individuals where the call quality is "SILVER" or the expression rank score is 83.60.
+11.922  "Retrieve the expression level relative to the gene from the healthy_expression table where the call quality is 'SILVER' or the expression rank score is equal to 83.60."
+10.529  "Retrieve the expression level of genes from healthy samples where the call quality is SILVER or the expression rank score is equal to 83.60."
+10.526  Get the expression level of genes from the healthy expression table where the call quality is "SILVER" or the expression rank score is 83.60.
+10.526  What is the expression level of genes in healthy individuals that have a call quality of "SILVER" or an expression rank score of 83.60?
+10.524  Retrieve the relative expression levels for all genes from healthy individuals with a call quality of "SILVER" or an expression rank score of 83.60.
+10.524  Retrieve the expression level of genes from healthy individuals that have either a call quality of "SILVER" or an expression rank score of 83.60.
+10.519  Retrieve the relative expression levels for genes in healthy individuals from the table "healthy_expression" where the call quality is either "SILVER" or the expression rank score is equal to 83.60.
+

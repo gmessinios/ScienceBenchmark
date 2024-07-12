@@ -1,0 +1,16 @@
+SELECT countries.country_code2 FROM countries AS countries WHERE countries.country_code3 != "TUN"
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 WHERE T1.country_code3 != "TUN"
+GPT-3 choices:
+(0) Find the country code 2 of all countries, except for "TUN", from the table "countries".
+(1) Find the country code 2 for all countries in the "countries" table except for those with a country code 3 of "TUN".
+(2) Find the country code2 for all countries in the "countries" table where the country code3 is not equal to "TUN".
+(3) Get the country code 2 for all countries where the country code 3 is not equal to "TUN" from the table "countries".
+(4) Show me the country code 2 for all countries where the country code 3 is not equal to "TUN".
+(5) "Get the country code2 for all countries from the table 'countries', excluding those with a country code3 of 'TUN'."
+(6) Find the country code2 for all countries in the "countries" table except for those with a country code3 of "TUN".
+(7) Retrieve the country code2 for all countries in the countries table except for "TUN" in the country_code3 column.

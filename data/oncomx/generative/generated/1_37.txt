@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.disease_mutation_id FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction JOIN disease_mutation AS disease_mutation ON disease_mutation_impact_prediction.disease_mutation_id = disease_mutation.id WHERE disease_mutation.ref_aa = "L"
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_impact_prediction AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.ref_aa = "L"
+GPT-3 choices:
+(0) Find the disease mutation impact prediction where the reference amino acid is "L" and retrieve the corresponding disease mutation ID from the database.
+(1) Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the reference amino acid in the corresponding entry in the disease_mutation table is "L".
+(2) Find the disease mutation ID from the disease_mutation_impact_prediction table that corresponds to a disease_mutation with the reference amino acid "L".
+(3) Get the disease mutation IDs from the disease mutation impact prediction table where the reference amino acid is "L" and join it with the disease mutation table.
+(4) Retrieve the ID of all disease mutations with a reference amino acid of "L" from the table "disease_mutation_impact_prediction" by joining it with the "disease_mutation" table and selecting the corresponding ID.
+(5) Retrieve the disease mutation ID from the table disease_mutation_impact_prediction where the reference amino acid is "L" in the corresponding row of the table disease_mutation.
+(6) Retrieve the disease mutation impact predictions for all mutations where the reference amino acid is "L".
+(7) Retrieve the disease mutation impact predictions for all disease mutations that have a reference amino acid of "L".

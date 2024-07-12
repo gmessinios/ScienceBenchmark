@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.peptide_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.uniprotkb_ac = "A6NMZ2" and map_protein_disease_mutation.ensembl_transcript_id = "ENST00000225719"
+
+###
+
+
+Original Query:
+SELECT T1.peptide_id FROM map_protein_disease_mutation AS T1 WHERE T1.uniprotkb_ac = "A6NMZ2" and T1.ensembl_transcript_id = "ENST00000225719"
+GPT-3 choices:
+(0) What is the peptide ID from the map of protein-disease mutations where the uniprotkb accession number is A6NMZ2 and ensembl transcript ID is ENST00000225719?
+(1) Retrieve the peptide IDs from the protein-disease-mutation mapping where the UniprotKB accession is "A6NMZ2" and the Ensembl transcript ID is "ENST00000225719".
+(2) Get the peptide ID for a mutation in the gene A6NMZ2 from the protein-disease-mutation map, where the UniProtKB accession number is "A6NMZ2" and the Ensembl transcript ID is "ENST00000225719".
+(3) Find the peptide ID from the table "map_protein_disease_mutation" where the UniProtKB accession number is "A6NMZ2" and the Ensembl transcript ID is "ENST00000225719".
+(4) What is the peptide ID for the mutation associated with uniprotkb AC A6NMZ2 and ensembl transcript ID ENST00000225719 in the map protein disease mutation database?
+(5) Find the peptide ID for protein A6NMZ2 and ENST00000225719 transcript in the map_protein_disease_mutation table.
+(6) Retrieve the peptide ID from the map_protein_disease_mutation table for a protein with UniprotKB accession number A6NMZ2 and Ensembl transcript ID ENST00000225719.
+(7) Retrieve the peptide ID from the map_protein_disease_mutation table where the uniprotkb_ac column is equal to "A6NMZ2" and the ensembl_transcript_id column is equal to "ENST00000225719".

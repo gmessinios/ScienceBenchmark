@@ -1,0 +1,16 @@
+SELECT projects.objective FROM projects AS projects JOIN funding_schemes AS funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.code != "DS"
+
+###
+
+
+Original Query:
+SELECT T1.objective FROM projects AS T1 JOIN funding_schemes AS T2 ON T1.ec_fund_scheme = T2.code WHERE T2.code != "DS"
+GPT-3 choices:
+(0) Retrieve the objective of all projects that have a European Commission funding scheme code other than "DS".
+(1) Retrieve the objective of all projects where the EC fund scheme is not "DS".
+(2) "Retrieve the objective of all projects that are not funded by the European Commission's "DS" funding scheme, while joining with the funding schemes table."
+(3) What are the objectives of all projects that have been funded by European Commission funding schemes, except for those with a code of "DS"?
+(4) Get the objective of projects that are associated with a funding scheme code that is not "DS".
+(5) Find the objectives of projects that are funded by any European Commission scheme except for the "DS" scheme.
+(6) Find the objective of all projects where the funding scheme is not "DS".
+(7) What are the objectives of all projects that have an EC funding scheme code that is not equal to "DS"?

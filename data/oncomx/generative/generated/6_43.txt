@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.feature_key = "cross-link" and disease_mutation_site_annotation.id = 2071
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.feature_key = "cross-link" and T1.id = 2071
+GPT-3 choices:
+(0) What is the description of the feature "cross-link" with an ID of 2071 in the table "disease_mutation_site_annotation"?
+(1) Find the description of the disease mutation site annotation that has a feature key of "cross-link" and an ID of 2071.
+(2) What is the description for the feature with key "cross-link" and ID 2071 in the disease mutation site annotation table?
+(3) Retrieve the description from the disease_mutation_site_annotation table where the feature_key is "cross-link" and the id is 2071.
+(4) Retrieve the description from the disease mutation site annotation where the feature key is "cross-link" and the ID is 2071.
+(5) What is the description of the disease mutation site annotation with feature key "cross-link" and ID 2071?
+(6) What is the description of the disease mutation site annotation with feature key "cross-link" and ID 2071?
+(7) Retrieve the description from the disease mutation site annotation table for features that have a key of "cross-link" and an ID of 2071.

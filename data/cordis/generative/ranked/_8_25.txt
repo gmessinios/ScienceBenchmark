@@ -1,0 +1,28 @@
+SELECT project_members.unics_id FROM project_members AS project_members WHERE project_members.street != "Parchevich Str."
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM project_members AS T1 WHERE T1.street != "Parchevich Str."
+GPT-3 choices:
+(0) Find the UNICS IDs of all project members whose street is not "Parchevich Str.".
+(1) "Retrieve the UNICS IDs of project members whose street is not "Parchevich Str." from the table project_members."
+(2) Find the UNICS IDs of all project members who do not live on Parchevich Street.
+(3) Retrieve the UNICS IDs of project members who do not live on Parchevich Street.
+(4) Get the UNICS ID of project members who have a street address that is not "Parchevich Str.".
+(5) Find the UNICS IDs of project members who do not live on Parchevich Street.
+(6) Find the UNICS ID of project members who do not have a street address on Parchevich Street.
+(7) Find the UNICS IDs of project members whose street is not "Parchevich Str.".
+
+
+Re-ranked choices:
+7.760  Get the UNICS ID of project members who have a street address that is not "Parchevich Str.".
+7.750  Find the UNICS ID of project members who do not have a street address on Parchevich Street.
+6.386  Find the UNICS IDs of project members whose street is not "Parchevich Str.".
+6.377  Find the UNICS IDs of all project members whose street is not "Parchevich Str.".
+6.342  "Retrieve the UNICS IDs of project members whose street is not "Parchevich Str." from the table project_members."
+4.961  Retrieve the UNICS IDs of project members who do not live on Parchevich Street.
+4.961  Find the UNICS IDs of project members who do not live on Parchevich Street.
+4.958  Find the UNICS IDs of all project members who do not live on Parchevich Street.
+

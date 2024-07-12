@@ -1,0 +1,28 @@
+SELECT count(*) FROM ec_framework_programs AS ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = "CIP"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs AS T1 WHERE T1.ec_framework_program_name = "CIP"
+GPT-3 choices:
+(0) How many framework programs in the ec_framework_programs table have an ec_framework_program_name of "CIP"?
+(1) How many entries are there in the table for "CIP" in the column for framework program names?
+(2) How many programs are there in the "CIP" framework according to the EC Framework Programs database?
+(3) How many programs are there in the "CIP" framework?
+(4) How many records are there in the "ec_framework_programs" table where the "ec_framework_program_name" is equal to "CIP"?
+(5) How many programs are there in the CIP framework in the ec_framework_programs table?
+(6) How many programs are there in the "CIP" framework within the ec_framework_programs table?
+(7) How many programs are there in the "CIP" framework in the ec_framework_programs table?
+
+
+Re-ranked choices:
+4.942  How many programs are there in the "CIP" framework according to the EC Framework Programs database?
+3.547  How many entries are there in the table for "CIP" in the column for framework program names?
+3.543  How many programs are there in the CIP framework in the ec_framework_programs table?
+3.543  How many programs are there in the "CIP" framework in the ec_framework_programs table?
+3.537  How many programs are there in the "CIP" framework within the ec_framework_programs table?
+3.529  How many framework programs in the ec_framework_programs table have an ec_framework_program_name of "CIP"?
+2.243  How many programs are there in the "CIP" framework?
+0.733  How many records are there in the "ec_framework_programs" table where the "ec_framework_program_name" is equal to "CIP"?
+

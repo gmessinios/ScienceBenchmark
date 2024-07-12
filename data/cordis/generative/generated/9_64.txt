@@ -1,0 +1,16 @@
+SELECT countries.geocode_country_code FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.website != "http://uard.bg/"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.website != "http://uard.bg/"
+GPT-3 choices:
+(0) Retrieve the geocode country code for countries where the institution's website is not equal to "http://uard.bg/".
+(1) Retrieve the geocode country code from the countries table for all institutions that have a website other than "http://uard.bg/".
+(2) Retrieve the geocode country code for all countries associated with institutions that have a website other than "http://uard.bg/".
+(3) What is the geocode country code for countries where institutions have a website that is not "http://uard.bg/" and those countries are linked to the institutions through their unics ID?
+(4) Get the geocode country code of all countries from the institutions table where the website is not equal to "http://uard.bg/", using a join on the countries and institutions tables.
+(5) Find the geocode country code for countries where the website of institutions is not "http://uard.bg/".
+(6) Find the geocode country code for all institutions' countries where their website is not equal to "http://uard.bg/".
+(7) Get the geographic code for countries that have a corresponding entry in the institutions table with a website that is not "http://uard.bg/".

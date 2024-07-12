@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units JOIN institutions AS institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.acronym = "Solartys"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 JOIN institutions AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.acronym = "Solartys"
+GPT-3 choices:
+(0) Retrieve the geocode regions from the EU territorial units where the acronym of an institution is "Solartys" and the geocode_regions_3 column matches with the geocode_regions in the EU territorial units.
+(1) Find the geocode regions for institutions that have an acronym of "Solartys" by joining the eu_territorial_units and institutions tables on their matching geocode_regions_3 columns.
+(2) Retrieve the geocode_regions of all European territorial units where the acronym for an institution is "Solartys".
+(3) Retrieve the geocode_regions of eu_territorial_units for institutions with an acronym of "Solartys".
+(4) Retrieve the geocode_regions column from the eu_territorial_units table for all rows where the institutions table's geocode_regions_3 column matches "Solartys" in the acronym column.
+(5) What are the geocode regions for institutions that have the acronym "Solartys"?
+(6) Get the geocode regions for all European territorial units that are associated with an institution with the acronym "Solartys".
+(7) Find the geocode regions from EU territorial units where the acronym for an institution is "Solartys".
+
+
+Re-ranked choices:
+9.126  Find the geocode regions from EU territorial units where the acronym for an institution is "Solartys".
+9.117  Retrieve the geocode regions from the EU territorial units where the acronym of an institution is "Solartys" and the geocode_regions_3 column matches with the geocode_regions in the EU territorial units.
+7.720  Get the geocode regions for all European territorial units that are associated with an institution with the acronym "Solartys".
+7.016  Find the geocode regions for institutions that have an acronym of "Solartys" by joining the eu_territorial_units and institutions tables on their matching geocode_regions_3 columns.
+6.333  What are the geocode regions for institutions that have the acronym "Solartys"?
+4.921  Retrieve the geocode_regions of all European territorial units where the acronym for an institution is "Solartys".
+3.518  Retrieve the geocode_regions of eu_territorial_units for institutions with an acronym of "Solartys".
+3.516  Retrieve the geocode_regions column from the eu_territorial_units table for all rows where the institutions table's geocode_regions_3 column matches "Solartys" in the acronym column.
+

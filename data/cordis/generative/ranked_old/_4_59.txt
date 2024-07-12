@@ -1,0 +1,28 @@
+SELECT count(*) FROM institutions WHERE institutions.website = 'https://www.dongnocchi.it/'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions WHERE institutions.website = 'https://www.dongnocchi.it/'
+GPT-3 choices:
+(0) Show the number of institutions having https://www.dongnocchi.it/ as website
+(1) How many institutions are there with website https://www.dongnocchi.it/?
+(2) Show me the number of institutions whose website is https://www.dongnocchi.it/
+(3) How many institutions are there with website equal to https://www.dongnocchi.it/
+(4) Total number of institutions.
+(5) How many institutions are there that have a website?
+(6) Count the number of institutions with a website: 1
+(7) Count all institutions that have the given website
+
+
+Re-ranked choices:
+2.847  Count all institutions that have the given website
+2.828  How many institutions are there with website equal to https://www.dongnocchi.it/
+2.825  Show me the number of institutions whose website is https://www.dongnocchi.it/
+2.825  Show the number of institutions having https://www.dongnocchi.it/ as website
+2.824  How many institutions are there with website https://www.dongnocchi.it/?
+1.468  How many institutions are there that have a website?
+1.444  Count the number of institutions with a website: 1
+0.023  Total number of institutions.
+

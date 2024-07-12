@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_level != 3
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 WHERE T1.geocode_level != 3
+GPT-3 choices:
+(0) Retrieve the description of all EU territorial units that do not have a geocode level of 3.
+(1) What is the description of all territorial units in Europe that do not have a geocode level of 3?
+(2) Show me the descriptions of all EU territorial units that have a geocode level other than 3.
+(3) What are the descriptions of all EU territorial units that do not have a geocode level of 3?
+(4) Find the description of all EU territorial units except for those with a geocode level of 3.
+(5) Get the description of all territorial units from the table "eu_territorial_units" where the geocode level is not equal to 3.
+(6) What is the description for all territorial units in the EU that do not have a geocode level of 3?
+(7) Get the description of all EU territorial units that are not at level 3 in terms of their geocode.

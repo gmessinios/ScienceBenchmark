@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions = "DE80J" or eu_territorial_units.geocode_level = 1
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.geocode_regions = "DE80J" or T1.geocode_level = 1
+GPT-3 choices:
+(0) Find the NUTS version of the EU territorial unit with a geocode region of "DE80J" or a geocode level of 1.
+(1) Find the nuts_version for the eu_territorial_units where either the geocode_regions is equal to "DE80J" or the geocode_level is equal to 1.
+(2) Get the NUTS version from the eu_territorial_units table where the geocode_regions is equal to "DE80J" or the geocode_level is equal to 1.
+(3) What is the NUTS version for the EU territorial unit with a geocode of "DE80J" or a geocode level of 1?
+(4) Get the nuts version for the European territorial unit with a geocode of "DE80J" or a geocode level of 1 from the table named "eu_territorial_units".
+(5) What is the NUTS version for Germany's geocode region "DE80J" or any geocode level 1?
+(6) "Retrieve the NUTS version for the European territorial unit where the geocode region is equal to "DE80J" or the geocode level is equal to 1."
+(7) "Retrieve the NUTS version from the EU territorial units where the geocode regions are equal to "DE80J" or the geocode level is 1."

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype = 6
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.neighbortype = 6
+GPT-3 choices:
+(0) Retrieve the type of nearest neighbor objects from the "neighbors" table where the neighbortype is equal to 6.
+(1) Find the types of nearest neighbour objects where the neighbortype is equal to 6.
+(2) Find the types of objects that are nearest neighbors with a neighbor type of 6.
+(3) Find the type of nearest neighbour objects where the neighbor type is equal to 6.
+(4) What are the types of objects that have a neighbor type of 6 in the "neighbors" table?
+(5) Find the type of objects that are nearest neighbors with a neighbor type of 6.
+(6) Find the type of nearest neighbour objects that have a neighbortype of 6.
+(7) Find the type of objects that are nearest neighbors and have a neighbortype of 6.
+
+
+Re-ranked choices:
+5.645  Find the type of nearest neighbour objects where the neighbor type is equal to 6.
+4.258  What are the types of objects that have a neighbor type of 6 in the "neighbors" table?
+4.254  Find the types of objects that are nearest neighbors with a neighbor type of 6.
+4.254  Find the type of objects that are nearest neighbors with a neighbor type of 6.
+4.244  Find the type of nearest neighbour objects that have a neighbortype of 6.
+4.233  Retrieve the type of nearest neighbor objects from the "neighbors" table where the neighbortype is equal to 6.
+2.845  Find the type of objects that are nearest neighbors and have a neighbortype of 6.
+2.842  Find the types of nearest neighbour objects where the neighbortype is equal to 6.
+

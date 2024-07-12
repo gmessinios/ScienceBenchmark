@@ -1,0 +1,16 @@
+SELECT healthy_expression.expression_level_gene_relative FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_developmental_id = "MmusDv:0000050" and healthy_expression.expression_rank_score = 17.70
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_gene_relative FROM healthy_expression AS T1 WHERE T1.uberon_developmental_id = "MmusDv:0000050" and T1.expression_rank_score = 17.70
+GPT-3 choices:
+(0) What is the expression level gene relative for healthy tissues where the developmental stage is adult and the expression rank score is 17.70?
+(1) What is the expression level of genes in healthy mice at the developmental stage of mouse embryonic day 14.5, with an expression rank score of 17.70?
+(2) Retrieve the relative expression levels of genes from the healthy_expression table where the developmental stage is MmusDv:0000050 and the expression rank score is 17.70.
+(3) Retrieve the expression level of a gene that is found in healthy tissue and has an expression rank score of 17.70 in the developmental stage represented by "MmusDv:0000050".
+(4) Retrieve the relative gene expression levels from the healthy_expression table where the uberon_developmental_id is "MmusDv:0000050" and the expression_rank_score is 17.70.
+(5) Find the expression level gene relative from healthy expression data for developmental stage "MmusDv:0000050" and with an expression rank score of 17.70.
+(6) What is the relative expression level of genes in healthy tissue for mice at the developmental stage with the ID MmusDv:0000050, where the expression rank score is 17.70?
+(7) Find the expression level of genes in healthy tissue at the developmental stage of "MmusDv:0000050" with an expression rank score of 17.70.

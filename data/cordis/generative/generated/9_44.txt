@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.ec_call != "H2020-SC6-CO-CREATION-2016-2"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_call != "H2020-SC6-CO-CREATION-2016-2"
+GPT-3 choices:
+(0) Retrieve the code of topics associated with projects that have an ec_call value different from "H2020-SC6-CO-CREATION-2016-2".
+(1) What is the code for all topics that are associated with projects where the EC call is not "H2020-SC6-CO-CREATION-2016-2"?
+(2) Find the topics that have been assigned to projects with an EC call other than "H2020-SC6-CO-CREATION-2016-2".
+(3) Get the code of topics that are associated with projects that have an EC call different from "H2020-SC6-CO-CREATION-2016-2".
+(4) "Retrieve the topic codes from all topics that have been assigned to projects with an EC call code other than "H2020-SC6-CO-CREATION-2016-2".
+(5) Retrieve the topic codes from the "topics" table where the project's EC call is not equal to "H2020-SC6-CO-CREATION-2016-2", by joining the "topics" and "project_topics" tables on matching topic codes and then joining with the "projects" table on matching project IDs.
+(6) Get the code of topics that are associated with projects whose EC call is not equal to "H2020-SC6-CO-CREATION-2016-2".
+(7) Find the codes of all topics that are related to projects where the EC call is not "H2020-SC6-CO-CREATION-2016-2".

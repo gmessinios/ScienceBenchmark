@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas AS subject_areas WHERE subject_areas.title = "Waste Management"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM subject_areas AS T1 WHERE T1.title = "Waste Management"
+GPT-3 choices:
+(0) What is the description of the subject area with the title "Waste Management"?
+(1) What is the description of the subject area with the title "Waste Management"?
+(2) Retrieve the description from the "Waste Management" subject area in the subject areas table.
+(3) Retrieve the description of the subject area "Waste Management" from the subject_areas table.
+(4) Retrieve the description of the waste management subject area from the subject_areas table.
+(5) Get the description of the subject area for "Waste Management" from the table "subject_areas".
+(6) Retrieve the description of the subject area "Waste Management" from the table "subject_areas".
+(7) What is the description for the subject area "Waste Management"?

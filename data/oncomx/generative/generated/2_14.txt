@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.speciesid, count(*) FROM xref_gene_ensembl AS xref_gene_ensembl  GROUP BY xref_gene_ensembl.speciesid
+
+###
+
+
+Original Query:
+SELECT T1.speciesid, count(*) FROM xref_gene_ensembl AS T1  GROUP BY T1.speciesid
+GPT-3 choices:
+(0) How many records are there for each species in the xref_gene_ensembl table?
+(1) Count the number of rows in the xref_gene_ensembl table grouped by speciesid and return the speciesid and corresponding count.
+(2) Count the number of records for each unique species ID in the xref_gene_ensembl table.
+(3) Count the number of entries in the xref_gene_ensembl table for each species and group the results by species ID.
+(4) Count the number of entries for each species in the xref_gene_ensembl table.
+(5) Count the number of records in the table xref_gene_ensembl grouped by speciesid and list the speciesid and count for each group.
+(6) Get the count of all records in the xref_gene_ensembl table grouped by species ID.
+(7) Count the number of rows in the xref_gene_ensembl table for each unique species and group them by species ID.

@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description != "NotAType:"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description != "NotAType:"
+GPT-3 choices:
+(0) List all names from the table "photo_type" where the description is not equal to "NotAType:".
+(1) Show the names of all photo types that are described as something other than "NotAType:".
+(2) Retrieve the names of all types that have been observed photometrically and have a description other than "NotAType:".
+(3) List the names of all photo types from the table "photometrically_observed" where the description is not equal to "NotAType:".
+(4) Find the names of all photo types that have a description that is not "NotAType:".
+(5) What are the names of all photometrically observed types that do not have a description starting with "NotAType:"?
+(6) Which names are associated with types of photos that are not labeled as "NotAType"?
+(7) "Retrieve the names of all photometrically observed objects that do not have a description of "NotAType"."
+
+
+Re-ranked choices:
+4.927  Retrieve the names of all types that have been observed photometrically and have a description other than "NotAType:".
+4.927  What are the names of all photometrically observed types that do not have a description starting with "NotAType:"?
+4.222  "Retrieve the names of all photometrically observed objects that do not have a description of "NotAType"."
+2.826  List the names of all photo types from the table "photometrically_observed" where the description is not equal to "NotAType:".
+2.145  Find the names of all photo types that have a description that is not "NotAType:".
+2.138  List all names from the table "photo_type" where the description is not equal to "NotAType:".
+0.745  Show the names of all photo types that are described as something other than "NotAType:".
+0.035  Which names are associated with types of photos that are not labeled as "NotAType"?
+

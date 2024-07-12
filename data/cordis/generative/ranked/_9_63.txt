@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions AS institutions JOIN project_members AS project_members ON institutions.unics_id = project_members.institution_id WHERE project_members.unics_id != 620971
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id WHERE T2.unics_id != 620971
+GPT-3 choices:
+(0) "Retrieve the short names of institutions where project members, other than the member with a UNICS ID of 620971, are affiliated."
+(1) Retrieve the short names of all institutions that are associated with project members who do not have a UNICS ID of 620971.
+(2) Retrieve the short names of all institutions where a project member's UNICS ID is not equal to 620971.
+(3) Get the short names of all institutions that are associated with project members who have a UNICS ID different from 620971.
+(4) Find the short names of institutions where a project member's UNICS ID is not equal to 620971 and that institution's UNICS ID matches the member's institution in the institutions table.
+(5) "Retrieve the short names of institutions that have project members who do not have the UNICS ID 620971."
+(6) Retrieve the short names of institutions from the table "institutions" where the institution's UNICS ID does not match with the UNICS ID 620971 in the table "project_members".
+(7) Find the short names of institutions that are not associated with a project member with the UNICS ID 620971.
+
+
+Re-ranked choices:
+8.438  "Retrieve the short names of institutions that have project members who do not have the UNICS ID 620971."
+8.429  Retrieve the short names of all institutions that are associated with project members who do not have a UNICS ID of 620971.
+8.427  Get the short names of all institutions that are associated with project members who have a UNICS ID different from 620971.
+8.419  Find the short names of institutions where a project member's UNICS ID is not equal to 620971 and that institution's UNICS ID matches the member's institution in the institutions table.
+7.038  Retrieve the short names of all institutions where a project member's UNICS ID is not equal to 620971.
+7.032  Find the short names of institutions that are not associated with a project member with the UNICS ID 620971.
+7.027  "Retrieve the short names of institutions where project members, other than the member with a UNICS ID of 620971, are affiliated."
+7.019  Retrieve the short names of institutions from the table "institutions" where the institution's UNICS ID does not match with the UNICS ID 620971 in the table "project_members".
+

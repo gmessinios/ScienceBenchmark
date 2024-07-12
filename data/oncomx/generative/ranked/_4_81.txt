@@ -1,0 +1,27 @@
+SELECT count(*) FROM disease_mutation AS disease_mutation WHERE disease_mutation.chromosome_id = "3"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation AS T1 WHERE T1.chromosome_id = "3"
+GPT-3 choices:
+(0) How many disease-mutation entries have a chromosome_id value of 3?
+(1) How many disease mutations are associated with the chromosome ID of 3?
+(2) How many rows are in the disease_mutation table where the chromosome_id is equal to 3?
+(3) How many disease mutations are there in the chromosome with an ID of "3"?
+(4) Count the number of disease-mutation associations for mutations found on chromosome 3.
+(5) How many disease-mutation pairs have a chromosome_id value of "3"?
+(6) How many rows are in the disease_mutation table where the chromosome_id is equal to 3?
+(7) How many disease mutations are there on chromosome 3?
+
+
+Re-ranked choices:
+4.247  How many disease mutations are there in the chromosome with an ID of "3"?
+4.229  How many disease mutations are associated with the chromosome ID of 3?
+2.844  How many disease mutations are there on chromosome 3?
+1.422  Count the number of disease-mutation associations for mutations found on chromosome 3.
+0.037  How many rows are in the disease_mutation table where the chromosome_id is equal to 3?
+0.036  How many disease-mutation pairs have a chromosome_id value of "3"?
+0.031  How many disease-mutation entries have a chromosome_id value of 3?
+

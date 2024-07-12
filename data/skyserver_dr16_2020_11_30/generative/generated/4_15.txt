@@ -1,0 +1,16 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype = 3
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.neighbortype = 3
+GPT-3 choices:
+(0) Count the number of objects that are nearest neighbors and have a neighbor type of 3 in the table "neighbors."
+(1) How many objects are there in the neighbors table with a neighbortype of 3?
+(2) How many objects are there in the neighbors table with a neighbortype value of 3?
+(3) How many objects in the neighbors table have a neighbor type of 3?
+(4) How many neighbors are there in the "neighbors" table where the neighbor type is 3?
+(5) How many objects are there in the "neighbors" table that have a neighbor type of 3?
+(6) How many neighbors are there that have a neighbor type of 3 in the "neighbors" table?
+(7) How many neighbors are there in the "neighbors" table with a neighbor type of 3?

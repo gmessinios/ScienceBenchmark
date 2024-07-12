@@ -1,0 +1,28 @@
+SELECT countries.country_code3 FROM countries AS countries WHERE countries.country_code2 != "ZW"
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 WHERE T1.country_code2 != "ZW"
+GPT-3 choices:
+(0) Get the country code3 from the table countries where the country code2 is not equal to "ZW".
+(1) Retrieve the country code3 from the countries table where the country code2 is not equal to "ZW".
+(2) Retrieve the three-letter country code from the "countries" table where the two-letter country code is not equal to "ZW".
+(3) Get the country code3 from the countries table where the country code2 is not equal to "ZW".
+(4) Show me the country code3 for all countries where the country code2 is not "ZW".
+(5) Show me the country code 3 of all countries except for Zimbabwe.
+(6) Select the country code3 from the countries table where the country code2 is not equal to "ZW".
+(7) "Retrieve the country code 3 from the table countries where the country code 2 is not equal to "ZW"."
+
+
+Re-ranked choices:
+6.356  Show me the country code3 for all countries where the country code2 is not "ZW".
+6.348  Get the country code3 from the table countries where the country code2 is not equal to "ZW".
+6.348  Get the country code3 from the countries table where the country code2 is not equal to "ZW".
+6.341  Retrieve the country code3 from the countries table where the country code2 is not equal to "ZW".
+6.341  Select the country code3 from the countries table where the country code2 is not equal to "ZW".
+3.529  "Retrieve the country code 3 from the table countries where the country code 2 is not equal to "ZW"."
+3.529  Retrieve the three-letter country code from the "countries" table where the two-letter country code is not equal to "ZW".
+2.854  Show me the country code 3 of all countries except for Zimbabwe.
+

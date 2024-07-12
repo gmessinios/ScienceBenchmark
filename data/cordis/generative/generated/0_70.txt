@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.rcn = "17087"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.rcn = "17087"
+GPT-3 choices:
+(0) Find the code for the topic with an rcn of "17087" from the table named "topics".
+(1) What is the code for the topic with the RCN number 17087 in the topics table?
+(2) Retrieve the code of the topic from the table "topics" where the rcn is equal to 17087.
+(3) What is the topic code for a record with an RCN of "17087" in the topics table?
+(4) What is the code for the topic with RCN 17087 in the topics table?
+(5) Get the topic code for the topic with RCN number 17087 from the table "topics".
+(6) Retrieve the code of the topic with an RCN of "17087" from the Topics table.
+(7) What is the code for topics with the RCN of "17087" in the topics table?

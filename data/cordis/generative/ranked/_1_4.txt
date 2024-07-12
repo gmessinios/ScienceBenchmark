@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.ec_max_contribution = 1943248.0
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_max_contribution = 1943248.0
+GPT-3 choices:
+(0) Get the RCN of all topics for projects that have a maximum contribution of 1943248.0 in the EC field, where the project's topic matches with one in the project_topics table and also matches with a code in the topics table.
+(1) Get the research council number of all topics that are associated with a project whose maximum European Commission contribution is 1943248.0.
+(2) Find the research council number of all topics that have a code matching a project topic, where the maximum European Commission contribution for the associated project is 1943248.0.
+(3) Retrieve the RCN value from the topics table where the code in the topics table matches the topic value in the project_topics table, and the project ID in the project_topics table matches the unics_id of a project in the projects table that has an EC maximum contribution value of 1943248.0.
+(4) Find the research council number of all topics that are listed as a topic for any project with a maximum contribution of 1943248.0 euros.
+(5) Retrieve the research topic codes for all topics that are associated with a project whose maximum contribution is equal to 1943248.0.
+(6) Find the research topic code for projects that have a maximum contribution of 1943248.0 in the EC Max Contribution column.
+(7) Find the research council number of all topics that are associated with a project whose maximum contribution is equal to 1943248.0 euros.
+
+
+Re-ranked choices:
+12.613  Retrieve the RCN value from the topics table where the code in the topics table matches the topic value in the project_topics table, and the project ID in the project_topics table matches the unics_id of a project in the projects table that has an EC maximum contribution value of 1943248.0.
+11.234  Get the RCN of all topics for projects that have a maximum contribution of 1943248.0 in the EC field, where the project's topic matches with one in the project_topics table and also matches with a code in the topics table.
+7.742  Find the research topic code for projects that have a maximum contribution of 1943248.0 in the EC Max Contribution column.
+5.619  Find the research council number of all topics that have a code matching a project topic, where the maximum European Commission contribution for the associated project is 1943248.0.
+4.926  Find the research council number of all topics that are listed as a topic for any project with a maximum contribution of 1943248.0 euros.
+4.926  Retrieve the research topic codes for all topics that are associated with a project whose maximum contribution is equal to 1943248.0.
+4.225  Find the research council number of all topics that are associated with a project whose maximum contribution is equal to 1943248.0 euros.
+4.222  Get the research council number of all topics that are associated with a project whose maximum European Commission contribution is 1943248.0.
+

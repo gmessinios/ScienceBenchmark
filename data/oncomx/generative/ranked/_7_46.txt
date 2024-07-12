@@ -1,0 +1,28 @@
+SELECT disease_mutation_impact_prediction.probability FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.id = 933 or disease_mutation_impact_prediction.site_prediction = "---|loss"
+
+###
+
+
+Original Query:
+SELECT T1.probability FROM disease_mutation_impact_prediction AS T1 WHERE T1.id = 933 or T1.site_prediction = "---|loss"
+GPT-3 choices:
+(0) Retrieve the probability value from the disease_mutation_impact_prediction table for the entry with an id of 933 or a site prediction of "---|loss".
+(1) Retrieve the probability of mutation impact prediction from the disease mutation impact prediction table where the id is 933 or the site prediction is "---|loss".
+(2) What is the probability of mutation impact prediction for a given id of 933 or site prediction of "---|loss" from the disease_mutation_impact_prediction table?
+(3) Find the probability of mutation impact prediction from the disease_mutation_impact_prediction table where the id is 933 or site_prediction is "---|loss".
+(4) What is the probability value from the disease mutation impact prediction table for either ID 933 or site prediction value "---|loss"?
+(5) Retrieve the probability value from the "disease_mutation_impact_prediction" table for the entry with an ID of 933 or a site prediction of "---|loss".
+(6) Get the probability of mutation impact prediction from the table disease_mutation_impact_prediction for the entry with id 933 or site prediction "---|loss".
+(7) Retrieve the probability from the disease_mutation_impact_prediction table where the id is 933 or the site_prediction is "---|loss".
+
+
+Re-ranked choices:
+10.522  What is the probability value from the disease mutation impact prediction table for either ID 933 or site prediction value "---|loss"?
+10.518  Retrieve the probability of mutation impact prediction from the disease mutation impact prediction table where the id is 933 or the site prediction is "---|loss".
+9.118  What is the probability of mutation impact prediction for a given id of 933 or site prediction of "---|loss" from the disease_mutation_impact_prediction table?
+9.117  Get the probability of mutation impact prediction from the table disease_mutation_impact_prediction for the entry with id 933 or site prediction "---|loss".
+7.718  Find the probability of mutation impact prediction from the disease_mutation_impact_prediction table where the id is 933 or site_prediction is "---|loss".
+6.321  Retrieve the probability value from the "disease_mutation_impact_prediction" table for the entry with an ID of 933 or a site prediction of "---|loss".
+6.320  Retrieve the probability value from the disease_mutation_impact_prediction table for the entry with an id of 933 or a site prediction of "---|loss".
+3.521  Retrieve the probability from the disease_mutation_impact_prediction table where the id is 933 or the site_prediction is "---|loss".
+

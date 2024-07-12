@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.acronym != "SniffControl"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.acronym != "SniffControl"
+GPT-3 choices:
+(0) Find the titles of topics that are associated with projects, excluding the project "SniffControl".
+(1) Retrieve the title of all topics that are associated with a project, excluding any projects with the acronym "SniffControl".
+(2) Get the title of all topics that are associated with a project, excluding the one with acronym "SniffControl".
+(3) Retrieve the title of all topics that are associated with projects, excluding the project with the acronym "SniffControl".
+(4) Find the title of topics where the project code associated with them is included in the topic list for projects that are not named "SniffControl".
+(5) Retrieve the titles of all topics associated with projects that have an acronym other than "SniffControl".
+(6) Retrieve the title of all topics that are associated with projects whose acronym is not "SniffControl".
+(7) Find the title of all topics that are associated with projects, excluding those with the acronym "SniffControl".

@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people AS people JOIN projects AS projects ON people.unics_id = projects.principal_investigator WHERE projects.unics_id != 143863
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 JOIN projects AS T2 ON T1.unics_id = T2.principal_investigator WHERE T2.unics_id != 143863
+GPT-3 choices:
+(0) Get the full names of all people who are listed as principal investigators on projects, excluding those with a unics_id of 143863.
+(1) Retrieve the full names of people who are not the principal investigator for project with ID 143863 and are associated with projects through their UNICS ID.
+(2) "Retrieve the full names of all people who are not principal investigators on project number 143863."
+(3) "Retrieve the full names of all people who are not the principal investigator for project with unics_id 143863, and who are associated with that project by having the same unics_id as the project's principal investigator."
+(4) List the full names of all people who are principal investigators on projects, but are not associated with project ID 143863.
+(5) Get the full names of people who are listed as principal investigators on projects, excluding those with a UNICS ID of 143863.
+(6) Find the full names of people who are not the principal investigator on a project with an ID of 143863, and who are associated with that project through their UNICS ID.
+(7) List the full names of people who are not the principal investigators for any projects with a UNICS ID other than 143863.
+
+
+Re-ranked choices:
+9.823  Retrieve the full names of people who are not the principal investigator for project with ID 143863 and are associated with projects through their UNICS ID.
+9.121  Find the full names of people who are not the principal investigator on a project with an ID of 143863, and who are associated with that project through their UNICS ID.
+8.429  List the full names of people who are not the principal investigators for any projects with a UNICS ID other than 143863.
+7.726  Get the full names of people who are listed as principal investigators on projects, excluding those with a UNICS ID of 143863.
+6.329  List the full names of all people who are principal investigators on projects, but are not associated with project ID 143863.
+5.616  "Retrieve the full names of all people who are not the principal investigator for project with unics_id 143863, and who are associated with that project by having the same unics_id as the project's principal investigator."
+4.932  "Retrieve the full names of all people who are not principal investigators on project number 143863."
+4.924  Get the full names of all people who are listed as principal investigators on projects, excluding those with a unics_id of 143863.
+

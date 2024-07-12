@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_year = 2009
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.start_year = 2009
+GPT-3 choices:
+(0) Retrieve the research domain codes for all ERC panels that are part of a project with a start year of 2009.
+(1) Find the research domains of projects that belong to panels which are part of ERC research domains, and were funded in 2009.
+(2) Retrieve the codes for research domains from 2009 projects that are part of a panel within the European Research Council's panels.
+(3) Get the research domain codes for all ERC panels that are part of a project in which the project's start year is 2009.
+(4) Find the codes of all research domains that are a part of an ERC panel which is associated with projects starting in 2009.
+(5) Retrieve the codes for research domains that are associated with panels listed in project_erc_panels and were used in projects that started in 2009.
+(6) What are the ERC research domains that are part of ERC panels for projects that started in 2009?
+(7) Find the research domain codes for all projects that were started in the year 2009 by joining the erc_research_domains and erc_panels tables, and then joining with the project_erc_panels and projects tables to retrieve only those panels that are part of a project with a start year of 2009.

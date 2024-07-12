@@ -1,0 +1,27 @@
+SELECT projects.end_date FROM projects AS projects WHERE projects.start_year = 2013
+
+###
+
+
+Original Query:
+SELECT T1.end_date FROM projects AS T1 WHERE T1.start_year = 2013
+GPT-3 choices:
+(0) Retrieve the end dates of all projects that have a start year of 2013 from the table "projects".
+(1) What is the end date of all projects that started in 2013?
+(2) What is the end date of all projects that have a start year of 2013?
+(3) Retrieve the end dates of projects from the year 2013 in the table "projects".
+(4) "Retrieve the end date from the projects table where the start year is equal to 2013."
+(5) Show the end date of projects that started in 2013 from the table "projects".
+(6) Find the end date of projects where the start year is 2013.
+(7) What is the end date of all projects that started in 2013?
+
+
+Re-ranked choices:
+7.333  Find the end date of projects where the start year is 2013.
+7.143  What is the end date of all projects that have a start year of 2013?
+7.083  "Retrieve the end date from the projects table where the start year is equal to 2013."
+5.668  Retrieve the end dates of all projects that have a start year of 2013 from the table "projects".
+4.343  What is the end date of all projects that started in 2013?
+4.303  Retrieve the end dates of projects from the year 2013 in the table "projects".
+4.303  Show the end date of projects that started in 2013 from the table "projects".
+

@@ -1,0 +1,16 @@
+SELECT institutions.acronym FROM institutions AS institutions WHERE institutions.geocode_regions_3 = "HU101" and institutions.website = "http://www.aslto3.piemonte.it/"
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM institutions AS T1 WHERE T1.geocode_regions_3 = "HU101" and T1.website = "http://www.aslto3.piemonte.it/"
+GPT-3 choices:
+(0) Retrieve the acronym of the institution whose geocode region 3 is "HU101" and website is "http://www.aslto3.piemonte.it/".
+(1) Retrieve the acronym of institutions that are located in geocode region 3 "HU101" and have a website URL of "http://www.aslto3.piemonte.it/".
+(2) Find the acronyms of institutions that are located in region HU101 and have a website with the URL "http://www.aslto3.piemonte.it/".
+(3) What is the acronym for institutions in Hungary with geocode region 3 "HU101" and a website of "http://www.aslto3.piemonte.it/"?
+(4) Retrieve the acronym of all institutions whose geocode regions is HU101 and website is "http://www.aslto3.piemonte.it/".
+(5) Find the acronyms of institutions in Hungary with geocode region 3 code "HU101" and website "http://www.aslto3.piemonte.it/".
+(6) Get the acronym of all institutions located in geocode region "HU101" and with a website equal to "http://www.aslto3.piemonte.it/".
+(7) Find the acronym of institutions in Hungary with geocode_regions_3 equal to "HU101" and website equal to "http://www.aslto3.piemonte.it/".

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.ncit_biomarker != "Deoxycytidine Kinase Gene"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 WHERE T1.ncit_biomarker != "Deoxycytidine Kinase Gene"
+GPT-3 choices:
+(0) What is the FDA biomarker ID for a biomarker that is not the "Deoxycytidine Kinase Gene"?
+(1) Find all FDA biomarker IDs where the corresponding NCIt biomarker is not "Deoxycytidine Kinase Gene".
+(2) Find the FDA biomarker IDs for all entries in the table biomarker_fda_ncit_term where the corresponding NCIt biomarker is not "Deoxycytidine Kinase Gene".
+(3) What is the FDA biomarker ID for all entries in the table where the NCIt biomarker is not equal to "Deoxycytidine Kinase Gene"?
+(4) Retrieve the biomarker FDA ID from the table "biomarker_fda_ncit_term" where the NCIt biomarker is not "Deoxycytidine Kinase Gene".
+(5) Find the FDA biomarker ID for biomarkers that have an NCIt term other than "Deoxycytidine Kinase Gene".
+(6) What is the FDA biomarker ID for all biomarkers that are not related to the "Deoxycytidine Kinase Gene"?
+(7) "Retrieve the biomarker FDA ID from the Biomarker FDA NCIT Term table where the NCIT biomarker is not "Deoxycytidine Kinase Gene"."

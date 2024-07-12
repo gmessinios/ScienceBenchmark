@@ -1,0 +1,16 @@
+SELECT anatomical_entity.name FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.id = "UBERON:0002021"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM anatomical_entity AS T1 WHERE T1.id = "UBERON:0002021"
+GPT-3 choices:
+(0) What is the name of the anatomical entity with the ID "UBERON:0002021"?
+(1) What is the name of the anatomical entity with the ID "UBERON:0002021"?
+(2) What is the name of the anatomical entity with the identifier "UBERON:0002021"?
+(3) What is the name of the anatomical entity with ID "UBERON:0002021"?
+(4) What is the name of the anatomical entity with the ID "UBERON:0002021"?
+(5) What is the name of the anatomical entity with the ID "UBERON:0002021"?
+(6) Retrieve the name of the anatomical entity with ID "UBERON:0002021" from the table "anatomical_entity".
+(7) What is the name of the anatomical entity with the ID "UBERON:0002021"?

@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.zerr != 3.571396e-06
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.zerr != 3.571396e-06
+GPT-3 choices:
+(0) What are the specobjids from the galspecline table where the corresponding spectroscopic objects have a zerr value that is not equal to 3.571396e-06?
+(1) Find the specobjid values from the Emission_line_estimates table where the corresponding Spectroscopic_objects have a zerr value that is not equal to 3.571396e-06.
+(2) Find the specobjid of emission line estimates from the galspecline table, for which the corresponding Spectroscopic_object's zerr value is not equal to 3.571396e-06.
+(3) What are the specobjids for all objects in the Emission_line_estimates table that have a zerr value different than 3.571396e-06 in the Spectroscopic_objects table?
+(4) Find the specobjid from the galspecline table where the zerr value in the corresponding row of the specobj table is not equal to 3.571396e-06.
+(5) Find the specobjid for Emission_line_estimates where the zerr value is not equal to 3.571396e-06 in the galspecline table, joined with the specobj table on their shared specobjid.
+(6) What are the specobjid values from the Emission_line_estimates table where the corresponding Spectroscopic_objects have a zerr value that is not equal to 3.571396e-06?
+(7) Retrieve the specobjid from the Emission_line_estimates table for all rows where the zerr column in the Spectroscopic_objects table is not equal to 3.571396e-06.
+
+
+Re-ranked choices:
+2.825  What are the specobjids for all objects in the Emission_line_estimates table that have a zerr value different than 3.571396e-06 in the Spectroscopic_objects table?
+2.821  What are the specobjids from the galspecline table where the corresponding spectroscopic objects have a zerr value that is not equal to 3.571396e-06?
+2.820  Find the specobjid of emission line estimates from the galspecline table, for which the corresponding Spectroscopic_object's zerr value is not equal to 3.571396e-06.
+1.427  Find the specobjid for Emission_line_estimates where the zerr value is not equal to 3.571396e-06 in the galspecline table, joined with the specobj table on their shared specobjid.
+1.421  Retrieve the specobjid from the Emission_line_estimates table for all rows where the zerr column in the Spectroscopic_objects table is not equal to 3.571396e-06.
+1.420  Find the specobjid values from the Emission_line_estimates table where the corresponding Spectroscopic_objects have a zerr value that is not equal to 3.571396e-06.
+1.419  What are the specobjid values from the Emission_line_estimates table where the corresponding Spectroscopic_objects have a zerr value that is not equal to 3.571396e-06?
+0.023  Find the specobjid from the galspecline table where the zerr value in the corresponding row of the specobj table is not equal to 3.571396e-06.
+

@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.plateid FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.z DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.plateid FROM specobj AS T1    ORDER BY T1.z DESC LIMIT 1
+GPT-3 choices:
+(0) What is the highest plate ID for a spectroscopic object in descending order by redshift?
+(1) Give me the plateid of the object with the highest value for z from the table specobj, sorted in descending order and limited to one result.
+(2) What is the plateid for the spectroscopic object with the highest redshift?
+(3) What is the highest plate ID for a spectroscopic object when sorted by redshift, with a limit of 1?
+(4) Find the plate ID of the spectroscopic object with the highest redshift value.
+(5) What is the plate ID of the spectroscopic object with the highest redshift?
+(6) Select the plate ID of the spectroscopic object from the specobj table, ordering by redshift in descending order and limiting to 1 result.
+(7) Find the plate ID of the spectroscopic object with the highest redshift, sorted in descending order, limited to 1 result.

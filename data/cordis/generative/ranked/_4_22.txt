@@ -1,0 +1,28 @@
+SELECT count(*) FROM ec_framework_programs AS ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = "FP5"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs AS T1 WHERE T1.ec_framework_program_name = "FP5"
+GPT-3 choices:
+(0) How many programs are there in the ec_framework_programs table where the program name is "FP5"?
+(1) How many framework programs are there with the name "FP5" in the table named ec_framework_programs?
+(2) How many framework programs in the "FP5" category are there in the ec_framework_programs table?
+(3) How many rows are there in the table ec_framework_programs where the value of the column ec_framework_program_name is "FP5"?
+(4) How many entries are there in the "ec_framework_programs" table where the program name is "FP5"?
+(5) How many programs are there in the EC Framework that have the name "FP5"?
+(6) How many rows are in the ec_framework_programs table where the ec_framework_program_name column has a value of "FP5"?
+(7) How many records are there in the ec_framework_programs table where the ec_framework_program_name is "FP5"?
+
+
+Re-ranked choices:
+6.403  How many programs are there in the EC Framework that have the name "FP5"?
+4.945  How many programs are there in the ec_framework_programs table where the program name is "FP5"?
+4.945  How many framework programs are there with the name "FP5" in the table named ec_framework_programs?
+3.545  How many entries are there in the "ec_framework_programs" table where the program name is "FP5"?
+3.531  How many framework programs in the "FP5" category are there in the ec_framework_programs table?
+0.736  How many records are there in the ec_framework_programs table where the ec_framework_program_name is "FP5"?
+0.730  How many rows are there in the table ec_framework_programs where the value of the column ec_framework_program_name is "FP5"?
+0.728  How many rows are in the ec_framework_programs table where the ec_framework_program_name column has a value of "FP5"?
+

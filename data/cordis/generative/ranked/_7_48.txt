@@ -1,0 +1,28 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description = "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or subject_areas.title = "Earth Sciences"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description = "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or T1.title = "Earth Sciences"
+GPT-3 choices:
+(0) Retrieve the subject area code from the table "subject_areas" where the description is "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or the title is "Earth Sciences".
+(1) Get the code for subject areas where the description is "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or the title is "Earth Sciences".
+(2) Find the subject area code for either "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies" or "Earth Sciences".
+(3) What is the code for the subject area "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies" or with the title "Earth Sciences"?
+(4) "Retrieve the subject area code for either 'Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies' or 'Earth Sciences' from the subject areas table."
+(5) Retrieve the subject area code for "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies" or "Earth Sciences" from the subject areas table.
+(6) "Retrieve the code for subject areas that either have a description of 'Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies' or a title of 'Earth Sciences' from the table 'subject_areas'."
+(7) Find the code for subject areas that have a description of "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or a title of "Earth Sciences".
+
+
+Re-ranked choices:
+17.515  "Retrieve the code for subject areas that either have a description of 'Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies' or a title of 'Earth Sciences' from the table 'subject_areas'."
+16.828  Get the code for subject areas where the description is "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or the title is "Earth Sciences".
+16.828  Find the code for subject areas that have a description of "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or a title of "Earth Sciences".
+15.427  Retrieve the subject area code from the table "subject_areas" where the description is "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies." or the title is "Earth Sciences".
+14.720  What is the code for the subject area "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies" or with the title "Earth Sciences"?
+14.719  Retrieve the subject area code for "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies" or "Earth Sciences" from the subject areas table.
+14.717  "Retrieve the subject area code for either 'Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies' or 'Earth Sciences' from the subject areas table."
+13.321  Find the subject area code for either "Identification of future developments in RTD and long-term strategic options; input to RTD policies; forecasting methodologies" or "Earth Sciences".
+

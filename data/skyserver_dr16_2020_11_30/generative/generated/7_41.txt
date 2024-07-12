@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.class FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.loadversion = 1017 or Spectroscopic_objects.ancillary_target1 = 2048
+
+###
+
+
+Original Query:
+SELECT T1.class FROM specobj AS T1 WHERE T1.loadversion = 1017 or T1.ancillary_target1 = 2048
+GPT-3 choices:
+(0) "Retrieve the class of objects from the specobj table where the loadversion is equal to 1017 or the ancillary_target1 value is equal to 2048."
+(1) Find the class of spectroscopic objects from a table called specobj, specifically selecting objects with either a load version of 1017 or an ancillary target1 value of 2048.
+(2) Find the class of spectroscopic objects from the specobj table where the loadversion is equal to 1017 or the ancillary_target1 column contains 2048.
+(3) Select the class of spectroscopic objects from the specobj table where the loadversion is equal to 1017 or ancillary_target1 is equal to 2048.
+(4) Select the class of objects from the table of spectroscopic objects where either the load version is 1017 or the first ancillary target equals 2048.
+(5) Retrieve the class of spectroscopic objects from a table called specobj where the loadversion is 1017 or the ancillary_target1 is equal to 2048.
+(6) Retrieve the class of objects from the "specobj" table if their loadversion is equal to 1017 or their ancillary_target1 is equal to 2048, in the "Spectroscopic_objects" dataset.
+(7) Retrieve the class of objects from the specobj table that have a loadversion of 1017 or an ancillary target1 value of 2048.

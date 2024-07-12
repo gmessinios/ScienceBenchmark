@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people AS people JOIN projects AS projects ON people.unics_id = projects.principal_investigator WHERE projects.cordis_ref = "100640"
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 JOIN projects AS T2 ON T1.unics_id = T2.principal_investigator WHERE T2.cordis_ref = "100640"
+GPT-3 choices:
+(0) "Retrieve the full names of people who are the principal investigator on a project with a CORDIS reference number of 100640."
+(1) Retrieve the full names of people who are principal investigators on a project with the CORDIS reference number "100640".
+(2) Retrieve the full names of people who are the principal investigators for projects with a CORDIS reference number of "100640".
+(3) Retrieve the full names of people who are principal investigators on projects with a cordis reference number of "100640".
+(4) Who is the full name of the principal investigator for project with CORDIS reference "100640"?
+(5) Who are the full names of people that have a unics ID matching the principal investigator for projects with cordis reference "100640"?
+(6) Find the full name of the person who is listed as the principal investigator for a project with the CORDIS reference number 100640.
+(7) Find the full names of people who are the principal investigators for projects with the CORDIS reference number 100640.

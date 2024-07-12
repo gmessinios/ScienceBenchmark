@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbormode != 1
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.neighbormode != 1
+GPT-3 choices:
+(0) Retrieve the type of nearest neighbor objects from the neighbors table, excluding any with a neighbormode of 1.
+(1) What is the type of nearest neighbor objects in the neighbors table that have a neighbormode value other than 1?
+(2) Find the type of nearest neighbour objects that have a neighbour mode other than 1 in the "neighbors" table.
+(3) Get the types of objects that are nearest neighbours to the given objects, where their neighbormode is not equal to 1.
+(4) What type of nearest neighbour objects have a neighbour mode that is not equal to 1?
+(5) Retrieve the type of nearest neighbor objects from the neighbors table, excluding any objects with a neighormode of 1.
+(6) Find the types of objects that are nearest neighbors and do not have a neighbor mode equal to 1.
+(7) What are the types of objects that are closest to each other, excluding those with a neighbor mode of 1?
+
+
+Re-ranked choices:
+7.037  What type of nearest neighbour objects have a neighbour mode that is not equal to 1?
+7.029  Find the type of nearest neighbour objects that have a neighbour mode other than 1 in the "neighbors" table.
+5.650  Find the types of objects that are nearest neighbors and do not have a neighbor mode equal to 1.
+5.639  What are the types of objects that are closest to each other, excluding those with a neighbor mode of 1?
+5.629  Retrieve the type of nearest neighbor objects from the neighbors table, excluding any objects with a neighormode of 1.
+5.628  What is the type of nearest neighbor objects in the neighbors table that have a neighbormode value other than 1?
+5.627  Retrieve the type of nearest neighbor objects from the neighbors table, excluding any with a neighbormode of 1.
+2.830  Get the types of objects that are nearest neighbours to the given objects, where their neighbormode is not equal to 1.
+

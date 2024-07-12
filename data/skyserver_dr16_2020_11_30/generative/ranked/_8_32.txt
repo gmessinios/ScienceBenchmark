@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.fiberid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.segue2_target1 != -2147483359
+
+###
+
+
+Original Query:
+SELECT T1.fiberid FROM specobj AS T1 WHERE T1.segue2_target1 != -2147483359
+GPT-3 choices:
+(0) Find the fiber ID of all objects from the specobj table where the segue2_target1 value is not -2147483359.
+(1) Find the fiber IDs from the Spectroscopic_objects table where the segue2_target1 column does not equal -2147483359.
+(2) Find the fiber ID of all spectroscopic objects in the specobj table where the segue2_target1 column does not equal -2147483359.
+(3) Retrieve the fiber ID from the specobj table where the segue2_target1 value is not equal to -2147483359 and label it as "Spectroscopic_objects".
+(4) Retrieve the fiber ID from the specobj table for spectroscopic objects where segue2_target1 is not equal to -2147483359.
+(5) Get the fiber ID from the spectroscopic objects table where the segue2_target1 column does not equal -2147483359.
+(6) Find the fiber ID for objects in the specobj table where segue2_target1 is not equal to -2147483359.
+(7) Find the fiber ID of objects from the specobj table where the segue2_target1 value is not equal to -2147483359.
+
+
+Re-ranked choices:
+4.248  Find the fiber ID for objects in the specobj table where segue2_target1 is not equal to -2147483359.
+4.238  Find the fiber ID of all objects from the specobj table where the segue2_target1 value is not -2147483359.
+4.237  Find the fiber ID of objects from the specobj table where the segue2_target1 value is not equal to -2147483359.
+4.234  Get the fiber ID from the spectroscopic objects table where the segue2_target1 column does not equal -2147483359.
+4.233  Retrieve the fiber ID from the specobj table for spectroscopic objects where segue2_target1 is not equal to -2147483359.
+4.231  Find the fiber ID of all spectroscopic objects in the specobj table where the segue2_target1 column does not equal -2147483359.
+3.526  Retrieve the fiber ID from the specobj table where the segue2_target1 value is not equal to -2147483359 and label it as "Spectroscopic_objects".
+2.136  Find the fiber IDs from the Spectroscopic_objects table where the segue2_target1 column does not equal -2147483359.
+

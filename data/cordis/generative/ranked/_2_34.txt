@@ -1,0 +1,27 @@
+SELECT projects.framework_program, count(*) FROM projects AS projects  GROUP BY projects.framework_program
+
+###
+
+
+Original Query:
+SELECT T1.framework_program, count(*) FROM projects AS T1  GROUP BY T1.framework_program
+GPT-3 choices:
+(0) How many projects are there for each framework program?
+(1) Count the number of projects for each framework program and group the results by the framework program.
+(2) Count the number of projects grouped by their framework program.
+(3) Count the number of projects for each framework program and group them by their respective framework programs.
+(4) What is the number of projects grouped by framework program in the projects table?
+(5) "Count the number of projects grouped by their respective framework program."
+(6) How many projects have each framework program?
+(7) How many projects are there for each framework program?
+
+
+Re-ranked choices:
+4.958  What is the number of projects grouped by framework program in the projects table?
+4.939  Count the number of projects for each framework program and group the results by the framework program.
+4.939  Count the number of projects for each framework program and group them by their respective framework programs.
+3.581  Count the number of projects grouped by their framework program.
+3.547  "Count the number of projects grouped by their respective framework program."
+2.943  How many projects are there for each framework program?
+2.920  How many projects have each framework program?
+

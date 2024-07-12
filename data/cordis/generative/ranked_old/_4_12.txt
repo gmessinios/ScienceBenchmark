@@ -1,0 +1,28 @@
+SELECT count(*) FROM countries WHERE countries.country_name = 'Slovenia'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_name = 'Slovenia'
+GPT-3 choices:
+(0) How many countries are there in Europe called Slovenia?
+(1) Count the number of countries whose country name is Slovenia.
+(2) Show how many countries there are with country name Slovenia
+(3) How many countries are there in total?
+(4) How many countries are there with the country name Slovenia?
+(5) How many countries are there, whose country name is Slovenia?
+(6) Count all countries with country name Slovenia
+(7) Total countries where country_name = "Slovenia"
+
+
+Re-ranked choices:
+4.981  Show how many countries there are with country name Slovenia
+4.981  Count all countries with country name Slovenia
+4.281  How many countries are there with the country name Slovenia?
+4.281  How many countries are there, whose country name is Slovenia?
+4.262  Count the number of countries whose country name is Slovenia.
+2.130  Total countries where country_name = "Slovenia"
+1.520  How many countries are there in total?
+1.491  How many countries are there in Europe called Slovenia?
+

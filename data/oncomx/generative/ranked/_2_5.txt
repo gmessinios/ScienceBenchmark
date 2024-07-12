@@ -1,0 +1,28 @@
+SELECT anatomical_entity.name, count(*) FROM anatomical_entity AS anatomical_entity  GROUP BY anatomical_entity.name
+
+###
+
+
+Original Query:
+SELECT T1.name, count(*) FROM anatomical_entity AS T1  GROUP BY T1.name
+GPT-3 choices:
+(0) How many anatomical entities are there for each name?
+(1) Count the number of times each anatomical entity name appears in the anatomical_entity table and group them by their name.
+(2) How many anatomical entities are there in the database, grouped by their names?
+(3) Count the number of anatomical entities grouped by their name.
+(4) What is the count of anatomical entities grouped by their names?
+(5) How many occurrences of anatomical entities are there for each unique name?
+(6) Find the number of occurrences of each anatomical entity and group them by their names.
+(7) What is the number of occurrences for each unique name in the anatomical_entity table?
+
+
+Re-ranked choices:
+4.927  Count the number of times each anatomical entity name appears in the anatomical_entity table and group them by their name.
+3.538  Find the number of occurrences of each anatomical entity and group them by their names.
+2.158  What is the count of anatomical entities grouped by their names?
+2.150  How many anatomical entities are there in the database, grouped by their names?
+2.150  Count the number of anatomical entities grouped by their name.
+1.468  How many anatomical entities are there for each name?
+1.444  How many occurrences of anatomical entities are there for each unique name?
+1.434  What is the number of occurrences for each unique name in the anatomical_entity table?
+

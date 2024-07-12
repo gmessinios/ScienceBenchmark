@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.u = 14.90171
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.u = 14.90171
+GPT-3 choices:
+(0) What is the value of the photometrically observed type for objects in the photoobj table with a u value of 14.90171?
+(1) What is the value of photometrically observed objects for which the type matches that of photoobj with a u value of 14.90171?
+(2) What is the value of the photometrically observed type for objects with a u-value of 14.90171 in the photoobj table?
+(3) Retrieve the value of photometrically observed objects for all photo objects with a u-band magnitude of 14.90171.
+(4) What is the value for photometrically observed objects where the u-value for photoobj objects is 14.90171?
+(5) Retrieve the values of the "value" column from the "photometrically_observed" table for all entries in the "Photometric_objects" table where the value of "type" is equal to 14.90171 and join these values with the values in the "photo_type" table.
+(6) What is the value for photometrically observed type in the photoobj table for objects with a u magnitude of 14.90171?
+(7) What are the photometric values for objects with a type of 14.90171 in the photoobj table?
+
+
+Re-ranked choices:
+9.823  What is the value for photometrically observed type in the photoobj table for objects with a u magnitude of 14.90171?
+8.424  What is the value of the photometrically observed type for objects in the photoobj table with a u value of 14.90171?
+8.424  What is the value of photometrically observed objects for which the type matches that of photoobj with a u value of 14.90171?
+7.029  What is the value of the photometrically observed type for objects with a u-value of 14.90171 in the photoobj table?
+7.023  Retrieve the value of photometrically observed objects for all photo objects with a u-band magnitude of 14.90171.
+5.624  What is the value for photometrically observed objects where the u-value for photoobj objects is 14.90171?
+4.228  Retrieve the values of the "value" column from the "photometrically_observed" table for all entries in the "Photometric_objects" table where the value of "type" is equal to 14.90171 and join these values with the values in the "photo_type" table.
+2.859  What are the photometric values for objects with a type of 14.90171 in the photoobj table?
+

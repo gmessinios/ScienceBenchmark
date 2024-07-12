@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_trade_name FROM biomarker_fda AS biomarker_fda JOIN biomarker AS biomarker ON biomarker_fda.id = biomarker.id WHERE biomarker.biomarker_id != "urn:edrn:bmdb:biomarker:54"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda AS T1 JOIN biomarker AS T2 ON T1.id = T2.id WHERE T2.biomarker_id != "urn:edrn:bmdb:biomarker:54"
+GPT-3 choices:
+(0) What are the trade names of biomarker FDA in the biomarker table excluding "urn:edrn:bmdb:biomarker:54"?
+(1) Show me the test trade name for all biomarkers that are not equal to "urn:edrn:bmdb:biomarker:54" in both the biomarker_fda and biomarker tables.
+(2) Retrieve the test trade name from the FDA biomarker database for all biomarkers except for "urn:edrn:bmdb:biomarker:54".
+(3) Get the test trade name from the biomarker_fda table where the biomarker_id is not equal to "urn:edrn:bmdb:biomarker:54" and join it with the biomarker table using their shared id.
+(4) "Get the test trade name of biomarkers from the FDA database, excluding those with a biomarker ID of 'urn:edrn:bmdb:biomarker:54'."
+(5) Get the test trade name for all biomarkers from FDA that do not have an ID of "urn:edrn:bmdb:biomarker:54".
+(6) What is the test trade name from the FDA biomarker_fda table for all biomarkers where the biomarker ID does not equal "urn:edrn:bmdb:biomarker:54" in the main biomarker table?
+(7) Retrieve the test trade name from the biomarker_fda table for all biomarkers except "urn:edrn:bmdb:biomarker:54" from the biomarker table.

@@ -1,0 +1,28 @@
+SELECT disease_mutation_article.pmid FROM disease_mutation_article AS disease_mutation_article JOIN disease_mutation AS disease_mutation ON disease_mutation_article.disease_mutation_id = disease_mutation.id WHERE disease_mutation.peptide_pos = 885
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM disease_mutation_article AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.peptide_pos = 885
+GPT-3 choices:
+(0) Retrieve the PMID of articles in which a disease mutation with a peptide position of 885 is mentioned.
+(1) Find the PMID of articles where the peptide position in a disease mutation is 885.
+(2) Find the PubMed identifiers for articles about disease mutations where the peptide position is 885.
+(3) What is the PMID of articles that discuss a disease mutation with a peptide position of 885?
+(4) Retrieve the PubMed IDs of articles associated with disease mutations located at peptide position 885.
+(5) Retrieve the PMID of all articles where the peptide position in a disease-mutation is 885.
+(6) Get the PMID numbers from articles where a disease mutation has a peptide position of 885.
+(7) Find the PubMed ID numbers for articles that mention disease mutations with a peptide position of 885.
+
+
+Re-ranked choices:
+5.637  Find the PMID of articles where the peptide position in a disease mutation is 885.
+5.634  What is the PMID of articles that discuss a disease mutation with a peptide position of 885?
+5.632  Get the PMID numbers from articles where a disease mutation has a peptide position of 885.
+5.629  Retrieve the PMID of articles in which a disease mutation with a peptide position of 885 is mentioned.
+4.230  Find the PubMed ID numbers for articles that mention disease mutations with a peptide position of 885.
+2.829  Find the PubMed identifiers for articles about disease mutations where the peptide position is 885.
+2.829  Retrieve the PMID of all articles where the peptide position in a disease-mutation is 885.
+2.822  Retrieve the PubMed IDs of articles associated with disease mutations located at peptide position 885.
+

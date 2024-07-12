@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.description != "Social Sciences And Humanities"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 WHERE T1.description != "Social Sciences And Humanities"
+GPT-3 choices:
+(0) Retrieve the code from the ERC research domains where the description is not "Social Sciences and Humanities".
+(1) Get the code from the ERC research domains table where the description is not "Social Sciences And Humanities".
+(2) What is the code for all research domains in ERC that are not categorized as "Social Sciences And Humanities"?
+(3) Retrieve the code from the ERC research domains table where the description is not "Social Sciences and Humanities".
+(4) "Retrieve the code from erc_research_domains where the description is not 'Social Sciences and Humanities'."
+(5) Get the code from ERC research domains where the description is not "Social Sciences And Humanities".
+(6) Get the code for all research domains from the ERC Research Domains table except for those with a description of "Social Sciences And Humanities".
+(7) Retrieve the code from the research domains table where the description is not "Social Sciences And Humanities".

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_drug.biomarker_fda_id FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_drug != "5484725"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_drug != "5484725"
+GPT-3 choices:
+(0) Find the biomarker FDA ID from the table "biomarker_fda_drug" where the biomarker drug is not equal to "5484725".
+(1) Find the FDA IDs for biomarkers that are not "5484725" in the biomarker_fda_drug table.
+(2) Get the FDA ID for biomarkers that have a corresponding drug other than "5484725".
+(3) What is the FDA biomarker ID for a drug that is not equal to "5484725"?
+(4) Get the ID of the biomarker associated with a FDA-approved drug that is not "5484725".
+(5) Retrieve the FDA biomarker ID from the biomarker_fda_drug table where the biomarker_drug is not equal to "5484725".
+(6) "Retrieve the biomarker FDA ID from the biomarker FDA drug table where the biomarker drug is not equal to "5484725"."
+(7) Get the FDA biomarker ID from the biomarker_fda_drug table where the biomarker_drug is not equal to "5484725".
+
+
+Re-ranked choices:
+5.694  What is the FDA biomarker ID for a drug that is not equal to "5484725"?
+5.638  Find the biomarker FDA ID from the table "biomarker_fda_drug" where the biomarker drug is not equal to "5484725".
+5.635  "Retrieve the biomarker FDA ID from the biomarker FDA drug table where the biomarker drug is not equal to "5484725"."
+4.247  Get the FDA ID for biomarkers that have a corresponding drug other than "5484725".
+4.238  Get the ID of the biomarker associated with a FDA-approved drug that is not "5484725".
+4.235  Get the FDA biomarker ID from the biomarker_fda_drug table where the biomarker_drug is not equal to "5484725".
+4.231  Retrieve the FDA biomarker ID from the biomarker_fda_drug table where the biomarker_drug is not equal to "5484725".
+1.441  Find the FDA IDs for biomarkers that are not "5484725" in the biomarker_fda_drug table.
+

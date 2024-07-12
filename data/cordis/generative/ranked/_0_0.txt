@@ -1,0 +1,27 @@
+SELECT topics.title FROM topics AS topics WHERE topics.rcn = "13655"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.rcn = "13655"
+GPT-3 choices:
+(0) Retrieve the title of the topic with the RCN number "13655" from the Topics table.
+(1) Retrieve the title from the topics table where the rcn is equal to "13655".
+(2) Find the title of the topic from the "topics" table with an RCN of 13655.
+(3) Retrieve the title of the topic with RCN number 13655 from the topics table.
+(4) Retrieve the title of the topic with a record number of 13655 from the table named "topics".
+(5) What is the title of the topic with RCN number 13655 in the topics table?
+(6) What is the title of the topic with an RCN of 13655 in the topics table?
+(7) Retrieve the title from the topics table where the rcn is equal to "13655".
+
+
+Re-ranked choices:
+4.254  Find the title of the topic from the "topics" table with an RCN of 13655.
+4.254  What is the title of the topic with RCN number 13655 in the topics table?
+4.250  What is the title of the topic with an RCN of 13655 in the topics table?
+4.248  Retrieve the title from the topics table where the rcn is equal to "13655".
+4.247  Retrieve the title of the topic with RCN number 13655 from the topics table.
+4.244  Retrieve the title of the topic with the RCN number "13655" from the Topics table.
+2.839  Retrieve the title of the topic with a record number of 13655 from the table named "topics".
+

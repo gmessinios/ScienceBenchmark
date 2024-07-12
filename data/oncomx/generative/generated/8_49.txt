@@ -1,0 +1,16 @@
+SELECT stage.name FROM stage AS stage WHERE stage.id != "HsapDv:0000087"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 WHERE T1.id != "HsapDv:0000087"
+GPT-3 choices:
+(0) Get the names of all stages from the stage table where the id is not equal to "HsapDv:0000087".
+(1) Find the name of all stages in the stage table except for the one with id "HsapDv:0000087".
+(2) Find the names of all stages in the "stage" table except for the stage with ID "HsapDv:0000087".
+(3) Find the names of all stages except for "HsapDv:0000087".
+(4) Retrieve the names of all stages except for "HsapDv:0000087".
+(5) Retrieve the names of all stages except for "HsapDv:0000087" from the stage table.
+(6) Retrieve the names of all stages except for "HsapDv:0000087" from the stage table.
+(7) What are the names of all stages except for "HsapDv:0000087"?

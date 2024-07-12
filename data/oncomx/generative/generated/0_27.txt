@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.approved_indication FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission = "P160045"
+
+###
+
+
+Original Query:
+SELECT T1.approved_indication FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission = "P160045"
+GPT-3 choices:
+(0) Retrieve the approved indication for a test from biomarker_fda_test_use where the test submission is "P160045".
+(1) Retrieve the approved indication for test submission P160045 from the biomarker_fda_test_use table.
+(2) Retrieve the approved indication for test P160045 from the biomarker_fda_test_use table.
+(3) What is the approved indication for biomarker testing in FDA submission P160045?
+(4) Retrieve the approved indication from the biomarker FDA test use table where the test submission is equal to "P160045".
+(5) What is the approved indication for test submission "P160045" in the biomarker_fda_test_use table?
+(6) What is the approved indication for the test submission "P160045" in the biomarker_fda_test_use table?
+(7) What is the approved indication for the test submission with ID "P160045" in the biomarker_fda_test_use table?

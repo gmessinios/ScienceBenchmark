@@ -1,0 +1,27 @@
+SELECT count(*) FROM ec_framework_programs AS ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = "H2020"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs AS T1 WHERE T1.ec_framework_program_name = "H2020"
+GPT-3 choices:
+(0) How many entries are there in the "ec_framework_programs" table where the program name is "H2020"?
+(1) How many framework programs are there in the ec_framework_programs table with a name of "H2020"?
+(2) How many entries are there in the table "ec_framework_programs" where the program name is "H2020"?
+(3) Count the number of entries in the table "ec_framework_programs" where the program name is "H2020".
+(4) How many framework programs are there in the H2020 program?
+(5) How many entries are there in the table ec_framework_programs where the value in the column "ec_framework_program_name" is equal to "H2020"?
+(6) How many entries are there in the "ec_framework_programs" table where the program name is "H2020"?
+(7) How many rows are there in the table "ec_framework_programs" where the value in the column "ec_framework_program_name" is equal to "H2020"?
+
+
+Re-ranked choices:
+4.945  How many framework programs are there in the ec_framework_programs table with a name of "H2020"?
+3.581  How many framework programs are there in the H2020 program?
+3.545  How many entries are there in the "ec_framework_programs" table where the program name is "H2020"?
+3.545  How many entries are there in the table "ec_framework_programs" where the program name is "H2020"?
+3.538  Count the number of entries in the table "ec_framework_programs" where the program name is "H2020".
+0.728  How many rows are there in the table "ec_framework_programs" where the value in the column "ec_framework_program_name" is equal to "H2020"?
+0.725  How many entries are there in the table ec_framework_programs where the value in the column "ec_framework_program_name" is equal to "H2020"?
+

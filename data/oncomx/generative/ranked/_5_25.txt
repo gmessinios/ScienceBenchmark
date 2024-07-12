@@ -1,0 +1,28 @@
+SELECT disease_mutation.peptide_pos FROM disease_mutation AS disease_mutation    ORDER BY disease_mutation.id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.peptide_pos FROM disease_mutation AS T1    ORDER BY T1.id DESC LIMIT 1
+GPT-3 choices:
+(0) What is the position of the peptide in the most recent entry in the disease_mutation table?
+(1) Retrieve the position of the peptide in the latest entry in the disease_mutation table, sorted in descending order by its id and limited to only one result.
+(2) Retrieve the position of the peptide from the most recent disease mutation in descending order.
+(3) "Retrieve the peptide position from the latest entry in the disease mutation table, ordered by descending ID and limited to one result."
+(4) Retrieve the position of the peptide from the last entry in the table "disease_mutation" when sorted by descending ID.
+(5) What is the position of the last peptide in the table of disease mutations ordered by ID?
+(6) Retrieve the peptide position from the most recently added entry in the disease_mutation table, ordered by descending ID.
+(7) Get the position of the peptide from the last entry in the table of disease mutations, ordered by descending id.
+
+
+Re-ranked choices:
+6.323  "Retrieve the peptide position from the latest entry in the disease mutation table, ordered by descending ID and limited to one result."
+4.229  Retrieve the position of the peptide from the most recent disease mutation in descending order.
+3.534  What is the position of the last peptide in the table of disease mutations ordered by ID?
+3.525  Get the position of the peptide from the last entry in the table of disease mutations, ordered by descending id.
+3.519  Retrieve the position of the peptide in the latest entry in the disease_mutation table, sorted in descending order by its id and limited to only one result.
+2.125  Retrieve the position of the peptide from the last entry in the table "disease_mutation" when sorted by descending ID.
+2.124  Retrieve the peptide position from the most recently added entry in the disease_mutation table, ordered by descending ID.
+1.432  What is the position of the peptide in the most recent entry in the disease_mutation table?
+

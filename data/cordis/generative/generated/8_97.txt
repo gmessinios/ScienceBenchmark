@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.rcn != "702822"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.rcn != "702822"
+GPT-3 choices:
+(0) What are the codes of all topics except for "702822"?
+(1) Find the codes of all topics, except for the one with RCN 702822.
+(2) Find the codes of all topics that have a RCN value different from "702822".
+(3) Retrieve the code of topics excluding those with an rcn of 702822 from the topics table.
+(4) Get the code of all topics except for the one with the RCN value of "702822".
+(5) Retrieve the code from the topics table where the RCN is not equal to 702822.
+(6) Retrieve the code for all topics except the one with the RCN of 702822.
+(7) Find the code of all topics, excluding the topic with RCN number 702822.

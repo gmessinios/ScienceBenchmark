@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.loadversion FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.veldisperr != 9.597716
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM specobj AS T1 WHERE T1.veldisperr != 9.597716
+GPT-3 choices:
+(0) Retrieve the load version for objects from the "specobj" table where the velocity dispersion error is not equal to 9.597716.
+(1) Find the version numbers of all loaded objects from the specobj table, specifically those that have a veldisperr value that is not equal to 9.597716.
+(2) Retrieve the load version from the Spectroscopic_objects table for all objects that have a velocity dispersion error that is not equal to 9.597716.
+(3) What is the load version for all spectroscopic objects where the velocity dispersion error is not equal to 9.597716?
+(4) Retrieve the load version from the Spectroscopic_objects table for all rows where the veldisperr value is not equal to 9.597716.
+(5) Retrieve the loadversion from the Spectroscopic_objects table for objects in the specobj table that have a veldisperr value not equal to 9.597716.
+(6) Find the load version for spectroscopic objects where the velocity dispersion error is not equal to 9.597716.
+(7) Find the version of the Spectroscopic_objects that have a veldisperr value different than 9.597716.
+
+
+Re-ranked choices:
+9.124  Retrieve the load version from the Spectroscopic_objects table for all objects that have a velocity dispersion error that is not equal to 9.597716.
+8.430  Find the load version for spectroscopic objects where the velocity dispersion error is not equal to 9.597716.
+8.428  What is the load version for all spectroscopic objects where the velocity dispersion error is not equal to 9.597716?
+8.428  Retrieve the load version for objects from the "specobj" table where the velocity dispersion error is not equal to 9.597716.
+3.528  Retrieve the load version from the Spectroscopic_objects table for all rows where the veldisperr value is not equal to 9.597716.
+2.824  Find the version numbers of all loaded objects from the specobj table, specifically those that have a veldisperr value that is not equal to 9.597716.
+2.125  Find the version of the Spectroscopic_objects that have a veldisperr value different than 9.597716.
+2.120  Retrieve the loadversion from the Spectroscopic_objects table for objects in the specobj table that have a veldisperr value not equal to 9.597716.
+

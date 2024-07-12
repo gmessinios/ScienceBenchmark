@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.alias = "bHLHe39"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_alias AS T1 WHERE T1.alias = "bHLHe39"
+GPT-3 choices:
+(0) How many biomarkers have the alias "bHLHe39"?
+(1) How many biomarker aliases are there in the database with the alias "bHLHe39"?
+(2) How many rows are there in the biomarker_alias table where the alias column is equal to "bHLHe39"?
+(3) How many biomarker aliases are there with the value "bHLHe39"?
+(4) How many records are in the biomarker_alias table where the alias is "bHLHe39"?
+(5) How many records are there in the biomarker_alias table where the alias column is equal to "bHLHe39"?
+(6) How many biomarker aliases are there in the database with the alias "bHLHe39"?
+(7) How many records are in the biomarker_alias table where the alias column contains "bHLHe39"?

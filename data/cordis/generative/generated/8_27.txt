@@ -1,0 +1,16 @@
+SELECT programmes.parent FROM programmes AS programmes WHERE programmes.short_name != "Research in support of international space partnerships"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 WHERE T1.short_name != "Research in support of international space partnerships"
+GPT-3 choices:
+(0) Retrieve the parent programme of all programmes except for "Research in support of international space partnerships".
+(1) Find the parent of all programmes that have a short name other than "Research in support of international space partnerships".
+(2) Get the name of the parent programme for all programmes except "Research in support of international space partnerships".
+(3) What is the name of the parent programme for programmes that have a short name other than "Research in support of international space partnerships"?
+(4) Retrieve the parent programme of all programmes except for "Research in support of international space partnerships".
+(5) "Retrieve the parent programme for all programmes except for 'Research in support of international space partnerships'."
+(6) What is the name of the parent programme for all programmes except "Research in support of international space partnerships"?
+(7) Retrieve the parent programme for all programmes, excluding those with a short name of "Research in support of international space partnerships".

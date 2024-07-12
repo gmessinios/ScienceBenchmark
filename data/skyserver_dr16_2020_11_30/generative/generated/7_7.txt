@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 4 or photometrically_observed.description = "Galaxy: An extended object composed of many stars and other matter."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value = 4 or T1.description = "Galaxy: An extended object composed of many stars and other matter."
+GPT-3 choices:
+(0) "Retrieve the names of all objects that are either photometrically observed with a value of 4 or have a description indicating they are galaxies."
+(1) "Retrieve the name of any galaxy that has a photometric observation type value of 4 or a description indicating it is an extended object composed of stars and other matter."
+(2) What are the names of all objects that have a photo type value of 4 or a description of "Galaxy: An extended object composed of many stars and other matter"?
+(3) Show the name of objects that are either classified as photometrically observed with a value of 4 or have a description stating they are galaxies.
+(4) Retrieve the names of all objects that are either photometrically observed with a value of 4 or have a description of "Galaxy: An extended object composed of many stars and other matter."
+(5) "Retrieve the names of all objects in which either their value is 4 or their description is 'Galaxy: An extended object composed of many stars and other matter.'"
+(6) "Retrieve the names of all objects observed photometrically that are classified as either value 4 or described as a galaxy composed of stars and other matter."
+(7) What are the names of galaxies that have a photometric value of 4 or are described as an extended object composed of many stars and other matter?

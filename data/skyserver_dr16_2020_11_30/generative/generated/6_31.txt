@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.dec FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.veldisp = 138.4016 and Spectroscopic_objects.survey = "eboss"
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM specobj AS T1 WHERE T1.veldisp = 138.4016 and T1.survey = "eboss"
+GPT-3 choices:
+(0) "Retrieve the declination of all objects from the specobj table where the velocity dispersion is equal to 138.4016 and the survey is 'eboss'."
+(1) Find the declination values of all spectroscopic objects that have a velocity dispersion of 138.4016 and are from the eBOSS survey.
+(2) Retrieve the declination values for all spectroscopic objects where the velocity dispersion is equal to 138.4016 and the survey is "eboss".
+(3) Find the declination of spectroscopic objects in the "eboss" survey with a velocity dispersion of 138.4016.
+(4) Retrieve the declination of spectroscopic objects from the "eboss" survey that have a velocity dispersion of 138.4016.
+(5) What are the declination coordinates of objects in the EBOSS survey with a velocity dispersion of 138.4016 km/s?
+(6) Retrieve the declination values for objects in the "eboss" survey with a velocity dispersion of 138.4016 from the specobj table.
+(7) Retrieve the declination of spectroscopic objects with a velocity dispersion of 138.4016 and surveyed by "eboss".

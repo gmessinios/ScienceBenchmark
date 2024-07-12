@@ -1,0 +1,16 @@
+SELECT Photometric_objects.dec, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.dec
+
+###
+
+
+Original Query:
+SELECT T1.dec, count(*) FROM photoobj AS T1  GROUP BY T1.dec
+GPT-3 choices:
+(0) How many rows are there in the table photoobj with the count of occurrences grouped by the column dec from the table Photometric_objects?
+(1) Count the number of photometric objects for each unique declination and display the corresponding declination values.
+(2) Count the number of photometric objects and group them by their declination.
+(3) How many Photometric objects are there for each declination in the photoobj table?
+(4) Retrieve the count of objects in the "photoobj" table grouped by their declination, and list their declination values.
+(5) How many Photometric_objects are there for each distinct value of dec, with the number of objects counted for each one?
+(6) Retrieve the number of objects and their corresponding declination from the photoobj table, grouped by declination.
+(7) Count the number of objects in the "photoobj" table and group them by their declination, displaying the declination and corresponding count.

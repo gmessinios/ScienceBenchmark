@@ -1,0 +1,28 @@
+SELECT map_protein_disease_mutation.ensembl_transcript_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.peptide_id != "ENSP00000216733"
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_transcript_id FROM map_protein_disease_mutation AS T1 WHERE T1.peptide_id != "ENSP00000216733"
+GPT-3 choices:
+(0) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000216733".
+(1) Return the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide ID is not "ENSP00000216733".
+(2) Find the Ensembl transcript ID from map_protein_disease_mutation where the peptide ID is not "ENSP00000216733".
+(3) Find the Ensembl transcript IDs from the map of protein-disease mutations where the peptide ID is not "ENSP00000216733".
+(4) Retrieve the ensembl transcript ID from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000216733".
+(5) Retrieve the Ensembl transcript ID from the protein-disease-mutation mapping table, excluding those with a peptide ID of "ENSP00000216733".
+(6) Retrieve the ensembl transcript id from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000216733".
+(7) Get the Ensembl transcript ID from the map of protein, disease, and mutation where the peptide ID is not "ENSP00000216733".
+
+
+Re-ranked choices:
+9.128  Get the Ensembl transcript ID from the map of protein, disease, and mutation where the peptide ID is not "ENSP00000216733".
+7.730  Find the Ensembl transcript IDs from the map of protein-disease mutations where the peptide ID is not "ENSP00000216733".
+6.328  Find the Ensembl transcript ID from map_protein_disease_mutation where the peptide ID is not "ENSP00000216733".
+6.323  Return the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide ID is not "ENSP00000216733".
+6.322  Retrieve the Ensembl transcript ID from the protein-disease-mutation mapping table, excluding those with a peptide ID of "ENSP00000216733".
+4.925  Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000216733".
+4.925  Retrieve the ensembl transcript ID from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000216733".
+4.923  Retrieve the ensembl transcript id from the map_protein_disease_mutation table where the peptide_id is not equal to "ENSP00000216733".
+

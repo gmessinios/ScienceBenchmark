@@ -1,0 +1,28 @@
+SELECT biomarker_fda.id FROM biomarker_fda AS biomarker_fda JOIN biomarker_fda_ncit_term AS biomarker_fda_ncit_term ON biomarker_fda.id = biomarker_fda_ncit_term.biomarker_fda_id WHERE biomarker_fda_ncit_term.biomarker_fda_id != "FDA000119"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda AS T1 JOIN biomarker_fda_ncit_term AS T2 ON T1.id = T2.biomarker_fda_id WHERE T2.biomarker_fda_id != "FDA000119"
+GPT-3 choices:
+(0) What is the ID of all biomarkers in the FDA database that have associated NCIt terms, excluding those with an ID of "FDA000119"?
+(1) Find the IDs of all biomarkers in the FDA database that have a NCIt term associated with them, excluding the biomarker with ID "FDA000119".
+(2) What is the ID for all biomarkers in the FDA database that have an associated NCIt term, except for biomarker "FDA000119"?
+(3) Get the ID of all biomarkers from the FDA that have an NCIT term associated with them, except for "FDA000119".
+(4) Retrieve the id from the biomarker_fda table where the corresponding id in the biomarker_fda_ncit_term table is not equal to "FDA000119".
+(5) Get the id from the biomarker_fda table where the biomarker_fda_ncit_term table has an entry with a different id than "FDA000119".
+(6) What are the IDs of all biomarkers in the FDA database that have at least one associated NCIt term and exclude any biomarkers with the ID "FDA000119"?
+(7) Find all the IDs from the biomarker_fda table that have an associated ID in the biomarker_fda_ncit_term table where the NCIt term is not "FDA000119".
+
+
+Re-ranked choices:
+7.727  Find the IDs of all biomarkers in the FDA database that have a NCIt term associated with them, excluding the biomarker with ID "FDA000119".
+6.335  Get the ID of all biomarkers from the FDA that have an NCIT term associated with them, except for "FDA000119".
+6.330  What is the ID for all biomarkers in the FDA database that have an associated NCIt term, except for biomarker "FDA000119"?
+6.327  What are the IDs of all biomarkers in the FDA database that have at least one associated NCIt term and exclude any biomarkers with the ID "FDA000119"?
+4.931  What is the ID of all biomarkers in the FDA database that have associated NCIt terms, excluding those with an ID of "FDA000119"?
+4.921  Find all the IDs from the biomarker_fda table that have an associated ID in the biomarker_fda_ncit_term table where the NCIt term is not "FDA000119".
+2.120  Retrieve the id from the biomarker_fda table where the corresponding id in the biomarker_fda_ncit_term table is not equal to "FDA000119".
+2.120  Get the id from the biomarker_fda table where the biomarker_fda_ncit_term table has an entry with a different id than "FDA000119".
+

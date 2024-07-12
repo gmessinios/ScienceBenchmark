@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_ac != "B5MCN3"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_ac != "B5MCN3"
+GPT-3 choices:
+(0) Find the UniProtKB canonical accession number from the map_uniprot_canonical_id table where the UniProtKB accession number is not "B5MCN3".
+(1) Retrieve the canonical UniProtKB ID from the mapping table where the UniProtKB AC is not "B5MCN3".
+(2) Retrieve the canonical UniProtKB accession number from the "map_uniprot_canonical_id" table where the UniProtKB accession number is not equal to "B5MCN3".
+(3) Retrieve the canonical UniProtKB ID from the map_uniprot_canonical_id table where the UniProtKB accession number is not equal to "B5MCN3".
+(4) Retrieve the UniProtKB canonical accession code from the map_uniprot_canonical_id table where the UniProtKB accession code is not equal to "B5MCN3".
+(5) Get the uniprotkb_canonical_ac from the map_uniprot_canonical_id table where uniprotkb_ac is not equal to "B5MCN3".
+(6) Retrieve the UniProtKB canonical accession number from the map_uniprot_canonical_id table where the UniProtKB accession number is not equal to "B5MCN3".
+(7) Retrieve the UniprotKB canonical accession numbers from the table "map_uniprot_canonical_id" where the UniprotKB accession number is not equal to "B5MCN3".
+
+
+Re-ranked choices:
+6.326  Retrieve the canonical UniProtKB ID from the mapping table where the UniProtKB AC is not "B5MCN3".
+4.919  Retrieve the canonical UniProtKB ID from the map_uniprot_canonical_id table where the UniProtKB accession number is not equal to "B5MCN3".
+3.517  Retrieve the UniProtKB canonical accession code from the map_uniprot_canonical_id table where the UniProtKB accession code is not equal to "B5MCN3".
+3.517  Find the UniProtKB canonical accession number from the map_uniprot_canonical_id table where the UniProtKB accession number is not "B5MCN3".
+3.516  Retrieve the canonical UniProtKB accession number from the "map_uniprot_canonical_id" table where the UniProtKB accession number is not equal to "B5MCN3".
+3.516  Retrieve the UniProtKB canonical accession number from the map_uniprot_canonical_id table where the UniProtKB accession number is not equal to "B5MCN3".
+3.516  Retrieve the UniprotKB canonical accession numbers from the table "map_uniprot_canonical_id" where the UniprotKB accession number is not equal to "B5MCN3".
+0.717  Get the uniprotkb_canonical_ac from the map_uniprot_canonical_id table where uniprotkb_ac is not equal to "B5MCN3".
+

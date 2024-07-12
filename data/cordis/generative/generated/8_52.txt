@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles AS project_member_roles WHERE project_member_roles.code != "participant"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM project_member_roles AS T1 WHERE T1.code != "participant"
+GPT-3 choices:
+(0) Show me the description of all project member roles, excluding those with a code of "participant".
+(1) "Retrieve the description from the project member roles table where the code is not equal to 'participant'."
+(2) Retrieve the description of all project member roles except for "participant" from the project_member_roles table.
+(3) Find the description of all project member roles that are not "participant".
+(4) What are the descriptions for all project member roles except for participants?
+(5) Retrieve the description of all project member roles except for "participant".
+(6) Retrieve the description from the project member roles table for all entries where the code is not equal to "participant".
+(7) Get the descriptions of all project member roles, excluding those with the code "participant".

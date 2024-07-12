@@ -1,0 +1,16 @@
+SELECT Photometric_objects.clean FROM photoobj AS Photometric_objects WHERE Photometric_objects.mjd != 53995
+
+###
+
+
+Original Query:
+SELECT T1.clean FROM photoobj AS T1 WHERE T1.mjd != 53995
+GPT-3 choices:
+(0) Retrieve the "clean" column from the "photoobj" table for objects in which the "mjd" column is not equal to 53995.
+(1) Find the clean data from Photometric_objects in the photoobj table where the mjd value is not equal to 53995.
+(2) Find the clean photometric objects from the photoobj table where the mjd is not equal to 53995.
+(3) Find the clean photometric objects in the photoobj table where the mjd value is not equal to 53995.
+(4) "Retrieve the clean column from the photoobj table for all objects in which the mjd column is not equal to 53995."
+(5) Find the clean objects from the photoobj table where the mjd value is not equal to 53995.
+(6) Get the clean column from the photoobj table where the mjd value is not equal to 53995 in a new table called Photometric_objects.
+(7) "Retrieve the clean values from the photometric objects in the photoobj table where the MJD is not equal to 53995."

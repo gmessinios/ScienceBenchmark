@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code != 'PRC'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code != 'PRC'
+GPT-3 choices:
+(0) Show me the description of activity types that are not PRC
+(1) Show all descriptions for activity types that are not PRC
+(2) Show me the description of activity types that do not have as code PRC
+(3) What are the descriptions for the activity types that are not PRC?
+(4) Retrieve all the descriptions for activity types that are different from PRC
+(5) What are the descriptions of activity types that are not 'PRC'?
+(6) Show all descriptions of activity types that are not PRC.
+(7) What are the activity types descriptions for projects unrelated to PRC?
+
+
+Re-ranked choices:
+6.347  Show me the description of activity types that do not have as code PRC
+4.947  Show me the description of activity types that are not PRC
+3.550  Show all descriptions for activity types that are not PRC
+3.547  What are the descriptions of activity types that are not 'PRC'?
+3.533  Retrieve all the descriptions for activity types that are different from PRC
+2.854  What are the descriptions for the activity types that are not PRC?
+2.850  Show all descriptions of activity types that are not PRC.
+2.834  What are the activity types descriptions for projects unrelated to PRC?
+

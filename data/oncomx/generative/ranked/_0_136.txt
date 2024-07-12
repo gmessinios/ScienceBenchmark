@@ -1,0 +1,27 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.feature_key = "metal binding"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.feature_key = "metal binding"
+GPT-3 choices:
+(0) What is the description of the metal binding feature in the disease mutation site annotation table?
+(1) What are the descriptions for metal binding in the disease mutation site annotation?
+(2) Retrieve the description of all features from the disease mutation site annotation where the feature key is "metal binding".
+(3) What is the description of the metal binding feature in the disease mutation site annotation table?
+(4) What is the description for metal binding in the disease mutation site annotation table?
+(5) Retrieve the description of the disease mutation site annotation where the feature key is "metal binding".
+(6) What is the description of the feature with a key of "metal binding" in the disease_mutation_site_annotation table?
+(7) What is the description of the disease mutation site annotation for features related to "metal binding"?
+
+
+Re-ranked choices:
+11.225  Retrieve the description of all features from the disease mutation site annotation where the feature key is "metal binding".
+11.225  Retrieve the description of the disease mutation site annotation where the feature key is "metal binding".
+9.825  What is the description of the metal binding feature in the disease mutation site annotation table?
+8.427  What is the description for metal binding in the disease mutation site annotation table?
+8.425  What is the description of the disease mutation site annotation for features related to "metal binding"?
+5.628  What are the descriptions for metal binding in the disease mutation site annotation?
+5.624  What is the description of the feature with a key of "metal binding" in the disease_mutation_site_annotation table?
+

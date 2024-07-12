@@ -1,0 +1,16 @@
+SELECT biomarker_edrn.id FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.biomarker_type = "Gene" or biomarker_edrn.qa_state = "Accepted"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_edrn AS T1 WHERE T1.biomarker_type = "Gene" or T1.qa_state = "Accepted"
+GPT-3 choices:
+(0) Find the ID of biomarkers from the EDRN database that are either genes or have been accepted in quality assurance.
+(1) Find the ID of biomarker_edrn where the biomarker type is "Gene" or the QA state is "Accepted".
+(2) Retrieve the identification numbers of all biomarkers from the EDRN database that have a type of "Gene" or are in a state of "Accepted".
+(3) Find the ID numbers of all biomarkers from the EDRN database that have a type of "Gene" or are in an accepted quality assurance state.
+(4) What are the IDs of biomarkers that have a type of "Gene" or have a QA state of "Accepted" in the biomarker_edrn table?
+(5) Retrieve the IDs from the biomarker_edrn table where either the biomarker_type is "Gene" or the qa_state is "Accepted".
+(6) Find the ID numbers for biomarkers in the EDRN database that are either categorized as "Gene" or have a quality assurance state of "Accepted".
+(7) Retrieve the IDs from the biomarker_edrn table where the biomarker type is "Gene" or the QA state is "Accepted".

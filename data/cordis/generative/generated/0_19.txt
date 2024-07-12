@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.title = "Improving impact and broadening stakeholder engagement in support of transport research and innovation"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.title = "Improving impact and broadening stakeholder engagement in support of transport research and innovation"
+GPT-3 choices:
+(0) Get the RCN from the topics table where the title is "Improving impact and broadening stakeholder engagement in support of transport research and innovation".
+(1) Retrieve the Research Council Number (RCN) from the "topics" table where the title is "Improving impact and broadening stakeholder engagement in support of transport research and innovation".
+(2) Retrieve the research council number for the topic "Improving impact and broadening stakeholder engagement in support of transport research and innovation" from the table of topics.
+(3) Retrieve the RCN from the topics table where the title is "Improving impact and broadening stakeholder engagement in support of transport research and innovation".
+(4) Retrieve the RCN from the Topics table where the title is "Improving impact and broadening stakeholder engagement in support of transport research and innovation".
+(5) Find the Research Council Number (RCN) of the topic with the title "Improving impact and broadening stakeholder engagement in support of transport research and innovation".
+(6) What is the RCN for the topic "Improving impact and broadening stakeholder engagement in support of transport research and innovation"?
+(7) What is the research council number for the topic "Improving impact and broadening stakeholder engagement in support of transport research and innovation"?

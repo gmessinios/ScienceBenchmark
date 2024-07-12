@@ -1,0 +1,25 @@
+SELECT count(*) FROM subject_areas AS subject_areas WHERE subject_areas.title = "Standards"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1 WHERE T1.title = "Standards"
+GPT-3 choices:
+(0) How many subject areas are there in which the title is "Standards"?
+(1) How many subject areas are there with the title "Standards"?
+(2) How many subject areas have a title of "Standards"?
+(3) How many subject areas are there with the title "Standards"?
+(4) How many subject areas are there with the title "Standards"?
+(5) How many records are there in the "subject_areas" table where the title is "Standards"?
+(6) How many subject areas are there where the title is "Standards"?
+(7) How many subject areas are there with the title "Standards"?
+
+
+Re-ranked choices:
+4.968  How many subject areas are there in which the title is "Standards"?
+4.968  How many subject areas have a title of "Standards"?
+4.962  How many subject areas are there with the title "Standards"?
+4.958  How many subject areas are there where the title is "Standards"?
+2.147  How many records are there in the "subject_areas" table where the title is "Standards"?
+

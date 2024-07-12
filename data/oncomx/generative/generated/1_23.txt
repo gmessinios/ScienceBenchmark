@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.gene_symbol FROM xref_gene_ensembl AS xref_gene_ensembl JOIN species AS species ON xref_gene_ensembl.speciesid = species.speciesid WHERE species.speciesid = 9606
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM xref_gene_ensembl AS T1 JOIN species AS T2 ON T1.speciesid = T2.speciesid WHERE T2.speciesid = 9606
+GPT-3 choices:
+(0) Find the gene symbol from the table xref_gene_ensembl where the speciesid matches 9606, and join it with the species table on matching speciesids.
+(1) What are the gene symbols for all genes that have an Ensembl cross-reference and belong to the species with ID 9606?
+(2) Retrieve the gene symbol from the xref_gene_ensembl table for all species where the speciesid is equal to 9606 and join it with the species table to ensure that only records for humans are included.
+(3) Retrieve the gene symbol from the Ensembl cross-reference table for human species.
+(4) Find the gene symbols from the xref_gene_ensembl table for all species where the species ID is equal to 9606, which is the ID for humans.
+(5) Retrieve the gene symbol from the xref_gene_ensembl table for all species with a speciesid of 9606, joined with the species table on matching speciesids.
+(6) Get the gene symbols from the xref_gene_ensembl table where the speciesid is 9606 and join it with the species table to retrieve only those records that match with the same speciesid in both tables.
+(7) Find the gene symbol from the table "xref_gene_ensembl" where the species id is equal to 9606, joining it with the table "species" using their shared column "speciesid".

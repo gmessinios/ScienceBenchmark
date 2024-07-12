@@ -1,0 +1,28 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id = 14859
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id = 14859
+GPT-3 choices:
+(0) Retrieve the UBeron anatomical IDs for tissues associated with the disease mutation ID 14859 from the table disease_mutation_tissue.
+(1) Retrieve the Uberon anatomical ID from the disease_mutation_tissue table for a given disease mutation ID of 14859.
+(2) Get the anatomical ID from the "uberon_anatomical_id" column of the "disease_mutation_tissue" table where the disease mutation ID is equal to 14859.
+(3) What is the anatomical identifier for the tissues associated with disease mutation ID 14859 in the disease_mutation_tissue table?
+(4) Retrieve the uberon anatomical id for all entries in the disease_mutation_tissue table where the disease_mutation_id is 14859.
+(5) Get the Uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is equal to 14859.
+(6) What is the uberon anatomical id for the disease-mutation association with an ID of 14859 in the table disease_mutation_tissue?
+(7) Retrieve the uberon anatomical ID from the disease_mutation_tissue table for the record with a disease_mutation_id of 14859.
+
+
+Re-ranked choices:
+8.428  Get the Uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is equal to 14859.
+7.023  Retrieve the Uberon anatomical ID from the disease_mutation_tissue table for a given disease mutation ID of 14859.
+7.020  Retrieve the UBeron anatomical IDs for tissues associated with the disease mutation ID 14859 from the table disease_mutation_tissue.
+5.622  Get the anatomical ID from the "uberon_anatomical_id" column of the "disease_mutation_tissue" table where the disease mutation ID is equal to 14859.
+5.619  What is the anatomical identifier for the tissues associated with disease mutation ID 14859 in the disease_mutation_tissue table?
+4.223  Retrieve the uberon anatomical ID from the disease_mutation_tissue table for the record with a disease_mutation_id of 14859.
+4.221  Retrieve the uberon anatomical id for all entries in the disease_mutation_tissue table where the disease_mutation_id is 14859.
+4.220  What is the uberon anatomical id for the disease-mutation association with an ID of 14859 in the table disease_mutation_tissue?
+

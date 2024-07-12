@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description != "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description != "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+GPT-3 choices:
+(0) Get the names of all photometrically observed objects, excluding trails, from the photo_type table.
+(1) Show me the names of all photometric observations that are not classified as "Trail".
+(2) Retrieve the names of photometrically observed objects that are not described as "Trail: A satellite or asteroid or meteor trail".
+(3) Retrieve the names of all objects from the photo_type table where the description is not equal to "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+(4) Retrieve the names of all objects from the photometrically_observed table that are not described as a satellite, asteroid, or meteor trail.
+(5) Retrieve the names of all objects from the photo_type table that have a description other than "Trail: A satellite or asteroid or meteor trail".
+(6) Retrieve the names of photometrically observed objects that are not labeled as "Trail".
+(7) What is the name of the photo type for observations that are not classified as a satellite, asteroid, or meteor trail?
+
+
+Re-ranked choices:
+7.047  Retrieve the names of all objects from the photo_type table where the description is not equal to "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+7.024  Retrieve the names of photometrically observed objects that are not described as "Trail: A satellite or asteroid or meteor trail".
+5.626  Retrieve the names of all objects from the photo_type table that have a description other than "Trail: A satellite or asteroid or meteor trail".
+3.532  Retrieve the names of photometrically observed objects that are not labeled as "Trail".
+2.829  What is the name of the photo type for observations that are not classified as a satellite, asteroid, or meteor trail?
+2.824  Get the names of all photometrically observed objects, excluding trails, from the photo_type table.
+2.124  Retrieve the names of all objects from the photometrically_observed table that are not described as a satellite, asteroid, or meteor trail.
+0.734  Show me the names of all photometric observations that are not classified as "Trail".
+

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.ncit_biomarker = "EGLN1 Gene"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 WHERE T1.ncit_biomarker = "EGLN1 Gene"
+GPT-3 choices:
+(0) "Retrieve the biomarker FDA ID from the table biomarker_fda_ncit_term where the NCIT biomarker is "EGLN1 Gene"."
+(1) Which biomarker FDA IDs correspond to the NCIt term "EGLN1 Gene"?
+(2) What is the biomarker FDA ID for the term "EGLN1 Gene" in the table "biomarker_fda_ncit_term"?
+(3) Which biomarker IDs are associated with the NCIt term "EGLN1 Gene" in the biomarker_fda_ncit_term table?
+(4) Find the biomarker FDA ID for "EGLN1 Gene" in the table biomarker_fda_ncit_term.
+(5) Retrieve the biomarker FDA ID for the term "EGLN1 Gene" from the table containing NCIt biomarkers.
+(6) Find the FDA biomarker ID for the "EGLN1 Gene" in the table containing biomarker and NCIT terms.
+(7) What is the FDA biomarker ID for the EGLN1 Gene in the NCIt biomarker database?

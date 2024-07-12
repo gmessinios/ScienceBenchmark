@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.title = "Exploring and supporting citizen science"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.title = "Exploring and supporting citizen science"
+GPT-3 choices:
+(0) Find the Research Council Number for the topic "Exploring and supporting citizen science".
+(1) Retrieve the Research Council Number (RCN) for the topic "Exploring and supporting citizen science" from the table of topics.
+(2) Retrieve the Research Council Number from the "topics" table where the title is "Exploring and supporting citizen science".
+(3) Retrieve the Research Council Number (rcn) of the topic with the title "Exploring and supporting citizen science" from the table of topics.
+(4) What is the research control number for the topic "Exploring and supporting citizen science" in the topics table?
+(5) Get the research council number of the topic "Exploring and supporting citizen science" from the topics table.
+(6) What is the research council number of the topic "Exploring and supporting citizen science"?
+(7) Find the RCN of topics where the title is "Exploring and supporting citizen science".

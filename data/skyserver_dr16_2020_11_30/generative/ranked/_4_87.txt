@@ -1,0 +1,28 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 308505677540648960
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 308505677540648960
+GPT-3 choices:
+(0) How many stellar spectral line indices are there in the spplines table where the specobjid is equal to 308505677540648960?
+(1) Count the number of rows in the "Stellar_spectral_line_indices" table where the "specobjid" column is equal to 308505677540648960.
+(2) How many spectral lines are there for the Stellar_spectal_line_indices with the specobjid of 308505677540648960?
+(3) How many spectral lines are there in the Stellar_spectral_line_indices table for the object with specobjid 308505677540648960?
+(4) How many spectral lines are there for the stellar object with a specobjid of 308505677540648960 in the table spplines?
+(5) How many rows are there in the "Stellar_spectral_line_indices" table where the "specobjid" column has a value of 308505677540648960?
+(6) Count the number of rows in the spplines table where the specobjid column is equal to 308505677540648960.
+(7) How many stellar spectral line indices are there for the specobjid 308505677540648960?
+
+
+Re-ranked choices:
+2.856  How many stellar spectral line indices are there for the specobjid 308505677540648960?
+2.833  How many stellar spectral line indices are there in the spplines table where the specobjid is equal to 308505677540648960?
+1.437  How many spectral lines are there in the Stellar_spectral_line_indices table for the object with specobjid 308505677540648960?
+1.433  How many spectral lines are there for the stellar object with a specobjid of 308505677540648960 in the table spplines?
+0.736  How many spectral lines are there for the Stellar_spectal_line_indices with the specobjid of 308505677540648960?
+0.036  Count the number of rows in the spplines table where the specobjid column is equal to 308505677540648960.
+0.035  Count the number of rows in the "Stellar_spectral_line_indices" table where the "specobjid" column is equal to 308505677540648960.
+0.033  How many rows are there in the "Stellar_spectral_line_indices" table where the "specobjid" column has a value of 308505677540648960?
+

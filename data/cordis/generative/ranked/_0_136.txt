@@ -1,0 +1,25 @@
+SELECT programmes.parent FROM programmes AS programmes WHERE programmes.title = "High throughput technologies for the development of formulated products - LA"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 WHERE T1.title = "High throughput technologies for the development of formulated products - LA"
+GPT-3 choices:
+(0) Retrieve the parent programme for the programme titled "High throughput technologies for the development of formulated products - LA".
+(1) Retrieve the parent programme for the programme titled "High throughput technologies for the development of formulated products - LA".
+(2) Find the parent programme for the "High throughput technologies for the development of formulated products - LA" programme.
+(3) Find the parent programme for the programme titled "High throughput technologies for the development of formulated products - LA".
+(4) What is the name of the parent programme for "High throughput technologies for the development of formulated products - LA"?
+(5) What is the parent programme for "High throughput technologies for the development of formulated products - LA"?
+(6) What is the parent programme for "High throughput technologies for the development of formulated products - LA"?
+(7) What is the parent programme for "High throughput technologies for the development of formulated products - LA"?
+
+
+Re-ranked choices:
+9.126  What is the name of the parent programme for "High throughput technologies for the development of formulated products - LA"?
+9.123  What is the parent programme for "High throughput technologies for the development of formulated products - LA"?
+9.121  Find the parent programme for the "High throughput technologies for the development of formulated products - LA" programme.
+9.120  Retrieve the parent programme for the programme titled "High throughput technologies for the development of formulated products - LA".
+9.120  Find the parent programme for the programme titled "High throughput technologies for the development of formulated products - LA".
+

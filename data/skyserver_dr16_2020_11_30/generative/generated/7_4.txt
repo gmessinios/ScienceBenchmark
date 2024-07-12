@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Trail: A satellite or asteroid or meteor trail. (not yet used)" or photometrically_observed.value = 7
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Trail: A satellite or asteroid or meteor trail. (not yet used)" or T1.value = 7
+GPT-3 choices:
+(0) List the names of all objects in the photometrically observed photo type where the description is "Trail" or the value is 7.
+(1) Find the names of all objects observed photometrically where the description is "Trail: A satellite or asteroid or meteor trail" or the value is 7.
+(2) Find the names of all photometrically observed objects that are either labeled as "Trail" with a value of 7 or have a description of "A satellite or asteroid or meteor trail."
+(3) Retrieve the names of objects that have a description of "Trail" or a value of 7 in the table for photometrically observed photo types.
+(4) Show the names of objects that are classified as a trail, specifically satellites, asteroids, or meteor trails, in a photometrically observed photo type.
+(5) What are the names of all objects that have a photo type description of "Trail" or a value of 7 in the photometrically observed table?
+(6) What are the names of all photometrically observed objects with a description of "Trail: A satellite or asteroid or meteor trail" or a value of 7?
+(7) Find the names of all objects that have a description of "Trail" or a value of 7 in the photometrically observed column.

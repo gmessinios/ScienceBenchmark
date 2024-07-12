@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes AS programmes WHERE programmes.parent = "H2020-EU.3.6."
+
+###
+
+
+Original Query:
+SELECT T1.code FROM programmes AS T1 WHERE T1.parent = "H2020-EU.3.6."
+GPT-3 choices:
+(0) Find the codes of all programmes whose parent is "H2020-EU.3.6.".
+(1) What is the code for all programmes with "H2020-EU.3.6." as their parent?
+(2) What are the programme codes for all programmes with a parent code of "H2020-EU.3.6." in the programmes table?
+(3) What are the codes for programmes that have "H2020-EU.3.6." as their parent?
+(4) Find the codes of all programmes where the parent is "H2020-EU.3.6.".
+(5) Retrieve the code of all programmes with a parent programme code of "H2020-EU.3.6.".
+(6) Retrieve the codes of all programmes where their parent is "H2020-EU.3.6." from the table "programmes".
+(7) Retrieve the code of programmes where the parent is "H2020-EU.3.6.".
+
+
+Re-ranked choices:
+4.264  Retrieve the code of programmes where the parent is "H2020-EU.3.6.".
+4.248  What are the programme codes for all programmes with a parent code of "H2020-EU.3.6." in the programmes table?
+4.244  Retrieve the code of all programmes with a parent programme code of "H2020-EU.3.6.".
+2.958  What is the code for all programmes with "H2020-EU.3.6." as their parent?
+2.886  Find the codes of all programmes whose parent is "H2020-EU.3.6.".
+2.877  Find the codes of all programmes where the parent is "H2020-EU.3.6.".
+2.864  Retrieve the codes of all programmes where their parent is "H2020-EU.3.6." from the table "programmes".
+1.558  What are the codes for programmes that have "H2020-EU.3.6." as their parent?
+

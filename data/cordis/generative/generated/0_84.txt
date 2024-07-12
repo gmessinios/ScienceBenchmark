@@ -1,0 +1,16 @@
+SELECT project_members.department_name FROM project_members AS project_members WHERE project_members.country = "JM"
+
+###
+
+
+Original Query:
+SELECT T1.department_name FROM project_members AS T1 WHERE T1.country = "JM"
+GPT-3 choices:
+(0) "Retrieve the department names of project members who are located in Jamaica from the project_members table."
+(1) Find the department name for all members in the project_members table where their country is "JM".
+(2) Find the department name for all project members who are located in Jamaica.
+(3) "Retrieve the department name of all project members who are located in Jamaica from the project_members table."
+(4) Find the department names of project members from Jamaica in the project_members table.
+(5) Retrieve the department name of all project members who are from Jamaica.
+(6) Find the department names of project members who are located in Jamaica.
+(7) "Retrieve the department names of all project members who are located in Jamaica."

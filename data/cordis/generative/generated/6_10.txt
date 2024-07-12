@@ -1,0 +1,16 @@
+SELECT projects.acronym FROM projects AS projects WHERE projects.title = "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" and projects.cordis_ref = "100862"
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM projects AS T1 WHERE T1.title = "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" and T1.cordis_ref = "100862"
+GPT-3 choices:
+(0) Find the project acronym from the table "projects" where the title is "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" and the cordis_ref value is "100862".
+(1) Retrieve the acronym of the project with the title "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" and the CORDIS reference number "100862".
+(2) Find the acronym of the project with the title "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" and with the CORDIS reference number "100862".
+(3) Retrieve the acronym for a project with the title "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" and CORDIS reference number "100862".
+(4) Retrieve the acronym for a project titled "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" with a CORDIS reference of "100862".
+(5) Retrieve the acronym for the project titled "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" with the CORDIS reference number "100862".
+(6) What is the acronym of the project with a title of "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" and a CORDIS reference number of 100862?
+(7) What is the acronym for the project titled "A collaborative project aimed at pre-validation of a GMES Global Water Scarcity Information Service" with a CORDIS reference of "100862"?

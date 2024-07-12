@@ -1,0 +1,28 @@
+SELECT healthy_expression.uberon_developmental_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.call_quality = "GOLD" and healthy_expression.expression_level_anatomical_relative = "LOW"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_developmental_id FROM healthy_expression AS T1 WHERE T1.call_quality = "GOLD" and T1.expression_level_anatomical_relative = "LOW"
+GPT-3 choices:
+(0) Retrieve the developmental ID from the healthy expression dataset for those with a call quality of "GOLD" and a low relative anatomical expression level.
+(1) Get the IDs of all developmental stages from healthy expression data where the call quality is "GOLD" and the relative anatomical expression level is "LOW".
+(2) Retrieve the developmental identifiers from healthy expression data where the call quality is "GOLD" and the anatomical relative expression level is "LOW".
+(3) What are the uberon developmental IDs for healthy expressions with a call quality of "GOLD" and a relative anatomical expression level of "LOW"?
+(4) What are the UBeron developmental IDs for healthy expressions that have a call quality of "GOLD" and an anatomical expression level that is relatively low?
+(5) Retrieve the unique IDs for all developmental stages in which the expression level is considered low and the call quality is designated as "GOLD" from a table called healthy_expression.
+(6) Find the uberon developmental ID from the healthy expression data where the call quality is "GOLD" and the expression level is relatively low in anatomical terms.
+(7) Retrieve the uberon developmental ID from the healthy expression table where the call quality is "GOLD" and the expression level anatomical relative is "LOW".
+
+
+Re-ranked choices:
+15.420  Retrieve the uberon developmental ID from the healthy expression table where the call quality is "GOLD" and the expression level anatomical relative is "LOW".
+14.021  What are the uberon developmental IDs for healthy expressions with a call quality of "GOLD" and a relative anatomical expression level of "LOW"?
+14.019  Find the uberon developmental ID from the healthy expression data where the call quality is "GOLD" and the expression level is relatively low in anatomical terms.
+12.623  Get the IDs of all developmental stages from healthy expression data where the call quality is "GOLD" and the relative anatomical expression level is "LOW".
+12.622  Retrieve the developmental ID from the healthy expression dataset for those with a call quality of "GOLD" and a low relative anatomical expression level.
+12.619  Retrieve the developmental identifiers from healthy expression data where the call quality is "GOLD" and the anatomical relative expression level is "LOW".
+11.921  What are the UBeron developmental IDs for healthy expressions that have a call quality of "GOLD" and an anatomical expression level that is relatively low?
+8.418  Retrieve the unique IDs for all developmental stages in which the expression level is considered low and the call quality is designated as "GOLD" from a table called healthy_expression.
+

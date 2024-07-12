@@ -1,0 +1,16 @@
+SELECT healthy_expression.ensembl_gene_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.expression_score = 70.80000
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id FROM healthy_expression AS T1 WHERE T1.expression_score = 70.80000
+GPT-3 choices:
+(0) Retrieve the Ensembl gene ID from the healthy_expression table where the expression score is equal to 70.80000.
+(1) Retrieve the Ensembl gene ID from the healthy expression table for genes with an expression score of 70.8.
+(2) Retrieve the ensembl gene ID from the table of healthy expression where the expression score is equal to 70.8.
+(3) Retrieve the ensembl gene ID from the healthy_expression table where the expression score is equal to 70.80000.
+(4) "Retrieve the Ensembl gene ID from the healthy expression table where the expression score is 70.8."
+(5) Find the ensembl gene ID from healthy expression data where the expression score is 70.8.
+(6) "Retrieve the Ensembl gene ID from the healthy expression dataset where the expression score is equal to 70.8."
+(7) Retrieve the Ensembl gene ID from the Healthy Expression table where the expression score is equal to 70.8.

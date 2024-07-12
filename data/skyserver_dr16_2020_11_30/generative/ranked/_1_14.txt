@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.special_target1 FROM specobj AS Spectroscopic_objects JOIN photoobj AS Photometric_objects ON Spectroscopic_objects.bestobjid = Photometric_objects.objid WHERE Photometric_objects.rowc = 50.88836
+
+###
+
+
+Original Query:
+SELECT T1.special_target1 FROM specobj AS T1 JOIN photoobj AS T2 ON T1.bestobjid = T2.objid WHERE T2.rowc = 50.88836
+GPT-3 choices:
+(0) Get the special_target1 value from Spectroscopic_objects where the bestobjid in specobj matches the objid in photoobj and the rowc value is 50.88836.
+(1) Retrieve the value in the column "special_target1" from the table "specobj" for the row where the "bestobjid" column in that table matches the value in the column "objid" of a row with a specific value (50.88836) in the table "photoobj".
+(2) Retrieve the special_target1 value for Spectroscopic_objects where the bestobjid matches Photometric_objects's objid and the rowc value is equal to 50.88836.
+(3) Retrieve the value of the "special_target1" column from the "specobj" table for the object with a "rowc" value of 50.88836 in the "photoobj" table, where both tables are joined on their respective IDs.
+(4) Find the value of the special_target1 column for a spectroscopic object where the rowc value of its corresponding photometric object is equal to 50.88836.
+(5) Find the value of "special_target1" for all spectroscopic objects that have a matching "bestobjid" in the "specobj" table and whose corresponding rowc value in the "photoobj" table is equal to 50.88836.
+(6) Retrieve the special target 1 for spectroscopic objects whose best object ID matches that of photometric objects with a rowc value of 50.88836.
+(7) Retrieve the value of the special_target1 column from the Spectroscopic_objects table for the row with a rowc value of 50.88836 in the Photometric_objects table, using their bestobjid values to join them together.
+
+
+Re-ranked choices:
+7.023  Retrieve the special target 1 for spectroscopic objects whose best object ID matches that of photometric objects with a rowc value of 50.88836.
+2.822  Retrieve the value of the special_target1 column from the Spectroscopic_objects table for the row with a rowc value of 50.88836 in the Photometric_objects table, using their bestobjid values to join them together.
+2.129  Retrieve the value of the "special_target1" column from the "specobj" table for the object with a "rowc" value of 50.88836 in the "photoobj" table, where both tables are joined on their respective IDs.
+1.422  Retrieve the value in the column "special_target1" from the table "specobj" for the row where the "bestobjid" column in that table matches the value in the column "objid" of a row with a specific value (50.88836) in the table "photoobj".
+1.420  Find the value of the special_target1 column for a spectroscopic object where the rowc value of its corresponding photometric object is equal to 50.88836.
+1.415  Find the value of "special_target1" for all spectroscopic objects that have a matching "bestobjid" in the "specobj" table and whose corresponding rowc value in the "photoobj" table is equal to 50.88836.
+1.415  Retrieve the special_target1 value for Spectroscopic_objects where the bestobjid matches Photometric_objects's objid and the rowc value is equal to 50.88836.
+0.717  Get the special_target1 value from Spectroscopic_objects where the bestobjid in specobj matches the objid in photoobj and the rowc value is 50.88836.
+

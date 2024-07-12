@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.end_year != 2022
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.end_year != 2022
+GPT-3 choices:
+(0) Retrieve the names of all framework programs from the EC Framework Programs table that have been used in projects where the end year is not 2022.
+(1) Get the names of all framework programs that are listed in both the "ec_framework_programs" and "projects" tables, but exclude any that have a project end year set to 2022.
+(2) Find the names of all framework programs from the table ec_framework_programs that are referenced in the projects table and have an end year that is not equal to 2022.
+(3) Retrieve the names of all framework programs from the EC Framework Programs table where the end year for associated projects is not 2022.
+(4) Find the names of all framework programs from the table ec_framework_programs that have been used in projects and whose end year is not 2022.
+(5) Find the names of all framework programs from ec_framework_programs that have been used in projects where the end year is not 2022.
+(6) Retrieve the names of all framework programs from the table "ec_framework_programs" that are associated with projects whose end year is not 2022.
+(7) Find the names of all framework programs from the EC Framework Programs table that have been used in projects where the end year is not 2022.

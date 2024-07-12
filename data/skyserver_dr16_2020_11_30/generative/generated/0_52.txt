@@ -1,0 +1,16 @@
+SELECT Photometric_objects.cmodelmag_g FROM photoobj AS Photometric_objects WHERE Photometric_objects.extinction_r = 0.007540975
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_g FROM photoobj AS T1 WHERE T1.extinction_r = 0.007540975
+GPT-3 choices:
+(0) Retrieve the g-band cmodel magnitude of photometric objects from the photoobj table where the extinction_r value is equal to 0.007540975.
+(1) What is the cmodel magnitude in the g-band for Photometric objects with an extinction value of 0.007540975 in the photoobj table?
+(2) Retrieve the cmodelmag_g value from the photoobj table for objects with an extinction_r value of 0.007540975 in the Photometric_objects group.
+(3) Retrieve the cmodel magnitude in the g band from the Photometric_objects table of photoobj, where the extinction value in the r band is 0.007540975.
+(4) Find the cmodel magnitude in the g band for all photometric objects where the extinction in the r band is equal to 0.007540975.
+(5) What is the g-band CModel magnitude of Photometric_objects in the photoobj table where the extinction value for r-band is equal to 0.007540975?
+(6) Retrieve the g-band cmodel magnitudes for all objects in the photoobj table where the extinction_r column in Photometric_objects is equal to 0.007540975.
+(7) What is the cmodel magnitude in the g band for all photometric objects where the extinction in r band is equal to 0.007540975?

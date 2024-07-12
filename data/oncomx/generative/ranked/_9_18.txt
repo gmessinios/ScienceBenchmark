@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation JOIN disease_mutation AS disease_mutation ON disease_mutation_site_annotation.disease_mutation_id = disease_mutation.id WHERE disease_mutation.id != 12787
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.id != 12787
+GPT-3 choices:
+(0) Retrieve the feature key of disease mutation sites from the disease mutation site annotation table where the corresponding disease mutation id is not 12787.
+(1) Retrieve the feature key from the disease mutation site annotation table for all disease mutations that are not associated with the ID 12787.
+(2) Get the feature keys from the disease mutation site annotations for all disease mutations except those with an ID of 12787.
+(3) Get the feature keys from the disease mutation site annotation table for all disease mutations, excluding the one with an ID of 12787.
+(4) Retrieve the feature keys from the disease mutation site annotation table for all disease mutations, excluding those with an ID of 12787.
+(5) Retrieve the feature key from the disease mutation site annotation table for all disease mutations except for the one with an ID of 12787.
+(6) Find the feature key from the disease mutation site annotation table for all disease mutations except for the one with ID 12787.
+(7) Retrieve the feature keys from the disease mutation site annotations for all disease mutations, excluding those with an ID of 12787.
+
+
+Re-ranked choices:
+9.828  Find the feature key from the disease mutation site annotation table for all disease mutations except for the one with ID 12787.
+9.826  Retrieve the feature key from the disease mutation site annotation table for all disease mutations except for the one with an ID of 12787.
+9.822  Retrieve the feature key from the disease mutation site annotation table for all disease mutations that are not associated with the ID 12787.
+9.819  Retrieve the feature key of disease mutation sites from the disease mutation site annotation table where the corresponding disease mutation id is not 12787.
+8.425  Retrieve the feature keys from the disease mutation site annotation table for all disease mutations, excluding those with an ID of 12787.
+8.424  Get the feature keys from the disease mutation site annotation table for all disease mutations, excluding the one with an ID of 12787.
+7.029  Get the feature keys from the disease mutation site annotations for all disease mutations except those with an ID of 12787.
+7.026  Retrieve the feature keys from the disease mutation site annotations for all disease mutations, excluding those with an ID of 12787.
+

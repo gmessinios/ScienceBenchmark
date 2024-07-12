@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 7 and photometrically_observed.description = "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value = 7 and T1.description = "Sky: Blank sky spectrogram (no objects in this arcsecond area)."
+GPT-3 choices:
+(0) What are the names of objects that have been observed photometrically, specifically those that have a value of 7 and are described as having a sky with no objects in the area?
+(1) Which names are associated with photometrically observed data where the value is 7 and the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+(2) What is the name of all objects in a spectrogram with blank sky and photometrically observed value of 7?
+(3) What are the names of objects that were observed photometrically as having a value of 7 and a description of "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+(4) Get the names of objects observed photometrically that have a value of 7 and a description of "Sky: Blank sky spectrogram (no objects in this arcsecond area)".
+(5) What are the names of objects observed photometrically as a blank sky spectrogram with no objects within an arcsecond area?
+(6) What are the names of objects where the photometrically observed value is 7 and the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?
+(7) What are the names of all objects in the photometrically observed data where the value is 7 and the description is "Sky: Blank sky spectrogram (no objects in this arcsecond area)"?

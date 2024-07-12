@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation AS disease_mutation WHERE disease_mutation.alt_nt = "T"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation AS T1 WHERE T1.alt_nt = "T"
+GPT-3 choices:
+(0) How many rows are there in the table "disease_mutation" where the value in the column "alt_nt" is equal to "T"?
+(1) How many entries are there in the disease_mutation table where the alt_nt column is equal to "T"?
+(2) How many disease-mutation pairs have an alternate nucleotide of "T"?
+(3) How many records are there in the "disease_mutation" table where the alternative nucleotide is "T"?
+(4) How many disease mutations have an alternate nucleotide of "T"?
+(5) How many records are there in the table "disease_mutation" where the "alt_nt" column is equal to "T"?
+(6) How many entries in the disease_mutation table have an alternate nucleotide of "T"?
+(7) How many rows are in the table "disease_mutation" where the value in the column "alt_nt" is equal to "T"?

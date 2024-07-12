@@ -1,0 +1,27 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_name = "American Samoa"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_name = "American Samoa"
+GPT-3 choices:
+(0) Get the geocode country code from the countries table where the country name is "American Samoa".
+(1) Find the geocode country code for American Samoa from the countries table where the country name is "American Samoa".
+(2) Find the geocode country code for American Samoa in the countries table.
+(3) Get the geocode country code from the countries table where the country name is "American Samoa".
+(4) What is the geocode country code for the country with the name "American Samoa" in the table of countries?
+(5) Retrieve the geocode country code from the "countries" table for the country with a name of "American Samoa".
+(6) What is the geocode country code for the country with a country name of "American Samoa" in the countries table?
+(7) What is the geocode country code for the country "American Samoa"?
+
+
+Re-ranked choices:
+8.442  Get the geocode country code from the countries table where the country name is "American Samoa".
+8.437  Retrieve the geocode country code from the "countries" table for the country with a name of "American Samoa".
+8.436  Find the geocode country code for American Samoa from the countries table where the country name is "American Samoa".
+8.434  What is the geocode country code for the country with a country name of "American Samoa" in the countries table?
+7.054  Find the geocode country code for American Samoa in the countries table.
+7.042  What is the geocode country code for the country with the name "American Samoa" in the table of countries?
+5.658  What is the geocode country code for the country "American Samoa"?
+

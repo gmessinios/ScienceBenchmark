@@ -1,0 +1,28 @@
+SELECT disease_mutation.chromosome_pos FROM disease_mutation AS disease_mutation JOIN disease_mutation_article AS disease_mutation_article ON disease_mutation.id = disease_mutation_article.disease_mutation_id WHERE disease_mutation_article.disease_mutation_id = 79667
+
+###
+
+
+Original Query:
+SELECT T1.chromosome_pos FROM disease_mutation AS T1 JOIN disease_mutation_article AS T2 ON T1.id = T2.disease_mutation_id WHERE T2.disease_mutation_id = 79667
+GPT-3 choices:
+(0) Find the chromosome position from the disease mutation and corresponding article where the disease mutation ID is 79667.
+(1) Retrieve the chromosome position from the disease_mutation table where the disease_mutation_id is 79667, and this ID also exists in the disease_mutation_article table.
+(2) Get the chromosome position from the disease_mutation table where the id in disease_mutation_article is equal to 79667.
+(3) Find the chromosome position from the disease mutation table where the disease mutation ID is equal to 79667 and is associated with an article in the disease mutation article table.
+(4) Find the chromosome position from the disease mutation table for the disease mutation with an ID of 79667, joined with data from the disease mutation article table.
+(5) Retrieve the chromosome position for the disease mutation with an ID of 79667, which is associated with an article in the disease_mutation_article table.
+(6) Find the chromosome position of the disease mutation with an ID of 79667, as listed in the disease_mutation_article table.
+(7) Retrieve the chromosome position from the disease mutation table for all records in which the disease mutation ID matches 79667, while also joining with the disease mutation article table and matching on IDs.
+
+
+Re-ranked choices:
+7.717  Retrieve the chromosome position from the disease mutation table for all records in which the disease mutation ID matches 79667, while also joining with the disease mutation article table and matching on IDs.
+7.024  Find the chromosome position from the disease mutation and corresponding article where the disease mutation ID is 79667.
+7.020  Find the chromosome position from the disease mutation table for the disease mutation with an ID of 79667, joined with data from the disease mutation article table.
+7.019  Retrieve the chromosome position for the disease mutation with an ID of 79667, which is associated with an article in the disease_mutation_article table.
+7.017  Find the chromosome position from the disease mutation table where the disease mutation ID is equal to 79667 and is associated with an article in the disease mutation article table.
+5.623  Find the chromosome position of the disease mutation with an ID of 79667, as listed in the disease_mutation_article table.
+2.821  Get the chromosome position from the disease_mutation table where the id in disease_mutation_article is equal to 79667.
+2.818  Retrieve the chromosome position from the disease_mutation table where the disease_mutation_id is 79667, and this ID also exists in the disease_mutation_article table.
+

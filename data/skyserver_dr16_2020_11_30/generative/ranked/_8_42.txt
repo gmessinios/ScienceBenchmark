@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.dec FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.zwarning != 0
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM specobj AS T1 WHERE T1.zwarning != 0
+GPT-3 choices:
+(0) Retrieve the declination of all spectroscopic objects from the specobj table where the zwarning is not equal to 0.
+(1) Retrieve the declination values for all spectroscopic objects that have a non-zero zwarning value from the specobj table.
+(2) Retrieve the declination values from the Spectroscopic_objects table for objects with a zwarning value not equal to 0.
+(3) Retrieve the declination values for spectroscopic objects from the table "specobj" where the value of zwarning is not equal to 0.
+(4) What are the declinations of all spectroscopic objects that have a non-zero zwarning value in the specobj table?
+(5) What are the declinations of spectroscopic objects where their zwarning is not equal to 0?
+(6) Find the declination values for spectroscopic objects where the zwarning is not equal to zero.
+(7) What are the declination values of spectroscopic objects that have a non-zero zwarning value in the specobj table?
+
+
+Re-ranked choices:
+3.524  Retrieve the declination values from the Spectroscopic_objects table for objects with a zwarning value not equal to 0.
+2.827  Find the declination values for spectroscopic objects where the zwarning is not equal to zero.
+2.826  Retrieve the declination of all spectroscopic objects from the specobj table where the zwarning is not equal to 0.
+2.822  Retrieve the declination values for all spectroscopic objects that have a non-zero zwarning value from the specobj table.
+2.822  Retrieve the declination values for spectroscopic objects from the table "specobj" where the value of zwarning is not equal to 0.
+2.822  What are the declination values of spectroscopic objects that have a non-zero zwarning value in the specobj table?
+1.433  What are the declinations of spectroscopic objects where their zwarning is not equal to 0?
+1.424  What are the declinations of all spectroscopic objects that have a non-zero zwarning value in the specobj table?
+

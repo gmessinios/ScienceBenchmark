@@ -1,0 +1,28 @@
+SELECT institutions.unics_id FROM institutions AS institutions JOIN countries AS countries ON institutions.country_id = countries.unics_id WHERE countries.country_code2 != "CV"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM institutions AS T1 JOIN countries AS T2 ON T1.country_id = T2.unics_id WHERE T2.country_code2 != "CV"
+GPT-3 choices:
+(0) Get the UNICS IDs of institutions that are located in countries whose country code2 is not equal to "CV".
+(1) Retrieve the unique institution IDs from all institutions located in countries with a country code not equal to "CV" by joining the institutions and countries tables.
+(2) Retrieve the unique identification numbers of institutions located in countries other than Cape Verde by joining the tables "institutions" and "countries" on their corresponding unics_id fields and selecting the unics_id field from the resulting joined table.
+(3) Find the unique ID of all institutions where the country code is not equal to "CV" and their corresponding country codes are joined with the countries table using a common ID.
+(4) Get the unique identifier for institutions where the country code is not "CV" by joining the institutions and countries tables on their respective unique identifiers and only selecting the unics_id from institutions.
+(5) Retrieve the unique identifier for all institutions from the countries table where the country code is not "CV".
+(6) Find the unique ID of institutions in countries that do not have the country code "CV" and where their country ID matches with the corresponding country's unique ID in the institutions and countries tables.
+(7) Find the UNICS IDs of all institutions that are associated with a country whose country code is not "CV".
+
+
+Re-ranked choices:
+7.732  Get the UNICS IDs of institutions that are located in countries whose country code2 is not equal to "CV".
+6.323  Find the unique ID of all institutions where the country code is not equal to "CV" and their corresponding country codes are joined with the countries table using a common ID.
+6.319  Find the unique ID of institutions in countries that do not have the country code "CV" and where their country ID matches with the corresponding country's unique ID in the institutions and countries tables.
+5.616  Get the unique identifier for institutions where the country code is not "CV" by joining the institutions and countries tables on their respective unique identifiers and only selecting the unics_id from institutions.
+4.929  Retrieve the unique identifier for all institutions from the countries table where the country code is not "CV".
+4.929  Find the UNICS IDs of all institutions that are associated with a country whose country code is not "CV".
+4.921  Retrieve the unique institution IDs from all institutions located in countries with a country code not equal to "CV" by joining the institutions and countries tables.
+3.514  Retrieve the unique identification numbers of institutions located in countries other than Cape Verde by joining the tables "institutions" and "countries" on their corresponding unics_id fields and selecting the unics_id field from the resulting joined table.
+

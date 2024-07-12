@@ -1,0 +1,27 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "COSMIC_RAY"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name != "COSMIC_RAY"
+GPT-3 choices:
+(0) What is the description of all photo types that are not "COSMIC_RAY"?
+(1) What is the description for all photo types except for "COSMIC_RAY"?
+(2) Retrieve the descriptions of all photo types except for "COSMIC_RAY" from the table "photometrically_observed".
+(3) What are the descriptions of all photo types except for "COSMIC_RAY"?
+(4) Get the descriptions for all photo types except for "COSMIC_RAY" from the table "photometrically_observed".
+(5) What is the description for all types of observations that are not classified as "COSMIC_RAY" in the photo_type table?
+(6) Retrieve the description from the table "photometrically_observed" where the name is not equal to "COSMIC_RAY".
+(7) What is the description of all photo types that are not "COSMIC_RAY"?
+
+
+Re-ranked choices:
+4.229  Retrieve the description from the table "photometrically_observed" where the name is not equal to "COSMIC_RAY".
+2.168  What is the description of all photo types that are not "COSMIC_RAY"?
+2.147  What is the description for all photo types except for "COSMIC_RAY"?
+2.128  What is the description for all types of observations that are not classified as "COSMIC_RAY" in the photo_type table?
+1.424  Retrieve the descriptions of all photo types except for "COSMIC_RAY" from the table "photometrically_observed".
+1.424  Get the descriptions for all photo types except for "COSMIC_RAY" from the table "photometrically_observed".
+0.747  What are the descriptions of all photo types except for "COSMIC_RAY"?
+

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_submission FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name = "GeneSearch Breast Lymph Node (BLN) Test Kit"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name = "GeneSearch Breast Lymph Node (BLN) Test Kit"
+GPT-3 choices:
+(0) Retrieve the test submission for the GeneSearch Breast Lymph Node (BLN) Test Kit from the biomarker FDA test trial table.
+(1) Retrieve the test submission from the FDA biomarker testing trial for the "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(2) Get the test submission for the GeneSearch Breast Lymph Node (BLN) Test Kit from the biomarker FDA test trial table.
+(3) Retrieve the test submission from the biomarker FDA test trial for the GeneSearch Breast Lymph Node (BLN) Test Kit.
+(4) Retrieve the test submission from the FDA for the GeneSearch Breast Lymph Node (BLN) Test Kit.
+(5) Retrieve the test submission from the biomarker FDA test trial where the test trade name is "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(6) Retrieve the test submission from the biomarker FDA test trial where the test trade name is "GeneSearch Breast Lymph Node (BLN) Test Kit".
+(7) Retrieve the test submission for the GeneSearch Breast Lymph Node (BLN) Test Kit from the biomarker FDA test trial table.

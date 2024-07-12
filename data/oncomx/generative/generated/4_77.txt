@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.tool = "netnglyc"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_impact_prediction AS T1 WHERE T1.tool = "netnglyc"
+GPT-3 choices:
+(0) How many entries are there in the disease mutation impact prediction table that have "netnglyc" listed as the tool used?
+(1) How many rows are in the disease_mutation_impact_prediction table where the tool column has a value of "netnglyc"?
+(2) How many rows are in the table disease_mutation_impact_prediction where the tool column equals "netnglyc"?
+(3) How many entries are there in the disease_mutation_impact_prediction table where the tool is "netnglyc"?
+(4) How many records are there in the table "disease_mutation_impact_prediction" where the value in the column "tool" is "netnglyc"?
+(5) How many entries are there in the disease mutation impact prediction table for the tool "netnglyc"?
+(6) How many rows are there in the disease_mutation_impact_prediction table where the tool column is "netnglyc"?
+(7) "How many entries are there in the disease mutation impact prediction table where the tool used was NetNGlyc?"

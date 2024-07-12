@@ -1,0 +1,16 @@
+SELECT count(*) FROM ec_framework_programs AS ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = "FP7"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs AS T1 WHERE T1.ec_framework_program_name = "FP7"
+GPT-3 choices:
+(0) How many entries are there in the "ec_framework_programs" table where the program name is "FP7"?
+(1) How many programs are there in the EC Framework named "FP7"?
+(2) How many programs are there in the ec_framework_programs table with the name "FP7"?
+(3) How many rows are there in the table ec_framework_programs where the value of the column ec_framework_program_name is "FP7"?
+(4) How many framework programs are there in the EC that have a name of "FP7"?
+(5) How many records are there in the "ec_framework_programs" table where the program name is "FP7"?
+(6) How many programs are there in the FP7 framework according to the EC framework programs database?
+(7) How many framework programs are there in the EC with the name "FP7"?

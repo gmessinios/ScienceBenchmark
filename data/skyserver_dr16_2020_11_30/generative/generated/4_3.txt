@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.type = 6
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.type = 6
+GPT-3 choices:
+(0) How many objects in the table "photoobj" have a type value of 6?
+(1) How many objects in the Photometric_objects table have a type value of 6?
+(2) How many photometric objects are there with a type of 6 in the table photoobj?
+(3) How many objects are there in the table "photoobj" that have a type of 6?
+(4) How many photometric objects are there with a type of 6 in the photoobj table?
+(5) How many objects are in the Photometric_objects table that have a type of 6?
+(6) How many photometric objects are there that have a type of 6?
+(7) How many Photometric objects are there in the photoobj table with a type of 6?

@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Miguel Parreira Soares"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Miguel Parreira Soares"
+GPT-3 choices:
+(0) Retrieve the UNICS ID of the person with the full name "Miguel Parreira Soares" from the table of people.
+(1) Find the unique ID of a person with the full name "Miguel Parreira Soares" from the table called "people".
+(2) Get the UNICS ID of a person whose full name is "Miguel Parreira Soares" from the table named "people".
+(3) What is the UNICS ID of the person with the full name "Miguel Parreira Soares"?
+(4) Get the unique ID of the person with the full name "Miguel Parreira Soares" from the table "people".
+(5) Get the unique ID of the person with the full name "Miguel Parreira Soares" from the database.
+(6) Find the unique identification number for the person with the full name "Miguel Parreira Soares" from the table of people.
+(7) Retrieve the unique ID of the person with full name "Miguel Parreira Soares" from the table "people".

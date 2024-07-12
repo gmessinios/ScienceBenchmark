@@ -1,0 +1,16 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Unknown: Object type is not known."
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.description = "Unknown: Object type is not known."
+GPT-3 choices:
+(0) How many records are there in the "photo_type" table where the object type is not known?
+(1) How many photos are there where the object type is unknown?
+(2) How many photo types have a description of "Unknown: Object type is not known." in the table "photometrically_observed"?
+(3) How many photo types have a description of "Unknown: Object type is not known"?
+(4) How many photos have an unknown object type?
+(5) How many rows are in the table "photo_type" where the description is "Unknown: Object type is not known"?
+(6) How many objects have been photometrically observed where the description is "Unknown: Object type is not known"?
+(7) How many rows are there in the photo_type table where the description is "Unknown: Object type is not known."?

@@ -1,0 +1,28 @@
+SELECT disease_mutation_article.pmid FROM disease_mutation_article AS disease_mutation_article JOIN disease_mutation AS disease_mutation ON disease_mutation_article.disease_mutation_id = disease_mutation.id WHERE disease_mutation.mutation_freq = 60
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM disease_mutation_article AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.mutation_freq = 60
+GPT-3 choices:
+(0) Retrieve the PMID values from the disease_mutation_article table for articles where the mutation frequency in the corresponding disease_mutation entry is equal to 60%.
+(1) Find the PMID of all articles related to a disease mutation with a frequency of 60%.
+(2) Get the PMID of all articles associated with disease-mutation pairs where the mutation frequency is equal to 60%.
+(3) Find the PMID numbers for articles related to disease and mutation that have a mutation frequency of 60%.
+(4) Retrieve the PMID of articles from the disease_mutation_article table where the corresponding disease_mutation has a mutation frequency of 60.
+(5) Find the PMID of articles associated with disease-mutation pairs where the mutation frequency is 60%.
+(6) Find the PubMed IDs of articles that contain disease-mutation associations where the frequency of the mutation is 60.
+(7) Retrieve the PMID values from the disease_mutation_article table where the mutation frequency is equal to 60 in the corresponding disease_mutation entry.
+
+
+Re-ranked choices:
+4.232  Find the PMID of all articles related to a disease mutation with a frequency of 60%.
+4.226  Find the PMID numbers for articles related to disease and mutation that have a mutation frequency of 60%.
+2.824  Get the PMID of all articles associated with disease-mutation pairs where the mutation frequency is equal to 60%.
+2.824  Find the PMID of articles associated with disease-mutation pairs where the mutation frequency is 60%.
+2.819  Retrieve the PMID values from the disease_mutation_article table where the mutation frequency is equal to 60 in the corresponding disease_mutation entry.
+2.818  Retrieve the PMID of articles from the disease_mutation_article table where the corresponding disease_mutation has a mutation frequency of 60.
+2.818  Retrieve the PMID values from the disease_mutation_article table for articles where the mutation frequency in the corresponding disease_mutation entry is equal to 60%.
+1.424  Find the PubMed IDs of articles that contain disease-mutation associations where the frequency of the mutation is 60.
+

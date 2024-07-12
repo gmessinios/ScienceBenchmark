@@ -1,0 +1,28 @@
+SELECT programmes.short_name FROM programmes AS programmes WHERE programmes.rcn = "18857" and programmes.parent = "SiS-1.1.2"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM programmes AS T1 WHERE T1.rcn = "18857" and T1.parent = "SiS-1.1.2"
+GPT-3 choices:
+(0) What is the short name of the programme with RCN "18857" and parent "SiS-1.1.2"?
+(1) Retrieve the short name of the programme with an RCN of 18857 and a parent of SiS-1.1.2 from the table programmes.
+(2) What is the short name of the programme with RCN 18857 and parent SiS-1.1.2?
+(3) "Retrieve the short name of the programme with RCN number 18857 and parent category SiS-1.1.2 from the programmes table."
+(4) What is the short name of the programme with RCN number 18857 that has a parent programme called SiS-1.1.2?
+(5) What is the short name of the programme with RCN number 18857 and parent "SiS-1.1.2"?
+(6) What is the short name of the programme with RCN number 18857 and whose parent is "SiS-1.1.2"?
+(7) What is the short name of the programme with RCN "18857" that is a child of "SiS-1.1.2"?
+
+
+Re-ranked choices:
+7.038  "Retrieve the short name of the programme with RCN number 18857 and parent category SiS-1.1.2 from the programmes table."
+5.677  What is the short name of the programme with RCN "18857" and parent "SiS-1.1.2"?
+5.677  What is the short name of the programme with RCN 18857 and parent SiS-1.1.2?
+5.664  Retrieve the short name of the programme with an RCN of 18857 and a parent of SiS-1.1.2 from the table programmes.
+5.656  What is the short name of the programme with RCN number 18857 and parent "SiS-1.1.2"?
+5.648  What is the short name of the programme with RCN number 18857 and whose parent is "SiS-1.1.2"?
+5.637  What is the short name of the programme with RCN number 18857 that has a parent programme called SiS-1.1.2?
+4.260  What is the short name of the programme with RCN "18857" that is a child of "SiS-1.1.2"?
+

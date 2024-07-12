@@ -1,0 +1,28 @@
+SELECT Photometric_objects.cmodelmag_r FROM photoobj AS Photometric_objects    ORDER BY Photometric_objects.z DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_r FROM photoobj AS T1    ORDER BY T1.z DESC LIMIT 1
+GPT-3 choices:
+(0) Find the r-band cmodel magnitude for the photo object with the largest redshift value.
+(1) Find the r-band cmodel magnitude of the object with the highest redshift from the photoobj table, ordered in descending order and limited to one result.
+(2) Retrieve the r-band cmodel magnitude from the photoobj table for Photometric objects, sorting by descending redshift and only returning the top result.
+(3) What is the red cmodel magnitude of the photometric object with the highest redshift in the photoobj table?
+(4) What is the r-band cmodel magnitude of the object with the largest redshift in the photoobj table?
+(5) Retrieve the r-band cmodel magnitude from the photoobj table for objects in order of decreasing redshift, with only the highest redshift object returned.
+(6) Get the cmodelmag_r value for objects from the Photometric_objects table in ascending order by their z values and only return the top result.
+(7) Get the r-band CModel magnitude for the object with the highest redshift from the photoobj table in ascending order, limiting to only one result.
+
+
+Re-ranked choices:
+4.219  Retrieve the r-band cmodel magnitude from the photoobj table for objects in order of decreasing redshift, with only the highest redshift object returned.
+3.519  Retrieve the r-band cmodel magnitude from the photoobj table for Photometric objects, sorting by descending redshift and only returning the top result.
+2.835  Find the r-band cmodel magnitude for the photo object with the largest redshift value.
+2.831  What is the r-band cmodel magnitude of the object with the largest redshift in the photoobj table?
+2.824  What is the red cmodel magnitude of the photometric object with the highest redshift in the photoobj table?
+2.821  Get the cmodelmag_r value for objects from the Photometric_objects table in ascending order by their z values and only return the top result.
+2.820  Get the r-band CModel magnitude for the object with the highest redshift from the photoobj table in ascending order, limiting to only one result.
+2.820  Find the r-band cmodel magnitude of the object with the highest redshift from the photoobj table, ordered in descending order and limited to one result.
+

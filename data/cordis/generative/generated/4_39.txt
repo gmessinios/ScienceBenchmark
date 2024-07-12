@@ -1,0 +1,16 @@
+SELECT count(*) FROM projects AS projects WHERE projects.cordis_ref = "100488"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects AS T1 WHERE T1.cordis_ref = "100488"
+GPT-3 choices:
+(0) How many projects have a cordis reference number of "100488"?
+(1) How many projects are there in the projects table with a cordis_ref of "100488"?
+(2) How many projects have a cordis_ref of "100488" in the projects table?
+(3) How many projects have a CORDIS reference number of "100488" in the Projects table?
+(4) How many projects are there in the database with a CORDIS reference number of "100488"?
+(5) How many projects have a Cordis reference number of "100488"?
+(6) How many projects are there in the "projects" table with a cordis_ref value of "100488"?
+(7) How many projects in the "projects" database have a cordis_ref of "100488"?

@@ -1,0 +1,28 @@
+SELECT count(*) FROM map_protein_disease_mutation AS map_protein_disease_mutation
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_protein_disease_mutation AS T1
+GPT-3 choices:
+(0) "How many protein-disease-mutation mappings are there in the map_protein_disease_mutation table?"
+(1) "How many rows are in the table map_protein_disease_mutation?"
+(2) How many records are there in the table "map_protein_disease_mutation"?
+(3) "How many records are in the table for mapping between protein, disease, and mutation in the database?"
+(4) How many records are in the table "map_protein_disease_mutation"?
+(5) How many rows are in the map_protein_disease_mutation table?
+(6) How many records are there in the map_protein_disease_mutation table?
+(7) "How many rows are in the table 'map_protein_disease_mutation'?"
+
+
+Re-ranked choices:
+1.434  "How many records are in the table for mapping between protein, disease, and mutation in the database?"
+0.037  How many records are there in the table "map_protein_disease_mutation"?
+0.037  How many records are there in the map_protein_disease_mutation table?
+0.034  "How many rows are in the table map_protein_disease_mutation?"
+0.034  How many records are in the table "map_protein_disease_mutation"?
+0.034  How many rows are in the map_protein_disease_mutation table?
+0.034  "How many rows are in the table 'map_protein_disease_mutation'?"
+0.021  "How many protein-disease-mutation mappings are there in the map_protein_disease_mutation table?"
+

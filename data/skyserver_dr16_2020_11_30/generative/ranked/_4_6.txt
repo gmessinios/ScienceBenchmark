@@ -1,0 +1,27 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.mode = 1
+GPT-3 choices:
+(0) How many Photometric objects have a mode value of 1 in the photoobj table?
+(1) Count the number of rows in the "photoobj" table where the "mode" column has a value of 1 and label it as "Photometric_objects".
+(2) Count the number of objects in the "photoobj" table that have a mode value of 1 and are labeled as "Photometric_objects."
+(3) How many Photometric objects are there with a mode of 1 in the photoobj table?
+(4) How many photometric objects are there with a mode of 1 in the photoobj table?
+(5) "Count the number of Photometric objects in the Photoobj table where the mode is equal to 1."
+(6) How many photometric objects are there with a mode value of 1 in the photoobj table?
+(7) How many Photometric objects have a mode value of 1 in the photoobj table?
+
+
+Re-ranked choices:
+5.638  How many Photometric objects are there with a mode of 1 in the photoobj table?
+5.638  How many photometric objects are there with a mode of 1 in the photoobj table?
+5.637  How many photometric objects are there with a mode value of 1 in the photoobj table?
+5.635  How many Photometric objects have a mode value of 1 in the photoobj table?
+5.635  "Count the number of Photometric objects in the Photoobj table where the mode is equal to 1."
+4.227  Count the number of objects in the "photoobj" table that have a mode value of 1 and are labeled as "Photometric_objects."
+3.528  Count the number of rows in the "photoobj" table where the "mode" column has a value of 1 and label it as "Photometric_objects".
+

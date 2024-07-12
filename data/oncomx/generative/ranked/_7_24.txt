@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.phase FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.id = "EDRN00587" or biomarker_edrn.qa_state = "Accepted"
+
+###
+
+
+Original Query:
+SELECT T1.phase FROM biomarker_edrn AS T1 WHERE T1.id = "EDRN00587" or T1.qa_state = "Accepted"
+GPT-3 choices:
+(0) What is the phase for biomarker "EDRN00587" or any biomarkers with a QA state of "Accepted"?
+(1) Find the phase of the biomarker with ID "EDRN00587" or has a quality assurance state of "Accepted" from the biomarker_edrn table in the EDRN database.
+(2) Retrieve the phase information from the biomarker_edrn table for the biomarker with ID "EDRN00587" or for any biomarkers that have been accepted in terms of quality assurance.
+(3) Find the phase of the biomarker with an ID of "EDRN00587" or a QA state of "Accepted" in the EDRN database.
+(4) What is the phase of biomarker "EDRN00587" or any biomarker with a QA state of "Accepted"?
+(5) What is the phase for biomarker ID "EDRN00587" or for any biomarkers with a quality assurance state of "Accepted"?
+(6) What is the phase of biomarker EDRN00587 or any biomarker that has been accepted according to its quality assurance state in the EDRN database?
+(7) Retrieve the phase of the biomarker with an ID of "EDRN00587" or that has been accepted by QA from the EDRN biomarker database.
+
+
+Re-ranked choices:
+9.838  Find the phase of the biomarker with an ID of "EDRN00587" or a QA state of "Accepted" in the EDRN database.
+8.431  Retrieve the phase of the biomarker with an ID of "EDRN00587" or that has been accepted by QA from the EDRN biomarker database.
+8.424  Find the phase of the biomarker with ID "EDRN00587" or has a quality assurance state of "Accepted" from the biomarker_edrn table in the EDRN database.
+7.050  What is the phase for biomarker "EDRN00587" or any biomarkers with a QA state of "Accepted"?
+7.050  What is the phase of biomarker "EDRN00587" or any biomarker with a QA state of "Accepted"?
+7.036  What is the phase for biomarker ID "EDRN00587" or for any biomarkers with a quality assurance state of "Accepted"?
+7.024  What is the phase of biomarker EDRN00587 or any biomarker that has been accepted according to its quality assurance state in the EDRN database?
+5.620  Retrieve the phase information from the biomarker_edrn table for the biomarker with ID "EDRN00587" or for any biomarkers that have been accepted in terms of quality assurance.
+

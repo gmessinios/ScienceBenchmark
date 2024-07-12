@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.value != 8
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.value != 8
+GPT-3 choices:
+(0) Find the object IDs of the nearest neighbours that were photometrically observed and have a type other than 8.
+(1) Find the object IDs of nearest neighbor objects that have been observed photometrically and whose photometric observation type is not equal to 8.
+(2) "Retrieve the object IDs of the nearest neighbor objects from a table of neighbors, but only for those that have not been photometrically observed."
+(3) Find the objid of the nearest neighbor objects that have been observed photometrically, excluding those with a value of 8.
+(4) Find the object ID of the nearest neighbor objects that have been photometrically observed and do not have a value of 8 in the photo_type table.
+(5) Find the object IDs of the nearest neighbors that have been photometrically observed and have a type value different than 8.
+(6) Retrieve the object IDs of the nearest neighbor objects from the table "neighbors" where the neighbor type is not equal to 8 and they have been photometrically observed.
+(7) Retrieve the objid of objects that are nearest neighbors to other objects and have a photometric observation type that is not equal to 8.

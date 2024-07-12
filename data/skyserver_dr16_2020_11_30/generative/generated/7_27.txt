@@ -1,0 +1,16 @@
+SELECT Photometric_objects.cmodelmag_g FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_u = 12.69278 or Photometric_objects.colc = 50.95649
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_g FROM photoobj AS T1 WHERE T1.cmodelmag_u = 12.69278 or T1.colc = 50.95649
+GPT-3 choices:
+(0) Retrieve the cmodelmag_g value from the Photometric_objects table for all objects that have a cmodelmag_u value of 12.69278 or a colc value of 50.95649.
+(1) Retrieve the g-band cmodel magnitudes from the table of photometric objects where either the u-band cmodel magnitude is equal to 12.69278 or the colc value is equal to 50.95649.
+(2) Retrieve the g-band cmodel magnitude from the photoobj table for objects where either the u-band cmodel magnitude is equal to 12.69278 or the colc value is equal to 50.95649.
+(3) Retrieve the g-band cmodel magnitude from the photometric objects table for all rows where either the u-band cmodel magnitude is 12.69278 or the colc value is 50.95649.
+(4) Retrieve the cmodelmag_g values from the Photometric_objects table for objects where either cmodelmag_u is equal to 12.69278 or colc is equal to 50.95649.
+(5) Retrieve the cmodelmag_g value from the Photometric_objects table for entries where either the cmodelmag_u value is equal to 12.69278 or the colc value is equal to 50.95649.
+(6) Retrieve the g-band cmodel magnitude of Photometric objects from the photoobj table where the u-band cmodel magnitude is 12.69278 or the colc value is 50.95649.
+(7) Retrieve the cmodelmag_g value from the Photometric_objects table for all objects where either the cmodelmag_u value is equal to 12.69278 or the colc value is equal to 50.95649.

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_study_design FROM biomarker_fda_test AS biomarker_fda_test JOIN biomarker_fda_test_use AS biomarker_fda_test_use ON biomarker_fda_test.test_trade_name = biomarker_fda_test_use.test_trade_name WHERE biomarker_fda_test_use.actual_use != "predisposition"
+
+###
+
+
+Original Query:
+SELECT T1.test_study_design FROM biomarker_fda_test AS T1 JOIN biomarker_fda_test_use AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.actual_use != "predisposition"
+GPT-3 choices:
+(0) Find the study design used for FDA-approved biomarker tests that are not intended for predisposition testing.
+(1) Find the study design of biomarker FDA tests that have been used for purposes other than predisposition.
+(2) What are the study designs used for FDA biomarker tests whose actual use is not predisposition?
+(3) Retrieve the study design for tests listed in the biomarker_fda_test table that are also included in the biomarker_fda_test_use table, but exclude any tests with an actual use of "predisposition".
+(4) Find the study design for biomarker FDA tests that are not used for predisposition.
+(5) What is the study design for biomarker FDA tests where the actual use is not predisposition?
+(6) Find the study design for biomarker tests that are used for purposes other than predisposition.
+(7) Find the study design for biomarker tests that are not used for determining predisposition, based on information from both the biomarker_fda_test and biomarker_fda_test_use tables.
+
+
+Re-ranked choices:
+8.436  What is the study design for biomarker FDA tests where the actual use is not predisposition?
+7.036  What are the study designs used for FDA biomarker tests whose actual use is not predisposition?
+6.317  Retrieve the study design for tests listed in the biomarker_fda_test table that are also included in the biomarker_fda_test_use table, but exclude any tests with an actual use of "predisposition".
+5.647  Find the study design for biomarker FDA tests that are not used for predisposition.
+5.634  Find the study design of biomarker FDA tests that have been used for purposes other than predisposition.
+4.932  Find the study design used for FDA-approved biomarker tests that are not intended for predisposition testing.
+4.919  Find the study design for biomarker tests that are not used for determining predisposition, based on information from both the biomarker_fda_test and biomarker_fda_test_use tables.
+4.233  Find the study design for biomarker tests that are used for purposes other than predisposition.
+

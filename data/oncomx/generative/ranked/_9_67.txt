@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.histological_type FROM biomarker_fda_test AS biomarker_fda_test JOIN biomarker_fda_test_use AS biomarker_fda_test_use ON biomarker_fda_test.test_trade_name = biomarker_fda_test_use.test_trade_name WHERE biomarker_fda_test_use.approved_indication != "risk assesment"
+
+###
+
+
+Original Query:
+SELECT T1.histological_type FROM biomarker_fda_test AS T1 JOIN biomarker_fda_test_use AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.approved_indication != "risk assesment"
+GPT-3 choices:
+(0) Find the histological type for all biomarker tests in the FDA that have been approved for use but are not used for risk assessment.
+(1) Get the histological type of biomarkers from the FDA testing database for tests listed in the approved use table, where the indication is not "risk assessment".
+(2) Retrieve the histological type from the biomarker_fda_test table for all test trade names that are found in both the biomarker_fda_test and biomarker_fda_test_use tables, but only include those where the approved indication is not "risk assessment".
+(3) Find the histological type for biomarkers in FDA test that have been used and have an approved indication other than risk assessment.
+(4) "Get the histological type from the biomarker FDA test database where the approved indication is not 'risk assessment' and the test trade name is found in the list of approved uses."
+(5) What are the histological types listed for the tests in biomarker_fda_test_use, excluding any tests that have an approved indication of "risk assessment"?
+(6) What is the histological type for all biomarkers in the biomarker_fda_test table where their test trade name is also listed in the approved indication column of the biomarker_fda_test_use table, excluding any entries with an approved indication of "risk assessment"?
+(7) Retrieve the histological type from the FDA biomarker test table where the test trade name is in use and the approved indication is not "risk assessment".
+
+
+Re-ranked choices:
+14.724  Retrieve the histological type from the FDA biomarker test table where the test trade name is in use and the approved indication is not "risk assessment".
+13.321  "Get the histological type from the biomarker FDA test database where the approved indication is not 'risk assessment' and the test trade name is found in the list of approved uses."
+10.514  What is the histological type for all biomarkers in the biomarker_fda_test table where their test trade name is also listed in the approved indication column of the biomarker_fda_test_use table, excluding any entries with an approved indication of "risk assessment"?
+9.133  Find the histological type for all biomarker tests in the FDA that have been approved for use but are not used for risk assessment.
+9.128  Find the histological type for biomarkers in FDA test that have been used and have an approved indication other than risk assessment.
+9.122  Get the histological type of biomarkers from the FDA testing database for tests listed in the approved use table, where the indication is not "risk assessment".
+9.115  Retrieve the histological type from the biomarker_fda_test table for all test trade names that are found in both the biomarker_fda_test and biomarker_fda_test_use tables, but only include those where the approved indication is not "risk assessment".
+4.921  What are the histological types listed for the tests in biomarker_fda_test_use, excluding any tests that have an approved indication of "risk assessment"?
+

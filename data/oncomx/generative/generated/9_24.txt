@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_trade_name != "INFORM HER-2/NEU"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_trade_name != "INFORM HER-2/NEU"
+GPT-3 choices:
+(0) Get the FDA biomarker IDs from the table containing NCIt terms for FDA biomarkers, where the test trade name is not "INFORM HER-2/NEU".
+(1) Find the biomarker FDA ID for all biomarkers that have a corresponding NCIT term and are not equal to "INFORM HER-2/NEU" in the test trade name.
+(2) Get the biomarker FDA ID from the table biomarker_fda_ncit_term for all entries where the associated test trade name in the table biomarker_fda is not "INFORM HER-2/NEU".
+(3) Find the ID of biomarkers from the table "biomarker_fda_ncit_term" where the trade name in the table "biomarker_fda" is not equal to "INFORM HER-2/NEU".
+(4) Find the FDA biomarker IDs for which the corresponding trade name is not "INFORM HER-2/NEU".
+(5) Retrieve the biomarker_fda_id from biomarker_fda_ncit_term where the test_trade_name in the associated record in biomarker_fda is not "INFORM HER-2/NEU".
+(6) Retrieve the FDA biomarker IDs for biomarkers that have a trade name other than "INFORM HER-2/NEU".
+(7) Find the biomarker FDA IDs from the table biomarker_fda_ncit_term where the test_trade_name in the biomarker_fda table is not "INFORM HER-2/NEU".

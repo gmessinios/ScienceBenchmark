@@ -1,0 +1,27 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.distance = 1.39743133363824e-05
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1 WHERE T1.distance = 1.39743133363824e-05
+GPT-3 choices:
+(0) Retrieve the mode of the nearest neighbor object from the neighbors table where the distance is equal to 1.39743133363824e-05.
+(1) Retrieve the mode of the nearest neighbor objects where the distance is equal to 1.39743133363824e-05 from the neighbors table.
+(2) Retrieve the mode from the neighbors table for nearest neighbour objects where the distance is equal to 1.39743133363824e-05.
+(3) Retrieve the mode of the nearest neighbor object from the neighbors table where the distance is equal to 1.39743133363824e-05.
+(4) What is the mode of the nearest neighbor object where the distance is 1.39743133363824e-05?
+(5) What is the mode of the nearest neighbor object with a distance of 1.39743133363824e-05?
+(6) Find the mode for the objects in the neighbor table with a distance of 1.39743133363824e-05 from the nearest neighbor objects.
+(7) Get the mode from the nearest neighbor objects where the distance is equal to 1.39743133363824e-05.
+
+
+Re-ranked choices:
+8.465  Retrieve the mode of the nearest neighbor objects where the distance is equal to 1.39743133363824e-05 from the neighbors table.
+8.462  Find the mode for the objects in the neighbor table with a distance of 1.39743133363824e-05 from the nearest neighbor objects.
+8.458  What is the mode of the nearest neighbor object where the distance is 1.39743133363824e-05?
+8.458  What is the mode of the nearest neighbor object with a distance of 1.39743133363824e-05?
+8.436  Retrieve the mode of the nearest neighbor object from the neighbors table where the distance is equal to 1.39743133363824e-05.
+7.054  Get the mode from the nearest neighbor objects where the distance is equal to 1.39743133363824e-05.
+7.033  Retrieve the mode from the neighbors table for nearest neighbour objects where the distance is equal to 1.39743133363824e-05.
+

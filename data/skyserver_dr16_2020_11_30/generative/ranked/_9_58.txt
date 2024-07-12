@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.value != 8
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.value != 8
+GPT-3 choices:
+(0) Retrieve the mode of all nearest neighbor objects where the neighbor type is not equal to 8, and the object has been observed photometrically.
+(1) Retrieve the mode of the nearest neighbor objects that were not photometrically observed.
+(2) Get the mode of nearest neighbor objects that have a photometric observation value different from 8.
+(3) "Retrieve the mode of all nearest neighbor objects where the corresponding photometrically observed value is not equal to 8."
+(4) Find the mode of the nearest neighbor objects where the photometrically observed value is not equal to 8.
+(5) Find the mode of the nearest neighbour objects that have a photometrically observed type value that is not equal to 8.
+(6) Find the mode of the nearest neighbor objects that have been photometrically observed and whose photometric type is not equal to 8.
+(7) Find the mode of the nearest neighbour objects that have been observed photometrically, excluding those with a value of 8.
+
+
+Re-ranked choices:
+11.228  Find the mode of the nearest neighbor objects that have been photometrically observed and whose photometric type is not equal to 8.
+11.227  Find the mode of the nearest neighbour objects that have a photometrically observed type value that is not equal to 8.
+9.829  Find the mode of the nearest neighbor objects where the photometrically observed value is not equal to 8.
+9.825  Get the mode of nearest neighbor objects that have a photometric observation value different from 8.
+9.825  "Retrieve the mode of all nearest neighbor objects where the corresponding photometrically observed value is not equal to 8."
+8.426  Retrieve the mode of all nearest neighbor objects where the neighbor type is not equal to 8, and the object has been observed photometrically.
+8.425  Find the mode of the nearest neighbour objects that have been observed photometrically, excluding those with a value of 8.
+7.028  Retrieve the mode of the nearest neighbor objects that were not photometrically observed.
+

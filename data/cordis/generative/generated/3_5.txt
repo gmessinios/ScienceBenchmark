@@ -1,0 +1,16 @@
+SELECT count(*) FROM ec_framework_programs AS ec_framework_programs
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs AS T1
+GPT-3 choices:
+(0) How many programs are included in the EC Framework Programs?
+(1) How many framework programs are there in the ec_framework_programs table?
+(2) How many records are in the table "ec_framework_programs" under the column "count"?
+(3) How many rows are there in the table named "ec_framework_programs" within the column named "count(*)"?
+(4) How many rows are there in the ec_framework_programs table of the database?
+(5) How many framework programs are there in the ec_framework_programs table?
+(6) How many framework programs are there in the ec_framework_programs table?
+(7) How many rows are in the table "ec_framework_programs" in the database, named "ec_framework_programs"?

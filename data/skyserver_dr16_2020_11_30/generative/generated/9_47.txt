@@ -1,0 +1,16 @@
+SELECT Photometric_objects.loadversion FROM photoobj AS Photometric_objects JOIN specobj AS Spectroscopic_objects ON Photometric_objects.objid = Spectroscopic_objects.bestobjid WHERE Spectroscopic_objects.ancillary_target1 != 1048576
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM photoobj AS T1 JOIN specobj AS T2 ON T1.objid = T2.bestobjid WHERE T2.ancillary_target1 != 1048576
+GPT-3 choices:
+(0) Find the load version from the photoobj table for objects that have an ancillary target1 value not equal to 1048576 in the specobj table.
+(1) Find the load version of photometric objects where the bestobjid from the specobj table does not match 1048576 in the ancillary_target1 column.
+(2) Find the loadversion for Photometric_objects where the objid matches the bestobjid in Spectroscopic_objects and the ancillary_target1 is not equal to 1048576.
+(3) What is the load version of photometric objects for all spectroscopic objects that have an ancillary target1 value not equal to 1048576?
+(4) Retrieve the load version from the photometric_objects table for objects where the ancillary_target1 value is not equal to 1048576 in the specobj table, joining on objid in both tables.
+(5) "Retrieve the load version of photometric objects where the ancillary target1 value is not equal to 1048576 in the Spectroscopic_objects table."
+(6) Find the load version from the photometric objects table for which the ancillary_target1 column in the spectroscopic_objects table is not equal to 1048576.
+(7) Get the load version for all objects in the Photometric_objects table that have a matching objid in the Spectroscopic_objects table and where the ancillary_target1 column in the Spectroscopic_objects table is not equal to 1048576.

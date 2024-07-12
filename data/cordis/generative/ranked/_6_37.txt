@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code = "AAT-2007-4.2-06" and topics.title = "Low cost and durable PEMFCs for transport applications "
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code = "AAT-2007-4.2-06" and T1.title = "Low cost and durable PEMFCs for transport applications "
+GPT-3 choices:
+(0) Find the RCN of the topic "Low cost and durable PEMFCs for transport applications" with the code "AAT-2007-4.2-06".
+(1) Find the research concept number for a topic titled "Low cost and durable PEMFCs for transport applications" with the code "AAT-2007-4.2-06" from the table of topics.
+(2) Get the research control number of topics that have a code of "AAT-2007-4.2-06" and a title of "Low cost and durable PEMFCs for transport applications".
+(3) Find the RCN of the topic "Low cost and durable PEMFCs for transport applications" with code AAT-2007-4.2-06 in the topics table.
+(4) Find the research control number for a topic on low cost and durable proton exchange membrane fuel cells for use in transportation.
+(5) Find the Research Council Number for the topic "Low cost and durable PEMFCs for transport applications" with a code of "AAT-2007-4.2-06".
+(6) Retrieve the research council number of the topic "Low cost and durable PEMFCs for transport applications" with the code "AAT-2007-4.2-06" from the topics table.
+(7) Find the Research Council Number (RCN) for the topic "Low cost and durable PEMFCs for transport applications" with code "AAT-2007-4.2-06".
+
+
+Re-ranked choices:
+9.150  Find the RCN of the topic "Low cost and durable PEMFCs for transport applications" with code AAT-2007-4.2-06 in the topics table.
+9.144  Get the research control number of topics that have a code of "AAT-2007-4.2-06" and a title of "Low cost and durable PEMFCs for transport applications".
+7.738  Find the RCN of the topic "Low cost and durable PEMFCs for transport applications" with the code "AAT-2007-4.2-06".
+7.738  Retrieve the research council number of the topic "Low cost and durable PEMFCs for transport applications" with the code "AAT-2007-4.2-06" from the topics table.
+6.337  Find the research concept number for a topic titled "Low cost and durable PEMFCs for transport applications" with the code "AAT-2007-4.2-06" from the table of topics.
+6.330  Find the Research Council Number for the topic "Low cost and durable PEMFCs for transport applications" with a code of "AAT-2007-4.2-06".
+6.328  Find the Research Council Number (RCN) for the topic "Low cost and durable PEMFCs for transport applications" with code "AAT-2007-4.2-06".
+2.828  Find the research control number for a topic on low cost and durable proton exchange membrane fuel cells for use in transportation.
+

@@ -1,0 +1,16 @@
+SELECT projects.objective, count(*) FROM projects AS projects  GROUP BY projects.objective
+
+###
+
+
+Original Query:
+SELECT T1.objective, count(*) FROM projects AS T1  GROUP BY T1.objective
+GPT-3 choices:
+(0) How many projects have the same objective and what is that objective for each project?
+(1) How many projects have the same objective and what is the total count for each objective?
+(2) How many projects have the same objective and what is the total count of each objective?
+(3) Count the number of projects for each objective and display the objective along with the count.
+(4) "How many projects are there for each distinct objective?"
+(5) "Count the number of projects and group them by their objective."
+(6) Count the number of projects and their corresponding objectives in the projects table, grouping them by their objective.
+(7) "How many projects are there for each objective in the table 'projects'?"

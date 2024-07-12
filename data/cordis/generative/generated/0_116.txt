@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title = "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts (excluding extreme events)"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title = "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts (excluding extreme events)"
+GPT-3 choices:
+(0) What is the code for the topic "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts (excluding extreme events)"?
+(1) What are the codes for topics that have a title of "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts", excluding extreme events?
+(2) What is the code for the topic titled "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts (excluding extreme events)"?
+(3) Retrieve the code of the topic whose title is "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts (excluding extreme events)".
+(4) What are the code values for topics that have a title of "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts" (excluding extreme events)?
+(5) Find the topic code for "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts" from the table called "topics".
+(6) Find the code for the topic "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts (excluding extreme events)".
+(7) Find the code for topics that have the title "Development and application of methodologies, technologies, models and tools for damage assessment, monitoring and adaptation to climate change impacts (excluding extreme events)".

@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Galaxy: An extended object composed of many stars and other matter." and photometrically_observed.value = 4
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Galaxy: An extended object composed of many stars and other matter." and T1.value = 4
+GPT-3 choices:
+(0) Retrieve the names of all objects that are classified as galaxies with a photometric value of 4, which are described as extended and composed of stars and other matter.
+(1) Find the names of galaxies that have a photometrically observed type with a description of "Galaxy: An extended object composed of many stars and other matter" and a value of 4.
+(2) Find the names of galaxies that have a description of "Galaxy: An extended object composed of many stars and other matter" and a value of 4 for their photometrically observed type.
+(3) Which names correspond to galaxies in the photometrically observed data, where the description is an extended object composed of many stars and other matter, and the value is 4?
+(4) "What are the names of all objects that have been observed photometrically and described as galaxies with a value of 4?"
+(5) "Retrieve the names of galaxies that have a photometric type value of 4 and are described as an extended object composed of stars and other matter."
+(6) "Retrieve the names of galaxies that have a photometrically observed type value of 4 and a description stating they are extended objects composed of stars and other matter."
+(7) Find the names of all galaxies that have a photo type value of 4 and are described as an extended object composed of many stars and other matter.
+
+
+Re-ranked choices:
+12.619  Find the names of galaxies that have a photometrically observed type with a description of "Galaxy: An extended object composed of many stars and other matter" and a value of 4.
+12.619  Find the names of galaxies that have a description of "Galaxy: An extended object composed of many stars and other matter" and a value of 4 for their photometrically observed type.
+11.219  Which names correspond to galaxies in the photometrically observed data, where the description is an extended object composed of many stars and other matter, and the value is 4?
+9.119  "Retrieve the names of galaxies that have a photometrically observed type value of 4 and a description stating they are extended objects composed of stars and other matter."
+7.025  Find the names of all galaxies that have a photo type value of 4 and are described as an extended object composed of many stars and other matter.
+6.324  "Retrieve the names of galaxies that have a photometric type value of 4 and are described as an extended object composed of stars and other matter."
+4.929  "What are the names of all objects that have been observed photometrically and described as galaxies with a value of 4?"
+4.921  Retrieve the names of all objects that are classified as galaxies with a photometric value of 4, which are described as extended and composed of stars and other matter.
+

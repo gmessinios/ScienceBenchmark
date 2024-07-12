@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes WHERE funding_schemes.title != "Bio-based Industries Coordination and Support action"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 WHERE T1.title != "Bio-based Industries Coordination and Support action"
+GPT-3 choices:
+(0) Find the code for all funding schemes, excluding "Bio-based Industries Coordination and Support action".
+(1) Retrieve the codes from funding schemes where the title is not "Bio-based Industries Coordination and Support action".
+(2) What are the codes for all funding schemes except "Bio-based Industries Coordination and Support action"?
+(3) Find the code for all funding schemes, except the one titled "Bio-based Industries Coordination and Support action".
+(4) "Get the code from funding schemes where the title is not 'Bio-based Industries Coordination and Support action'."
+(5) Get the code from all funding schemes except for "Bio-based Industries Coordination and Support action".
+(6) Retrieve the code for all funding schemes where the title is not "Bio-based Industries Coordination and Support action".
+(7) What are the codes for all funding schemes except the one titled "Bio-based Industries Coordination and Support action"?
+
+
+Re-ranked choices:
+9.130  "Get the code from funding schemes where the title is not 'Bio-based Industries Coordination and Support action'."
+9.129  Retrieve the code for all funding schemes where the title is not "Bio-based Industries Coordination and Support action".
+7.730  Retrieve the codes from funding schemes where the title is not "Bio-based Industries Coordination and Support action".
+7.729  Get the code from all funding schemes except for "Bio-based Industries Coordination and Support action".
+6.330  Find the code for all funding schemes, except the one titled "Bio-based Industries Coordination and Support action".
+6.329  What are the codes for all funding schemes except "Bio-based Industries Coordination and Support action"?
+6.329  What are the codes for all funding schemes except the one titled "Bio-based Industries Coordination and Support action"?
+6.327  Find the code for all funding schemes, excluding "Bio-based Industries Coordination and Support action".
+

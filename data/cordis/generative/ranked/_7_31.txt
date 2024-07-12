@@ -1,0 +1,27 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas WHERE subject_areas.code = "BIO" or subject_areas.description = "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 WHERE T1.code = "BIO" or T1.description = "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+GPT-3 choices:
+(0) What is the title of the subject area with a code of "BIO" or a description that includes tidal wave and wind energy, hydro-electric power, geothermal energy, energy from biomass, solar energy, photovoltaics, and unconventional and alternative energies?
+(1) Find the title of all subject areas that have a code of "BIO" or a description of "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+(2) Find the title of subject areas where the code is "BIO" or the description is "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+(3) Find the title of all subject areas where the code is "BIO" or the description is "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+(4) What are the titles of subject areas that have a code of "BIO" or a description that includes "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies"?
+(5) Find the title of subject areas where the code is "BIO" or the description is "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+(6) Find the title of subject areas where the code is "BIO" or the description is "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies.".
+(7) What are the titles of subject areas with a code of "BIO" or a description that includes information about tidal wave and wind energy, hydro-electric power, geothermal energy, biomass energy, solar energy, photovoltaics, unconventional energies, or alternative energies?
+
+
+Re-ranked choices:
+16.814  Find the title of subject areas where the code is "BIO" or the description is "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+16.814  Find the title of subject areas where the code is "BIO" or the description is "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies.".
+16.814  Find the title of all subject areas where the code is "BIO" or the description is "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+16.814  Find the title of all subject areas that have a code of "BIO" or a description of "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies."
+16.113  What are the titles of subject areas that have a code of "BIO" or a description that includes "Tidal wave and wind energy; hydro-electric power; geothermal energy; energy from biomass; solar energy; photovoltaics; unconventional and alternative energies"?
+12.614  What is the title of the subject area with a code of "BIO" or a description that includes tidal wave and wind energy, hydro-electric power, geothermal energy, energy from biomass, solar energy, photovoltaics, and unconventional and alternative energies?
+11.913  What are the titles of subject areas with a code of "BIO" or a description that includes information about tidal wave and wind energy, hydro-electric power, geothermal energy, biomass energy, solar energy, photovoltaics, unconventional energies, or alternative energies?
+

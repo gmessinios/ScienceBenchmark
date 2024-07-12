@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.special_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.loadversion = 1017 and Spectroscopic_objects.class = "GALAXY"
+
+###
+
+
+Original Query:
+SELECT T1.special_target1 FROM specobj AS T1 WHERE T1.loadversion = 1017 and T1.class = "GALAXY"
+GPT-3 choices:
+(0) What are the special targets for galaxies in the 1017 load version of the specobj database?
+(1) Retrieve the special target 1 for all galaxies in the specobj table where the load version is 1017.
+(2) Get the special target 1 of all galaxies from the spectroscopic objects table where the load version is 1017 and class is "GALAXY".
+(3) What are the special targets for all galaxies in the specobj table with a load version of 1017?
+(4) What is the special target 1 for galaxies in the specobj table with a load version of 1017?
+(5) What are the special targets for galaxies in the specobj table with a loadversion of 1017?
+(6) What are the special targets of galaxies in the specobj table with a load version of 1017?
+(7) Retrieve the special target 1 from all spectroscopic objects with a load version of 1017 and belonging to the class of galaxies.

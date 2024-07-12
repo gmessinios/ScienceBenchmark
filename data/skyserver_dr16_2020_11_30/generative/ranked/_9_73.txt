@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed JOIN neighbors AS Nearest_neighbour_objects ON photometrically_observed.value = Nearest_neighbour_objects.neighbortype WHERE Nearest_neighbour_objects.neighborobjid != 1237645876861272528
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 JOIN neighbors AS T2 ON T1.value = T2.neighbortype WHERE T2.neighborobjid != 1237645876861272528
+GPT-3 choices:
+(0) Find the photometrically observed value for the nearest neighbor object that is not equal to 1237645876861272528, as determined by joining the photo_type and neighbors tables on their common value.
+(1) Retrieve the photometrically observed value for all neighbors whose object ID is not equal to 1237645876861272528.
+(2) Retrieve the value of photometrically observed objects where the neighbor type is equal to the value and the neighbor object ID is not equal to 1237645876861272528 from the photo type table.
+(3) What are the values of photometrically observed objects that are neighbors of an object other than 1237645876861272528?
+(4) What is the value of photometrically observed objects that are neighbors to a given object, excluding the object with ID 1237645876861272528?
+(5) Get the values of photometrically observed objects where their value is equal to the neighbor type in the table photo_type, as long as their corresponding neighbor object ID is not equal to 1237645876861272528.
+(6) What is the value of photometrically observed objects that are also neighbors of objects with neighborobjid not equal to 1237645876861272528?
+(7) Retrieve the values of photometrically observed objects that are neighbors of an object with the ID 1237645876861272528, excluding the object itself.
+
+
+Re-ranked choices:
+11.221  Retrieve the value of photometrically observed objects where the neighbor type is equal to the value and the neighbor object ID is not equal to 1237645876861272528 from the photo type table.
+11.220  Get the values of photometrically observed objects where their value is equal to the neighbor type in the table photo_type, as long as their corresponding neighbor object ID is not equal to 1237645876861272528.
+8.424  What is the value of photometrically observed objects that are neighbors to a given object, excluding the object with ID 1237645876861272528?
+7.719  Find the photometrically observed value for the nearest neighbor object that is not equal to 1237645876861272528, as determined by joining the photo_type and neighbors tables on their common value.
+7.032  Retrieve the photometrically observed value for all neighbors whose object ID is not equal to 1237645876861272528.
+7.024  Retrieve the values of photometrically observed objects that are neighbors of an object with the ID 1237645876861272528, excluding the object itself.
+5.630  What are the values of photometrically observed objects that are neighbors of an object other than 1237645876861272528?
+5.623  What is the value of photometrically observed objects that are also neighbors of objects with neighborobjid not equal to 1237645876861272528?
+

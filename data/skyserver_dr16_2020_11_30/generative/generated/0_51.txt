@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Cosmic-ray track (not used)."
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.description = "Cosmic-ray track (not used)."
+GPT-3 choices:
+(0) Find the value in the "photometrically_observed" table for observations that are labeled as "Cosmic-ray track (not used)".
+(1) Retrieve the value of the "photometrically observed" measurement for cosmic-ray tracks that are not used.
+(2) "Retrieve the value of photometrically observed cosmic-ray tracks that are not used."
+(3) What is the value for cosmic-ray tracks that are not used, as described in the photo type table?
+(4) "Retrieve the value from the table photometrically_observed where the description is 'Cosmic-ray track (not used)'."
+(5) What is the value of the cosmic-ray track (not used) in the photometrically observed photo type?
+(6) Retrieve the value from the photometrically_observed table where the description is "Cosmic-ray track (not used)".
+(7) Retrieve the value from the column "value" in the table "photo_type" where the description is equal to "Cosmic-ray track (not used)".

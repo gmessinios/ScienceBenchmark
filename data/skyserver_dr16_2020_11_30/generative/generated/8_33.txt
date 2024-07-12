@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.plateid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.scienceprimary != 1
+
+###
+
+
+Original Query:
+SELECT T1.plateid FROM specobj AS T1 WHERE T1.scienceprimary != 1
+GPT-3 choices:
+(0) Find the plate IDs for all spectroscopic objects that are not considered to be the primary science target.
+(1) Retrieve the plate ID from the spectroscopic objects table for objects that are not marked as primary science targets.
+(2) Retrieve the plate ID of spectroscopic objects from the specobj table where the science primary flag is not equal to 1.
+(3) Find the plate IDs for spectroscopic objects that are not labeled as science primary.
+(4) Retrieve the plate IDs of all spectroscopic objects that are not considered primary science targets.
+(5) Select the plate ID from the spectroscopic objects table where the science primary column is not equal to 1.
+(6) Retrieve the plate IDs from the specobj table for all objects that are not marked as primary science targets.
+(7) Find the plateid for all spectroscopic objects that are not designated as a primary science object.

@@ -1,0 +1,16 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.ra != 0.000881
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.ra != 0.000881
+GPT-3 choices:
+(0) Find the specobjid from the table spplines where the corresponding ra value in the table specobj is not equal to 0.000881.
+(1) Get the specobjid from the Stellar_spectal_line_indices table where the corresponding Spectroscopic_objects have an ra value that is not equal to 0.000881.
+(2) Retrieve the specobjid from spplines where the ra value in Spectroscopic_objects is not equal to 0.000881 and join with the specobj table to get all corresponding spectroscopic objects.
+(3) Find the specobjid values from the table spplines where Spectroscopic_objects has a non-zero value for ra, but exclude the entry with an ra value of 0.000881.
+(4) Find the specobjid values from the spplines table where Spectroscopic_objects has a different value for ra other than 0.000881 and join it with the specobj table on the specobjid column to retrieve all corresponding information.
+(5) Retrieve the specobjid values from the spplines table for all rows in which the ra column of the Spectroscopic_objects table is not equal to 0.000881.
+(6) Retrieve the specobjid from spplines for all Stellar_spectal_line_indices, where the corresponding Spectroscopic_objects have a non-zero ra value.
+(7) Retrieve the specobjid values from the Stellar_spectal_line_indices table where the ra value in the Spectroscopic_objects table is not equal to 0.000881.

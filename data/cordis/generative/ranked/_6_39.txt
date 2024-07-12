@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Kaufbeuren, Kreisfreie Stadt" and eu_territorial_units.geocode_regions = "DEB1C"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.description = "Kaufbeuren, Kreisfreie Stadt" and T1.geocode_regions = "DEB1C"
+GPT-3 choices:
+(0) What is the nuts_version for Kaufbeuren, a Kreisfreie Stadt with geocode_regions "DEB1C" in eu_territorial_units?
+(1) Retrieve the NUTS version from the European territorial units where the description is "Kaufbeuren, Kreisfreie Stadt" and the geocode regions are "DEB1C".
+(2) What is the nuts version for the territorial unit "Kaufbeuren, Kreisfreie Stadt" in region code "DEB1C"?
+(3) What is the NUTS version for the city of Kaufbeuren in Germany, with a geocode region of DEB1C?
+(4) What is the nuts_version of the eu_territorial_units for which the description is "Kaufbeuren, Kreisfreie Stadt" and geocode_regions is "DEB1C"?
+(5) What is the NUTS version for the territory with description "Kaufbeuren, Kreisfreie Stadt" and geocode_regions "DEB1C" in the EU territorial units database?
+(6) Retrieve the NUTS version from the EU Territorial Units table where the description is "Kaufbeuren, Kreisfreie Stadt" and the geocode_regions is "DEB1C".
+(7) Get the NUTS version from the EU territorial units where the description is "Kaufbeuren, Kreisfreie Stadt" and the geocode regions are "DEB1C".
+
+
+Re-ranked choices:
+13.322  Get the NUTS version from the EU territorial units where the description is "Kaufbeuren, Kreisfreie Stadt" and the geocode regions are "DEB1C".
+11.919  Retrieve the NUTS version from the European territorial units where the description is "Kaufbeuren, Kreisfreie Stadt" and the geocode regions are "DEB1C".
+10.520  Retrieve the NUTS version from the EU Territorial Units table where the description is "Kaufbeuren, Kreisfreie Stadt" and the geocode_regions is "DEB1C".
+10.518  What is the NUTS version for the territory with description "Kaufbeuren, Kreisfreie Stadt" and geocode_regions "DEB1C" in the EU territorial units database?
+6.324  What is the nuts version for the territorial unit "Kaufbeuren, Kreisfreie Stadt" in region code "DEB1C"?
+4.938  What is the NUTS version for the city of Kaufbeuren in Germany, with a geocode region of DEB1C?
+3.518  What is the nuts_version of the eu_territorial_units for which the description is "Kaufbeuren, Kreisfreie Stadt" and geocode_regions is "DEB1C"?
+2.118  What is the nuts_version for Kaufbeuren, a Kreisfreie Stadt with geocode_regions "DEB1C" in eu_territorial_units?
+

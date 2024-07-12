@@ -1,0 +1,28 @@
+SELECT countries.country_code3 FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.unics_id = 2062
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.unics_id = 2062
+GPT-3 choices:
+(0) Find the three-letter country code for the country associated with institution number 2062.
+(1) Which country code3 belongs to the institutions that have a UNICS ID of 2062 and also have a corresponding country with a UNICS ID in the countries table?
+(2) Retrieve the three-letter country code for the country associated with institution ID 2062.
+(3) Retrieve the country code3 for the country associated with institution ID 2062.
+(4) Retrieve the country code3 from the countries table where the country's unics_id matches the country_id in the institutions table with a unics_id of 2062.
+(5) Find the country code3 for countries that have a corresponding unics_id in the institutions table with unics_id 2062.
+(6) What is the country code3 for the country that has a UNICS ID of 2062 in the institutions table and is associated with the same country in the countries table?
+(7) Retrieve the country code 3 for the country associated with the institution having a UNICS ID of 2062.
+
+
+Re-ranked choices:
+8.422  What is the country code3 for the country that has a UNICS ID of 2062 in the institutions table and is associated with the same country in the countries table?
+8.422  Which country code3 belongs to the institutions that have a UNICS ID of 2062 and also have a corresponding country with a UNICS ID in the countries table?
+5.624  Find the country code3 for countries that have a corresponding unics_id in the institutions table with unics_id 2062.
+5.621  Retrieve the country code3 from the countries table where the country's unics_id matches the country_id in the institutions table with a unics_id of 2062.
+4.229  Retrieve the country code3 for the country associated with institution ID 2062.
+4.227  Retrieve the country code 3 for the country associated with the institution having a UNICS ID of 2062.
+2.825  Retrieve the three-letter country code for the country associated with institution ID 2062.
+1.425  Find the three-letter country code for the country associated with institution number 2062.
+

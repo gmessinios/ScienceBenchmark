@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.loadversion FROM specobj AS Spectroscopic_objects    ORDER BY Spectroscopic_objects.scienceprimary DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM specobj AS T1    ORDER BY T1.scienceprimary DESC LIMIT 1
+GPT-3 choices:
+(0) Get the most recent value of the "loadversion" attribute from the "specobj" table, sorted by descending order of the "scienceprimary" attribute, limited to 1 result.
+(1) What is the version number of the latest loaded data for a spectroscopic object, ordered by whether it is marked as the primary science target and limited to one result?
+(2) Get the version number of the latest spectroscopic object in descending order by primary scientific status from the specobj table.
+(3) Retrieve the load version of the latest spectroscopic object in descending order based on its science primary status from the specobj table.
+(4) "Select the load version from the specobj table for spectroscopic objects, ordering by science primary in descending order and limiting the result to 1."
+(5) Find the most recent loadversion value from the specobj table for objects identified as primary sources in a spectroscopic study, ordered by their status as science primaries, with only one result returned.
+(6) Retrieve the version number of the loaded spectroscopic objects, ordered by those designated as science primary, with a limit of 1 result.
+(7) Get the latest version of the load for all objects from the spectroscopic catalog, sorted by those that are considered primary science targets, and return only one result.
+
+
+Re-ranked choices:
+4.921  Get the latest version of the load for all objects from the spectroscopic catalog, sorted by those that are considered primary science targets, and return only one result.
+3.519  "Select the load version from the specobj table for spectroscopic objects, ordering by science primary in descending order and limiting the result to 1."
+2.821  Retrieve the load version of the latest spectroscopic object in descending order based on its science primary status from the specobj table.
+2.121  Retrieve the version number of the loaded spectroscopic objects, ordered by those designated as science primary, with a limit of 1 result.
+2.120  What is the version number of the latest loaded data for a spectroscopic object, ordered by whether it is marked as the primary science target and limited to one result?
+2.119  Get the version number of the latest spectroscopic object in descending order by primary scientific status from the specobj table.
+2.117  Find the most recent loadversion value from the specobj table for objects identified as primary sources in a spectroscopic study, ordered by their status as science primaries, with only one result returned.
+0.717  Get the most recent value of the "loadversion" attribute from the "specobj" table, sorted by descending order of the "scienceprimary" attribute, limited to 1 result.
+

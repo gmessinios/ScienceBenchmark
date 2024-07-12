@@ -1,0 +1,28 @@
+SELECT disease_mutation.chromosome_id FROM disease_mutation AS disease_mutation JOIN map_protein_disease_mutation AS map_protein_disease_mutation ON disease_mutation.ensembl_transcript_id = map_protein_disease_mutation.ensembl_transcript_id WHERE map_protein_disease_mutation.uniprotkb_ac != "C9JJ37"
+
+###
+
+
+Original Query:
+SELECT T1.chromosome_id FROM disease_mutation AS T1 JOIN map_protein_disease_mutation AS T2 ON T1.ensembl_transcript_id = T2.ensembl_transcript_id WHERE T2.uniprotkb_ac != "C9JJ37"
+GPT-3 choices:
+(0) "Retrieve the chromosome IDs from disease mutations for all proteins that have an Ensembl transcript ID and are not associated with the UniProtKB accession code "C9JJ37" in the map of protein-disease mutations."
+(1) Retrieve the chromosome ID for all disease mutations where the corresponding protein's UniProtKB accession number is not "C9JJ37".
+(2) Get the chromosome IDs for disease mutations where the Ensembl transcript ID from the disease mutation table matches the Ensembl transcript ID from the protein-disease-mutation mapping table, but exclude any rows where the UniProtKB accession number is "C9JJ37".
+(3) What is the chromosome ID for all disease mutations associated with a protein other than C9JJ37?
+(4) Find the chromosome ID for disease mutations that have an Ensembl transcript ID matching a UniprotKB AC that is not "C9JJ37" in the map of protein-disease mutations.
+(5) Find the chromosome IDs from disease mutations that are not associated with the uniprotkb accession code "C9JJ37" through a join of the disease_mutation and map_protein_disease_mutation tables using their shared ensembl_transcript_id.
+(6) Find the chromosome ID for disease mutations that are associated with a protein other than C9JJ37 through the ensembl transcript IDs in both the disease_mutation and map_protein_disease_mutation tables.
+(7) Find the chromosome ID for disease mutations that are associated with a protein in the map_protein_disease_mutation table, but not associated with the uniprotkb_ac "C9JJ37".
+
+
+Re-ranked choices:
+11.921  Find the chromosome ID for disease mutations that have an Ensembl transcript ID matching a UniprotKB AC that is not "C9JJ37" in the map of protein-disease mutations.
+10.515  "Retrieve the chromosome IDs from disease mutations for all proteins that have an Ensembl transcript ID and are not associated with the UniProtKB accession code "C9JJ37" in the map of protein-disease mutations."
+10.513  Get the chromosome IDs for disease mutations where the Ensembl transcript ID from the disease mutation table matches the Ensembl transcript ID from the protein-disease-mutation mapping table, but exclude any rows where the UniProtKB accession number is "C9JJ37".
+9.116  Find the chromosome ID for disease mutations that are associated with a protein other than C9JJ37 through the ensembl transcript IDs in both the disease_mutation and map_protein_disease_mutation tables.
+7.722  Retrieve the chromosome ID for all disease mutations where the corresponding protein's UniProtKB accession number is not "C9JJ37".
+6.317  Find the chromosome ID for disease mutations that are associated with a protein in the map_protein_disease_mutation table, but not associated with the uniprotkb_ac "C9JJ37".
+5.628  What is the chromosome ID for all disease mutations associated with a protein other than C9JJ37?
+4.915  Find the chromosome IDs from disease mutations that are not associated with the uniprotkb accession code "C9JJ37" through a join of the disease_mutation and map_protein_disease_mutation tables using their shared ensembl_transcript_id.
+

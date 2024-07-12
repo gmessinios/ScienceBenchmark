@@ -1,0 +1,27 @@
+SELECT countries.country_code2 FROM countries AS countries WHERE countries.country_code3 = "HKG"
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 WHERE T1.country_code3 = "HKG"
+GPT-3 choices:
+(0) "Retrieve the country code2 from the countries table where the country code3 is equal to "HKG"."
+(1) Retrieve the country code 2 for the country with a country code 3 of "HKG" from the table "countries".
+(2) Retrieve the country code2 for the country with a country code3 of "HKG" from the countries table.
+(3) Retrieve the country code 2 from the countries table where the country code 3 is equal to "HKG".
+(4) Retrieve the country code 2 for all countries in the "countries" table where the country code 3 is equal to "HKG".
+(5) Show me the two-letter country code for the country whose three-letter country code is "HKG" from the "countries" table.
+(6) Retrieve the country code 2 from the countries table where the country code 3 is equal to "HKG".
+(7) Retrieve the country code 2 for the country with a country code of "HKG" from the countries table.
+
+
+Re-ranked choices:
+6.339  Retrieve the country code2 for the country with a country code3 of "HKG" from the countries table.
+6.337  "Retrieve the country code2 from the countries table where the country code3 is equal to "HKG"."
+3.544  Retrieve the country code 2 from the countries table where the country code 3 is equal to "HKG".
+3.544  Retrieve the country code 2 for the country with a country code of "HKG" from the countries table.
+3.542  Retrieve the country code 2 for the country with a country code 3 of "HKG" from the table "countries".
+3.538  Retrieve the country code 2 for all countries in the "countries" table where the country code 3 is equal to "HKG".
+3.532  Show me the two-letter country code for the country whose three-letter country code is "HKG" from the "countries" table.
+

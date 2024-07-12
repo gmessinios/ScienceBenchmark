@@ -1,0 +1,28 @@
+SELECT count(*) FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.peptide_id = "ENSP00000071281"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_protein_disease_mutation AS T1 WHERE T1.peptide_id = "ENSP00000071281"
+GPT-3 choices:
+(0) How many entries are there in the map_protein_disease_mutation table where the peptide_id is "ENSP00000071281"?
+(1) How many rows are in the table "map_protein_disease_mutation" where the peptide_id is equal to "ENSP00000071281"?
+(2) How many entries are there in the map_protein_disease_mutation table where the peptide_id column equals "ENSP00000071281"?
+(3) How many records are in the map_protein_disease_mutation table where the peptide_id is "ENSP00000071281"?
+(4) How many rows are in the table map_protein_disease_mutation where the peptide_id is equal to "ENSP00000071281"?
+(5) How many entries are there in the "map_protein_disease_mutation" table where the "peptide_id" column is equal to "ENSP00000071281"?
+(6) How many protein-disease-mutation mappings are associated with the peptide with an ID of "ENSP00000071281"?
+(7) Count the number of rows in the "map_protein_disease_mutation" table where the peptide_id is equal to "ENSP00000071281".
+
+
+Re-ranked choices:
+3.524  How many protein-disease-mutation mappings are associated with the peptide with an ID of "ENSP00000071281"?
+0.737  How many rows are in the table "map_protein_disease_mutation" where the peptide_id is equal to "ENSP00000071281"?
+0.737  How many rows are in the table map_protein_disease_mutation where the peptide_id is equal to "ENSP00000071281"?
+0.736  How many records are in the map_protein_disease_mutation table where the peptide_id is "ENSP00000071281"?
+0.734  How many entries are there in the map_protein_disease_mutation table where the peptide_id is "ENSP00000071281"?
+0.732  Count the number of rows in the "map_protein_disease_mutation" table where the peptide_id is equal to "ENSP00000071281".
+0.730  How many entries are there in the "map_protein_disease_mutation" table where the "peptide_id" column is equal to "ENSP00000071281"?
+0.729  How many entries are there in the map_protein_disease_mutation table where the peptide_id column equals "ENSP00000071281"?
+

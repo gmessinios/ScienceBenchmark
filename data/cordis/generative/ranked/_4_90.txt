@@ -1,0 +1,26 @@
+SELECT count(*) FROM funding_schemes AS funding_schemes WHERE funding_schemes.code = "CIP-EIP-EI-TNS"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes AS T1 WHERE T1.code = "CIP-EIP-EI-TNS"
+GPT-3 choices:
+(0) How many funding schemes have a code of "CIP-EIP-EI-TNS"?
+(1) "How many funding schemes are there with the code "CIP-EIP-EI-TNS"?
+(2) How many entries are there in the funding schemes table with a code of "CIP-EIP-EI-TNS"?
+(3) How many funding schemes are there in the "CIP-EIP-EI-TNS" code?
+(4) How many funding schemes are there with the code "CIP-EIP-EI-TNS"?
+(5) How many funding schemes have a code of "CIP-EIP-EI-TNS"?
+(6) How many entries are there in the funding schemes table with the code "CIP-EIP-EI-TNS"?
+(7) How many funding schemes are there with the code "CIP-EIP-EI-TNS"?
+
+
+Re-ranked choices:
+5.233  How many funding schemes have a code of "CIP-EIP-EI-TNS"?
+5.131  How many funding schemes are there with the code "CIP-EIP-EI-TNS"?
+5.030  "How many funding schemes are there with the code "CIP-EIP-EI-TNS"?
+4.975  How many entries are there in the funding schemes table with the code "CIP-EIP-EI-TNS"?
+4.968  How many entries are there in the funding schemes table with a code of "CIP-EIP-EI-TNS"?
+3.731  How many funding schemes are there in the "CIP-EIP-EI-TNS" code?
+

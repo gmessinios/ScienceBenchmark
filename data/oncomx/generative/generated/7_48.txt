@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.uniprotkb_ac FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.ensembl_transcript_id = "ENST00000064571" or map_protein_disease_mutation.peptide_id = "ENSP00000221573"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_ac FROM map_protein_disease_mutation AS T1 WHERE T1.ensembl_transcript_id = "ENST00000064571" or T1.peptide_id = "ENSP00000221573"
+GPT-3 choices:
+(0) Retrieve the UniProtKB accession number from the protein-disease-mutation mapping table where either the Ensembl transcript ID is "ENST00000064571" or the peptide ID is "ENSP00000221573".
+(1) Get the UniProtKB accession number for all proteins associated with the Ensembl transcript ID "ENST00000064571" or peptide ID "ENSP00000221573" in the map_protein_disease_mutation database.
+(2) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the Ensembl transcript ID is equal to "ENST00000064571" or the peptide ID is equal to "ENSP00000221573".
+(3) Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where either the Ensembl transcript ID is "ENST00000064571" or the peptide ID is "ENSP00000221573".
+(4) Find the UniProtKB accession number from the map_protein_disease_mutation table where the Ensembl transcript ID is equal to "ENST00000064571" or the peptide ID is equal to "ENSP00000221573".
+(5) Retrieve the UniprotKB accession numbers from the map_protein_disease_mutation table where either the ensembl_transcript_id is equal to "ENST00000064571" or the peptide_id is equal to "ENSP00000221573".
+(6) "Retrieve the UniProtKB accession number from the map_protein_disease_mutation table where the ensembl_transcript_id is equal to "ENST00000064571" or the peptide_id is equal to "ENSP00000221573"."
+(7) Find the UniProtKB Accession number from the map_protein_disease_mutation table where either the Ensembl transcript ID is "ENST00000064571" or the peptide ID is "ENSP00000221573".

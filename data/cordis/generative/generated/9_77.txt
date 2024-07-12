@@ -1,0 +1,46 @@
+SELECT topics.code FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.objective != "
+Project Name
+ 
+BASTION: 
+Broadcast And Surveillance TechnologIes Over Networks
+
+Abstract
+The main objective of the BASTION project is to research and develop new applications for the Broadcast Market, and for the Security and Surveillance Markets.
+Both applications will be built on top of the Internet Protocol network, which will allow distributing the applications over several physical sites. The cameras will be located on one or more sites, and the monitoring/control room will be on a separate site. The main benefit of this distribution is that it will enable
+• increasing the efficiency for producing live Broadcast content by a factor of 2-3, by sending only camera personnel to remote sites, and having the main production team in the home studio to do several programs in a single day.
+• integrating high-quality and high-resolution (HD and higher) image sensors in a networked infrastructure to detect, recognize and identify Surveillance and Security issues when observing long distance or large-scale events.
+To achieve this objective, innovations will be required in 7 technology domains. These innovations will be achieved by close cooperation of the whole consortium. Two demonstrators, to which all partners will contribute, will be presented at the end of the project as proof of concept. Intermediate and incremental demonstrators will be tested in order to reduce the risk in the project. 
+
+The BASTION project is based on an excellent consortium, divided over 4 countries (B, F, NL, and UK), containing 5 SMEs (Axon, Adimec, Grass Valley, Caeleste, and Camargus), 2 research institute (iMinds and Armines), 3 semiconductor companies (Altera, Caeleste and e2v) and 2 end users (Sagem and Videohouse). The prime partner Axon is an SME. 
+ 
+The innovate work performed in BASTION is relevant to 4 of the Grand Challenges as proposed in the Annual Working Plan (AWP) 2013."
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.objective != "
+Project Name
+ 
+BASTION: 
+Broadcast And Surveillance TechnologIes Over Networks
+
+Abstract
+The main objective of the BASTION project is to research and develop new applications for the Broadcast Market, and for the Security and Surveillance Markets.
+Both applications will be built on top of the Internet Protocol network, which will allow distributing the applications over several physical sites. The cameras will be located on one or more sites, and the monitoring/control room will be on a separate site. The main benefit of this distribution is that it will enable
+• increasing the efficiency for producing live Broadcast content by a factor of 2-3, by sending only camera personnel to remote sites, and having the main production team in the home studio to do several programs in a single day.
+• integrating high-quality and high-resolution (HD and higher) image sensors in a networked infrastructure to detect, recognize and identify Surveillance and Security issues when observing long distance or large-scale events.
+To achieve this objective, innovations will be required in 7 technology domains. These innovations will be achieved by close cooperation of the whole consortium. Two demonstrators, to which all partners will contribute, will be presented at the end of the project as proof of concept. Intermediate and incremental demonstrators will be tested in order to reduce the risk in the project. 
+
+The BASTION project is based on an excellent consortium, divided over 4 countries (B, F, NL, and UK), containing 5 SMEs (Axon, Adimec, Grass Valley, Caeleste, and Camargus), 2 research institute (iMinds and Armines), 3 semiconductor companies (Altera, Caeleste and e2v) and 2 end users (Sagem and Videohouse). The prime partner Axon is an SME. 
+ 
+The innovate work performed in BASTION is relevant to 4 of the Grand Challenges as proposed in the Annual Working Plan (AWP) 2013."
+GPT-3 choices:
+(0) Retrieve the codes for topics associated with projects in which the objective is not "Project Name" and that are relevant to four Grand Challenges as proposed in the Annual Working Plan 2013, from a database containing information on topics, project_topics, projects, and Grand Challenges.
+(1) What are the topic codes for topics that have been joined with project_topics and projects, where the objective of the project is not "Project Name" and it is relevant to 4 of the Grand Challenges as proposed in Annual Working Plan 2013?
+(2) Find the topics of projects that have an objective other than "Project Name" and have code BASTION, which is focused on developing applications for the Broadcast Market and Security/Surveillance Markets using a distributed network infrastructure with cameras located in one place and monitoring/control rooms in another.
+(3) What are the codes of the topics associated with projects that have an objective other than "Project Name" in the BASTION project?
+(4) Get the topic code for the BASTION project by joining the topics and project_topics tables on matching codes, then joining with the projects table on matching unics_id, where the objective is not "Project Name" and selecting only those topics that are relevant to four Grand Challenges proposed in Annual Working Plan (AWP) 2013.
+(5) Find the code for all topics that are included in projects with objectives other than "Project Name BASTION".
+(6) What are the codes for topics that have been joined with project_topics on the code column, which have a corresponding project in projects with an objective that is not equal to "Project Name"?
+(7) What are the topics that have been used in projects where the objective is not equal to "Project Name BASTION"?

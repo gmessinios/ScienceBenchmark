@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions, count(*) FROM eu_territorial_units AS eu_territorial_units  GROUP BY eu_territorial_units.geocode_regions
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions, count(*) FROM eu_territorial_units AS T1  GROUP BY T1.geocode_regions
+GPT-3 choices:
+(0) What is the total count of all unique geocode regions in the eu_territorial_units table?
+(1) Count the number of rows in the table "eu_territorial_units" grouped by the column "geocode_regions".
+(2) How many territorial units are there for each geocode region in the EU?
+(3) How many instances are there for each unique value in the "geocode_regions" column of the "eu_territorial_units" table?
+(4) Find the number of occurrences for each unique geocode region in the "eu_territorial_units" table.
+(5) How many regions are there in the EU and what is the count of each region?
+(6) Count the number of rows in the eu_territorial_units table, grouped by the geocode_regions column, and return the geocode_regions value along with its corresponding count.
+(7) How many territorial units are there in each geocode region?
+
+
+Re-ranked choices:
+4.250  How many territorial units are there for each geocode region in the EU?
+4.250  How many territorial units are there in each geocode region?
+2.865  How many regions are there in the EU and what is the count of each region?
+2.831  What is the total count of all unique geocode regions in the eu_territorial_units table?
+1.425  Find the number of occurrences for each unique geocode region in the "eu_territorial_units" table.
+0.728  Count the number of rows in the table "eu_territorial_units" grouped by the column "geocode_regions".
+0.720  Count the number of rows in the eu_territorial_units table, grouped by the geocode_regions column, and return the geocode_regions value along with its corresponding count.
+0.028  How many instances are there for each unique value in the "geocode_regions" column of the "eu_territorial_units" table?
+

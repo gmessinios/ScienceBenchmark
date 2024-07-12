@@ -1,0 +1,16 @@
+SELECT biomarker_edrn.phase FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.id = "EDRN00870" and biomarker_edrn.biomarker_title = "CRP"
+
+###
+
+
+Original Query:
+SELECT T1.phase FROM biomarker_edrn AS T1 WHERE T1.id = "EDRN00870" and T1.biomarker_title = "CRP"
+GPT-3 choices:
+(0) What is the phase of biomarker EDRN00870 with a title of "CRP"?
+(1) What is the phase of the biomarker with ID "EDRN00870" and title "CRP" in the EDRN database?
+(2) Retrieve the phase of the biomarker with ID "EDRN00870" and title "CRP" from the table "biomarker_edrn".
+(3) What is the phase for the biomarker "CRP" with the ID "EDRN00870" in the EDRN database?
+(4) Find the phase of the biomarker "CRP" with an ID of "EDRN00870" in the EDRN biomarker database.
+(5) Find the phase of the EDRN00870 biomarker with a biomarker title of "CRP".
+(6) What is the phase for biomarker "CRP" with the ID "EDRN00870" in the table biomarker_edrn?
+(7) Retrieve the phase of the biomarker with an ID of "EDRN00870" and a title of "CRP" from the table "biomarker_edrn".

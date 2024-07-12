@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.feature_key, count(*) FROM disease_mutation_site_annotation AS disease_mutation_site_annotation  GROUP BY disease_mutation_site_annotation.feature_key
+
+###
+
+
+Original Query:
+SELECT T1.feature_key, count(*) FROM disease_mutation_site_annotation AS T1  GROUP BY T1.feature_key
+GPT-3 choices:
+(0) How many feature keys are there in the disease mutation site annotation table and how many times does each key appear?
+(1) Count the number of occurrences of each feature key in the disease_mutation_site_annotation table and group them by their corresponding feature keys.
+(2) Count the number of disease mutation site annotations grouped by their feature key in the disease mutation site annotation table.
+(3) Count the number of occurrences of each unique feature key in the disease_mutation_site_annotation table.
+(4) Count the number of entries in the disease mutation site annotation table, grouped by feature key.
+(5) Count the number of occurrences for each unique feature key in the disease_mutation_site_annotation table.
+(6) Count the number of rows in the disease_mutation_site_annotation table, grouped by the feature_key column.
+(7) How many times does each feature key appear in the disease mutation site annotation table?
+
+
+Re-ranked choices:
+9.122  Count the number of disease mutation site annotations grouped by their feature key in the disease mutation site annotation table.
+8.433  How many feature keys are there in the disease mutation site annotation table and how many times does each key appear?
+8.433  How many times does each feature key appear in the disease mutation site annotation table?
+7.732  Count the number of entries in the disease mutation site annotation table, grouped by feature key.
+3.522  Count the number of occurrences of each feature key in the disease_mutation_site_annotation table and group them by their corresponding feature keys.
+2.824  Count the number of occurrences of each unique feature key in the disease_mutation_site_annotation table.
+2.824  Count the number of occurrences for each unique feature key in the disease_mutation_site_annotation table.
+0.727  Count the number of rows in the disease_mutation_site_annotation table, grouped by the feature_key column.
+

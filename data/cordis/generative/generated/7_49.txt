@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.title = "Reassessing European Union citizenship" or programmes.parent = "ENERGY-7.1"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.title = "Reassessing European Union citizenship" or T1.parent = "ENERGY-7.1"
+GPT-3 choices:
+(0) Find the RCN of programmes where the title is "Reassessing European Union citizenship" or the parent is "ENERGY-7.1".
+(1) Find the RCN of programmes where the title is "Reassessing European Union citizenship" or the parent is "ENERGY-7.1".
+(2) Find the RCN of the programme "Reassessing European Union citizenship" or any programmes that have a parent programme with the code "ENERGY-7.1".
+(3) Retrieve the RCN of the programme with the title "Reassessing European Union citizenship" or whose parent is "ENERGY-7.1".
+(4) Find the RCN of programmes where the title is "Reassessing European Union citizenship" or the parent is "ENERGY-7.1".
+(5) Find the RCN number of the program "Reassessing European Union citizenship" or any program under the parent category "ENERGY-7.1".
+(6) Retrieve the research council number of programmes with a title of "Reassessing European Union citizenship" or with a parent category of "ENERGY-7.1".
+(7) Get the RCN from the Programmes table where the title is "Reassessing European Union citizenship" or the parent is "ENERGY-7.1".

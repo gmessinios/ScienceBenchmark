@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_max_contribution = 1987779.75
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_max_contribution = 1987779.75
+GPT-3 choices:
+(0) "Retrieve the subject area codes for all projects where the EC maximum contribution is 1987779.75."
+(1) Find the subject area codes for all projects that have a maximum contribution of 1987779.75 in the project_subject_areas and projects tables, with a common code in both tables.
+(2) What is the code for the subject area associated with projects where the maximum contribution is 1987779.75?
+(3) "Get the subject area codes for all projects that have a maximum European Commission contribution of 1987779.75."
+(4) What are the subject areas for projects where the EC max contribution is equal to 1987779.75?
+(5) Find the code for all subject areas where the EC max contribution for a project is equal to 1987779.75.
+(6) Retrieve the code for all subject areas associated with projects that have an EC max contribution of 1987779.75.
+(7) Find the code of all subject areas associated with a project with an EC max contribution of 1987779.75, where the subject areas are joined to the project through the project_subject_areas table and the projects table.

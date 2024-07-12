@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types AS activity_types WHERE activity_types.code != "REC"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM activity_types AS T1 WHERE T1.code != "REC"
+GPT-3 choices:
+(0) Find the descriptions for all activity types that do not have the code "REC".
+(1) Get the description of all activity types where the code is not equal to "REC".
+(2) Retrieve the descriptions of all activity types, excluding those with a code of "REC".
+(3) Get the description of all activity types except "REC" from the activity_types table.
+(4) Get the description from the activity types table for all activities except those with a code of "REC".
+(5) Retrieve the description from the activity types table where the code is not equal to "REC".
+(6) What is the description of all activity types except "REC"?
+(7) What are the descriptions of all activity types except for "REC"?
+
+
+Re-ranked choices:
+6.354  Get the description of all activity types where the code is not equal to "REC".
+6.342  Retrieve the description from the activity types table where the code is not equal to "REC".
+6.329  Get the description from the activity types table for all activities except those with a code of "REC".
+4.947  Find the descriptions for all activity types that do not have the code "REC".
+4.942  What is the description of all activity types except "REC"?
+4.928  Get the description of all activity types except "REC" from the activity_types table.
+3.547  What are the descriptions of all activity types except for "REC"?
+3.534  Retrieve the descriptions of all activity types, excluding those with a code of "REC".
+

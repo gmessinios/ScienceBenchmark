@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trial_id FROM biomarker_fda_test_trial AS biomarker_fda_test_trial JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_trial.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.test_adoption_evidence != "experimental"
+
+###
+
+
+Original Query:
+SELECT T1.test_trial_id FROM biomarker_fda_test_trial AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_adoption_evidence != "experimental"
+GPT-3 choices:
+(0) Retrieve the test trial ID from the biomarker FDA test trials table for all tests where the adoption evidence is not experimental and is associated with a specific trade name in the biomarker FDA test table.
+(1) Retrieve the test trial IDs from the biomarker FDA test trials where the corresponding trade name in the biomarker FDA tests has an adoption evidence that is not "experimental".
+(2) Retrieve the test trial IDs from the biomarker FDA test trials for tests with a trade name that matches those in the biomarker FDA tests, where the evidence for adoption of the test is not experimental.
+(3) Find all test trial IDs from the biomarker FDA test trial table, where the corresponding test trade name in the biomarker FDA test table is not labeled as "experimental" in the adoption evidence column.
+(4) "Retrieve the test trial IDs from the FDA biomarker test trials table for all tests that have not been marked as experimental in the associated FDA biomarker tests table."
+(5) Find the test trial IDs for all biomarker FDA test trials where the corresponding biomarker FDA test's adoption evidence is not "experimental".
+(6) Find the FDA test trial ID for all biomarker tests that have a trade name matching a test in the FDA biomarker tests table, and where the adoption evidence is not labeled as "experimental".
+(7) Find the test trial IDs from the biomarker FDA test trials table for all test trade names that have evidence of adoption other than "experimental" in the biomarker FDA tests table.
+
+
+Re-ranked choices:
+13.321  Find the FDA test trial ID for all biomarker tests that have a trade name matching a test in the FDA biomarker tests table, and where the adoption evidence is not labeled as "experimental".
+13.317  Retrieve the test trial ID from the biomarker FDA test trials table for all tests where the adoption evidence is not experimental and is associated with a specific trade name in the biomarker FDA test table.
+11.922  Retrieve the test trial IDs from the biomarker FDA test trials where the corresponding trade name in the biomarker FDA tests has an adoption evidence that is not "experimental".
+11.919  Find all test trial IDs from the biomarker FDA test trial table, where the corresponding test trade name in the biomarker FDA test table is not labeled as "experimental" in the adoption evidence column.
+11.220  Retrieve the test trial IDs from the biomarker FDA test trials for tests with a trade name that matches those in the biomarker FDA tests, where the evidence for adoption of the test is not experimental.
+10.521  Find the test trial IDs from the biomarker FDA test trials table for all test trade names that have evidence of adoption other than "experimental" in the biomarker FDA tests table.
+9.125  Find the test trial IDs for all biomarker FDA test trials where the corresponding biomarker FDA test's adoption evidence is not "experimental".
+6.322  "Retrieve the test trial IDs from the FDA biomarker test trials table for all tests that have not been marked as experimental in the associated FDA biomarker tests table."
+

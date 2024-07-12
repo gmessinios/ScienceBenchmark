@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "NOTATYPE"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name != "NOTATYPE"
+GPT-3 choices:
+(0) Get the descriptions for all photo types in which their name is not equal to "NOTATYPE" from the photometrically_observed table.
+(1) Retrieve the descriptions from the table "photo_type" where the name is not equal to "NOTATYPE".
+(2) What is the description of all photometric types that are not "NOTATYPE"?
+(3) What is the description for all photometrically observed photo types, excluding those with the name "NOTATYPE"?
+(4) Retrieve the description of all photo types except for "NOTATYPE" from the table "photometrically_observed".
+(5) Get the description from the photometrically observed photo type where the name is not equal to "NOTATYPE".
+(6) Retrieve the description from the photometrically observed photo types, excluding those with the name "NOTATYPE".
+(7) "Retrieve the description from the photometrically observed photo type where the name is not 'NOTATYPE'."

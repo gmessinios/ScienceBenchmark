@@ -1,0 +1,16 @@
+SELECT Photometric_objects.clean FROM photoobj AS Photometric_objects WHERE Photometric_objects.run = 2578
+
+###
+
+
+Original Query:
+SELECT T1.clean FROM photoobj AS T1 WHERE T1.run = 2578
+GPT-3 choices:
+(0) Return the clean values from the photoobj table for all objects in the run with a value of 2578.
+(1) Find the "clean" value for all objects in the "photoobj" table with a run of 2578.
+(2) Get the clean data from Photometric_objects where the run is 2578.
+(3) Find the clean photometric objects from the photoobj table with a run number of 2578.
+(4) What is the "clean" column value from the photoobj table for objects with a run value of 2578 in the Photometric_objects table?
+(5) Retrieve the clean data for Photometric objects from the photoobj table where the run is equal to 2578.
+(6) "Get the 'clean' data from the table 'photoobj' for all objects in run 2578."
+(7) Find the clean photometric objects from the photoobj table where the run number is 2578.

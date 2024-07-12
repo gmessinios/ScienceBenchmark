@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.total_cost = 2016000.0
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.total_cost = 2016000.0
+GPT-3 choices:
+(0) Retrieve the topic code from the topics table for all projects with a total cost of 2016000.0 in the projects table, using the project_topics table as a bridge between them.
+(1) Find the topic code for all projects where the total cost is equal to 2016000.0.
+(2) Retrieve the code of all topics associated with projects whose total cost is equal to 2016000.0.
+(3) Find the code of topics that are related to projects with a total cost of 2016000.0 from the project_topics and projects tables.
+(4) Retrieve the code of topics from projects where the total cost is 2016000.0.
+(5) Retrieve the code of all topics that are associated with a project with a total cost of 2016000.0 from the database.
+(6) Find the codes of topics that are associated with projects whose total cost is 2016000.0.
+(7) Find the code of all topics that are assigned to projects with a total cost of 2016000.0 in the project_topics table, where the project codes match between the projects and project_topics tables.

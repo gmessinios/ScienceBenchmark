@@ -1,0 +1,16 @@
+SELECT disease_mutation_article.pmid FROM disease_mutation_article AS disease_mutation_article WHERE disease_mutation_article.disease_mutation_id != 61489
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM disease_mutation_article AS T1 WHERE T1.disease_mutation_id != 61489
+GPT-3 choices:
+(0) Find the PMID of articles that contain a disease mutation other than 61489.
+(1) Find all articles with a PubMed ID in the table "disease_mutation_article" where the corresponding disease mutation ID is not equal to 61489.
+(2) Find all PMIDs in the disease_mutation_article table where the disease_mutation_id is not equal to 61489.
+(3) Retrieve the PubMed IDs of articles from the disease_mutation_article table where the disease_mutation_id is not equal to 61489.
+(4) Find the PubMed ID numbers for all articles where the disease mutation ID is not equal to 61489.
+(5) What is the PubMed ID for disease mutation articles that are not associated with the disease mutation identified as 61489?
+(6) Find the PMID for articles related to disease-mutation pairs that are not equal to 61489.
+(7) Retrieve the PMID values from disease_mutation_article where the disease_mutation_id is not equal to 61489.

@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "Beneficiary"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description = "Beneficiary"
+GPT-3 choices:
+(0) Find the code for the role of a beneficiary in the project member roles table where the description is "Beneficiary".
+(1) Get the code of project member roles where the description is "Beneficiary" from the project_member_roles table.
+(2) "Retrieve the code for all project member roles where the description is 'Beneficiary' from the project_member_roles table."
+(3) Retrieve the code of the role for project members whose description is "Beneficiary".
+(4) "Find the project member role code for those with the description of 'Beneficiary' in the table 'project_member_roles'."
+(5) Get the code for all project member roles where the description is "Beneficiary".
+(6) Retrieve the project member role code for roles with the description "Beneficiary" from the project_member_roles table.
+(7) Get the code for all project member roles where the description is "Beneficiary" from the table project_member_roles.

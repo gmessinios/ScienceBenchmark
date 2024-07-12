@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "NotAType:"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "NotAType:"
+GPT-3 choices:
+(0) Retrieve the names of all objects that are photometrically observed but do not belong to a specific type.
+(1) What are the names of all photometrically observed photo types that do not have a description beginning with "NotAType:"?
+(2) What are the names of all photo types that have a description starting with "NotAType:"?
+(3) What are the names of all photo types that have a description of "NotAType:"?
+(4) Retrieve the names of all photometric types that do not have a description starting with "NotAType:".
+(5) Which names are associated with types that have a description of "NotAType:" in the photo_type table?
+(6) What are the names of photo types that do not have a description starting with "NotAType:"?
+(7) What are the names of all types listed in the photometrically_observed table with a description of "NotAType:"?
+
+
+Re-ranked choices:
+4.926  What are the names of all photometrically observed photo types that do not have a description beginning with "NotAType:"?
+2.829  Retrieve the names of all objects that are photometrically observed but do not belong to a specific type.
+2.828  What are the names of all types listed in the photometrically_observed table with a description of "NotAType:"?
+2.148  What are the names of all photo types that have a description of "NotAType:"?
+2.145  What are the names of all photo types that have a description starting with "NotAType:"?
+2.143  What are the names of photo types that do not have a description starting with "NotAType:"?
+2.132  Retrieve the names of all photometric types that do not have a description starting with "NotAType:".
+2.129  Which names are associated with types that have a description of "NotAType:" in the photo_type table?
+

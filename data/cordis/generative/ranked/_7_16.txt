@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas WHERE subject_areas.code = "TRA" or subject_areas.description = "Aeronauticaltechnology; aircraft; avionics; space exploration and technology."
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 WHERE T1.code = "TRA" or T1.description = "Aeronauticaltechnology; aircraft; avionics; space exploration and technology."
+GPT-3 choices:
+(0) Retrieve the title from the subject areas table where the code is "TRA" or the description contains "Aeronautical technology; aircraft; avionics; space exploration and technology."
+(1) Retrieve the title of all subject areas where the code is "TRA" or the description includes "Aeronautical technology, aircraft, avionics, space exploration and technology".
+(2) What is the title of the subject area for Aeronautical technology, aircraft, avionics, space exploration and technology?
+(3) Get the title from the subject_areas table where the code is "TRA" or the description is "Aeronautical technology; aircraft; avionics; space exploration and technology."
+(4) Retrieve the title of subject areas where the code is "TRA" or the description is "Aeronautical technology; aircraft; avionics; space exploration and technology."
+(5) Find the title of subject area in which the code is "TRA" or the description includes "Aeronauticaltechnology; aircraft; avionics; space exploration and technology."
+(6) Retrieve the title of all subject areas from the table "subject_areas" where the code is equal to "TRA" or the description is equal to "Aeronautical technology; aircraft; avionics; space exploration and technology".
+(7) Retrieve the title of subject areas where the code is "TRA" or the description is "Aeronautical technology; aircraft; avionics; space exploration and technology".
+
+
+Re-ranked choices:
+11.221  Retrieve the title of subject areas where the code is "TRA" or the description is "Aeronautical technology; aircraft; avionics; space exploration and technology".
+11.218  Retrieve the title of all subject areas from the table "subject_areas" where the code is equal to "TRA" or the description is equal to "Aeronautical technology; aircraft; avionics; space exploration and technology".
+10.521  Retrieve the title of subject areas where the code is "TRA" or the description is "Aeronautical technology; aircraft; avionics; space exploration and technology."
+10.519  Retrieve the title from the subject areas table where the code is "TRA" or the description contains "Aeronautical technology; aircraft; avionics; space exploration and technology."
+9.820  Retrieve the title of all subject areas where the code is "TRA" or the description includes "Aeronautical technology, aircraft, avionics, space exploration and technology".
+9.819  Find the title of subject area in which the code is "TRA" or the description includes "Aeronauticaltechnology; aircraft; avionics; space exploration and technology."
+7.720  Get the title from the subject_areas table where the code is "TRA" or the description is "Aeronautical technology; aircraft; avionics; space exploration and technology."
+4.222  What is the title of the subject area for Aeronautical technology, aircraft, avionics, space exploration and technology?
+

@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas WHERE subject_areas.description = "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." or subject_areas.code = "FFU"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 WHERE T1.description = "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." or T1.code = "FFU"
+GPT-3 choices:
+(0) "Retrieve the title of subject areas where the description is "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." or the code is "FFU"."
+(1) What is the title of the subject area that focuses on the storage, transmission, and conversion of energy, including the use of hydrogen for energy transport and cells as well as secondary energy vectors?
+(2) Retrieve the title of the subject area for which the description is "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." or whose code is "FFU".
+(3) Retrieve the title of all subject areas where the description is "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" or the code is "FFU".
+(4) Retrieve the title of subject areas from the subject_areas table where the description is "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." or the code is "FFU".
+(5) Find the title of the subject area where the description is "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors" or the code is "FFU".
+(6) Find the title of subject areas where the description is "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." or the code is "FFU".
+(7) What are the titles of subject areas whose descriptions include "The storage, transmission and conversion of energy; use of hydrogen for energy transport; cells; secondary energy vectors." or have the code "FFU"?

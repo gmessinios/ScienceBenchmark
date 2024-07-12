@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "SKY"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name = "SKY"
+GPT-3 choices:
+(0) What is the description of the "SKY" photo type in the photometrically observed table?
+(1) What is the description of the photo type named "SKY" in the photometrically observed table?
+(2) What is the description of the photo type called "SKY" in the table "photometrically_observed"?
+(3) What is the description for the photo type that has a name of "SKY" in the table named "photometrically_observed"?
+(4) Get the description for the "SKY" photo type from the table of photometrically observed types.
+(5) Find the description of the photometrically observed object with the name "SKY" in the photo_type table.
+(6) Retrieve the description from the photometrically observed photo type where the name is "SKY".
+(7) What is the description of the photo type that has a name of "SKY" in the table for photometrically observed data?

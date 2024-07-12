@@ -1,0 +1,28 @@
+SELECT institutions.unics_id FROM institutions AS institutions WHERE institutions.wikidata_url = "http://www.wikidata.org/wiki/Q2826699" or institutions.db_pedia_url = "http://dbpedia.org/resource/Università_degli_Studi_Pegaso"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM institutions AS T1 WHERE T1.wikidata_url = "http://www.wikidata.org/wiki/Q2826699" or T1.db_pedia_url = "http://dbpedia.org/resource/Università_degli_Studi_Pegaso"
+GPT-3 choices:
+(0) Find the unique identifier for institutions that have a Wikidata URL of "http://www.wikidata.org/wiki/Q2826699" or a DBpedia URL of "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+(1) Get the UNICS ID from the Institutions table where either the Wikidata URL is "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+(2) Find the UNICS ID for an institution where its Wikidata URL is "http://www.wikidata.org/wiki/Q2826699" or its DBpedia URL is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+(3) Retrieve the unique identifier for the institution from the table "institutions" where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is equal to "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+(4) Find the unics_id of institutions where the wikidata_url is "http://www.wikidata.org/wiki/Q2826699" or the db_pedia_url is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+(5) Get the unique identifier for institutions from the database where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is equal to "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+(6) What is the unique ID for an institution from the table "institutions" where its Wikidata URL is "http://www.wikidata.org/wiki/Q2826699" or its DBpedia URL is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso"?
+(7) Find the unique ID for institutions where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is equal to "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+
+
+Re-ranked choices:
+7.016  Get the UNICS ID from the Institutions table where either the Wikidata URL is "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+5.617  Find the unique ID for institutions where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is equal to "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+5.616  What is the unique ID for an institution from the table "institutions" where its Wikidata URL is "http://www.wikidata.org/wiki/Q2826699" or its DBpedia URL is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso"?
+5.615  Find the UNICS ID for an institution where its Wikidata URL is "http://www.wikidata.org/wiki/Q2826699" or its DBpedia URL is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+4.217  Get the unique identifier for institutions from the database where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is equal to "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+4.215  Retrieve the unique identifier for the institution from the table "institutions" where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q2826699" or the DBpedia URL is equal to "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+4.215  Find the unique identifier for institutions that have a Wikidata URL of "http://www.wikidata.org/wiki/Q2826699" or a DBpedia URL of "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+1.412  Find the unics_id of institutions where the wikidata_url is "http://www.wikidata.org/wiki/Q2826699" or the db_pedia_url is "http://dbpedia.org/resource/Università_degli_Studi_Pegaso".
+

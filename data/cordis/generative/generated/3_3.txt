@@ -1,0 +1,16 @@
+SELECT count(*) FROM subject_areas AS subject_areas
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1
+GPT-3 choices:
+(0) How many subject areas are there in the table "subject_areas"?
+(1) How many subject areas are there in the table called "subject_areas"?
+(2) How many subject areas are there in the subject_areas table?
+(3) How many rows are in the subject areas table?
+(4) How many subject areas are there in the database?
+(5) How many rows are in the "subject_areas" table?
+(6) How many subject areas are there in the table "subject_areas"?
+(7) How many subject areas are there in the table named "subject_areas"?

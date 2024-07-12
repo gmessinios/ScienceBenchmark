@@ -1,0 +1,28 @@
+SELECT project_members.pic_number, count(*) FROM project_members AS project_members  GROUP BY project_members.pic_number
+
+###
+
+
+Original Query:
+SELECT T1.pic_number, count(*) FROM project_members AS T1  GROUP BY T1.pic_number
+GPT-3 choices:
+(0) How many project members have the same picture number?
+(1) "Count the number of project members for each unique picture number in the project_members table."
+(2) How many project members have the same pic number and what is the total count for each unique pic number?
+(3) Count the number of records in the project_members table grouped by their pic_number and display the result with the corresponding count for each pic_number.
+(4) What is the number of project members for each unique picture number in the project_members table?
+(5) What is the count of project members grouped by their picture numbers?
+(6) How many members are there for each picture number in the project_members table?
+(7) "How many project members are there for each unique picture number?"
+
+
+Re-ranked choices:
+5.641  How many project members have the same pic number and what is the total count for each unique pic number?
+4.237  "Count the number of project members for each unique picture number in the project_members table."
+4.236  What is the number of project members for each unique picture number in the project_members table?
+3.568  What is the count of project members grouped by their picture numbers?
+2.891  How many project members have the same picture number?
+2.875  "How many project members are there for each unique picture number?"
+2.842  How many members are there for each picture number in the project_members table?
+2.126  Count the number of records in the project_members table grouped by their pic_number and display the result with the corresponding count for each pic_number.
+

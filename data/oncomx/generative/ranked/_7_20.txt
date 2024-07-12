@@ -1,0 +1,28 @@
+SELECT species.speciesid FROM species AS species WHERE species.species = "sapiens" or species.genus = "Mus"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM species AS T1 WHERE T1.species = "sapiens" or T1.genus = "Mus"
+GPT-3 choices:
+(0) Find the species ID of all species named "sapiens" or with the genus "Mus".
+(1) What are the species ids for "sapiens" or genus "Mus" in the species table?
+(2) Find the species ID of all species with the name "sapiens" or the genus "Mus".
+(3) "Find the species ID for all species that are either "sapiens" or belong to the genus "Mus".
+(4) What is the species ID for all species with the name "sapiens" or the genus "Mus"?
+(5) Retrieve the species ID from the "species" table where the species is "sapiens" or the genus is "Mus".
+(6) "Retrieve the species IDs of all species with the name "sapiens" or genus "Mus"."
+(7) Find the speciesid of all species where the name is "sapiens" or the genus is "Mus".
+
+
+Re-ranked choices:
+5.665  Find the speciesid of all species where the name is "sapiens" or the genus is "Mus".
+4.303  Find the species ID of all species named "sapiens" or with the genus "Mus".
+4.294  Find the species ID of all species with the name "sapiens" or the genus "Mus".
+4.283  What is the species ID for all species with the name "sapiens" or the genus "Mus"?
+4.277  What are the species ids for "sapiens" or genus "Mus" in the species table?
+4.261  "Retrieve the species IDs of all species with the name "sapiens" or genus "Mus"."
+4.254  Retrieve the species ID from the "species" table where the species is "sapiens" or the genus is "Mus".
+4.248  "Find the species ID for all species that are either "sapiens" or belong to the genus "Mus".
+

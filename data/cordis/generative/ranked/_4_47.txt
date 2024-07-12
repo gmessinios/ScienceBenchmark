@@ -1,0 +1,27 @@
+SELECT count(*) FROM people AS people WHERE people.unics_id = 1210629
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people AS T1 WHERE T1.unics_id = 1210629
+GPT-3 choices:
+(0) How many people have a unics ID of 1210629 in the table "people"?
+(1) How many people have a UNICS ID of 1210629 in the "people" table?
+(2) How many people have a UNICS ID of 1210629?
+(3) How many people have a unics_id of 1210629 in the "people" table?
+(4) How many records are there in the "people" table where the "unics_id" column is equal to 1210629?
+(5) Count the number of people in the "people" table where their unics ID is equal to 1210629.
+(6) How many people have a UNICS ID of 1210629?
+(7) How many people have a unique identifier of 1210629?
+
+
+Re-ranked choices:
+4.358  How many people have a UNICS ID of 1210629?
+4.265  How many people have a UNICS ID of 1210629 in the "people" table?
+4.254  How many people have a unics ID of 1210629 in the table "people"?
+4.248  Count the number of people in the "people" table where their unics ID is equal to 1210629.
+1.468  How many people have a unique identifier of 1210629?
+1.448  How many records are there in the "people" table where the "unics_id" column is equal to 1210629?
+1.447  How many people have a unics_id of 1210629 in the "people" table?
+

@@ -1,0 +1,28 @@
+SELECT biomarker.biomarker_id FROM biomarker AS biomarker WHERE biomarker.biomarker_description = "PTPRE is a member of the protein tyrosine phosphatase (PTP) family.  Members of the PTP family are signaling molecules that regulate a variety of cellular processes including cell growth, differentiation, mitosis, and oncogenic transformation. The PTPRE gene encodes two isoforms, one of which is a receptor-type PTP, and the other which is not a receptor-type PTP.Both isoforms act as negative regulators of FceRI-mediated signal transduction leading to cytokine production and degranulation."
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_id FROM biomarker AS T1 WHERE T1.biomarker_description = "PTPRE is a member of the protein tyrosine phosphatase (PTP) family.  Members of the PTP family are signaling molecules that regulate a variety of cellular processes including cell growth, differentiation, mitosis, and oncogenic transformation. The PTPRE gene encodes two isoforms, one of which is a receptor-type PTP, and the other which is not a receptor-type PTP.Both isoforms act as negative regulators of FceRI-mediated signal transduction leading to cytokine production and degranulation."
+GPT-3 choices:
+(0) Retrieve the biomarker ID from the biomarker table for a protein tyrosine phosphatase family member with a description that includes its role as a negative regulator of FceRI-mediated signal transduction.
+(1) Retrieve the biomarker ID from the biomarker table where the description is "PTPRE is a member of the protein tyrosine phosphatase (PTP) family. Members of the PTP family are signaling molecules that regulate a variety of cellular processes including cell growth, differentiation, mitosis, and oncogenic transformation. The PTPRE gene encodes two isoforms, one of which is a receptor-type PTP, and the other which is not a receptor-type PTP. Both
+(2) What is the biomarker ID for the biomarker with a description that includes information about being a member of the protein tyrosine phosphatase family, regulating cellular processes, and acting as a negative regulator of FceRI-mediated signal transduction?
+(3) Find the biomarker ID for the biomarker with a description that includes PTPRE, which is a type of signaling molecule that regulates cellular processes and acts as a negative regulator of FceRI-mediated signal transduction leading to cytokine production and degranulation.
+(4) Retrieve the biomarker ID for PTPRE, a member of the protein tyrosine phosphatase family that regulates various cellular processes and acts as a negative regulator of FceRI-mediated signal transduction.
+(5) Retrieve the biomarker ID for the PTPRE protein, which is a member of the protein tyrosine phosphatase family and has two isoforms that act as negative regulators of FceRI-mediated signal transduction.
+(6) Find the biomarker ID for PTPRE, a protein tyrosine phosphatase involved in regulating cell processes such as growth, differentiation, and transformation. This gene encodes two isoforms that function as negative regulators of FceRI-mediated signal transduction leading to cytokine production and degranulation.
+(7) What is the biomarker ID for the protein tyrosine phosphatase PTPRE, which is a member of the PTP family that regulates cellular processes and acts as a negative regulator of FceRI-mediated signal transduction?
+
+
+Re-ranked choices:
+25.918  Retrieve the biomarker ID from the biomarker table where the description is "PTPRE is a member of the protein tyrosine phosphatase (PTP) family. Members of the PTP family are signaling molecules that regulate a variety of cellular processes including cell growth, differentiation, mitosis, and oncogenic transformation. The PTPRE gene encodes two isoforms, one of which is a receptor-type PTP, and the other which is not a receptor-type PTP. Both
+18.215  Find the biomarker ID for PTPRE, a protein tyrosine phosphatase involved in regulating cell processes such as growth, differentiation, and transformation. This gene encodes two isoforms that function as negative regulators of FceRI-mediated signal transduction leading to cytokine production and degranulation.
+15.415  Retrieve the biomarker ID for the PTPRE protein, which is a member of the protein tyrosine phosphatase family and has two isoforms that act as negative regulators of FceRI-mediated signal transduction.
+15.412  Find the biomarker ID for the biomarker with a description that includes PTPRE, which is a type of signaling molecule that regulates cellular processes and acts as a negative regulator of FceRI-mediated signal transduction leading to cytokine production and degranulation.
+14.015  What is the biomarker ID for the protein tyrosine phosphatase PTPRE, which is a member of the PTP family that regulates cellular processes and acts as a negative regulator of FceRI-mediated signal transduction?
+12.615  Retrieve the biomarker ID from the biomarker table for a protein tyrosine phosphatase family member with a description that includes its role as a negative regulator of FceRI-mediated signal transduction.
+12.613  Retrieve the biomarker ID for PTPRE, a member of the protein tyrosine phosphatase family that regulates various cellular processes and acts as a negative regulator of FceRI-mediated signal transduction.
+12.613  What is the biomarker ID for the biomarker with a description that includes information about being a member of the protein tyrosine phosphatase family, regulating cellular processes, and acting as a negative regulator of FceRI-mediated signal transduction?
+

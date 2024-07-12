@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.disease_mutation_id = 234450 and disease_mutation_site_annotation.feature_key = "glycosylation"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.disease_mutation_id = 234450 and T1.feature_key = "glycosylation"
+GPT-3 choices:
+(0) What is the description for the glycosylation feature in disease mutation site annotation where the disease mutation ID is 234450?
+(1) What is the description for the glycosylation feature in the disease mutation site annotation table for a specific disease mutation ID?
+(2) Retrieve the description of glycosylation from the disease_mutation_site_annotation table where the disease_mutation_id is 234450.
+(3) What is the description of the glycosylation feature for disease mutation with ID 234450 in the disease_mutation_site_annotation table?
+(4) Get the description for the feature key "glycosylation" in the disease_mutation_site_annotation table where the disease_mutation_id is 234450.
+(5) What is the description for the glycosylation feature in the disease mutation site annotation table where the disease mutation ID is 234450?
+(6) What is the description of the glycosylation feature for a disease mutation with an ID of 234450?
+(7) Get the description of the glycosylation feature for the disease mutation with ID 234450 from the table disease_mutation_site_annotation.

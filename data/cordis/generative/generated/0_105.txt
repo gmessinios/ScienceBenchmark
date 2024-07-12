@@ -1,0 +1,16 @@
+SELECT institutions.website FROM institutions AS institutions WHERE institutions.geocode_regions_3 = "HU213"
+
+###
+
+
+Original Query:
+SELECT T1.website FROM institutions AS T1 WHERE T1.geocode_regions_3 = "HU213"
+GPT-3 choices:
+(0) What is the website for institutions located in region code HU213?
+(1) What is the website of institutions located in region "HU213"?
+(2) What is the website of institutions located in the region with geocode HU213?
+(3) What is the website for institutions in Hungary with geocode region 3 equal to "HU213"?
+(4) Get the website of the institution located in geocode region "HU213".
+(5) Retrieve the website of the institution located in geocode region HU213 from the institutions table.
+(6) What is the website of institutions located in the region with geocode HU213?
+(7) Get the website of institutions in Hungary whose geocode region is "HU213".

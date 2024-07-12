@@ -1,0 +1,27 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.id = "FDA000274"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.id = "FDA000274"
+GPT-3 choices:
+(0) What is the test submission for FDA000274 in the biomarker_fda database?
+(1) Retrieve the test submission from the biomarker_fda table where the id is "FDA000274".
+(2) What is the test submission for FDA000274 in the biomarker_fda table?
+(3) What is the test submission for the biomarker with the ID "FDA000274" in the biomarker_fda database?
+(4) What is the test submission for the biomarker with ID "FDA000274" in the FDA database?
+(5) Retrieve the test submission from the FDA database for the biomarker with ID "FDA000274".
+(6) Retrieve the test submission from the biomarker_fda table where the id is "FDA000274".
+(7) "Retrieve the test submission for FDA000274 from the biomarker_fda table in the biomarker_fda database."
+
+
+Re-ranked choices:
+7.754  What is the test submission for the biomarker with ID "FDA000274" in the FDA database?
+7.747  Retrieve the test submission from the FDA database for the biomarker with ID "FDA000274".
+6.337  What is the test submission for the biomarker with the ID "FDA000274" in the biomarker_fda database?
+4.933  Retrieve the test submission from the biomarker_fda table where the id is "FDA000274".
+3.541  What is the test submission for FDA000274 in the biomarker_fda database?
+3.541  What is the test submission for FDA000274 in the biomarker_fda table?
+3.528  "Retrieve the test submission for FDA000274 from the biomarker_fda table in the biomarker_fda database."
+

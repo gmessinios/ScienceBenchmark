@@ -1,0 +1,28 @@
+SELECT programmes.short_name FROM programmes AS programmes WHERE programmes.parent != "H2020"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM programmes AS T1 WHERE T1.parent != "H2020"
+GPT-3 choices:
+(0) What are the short names of programmes that have a parent different from "H2020"?
+(1) Show the short names of all programmes whose parent is not equal to "H2020".
+(2) Retrieve the short names of all programmes that have a parent other than "H2020" from the table "programmes".
+(3) Retrieve the short names of all programmes that have a parent not equal to "H2020".
+(4) Retrieve the short names of all programmes whose parent is not "H2020".
+(5) Retrieve the short names of all programmes where the parent is not equal to "H2020".
+(6) Retrieve the short names of all programmes from the table "programmes" where the parent is not equal to "H2020".
+(7) What is the short name of all programmes that are not a part of "H2020"?
+
+
+Re-ranked choices:
+4.977  Show the short names of all programmes whose parent is not equal to "H2020".
+4.971  What is the short name of all programmes that are not a part of "H2020"?
+4.956  Retrieve the short names of all programmes that have a parent not equal to "H2020".
+4.956  Retrieve the short names of all programmes whose parent is not "H2020".
+4.956  Retrieve the short names of all programmes where the parent is not equal to "H2020".
+4.948  What are the short names of programmes that have a parent different from "H2020"?
+4.934  Retrieve the short names of all programmes that have a parent other than "H2020" from the table "programmes".
+4.933  Retrieve the short names of all programmes from the table "programmes" where the parent is not equal to "H2020".
+

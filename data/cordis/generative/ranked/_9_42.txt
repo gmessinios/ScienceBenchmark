@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.framework_program != "H2020"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.framework_program != "H2020"
+GPT-3 choices:
+(0) Retrieve the names of all framework programs from the table ec_framework_programs where the project's framework program is not equal to "H2020".
+(1) Find all framework programs from the EC Framework Programs table where the corresponding project's framework program is not equal to "H2020".
+(2) What are the names of framework programs that have been used in projects other than H2020?
+(3) Get the names of all framework programs from the table "ec_framework_programs" that are associated with projects in which the framework program is not equal to "H2020".
+(4) What are the names of all the framework programs that have been used in projects, excluding "H2020"?
+(5) Show me the framework program names from EC Framework Programs where the framework program is not equal to "H2020" for projects.
+(6) Get the names of all framework programs from the ec_framework_programs table that are associated with projects in the projects table, but excluding those with "H2020" as their framework program.
+(7) Retrieve the name of the framework program from the EC Framework Programs table where the framework program is not "H2020" in the Projects table.
+
+
+Re-ranked choices:
+9.129  Retrieve the name of the framework program from the EC Framework Programs table where the framework program is not "H2020" in the Projects table.
+6.338  Show me the framework program names from EC Framework Programs where the framework program is not equal to "H2020" for projects.
+6.329  Find all framework programs from the EC Framework Programs table where the corresponding project's framework program is not equal to "H2020".
+6.325  Get the names of all framework programs from the table "ec_framework_programs" that are associated with projects in which the framework program is not equal to "H2020".
+4.930  Retrieve the names of all framework programs from the table ec_framework_programs where the project's framework program is not equal to "H2020".
+4.921  Get the names of all framework programs from the ec_framework_programs table that are associated with projects in the projects table, but excluding those with "H2020" as their framework program.
+4.262  What are the names of framework programs that have been used in projects other than H2020?
+3.558  What are the names of all the framework programs that have been used in projects, excluding "H2020"?
+

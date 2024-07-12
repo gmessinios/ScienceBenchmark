@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.zwarning FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.dec = -18.040984 and Spectroscopic_objects.specobjid = 300672476709414912
+
+###
+
+
+Original Query:
+SELECT T1.zwarning FROM specobj AS T1 WHERE T1.dec = -18.040984 and T1.specobjid = 300672476709414912
+GPT-3 choices:
+(0) Retrieve the zwarning value from the specobj table for a spectroscopic object with a declination of -18.040984 and a specobjid of 300672476709414912.
+(1) Retrieve the zwarning value from the specobj table for a spectroscopic object with a declination of -18.040984 and a specobjid of 300672476709414912.
+(2) Retrieve the zwarning value for a spectroscopic object with a declination of -18.040984 and a specobjid of 300672476709414912 from the specobj table.
+(3) What is the zwarning value for a spectroscopic object with a declination of -18.040984 and specobjid of 300672476709414912?
+(4) Retrieve the zwarning value for a spectroscopic object with a declination of -18.040984 and a specobjid of 300672476709414912 from the specobj table.
+(5) What is the zwarning for a spectroscopic object with a declination of -18.040984 and specobjid of 300672476709414912 in the table specobj?
+(6) Retrieve the "zwarning" value for the object with a declination of -18.040984 and a specobjid of 300672476709414912 from the table "specobj".
+(7) Retrieve the value of the zwarning attribute from the specobj table for a spectroscopic object with a declination of -18.040984 and specobjid of 300672476709414912.

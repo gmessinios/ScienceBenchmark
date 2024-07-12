@@ -1,0 +1,16 @@
+SELECT Photometric_objects.ra FROM photoobj AS Photometric_objects WHERE Photometric_objects.extinction_r != 0.008201179
+
+###
+
+
+Original Query:
+SELECT T1.ra FROM photoobj AS T1 WHERE T1.extinction_r != 0.008201179
+GPT-3 choices:
+(0) Retrieve the right ascension values from the photoobj table for objects in Photometric_objects that have an extinction_r value not equal to 0.008201179.
+(1) Find the right ascension for all objects in the photoobj table where the extinction value for the r band is not equal to 0.008201179.
+(2) What are the right ascension values for all photometric objects in the photoobj table where the extinction_r value is not equal to 0.008201179?
+(3) Find the right ascension of objects in the photoobj table with a non-zero extinction value in the r band.
+(4) What are the right ascensions of all photometric objects whose extinction in the r-band is not equal to 0.008201179?
+(5) Retrieve the right ascension of objects from the photoobj table that have a non-zero extinction value in the r band.
+(6) What is the right ascension for all objects in the photoobj table with a non-zero extinction_r value that is not equal to 0.008201179?
+(7) Retrieve the right ascension value for all objects from the photoobj table where the extinction value for r-band is not equal to 0.008201179.

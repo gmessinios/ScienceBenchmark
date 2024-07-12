@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.dec FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.specobjid != 299520188892604416
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM specobj AS T1 WHERE T1.specobjid != 299520188892604416
+GPT-3 choices:
+(0) Find the declination of all spectroscopic objects where the specobjid is not equal to 299520188892604416.
+(1) Retrieve the declination values from the "dec" column in the "specobj" table, for all rows where the specobjid is not equal to 299520188892604416.
+(2) "Retrieve the declination values for all spectroscopic objects except for the one with a specobjid of 299520188892604416."
+(3) Retrieve the declination values from the "dec" column in the "specobj" table for all rows except for the row with a specobjid value of 299520188892604416.
+(4) "Retrieve the declination values of all spectroscopic objects from the specobj table, excluding the one with a specobjid of 299520188892604416."
+(5) Retrieve the declination values for all objects in the specobj table except for the object with a specobjid of 299520188892604416.
+(6) What is the declination of all spectroscopic objects except for the one with specobjid 299520188892604416?
+(7) What is the declination of all spectroscopic objects except for the one with a specobjid of 299520188892604416 in the specobj table?

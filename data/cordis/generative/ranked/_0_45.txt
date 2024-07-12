@@ -1,0 +1,26 @@
+SELECT erc_research_domains.description FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.code = "SH"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM erc_research_domains AS T1 WHERE T1.code = "SH"
+GPT-3 choices:
+(0) Retrieve the description from the erc_research_domains table where the code is "SH".
+(1) Retrieve the description from the erc_research_domains table where the code is "SH".
+(2) What is the description for the research domain with the code "SH" in the ERC Research Domains table?
+(3) What is the description for the research domain with the code "SH"?
+(4) What is the description of the research domain with the code "SH"?
+(5) What is the description of the research domain with the code "SH" in the ERC research domains table?
+(6) What is the description of the research domain with the code "SH" in the ERC research domains table?
+(7) Get the description of the research domain from erc_research_domains where the code is "SH".
+
+
+Re-ranked choices:
+7.737  What is the description for the research domain with the code "SH" in the ERC Research Domains table?
+7.737  What is the description of the research domain with the code "SH" in the ERC research domains table?
+4.968  What is the description for the research domain with the code "SH"?
+4.968  What is the description of the research domain with the code "SH"?
+4.931  Get the description of the research domain from erc_research_domains where the code is "SH".
+3.529  Retrieve the description from the erc_research_domains table where the code is "SH".
+

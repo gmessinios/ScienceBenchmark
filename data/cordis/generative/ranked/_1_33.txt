@@ -1,0 +1,28 @@
+SELECT programmes.parent FROM programmes AS programmes JOIN project_programmes AS project_programmes ON programmes.code = project_programmes.programme JOIN projects AS projects ON project_programmes.project = projects.unics_id WHERE projects.start_date = "2019-01-03"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 JOIN project_programmes AS T3 ON T1.code = T3.programme JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.start_date = "2019-01-03"
+GPT-3 choices:
+(0) Find the parent programmes of all projects that start on January 3rd, 2019 by joining the programmes and project_programmes tables and matching their codes to the project's unics_id in the projects table.
+(1) Retrieve the parent programme for all programmes that are associated with a project that has a start date of January 3, 2019.
+(2) "Retrieve the parent programme for all projects that started on January 3, 2019 by joining the programmes and project_programmes tables and selecting the corresponding programme code from programmes."
+(3) Show the name of the parent programme for all programmes that are associated with a project whose start date is January 3, 2019.
+(4) Retrieve the parent programme for all programmes that are associated with projects that started on January 3rd, 2019.
+(5) Find the parent programme for projects that have a start date of January 3rd, 2019.
+(6) Find the parent programme of all programmes that are associated with a project that has a start date of January 3, 2019.
+(7) Find the parent programme of all programmes associated with projects that started on January 3, 2019.
+
+
+Re-ranked choices:
+8.417  Find the parent programmes of all projects that start on January 3rd, 2019 by joining the programmes and project_programmes tables and matching their codes to the project's unics_id in the projects table.
+7.726  Find the parent programme of all programmes that are associated with a project that has a start date of January 3, 2019.
+7.725  Show the name of the parent programme for all programmes that are associated with a project whose start date is January 3, 2019.
+7.724  Retrieve the parent programme for all programmes that are associated with a project that has a start date of January 3, 2019.
+7.714  "Retrieve the parent programme for all projects that started on January 3, 2019 by joining the programmes and project_programmes tables and selecting the corresponding programme code from programmes."
+6.345  Find the parent programme for projects that have a start date of January 3rd, 2019.
+5.626  Find the parent programme of all programmes associated with projects that started on January 3, 2019.
+5.624  Retrieve the parent programme for all programmes that are associated with projects that started on January 3rd, 2019.
+

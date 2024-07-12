@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.histological_type FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_study_design = "ProObs" and biomarker_fda_test.specimen_type = "Saliva"
+
+###
+
+
+Original Query:
+SELECT T1.histological_type FROM biomarker_fda_test AS T1 WHERE T1.test_study_design = "ProObs" and T1.specimen_type = "Saliva"
+GPT-3 choices:
+(0) What are the histological types of biomarker tests in FDA that have a study design of "ProObs" and use saliva as the specimen type?
+(1) What is the histological type of biomarker FDA test in ProObs study design with specimen type Saliva?
+(2) "Retrieve the histological type from biomarker FDA tests where the test study design is ProObs and the specimen type is saliva."
+(3) Retrieve the histological type from the biomarker_fda_test table where the test_study_design is "ProObs" and the specimen_type is "Saliva".
+(4) Retrieve the histological type from the biomarker_fda_test table where the test study design is ProObs and the specimen type is Saliva.
+(5) "Retrieve the histological type from the biomarker FDA test table where the test study design is ProObs and the specimen type is Saliva."
+(6) What is the histological type for biomarker FDA test when the study design is ProObs and the specimen type is Saliva?
+(7) Retrieve the histological type from biomarker_fda_test where the test study design is ProObs and the specimen type is Saliva.

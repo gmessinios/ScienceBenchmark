@@ -1,0 +1,28 @@
+SELECT biomarker_article.pmid, count(*) FROM biomarker_article AS biomarker_article  GROUP BY biomarker_article.pmid
+
+###
+
+
+Original Query:
+SELECT T1.pmid, count(*) FROM biomarker_article AS T1  GROUP BY T1.pmid
+GPT-3 choices:
+(0) How many times does each unique PubMed ID appear in the table "biomarker_article"?
+(1) How many articles cite a biomarker and what is the count of citations for each article?
+(2) Find the count of articles and their associated PMIDs from the biomarker_article table.
+(3) Count the number of records in the biomarker_article table for each unique PMID and display the PMID and its corresponding count.
+(4) Count the number of articles per PMID from the biomarker_article table and group them by PMID.
+(5) Count the number of articles for each PMID in the biomarker_article table.
+(6) Find the number of articles and their corresponding PubMed IDs from the "biomarker_article" table.
+(7) How many articles are there for each PMID in the biomarker_article table?
+
+
+Re-ranked choices:
+2.142  Count the number of articles per PMID from the biomarker_article table and group them by PMID.
+1.444  How many articles are there for each PMID in the biomarker_article table?
+1.438  Count the number of articles for each PMID in the biomarker_article table.
+1.437  How many articles cite a biomarker and what is the count of citations for each article?
+1.433  Count the number of records in the biomarker_article table for each unique PMID and display the PMID and its corresponding count.
+0.050  How many times does each unique PubMed ID appear in the table "biomarker_article"?
+0.030  Find the number of articles and their corresponding PubMed IDs from the "biomarker_article" table.
+0.026  Find the count of articles and their associated PMIDs from the biomarker_article table.
+

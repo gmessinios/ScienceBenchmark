@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.bestobjid FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid = 300638391848953856
+
+###
+
+
+Original Query:
+SELECT T1.bestobjid FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid = 300638391848953856
+GPT-3 choices:
+(0) Get the best object identification number from the table of spectroscopic objects where the object's identification number matches that in the emission line estimates.
+(1) Retrieve the bestobjid from the Spectroscopic_objects table for the specobj with ID number 300638391848953856 that is also present in the galspecline table under Emission_line_estimates.
+(2) "Retrieve the bestobjid from Spectroscopic_objects for a specobj that has a specobjid of 300638391848953856 and is present in the galspecline table as an emission line estimate."
+(3) What is the bestobjid value from the specobj table for the row with specobjid equal to 300638391848953856 in the galspecline table?
+(4) Find the best object ID for a spectroscopic object where its specobjid is equal to 300638391848953856 in the tables specobj and galspecline.
+(5) Retrieve the bestobjid from the Spectroscopic_objects table for the specobj with a matching specobjid in both the Spectroscopic_objects and Emission_line_estimates tables.
+(6) Find the best object ID for a spectroscopic object with a specobjid of 300638391848953856 by joining the specobj and galspecline tables and selecting it from Emission_line_estimates.
+(7) Find the best object ID for a spectroscopic object where the corresponding emission line estimate's specobjid is 300638391848953856.
+
+
+Re-ranked choices:
+7.024  Find the best object ID for a spectroscopic object where the corresponding emission line estimate's specobjid is 300638391848953856.
+7.019  Get the best object identification number from the table of spectroscopic objects where the object's identification number matches that in the emission line estimates.
+5.624  Find the best object ID for a spectroscopic object where its specobjid is equal to 300638391848953856 in the tables specobj and galspecline.
+5.618  Find the best object ID for a spectroscopic object with a specobjid of 300638391848953856 by joining the specobj and galspecline tables and selecting it from Emission_line_estimates.
+2.118  "Retrieve the bestobjid from Spectroscopic_objects for a specobj that has a specobjid of 300638391848953856 and is present in the galspecline table as an emission line estimate."
+2.117  Retrieve the bestobjid from the Spectroscopic_objects table for the specobj with ID number 300638391848953856 that is also present in the galspecline table under Emission_line_estimates.
+1.416  Retrieve the bestobjid from the Spectroscopic_objects table for the specobj with a matching specobjid in both the Spectroscopic_objects and Emission_line_estimates tables.
+0.023  What is the bestobjid value from the specobj table for the row with specobjid equal to 300638391848953856 in the galspecline table?
+

@@ -1,0 +1,28 @@
+SELECT Photometric_objects.type FROM photoobj AS Photometric_objects    ORDER BY Photometric_objects.objid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.type FROM photoobj AS T1    ORDER BY T1.objid DESC LIMIT 1
+GPT-3 choices:
+(0) Get the type of objects from the table "photoobj" in descending order by object ID, and limit the result to only one row.
+(1) "Retrieve the type of photometric object from the photoobj table, ordering by objid in descending order and only selecting the first result."
+(2) Retrieve the type of object from the latest record in the photoobj table, ordered by descending objid value.
+(3) Retrieve the type of object from the table "photoobj" as "Photometric_objects", in descending order based on their objid, with a limit of one result.
+(4) Get the type of the object from the photoobj table, ordered in descending order by objid and limited to 1 result.
+(5) Retrieve the type of the most recent photometric object from the photoobj table, ordered in descending order by its objid and limiting the result to one.
+(6) Get the type of objects from the photoobj table, sorted in descending order based on their objid, with a limit of 1.
+(7) "Retrieve the type of object from the most recent entry in the 'photoobj' table, sorted in descending order by its unique identifier (objid)."
+
+
+Re-ranked choices:
+4.928  Get the type of objects from the table "photoobj" in descending order by object ID, and limit the result to only one row.
+3.524  Retrieve the type of object from the latest record in the photoobj table, ordered by descending objid value.
+3.524  Get the type of the object from the photoobj table, ordered in descending order by objid and limited to 1 result.
+3.521  "Retrieve the type of object from the most recent entry in the 'photoobj' table, sorted in descending order by its unique identifier (objid)."
+3.520  Retrieve the type of object from the table "photoobj" as "Photometric_objects", in descending order based on their objid, with a limit of one result.
+3.519  Retrieve the type of the most recent photometric object from the photoobj table, ordered in descending order by its objid and limiting the result to one.
+3.519  "Retrieve the type of photometric object from the photoobj table, ordering by objid in descending order and only selecting the first result."
+2.826  Get the type of objects from the photoobj table, sorted in descending order based on their objid, with a limit of 1.
+

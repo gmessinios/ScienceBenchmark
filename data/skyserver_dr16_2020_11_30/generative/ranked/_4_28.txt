@@ -1,0 +1,27 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype = 6
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.neighbortype = 6
+GPT-3 choices:
+(0) How many objects are in the "neighbors" table that have a neighbor type of 6?
+(1) Count the number of objects in the "neighbors" table where the neighbor type is equal to 6.
+(2) Count the number of objects that are classified as the nearest neighbor with a type of 6 in the "neighbors" table.
+(3) How many objects are there in the neighbors table that have a neighbor type of 6?
+(4) How many neighbors have a neighbor type of 6 in the table "neighbors"?
+(5) How many neighbors have a neighbor type of 6 in the table "neighbors"?
+(6) How many objects have a neighbor type of 6 in the table "neighbors"?
+(7) How many objects are there in the "neighbors" table that have a neighbor type of 6?
+
+
+Re-ranked choices:
+4.262  How many objects have a neighbor type of 6 in the table "neighbors"?
+4.254  How many objects are in the "neighbors" table that have a neighbor type of 6?
+4.250  How many objects are there in the neighbors table that have a neighbor type of 6?
+4.250  How many objects are there in the "neighbors" table that have a neighbor type of 6?
+4.247  Count the number of objects in the "neighbors" table where the neighbor type is equal to 6.
+4.233  Count the number of objects that are classified as the nearest neighbor with a type of 6 in the "neighbors" table.
+2.862  How many neighbors have a neighbor type of 6 in the table "neighbors"?
+

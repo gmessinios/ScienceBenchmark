@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes AS programmes WHERE programmes.rcn = "11893" or programmes.short_name = "FET Proactive"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM programmes AS T1 WHERE T1.rcn = "11893" or T1.short_name = "FET Proactive"
+GPT-3 choices:
+(0) "Retrieve the title of all programmes with an RCN of 11893 or a short name of FET Proactive from the programmes table."
+(1) Find the title of the programme where its RCN is "11893" or its short name is "FET Proactive".
+(2) "Retrieve the title of programmes with the RCN value of 11893 or the short name of "FET Proactive" from the table called programmes."
+(3) Find the title of all programmes in which the RCN is equal to 11893 or the short name is "FET Proactive".
+(4) Get the title of the programme with RCN number 11893 or short name "FET Proactive" from the table "programmes".
+(5) Retrieve the title of programmes where the RCN is equal to "11893" or the short name is equal to "FET Proactive".
+(6) "Retrieve the title of a programme from the 'programmes' table where its RCN is equal to 11893 or its short name is 'FET Proactive'."
+(7) Retrieve the title of all programmes where the RCN is equal to "11893" or the short name is equal to "FET Proactive".
+
+
+Re-ranked choices:
+8.445  Find the title of all programmes in which the RCN is equal to 11893 or the short name is "FET Proactive".
+8.438  Retrieve the title of programmes where the RCN is equal to "11893" or the short name is equal to "FET Proactive".
+8.437  Retrieve the title of all programmes where the RCN is equal to "11893" or the short name is equal to "FET Proactive".
+8.433  Get the title of the programme with RCN number 11893 or short name "FET Proactive" from the table "programmes".
+8.429  "Retrieve the title of all programmes with an RCN of 11893 or a short name of FET Proactive from the programmes table."
+8.427  "Retrieve the title of a programme from the 'programmes' table where its RCN is equal to 11893 or its short name is 'FET Proactive'."
+8.424  "Retrieve the title of programmes with the RCN value of 11893 or the short name of "FET Proactive" from the table called programmes."
+7.045  Find the title of the programme where its RCN is "11893" or its short name is "FET Proactive".
+

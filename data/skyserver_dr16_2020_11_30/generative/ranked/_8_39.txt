@@ -1,0 +1,28 @@
+SELECT Photometric_objects.flags FROM photoobj AS Photometric_objects WHERE Photometric_objects.dec != -16.9388738535473
+
+###
+
+
+Original Query:
+SELECT T1.flags FROM photoobj AS T1 WHERE T1.dec != -16.9388738535473
+GPT-3 choices:
+(0) Retrieve the flags from the Photometric_objects table where the dec value is not equal to -16.9388738535473.
+(1) Find the flags from the photometric objects where the declination is not equal to -16.9388738535473.
+(2) Retrieve the flags from all objects in the photoobj table where the declination is not equal to -16.9388738535473.
+(3) Find the flags of Photometric_objects where the dec value is not equal to -16.9388738535473.
+(4) Retrieve the flags from the photometric objects table where the declination is not equal to -16.9388738535473.
+(5) "Retrieve the flags from the photoobj table for objects with a declination other than -16.9388738535473."
+(6) Retrieve the flags from the photoobj table for all objects with a declination not equal to -16.9388738535473.
+(7) Get the flags from the photometric objects where the declination is not equal to -16.9388738535473.
+
+
+Re-ranked choices:
+4.237  Find the flags from the photometric objects where the declination is not equal to -16.9388738535473.
+4.237  Get the flags from the photometric objects where the declination is not equal to -16.9388738535473.
+4.235  Retrieve the flags from the photoobj table for all objects with a declination not equal to -16.9388738535473.
+4.233  Retrieve the flags from all objects in the photoobj table where the declination is not equal to -16.9388738535473.
+4.233  "Retrieve the flags from the photoobj table for objects with a declination other than -16.9388738535473."
+4.232  Retrieve the flags from the photometric objects table where the declination is not equal to -16.9388738535473.
+2.141  Find the flags of Photometric_objects where the dec value is not equal to -16.9388738535473.
+2.137  Retrieve the flags from the Photometric_objects table where the dec value is not equal to -16.9388738535473.
+

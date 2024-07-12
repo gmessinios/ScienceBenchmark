@@ -1,0 +1,27 @@
+SELECT count(*) FROM differential_expression AS differential_expression WHERE differential_expression.subjects_down = 63
+
+###
+
+
+Original Query:
+SELECT count(*) FROM differential_expression AS T1 WHERE T1.subjects_down = 63
+GPT-3 choices:
+(0) How many records are in the "differential_expression" table where the "subjects_down" column has a value of 63?
+(1) How many entries are there in the differential expression table where the number of subjects with decreased expression is equal to 63?
+(2) How many rows are there in the table "differential_expression" where the value of the column "subjects_down" is equal to 63?
+(3) How many rows are in the table "differential_expression" where the column "subjects_down" is equal to 63?
+(4) How many rows are there in the table "differential_expression" where the value of the column "subjects_down" is equal to 63?
+(5) How many rows are in the differential_expression table where the value of subjects_down column is 63?
+(6) How many entries are there in the "differential_expression" table where the value in the "subjects_down" column is equal to 63?
+(7) How many records are there in the "differential_expression" table where the value in the "subjects_down" column is equal to 63?
+
+
+Re-ranked choices:
+4.228  How many entries are there in the differential expression table where the number of subjects with decreased expression is equal to 63?
+0.028  How many rows are in the table "differential_expression" where the column "subjects_down" is equal to 63?
+0.027  How many records are in the "differential_expression" table where the "subjects_down" column has a value of 63?
+0.027  How many rows are there in the table "differential_expression" where the value of the column "subjects_down" is equal to 63?
+0.027  How many records are there in the "differential_expression" table where the value in the "subjects_down" column is equal to 63?
+0.025  How many rows are in the differential_expression table where the value of subjects_down column is 63?
+0.024  How many entries are there in the "differential_expression" table where the value in the "subjects_down" column is equal to 63?
+

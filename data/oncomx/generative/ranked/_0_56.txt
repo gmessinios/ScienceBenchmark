@@ -1,0 +1,28 @@
+SELECT biomarker_edrn.id FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.biomarker_type = "Genomic"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_edrn AS T1 WHERE T1.biomarker_type = "Genomic"
+GPT-3 choices:
+(0) Retrieve the unique identifier from the "biomarker_edrn" table where the biomarker type is "Genomic".
+(1) Find the ID of the biomarker in the table "biomarker_edrn" where the biomarker type is "Genomic".
+(2) Find the ID of all biomarkers in the EDRN database that have a biomarker type of "Genomic".
+(3) Find the id of biomarkers from the table "biomarker_edrn" where the biomarker type is "Genomic".
+(4) Retrieve the ID numbers for biomarkers from the table "biomarker_edrn" where the type is listed as "Genomic".
+(5) Find the ID of all biomarkers listed in the table biomarker_edrn where the type is "Genomic".
+(6) Retrieve the ID of all biomarkers from the table biomarker_edrn where the type is "Genomic".
+(7) Find the id of all biomarkers in the database that have a type of "Genomic".
+
+
+Re-ranked choices:
+6.341  Find the ID of all biomarkers in the EDRN database that have a biomarker type of "Genomic".
+4.937  Find the ID of the biomarker in the table "biomarker_edrn" where the biomarker type is "Genomic".
+4.930  Find the id of biomarkers from the table "biomarker_edrn" where the biomarker type is "Genomic".
+3.545  Find the id of all biomarkers in the database that have a type of "Genomic".
+3.537  Find the ID of all biomarkers listed in the table biomarker_edrn where the type is "Genomic".
+3.533  Retrieve the ID of all biomarkers from the table biomarker_edrn where the type is "Genomic".
+3.531  Retrieve the ID numbers for biomarkers from the table "biomarker_edrn" where the type is listed as "Genomic".
+3.528  Retrieve the unique identifier from the "biomarker_edrn" table where the biomarker type is "Genomic".
+

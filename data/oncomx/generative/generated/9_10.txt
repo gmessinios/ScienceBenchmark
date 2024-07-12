@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.histological_type != "8500/2 (ductal carcinoma in situ) OR 8520/2 (lobular carcinoma in situ)"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.histological_type != "8500/2 (ductal carcinoma in situ) OR 8520/2 (lobular carcinoma in situ)"
+GPT-3 choices:
+(0) Find the test submission for FDA approved biomarkers that are not histologically classified as ductal or lobular carcinoma in situ.
+(1) Find all test submissions from the biomarker_fda table where the corresponding histological type in the biomarker_fda_test table is not "ductal carcinoma in situ" or "lobular carcinoma in situ".
+(2) Find all test submissions from the FDA database for biomarkers that have a histological type that is not 8500/2 (ductal carcinoma in situ) or 8520/2 (lobular carcinoma in situ).
+(3) Retrieve the test submissions from the FDA biomarker database where the histological type is not ductal carcinoma in situ or lobular carcinoma in situ.
+(4) Retrieve all test submissions from the FDA biomarker database for which the associated histological type is not 8500/2 or 8520/2 (ductal carcinoma in situ or lobular carcinoma in situ), using data from both the biomarker_fda and biomarker_fda_test tables.
+(5) Show me the test submissions from biomarker_fda where the histological type is not 8500/2 (ductal carcinoma in situ) or 8520/2 (lobular carcinoma in situ), joining with biomarker_fda_test on test_trade_name.
+(6) Retrieve the test submissions from the FDA biomarker database where the histological type is not ductal carcinoma in situ or lobular carcinoma in situ.
+(7) Retrieve the test submission from the FDA biomarker database for all tests listed in both the biomarker_fda and biomarker_fda_test tables, where the histological type is not equal to either "ductal carcinoma in situ" or "lobular carcinoma in situ".

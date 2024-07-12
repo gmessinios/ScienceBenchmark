@@ -1,0 +1,27 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description != "Oeste"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.description != "Oeste"
+GPT-3 choices:
+(0) Retrieve the geocode regions from the EU territorial units where the description is not "Oeste".
+(1) Retrieve the geocode regions from the EU territorial units where the description is not "Oeste".
+(2) Retrieve the geographic codes for all EU territorial units, excluding those with a description of "Oeste".
+(3) What are the geocode regions for all territorial units in the EU that are not named "Oeste"?
+(4) Retrieve the geocode_regions from the eu_territorial_units table, excluding any entries with a description of "Oeste".
+(5) Find all the geocode regions from the European Union territorial units table, excluding those with a description of "Oeste".
+(6) What is the geographic code for all European territorial units, excluding those with the description "Oeste"?
+(7) Get the geocode regions from the EU territorial units where the description is not "Oeste".
+
+
+Re-ranked choices:
+9.133  Retrieve the geocode regions from the EU territorial units where the description is not "Oeste".
+9.133  Get the geocode regions from the EU territorial units where the description is not "Oeste".
+7.741  What are the geocode regions for all territorial units in the EU that are not named "Oeste"?
+7.726  Find all the geocode regions from the European Union territorial units table, excluding those with a description of "Oeste".
+4.923  Retrieve the geographic codes for all EU territorial units, excluding those with a description of "Oeste".
+3.523  What is the geographic code for all European territorial units, excluding those with the description "Oeste"?
+2.120  Retrieve the geocode_regions from the eu_territorial_units table, excluding any entries with a description of "Oeste".
+

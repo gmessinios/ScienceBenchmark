@@ -1,0 +1,27 @@
+SELECT map_protein_disease_mutation.ensembl_transcript_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.peptide_id = "ENSP00000219479" and map_protein_disease_mutation.uniprotkb_ac = "A6NKN8"
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_transcript_id FROM map_protein_disease_mutation AS T1 WHERE T1.peptide_id = "ENSP00000219479" and T1.uniprotkb_ac = "A6NKN8"
+GPT-3 choices:
+(0) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide_id is "ENSP00000219479" and the uniprotkb_ac is "A6NKN8".
+(1) Find the Ensembl transcript ID for a protein-disease-mutation mapping where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8".
+(2) Find the Ensembl transcript ID for the protein-disease-mutation mapping where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8".
+(3) Find the Ensembl transcript ID from the map of protein-disease mutations where the peptide ID is ENSP00000219479 and the UniProtKB accession number is A6NKN8.
+(4) Get the ensembl transcript ID from the table map_protein_disease_mutation where the peptide ID is "ENSP00000219479" and the uniprotkb_ac is "A6NKN8".
+(5) What is the Ensembl transcript ID for the map_protein_disease_mutation table where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8"?
+(6) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8".
+(7) Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8".
+
+
+Re-ranked choices:
+9.122  Find the Ensembl transcript ID from the map of protein-disease mutations where the peptide ID is ENSP00000219479 and the UniProtKB accession number is A6NKN8.
+8.420  Find the Ensembl transcript ID for a protein-disease-mutation mapping where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8".
+8.420  Find the Ensembl transcript ID for the protein-disease-mutation mapping where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8".
+8.420  Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8".
+8.419  What is the Ensembl transcript ID for the map_protein_disease_mutation table where the peptide ID is "ENSP00000219479" and the UniProtKB accession number is "A6NKN8"?
+7.021  Get the ensembl transcript ID from the table map_protein_disease_mutation where the peptide ID is "ENSP00000219479" and the uniprotkb_ac is "A6NKN8".
+5.622  Retrieve the Ensembl transcript ID from the map_protein_disease_mutation table where the peptide_id is "ENSP00000219479" and the uniprotkb_ac is "A6NKN8".
+

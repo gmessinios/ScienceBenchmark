@@ -1,0 +1,16 @@
+SELECT count(*) FROM species AS species WHERE species.speciescommonname = "mouse"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM species AS T1 WHERE T1.speciescommonname = "mouse"
+GPT-3 choices:
+(0) How many entries are there in the "species" table where the common name is "mouse"?
+(1) How many species in the table have a common name of "mouse"?
+(2) How many rows are there in the species table where the species common name is "mouse"?
+(3) How many species have a common name of "mouse"?
+(4) How many species are there with the common name "mouse" in the species table?
+(5) How many species are there in the "species" table where the common name is "mouse"?
+(6) How many entries are there in the "species" table where the "speciescommonname" column is equal to "mouse"?
+(7) How many entries are there in the "species" table where the species' common name is "mouse"?

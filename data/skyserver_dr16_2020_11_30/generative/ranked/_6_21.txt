@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Unknown: Object type is not known." and photometrically_observed.value = 6
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Unknown: Object type is not known." and T1.value = 6
+GPT-3 choices:
+(0) Find the name of the photometrically observed objects that have an unknown description and a value of 6 for their photo type.
+(1) Find the name of all objects that are not known and have a value of 6 in the photometrically observed type, where the description is "Unknown: Object type is not known."
+(2) Find the names of objects that have an unknown object type and a value of 6 in the photo_type table, specifically those with a description of "Unknown: Object type is not known."
+(3) What are the names of objects in photometrically_observed that have a description of "Unknown: Object type is not known." and a value of 6?
+(4) Retrieve the names of objects that have a description of "Unknown: Object type is not known" and a value of 6 in the table for photometrically observed photo types.
+(5) What are the names of all objects that have a photometric observation type of "Unknown" with a value of 6, indicating that their object type is not known?
+(6) List the names of all objects in the database that have an unknown object type and a photometrically observed value of 6.
+(7) What is the name of all objects that have an unknown object type with a value of 6 according to photometric observations?
+
+
+Re-ranked choices:
+11.223  Find the name of all objects that are not known and have a value of 6 in the photometrically observed type, where the description is "Unknown: Object type is not known."
+9.822  Retrieve the names of objects that have a description of "Unknown: Object type is not known" and a value of 6 in the table for photometrically observed photo types.
+7.044  What are the names of objects in photometrically_observed that have a description of "Unknown: Object type is not known." and a value of 6?
+7.028  Find the name of the photometrically observed objects that have an unknown description and a value of 6 for their photo type.
+7.028  List the names of all objects in the database that have an unknown object type and a photometrically observed value of 6.
+6.322  Find the names of objects that have an unknown object type and a value of 6 in the photo_type table, specifically those with a description of "Unknown: Object type is not known."
+5.628  What is the name of all objects that have an unknown object type with a value of 6 according to photometric observations?
+4.223  What are the names of all objects that have a photometric observation type of "Unknown" with a value of 6, indicating that their object type is not known?
+

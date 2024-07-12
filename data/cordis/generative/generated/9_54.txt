@@ -1,0 +1,16 @@
+SELECT institutions.acronym FROM institutions AS institutions JOIN project_members AS project_members ON institutions.unics_id = project_members.institution_id WHERE project_members.activity_type != "REC"
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id WHERE T2.activity_type != "REC"
+GPT-3 choices:
+(0) Show me the acronyms of institutions that are associated with project members, excluding those with a REC activity type.
+(1) Show me the acronyms of all institutions that are associated with project members who have an activity type other than "REC".
+(2) Retrieve the acronyms of all institutions whose unics_id matches the institution_id in project_members, excluding any activity_type that is equal to "REC".
+(3) Retrieve the acronyms of all institutions associated with project members who are not engaged in recreational activities.
+(4) "Retrieve the acronyms of institutions for which there are project members with an activity type other than "REC".
+(5) "Get the acronyms of institutions that have a matching unics_id in the institutions table and are associated with project members who have an activity type other than "REC"."
+(6) Find the acronyms of institutions that have project members with an activity type other than "REC".
+(7) Retrieve the acronyms of institutions that have a corresponding unics_id in both the institutions and project_members tables, and whose activity_type in the project_members table is not equal to "REC".

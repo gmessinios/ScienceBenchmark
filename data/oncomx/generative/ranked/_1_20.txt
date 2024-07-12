@@ -1,0 +1,28 @@
+SELECT healthy_expression.expression_score FROM healthy_expression AS healthy_expression JOIN anatomical_entity AS anatomical_entity ON healthy_expression.uberon_anatomical_id = anatomical_entity.id WHERE anatomical_entity.id = "UBERON:0001875"
+
+###
+
+
+Original Query:
+SELECT T1.expression_score FROM healthy_expression AS T1 JOIN anatomical_entity AS T2 ON T1.uberon_anatomical_id = T2.id WHERE T2.id = "UBERON:0001875"
+GPT-3 choices:
+(0) Retrieve the expression scores for healthy tissues from the Healthy Expression table where the UBERON anatomical ID matches "UBERON:0001875", which represents a specific anatomical entity.
+(1) What is the expression score for healthy_expression in the anatomical entity with the uberon anatomical ID "UBERON:0001875"?
+(2) What is the expression score for the anatomical entity with the UBERON ID "UBERON:0001875" in the healthy expression dataset?
+(3) Retrieve the expression score from healthy expression for the anatomical entity with UBERON ID "UBERON:0001875", joined with the corresponding entry in anatomical entity.
+(4) Retrieve the expression scores from the table of healthy expression for anatomical entities that have a corresponding UBERON ID of "UBERON:0001875" in the table of anatomical entities.
+(5) Retrieve the expression score for healthy anatomical entity "UBERON:0001875" from the table "healthy_expression", joined with the table "anatomical_entity" using their corresponding IDs.
+(6) Retrieve the expression score from the Healthy Expression table for anatomical entity with ID "UBERON:0001875", joining it with the Anatomical Entity table on its ID.
+(7) Retrieve the expression score from the table "healthy_expression" for all entries where the anatomical entity ID in the table "anatomical_entity" is equal to "UBERON:0001875".
+
+
+Re-ranked choices:
+10.529  What is the expression score for the anatomical entity with the UBERON ID "UBERON:0001875" in the healthy expression dataset?
+10.519  Retrieve the expression score from healthy expression for the anatomical entity with UBERON ID "UBERON:0001875", joined with the corresponding entry in anatomical entity.
+9.821  Retrieve the expression score from the Healthy Expression table for anatomical entity with ID "UBERON:0001875", joining it with the Anatomical Entity table on its ID.
+9.125  What is the expression score for healthy_expression in the anatomical entity with the uberon anatomical ID "UBERON:0001875"?
+7.720  Retrieve the expression score from the table "healthy_expression" for all entries where the anatomical entity ID in the table "anatomical_entity" is equal to "UBERON:0001875".
+7.719  Retrieve the expression scores for healthy tissues from the Healthy Expression table where the UBERON anatomical ID matches "UBERON:0001875", which represents a specific anatomical entity.
+7.718  Retrieve the expression score for healthy anatomical entity "UBERON:0001875" from the table "healthy_expression", joined with the table "anatomical_entity" using their corresponding IDs.
+7.718  Retrieve the expression scores from the table of healthy expression for anatomical entities that have a corresponding UBERON ID of "UBERON:0001875" in the table of anatomical entities.
+

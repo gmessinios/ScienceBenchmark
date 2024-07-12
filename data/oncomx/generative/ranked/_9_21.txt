@@ -1,0 +1,28 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.id != "FDA000328"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.id != "FDA000328"
+GPT-3 choices:
+(0) What is the biomarker FDA ID for any biomarker in the "biomarker_fda_ncit_term" table that is not "FDA000328"?
+(1) Find the biomarker FDA NCIT term for all biomarkers in the FDA database except for "FDA000328".
+(2) Find the ID of all biomarker FDA NCIT terms, excluding the term with an ID of "FDA000328", that are associated with a biomarker FDA.
+(3) "Retrieve the FDA NCIT term ID for biomarkers that are not associated with the FDA ID "FDA000328" from the tables "biomarker_fda_ncit_term" and "biomarker_fda"."
+(4) Get the IDs of all biomarkers from the biomarker_fda_ncit_term table that are linked to a non-FDA biomarker in the biomarker_fda table.
+(5) What is the biomarker FDA ID for all rows in the table "biomarker_fda_ncit_term" that are linked to a row in "biomarker_fda" with an ID other than "FDA000328"?
+(6) Find the biomarker FDA ID from the Biomarker FDA NCIT Term table where the biomarker FDA ID is not "FDA000328" and join it with the Biomarker FDA table on matching IDs.
+(7) Get the biomarker FDA NCIT term for all biomarkers from the FDA, except for the one with an ID of "FDA000328".
+
+
+Re-ranked choices:
+8.426  Find the biomarker FDA ID from the Biomarker FDA NCIT Term table where the biomarker FDA ID is not "FDA000328" and join it with the Biomarker FDA table on matching IDs.
+7.745  Get the biomarker FDA NCIT term for all biomarkers from the FDA, except for the one with an ID of "FDA000328".
+7.730  Find the ID of all biomarker FDA NCIT terms, excluding the term with an ID of "FDA000328", that are associated with a biomarker FDA.
+6.343  Find the biomarker FDA NCIT term for all biomarkers in the FDA database except for "FDA000328".
+6.319  "Retrieve the FDA NCIT term ID for biomarkers that are not associated with the FDA ID "FDA000328" from the tables "biomarker_fda_ncit_term" and "biomarker_fda"."
+4.936  What is the biomarker FDA ID for any biomarker in the "biomarker_fda_ncit_term" table that is not "FDA000328"?
+4.923  What is the biomarker FDA ID for all rows in the table "biomarker_fda_ncit_term" that are linked to a row in "biomarker_fda" with an ID other than "FDA000328"?
+1.425  Get the IDs of all biomarkers from the biomarker_fda_ncit_term table that are linked to a non-FDA biomarker in the biomarker_fda table.
+

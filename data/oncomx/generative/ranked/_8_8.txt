@@ -1,0 +1,28 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.id != "FDA000006"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.id != "FDA000006"
+GPT-3 choices:
+(0) Show me the test submissions from all FDA biomarkers except for the one with ID "FDA000006".
+(1) Get the test submission from the FDA biomarker data where the ID is not "FDA000006".
+(2) What is the test submission for biomarker FDA000006 in the biomarker_fda table, excluding the entry with an ID of "FDA000006"?
+(3) What is the test submission for all biomarkers in the FDA database except for "FDA000006"?
+(4) Retrieve all test submissions from the FDA database for biomarkers except for the one with ID "FDA000006".
+(5) Retrieve the test submissions from the FDA biomarker database, excluding the entry with an ID of "FDA000006".
+(6) Retrieve the test submission from biomarker_fda where the id is not "FDA000006".
+(7) Retrieve the test submission from the FDA for all biomarkers, except for FDA000006.
+
+
+Re-ranked choices:
+7.754  Get the test submission from the FDA biomarker data where the ID is not "FDA000006".
+6.334  Retrieve the test submissions from the FDA biomarker database, excluding the entry with an ID of "FDA000006".
+6.328  What is the test submission for biomarker FDA000006 in the biomarker_fda table, excluding the entry with an ID of "FDA000006"?
+4.954  What is the test submission for all biomarkers in the FDA database except for "FDA000006"?
+4.950  Show me the test submissions from all FDA biomarkers except for the one with ID "FDA000006".
+4.939  Retrieve all test submissions from the FDA database for biomarkers except for the one with ID "FDA000006".
+4.939  Retrieve the test submission from biomarker_fda where the id is not "FDA000006".
+4.250  Retrieve the test submission from the FDA for all biomarkers, except for FDA000006.
+

@@ -1,0 +1,16 @@
+SELECT programmes.parent FROM programmes AS programmes WHERE programmes.short_name != "Article 185 (ex 169)"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 WHERE T1.short_name != "Article 185 (ex 169)"
+GPT-3 choices:
+(0) Show me the parent of programmes, excluding those with the short name "Article 185 (ex 169)".
+(1) Get the parent of all programmes where the short name is not "Article 185 (ex 169)".
+(2) Retrieve the parent programme from the programmes table, excluding any with a short name of "Article 185 (ex 169)".
+(3) Retrieve the parent programmes of all programmes except for "Article 185 (ex 169)".
+(4) Find the parent programme of all programmes, except for "Article 185 (ex 169)", in the database.
+(5) Retrieve the parent programme from the programmes table where the short_name is not "Article 185 (ex 169)".
+(6) Retrieve the parent of all programmes excluding those with a short name of "Article 185 (ex 169)".
+(7) "Retrieve the parent programme for all programmes except for 'Article 185 (ex 169)'. "

@@ -1,0 +1,28 @@
+SELECT biomarker.gene_symbol FROM biomarker AS biomarker WHERE biomarker.id = "EDRN00091" and biomarker.test_is_a_panel = True
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol FROM biomarker AS T1 WHERE T1.id = "EDRN00091" and T1.test_is_a_panel = True
+GPT-3 choices:
+(0) Retrieve the gene symbol for biomarker "EDRN00091" that is a panel.
+(1) Which gene symbol is associated with the biomarker "EDRN00091" when the test is a panel?
+(2) Retrieve the gene symbol for a biomarker with an ID of "EDRN00091" that is also classified as a panel test.
+(3) What is the gene symbol for biomarker "EDRN00091" if its test is a panel?
+(4) What is the gene symbol for biomarker "EDRN00091" if it is a panel test?
+(5) Retrieve the gene symbol for biomarker EDRN00091 if the test is a panel.
+(6) What is the gene symbol for biomarker "EDRN00091" that has a test that is considered a panel?
+(7) Find the gene symbol for biomarker with ID "EDRN00091" if its test is a panel.
+
+
+Re-ranked choices:
+10.568  Find the gene symbol for biomarker with ID "EDRN00091" if its test is a panel.
+10.534  Retrieve the gene symbol for a biomarker with an ID of "EDRN00091" that is also classified as a panel test.
+9.175  What is the gene symbol for biomarker "EDRN00091" if its test is a panel?
+9.175  What is the gene symbol for biomarker "EDRN00091" if it is a panel test?
+9.162  Retrieve the gene symbol for biomarker EDRN00091 if the test is a panel.
+9.147  What is the gene symbol for biomarker "EDRN00091" that has a test that is considered a panel?
+9.137  Which gene symbol is associated with the biomarker "EDRN00091" when the test is a panel?
+7.758  Retrieve the gene symbol for biomarker "EDRN00091" that is a panel.
+

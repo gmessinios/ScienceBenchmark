@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.description = "Phosphothreonine; by TTBK1"
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1 WHERE T1.description = "Phosphothreonine; by TTBK1"
+GPT-3 choices:
+(0) What is the feature key for the disease mutation site annotation that has a description of "Phosphothreonine; by TTBK1"?
+(1) Get the feature key from the disease_mutation_site_annotation table where the description is "Phosphothreonine; by TTBK1".
+(2) What is the feature key associated with a disease mutation site that has a description of "Phosphothreonine; by TTBK1"?
+(3) Retrieve the feature key from the disease mutation site annotation table where the description is "Phosphothreonine; by TTBK1".
+(4) Get the feature key from the disease mutation site annotation table for any entry where the description includes "Phosphothreonine" and "by TTBK1".
+(5) Find the feature key for disease mutation sites from the disease_mutation_site_annotation table where the description includes "Phosphothreonine" and is modified by TTBK1.
+(6) Find the feature key for a disease mutation site that has a description of "Phosphothreonine; by TTBK1".
+(7) Find the feature key for disease mutation sites annotated as having a description of "Phosphothreonine; by TTBK1".

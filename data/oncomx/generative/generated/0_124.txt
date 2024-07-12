@@ -1,0 +1,16 @@
+SELECT disease_mutation.alt_aa FROM disease_mutation AS disease_mutation WHERE disease_mutation.mutation_freq = 357
+
+###
+
+
+Original Query:
+SELECT T1.alt_aa FROM disease_mutation AS T1 WHERE T1.mutation_freq = 357
+GPT-3 choices:
+(0) Retrieve the alternate amino acid from disease_mutation where the mutation frequency is 357.
+(1) What is the alternative amino acid for disease mutations with a mutation frequency of 357 in the table disease_mutation?
+(2) Retrieve the alternate amino acid from the disease_mutation table where the mutation frequency is equal to 357.
+(3) Find the alternate amino acid for mutations with a frequency of 357 in the disease mutation table.
+(4) Retrieve the amino acid alternate code from the disease_mutation table where the mutation frequency is equal to 357.
+(5) What is the alternate amino acid for disease mutations with a mutation frequency of 357?
+(6) What is the alternative amino acid for disease mutations that have a mutation frequency of 357?
+(7) What is the alternate amino acid for mutations with a frequency of 357 in the disease_mutation table?

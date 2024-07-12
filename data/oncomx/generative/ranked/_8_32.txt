@@ -1,0 +1,28 @@
+SELECT healthy_expression.uberon_developmental_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.ensembl_gene_id != "ENSG00000054967"
+
+###
+
+
+Original Query:
+SELECT T1.uberon_developmental_id FROM healthy_expression AS T1 WHERE T1.ensembl_gene_id != "ENSG00000054967"
+GPT-3 choices:
+(0) Retrieve the uberon developmental IDs from the healthy expression table, excluding the one for ensembl gene ID "ENSG00000054967".
+(1) Retrieve the uberon developmental ID from the healthy_expression table for all rows where the ensembl gene ID is not equal to "ENSG00000054967".
+(2) "Retrieve the developmental uberon IDs from healthy expression data, excluding those associated with the ensembl gene ID ENSG00000054967."
+(3) "Retrieve the uberon developmental IDs from healthy expression data where the ensembl gene ID is not equal to 'ENSG00000054967'."
+(4) Find the unique identifiers for developmental stages in the UBE
+(5) Retrieve the uberon developmental ID from healthy expression where the ensembl gene ID is not equal to "ENSG00000054967".
+(6) Find the uberon developmental ID from healthy expression where the ensembl gene ID is not equal to "ENSG00000054967".
+(7) What is the uberon developmental ID from healthy expression for all genes except "ENSG00000054967"?
+
+
+Re-ranked choices:
+10.524  Retrieve the uberon developmental ID from healthy expression where the ensembl gene ID is not equal to "ENSG00000054967".
+10.524  Find the uberon developmental ID from healthy expression where the ensembl gene ID is not equal to "ENSG00000054967".
+10.524  "Retrieve the uberon developmental IDs from healthy expression data where the ensembl gene ID is not equal to 'ENSG00000054967'."
+10.520  Retrieve the uberon developmental IDs from the healthy expression table, excluding the one for ensembl gene ID "ENSG00000054967".
+9.818  "Retrieve the developmental uberon IDs from healthy expression data, excluding those associated with the ensembl gene ID ENSG00000054967."
+7.731  What is the uberon developmental ID from healthy expression for all genes except "ENSG00000054967"?
+7.722  Retrieve the uberon developmental ID from the healthy_expression table for all rows where the ensembl gene ID is not equal to "ENSG00000054967".
+1.442  Find the unique identifiers for developmental stages in the UBE
+

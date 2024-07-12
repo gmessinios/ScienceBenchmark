@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.unics_id != 144571
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.unics_id != 144571
+GPT-3 choices:
+(0) Retrieve the name of the framework program from the EC Framework Programs table where the UNICS ID in the Projects table is not equal to 144571.
+(1) Find the names of all framework programs from the table "ec_framework_programs" that are listed as a project's framework program in the table "projects", excluding those with a unics_id of 144571.
+(2) Retrieve the names of all framework programs from the EC Framework Programs table that are associated with projects, but exclude the project with a UNICS ID of 144571.
+(3) Find the names of all EC Framework Programs that are associated with projects other than the one with a UNICS ID of 144571.
+(4) What are the names of framework programs for projects where the UNICS ID is not equal to 144571?
+(5) Find the name of each framework program that is listed in both the "ec_framework_programs" and "projects" tables, except for those associated with the project having an unics_id of 144571.
+(6) Find the names of all framework programs from the ec_framework_programs table that have been used in projects, except for the one with a UNICS ID of 144571.
+(7) Find the name of the framework program from the "ec_framework_programs" table where its name matches a value in the "framework_program" column in the "projects" table, excluding any results where the unics_id is equal to 144571.
+
+
+Re-ranked choices:
+11.228  Retrieve the name of the framework program from the EC Framework Programs table where the UNICS ID in the Projects table is not equal to 144571.
+8.431  Find the names of all EC Framework Programs that are associated with projects other than the one with a UNICS ID of 144571.
+7.056  What are the names of framework programs for projects where the UNICS ID is not equal to 144571?
+7.023  Retrieve the names of all framework programs from the EC Framework Programs table that are associated with projects, but exclude the project with a UNICS ID of 144571.
+5.627  Find the names of all framework programs from the ec_framework_programs table that have been used in projects, except for the one with a UNICS ID of 144571.
+5.621  Find the name of each framework program that is listed in both the "ec_framework_programs" and "projects" tables, except for those associated with the project having an unics_id of 144571.
+5.619  Find the names of all framework programs from the table "ec_framework_programs" that are listed as a project's framework program in the table "projects", excluding those with a unics_id of 144571.
+5.618  Find the name of the framework program from the "ec_framework_programs" table where its name matches a value in the "framework_program" column in the "projects" table, excluding any results where the unics_id is equal to 144571.
+

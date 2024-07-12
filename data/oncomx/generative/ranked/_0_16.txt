@@ -1,0 +1,28 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.doid = 1781
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1 WHERE T1.doid = 1781
+GPT-3 choices:
+(0) What is the unique anatomical identifier for a cancer tissue with Disease Ontology ID 1781?
+(1) Find the Uberon anatomical ID for cancer tissue where the disease ontology ID is 1781.
+(2) Find the anatomical ID for cancer tissue that has a Disease Ontology identifier of 1781.
+(3) Retrieve the UB
+(4) Retrieve the unique anatomical identifier from cancer_tissue for tissues associated with DOID 1781.
+(5) What is the Uberon anatomical ID for the cancer tissue that has a disease ontology ID of 1781?
+(6) Retrieve the UBeron anatomical ID from cancer tissues where the disease ontology ID is 1781.
+(7) "Retrieve the Uberon anatomical identifier for cancer tissues associated with the disease DOID 1781."
+
+
+Re-ranked choices:
+7.033  Find the Uberon anatomical ID for cancer tissue where the disease ontology ID is 1781.
+7.033  What is the Uberon anatomical ID for the cancer tissue that has a disease ontology ID of 1781?
+5.630  Retrieve the UBeron anatomical ID from cancer tissues where the disease ontology ID is 1781.
+5.629  What is the unique anatomical identifier for a cancer tissue with Disease Ontology ID 1781?
+5.629  Find the anatomical ID for cancer tissue that has a Disease Ontology identifier of 1781.
+5.621  "Retrieve the Uberon anatomical identifier for cancer tissues associated with the disease DOID 1781."
+2.821  Retrieve the unique anatomical identifier from cancer_tissue for tissues associated with DOID 1781.
+0.158  Retrieve the UB
+

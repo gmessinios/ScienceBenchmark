@@ -1,0 +1,62 @@
+SELECT projects.end_date FROM projects AS projects WHERE projects.framework_program = "FP7" or projects.objective = "
+EMTRAIN is an essential element for the success of the IMI Education & Training (E&T) Call Topics in Europe (current and future). It will establish a pan-European platform of excellence for education and training covering the whole life-cycle of medicines from basic research through clinical development to pharmaco-vigilance. It will underpin the successful delivery of the current and future IMI-funded E&T projects, and by 2013 will have defined the IMI E&T vision.
+In collaboration with the different IMI E&T projects EMTRAIN will ensure training
+programmes are tailored in a coordinated way for current and future professionals involved in biomedical R&D. Flexibility and mobility of scientists is required to take advantage of the variety of opportunities at the pan-European level, and to understand European needs in biomedical and pharmaceutical medicines sciences. This capacity building project will build up the infrastructure for the other E&T projects and in future calls initiated by IMI, and will facilitate mobility between academia, industry, regulators, and other relevant stakeholders/potential employers.
+Based on extensive mapping of existing resources in Europe and on a gap and overlap
+analysis, the consortium will develop and implement a strategy for pan-European expansion,for harmonisation and accreditation of continuing professional development (CPD) programmes in context of life-long learning under the umbrella of the IMI cross-project LifeTrain initiative (WP4/7). The consortium will provide a comprehensive registry of Master level and PhD programmes, as well as of CPD programmes. It will provide an overview of existing innovative learning concepts, tools and methodologies in conjunction with the other IMI E&T projects that will support the content for the IMI education programmes. National implementation will be facilitated through close contacts with national university authorities, ministries of higher education, and through the availability of national liaison contact persons.
+After implementation in a core group of institutions, extension is planned both within the countries represented in EMTRAIN and in additional countries, helped by dissemination and communication activities. The harmonisation and the modular nature of these programmes will allow trans-disciplinary curricula as well as trans-border and trans-sectoral mobility, and PhD programmes will be designed to foster industry/academia mobility and collaboration.
+The public Consortium is made up of the six pan-European biomedical science (BMS)
+research infrastructures from the ESFRI roadmap, and the Medizinische Universitaet Wien
+as managing entity. The six ESFRI-BMS research infrastructures cover a broad spectrum of
+competences from molecules to humans: structural biology (Instruct), bioinformatics
+(ELIXIR), animal models (INFRAFRONTIER), biobanks (BBMRI), translational research
+(EATRIS) and clinical research (ECRIN). These distributed infrastructures are based on
+resources and facilities located in a majority of EU countries, and have their own education and training programmes. EMTRAIN can therefore take advantage of their broad spectrum of competences, of their pan-European dimension, of their close contacts with national authorities (national ministries of higher education and research are partners in these initiatives), and of already existing national liaisons. Members of the six ESFRI-BMS infrastructures will be responsible for leading the work packages WPs 2-9 in collaboration with members of the EFPIA.
+The EFPIA consortium has considerable experience in education and training; management;
+provides a pan-European geographical outreach, and draws on an extensive external
+network of contacts. Therefore, the EFPIA consortium will not only be able to provide specific input relating to the needs of the pharmaceutical industry but, by contributing to the work packages in partnership with the public consortium, will also
+"
+
+###
+
+
+Original Query:
+SELECT T1.end_date FROM projects AS T1 WHERE T1.framework_program = "FP7" or T1.objective = "
+EMTRAIN is an essential element for the success of the IMI Education & Training (E&T) Call Topics in Europe (current and future). It will establish a pan-European platform of excellence for education and training covering the whole life-cycle of medicines from basic research through clinical development to pharmaco-vigilance. It will underpin the successful delivery of the current and future IMI-funded E&T projects, and by 2013 will have defined the IMI E&T vision.
+In collaboration with the different IMI E&T projects EMTRAIN will ensure training
+programmes are tailored in a coordinated way for current and future professionals involved in biomedical R&D. Flexibility and mobility of scientists is required to take advantage of the variety of opportunities at the pan-European level, and to understand European needs in biomedical and pharmaceutical medicines sciences. This capacity building project will build up the infrastructure for the other E&T projects and in future calls initiated by IMI, and will facilitate mobility between academia, industry, regulators, and other relevant stakeholders/potential employers.
+Based on extensive mapping of existing resources in Europe and on a gap and overlap
+analysis, the consortium will develop and implement a strategy for pan-European expansion,for harmonisation and accreditation of continuing professional development (CPD) programmes in context of life-long learning under the umbrella of the IMI cross-project LifeTrain initiative (WP4/7). The consortium will provide a comprehensive registry of Master level and PhD programmes, as well as of CPD programmes. It will provide an overview of existing innovative learning concepts, tools and methodologies in conjunction with the other IMI E&T projects that will support the content for the IMI education programmes. National implementation will be facilitated through close contacts with national university authorities, ministries of higher education, and through the availability of national liaison contact persons.
+After implementation in a core group of institutions, extension is planned both within the countries represented in EMTRAIN and in additional countries, helped by dissemination and communication activities. The harmonisation and the modular nature of these programmes will allow trans-disciplinary curricula as well as trans-border and trans-sectoral mobility, and PhD programmes will be designed to foster industry/academia mobility and collaboration.
+The public Consortium is made up of the six pan-European biomedical science (BMS)
+research infrastructures from the ESFRI roadmap, and the Medizinische Universitaet Wien
+as managing entity. The six ESFRI-BMS research infrastructures cover a broad spectrum of
+competences from molecules to humans: structural biology (Instruct), bioinformatics
+(ELIXIR), animal models (INFRAFRONTIER), biobanks (BBMRI), translational research
+(EATRIS) and clinical research (ECRIN). These distributed infrastructures are based on
+resources and facilities located in a majority of EU countries, and have their own education and training programmes. EMTRAIN can therefore take advantage of their broad spectrum of competences, of their pan-European dimension, of their close contacts with national authorities (national ministries of higher education and research are partners in these initiatives), and of already existing national liaisons. Members of the six ESFRI-BMS infrastructures will be responsible for leading the work packages WPs 2-9 in collaboration with members of the EFPIA.
+The EFPIA consortium has considerable experience in education and training; management;
+provides a pan-European geographical outreach, and draws on an extensive external
+network of contacts. Therefore, the EFPIA consortium will not only be able to provide specific input relating to the needs of the pharmaceutical industry but, by contributing to the work packages in partnership with the public consortium, will also
+"
+GPT-3 choices:
+(0) What is the end date for projects in the framework program FP7 or with an objective of EMTRAIN?
+(1) What is the end date for projects that have a framework program of "FP7" or an objective that mentions EMTRAIN as being essential for the success of the IMI Education & Training Call Topics in Europe, and will establish a platform for education and training in biomedical R&D to support current and future professionals?
+(2) What is the end date of the projects that are either under the framework program "FP7" or have the objective of supporting the Education & Training (E&T) Call Topics in Europe, as described by EMTRAIN's role in establishing a pan-European platform for education and training in biomedical research and development?
+(3) When does the EMTRAIN project end, and what is its purpose in collaborating with IMI E&T projects to establish a pan-European platform for education and training in biomedical research and development?
+(4) What is the end date of the projects where the framework program is FP7 or the objective includes a description of EMTRAIN's role in supporting IMI Education & Training projects?
+(5) What is the end date for projects that are part of the EMTRAIN initiative under either the framework program "FP7" or have an objective related to supporting education and training in biomedical R&D in Europe?
+(6) What is the end date for the project "EMTRAIN" from the "projects" table, where either the framework_program column has a value of "FP7" or the objective column contains the phrase "EMTRAIN is an essential element"?
+(7) What is the end date of the project "EMTRAIN", which aims to establish a pan-European platform for education and training in biomedical research and development, in collaboration with IMI E&T projects and under the umbrella of the IMI cross-project LifeTrain initiative?
+
+
+Re-ranked choices:
+9.138  What is the end date for projects in the framework program FP7 or with an objective of EMTRAIN?
+9.119  What is the end date of the projects where the framework program is FP7 or the objective includes a description of EMTRAIN's role in supporting IMI Education & Training projects?
+9.117  What is the end date for projects that are part of the EMTRAIN initiative under either the framework program "FP7" or have an objective related to supporting education and training in biomedical R&D in Europe?
+9.112  What is the end date of the projects that are either under the framework program "FP7" or have the objective of supporting the Education & Training (E&T) Call Topics in Europe, as described by EMTRAIN's role in establishing a pan-European platform for education and training in biomedical research and development?
+9.112  What is the end date for projects that have a framework program of "FP7" or an objective that mentions EMTRAIN as being essential for the success of the IMI Education & Training Call Topics in Europe, and will establish a platform for education and training in biomedical R&D to support current and future professionals?
+6.317  What is the end date for the project "EMTRAIN" from the "projects" table, where either the framework_program column has a value of "FP7" or the objective column contains the phrase "EMTRAIN is an essential element"?
+4.212  What is the end date of the project "EMTRAIN", which aims to establish a pan-European platform for education and training in biomedical research and development, in collaboration with IMI E&T projects and under the umbrella of the IMI cross-project LifeTrain initiative?
+1.416  When does the EMTRAIN project end, and what is its purpose in collaborating with IMI E&T projects to establish a pan-European platform for education and training in biomedical research and development?
+

@@ -1,0 +1,27 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Darlington" or eu_territorial_units.geocode_level = 2
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.description = "Darlington" or T1.geocode_level = 2
+GPT-3 choices:
+(0) Retrieve the geocode regions for the EU territorial units where the description is "Darlington" or the geocode level is equal to 2.
+(1) Find the geocode regions for Darlington or any other locations with a geocode level of 2 in the eu_territorial_units table.
+(2) Find the geocode regions for the EU territorial units where the description is "Darlington" or the geocode level is 2.
+(3) Find the geocode region for Darlington or any geocode level 2 regions in the eu_territorial_units table.
+(4) Find the geocode regions for the EU territorial units where the description is "Darlington" or the geocode level is 2.
+(5) Get the geocode regions for the EU territorial unit of Darlington or any other unit at level 2.
+(6) Find the geocode regions from the EU territorial units where the description is "Darlington" or the geocode level is equal to 2.
+(7) Find the geocode regions for Darlington or any other territorial unit with a geocode level of 2 in the EU.
+
+
+Re-ranked choices:
+10.530  Find the geocode regions for the EU territorial units where the description is "Darlington" or the geocode level is 2.
+10.528  Retrieve the geocode regions for the EU territorial units where the description is "Darlington" or the geocode level is equal to 2.
+10.528  Find the geocode regions from the EU territorial units where the description is "Darlington" or the geocode level is equal to 2.
+7.733  Get the geocode regions for the EU territorial unit of Darlington or any other unit at level 2.
+6.330  Find the geocode regions for Darlington or any other territorial unit with a geocode level of 2 in the EU.
+4.923  Find the geocode region for Darlington or any geocode level 2 regions in the eu_territorial_units table.
+4.923  Find the geocode regions for Darlington or any other locations with a geocode level of 2 in the eu_territorial_units table.
+

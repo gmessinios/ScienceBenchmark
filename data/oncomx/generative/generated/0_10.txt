@@ -1,0 +1,16 @@
+SELECT map_uniprot_canonical_id.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_ac = "A2RUH7"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_ac = "A2RUH7"
+GPT-3 choices:
+(0) Retrieve the canonical UniProtKB accession ID from the map_uniprot_canonical_id table where the UniProtKB accession ID is equal to "A2RUH7".
+(1) Retrieve the uniprotkb_canonical_ac from the map_uniprot_canonical_id table where the uniprotkb_ac is equal to "A2RUH7".
+(2) What is the Uniprot canonical ID for the Uniprot AC "A2RUH7"?
+(3) Retrieve the UniProtKB canonical accession number from the map_uniprot_canonical_id table where the UniProtKB accession number is equal to "A2RUH7".
+(4) Get the uniprotkb_canonical_ac from map_uniprot_canonical_id where the uniprotkb_ac is equal to "A2RUH7".
+(5) Retrieve the canonical UniProtKB AC from the table "map_uniprot_canonical_id" where the UniProtKB AC is equal to "A2RUH7".
+(6) What is the uniprotkb_canonical_ac for A2RUH7 in the map_uniprot_canonical_id table?
+(7) Retrieve the canonical Uniprot accession number for the protein with the UniprotKB accession number "A2RUH7".

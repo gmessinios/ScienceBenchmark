@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trade_name FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trial_id = "NCT00339183/NCT00079066" or biomarker_fda_test_trial.test_submission = "K062709"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trial_id = "NCT00339183/NCT00079066" or T1.test_submission = "K062709"
+GPT-3 choices:
+(0) What is the test trade name for the biomarker FDA test trial with a test trial ID of "NCT00339183/NCT00079066" or a test submission of "K062709"?
+(1) Retrieve the trade name from the biomarker FDA test trial for which the test trial ID is equal to "NCT00339183/NCT00079066" or the test submission is equal to "K062709".
+(2) Retrieve the trade name of the test from biomarker_fda_test_trial where the test trial ID is "NCT00339183/NCT00079066" or the test submission is "K062709".
+(3) What is the test trade name for biomarker FDA test trial NCT00339183/NCT00079066 or test submission K062709?
+(4) Get the trade name of biomarker FDA test trials from the table biomarker_fda_test_trial where the test trial ID is "NCT00339183/NCT00079066" or the test submission is "K062709".
+(5) Find the trade name for a biomarker FDA test trial with an ID of "NCT00339183/NCT00079066" or a submission number of "K062709".
+(6) What is the trade name of the test associated with the FDA test trial "NCT00339183/NCT00079066" or FDA submission "K062709"?
+(7) Retrieve the test trade name from the biomarker FDA test trial where the test trial ID is equal to "NCT00339183/NCT00079066" or the test submission is equal to "K062709".
+
+
+Re-ranked choices:
+12.638  Find the trade name for a biomarker FDA test trial with an ID of "NCT00339183/NCT00079066" or a submission number of "K062709".
+12.632  What is the test trade name for the biomarker FDA test trial with a test trial ID of "NCT00339183/NCT00079066" or a test submission of "K062709"?
+12.628  Retrieve the trade name from the biomarker FDA test trial for which the test trial ID is equal to "NCT00339183/NCT00079066" or the test submission is equal to "K062709".
+12.628  Retrieve the test trade name from the biomarker FDA test trial where the test trial ID is equal to "NCT00339183/NCT00079066" or the test submission is equal to "K062709".
+12.623  Get the trade name of biomarker FDA test trials from the table biomarker_fda_test_trial where the test trial ID is "NCT00339183/NCT00079066" or the test submission is "K062709".
+10.542  What is the test trade name for biomarker FDA test trial NCT00339183/NCT00079066 or test submission K062709?
+9.832  What is the trade name of the test associated with the FDA test trial "NCT00339183/NCT00079066" or FDA submission "K062709"?
+9.826  Retrieve the trade name of the test from biomarker_fda_test_trial where the test trial ID is "NCT00339183/NCT00079066" or the test submission is "K062709".
+

@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue JOIN disease_mutation AS disease_mutation ON disease_mutation_tissue.disease_mutation_id = disease_mutation.id WHERE disease_mutation.aa_pos_uniprotkb != 715
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.aa_pos_uniprotkb != 715
+GPT-3 choices:
+(0) Find the anatomical ID of all tissues associated with disease mutations that do not occur at position 715 in the UniprotKB database.
+(1) Retrieve the uberon anatomical ID from disease mutation tissue for all diseases with a mutation location that is not equal to amino acid position 715 in the UniProtKB database.
+(2) Find the anatomical identifiers for tissues that have mutations associated with a disease, but only for those mutations where the amino acid position in UniprotKB is not equal to 715.
+(3) Retrieve the anatomical identifier of the tissues affected by mutations associated with diseases, but only for mutations where the amino acid position in UniprotKB is not 715.
+(4) Get the anatomical IDs of tissues associated with disease mutations that have a non-null amino acid position in UniProtKB.
+(5) Retrieve the uberon anatomical IDs for tissues associated with disease mutations where the amino acid position in UniprotKB is not equal to 715.
+(6) Get the Uberon anatomical ID from the disease_mutation_tissue table where the aa_pos_uniprotkb column in the disease_mutation table is not equal to 715.
+(7) Retrieve the uberon anatomical ID from the disease mutation tissue table for all disease mutations that do not have a specific amino acid position of 715 in the UniProtKB database.

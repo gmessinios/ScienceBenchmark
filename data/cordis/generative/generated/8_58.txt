@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description != "Gdański"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.description != "Gdański"
+GPT-3 choices:
+(0) Find the NUTS version for all EU territorial units except "Gdański".
+(1) Get the NUTS version from the EU territorial units where the description is not "Gdański".
+(2) What is the nuts version for all European territorial units where the description is not "Gdański"?
+(3) Retrieve the NUTS version from the EU territorial units where the description is not "Gdański".
+(4) Retrieve the version number of NUTS from the EU territorial units where the description is not "Gdański".
+(5) Get the NUTS version from EU territorial units where the description is not "Gdański".
+(6) What is the NUTS version for all EU territorial units that are not "Gdański"?
+(7) What is the nuts version for all European territorial units where the description is not "Gdański"?

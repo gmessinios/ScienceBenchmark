@@ -1,0 +1,28 @@
+SELECT Photometric_objects.r FROM photoobj AS Photometric_objects WHERE Photometric_objects.rowc = 58.23757 and Photometric_objects.u = 14.46555
+
+###
+
+
+Original Query:
+SELECT T1.r FROM photoobj AS T1 WHERE T1.rowc = 58.23757 and T1.u = 14.46555
+GPT-3 choices:
+(0) Find the value of "r" from the table "photoobj" where the column "rowc" equals 58.23757 and the column "u" equals 14.46555.
+(1) Retrieve the value of column "r" from the table "photoobj" for rows where the value in column "rowc" is equal to 58.23757 and the value in column "u" is equal to 14.46555.
+(2) Retrieve the "r" value from the "photoobj" table for objects in the "Photometric_objects" group where the rowc value is 58.23757 and the u value is 14.46555.
+(3) "Retrieve the 'r' value for objects in the 'Photometric_objects' table where the 'rowc' column is equal to 58.23757 and the 'u' column is equal to 14.46555."
+(4) Get the r value from the photoobj table for objects with a rowc value of 58.23757 and a u value of 14.46555.
+(5) Find the value of the "r" column in the "photoobj" table for objects where the "rowc" column is equal to 58.23757 and the "u" column is equal to 14.46555.
+(6) Find the "r" value for a photometric object in the photoobj table where the rowc column is equal to 58.23757 and the u column is equal to 14.46555.
+(7) Retrieve the value of the "r" column from the table "photoobj" for rows where the "rowc" column is equal to 58.23757 and the "u" column is equal to 14.46555, identifying these rows as Photometric_objects.
+
+
+Re-ranked choices:
+4.943  "Retrieve the 'r' value for objects in the 'Photometric_objects' table where the 'rowc' column is equal to 58.23757 and the 'u' column is equal to 14.46555."
+4.937  Retrieve the "r" value from the "photoobj" table for objects in the "Photometric_objects" group where the rowc value is 58.23757 and the u value is 14.46555.
+4.248  Find the value of the "r" column in the "photoobj" table for objects where the "rowc" column is equal to 58.23757 and the "u" column is equal to 14.46555.
+4.243  Get the r value from the photoobj table for objects with a rowc value of 58.23757 and a u value of 14.46555.
+2.864  Find the value of "r" from the table "photoobj" where the column "rowc" equals 58.23757 and the column "u" equals 14.46555.
+2.842  Find the "r" value for a photometric object in the photoobj table where the rowc column is equal to 58.23757 and the u column is equal to 14.46555.
+2.841  Retrieve the value of the "r" column from the table "photoobj" for rows where the "rowc" column is equal to 58.23757 and the "u" column is equal to 14.46555, identifying these rows as Photometric_objects.
+2.837  Retrieve the value of column "r" from the table "photoobj" for rows where the value in column "rowc" is equal to 58.23757 and the value in column "u" is equal to 14.46555.
+

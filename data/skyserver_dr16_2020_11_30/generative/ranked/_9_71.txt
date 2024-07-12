@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.flags != 79793619016
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.flags != 79793619016
+GPT-3 choices:
+(0) What are the names of objects that have been photometrically observed and whose flags do not equal 79793619016?
+(1) Find the names of photometrically observed objects from the photoobj table where their type value matches with the name in the photo_type table and their flags value is not equal to 79793619016.
+(2) Find the names of photometrically observed objects from the table "photometrically_observed" that have a value in the "type" column of the "photoobj" table and do not have a flag value of 79793619016.
+(3) Retrieve the names of all objects that have been photometrically observed, but have not been assigned a flag value of 79793619016 in the photoobj table.
+(4) What are the names of all photometrically observed objects that have a type matching the value in the photo_type table and do not have a flags value equal to 79793619016 in the photoobj table?
+(5) What are the names of all photometric objects that have a photo type value matching that of photometrically observed and do not have flags equal to 79793619016?
+(6) What are the names of photometrically observed objects that have a type value in the photoobj table and do not have a flags value of 79793619016?
+(7) Find the names of objects that have been photometrically observed and are not flagged as 79793619016.
+
+
+Re-ranked choices:
+9.824  What are the names of all photometric objects that have a photo type value matching that of photometrically observed and do not have flags equal to 79793619016?
+9.819  Find the names of photometrically observed objects from the photoobj table where their type value matches with the name in the photo_type table and their flags value is not equal to 79793619016.
+8.425  What are the names of photometrically observed objects that have a type value in the photoobj table and do not have a flags value of 79793619016?
+8.420  What are the names of all photometrically observed objects that have a type matching the value in the photo_type table and do not have a flags value equal to 79793619016 in the photoobj table?
+7.718  Find the names of photometrically observed objects from the table "photometrically_observed" that have a value in the "type" column of the "photoobj" table and do not have a flag value of 79793619016.
+5.637  What are the names of objects that have been photometrically observed and whose flags do not equal 79793619016?
+4.242  Find the names of objects that have been photometrically observed and are not flagged as 79793619016.
+4.223  Retrieve the names of all objects that have been photometrically observed, but have not been assigned a flag value of 79793619016 in the photoobj table.
+

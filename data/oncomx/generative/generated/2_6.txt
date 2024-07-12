@@ -1,0 +1,16 @@
+SELECT species.speciesid, count(*) FROM species AS species  GROUP BY species.speciesid
+
+###
+
+
+Original Query:
+SELECT T1.speciesid, count(*) FROM species AS T1  GROUP BY T1.speciesid
+GPT-3 choices:
+(0) Count the number of occurrences for each unique species ID in the table "species".
+(1) Count the number of occurrences of each species ID in the "species" table.
+(2) Get the count of all the rows in the species table grouped by their corresponding species id.
+(3) Count the number of occurrences for each species in the species table and group them by their corresponding species ID.
+(4) Count the number of species and their respective IDs in the table "species".
+(5) "Retrieve the count of all records in the species table grouped by each unique species ID."
+(6) Find the number of occurrences of each species in the "species" table, grouped by the unique identifier for each species.
+(7) Count the number of records in the "species" table for each unique species ID and group them by species ID.

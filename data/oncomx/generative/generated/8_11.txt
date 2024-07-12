@@ -1,0 +1,16 @@
+SELECT anatomical_entity.name FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.description != "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized]."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM anatomical_entity AS T1 WHERE T1.description != "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized]."
+GPT-3 choices:
+(0) Retrieve the names of anatomical entities from the database where their description is not "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized]".
+(1) What is the name of an anatomical entity that does not have the description "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized]"?
+(2) Retrieve the names of anatomical entities from the table "anatomical_entity" where the description is not equal to "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized]".
+(3) Retrieve the name of all anatomical entities except for the stalk-like part of the brain containing both the hindbrain's medulla oblongata and the midbrain's tegmentum.
+(4) "Retrieve the name of all anatomical entities that are not a stalk-like part of the brain, but instead include both the medulla oblongata in the hindbrain and the tegmentum in the midbrain."
+(5) Find the names of all anatomical entities that do not have the description "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain" in any of their ontology annotations.
+(6) Retrieve the name of the anatomical entity that does not have a description stating "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain".
+(7) Retrieve the name of all anatomical entities that do not have the description "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized]".

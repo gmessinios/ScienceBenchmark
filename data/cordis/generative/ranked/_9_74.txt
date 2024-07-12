@@ -1,0 +1,28 @@
+SELECT institutions.db_pedia_url FROM institutions AS institutions JOIN countries AS countries ON institutions.country_id = countries.unics_id WHERE countries.country_name != "Republic of the Congo"
+
+###
+
+
+Original Query:
+SELECT T1.db_pedia_url FROM institutions AS T1 JOIN countries AS T2 ON T1.country_id = T2.unics_id WHERE T2.country_name != "Republic of the Congo"
+GPT-3 choices:
+(0) Retrieve the DBpedia URL of all institutions located in countries other than "Republic of the Congo", by joining the "institutions" and "countries" tables on their respective IDs and selecting only those rows where the country name is not equal to "Republic of the Congo".
+(1) Find the DBpedia URL for all institutions located in countries other than Republic of the Congo.
+(2) Find the DBpedia URLs of institutions that are associated with countries other than "Republic of the Congo".
+(3) Retrieve the DBpedia URLs for institutions located in countries other than "Republic of the Congo" by joining the institutions and countries tables on their respective IDs.
+(4) Get the DBpedia URL of all institutions that are not located in the Republic of the Congo, along with their corresponding country names.
+(5) Retrieve the DBpedia URL for all institutions in countries that are not equal to "Republic of the Congo" by joining the institutions and countries tables on their corresponding country IDs.
+(6) Get the DBPedia URL for all institutions in countries that are not "Republic of the Congo", by joining the institutions and countries tables on their respective IDs.
+(7) Find the dbPedia URL for institutions where the country associated with it is not "Republic of the Congo".
+
+
+Re-ranked choices:
+10.514  Retrieve the DBpedia URL of all institutions located in countries other than "Republic of the Congo", by joining the "institutions" and "countries" tables on their respective IDs and selecting only those rows where the country name is not equal to "Republic of the Congo".
+9.117  Retrieve the DBpedia URL for all institutions in countries that are not equal to "Republic of the Congo" by joining the institutions and countries tables on their corresponding country IDs.
+7.720  Get the DBPedia URL for all institutions in countries that are not "Republic of the Congo", by joining the institutions and countries tables on their respective IDs.
+7.024  Find the dbPedia URL for institutions where the country associated with it is not "Republic of the Congo".
+6.323  Find the DBpedia URL for all institutions located in countries other than Republic of the Congo.
+6.323  Get the DBpedia URL of all institutions that are not located in the Republic of the Congo, along with their corresponding country names.
+6.318  Retrieve the DBpedia URLs for institutions located in countries other than "Republic of the Congo" by joining the institutions and countries tables on their respective IDs.
+5.623  Find the DBpedia URLs of institutions that are associated with countries other than "Republic of the Congo".
+

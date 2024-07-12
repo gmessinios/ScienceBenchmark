@@ -1,0 +1,16 @@
+SELECT count(*) FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.id = "UBERON:0000082"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM anatomical_entity AS T1 WHERE T1.id = "UBERON:0000082"
+GPT-3 choices:
+(0) How many anatomical entities have an ID of "UBERON:0000082"?
+(1) How many anatomical entities have an ID of "UBERON:0000082"?
+(2) How many anatomical entities have an ID of "UBERON:0000082"?
+(3) How many rows are there in the anatomical_entity table where the id is "UBERON:0000082"?
+(4) How many anatomical entities have an ID of "UBERON:0000082"?
+(5) How many rows are in the anatomical_entity table where the id column is "UBERON:0000082"?
+(6) How many rows are there in the anatomical_entity table where the id is "UBERON:0000082"?
+(7) How many anatomical entities have the identifier "UBERON:0000082"?

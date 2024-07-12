@@ -1,0 +1,26 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.plate = 1016
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.plate = 1016
+GPT-3 choices:
+(0) How many spectroscopic objects are there in the specobj table where the plate number is 1016?
+(1) How many spectroscopic objects are there on plate 1016?
+(2) How many spectroscopic objects are there in the database with a plate number of 1016?
+(3) How many spectroscopic objects are there in the database with a plate number of 1016?
+(4) How many spectroscopic objects are there with a plate number of 1016?
+(5) How many spectroscopic objects are there in the "specobj" table where the plate number is 1016?
+(6) Count the number of spectroscopic objects from the SpecObj table where the plate value is equal to 1016.
+(7) How many spectroscopic objects are there on plate 1016?
+
+
+Re-ranked choices:
+4.254  How many spectroscopic objects are there with a plate number of 1016?
+4.244  How many spectroscopic objects are there in the database with a plate number of 1016?
+4.237  How many spectroscopic objects are there in the specobj table where the plate number is 1016?
+4.237  How many spectroscopic objects are there in the "specobj" table where the plate number is 1016?
+4.233  Count the number of spectroscopic objects from the SpecObj table where the plate value is equal to 1016.
+2.868  How many spectroscopic objects are there on plate 1016?
+

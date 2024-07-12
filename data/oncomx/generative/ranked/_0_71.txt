@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.actual_use FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission = "K062765"
+
+###
+
+
+Original Query:
+SELECT T1.actual_use FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission = "K062765"
+GPT-3 choices:
+(0) What is the actual use of a biomarker FDA test with a test submission number of "K062765"?
+(1) Retrieve the actual use of biomarkers from the FDA's list of test submissions with a code of "K062765".
+(2) What is the actual use of the biomarker in FDA test submission K062765?
+(3) What is the actual use for biomarker test submission "K062765" in the FDA test database?
+(4) What is the actual use of biomarker FDA test submission K062765?
+(5) Get the actual use from the biomarker FDA test use table for the test submission with the ID "K062765".
+(6) What is the actual use of the biomarker test submission "K062765" in the FDA database?
+(7) Get the actual use of biomarker tests from the FDA that have a test submission number of "K062765".
+
+
+Re-ranked choices:
+9.144  What is the actual use for biomarker test submission "K062765" in the FDA test database?
+9.144  What is the actual use of the biomarker test submission "K062765" in the FDA database?
+9.144  Get the actual use of biomarker tests from the FDA that have a test submission number of "K062765".
+9.142  Get the actual use from the biomarker FDA test use table for the test submission with the ID "K062765".
+9.139  What is the actual use of a biomarker FDA test with a test submission number of "K062765"?
+8.450  What is the actual use of the biomarker in FDA test submission K062765?
+8.447  What is the actual use of biomarker FDA test submission K062765?
+6.344  Retrieve the actual use of biomarkers from the FDA's list of test submissions with a code of "K062765".
+

@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name = "Kevin Richard Foster"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name = "Kevin Richard Foster"
+GPT-3 choices:
+(0) Retrieve the unics_id of the person with the full name "Kevin Richard Foster" from the table "people".
+(1) Find the UNICS ID for the person named Kevin Richard Foster in the table of people.
+(2) "Find the UNICS ID for the person with the full name of Kevin Richard Foster."
+(3) "Retrieve the UNICS ID from the people table for a person whose full name is 'Kevin Richard Foster'."
+(4) Retrieve the unique ID of a person from the table "people" whose full name is "Kevin Richard Foster".
+(5) Find the unique identifier of the person with the full name "Kevin Richard Foster".
+(6) "Retrieve the unique ID of the person with the full name of 'Kevin Richard Foster' from the table 'people'."
+(7) Retrieve the UNICS ID of the person whose full name is "Kevin Richard Foster".

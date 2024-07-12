@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles AS project_member_roles WHERE project_member_roles.code = "coordinator"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM project_member_roles AS T1 WHERE T1.code = "coordinator"
+GPT-3 choices:
+(0) Retrieve the description from the project member roles table where the code is equal to "coordinator".
+(1) Find the description of the project member role with the code "coordinator" from the table "project_member_roles".
+(2) Retrieve the description from the project_member_roles table where the code is "coordinator".
+(3) Retrieve the description from the project_member_roles table where the code is equal to "coordinator".
+(4) Find the description of the project member role with a code of "coordinator" in the project_member_roles table.
+(5) Retrieve the description of the project member role with the code "coordinator" from the table "project_member_roles".
+(6) Find the description from the project_member_roles table where the code is "coordinator".
+(7) Retrieve the description from the project member roles table where the code is equal to "coordinator".

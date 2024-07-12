@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.id FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.description = "Phosphoserine; by CHEK1 and CHEK2" or disease_mutation_site_annotation.disease_mutation_id = 184649
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease_mutation_site_annotation AS T1 WHERE T1.description = "Phosphoserine; by CHEK1 and CHEK2" or T1.disease_mutation_id = 184649
+GPT-3 choices:
+(0) Find the ID for disease mutation site annotation where the description is "Phosphoserine; by CHEK1 and CHEK2" or the disease mutation ID is 184649.
+(1) Find the ID for the disease mutation site annotation where the description is "Phosphoserine; by CHEK1 and CHEK2" or the disease mutation ID is 184649.
+(2) Find the id from disease_mutation_site_annotation where the description is "Phosphoserine; by CHEK1 and CHEK2" or the disease_mutation_id is 184649.
+(3) Get the ID from the disease_mutation_site_annotation table where the description is "Phosphoserine; by CHEK1 and CHEK2" or the disease_mutation_id is 184649.
+(4) Find the id of the disease mutation site annotation where the description is "Phosphoserine; by CHEK1 and CHEK2" or the disease mutation id is 184649.
+(5) Retrieve the ID from the disease_mutation_site_annotation table where the description is "Phosphoserine; by CHEK1 and CHEK2" or the disease_mutation_id is equal to 184649.
+(6) Retrieve the ID from the disease_mutation_site_annotation table where the description is "Phosphoserine; by CHEK1 and CHEK2" or the disease_mutation_id is equal to 184649.
+(7) Find the ID for a disease mutation site annotation with the description "Phosphoserine; by CHEK1 and CHEK2" or a disease mutation ID of 184649.

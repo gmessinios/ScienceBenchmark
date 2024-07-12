@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "COSMIC_RAY" and photometrically_observed.value = 7
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name = "COSMIC_RAY" and T1.value = 7
+GPT-3 choices:
+(0) Retrieve the description from the photometrically observed photo type where the name is "COSMIC_RAY" and the value is 7.
+(1) Retrieve the description from the photometrically observed photo type where the name is "COSMIC_RAY" and the value is 7.
+(2) Retrieve the description from the photo_type table for any entries where the name is "COSMIC_RAY" and the value is 7.
+(3) Find the description of photo types that are named "COSMIC_RAY" and have a value of 7 for the attribute "name".
+(4) Find the description from photometrically observed photo types where the name is "COSMIC_RAY" and the value is 7.
+(5) Retrieve the description from the table "photo_type" for any entries with a name of "COSMIC_RAY" and a value of 7.
+(6) "Retrieve the description from the photo_type table where the name is 'COSMIC_RAY' and the value is 7."
+(7) What is the description for the type of photo named "COSMIC_RAY" with a value of 7 in the photometrically observed data?

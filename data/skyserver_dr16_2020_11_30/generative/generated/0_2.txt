@@ -1,0 +1,16 @@
+SELECT Photometric_objects.i FROM photoobj AS Photometric_objects WHERE Photometric_objects.g = 13.335
+
+###
+
+
+Original Query:
+SELECT T1.i FROM photoobj AS T1 WHERE T1.g = 13.335
+GPT-3 choices:
+(0) Find the value of column "i" from the table "photoobj" where column "g" is equal to 13.335.
+(1) What is the value of the column "i" in the table "photoobj" for objects where the value of the column "g" is 13.335?
+(2) Retrieve the value of the "i" column from the table "photoobj" where the value in the "g" column is equal to 13.335 and label this result as "Photometric_objects".
+(3) "Find the value in the column 'i' from the table 'photoobj' for objects where the value in column 'g' is equal to 13.335."
+(4) What is the i value for all objects in the photoobj table where the g value is equal to 13.335?
+(5) What is the i value for objects in the photoobj table where g equals 13.335?
+(6) Find the value of i from a table called Photometric_objects where the g column is equal to 13.335.
+(7) Find the i values from the photoobj table where g is equal to 13.335 for Photometric_objects.

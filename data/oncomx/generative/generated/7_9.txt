@@ -1,0 +1,16 @@
+SELECT anatomical_entity.name FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.description = "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct." or anatomical_entity.id = "UBERON:0002391"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM anatomical_entity AS T1 WHERE T1.description = "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct." or T1.id = "UBERON:0002391"
+GPT-3 choices:
+(0) Retrieve the name of the anatomical entity from the table "anatomical_entity" where its description is "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct." or its ID is "UBERON:0002391".
+(1) What is the name of the anatomical entity that either secretes fluid into the ejaculatory duct or has the ID "UBERON:0002391"?
+(2) What is the name of the anatomical entity that either secretes a sugar- and protein-containing fluid into the ejaculatory duct or has an ID of "UBERON:0002391"?
+(3) What is the name of the anatomical entity that either secretes fluid into the ejaculatory duct or has an ID of "UBERON:0002391"?
+(4) Retrieve the name of the anatomical entity that either has a description matching "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct" or an ID equal to "UBERON:0002391".
+(5) What is the name of the anatomical entity that has a description of "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct" or an ID of "UBERON:0002391"?
+(6) Retrieve the name of the anatomical entity from the anatomical_entity table where the description is equal to "Either of a pair of glandular pouches that lie one on either side of the male reproductive tract posterolateral to the urinary bladder and in the human male secrete a sugar- and protein-containing fluid into the ejaculatory duct." or where the ID is equal to "UBERON:0002391".
+(7) What is the name of the anatomical entity that lies on either side of the male reproductive tract and secretes fluid into the ejaculatory duct, with a description that includes being posterolateral to the urinary bladder and containing sugar and protein?

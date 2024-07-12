@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description != "Partner"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description != "Partner"
+GPT-3 choices:
+(0) Retrieve the code from the project member roles table where the description is not "Partner".
+(1) Retrieve the code from project member roles where the description is not "Partner".
+(2) Retrieve the code of all project member roles where the description is not equal to "Partner".
+(3) Get the project member role codes from the "project_member_roles" table where the description is not equal to "Partner".
+(4) Find the project member roles that have a code and their description is not "Partner".
+(5) Retrieve the code of project member roles from the table "project_member_roles" where the description is not equal to "Partner".
+(6) Retrieve the code from the project member roles table where the description is not equal to "Partner".
+(7) "Retrieve the codes for all project member roles where the description is not equal to "Partner".
+
+
+Re-ranked choices:
+7.754  Find the project member roles that have a code and their description is not "Partner".
+7.750  Retrieve the code from project member roles where the description is not "Partner".
+7.750  Retrieve the code of all project member roles where the description is not equal to "Partner".
+7.744  Retrieve the code from the project member roles table where the description is not "Partner".
+7.739  Retrieve the code from the project member roles table where the description is not equal to "Partner".
+7.732  Retrieve the code of project member roles from the table "project_member_roles" where the description is not equal to "Partner".
+6.343  "Retrieve the codes for all project member roles where the description is not equal to "Partner".
+4.937  Get the project member role codes from the "project_member_roles" table where the description is not equal to "Partner".
+

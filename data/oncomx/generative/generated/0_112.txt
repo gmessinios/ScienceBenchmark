@@ -1,0 +1,16 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.doid = 1612
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1 WHERE T1.doid = 1612
+GPT-3 choices:
+(0) Retrieve the anatomical identifier from cancer_tissue where the disease identifier is 1612.
+(1) What is the Uberon anatomical ID for cancer tissues associated with the disease with ID 1612 in the Cancer Tissue database?
+(2) Find the uberon anatomical ID for cancer tissues where the disease is equal to 1612 in the cancer_tissue table.
+(3) What is the Uberon anatomical ID of cancer tissues associated with the disease with a DOID identifier of 1612?
+(4) Retrieve the Uberon anatomical ID for the cancer tissue where the DOID is equal to 1612.
+(5) Find the unique anatomical identifier for cancer tissues that have a Disease Ontology ID of 1612.
+(6) Get the Uberon anatomical ID for cancer tissue where the Disease Ontology ID is equal to 1612.
+(7) Get the anatomical identifier from cancer tissues where the disease ID is equal to 1612 in the Disease Ontology.

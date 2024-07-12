@@ -1,0 +1,28 @@
+SELECT institutions.wikidata_url FROM institutions AS institutions WHERE institutions.website = "http://uard.bg/"
+
+###
+
+
+Original Query:
+SELECT T1.wikidata_url FROM institutions AS T1 WHERE T1.website = "http://uard.bg/"
+GPT-3 choices:
+(0) Retrieve the Wikidata URL of institutions where the website is equal to "http://uard.bg/".
+(1) Find the Wikidata URL of institutions that have a website with the address "http://uard.bg/".
+(2) Retrieve the Wikidata URL from the institutions table where the website is "http://uard.bg/".
+(3) Retrieve the Wikidata URL from the institutions table where the website is equal to "http://uard.bg/".
+(4) Get the Wikidata URL for the institution from the table "institutions" where the website is equal to "http://uard.bg/".
+(5) Get the Wikidata URL of institutions where the website is "http://uard.bg/".
+(6) Find the wikidata URL for an institution from the table "institutions" where its website is "http://uard.bg/".
+(7) Find the Wikidata URL of institutions where their website is "http://uard.bg/".
+
+
+Re-ranked choices:
+5.639  Get the Wikidata URL of institutions where the website is "http://uard.bg/".
+5.639  Find the Wikidata URL of institutions where their website is "http://uard.bg/".
+5.636  Retrieve the Wikidata URL of institutions where the website is equal to "http://uard.bg/".
+5.634  Find the Wikidata URL of institutions that have a website with the address "http://uard.bg/".
+5.633  Retrieve the Wikidata URL from the institutions table where the website is equal to "http://uard.bg/".
+5.632  Retrieve the Wikidata URL from the institutions table where the website is "http://uard.bg/".
+5.629  Get the Wikidata URL for the institution from the table "institutions" where the website is equal to "http://uard.bg/".
+5.626  Find the wikidata URL for an institution from the table "institutions" where its website is "http://uard.bg/".
+

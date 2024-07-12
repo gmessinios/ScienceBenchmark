@@ -1,0 +1,28 @@
+SELECT projects.end_date FROM projects AS projects    ORDER BY projects.ec_max_contribution DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.end_date FROM projects AS T1    ORDER BY T1.ec_max_contribution DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the end date of the project with the highest maximum contribution, sorted in descending order by the maximum contribution amount.
+(1) Get the end date of the project with the highest maximum contribution, sorted in descending order by its maximum contribution.
+(2) Get the end date of the project with the highest EC maximum contribution, ordered in descending order, from the projects table.
+(3) What is the end date of the project with the highest EC maximum contribution, when sorting projects by descending order of EC maximum contribution and selecting only one project?
+(4) "Get the end date of the project with the highest contribution, sorted in descending order by their maximum external contribution."
+(5) What is the end date of the project with the highest contribution amount?
+(6) Get the end date of the project with the highest EC max contribution, ordered by descending order and limit to only one result.
+(7) "Find the end date of the project with the highest EC max contribution, ordering the results in descending order and only returning one result."
+
+
+Re-ranked choices:
+7.721  What is the end date of the project with the highest EC maximum contribution, when sorting projects by descending order of EC maximum contribution and selecting only one project?
+6.327  Get the end date of the project with the highest EC max contribution, ordered by descending order and limit to only one result.
+5.629  Get the end date of the project with the highest EC maximum contribution, ordered in descending order, from the projects table.
+5.624  "Find the end date of the project with the highest EC max contribution, ordering the results in descending order and only returning one result."
+4.922  Retrieve the end date of the project with the highest maximum contribution, sorted in descending order by the maximum contribution amount.
+4.262  What is the end date of the project with the highest contribution amount?
+3.522  Get the end date of the project with the highest maximum contribution, sorted in descending order by its maximum contribution.
+3.522  "Get the end date of the project with the highest contribution, sorted in descending order by their maximum external contribution."
+

@@ -1,0 +1,28 @@
+SELECT project_members.latitude FROM project_members AS project_members WHERE project_members.rcn != "2498038"
+
+###
+
+
+Original Query:
+SELECT T1.latitude FROM project_members AS T1 WHERE T1.rcn != "2498038"
+GPT-3 choices:
+(0) Find the latitude of all project members except for the one with the RCN number "2498038".
+(1) Find the latitude of all members in the "project_members" table, excluding those with the rcn number of "2498038".
+(2) What is the latitude of all project members except for the one with RCN number 2498038?
+(3) Get the latitude of all project members, except for those with an RCN of "2498038".
+(4) What is the latitude of all project members whose RCN is not "2498038"?
+(5) Retrieve the latitude values for all project members except those with an RCN of "2498038" from the table "project_members".
+(6) Retrieve the latitude values from the project members table for all entries except for those with an rcn value of 2498038.
+(7) Get the latitude of all project members whose rcn is not equal to "2498038".
+
+
+Re-ranked choices:
+5.683  What is the latitude of all project members whose RCN is not "2498038"?
+5.660  Get the latitude of all project members whose rcn is not equal to "2498038".
+5.650  Find the latitude of all project members except for the one with the RCN number "2498038".
+5.650  What is the latitude of all project members except for the one with RCN number 2498038?
+5.632  Retrieve the latitude values for all project members except those with an RCN of "2498038" from the table "project_members".
+5.627  Retrieve the latitude values from the project members table for all entries except for those with an rcn value of 2498038.
+4.254  Get the latitude of all project members, except for those with an RCN of "2498038".
+4.227  Find the latitude of all members in the "project_members" table, excluding those with the rcn number of "2498038".
+

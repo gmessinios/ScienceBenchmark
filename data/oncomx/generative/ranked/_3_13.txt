@@ -1,0 +1,25 @@
+SELECT count(*) FROM anatomical_entity AS anatomical_entity
+
+###
+
+
+Original Query:
+SELECT count(*) FROM anatomical_entity AS T1
+GPT-3 choices:
+(0) How many anatomical entities are there in the anatomical_entity table?
+(1) How many anatomical entities are there?
+(2) How many anatomical entities are there?
+(3) How many anatomical entities are there in the table "anatomical_entity"?
+(4) How many anatomical entities are there in the database?
+(5) How many anatomical entities are there in the database?
+(6) "How many anatomical entities are there in the anatomical entity table?"
+(7) How many anatomical entities are there in the database?
+
+
+Re-ranked choices:
+2.830  "How many anatomical entities are there in the anatomical entity table?"
+1.444  How many anatomical entities are there?
+1.444  How many anatomical entities are there in the database?
+1.428  How many anatomical entities are there in the anatomical_entity table?
+1.428  How many anatomical entities are there in the table "anatomical_entity"?
+

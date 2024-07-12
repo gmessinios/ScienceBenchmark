@@ -1,0 +1,28 @@
+SELECT Photometric_objects.r FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_u = 14.22152
+
+###
+
+
+Original Query:
+SELECT T1.r FROM photoobj AS T1 WHERE T1.cmodelmag_u = 14.22152
+GPT-3 choices:
+(0) "Retrieve the right ascension of all objects from the photoobj table with a cmodel magnitude in the u band equal to 14.22152."
+(1) "Retrieve the r magnitude from the photoobj table for Photometric objects where their cmodel u magnitude is 14.22152."
+(2) Get the r values from the photoobj table for all photometric objects where their cmodelmag_u is equal to 14.22152.
+(3) "Retrieve the r value from the photoobj table for objects with a cmodel magnitude of 14.22152 in the u band."
+(4) What is the r-band magnitude of all objects in the photoobj table with a cmodel u-band magnitude of 14.22152?
+(5) Retrieve the r magnitude values from the table "Photometric_objects" where the cmodelmag_u is equal to 14.22152.
+(6) "Retrieve the value of r from the photoobj table for all objects with a cmodelmag_u value of 14.22152 in the Photometric_objects column."
+(7) Retrieve the value of column "r" from the table "photoobj" where the value in column "cmodelmag_u" is equal to 14.22152 and label it as "Photometric_objects".
+
+
+Re-ranked choices:
+5.644  "Retrieve the r value from the photoobj table for objects with a cmodel magnitude of 14.22152 in the u band."
+5.622  "Retrieve the r magnitude from the photoobj table for Photometric objects where their cmodel u magnitude is 14.22152."
+4.226  "Retrieve the right ascension of all objects from the photoobj table with a cmodel magnitude in the u band equal to 14.22152."
+3.531  "Retrieve the value of r from the photoobj table for all objects with a cmodelmag_u value of 14.22152 in the Photometric_objects column."
+3.526  Retrieve the r magnitude values from the table "Photometric_objects" where the cmodelmag_u is equal to 14.22152.
+2.829  What is the r-band magnitude of all objects in the photoobj table with a cmodel u-band magnitude of 14.22152?
+2.826  Get the r values from the photoobj table for all photometric objects where their cmodelmag_u is equal to 14.22152.
+2.129  Retrieve the value of column "r" from the table "photoobj" where the value in column "cmodelmag_u" is equal to 14.22152 and label it as "Photometric_objects".
+

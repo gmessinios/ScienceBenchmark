@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.unics_id != 1927
+
+###
+
+
+Original Query:
+SELECT T1.country_name FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.unics_id != 1927
+GPT-3 choices:
+(0) Retrieve the country names from the Countries table for all institutions except for those with an unics_id of 1927.
+(1) What are the country names for all institutions except the one with an unics_id of 1927?
+(2) Retrieve the names of countries that have institutions whose unique ID is not equal to 1927.
+(3) Find the names of all countries where institutions are located, excluding the country with the UNICS ID 1927.
+(4) Retrieve the names of countries from the "countries" table where the ID for that country in the "institutions" table is not equal to 1927.
+(5) Find the names of all countries that are associated with institutions whose ID is not equal to 1927.
+(6) "Select the names of countries where the institution's country ID is not equal to 1927, from the table containing countries and institutions."
+(7) "Get the country names of all institutions that are not located in France."
+
+
+Re-ranked choices:
+7.030  Find the names of all countries where institutions are located, excluding the country with the UNICS ID 1927.
+5.629  Retrieve the names of countries from the "countries" table where the ID for that country in the "institutions" table is not equal to 1927.
+4.250  Retrieve the names of countries that have institutions whose unique ID is not equal to 1927.
+4.237  Find the names of all countries that are associated with institutions whose ID is not equal to 1927.
+4.229  Retrieve the country names from the Countries table for all institutions except for those with an unics_id of 1927.
+4.225  "Select the names of countries where the institution's country ID is not equal to 1927, from the table containing countries and institutions."
+2.842  "Get the country names of all institutions that are not located in France."
+2.837  What are the country names for all institutions except the one with an unics_id of 1927?
+

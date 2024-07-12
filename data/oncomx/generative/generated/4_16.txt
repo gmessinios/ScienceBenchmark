@@ -1,0 +1,16 @@
+SELECT count(*) FROM stage AS stage WHERE stage.name = "2 month-old stage (mouse)"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM stage AS T1 WHERE T1.name = "2 month-old stage (mouse)"
+GPT-3 choices:
+(0) How many records are there in the "stage" table where the name is "2 month-old stage (mouse)"?
+(1) How many stages are there in the stage table with the name "2 month-old stage (mouse)"?
+(2) How many entries are in the stage table where the name is "2 month-old stage (mouse)"?
+(3) How many entries are in the stage table where the name is "2 month-old stage (mouse)"?
+(4) How many entries are in the stage table where the name is "2 month-old stage (mouse)"?
+(5) How many stages are there in the stage table with the name "2 month-old stage (mouse)"?
+(6) How many stages are there in the stage table where the name is "2 month-old stage (mouse)"?
+(7) How many entries are in the "stage" table where the name is "2 month-old stage (mouse)"?

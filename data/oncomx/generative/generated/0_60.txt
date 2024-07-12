@@ -1,0 +1,16 @@
+SELECT biomarker.test_is_a_panel FROM biomarker AS biomarker WHERE biomarker.biomarker_id = "urn:edrn:bmdb:biomarker:100"
+
+###
+
+
+Original Query:
+SELECT T1.test_is_a_panel FROM biomarker AS T1 WHERE T1.biomarker_id = "urn:edrn:bmdb:biomarker:100"
+GPT-3 choices:
+(0) Find the test_is_a_panel value from biomarker table where the biomarker_id is "urn:edrn:bmdb:biomarker:100".
+(1) Retrieve the test_is_a_panel value for the biomarker with an ID of "urn:edrn:bmdb:biomarker:100" from the biomarker table.
+(2) Return whether or not biomarker 100 is a panel according to the test_is_a_panel column in the biomarker table.
+(3) Retrieve the test type as either a single biomarker or a panel from the biomarker table where the biomarker ID is "urn:edrn:bmdb:biomarker:100".
+(4) "Retrieve the test_is_a_panel attribute from the biomarker table for the biomarker with the ID of 'urn:edrn:bmdb:biomarker:100'."
+(5) Show whether the test for biomarker with ID "urn:edrn:bmdb:biomarker:100" is a panel in the biomarker table.
+(6) What is the value of the "test_is_a_panel" attribute in the biomarker table for the biomarker with ID "urn:edrn:bmdb:biomarker:100"?
+(7) Retrieve the test_is_a_panel value from biomarker where the biomarker_id is "urn:edrn:bmdb:biomarker:100".

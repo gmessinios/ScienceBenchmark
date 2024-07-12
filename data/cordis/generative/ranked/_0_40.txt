@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Pisa"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.description = "Pisa"
+GPT-3 choices:
+(0) What is the geocode region for Pisa in the EU territorial units database?
+(1) What is the geocode for Pisa in the EU Territorial Units table?
+(2) "Retrieve the geocode region for Pisa from the EU territorial units table."
+(3) Retrieve the geocode regions from the European territorial units table for Pisa.
+(4) Retrieve the geocode regions from the EU territorial units table for Pisa.
+(5) Find the geographic region code for "Pisa" in the EU territorial units table.
+(6) Find the geographic code for regions in the European Union with a description of "Pisa".
+(7) Retrieve the geocode regions from the EU territorial units where the description is "Pisa".
+
+
+Re-ranked choices:
+9.134  Retrieve the geocode regions from the EU territorial units where the description is "Pisa".
+7.037  Retrieve the geocode regions from the EU territorial units table for Pisa.
+6.354  What is the geocode for Pisa in the EU Territorial Units table?
+6.337  "Retrieve the geocode region for Pisa from the EU territorial units table."
+6.337  What is the geocode region for Pisa in the EU territorial units database?
+5.629  Retrieve the geocode regions from the European territorial units table for Pisa.
+4.932  Find the geographic region code for "Pisa" in the EU territorial units table.
+3.538  Find the geographic code for regions in the European Union with a description of "Pisa".
+

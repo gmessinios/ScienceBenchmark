@@ -1,0 +1,16 @@
+SELECT cancer_tissue.doid, count(*) FROM cancer_tissue AS cancer_tissue  GROUP BY cancer_tissue.doid
+
+###
+
+
+Original Query:
+SELECT T1.doid, count(*) FROM cancer_tissue AS T1  GROUP BY T1.doid
+GPT-3 choices:
+(0) What is the count of all entries in cancer_tissue grouped by doid?
+(1) Count the number of records for each disease ontology ID in the cancer_tissue table.
+(2) What is the total number of cancer tissue samples for each disease in the database?
+(3) "How many times does each type of cancer occur in a specific tissue according to the database?"
+(4) "Count the number of occurrences for each disease in the cancer_tissue table and group them by their corresponding Disease Ontology identifier."
+(5) How many times does each Disease Ontology ID appear in the cancer_tissue table?
+(6) How many counts are there for each cancer tissue type in the cancer_tissue table?
+(7) How many rows are there for each disease (represented by DOID) in the cancer_tissue table?

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbormode = 2 and Nearest_neighbour_objects.distance = 1.14565022314851e-05
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.neighbormode = 2 and T1.distance = 1.14565022314851e-05
+GPT-3 choices:
+(0) Find the type of nearest neighbor objects with a distance of 1.14565022314851e-05 in neighbormode 2 from the table named "neighbors".
+(1) Get the type of objects that are nearest neighbours with a neighbour mode of 2 and a distance of 1.14565022314851e-05 from the neighbors table.
+(2) Retrieve the type of objects that are nearest neighbors with a distance of 1.14565022314851e-05 using a neighbor mode of 2.
+(3) What are the types of objects that are neighbors and have a distance of 1.14565022314851e-05 in the table called "neighbors" where neighbormode is equal to 2?
+(4) "Find the type of objects that are nearest neighbors with a distance of 1.14565022314851e-05, using a neighbor mode of 2."
+(5) Select the type of nearest neighbor objects where the neighbor mode is 2 and the distance is equal to 1.14565022314851e-05.
+(6) What are the types of nearest neighbor objects with a neighborhood mode of 2 and a distance of 1.14565022314851e-05?
+(7) What type of objects are the nearest neighbours with a distance of 1.14565022314851e-05 in neighbormode 2 in the neighbors table?
+
+
+Re-ranked choices:
+11.247  Get the type of objects that are nearest neighbours with a neighbour mode of 2 and a distance of 1.14565022314851e-05 from the neighbors table.
+11.239  Select the type of nearest neighbor objects where the neighbor mode is 2 and the distance is equal to 1.14565022314851e-05.
+9.881  "Find the type of objects that are nearest neighbors with a distance of 1.14565022314851e-05, using a neighbor mode of 2."
+9.862  Retrieve the type of objects that are nearest neighbors with a distance of 1.14565022314851e-05 using a neighbor mode of 2.
+9.842  What are the types of nearest neighbor objects with a neighborhood mode of 2 and a distance of 1.14565022314851e-05?
+8.452  Find the type of nearest neighbor objects with a distance of 1.14565022314851e-05 in neighbormode 2 from the table named "neighbors".
+7.052  What are the types of objects that are neighbors and have a distance of 1.14565022314851e-05 in the table called "neighbors" where neighbormode is equal to 2?
+7.044  What type of objects are the nearest neighbours with a distance of 1.14565022314851e-05 in neighbormode 2 in the neighbors table?
+

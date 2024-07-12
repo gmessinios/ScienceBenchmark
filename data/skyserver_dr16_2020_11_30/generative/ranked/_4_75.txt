@@ -1,0 +1,27 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.g = 13.31969
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.g = 13.31969
+GPT-3 choices:
+(0) How many objects are there in the Photometric_objects table with a value of 13.31969 for the g column?
+(1) How many Photometric objects have a g-magnitude of 13.31969?
+(2) Count the number of objects in the photoobj table where the g column has a value of 13.31969.
+(3) How many Photometric objects have a g value of 13.31969?
+(4) Count the number of objects in the photoobj table where the g column is equal to 13.31969.
+(5) How many Photometric objects have a g magnitude of 13.31969?
+(6) How many photometric objects have a g magnitude of 13.31969?
+(7) How many Photometric objects have a g magnitude of 13.31969?
+
+
+Re-ranked choices:
+4.242  How many Photometric objects have a g magnitude of 13.31969?
+4.242  How many photometric objects have a g magnitude of 13.31969?
+3.568  How many objects are there in the Photometric_objects table with a value of 13.31969 for the g column?
+2.850  How many Photometric objects have a g value of 13.31969?
+2.841  Count the number of objects in the photoobj table where the g column is equal to 13.31969.
+2.838  Count the number of objects in the photoobj table where the g column has a value of 13.31969.
+1.438  How many Photometric objects have a g-magnitude of 13.31969?
+

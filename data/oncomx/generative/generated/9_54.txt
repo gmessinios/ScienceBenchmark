@@ -1,0 +1,16 @@
+SELECT biomarker_fda_drug.biomarker_fda_id FROM biomarker_fda_drug AS biomarker_fda_drug JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_drug.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_submission != "P190004"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_drug AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_submission != "P190004"
+GPT-3 choices:
+(0) Retrieve the ID of biomarker-FDA-drugs from the biomarker-FDA table, where the test submission is not equal to "P190004".
+(1) Get the biomarker FDA IDs from the table biomarker_fda_drug, where the test_submission column in the table biomarker_fda is not equal to "P190004".
+(2) "Retrieve the biomarker FDA IDs from the biomarker FDA drug table where the associated test submission in the biomarker FDA table is not equal to "P190004".
+(3) Get the FDA biomarker ID from the biomarker_fda_drug table where the corresponding test_submission value in the biomarker_fda table is not equal to "P190004".
+(4) Retrieve the ID of biomarkers from the FDA that have not been submitted for test "P190004" in the table "biomarker_fda_drug".
+(5) Find the biomarker FDA IDs for drugs that are not part of test submission "P190004" in the table "biomarker_fda_drug", joined with the table "biomarker_fda".
+(6) "Find the FDA biomarker IDs from the table of FDA biomarker-drug associations where the corresponding biomarker has not been submitted for test under the code "P190004".
+(7) Find the biomarker FDA IDs for all biomarkers that are not part of a test submission with the code "P190004".

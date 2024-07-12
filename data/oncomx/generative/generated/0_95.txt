@@ -1,0 +1,16 @@
+SELECT disease.name FROM disease AS disease WHERE disease.id = 4362
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1 WHERE T1.id = 4362
+GPT-3 choices:
+(0) Retrieve the name of the disease with an ID of 4362 from the table "disease".
+(1) What is the name of the disease with an id of 4362 in the table called "disease"?
+(2) Get the name of the disease from the "disease" table where the id is equal to 4362.
+(3) What is the name of the disease with an ID of 4362 in the table "disease"?
+(4) Retrieve the name of the disease from the "disease" table where the ID is 4362.
+(5) Retrieve the name of the disease with an id of 4362 from the disease table.
+(6) Retrieve the name of the disease with an id of 4362 from the disease table.
+(7) Retrieve the name of the disease where the ID is 4362 from the disease table.

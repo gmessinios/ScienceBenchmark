@@ -1,0 +1,16 @@
+SELECT count(*) FROM differential_expression AS differential_expression WHERE differential_expression.statistical_significance = "Yes"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM differential_expression AS T1 WHERE T1.statistical_significance = "Yes"
+GPT-3 choices:
+(0) How many entries are there in the differential_expression table where the statistical_significance column is equal to "Yes"?
+(1) How many rows are in the table "differential_expression" where the column "statistical_significance" is equal to "Yes"?
+(2) How many entries are there in the table "differential_expression" where the column "statistical_significance" is equal to "Yes"?
+(3) How many rows are there in the "differential_expression" table where the value of "statistical_significance" is "Yes"?
+(4) How many differential expression records have a statistical significance value of "Yes"?
+(5) How many differential expression entries have a statistical significance of "Yes"?
+(6) How many entries are there in the differential expression table where the statistical significance is labeled as "Yes"?
+(7) How many records are there in the differential_expression table where the statistical_significance column is marked as "Yes"?

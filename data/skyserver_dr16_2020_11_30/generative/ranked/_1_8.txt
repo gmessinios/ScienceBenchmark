@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.dec = -17.2743614889667
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.dec = -17.2743614889667
+GPT-3 choices:
+(0) Retrieve the description from the photometrically observed table for all photo objects with a type value that matches the given SQL query.
+(1) What is the description of the photometrically observed photo type for Photometric objects with a declination of -17.2743614889667?
+(2) What is the description of the photometrically observed photo type for photometric objects with a declination of -17.2743614889667?
+(3) What is the description of photometrically observed photo types for objects with a declination of -17.2743614889667?
+(4) Retrieve the description of the photometric observations for all objects in the photoobj table that have a type value corresponding to the given photo_type value and a declination of -17.2743614889667.
+(5) What is the description of photometrically observed objects at a declination of -17.2743614889667?
+(6) Retrieve the description of photometrically observed objects from the photo_type table where their type matches that of objects in the photoobj table with a declination value of -17.2743614889667.
+(7) What is the description of photometric objects where the photo type value is equal to photometrically observed and the declination is -17.2743614889667?
+
+
+Re-ranked choices:
+9.820  What is the description of photometric objects where the photo type value is equal to photometrically observed and the declination is -17.2743614889667?
+9.817  Retrieve the description of photometrically observed objects from the photo_type table where their type matches that of objects in the photoobj table with a declination value of -17.2743614889667.
+8.423  Retrieve the description from the photometrically observed table for all photo objects with a type value that matches the given SQL query.
+8.422  What is the description of the photometrically observed photo type for Photometric objects with a declination of -17.2743614889667?
+8.422  What is the description of the photometrically observed photo type for photometric objects with a declination of -17.2743614889667?
+7.025  What is the description of photometrically observed photo types for objects with a declination of -17.2743614889667?
+7.025  What is the description of photometrically observed objects at a declination of -17.2743614889667?
+7.016  Retrieve the description of the photometric observations for all objects in the photoobj table that have a type value corresponding to the given photo_type value and a declination of -17.2743614889667.
+

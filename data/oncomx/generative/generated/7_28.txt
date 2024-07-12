@@ -1,0 +1,16 @@
+SELECT species.genus FROM species AS species WHERE species.species = "musculus" or species.speciescommonname = "mouse"
+
+###
+
+
+Original Query:
+SELECT T1.genus FROM species AS T1 WHERE T1.species = "musculus" or T1.speciescommonname = "mouse"
+GPT-3 choices:
+(0) Retrieve the genus of species with the species name "musculus" or the common name "mouse".
+(1) Find the genus of all species in the "species" table where the species is "musculus" or the common name is "mouse".
+(2) What is the genus of the species with the name "musculus" or with the common name "mouse"?
+(3) Retrieve the genus name of all species from the "species" table where the species is "musculus" or the common name is "mouse".
+(4) Find the genus of a species with the name "musculus" or the common name "mouse" in a table called "species".
+(5) Find the genus of all species in the "species" table where the species name is "musculus" or the common name is "mouse".
+(6) What is the genus of species that has a species name of "musculus" or a common name of "mouse"?
+(7) Retrieve the genus of all species where the species name is "musculus" or the common name is "mouse".

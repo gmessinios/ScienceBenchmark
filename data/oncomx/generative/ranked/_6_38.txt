@@ -1,0 +1,28 @@
+SELECT disease_mutation.ensembl_transcript_id FROM disease_mutation AS disease_mutation WHERE disease_mutation.doid = 3963 and disease_mutation.mutation_freq = 4
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_transcript_id FROM disease_mutation AS T1 WHERE T1.doid = 3963 and T1.mutation_freq = 4
+GPT-3 choices:
+(0) "Retrieve the Ensembl transcript IDs of all disease mutations associated with DOID 3963 and have a mutation frequency of 4."
+(1) Get the Ensembl transcript IDs from disease mutation data for a disease with DOID identifier 3963 and a mutation frequency of 4.
+(2) Find the Ensembl transcript ID from disease_mutation where doid is 3963 and mutation frequency is 4.
+(3) What are the Ensembl transcript IDs for mutations associated with DOID 3963 that have a mutation frequency of 4?
+(4) Get the Ensembl transcript ID from disease mutations where the Disease Ontology ID is 3963 and the mutation frequency is 4.
+(5) Find the Ensembl transcript IDs for disease mutations where the associated disease has a DOID of 3963 and a mutation frequency of 4.
+(6) Get the ensembl transcript ID from disease_mutation where the doid is 3963 and mutation frequency is equal to 4.
+(7) Retrieve the ensembl transcript ID from disease_mutation where the disease ID is 3963 and the mutation frequency is 4.
+
+
+Re-ranked choices:
+7.024  Find the Ensembl transcript ID from disease_mutation where doid is 3963 and mutation frequency is 4.
+7.024  Get the ensembl transcript ID from disease_mutation where the doid is 3963 and mutation frequency is equal to 4.
+7.023  Retrieve the ensembl transcript ID from disease_mutation where the disease ID is 3963 and the mutation frequency is 4.
+7.022  Get the Ensembl transcript ID from disease mutations where the Disease Ontology ID is 3963 and the mutation frequency is 4.
+7.020  Get the Ensembl transcript IDs from disease mutation data for a disease with DOID identifier 3963 and a mutation frequency of 4.
+7.019  Find the Ensembl transcript IDs for disease mutations where the associated disease has a DOID of 3963 and a mutation frequency of 4.
+7.019  "Retrieve the Ensembl transcript IDs of all disease mutations associated with DOID 3963 and have a mutation frequency of 4."
+5.622  What are the Ensembl transcript IDs for mutations associated with DOID 3963 that have a mutation frequency of 4?
+

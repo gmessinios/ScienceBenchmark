@@ -1,0 +1,16 @@
+SELECT projects.total_cost, count(*) FROM projects AS projects  GROUP BY projects.total_cost
+
+###
+
+
+Original Query:
+SELECT T1.total_cost, count(*) FROM projects AS T1  GROUP BY T1.total_cost
+GPT-3 choices:
+(0) What is the total cost and number of projects for each unique total cost in the Projects table?
+(1) Find the total cost and number of projects, grouped by their total cost.
+(2) Find the total cost and count the number of projects, grouping them by their total cost.
+(3) "Find the total cost of each project and the number of projects associated with that cost."
+(4) What is the total cost and number of projects for each unique total cost in the "projects" table?
+(5) Find the total cost of each project and count how many projects have that total cost.
+(6) Find the total cost and count the number of projects in the projects table, grouped by their total cost.
+(7) "How many projects have the same total cost and what is the total cost for each group?"

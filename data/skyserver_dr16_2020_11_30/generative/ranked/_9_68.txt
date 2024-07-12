@@ -1,0 +1,28 @@
+SELECT Photometric_objects.colc FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.description != "Cosmic-ray track (not used)."
+
+###
+
+
+Original Query:
+SELECT T1.colc FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.description != "Cosmic-ray track (not used)."
+GPT-3 choices:
+(0) Select the colc column from the photoobj table where the type column is equal to a value in the photo_type table that has a description not equal to "Cosmic-ray track (not used)".
+(1) Retrieve the column "colc" from the table "photoobj" for all objects that have been photometrically observed, excluding those with a type description of "Cosmic-ray track (not used)".
+(2) Retrieve the column "colc" from the table "photoobj" for all objects that have been photometrically observed, excluding those that were identified as cosmic-ray tracks.
+(3) "Retrieve the color values from the photometric_objects table where the type column matches a value in the photo_type table and is not equal to 'Cosmic-ray track (not used)'."
+(4) Find the color column for all photometric objects where the type is labeled as photometrically observed and the description is not "Cosmic-ray track (not used)".
+(5) Find the column "colc" from the table "photoobj", joined with the table "photo_type" where the value in the column "type" is equal to the description in "photometrically_observed", excluding any rows where the description is "Cosmic-ray track (not used)".
+(6) Retrieve the colc column from the Photometric_objects table for all rows where the value in the type column is described as "photometrically observed" and not "Cosmic-ray track (not used)".
+(7) Retrieve the color measurements from photometrically observed objects in the photoobj table, excluding cosmic-ray tracks.
+
+
+Re-ranked choices:
+11.221  Find the color column for all photometric objects where the type is labeled as photometrically observed and the description is not "Cosmic-ray track (not used)".
+10.518  Retrieve the colc column from the Photometric_objects table for all rows where the value in the type column is described as "photometrically observed" and not "Cosmic-ray track (not used)".
+9.818  Retrieve the column "colc" from the table "photoobj" for all objects that have been photometrically observed, excluding those with a type description of "Cosmic-ray track (not used)".
+9.115  Find the column "colc" from the table "photoobj", joined with the table "photo_type" where the value in the column "type" is equal to the description in "photometrically_observed", excluding any rows where the description is "Cosmic-ray track (not used)".
+8.419  Select the colc column from the photoobj table where the type column is equal to a value in the photo_type table that has a description not equal to "Cosmic-ray track (not used)".
+7.721  "Retrieve the color values from the photometric_objects table where the type column matches a value in the photo_type table and is not equal to 'Cosmic-ray track (not used)'."
+4.918  Retrieve the column "colc" from the table "photoobj" for all objects that have been photometrically observed, excluding those that were identified as cosmic-ray tracks.
+4.917  Retrieve the color measurements from photometrically observed objects in the photoobj table, excluding cosmic-ray tracks.
+

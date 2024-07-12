@@ -1,0 +1,16 @@
+SELECT disease_mutation.peptide_pos, count(*) FROM disease_mutation AS disease_mutation  GROUP BY disease_mutation.peptide_pos
+
+###
+
+
+Original Query:
+SELECT T1.peptide_pos, count(*) FROM disease_mutation AS T1  GROUP BY T1.peptide_pos
+GPT-3 choices:
+(0) Count the number of occurrences of each peptide position in the disease_mutation table and group them together by peptide position.
+(1) How many instances of peptide positions are there in the disease_mutation table and what is the count for each position?
+(2) What is the count of disease mutations grouped by peptide position?
+(3) Find the count of occurrences for each unique peptide position in the "disease_mutation" table.
+(4) Count the number of occurrences for each peptide position in the table "disease_mutation".
+(5) What is the count of occurrences of each unique peptide position in the "disease_mutation" table?
+(6) Count the number of occurrences in the table "disease_mutation" for each unique value in the column "peptide_pos".
+(7) Count the number of occurrences of each peptide position in the disease_mutation table.

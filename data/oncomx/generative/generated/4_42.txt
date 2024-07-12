@@ -1,0 +1,16 @@
+SELECT count(*) FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.doid = 5041
+
+###
+
+
+Original Query:
+SELECT count(*) FROM cancer_tissue AS T1 WHERE T1.doid = 5041
+GPT-3 choices:
+(0) How many entries are there in the cancer_tissue table where the doid column is equal to 5041?
+(1) How many entries are there in the cancer_tissue table where the disease ID is 5041?
+(2) How many rows are in the table "cancer_tissue" where the value in the column "doid" is equal to 5041?
+(3) How many entries are in the cancer_tissue table where the doid column has a value of 5041?
+(4) How many records are in the cancer tissue table where the disease ID is 5041?
+(5) "How many records are in the cancer tissue table where the disease ID is 5041?"
+(6) How many instances are there in the cancer tissue table where the DOID is 5041?
+(7) How many entries are there in the cancer_tissue table that have a doid of 5041?

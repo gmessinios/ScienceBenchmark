@@ -1,0 +1,16 @@
+SELECT disease.id FROM disease AS disease JOIN differential_expression AS differential_expression ON disease.id = differential_expression.doid WHERE differential_expression.adjpvalue != 7.78e-148
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease AS T1 JOIN differential_expression AS T2 ON T1.id = T2.doid WHERE T2.adjpvalue != 7.78e-148
+GPT-3 choices:
+(0) Retrieve the id of diseases that have a corresponding record in the differential_expression table with an adjpvalue that is not equal to 7.78e-14.
+(1) What is the disease ID from the disease table that is associated with a differential expression value not equal to 7.78e-14?
+(2) Get the ID of any diseases that have a corresponding differential expression with an adjusted p-value other than 7.78e-14.
+(3) Find the IDs of all diseases that have a differential expression value associated with them that is not equal to 7.78e-14.
+(4) Find the ID of all diseases that have differential expression data with an adjusted p-value not equal to 7.78e-14.
+(5) What are the IDs of diseases that have an adjusted p-value not equal to 7.78e-14 in the differential expression table?
+(6) Find the disease ID for all diseases that have a corresponding differential expression with an adjusted p-value other than 7.78e-148.
+(7) Find the IDs of diseases that are associated with differential expression data, where the adjusted p-value is not equal to 7.78e-14.

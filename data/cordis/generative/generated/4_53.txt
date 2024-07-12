@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Alkmaar en omgeving"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units AS T1 WHERE T1.description = "Alkmaar en omgeving"
+GPT-3 choices:
+(0) How many territorial units are there in the European Union with the description "Alkmaar en omgeving"?
+(1) How many territorial units are there in the European Union with the description "Alkmaar en omgeving"?
+(2) How many territorial units are there in the EU with a description of "Alkmaar en omgeving"?
+(3) How many rows are in the eu_territorial_units table where the description column is equal to "Alkmaar en omgeving"?
+(4) How many entries are in the "eu_territorial_units" table where the description is "Alkmaar en omgeving"?
+(5) How many entries are there in the EU territorial units table where the description is "Alkmaar en omgeving"?
+(6) How many rows are in the eu_territorial_units table where the description is "Alkmaar en omgeving"?
+(7) How many records are in the "eu_territorial_units" table where the description is "Alkmaar en omgeving"?

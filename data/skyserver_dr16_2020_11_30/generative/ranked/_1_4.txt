@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.i = 12.27935
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.i = 12.27935
+GPT-3 choices:
+(0) Find the type of objects that are nearest neighbors to a set of photometric objects with an i-value of 12.27935, by joining the "neighbors" and "photoobj" tables based on their objid values.
+(1) Retrieve the type of nearest neighbor objects from a table called "neighbors" where the objid values match between the "neighbors" and "photoobj" tables, and also where the i value in the "photoobj" table is equal to 12.27935.
+(2) Find the type of nearest neighbour objects from the neighbors table, where the corresponding Photometric object has an i-band magnitude of 12.27935.
+(3) Find the type of nearest neighbour objects that have an i-band photometric magnitude of 12.27935 in the neighbors and photoobj tables.
+(4) Find the types of objects that are nearest neighbors to those with an i-band magnitude of 12.27935 in the photoobj table.
+(5) Retrieve the type of nearest neighbour objects from a table called "neighbors" where the object ID matches that in a table called "photoobj" and the value in the column "i" is equal to 12.27935.
+(6) Find the types of objects that are nearest neighbors to objects with an i value of 12.27935 in the photoobj table.
+(7) Find the type of objects that are nearest neighbours to a particular object with an i-band magnitude of 12.27935 by joining the "neighbors" and "photoobj" tables and selecting the corresponding type from the resulting table.
+
+
+Re-ranked choices:
+8.419  Retrieve the type of nearest neighbour objects from a table called "neighbors" where the object ID matches that in a table called "photoobj" and the value in the column "i" is equal to 12.27935.
+7.023  Find the type of nearest neighbour objects from the neighbors table, where the corresponding Photometric object has an i-band magnitude of 12.27935.
+5.637  Find the type of nearest neighbour objects that have an i-band photometric magnitude of 12.27935 in the neighbors and photoobj tables.
+5.625  Find the type of objects that are nearest neighbours to a particular object with an i-band magnitude of 12.27935 by joining the "neighbors" and "photoobj" tables and selecting the corresponding type from the resulting table.
+4.215  Retrieve the type of nearest neighbor objects from a table called "neighbors" where the objid values match between the "neighbors" and "photoobj" tables, and also where the i value in the "photoobj" table is equal to 12.27935.
+3.533  Find the type of objects that are nearest neighbors to a set of photometric objects with an i-value of 12.27935, by joining the "neighbors" and "photoobj" tables based on their objid values.
+2.862  Find the types of objects that are nearest neighbors to those with an i-band magnitude of 12.27935 in the photoobj table.
+2.852  Find the types of objects that are nearest neighbors to objects with an i value of 12.27935 in the photoobj table.
+

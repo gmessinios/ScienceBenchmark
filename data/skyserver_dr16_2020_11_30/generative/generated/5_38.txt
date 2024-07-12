@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects    ORDER BY Nearest_neighbour_objects.neighborobjid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1    ORDER BY T1.neighborobjid DESC LIMIT 1
+GPT-3 choices:
+(0) "Retrieve the type of the nearest neighbor object from the 'neighbors' table, sorted by its object ID in descending order, and limit the result to only one entry."
+(1) "Retrieve the type of the nearest neighbor object from the list of neighbors, sorted in descending order by their ID, and limit the results to only one."
+(2) Find the type of the nearest neighbor object from a table called "neighbors", ordered by the descending order of its ID, and limit the result to only one.
+(3) Retrieve the type of the nearest neighbour object from the neighbors table, ordering the results in descending order by neighborobjid and limiting to only one result.
+(4) Get the type of the nearest neighbour from the "neighbors" table, sorting by the neighbor's object id in descending order and limiting to only one result.
+(5) Retrieve the type of the nearest neighbor object from the table "neighbors", ordering by the neighbor object ID in descending order, and limiting the results to only one row.
+(6) Retrieve the type of the nearest neighbour object from a table called "neighbors", sorting by the neighbor's object ID in descending order and limiting the results to 1 row.
+(7) Find the type of the nearest neighbor object, ordering by its ID in descending order and only selecting the last result.

@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles JOIN project_members AS project_members ON project_member_roles.code = project_members.member_role WHERE project_members.project != 154662
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 JOIN project_members AS T2 ON T1.code = T2.member_role WHERE T2.project != 154662
+GPT-3 choices:
+(0) What are the codes of all project member roles that are associated with a project other than 154662?
+(1) Retrieve the code of the member roles from the project member roles table for all project members who are not assigned to project 154662.
+(2) What are the codes of all project member roles for project members who are not part of project 154662?
+(3) Retrieve the role code from the project_member_roles table for all project members who are not assigned to project 154662.
+(4) Retrieve the code for all project member roles from the project_member_roles table where the member role code matches the project member's role and the project is not equal to 154662.
+(5) Find the codes for project member roles from the table "project_member_roles" where the code matches with the member role in the table "project_members" and the project is not equal to 154662.
+(6) Find the codes of all project member roles from the table project_member_roles where the project number is not equal to 154662 in the table project_members.
+(7) Find the code for each project member's role from the table project_member_roles where their associated project is not equal to 154662.

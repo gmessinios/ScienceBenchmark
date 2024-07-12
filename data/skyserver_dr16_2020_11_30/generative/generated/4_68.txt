@@ -1,0 +1,16 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 307431180540602368
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 307431180540602368
+GPT-3 choices:
+(0) How many spectral lines are there in the SPPlate table with specobjid 307431180540602368?
+(1) How many rows are in the spplines table where the specobjid column is equal to 307431180540602368?
+(2) How many stellar spectral line indices are there for the specobjid 307431180540602368 in the spplines table?
+(3) How many spectral lines are there for the stellar object with specobjid 307431180540602368 in the spplines table?
+(4) How many entries are in the "spplines" table that have a "specobjid" value of 307431180540602368 in the column "Stellar_spectal_line_indices"?
+(5) How many rows are in the spplines table where the specobjid value is equal to 307431180540602368 in the Stellar_spectal_line_indices column?
+(6) How many rows are in the "Stellar_spectal_line_indices" table where the "specobjid" column has a value of 307431180540602368?
+(7) How many entries are there in the "spplines" table with a matching "specobjid" value of 307431180540602368?

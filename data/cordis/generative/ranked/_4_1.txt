@@ -1,0 +1,25 @@
+SELECT count(*) FROM topics AS topics WHERE topics.title = "Advanced CO2 capture technologies"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics AS T1 WHERE T1.title = "Advanced CO2 capture technologies"
+GPT-3 choices:
+(0) How many topics are there with the title "Advanced CO2 capture technologies"?
+(1) How many topics have the title "Advanced CO2 capture technologies"?
+(2) How many topics in the database have the title "Advanced CO2 capture technologies"?
+(3) How many topics in the database have the title "Advanced CO2 capture technologies"?
+(4) How many topics have the title "Advanced CO2 capture technologies"?
+(5) How many topics are there in the database with the title "Advanced CO2 capture technologies"?
+(6) How many topics have a title of "Advanced CO2 capture technologies"?
+(7) How many topics are there with the title "Advanced CO2 capture technologies"?
+
+
+Re-ranked choices:
+5.647  How many topics have a title of "Advanced CO2 capture technologies"?
+5.644  How many topics are there with the title "Advanced CO2 capture technologies"?
+5.642  How many topics have the title "Advanced CO2 capture technologies"?
+5.642  How many topics in the database have the title "Advanced CO2 capture technologies"?
+5.637  How many topics are there in the database with the title "Advanced CO2 capture technologies"?
+

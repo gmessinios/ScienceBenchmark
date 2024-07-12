@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Höxter" and eu_territorial_units.nuts_version = "2021"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.description = "Höxter" and T1.nuts_version = "2021"
+GPT-3 choices:
+(0) Retrieve the geocode regions from the EU Territorial Units where the description is "Höxter" and the NUTS version is "2021".
+(1) Retrieve the geographic code for the region of Höxter from the EU Territorial Units table, only if its description is "Höxter" and its NUTS version is "2021".
+(2) Retrieve the geocode_regions column from eu_territorial_units where the description is "Höxter" and nuts_version is "2021".
+(3) What are the geocode regions for the territory with the description "Höxter" in the 2021 NUTS version?
+(4) Retrieve the geocode regions for Höxter from the EU territorial units database for the 2021 version.
+(5) Get the geocode regions for Höxter from the EU Territorial Units table, where the description is "Höxter" and the NUTS version is 2021.
+(6) What is the geocode regions for the European Union territorial unit "Höxter" in the 2021 version of NUTS?
+(7) Find the geocode regions for Höxter in the EU territorial units table for 2021.
+
+
+Re-ranked choices:
+11.928  Retrieve the geocode regions from the EU Territorial Units where the description is "Höxter" and the NUTS version is "2021".
+11.923  Get the geocode regions for Höxter from the EU Territorial Units table, where the description is "Höxter" and the NUTS version is 2021.
+9.119  Retrieve the geographic code for the region of Höxter from the EU Territorial Units table, only if its description is "Höxter" and its NUTS version is "2021".
+7.735  Find the geocode regions for Höxter in the EU territorial units table for 2021.
+7.726  Retrieve the geocode regions for Höxter from the EU territorial units database for the 2021 version.
+6.331  What are the geocode regions for the territory with the description "Höxter" in the 2021 NUTS version?
+6.330  What is the geocode regions for the European Union territorial unit "Höxter" in the 2021 version of NUTS?
+2.120  Retrieve the geocode_regions column from eu_territorial_units where the description is "Höxter" and nuts_version is "2021".
+

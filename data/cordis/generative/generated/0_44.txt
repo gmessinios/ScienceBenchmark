@@ -1,0 +1,16 @@
+SELECT programmes.parent FROM programmes AS programmes WHERE programmes.rcn = "16146"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 WHERE T1.rcn = "16146"
+GPT-3 choices:
+(0) Retrieve the parent programme for the programme with an RCN value of 16146 from the "programmes" table.
+(1) Retrieve the parent programme of the programme with RCN number 16146.
+(2) Retrieve the parent programme from the programmes table where the rcn is equal to 16146.
+(3) What is the name of the parent programme for the record with an RCN value of 16146 in the Programmes table?
+(4) Retrieve the parent programme of the programme with an rcn value of 16146.
+(5) Find the parent programme associated with the RCN (Research Council Number) 16146.
+(6) What is the parent of the programme with rcn "16146"?
+(7) Retrieve the parent programme for the programme with RCN number 16146.

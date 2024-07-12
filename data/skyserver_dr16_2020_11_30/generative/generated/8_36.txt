@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.distance != 1.33218266560845e-05
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.distance != 1.33218266560845e-05
+GPT-3 choices:
+(0) Find the types of nearest neighbor objects that have a distance that is not equal to 1.33218266560845e-05 in the table neighbors.
+(1) What is the type of nearest neighbour objects from the neighbors table where the distance is not equal to 1.33218266560845e-05?
+(2) Retrieve the type of nearest neighbour objects from the "neighbors" table, excluding any with a distance of 1.33218266560845e-05.
+(3) "Find the type of objects that are nearest neighbors, excluding those with a distance of 1.33218266560845e-05."
+(4) Find the type of objects that are nearest neighbors, where the distance is not equal to 1.33218266560845e-05.
+(5) Find the types of objects that are neighbors, but not at a distance of 1.33218266560845e-05.
+(6) Find the type of nearest neighbor objects from the table "neighbors" where the distance is not equal to 1.33218266560845e-05.
+(7) Find the type of objects that are nearest neighbors with a distance not equal to 1.33218266560845e-05 in the table called "neighbors".

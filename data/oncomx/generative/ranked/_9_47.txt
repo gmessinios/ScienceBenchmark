@@ -1,0 +1,28 @@
+SELECT disease_mutation.data_source FROM disease_mutation AS disease_mutation JOIN disease_mutation_tissue AS disease_mutation_tissue ON disease_mutation.id = disease_mutation_tissue.disease_mutation_id WHERE disease_mutation_tissue.uberon_anatomical_id != "UBERON:0016435"
+
+###
+
+
+Original Query:
+SELECT T1.data_source FROM disease_mutation AS T1 JOIN disease_mutation_tissue AS T2 ON T1.id = T2.disease_mutation_id WHERE T2.uberon_anatomical_id != "UBERON:0016435"
+GPT-3 choices:
+(0) Retrieve the data source for all disease mutations that have been linked to a tissue other than the lymph node.
+(1) Retrieve the data source from the disease_mutation table where the associated disease_mutation_tissue record has an uberon_anatomical_id that is not "UBERON:0016435".
+(2) Retrieve the data source from disease_mutation for entries where the associated tissue is not "male reproductive system".
+(3) Retrieve the data source from the disease_mutation table where the corresponding disease_mutation_tissue entry has an uberon_anatomical_id that is not equal to "UBERON:0016435".
+(4) Retrieve the data source from the table "disease_mutation" for all entries that have a corresponding entry in the table "disease_mutation_tissue" where the uberon_anatomical_id is not equal to "UBERON:0016435".
+(5) Get the data source for disease mutations that have a tissue specified by a UBERON anatomical ID other than "UBERON:0016435".
+(6) Retrieve the data source of disease mutations from the database where the associated tissue is not "nerve".
+(7) Retrieve the data source of disease mutations where the corresponding tissue is not "smooth muscle".
+
+
+Re-ranked choices:
+10.525  Get the data source for disease mutations that have a tissue specified by a UBERON anatomical ID other than "UBERON:0016435".
+5.634  Retrieve the data source for all disease mutations that have been linked to a tissue other than the lymph node.
+5.630  Retrieve the data source of disease mutations from the database where the associated tissue is not "nerve".
+5.629  Retrieve the data source of disease mutations where the corresponding tissue is not "smooth muscle".
+4.222  Retrieve the data source from disease_mutation for entries where the associated tissue is not "male reproductive system".
+3.519  Retrieve the data source from the disease_mutation table where the corresponding disease_mutation_tissue entry has an uberon_anatomical_id that is not equal to "UBERON:0016435".
+3.518  Retrieve the data source from the disease_mutation table where the associated disease_mutation_tissue record has an uberon_anatomical_id that is not "UBERON:0016435".
+3.517  Retrieve the data source from the table "disease_mutation" for all entries that have a corresponding entry in the table "disease_mutation_tissue" where the uberon_anatomical_id is not equal to "UBERON:0016435".
+

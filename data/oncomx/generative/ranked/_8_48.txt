@@ -1,0 +1,28 @@
+SELECT differential_expression.expression_change_direction FROM differential_expression AS differential_expression WHERE differential_expression.statistical_significance != "Yes"
+
+###
+
+
+Original Query:
+SELECT T1.expression_change_direction FROM differential_expression AS T1 WHERE T1.statistical_significance != "Yes"
+GPT-3 choices:
+(0) Find the expression change direction from differential expression where the statistical significance is not "Yes".
+(1) Retrieve the expression change direction from the differential expression table where the statistical significance is not "Yes".
+(2) Retrieve the expression change direction from the differential_expression table where statistical significance is not "Yes".
+(3) Retrieve the direction of expression change for all entries in the differential_expression table where the statistical significance is not "Yes".
+(4) Retrieve the expression change direction from the table of differential expressions where the statistical significance is not "Yes".
+(5) "Retrieve the expression change direction from differential expression where statistical significance is not marked as "Yes".
+(6) Retrieve the expression change direction from differential_expression for all rows where the statistical significance is not equal to "Yes".
+(7) Find the direction of expression change for all differential expression where statistical significance is not "Yes".
+
+
+Re-ranked choices:
+9.123  Find the direction of expression change for all differential expression where statistical significance is not "Yes".
+9.122  Find the expression change direction from differential expression where the statistical significance is not "Yes".
+9.122  Retrieve the expression change direction from the table of differential expressions where the statistical significance is not "Yes".
+9.121  Retrieve the expression change direction from the differential expression table where the statistical significance is not "Yes".
+9.120  "Retrieve the expression change direction from differential expression where statistical significance is not marked as "Yes".
+7.721  Retrieve the expression change direction from differential_expression for all rows where the statistical significance is not equal to "Yes".
+7.719  Retrieve the direction of expression change for all entries in the differential_expression table where the statistical significance is not "Yes".
+7.719  Retrieve the expression change direction from the differential_expression table where statistical significance is not "Yes".
+

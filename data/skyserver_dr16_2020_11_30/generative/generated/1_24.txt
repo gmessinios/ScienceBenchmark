@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.name = "GALAXY"
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.name = "GALAXY"
+GPT-3 choices:
+(0) "Retrieve the IDs of nearest neighbour objects that have been photometrically observed as galaxies."
+(1) Find the nearest neighbor object IDs of all galaxies that have been photometrically observed.
+(2) Find the ID of the nearest neighbor objects where their type is a galaxy and has been photometrically observed.
+(3) What is the ID of all objects that are considered nearest neighbors to galaxies based on their photometric observation type?
+(4) What are the IDs of the nearest neighbor objects that have been observed photometrically as galaxies?
+(5) What is the object ID for the nearest neighbor of a galaxy that has been photometrically observed?
+(6) Which nearest neighbor objects have a neighbor type that is classified as "GALAXY" in the photo type table?
+(7) Find the neighborobjid of the nearest neighbor objects where their neighbor type is a galaxy that has been observed photometrically.

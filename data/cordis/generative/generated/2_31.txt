@@ -1,0 +1,16 @@
+SELECT countries.country_code3, count(*) FROM countries AS countries  GROUP BY countries.country_code3
+
+###
+
+
+Original Query:
+SELECT T1.country_code3, count(*) FROM countries AS T1  GROUP BY T1.country_code3
+GPT-3 choices:
+(0) Get the country code3 and count the number of times it appears in the countries table, grouping the results by country code3.
+(1) "Find the number of records for each country in the countries table, grouped by their respective three-letter country codes."
+(2) Count the number of occurrences for each country code in the countries table and group them by their respective 3-letter country codes.
+(3) Count the number of rows in the countries table grouped by the country_code3 column and return the country_code3 and count columns.
+(4) Find the count of all records in the "countries" table grouped by each unique value in the "country_code3" column.
+(5) Find the number of countries in each country code3 and group them by their country codes.
+(6) How many times does each country's three-letter country code appear in the countries table?
+(7) Count the number of records in the countries table for each unique country code3 and group the results by country code3.

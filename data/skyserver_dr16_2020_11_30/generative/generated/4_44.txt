@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.segue2_target2 = -2147482624
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.segue2_target2 = -2147482624
+GPT-3 choices:
+(0) How many spectroscopic objects are there in the specobj table with segue2_target2 equal to -2147482624?
+(1) How many Spectroscopic_objects have a segue2_target2 value of -2147482624?
+(2) How many spectroscopic objects have a segue2_target2 value of -2147482624 in the Specobj table?
+(3) How many objects are there in the Spectroscopic_objects table where the segue2_target2 value is -2147482624?
+(4) How many objects have a target2 value of -2147482624 in the specobj table?
+(5) How many spectroscopic objects have a segue2_target2 value of -2147482624 in the table specobj?
+(6) How many Spectroscopic objects are there with segue2_target2 equal to -2147482624 in the specobj table?
+(7) How many objects in the spectroscopic dataset have a target of -2147482624 according to Segue 2?

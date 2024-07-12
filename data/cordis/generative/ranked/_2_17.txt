@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description, count(*) FROM eu_territorial_units AS eu_territorial_units  GROUP BY eu_territorial_units.description
+
+###
+
+
+Original Query:
+SELECT T1.description, count(*) FROM eu_territorial_units AS T1  GROUP BY T1.description
+GPT-3 choices:
+(0) Count the number of times each description in the eu_territorial_units table appears and group the results by their respective descriptions.
+(1) "How many records are there for each description in the EU territorial units table?"
+(2) How many entities are there in the table "eu_territorial_units" and how many of each distinct description do they have, grouped by description?
+(3) What is the count of descriptions in the EU territorial units table, grouped by description?
+(4) "How many territorial units are there for each description in the table eu_territorial_units?"
+(5) Get the number of records for each distinct description in the EU territorial units table, grouped by description.
+(6) How many territorial units are there for each description in the EU Territorial Units table?
+(7) "Count the number of records for each description in the EU Territorial Units table and display the description along with its corresponding count."
+
+
+Re-ranked choices:
+6.329  Get the number of records for each distinct description in the EU territorial units table, grouped by description.
+5.639  "How many records are there for each description in the EU territorial units table?"
+5.629  How many territorial units are there for each description in the EU Territorial Units table?
+5.624  "Count the number of records for each description in the EU Territorial Units table and display the description along with its corresponding count."
+4.933  What is the count of descriptions in the EU territorial units table, grouped by description?
+4.221  "How many territorial units are there for each description in the table eu_territorial_units?"
+2.123  How many entities are there in the table "eu_territorial_units" and how many of each distinct description do they have, grouped by description?
+2.121  Count the number of times each description in the eu_territorial_units table appears and group the results by their respective descriptions.
+

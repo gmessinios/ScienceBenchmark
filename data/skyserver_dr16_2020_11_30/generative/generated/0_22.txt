@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 WHERE T1.type = 0
+GPT-3 choices:
+(0) Find the ID of the nearest neighbor object from the table "neighbors" where the type is equal to 0.
+(1) What are the IDs of objects that are nearest neighbors with a type value of 0 in the table "neighbors"?
+(2) Find the ID of the nearest neighboring object where its type is equal to 0.
+(3) Retrieve the neighborobjid from the nearest_neighbour_objects table where type is equal to 0.
+(4) Find the IDs of all objects that are nearest neighbors with a type of 0 from the table "neighbors".
+(5) Find the nearest neighbor objects where the type is equal to 0 in the neighbors table and select their neighborobjid.
+(6) Find the neighborobjid of Nearest_neighbour_objects in the table neighbors where the type is equal to 0.
+(7) Find the IDs of all nearest neighbor objects in the neighbors table that have a type of 0.

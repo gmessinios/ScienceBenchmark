@@ -1,0 +1,28 @@
+SELECT Photometric_objects.clean FROM photoobj AS Photometric_objects JOIN specobj AS Spectroscopic_objects ON Photometric_objects.objid = Spectroscopic_objects.bestobjid WHERE Spectroscopic_objects.ancillary_target1 != 256
+
+###
+
+
+Original Query:
+SELECT T1.clean FROM photoobj AS T1 JOIN specobj AS T2 ON T1.objid = T2.bestobjid WHERE T2.ancillary_target1 != 256
+GPT-3 choices:
+(0) Find the clean photometric objects where their objid matches with the bestobjid of spectroscopic objects and the ancillary target 1 is not equal to 256.
+(1) Get the clean column from the photoobj table where the objid column in the Photometric_objects table matches the bestobjid column in the Spectroscopic_objects table, and exclude rows where ancillary_target1 is equal to 256.
+(2) Retrieve the clean flag from the Photometric_objects table for objects where the ancillary_target1 column in the Spectroscopic_objects table is not equal to 256.
+(3) Find the clean photometric objects from the photoobj table that have a matching objid in the specobj table, but only if they do not have an ancillary_target1 value of 256.
+(4) Find the clean value from Photometric_objects where the objid matches with the bestobjid in Spectroscopic_objects and the ancillary_target1 is not equal to 256.
+(5) Retrieve the clean photometric objects from the photoobj table where the objid in Photometric_objects is equal to the bestobjid in Spectroscopic_objects and where ancillary_target1 in Spectroscopic_objects is not equal to 256.
+(6) Find the clean photometric objects from the photoobj table that have a corresponding bestobjid in the specobj table where ancillary_target1 is not equal to 256.
+(7) Retrieve the clean photometric objects from the photoobj table where the objid matches with the bestobjid in the specobj table and filter out those that have an ancillary target1 value of 256 in Spectroscopic_objects.
+
+
+Re-ranked choices:
+5.622  Retrieve the clean flag from the Photometric_objects table for objects where the ancillary_target1 column in the Spectroscopic_objects table is not equal to 256.
+4.220  Find the clean photometric objects where their objid matches with the bestobjid of spectroscopic objects and the ancillary target 1 is not equal to 256.
+4.215  Retrieve the clean photometric objects from the photoobj table where the objid matches with the bestobjid in the specobj table and filter out those that have an ancillary target1 value of 256 in Spectroscopic_objects.
+4.214  Retrieve the clean photometric objects from the photoobj table where the objid in Photometric_objects is equal to the bestobjid in Spectroscopic_objects and where ancillary_target1 in Spectroscopic_objects is not equal to 256.
+2.818  Find the clean value from Photometric_objects where the objid matches with the bestobjid in Spectroscopic_objects and the ancillary_target1 is not equal to 256.
+2.818  Find the clean photometric objects from the photoobj table that have a matching objid in the specobj table, but only if they do not have an ancillary_target1 value of 256.
+2.817  Find the clean photometric objects from the photoobj table that have a corresponding bestobjid in the specobj table where ancillary_target1 is not equal to 256.
+2.814  Get the clean column from the photoobj table where the objid column in the Photometric_objects table matches the bestobjid column in the Spectroscopic_objects table, and exclude rows where ancillary_target1 is equal to 256.
+

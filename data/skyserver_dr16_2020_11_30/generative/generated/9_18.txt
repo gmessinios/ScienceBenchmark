@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.description != "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.description != "Trail: A satellite or asteroid or meteor trail. (not yet used)"
+GPT-3 choices:
+(0) Find the IDs of objects that are the nearest neighbors to a given object, but only if they have been observed photometrically and their type is not a satellite, asteroid, meteor trail.
+(1) Retrieve the neighborobjid from the Nearest_neighbour_objects table for all objects that have been photometrically observed and are not classified as trails.
+(2) "Retrieve the object IDs of nearest neighbour objects where their type is classified as photometrically observed, but not described as a satellite, asteroid, or meteor trail."
+(3) Retrieve the object IDs of the nearest neighbors from a table called "neighbors" based on their type, which is obtained from another table called "photo_type", excluding any objects with a description of "Trail: A satellite or asteroid or meteor trail".
+(4) "Find the IDs of nearby objects that have been photometrically observed, excluding those that are trails."
+(5) Find the neighbor object IDs from the table of nearest neighbors that have been photometrically observed and do not have a description of "Trail: A satellite or asteroid or meteor trail."
+(6) What are the IDs of objects that are the nearest neighbors to a given object, and have been observed through photometric analysis (not including trails)?
+(7) Retrieve the neighbor object IDs from the table of neighbors, where the corresponding neighbor type is equal to a value from the photo_type table that has a description not equal to "Trail: A satellite or asteroid or meteor trail (not yet used)".

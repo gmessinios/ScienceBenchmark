@@ -1,0 +1,28 @@
+SELECT Photometric_objects.objid FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name != "STAR"
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name != "STAR"
+GPT-3 choices:
+(0) Get the objid from the photoobj table for all objects that have been observed photometrically and are not classified as stars.
+(1) Retrieve the objid from the Photometric_objects table for objects that have been observed photometrically and are not classified as stars.
+(2) Retrieve the object IDs from the photoobj table for objects that have been observed photometrically, where the type of object is not a star.
+(3) Find the object ID of all objects in the photoobj table that have been observed photometrically and are not classified as stars according to the photo_type table.
+(4) Find the objid for all Photometric_objects that have a type other than "STAR" in the photoobj table, joining with the photometrically_observed table on the condition that their values are equal.
+(5) Find the objid of objects from the photoobj table that have been observed photometrically and whose type is not equal to "STAR".
+(6) Retrieve the object identification numbers of all objects observed photometrically, excluding those classified as stars.
+(7) Retrieve the object IDs of all photometric objects that have been observed as something other than a star.
+
+
+Re-ranked choices:
+7.020  Find the object ID of all objects in the photoobj table that have been observed photometrically and are not classified as stars according to the photo_type table.
+6.324  Find the objid of objects from the photoobj table that have been observed photometrically and whose type is not equal to "STAR".
+5.624  Retrieve the object IDs from the photoobj table for objects that have been observed photometrically, where the type of object is not a star.
+4.921  Retrieve the objid from the Photometric_objects table for objects that have been observed photometrically and are not classified as stars.
+4.233  Retrieve the object IDs of all photometric objects that have been observed as something other than a star.
+4.222  Get the objid from the photoobj table for all objects that have been observed photometrically and are not classified as stars.
+4.219  Retrieve the object identification numbers of all objects observed photometrically, excluding those classified as stars.
+4.218  Find the objid for all Photometric_objects that have a type other than "STAR" in the photoobj table, joining with the photometrically_observed table on the condition that their values are equal.
+

@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861468900 and Nearest_neighbour_objects.distance = 1.14702573637915e-05
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.neighborobjid = 1237645876861468900 and T1.distance = 1.14702573637915e-05
+GPT-3 choices:
+(0) Find the object ID of the nearest neighbor object with an ID of 1237645876861468900 and a distance of 1.14702573637915e-05 from the table named neighbors.
+(1) Find the object ID of the nearest neighbor with an object ID of 1237645876861468900 and a distance of 1.14702573637915e-05 in the neighbors table.
+(2) Find the object ID of the nearest neighbor that has an object ID of 1237645876861468900 and a distance of 1.14702573637915e-05.
+(3) Find the object ID of the nearest neighbor whose object ID is 1237645876861468900 and has a distance of 1.14702573637915e-05.
+(4) Find the object ID of the nearest neighbour from a table called "neighbors" where the neighbor's object ID is 1237645876861468900 and their distance is equal to 1.14702573637915e-05.
+(5) Find the objid of the nearest neighbor object from the neighbors table where the neighborobjid is equal to 1237645876861468900 and the distance is equal to 1.14702573637915e-05.
+(6) Retrieve the object id of the nearest neighbor from the neighbors table where the neighbor object id is equal to 1237645876861468900 and the distance is equal to 1.14702573637915e-05.
+(7) Find the object ID of the nearest neighbor with an object ID of 1237645876861468900 and a distance of 1.14702573637915e-05 from the table "neighbors."

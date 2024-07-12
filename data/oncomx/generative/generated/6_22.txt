@@ -1,0 +1,16 @@
+SELECT biomarker_edrn.phase FROM biomarker_edrn AS biomarker_edrn WHERE biomarker_edrn.uberon_anatomical_id = "UBERON:0001264" and biomarker_edrn.biomarker_title = "LY6G6C"
+
+###
+
+
+Original Query:
+SELECT T1.phase FROM biomarker_edrn AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0001264" and T1.biomarker_title = "LY6G6C"
+GPT-3 choices:
+(0) What is the phase of the biomarker LY6G6C for the anatomical structure UBERON:0001264 in the biomarker_edrn table?
+(1) Retrieve the phase of the biomarker LY6G6C in the anatomical location UBERON:0001264 from the biomarker_edrn table.
+(2) What is the phase for biomarker LY6G6C that is associated with UBERON:0001264?
+(3) What is the phase of the biomarker LY6G6C in the UBTERON anatomical location UBERON:0001264?
+(4) What is the phase of the biomarker with the title "LY6G6C" and anatomical identifier "UBERON:0001264" in the EDRN database?
+(5) What is the phase of the biomarker "LY6G6C" that has a UBERON anatomical ID of "UBERON:0001264" in the EDRN biomarker database?
+(6) Retrieve the phase of the biomarker LY6G6C in EDRN database that is associated with the anatomical location UBERON:0001264.
+(7) What is the phase of the biomarker LY6G6C in EDRN, given that its UBERON anatomical ID is "UBERON:0001264"?

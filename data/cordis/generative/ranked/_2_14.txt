@@ -1,0 +1,28 @@
+SELECT topics.rcn, count(*) FROM topics AS topics  GROUP BY topics.rcn
+
+###
+
+
+Original Query:
+SELECT T1.rcn, count(*) FROM topics AS T1  GROUP BY T1.rcn
+GPT-3 choices:
+(0) Find the number of occurrences for each distinct value in the "rcn" column of the "topics" table.
+(1) Count the number of records for each distinct value in the "rcn" column in the "topics" table.
+(2) How many topics are there for each unique RCN in the topics table?
+(3) How many topics are there for each research communication number?
+(4) "Count the number of occurrences for each RCN in the 'topics' table and group them by their respective RCN."
+(5) How many records are there for each topic in the "topics" table?
+(6) Count the number of rows in the topics table for each distinct value in the rcn column, and display the rcn value and corresponding count.
+(7) What is the count of each unique rcn value in the topics table?
+
+
+Re-ranked choices:
+3.536  "Count the number of occurrences for each RCN in the 'topics' table and group them by their respective RCN."
+2.883  How many topics are there for each unique RCN in the topics table?
+2.865  What is the count of each unique rcn value in the topics table?
+2.835  Count the number of records for each distinct value in the "rcn" column in the "topics" table.
+2.831  Find the number of occurrences for each distinct value in the "rcn" column of the "topics" table.
+2.824  Count the number of rows in the topics table for each distinct value in the rcn column, and display the rcn value and corresponding count.
+1.468  How many records are there for each topic in the "topics" table?
+1.436  How many topics are there for each research communication number?
+

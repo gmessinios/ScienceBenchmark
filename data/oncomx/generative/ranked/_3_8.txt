@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_edrn AS biomarker_edrn
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_edrn AS T1
+GPT-3 choices:
+(0) How many biomarker entries are there in the biomarker_edrn table?
+(1) "How many rows are there in the biomarker_edrn table of the database that contains information about biomarkers for early detection research network?"
+(2) How many biomarkers are there in the EDRN database?
+(3) How many records are there in the biomarker_edrn table of the database with the name biomarker_edrn?
+(4) How many biomarkers are in the EDRN database?
+(5) How many biomarker entries are there in the EDRN database?
+(6) How many biomarkers are there in the EDRN biomarker database?
+(7) How many rows are there in the biomarker_edrn table of the database?
+
+
+Re-ranked choices:
+2.864  How many biomarker entries are there in the EDRN database?
+2.864  How many biomarkers are there in the EDRN biomarker database?
+1.497  How many biomarkers are there in the EDRN database?
+1.477  How many biomarkers are in the EDRN database?
+1.443  How many biomarker entries are there in the biomarker_edrn table?
+0.056  How many rows are there in the biomarker_edrn table of the database?
+0.033  How many records are there in the biomarker_edrn table of the database with the name biomarker_edrn?
+0.023  "How many rows are there in the biomarker_edrn table of the database that contains information about biomarkers for early detection research network?"
+

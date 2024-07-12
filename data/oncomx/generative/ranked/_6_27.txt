@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.gene_symbol = "2310034G01Rik" and xref_gene_ensembl.ensembl_gene_id = "ENSG00000066629"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.gene_symbol = "2310034G01Rik" and T1.ensembl_gene_id = "ENSG00000066629"
+GPT-3 choices:
+(0) What is the species ID for the gene with the gene symbol "2310034G01Rik" and Ensembl gene ID "ENSG00000066629" in the xref_gene_ensembl table?
+(1) Find the species ID from the xref_gene_ensembl table where the gene symbol is "2310034G01Rik" and the ensembl gene ID is "ENSG00000066629".
+(2) What is the species ID for the gene symbol "2310034G01Rik" and ensembl gene ID "ENSG00000066629" in the xref_gene_ensembl table?
+(3) What is the species ID for the gene "2310034G01Rik" with the Ensembl gene ID "ENSG00000066629" in the table "xref_gene_ensembl"?
+(4) Find the species ID for the gene "2310034G01Rik" in the xref_gene_ensembl database where its ensembl gene ID is "ENSG00000066629".
+(5) Retrieve the species ID from the xref_gene_ensembl table where the gene symbol is "2310034G01Rik" and the ensembl_gene_id is "ENSG00000066629".
+(6) Find the species ID in the xref_gene_ensembl table for the gene with the symbol "2310034G01Rik" and Ensembl gene ID "ENSG00000066629".
+(7) What is the species ID of the gene with the gene symbol "2310034G01Rik" and Ensembl gene ID "ENSG00000066629" in the xref_gene_ensembl table?
+
+
+Re-ranked choices:
+7.027  Find the species ID from the xref_gene_ensembl table where the gene symbol is "2310034G01Rik" and the ensembl gene ID is "ENSG00000066629".
+7.026  What is the species ID for the gene with the gene symbol "2310034G01Rik" and Ensembl gene ID "ENSG00000066629" in the xref_gene_ensembl table?
+7.026  What is the species ID for the gene symbol "2310034G01Rik" and ensembl gene ID "ENSG00000066629" in the xref_gene_ensembl table?
+7.026  What is the species ID of the gene with the gene symbol "2310034G01Rik" and Ensembl gene ID "ENSG00000066629" in the xref_gene_ensembl table?
+7.025  Find the species ID in the xref_gene_ensembl table for the gene with the symbol "2310034G01Rik" and Ensembl gene ID "ENSG00000066629".
+5.629  What is the species ID for the gene "2310034G01Rik" with the Ensembl gene ID "ENSG00000066629" in the table "xref_gene_ensembl"?
+5.629  Find the species ID for the gene "2310034G01Rik" in the xref_gene_ensembl database where its ensembl gene ID is "ENSG00000066629".
+5.624  Retrieve the species ID from the xref_gene_ensembl table where the gene symbol is "2310034G01Rik" and the ensembl_gene_id is "ENSG00000066629".
+

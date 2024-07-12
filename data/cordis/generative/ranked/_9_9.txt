@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people AS people JOIN projects AS projects ON people.unics_id = projects.principal_investigator WHERE projects.start_year != 2007
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 JOIN projects AS T2 ON T1.unics_id = T2.principal_investigator WHERE T2.start_year != 2007
+GPT-3 choices:
+(0) "Find the full names of all people who are principal investigators for projects that did not start in 2007."
+(1) Retrieve the full names of people who are principal investigators for projects that started in a year other than 2007.
+(2) "Retrieve the full names of all people who are principal investigators on projects that did not start in the year 2007."
+(3) Retrieve the full names of people who are principal investigators on projects that did not start in 2007.
+(4) Find the full names of people who are principal investigators for projects that did not start in the year 2007.
+(5) Retrieve the full names of people who are principal investigators on projects that started in a year other than 2007.
+(6) Get the full names of all people who are principal investigators for projects that did not start in the year 2007.
+(7) Retrieve the full names of people who are principal investigators for projects that did not start in the year 2007.
+
+
+Re-ranked choices:
+9.133  "Retrieve the full names of all people who are principal investigators on projects that did not start in the year 2007."
+8.438  Get the full names of all people who are principal investigators for projects that did not start in the year 2007.
+8.434  Find the full names of people who are principal investigators for projects that did not start in the year 2007.
+8.434  Retrieve the full names of people who are principal investigators for projects that did not start in the year 2007.
+7.737  Retrieve the full names of people who are principal investigators on projects that did not start in 2007.
+7.730  Retrieve the full names of people who are principal investigators on projects that started in a year other than 2007.
+7.036  "Find the full names of all people who are principal investigators for projects that did not start in 2007."
+7.030  Retrieve the full names of people who are principal investigators for projects that started in a year other than 2007.
+

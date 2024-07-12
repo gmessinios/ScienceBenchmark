@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 3 or photometrically_observed.name = "GALAXY"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.value = 3 or T1.name = "GALAXY"
+GPT-3 choices:
+(0) What is the description for a photo type that has a value of 3 or a name of "GALAXY" in the table "photometrically_observed"?
+(1) What is the description for a photometrically observed object with a value of 3 or named "GALAXY" in the photo_type table?
+(2) What is the description for the type of galaxy that has a value of 3 or a name of "GALAXY" in the photometrically observed photo type?
+(3) Find the description for galaxies that are either photometrically observed with a value of 3 or have the name "GALAXY".
+(4) Find the descriptions for all photo types that have a value of 3 or a name of "GALAXY".
+(5) What is the description for a photo type that has a value of 3 or a name of "GALAXY" in the photometrically observed category?
+(6) Retrieve the description from the photometrically observed photo type table where the value is equal to 3 or the name is "GALAXY".
+(7) Retrieve the description from the photo_type table for any entries where the value is 3 or the name is "GALAXY" and store it in a variable called photometrically_observed.
+
+
+Re-ranked choices:
+7.725  Retrieve the description from the photometrically observed photo type table where the value is equal to 3 or the name is "GALAXY".
+7.724  What is the description for the type of galaxy that has a value of 3 or a name of "GALAXY" in the photometrically observed photo type?
+7.724  Find the description for galaxies that are either photometrically observed with a value of 3 or have the name "GALAXY".
+7.724  What is the description for a photo type that has a value of 3 or a name of "GALAXY" in the photometrically observed category?
+6.324  What is the description for a photometrically observed object with a value of 3 or named "GALAXY" in the photo_type table?
+5.627  What is the description for a photo type that has a value of 3 or a name of "GALAXY" in the table "photometrically_observed"?
+4.921  Retrieve the description from the photo_type table for any entries where the value is 3 or the name is "GALAXY" and store it in a variable called photometrically_observed.
+3.544  Find the descriptions for all photo types that have a value of 3 or a name of "GALAXY".
+

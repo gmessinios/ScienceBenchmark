@@ -1,0 +1,28 @@
+SELECT anatomical_entity.name FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.id = "UBERON:0003889" or anatomical_entity.description = "Lower lateral part of the cerebral hemisphere. (MSH)"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM anatomical_entity AS T1 WHERE T1.id = "UBERON:0003889" or T1.description = "Lower lateral part of the cerebral hemisphere. (MSH)"
+GPT-3 choices:
+(0) What is the name of the anatomical entity whose ID is "UBERON:0003889" or whose description is "Lower lateral part of the cerebral hemisphere"?
+(1) Retrieve the name of the anatomical entity where the ID is "UBERON:0003889" or the description is "Lower lateral part of the cerebral hemisphere".
+(2) What is the name of the anatomical entity with the ID "UBERON:0003889" or description "Lower lateral part of the cerebral hemisphere"?
+(3) "Retrieve the name of the anatomical entity that has an ID of "UBERON:0003889" or a description of "Lower lateral part of the cerebral hemisphere."
+(4) Find the name of the anatomical entity where its ID is "UBERON:0003889" or its description is "Lower lateral part of the cerebral hemisphere."
+(5) What is the name of the anatomical entity whose ID is "UBERON:0003889" or has a description of "Lower lateral part of the cerebral hemisphere"?
+(6) Retrieve the name of the anatomical entity where the ID is "UBERON:0003889" or the description is "Lower lateral part of the cerebral hemisphere."
+(7) Retrieve the name of the anatomical entity where the id is "UBERON:0003889" or the description is "Lower lateral part of the cerebral hemisphere. (MSH)".
+
+
+Re-ranked choices:
+12.627  What is the name of the anatomical entity with the ID "UBERON:0003889" or description "Lower lateral part of the cerebral hemisphere"?
+12.625  What is the name of the anatomical entity whose ID is "UBERON:0003889" or whose description is "Lower lateral part of the cerebral hemisphere"?
+12.625  Retrieve the name of the anatomical entity where the ID is "UBERON:0003889" or the description is "Lower lateral part of the cerebral hemisphere".
+12.624  What is the name of the anatomical entity whose ID is "UBERON:0003889" or has a description of "Lower lateral part of the cerebral hemisphere"?
+12.622  Retrieve the name of the anatomical entity where the id is "UBERON:0003889" or the description is "Lower lateral part of the cerebral hemisphere. (MSH)".
+11.925  Find the name of the anatomical entity where its ID is "UBERON:0003889" or its description is "Lower lateral part of the cerebral hemisphere."
+11.925  Retrieve the name of the anatomical entity where the ID is "UBERON:0003889" or the description is "Lower lateral part of the cerebral hemisphere."
+11.922  "Retrieve the name of the anatomical entity that has an ID of "UBERON:0003889" or a description of "Lower lateral part of the cerebral hemisphere."
+

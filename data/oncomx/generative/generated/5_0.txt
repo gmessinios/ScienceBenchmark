@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue    ORDER BY disease_mutation_tissue.disease_mutation_id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1    ORDER BY T1.disease_mutation_id DESC LIMIT 1
+GPT-3 choices:
+(0) Get the uberon anatomical ID from the disease_mutation_tissue table, sorted in descending order by the disease_mutation_id column and limit the results to 1.
+(1) Get the anatomical identifier for the most recent disease-mutation-tissue entry in the database.
+(2) Retrieve the UBeron anatomical ID for the latest disease-mutation-tissue entry in the disease_mutation_tissue table.
+(3) What is the uberon anatomical id for the last disease mutation in the table "disease_mutation_tissue"?
+(4) What is the unique Uberon anatomical ID associated with the most recent disease-mutation-tissue record?
+(5) Get the anatomical ID of the most recent disease-mutation-tissue entry, ordered by the disease-mutation ID in descending order, from the table disease_mutation_tissue.
+(6) Retrieve the unique anatomical identifier from the most recent record in the disease_mutation_tissue table, sorted by descending order of disease_mutation_id.
+(7) "Retrieve the Uberon anatomical ID from the disease_mutation_tissue table, ordered by disease_mutation_id in descending order, with a limit of 1."

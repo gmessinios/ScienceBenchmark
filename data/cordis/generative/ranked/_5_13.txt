@@ -1,0 +1,28 @@
+SELECT institutions.country_id FROM institutions AS institutions    ORDER BY institutions.unics_id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.country_id FROM institutions AS T1    ORDER BY T1.unics_id DESC LIMIT 1
+GPT-3 choices:
+(0) "Retrieve the country ID from the institutions table, ordered by descending unics ID and limit the result to 1."
+(1) Retrieve the country ID of the institution with the highest UNICS ID.
+(2) Retrieve the country ID of the institution with the highest unics ID, sorted in descending order, limited to one result.
+(3) "Get the country ID from institutions, sorted by descending UNICS ID and limit the result to 1."
+(4) What is the country ID of the institution with the highest unics ID?
+(5) Find the country ID of the institution with the highest UNICS ID, in descending order.
+(6) "Retrieve the country ID from institutions, sorted in descending order by the UNICS ID and limit the result to one row."
+(7) Find the country ID of the institution with the highest UNICS ID, sorted in descending order, limited to 1 result.
+
+
+Re-ranked choices:
+6.326  "Retrieve the country ID from the institutions table, ordered by descending unics ID and limit the result to 1."
+4.931  "Get the country ID from institutions, sorted by descending UNICS ID and limit the result to 1."
+4.927  "Retrieve the country ID from institutions, sorted in descending order by the UNICS ID and limit the result to one row."
+4.243  What is the country ID of the institution with the highest unics ID?
+4.238  Retrieve the country ID of the institution with the highest UNICS ID.
+4.233  Find the country ID of the institution with the highest UNICS ID, in descending order.
+4.225  Find the country ID of the institution with the highest UNICS ID, sorted in descending order, limited to 1 result.
+4.223  Retrieve the country ID of the institution with the highest unics ID, sorted in descending order, limited to one result.
+

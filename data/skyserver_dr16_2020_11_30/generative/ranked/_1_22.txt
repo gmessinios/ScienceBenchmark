@@ -1,0 +1,28 @@
+SELECT Photometric_objects.dec FROM photoobj AS Photometric_objects JOIN neighbors AS Nearest_neighbour_objects ON Photometric_objects.objid = Nearest_neighbour_objects.objid WHERE Nearest_neighbour_objects.neighbormode = 2
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM photoobj AS T1 JOIN neighbors AS T2 ON T1.objid = T2.objid WHERE T2.neighbormode = 2
+GPT-3 choices:
+(0) Find the declination of photometric objects that have an object identifier (objid) matching with those of nearest neighbor objects in the "neighbors" table where the neighbormode is equal to 2.
+(1) Get the declination values of objects in the photometric_objects table where the object ID matches that of the nearest neighbour objects table and the neighbormode is equal to 2.
+(2) Find the declination of Photometric objects from the photoobj table where the objid matches that of Nearest neighbor objects from the neighbors table with a neighbormode value of 2.
+(3) Find the declination values for all photometric objects that are joined with their nearest neighbor objects in the neighbors table where the neighbormode is equal to 2.
+(4) Find the declination of objects in the photometric catalog for which there exists a nearest neighbor object in the neighbors table with a neighbormode value of 2.
+(5) Retrieve the declination values for photometric objects from the photoobj table that have an objid matching a neighbor objid in the neighbors table where the neighbormode is equal to 2.
+(6) Retrieve the declination values of all objects from the "photoobj" table that have a corresponding neighbor in the "neighbors" table with a neighbormode of 2.
+(7) Find the declination of all objects in the photoobj table that have a matching objid value in the neighbors table where the neighbormode is equal to 2.
+
+
+Re-ranked choices:
+9.118  Get the declination values of objects in the photometric_objects table where the object ID matches that of the nearest neighbour objects table and the neighbormode is equal to 2.
+8.419  Find the declination of objects in the photometric catalog for which there exists a nearest neighbor object in the neighbors table with a neighbormode value of 2.
+8.416  Find the declination of photometric objects that have an object identifier (objid) matching with those of nearest neighbor objects in the "neighbors" table where the neighbormode is equal to 2.
+7.016  Find the declination of Photometric objects from the photoobj table where the objid matches that of Nearest neighbor objects from the neighbors table with a neighbormode value of 2.
+5.620  Find the declination values for all photometric objects that are joined with their nearest neighbor objects in the neighbors table where the neighbormode is equal to 2.
+5.620  Retrieve the declination values of all objects from the "photoobj" table that have a corresponding neighbor in the "neighbors" table with a neighbormode of 2.
+5.616  Retrieve the declination values for photometric objects from the photoobj table that have an objid matching a neighbor objid in the neighbors table where the neighbormode is equal to 2.
+4.219  Find the declination of all objects in the photoobj table that have a matching objid value in the neighbors table where the neighbormode is equal to 2.
+

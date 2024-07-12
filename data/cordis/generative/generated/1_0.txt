@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.ec_fund_scheme = "Shift2Rail-RIA"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.ec_fund_scheme = "Shift2Rail-RIA"
+GPT-3 choices:
+(0) Retrieve the framework program names from the "ec_framework_programs" table for projects with an "ec_fund_scheme" of "Shift2Rail-RIA".
+(1) What are the names of all framework programs listed in the Shift2Rail-RIA fund scheme that have corresponding projects?
+(2) "Retrieve the name of the framework program from the ec_framework_programs table for projects with an ec_fund_scheme value of "Shift2Rail-RIA".
+(3) What are the names of the framework programs associated with projects that have an EC fund scheme of "Shift2Rail-RIA"?
+(4) What are the names of the EC framework programs that are listed as the framework program for projects that have an EC fund scheme of "Shift2Rail-RIA"?
+(5) Show the name of the framework program from the table "ec_framework_programs" that matches the value in the "framework_program" column of the "projects" table where the value in the "ec_fund_scheme" column is equal to "Shift2Rail-RIA".
+(6) Get the names of the framework programs from the table "ec_framework_programs" where the ec_fund_scheme in the table "projects" is equal to "Shift2Rail-RIA".
+(7) Retrieve the name of all framework programs from the EC Framework Programs table where the project's framework program matches "Shift2Rail-RIA" in the Projects table.

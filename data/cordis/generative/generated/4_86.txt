@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_members AS project_members WHERE project_members.member_short_name = "OUTSENSE DIAGNOSTICS LTD"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members AS T1 WHERE T1.member_short_name = "OUTSENSE DIAGNOSTICS LTD"
+GPT-3 choices:
+(0) How many rows are in the project_members table where the member_short_name is "OUTSENSE DIAGNOSTICS LTD"?
+(1) How many project members are there with the member short name "OUTSENSE DIAGNOSTICS LTD"?
+(2) How many project members are there with the short name "OUTSENSE DIAGNOSTICS LTD"?
+(3) How many members are in the "OUTSENSE DIAGNOSTICS LTD" project?
+(4) How many members does "OUTSENSE DIAGNOSTICS LTD" have in the project_members table?
+(5) How many project members are there with the member short name "OUTSENSE DIAGNOSTICS LTD"?
+(6) How many project members are there for the company "OUTSENSE DIAGNOSTICS LTD"?
+(7) How many project members are there whose short name is "OUTSENSE DIAGNOSTICS LTD"?

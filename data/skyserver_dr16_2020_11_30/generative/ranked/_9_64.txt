@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.fiberid != 7
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.fiberid != 7
+GPT-3 choices:
+(0) "Retrieve the specobjid from spplines for all stellar spectral line indices, joining with specobj as spectroscopic objects where the fiberid is not equal to 7."
+(1) Retrieve the specobjid from the table spplines where the fiberid in the table specobj is not equal to 7.
+(2) Retrieve the specobjid from the Stellar_spectal_line_indices table where the Spectroscopic_objects table's fiberid is not equal to 7.
+(3) Find the specobjid from the table spplines for objects in the table specobj where the fiberid is not equal to 7.
+(4) Get the specobjid values from the Stellar_spectal_line_indices table for all objects in the Spectroscopic_objects table that have a fiberid not equal to 7.
+(5) Retrieve the specobjid from Stellar_spectal_line_indices for all objects in Spectroscopic_objects that do not have a fiberid of 7.
+(6) Find the specobjid from the table Stellar_spectal_line_indices where the fiberid is not equal to 7 in the table specobj, and also join it with the table Spectroscopic_objects.
+(7) Find the specobjid of all Stellar_spectal_line_indices where Spectroscopic_objects.fiberid is not equal to 7 and join it with the specobj table to retrieve corresponding objects.
+
+
+Re-ranked choices:
+4.220  "Retrieve the specobjid from spplines for all stellar spectral line indices, joining with specobj as spectroscopic objects where the fiberid is not equal to 7."
+2.823  Retrieve the specobjid from Stellar_spectal_line_indices for all objects in Spectroscopic_objects that do not have a fiberid of 7.
+2.821  Get the specobjid values from the Stellar_spectal_line_indices table for all objects in the Spectroscopic_objects table that have a fiberid not equal to 7.
+1.428  Find the specobjid from the table spplines for objects in the table specobj where the fiberid is not equal to 7.
+1.423  Retrieve the specobjid from the Stellar_spectal_line_indices table where the Spectroscopic_objects table's fiberid is not equal to 7.
+0.725  Find the specobjid of all Stellar_spectal_line_indices where Spectroscopic_objects.fiberid is not equal to 7 and join it with the specobj table to retrieve corresponding objects.
+0.719  Find the specobjid from the table Stellar_spectal_line_indices where the fiberid is not equal to 7 in the table specobj, and also join it with the table Spectroscopic_objects.
+0.027  Retrieve the specobjid from the table spplines where the fiberid in the table specobj is not equal to 7.
+

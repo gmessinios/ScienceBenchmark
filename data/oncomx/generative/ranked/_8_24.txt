@@ -1,0 +1,28 @@
+SELECT disease_mutation_tissue.disease_mutation_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.uberon_anatomical_id != "UBERON:0001833"
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_tissue AS T1 WHERE T1.uberon_anatomical_id != "UBERON:0001833"
+GPT-3 choices:
+(0) Retrieve the disease mutation IDs from the disease_mutation_tissue table where the uberon_anatomical_id is not "UBERON:0001833".
+(1) What are the disease mutation IDs that do not have an associated UBERON anatomical ID of "UBERON:0001833"?
+(2) Find the disease mutation IDs for which there is a corresponding tissue with an anatomical ID that is not "UBERON:0001833".
+(3) Find the disease mutation IDs from the disease_mutation_tissue table where the uberon_anatomical_id is not "UBERON:0001833".
+(4) Find the disease mutation IDs from the table "disease_mutation_tissue" where the UBERON anatomical ID is not equal to "UBERON:0001833".
+(5) Find all disease-mutation IDs from the disease_mutation_tissue table where the UBERON anatomical ID is not "UBERON:0001833".
+(6) Find all disease mutation IDs from the table disease_mutation_tissue where the corresponding uberon_anatomical_id is not "UBERON:0001833".
+(7) Find the disease mutation IDs from the table disease_mutation_tissue where the associated anatomical identifier is not "UBERON:0001833".
+
+
+Re-ranked choices:
+7.728  What are the disease mutation IDs that do not have an associated UBERON anatomical ID of "UBERON:0001833"?
+7.728  Find the disease mutation IDs for which there is a corresponding tissue with an anatomical ID that is not "UBERON:0001833".
+7.724  Find the disease mutation IDs from the table "disease_mutation_tissue" where the UBERON anatomical ID is not equal to "UBERON:0001833".
+4.922  Find all disease-mutation IDs from the disease_mutation_tissue table where the UBERON anatomical ID is not "UBERON:0001833".
+4.918  Find the disease mutation IDs from the table disease_mutation_tissue where the associated anatomical identifier is not "UBERON:0001833".
+3.524  Find the disease mutation IDs from the disease_mutation_tissue table where the uberon_anatomical_id is not "UBERON:0001833".
+3.522  Retrieve the disease mutation IDs from the disease_mutation_tissue table where the uberon_anatomical_id is not "UBERON:0001833".
+3.520  Find all disease mutation IDs from the table disease_mutation_tissue where the corresponding uberon_anatomical_id is not "UBERON:0001833".
+

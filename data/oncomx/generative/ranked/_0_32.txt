@@ -1,0 +1,28 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.doid = 3571
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1 WHERE T1.doid = 3571
+GPT-3 choices:
+(0) What is the Uberon anatomical ID for the cancer tissue with DOID 3571?
+(1) What is the Uberon anatomical ID for cancer tissues with a DOID of 3571?
+(2) Retrieve the anatomical identifier for cancer tissues from the Cancer Tissue database where the Disease Ontology identifier is 3571.
+(3) What is the uberon anatomical id of cancer tissues that have a doid of 3571?
+(4) What is the uberon anatomical ID for cancer tissues with DOID 3571?
+(5) What is the uberon anatomical ID for the cancer tissue with DOID 3571?
+(6) What is the Uberon anatomical ID for the cancer tissue associated with Disease Ontology ID 3571?
+(7) Retrieve the Uberon anatomical ID of cancer tissues from the Cancer Tissue table where the DOID is equal to 3571.
+
+
+Re-ranked choices:
+8.444  What is the Uberon anatomical ID for the cancer tissue with DOID 3571?
+8.444  What is the uberon anatomical ID for the cancer tissue with DOID 3571?
+8.428  Retrieve the Uberon anatomical ID of cancer tissues from the Cancer Tissue table where the DOID is equal to 3571.
+7.047  What is the uberon anatomical ID for cancer tissues with DOID 3571?
+7.042  What is the Uberon anatomical ID for cancer tissues with a DOID of 3571?
+7.035  What is the uberon anatomical id of cancer tissues that have a doid of 3571?
+7.023  What is the Uberon anatomical ID for the cancer tissue associated with Disease Ontology ID 3571?
+4.221  Retrieve the anatomical identifier for cancer tissues from the Cancer Tissue database where the Disease Ontology identifier is 3571.
+

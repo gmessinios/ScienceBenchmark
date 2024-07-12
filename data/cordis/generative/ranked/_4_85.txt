@@ -1,0 +1,27 @@
+SELECT count(*) FROM people AS people WHERE people.full_name = "Pierre Bruhns"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people AS T1 WHERE T1.full_name = "Pierre Bruhns"
+GPT-3 choices:
+(0) "How many people have the full name 'Pierre Bruhns'?"
+(1) How many entries are there in the "people" table where the full name is "Pierre Bruhns"?
+(2) How many people in the database have a full name of "Pierre Bruhns"?
+(3) How many people are there in the database with the full name "Pierre Bruhns"?
+(4) How many entries are in the "people" table where the full name is "Pierre Bruhns"?
+(5) How many records are in the "people" table with the full name "Pierre Bruhns"?
+(6) How many people are there with the full name "Pierre Bruhns"?
+(7) How many people are there with the full name "Pierre Bruhns"?
+
+
+Re-ranked choices:
+5.758  "How many people have the full name 'Pierre Bruhns'?"
+5.711  How many people are there with the full name "Pierre Bruhns"?
+5.677  How many people are there in the database with the full name "Pierre Bruhns"?
+5.677  How many records are in the "people" table with the full name "Pierre Bruhns"?
+5.665  How many people in the database have a full name of "Pierre Bruhns"?
+5.656  How many entries are in the "people" table where the full name is "Pierre Bruhns"?
+5.652  How many entries are there in the "people" table where the full name is "Pierre Bruhns"?
+

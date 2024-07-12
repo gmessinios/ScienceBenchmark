@@ -1,0 +1,28 @@
+SELECT Photometric_objects.cmodelmag_u FROM photoobj AS Photometric_objects    ORDER BY Photometric_objects.clean DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_u FROM photoobj AS T1    ORDER BY T1.clean DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the cmodel magnitude value for the u-band from the photoobj table for objects in descending order of cleanliness, with a limit of one result.
+(1) Find the u-band CModel magnitude for the brightest photometric object in the photoobj table, ordered by descending clean value.
+(2) Find the cmodelmag_u value from the photoobj table for Photometric objects, order them by their clean status in descending order, and only show the top result.
+(3) What is the u-band cmodel magnitude for the brightest clean object in the photometric catalog?
+(4) "Select the cmodelmag_u value from the photoobj table for objects in the Photometric_objects table, ordered by their cleanliness in descending order, with a limit of one result."
+(5) Retrieve the u-band cmodel magnitude from the Photometric_objects table in the photoobj database, and sort the results by descending clean flag value, limiting to only the first result.
+(6) Retrieve the u-band cmodel magnitude from the photoobj table for Photometric_objects, sorted in descending order by their cleanliness and limit the results to only one.
+(7) Get the cmodelmag_u value from the Photometric_objects table in the photoobj database, sort it by the clean column in descending order, and return only one result.
+
+
+Re-ranked choices:
+5.617  Retrieve the u-band cmodel magnitude from the Photometric_objects table in the photoobj database, and sort the results by descending clean flag value, limiting to only the first result.
+3.522  Find the u-band CModel magnitude for the brightest photometric object in the photoobj table, ordered by descending clean value.
+2.827  What is the u-band cmodel magnitude for the brightest clean object in the photometric catalog?
+2.820  Retrieve the cmodel magnitude value for the u-band from the photoobj table for objects in descending order of cleanliness, with a limit of one result.
+2.818  Get the cmodelmag_u value from the Photometric_objects table in the photoobj database, sort it by the clean column in descending order, and return only one result.
+2.818  "Select the cmodelmag_u value from the photoobj table for objects in the Photometric_objects table, ordered by their cleanliness in descending order, with a limit of one result."
+2.119  Find the cmodelmag_u value from the photoobj table for Photometric objects, order them by their clean status in descending order, and only show the top result.
+2.117  Retrieve the u-band cmodel magnitude from the photoobj table for Photometric_objects, sorted in descending order by their cleanliness and limit the results to only one.
+

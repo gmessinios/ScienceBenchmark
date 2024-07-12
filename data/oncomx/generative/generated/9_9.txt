@@ -1,0 +1,16 @@
+SELECT disease_mutation.ref_aa FROM disease_mutation AS disease_mutation JOIN disease_mutation_impact_prediction AS disease_mutation_impact_prediction ON disease_mutation.id = disease_mutation_impact_prediction.disease_mutation_id WHERE disease_mutation_impact_prediction.id != 9954
+
+###
+
+
+Original Query:
+SELECT T1.ref_aa FROM disease_mutation AS T1 JOIN disease_mutation_impact_prediction AS T2 ON T1.id = T2.disease_mutation_id WHERE T2.id != 9954
+GPT-3 choices:
+(0) Find the reference amino acid of disease mutations that have an impact prediction other than 9954 in the disease_mutation_impact_prediction table, joining with the disease_mutation table.
+(1) Retrieve the reference amino acid from the disease mutation table, where the impact prediction id is not equal to 9954.
+(2) Retrieve the reference amino acid from disease mutations that have an impact prediction, excluding those with an impact prediction ID of 9954.
+(3) Retrieve the amino acid reference from disease_mutation where the ID is not equal to 9954 in the disease_mutation_impact_prediction table.
+(4) What are the reference amino acids for all disease mutations that have a corresponding entry in the disease_mutation_impact_prediction table except for those with an id of 9954?
+(5) Get the reference amino acid from the disease_mutation table where the id is not equal to 9954 in the disease_mutation_impact_prediction table.
+(6) Find the amino acid reference for a disease mutation that has an impact prediction associated with it.
+(7) Retrieve the reference amino acid from the disease_mutation table where the id in disease_mutation_impact_prediction is not equal to 9954.

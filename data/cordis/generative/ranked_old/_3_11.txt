@@ -1,0 +1,27 @@
+SELECT count(*) FROM institutions
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions
+GPT-3 choices:
+(0) Count all institution ids.
+(1) Count all institutions that have at least one principal investigator
+(2) The number of institutions.
+(3) Show how many institutions are there
+(4) Get the number of different institutions.
+(5) How many institutions are there?
+(6) How many institutions are there?
+(7) Show me the number of institutions I have in my database?
+
+
+Re-ranked choices:
+0.067  Show how many institutions are there
+0.058  How many institutions are there?
+0.047  Show me the number of institutions I have in my database?
+0.037  Count all institution ids.
+0.031  The number of institutions.
+0.029  Get the number of different institutions.
+0.028  Count all institutions that have at least one principal investigator
+

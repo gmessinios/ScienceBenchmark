@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Trail: A satellite or asteroid or meteor trail. (not yet used)" and photometrically_observed.name = "COSMIC_RAY"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.description = "Trail: A satellite or asteroid or meteor trail. (not yet used)" and T1.name = "COSMIC_RAY"
+GPT-3 choices:
+(0) Retrieve the numerical value of photometrically observed data for cosmic rays that have been observed as trails, satellites, asteroids, or meteors.
+(1) Find the value for COSMIC_RAY in the photo_type table where the description is "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+(2) Retrieve the value of the COSMIC_RAY field from the photo_type table where the description is "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+(3) Retrieve the value from the "COSMIC_RAY" column of the "photo_type" table where the description is "Trail: A satellite or asteroid or meteor trail. (not yet used)".
+(4) Retrieve the value of photometrically observed data where the description is "Trail: A satellite or asteroid or meteor trail. (not yet used)" and the name is "COSMIC_RAY".
+(5) Find the photometrically observed values for cosmic rays in trails that are either satellites, asteroids, or meteor trails.
+(6) Retrieve the value from the "photometrically_observed" table for a trail that is either a satellite, asteroid, or meteor and has a description of "Trail: A satellite or asteroid or meteor trail. (not yet used)" and has a name of "COSMIC_RAY".
+(7) Retrieve the value from the photo_type table where the description is "Trail: A satellite or asteroid or meteor trail. (not yet used)" and the name is "COSMIC_RAY".

@@ -1,0 +1,16 @@
+SELECT Photometric_objects.r FROM photoobj AS Photometric_objects WHERE Photometric_objects.flags = 103951766344
+
+###
+
+
+Original Query:
+SELECT T1.r FROM photoobj AS T1 WHERE T1.flags = 103951766344
+GPT-3 choices:
+(0) What is the value of column 'r' from the table 'photoobj' for all rows where the value of column 'flags' is 103951766344 in the table 'Photometric_objects'?
+(1) Find the values in the "r" column of the "Photometric_objects" table from the "photoobj" database where the flags column is equal to 103951766344.
+(2) Retrieve the value of the 'r' column from the 'photoobj' table for objects identified as 'Photometric_objects' where the flags value is equal to 103951766344.
+(3) What is the value of the "r" column for all objects in the "photoobj" table where the flags column equals 103951766344?
+(4) Retrieve the r value from the table photoobj for all objects that have a flags value of 103951766344.
+(5) Find the r-values of all objects in the photoobj table where the flags value is 103951766344.
+(6) Find the value of "r" from the table "photoobj" where the flags equal 103951766344 and the table is labeled as "Photometric_objects".
+(7) Retrieve the "r" value from the "photoobj" table for objects with a flags value of 103951766344 in the "Photometric_objects" group.

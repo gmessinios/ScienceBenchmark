@@ -1,0 +1,28 @@
+SELECT projects.total_cost FROM projects AS projects JOIN people AS people ON projects.principal_investigator = people.unics_id WHERE people.unics_id != 1209639
+
+###
+
+
+Original Query:
+SELECT T1.total_cost FROM projects AS T1 JOIN people AS T2 ON T1.principal_investigator = T2.unics_id WHERE T2.unics_id != 1209639
+GPT-3 choices:
+(0) Find the total cost of all projects where the principal investigator is not 1209639.
+(1) Retrieve the total cost of all projects led by a principal investigator who is not identified as "1209639" in the people table.
+(2) Get the total cost of projects where the principal investigator is someone other than 1209639.
+(3) Retrieve the total cost of projects led by principal investigators who are not the person with a UNICS ID of 1209639.
+(4) What is the total cost of all projects where the principal investigator is not 1209639?
+(5) Retrieve the total cost of projects where the principal investigator is not person with UNICS ID 1209639 by joining the projects and people tables.
+(6) What is the total cost of all projects led by principal investigators who are not UNICS ID 1209639?
+(7) What is the total cost of projects for which the principal investigator is not 1209639?
+
+
+Re-ranked choices:
+11.224  Retrieve the total cost of projects where the principal investigator is not person with UNICS ID 1209639 by joining the projects and people tables.
+8.433  What is the total cost of all projects led by principal investigators who are not UNICS ID 1209639?
+8.430  Retrieve the total cost of projects led by principal investigators who are not the person with a UNICS ID of 1209639.
+8.428  Retrieve the total cost of all projects led by a principal investigator who is not identified as "1209639" in the people table.
+7.039  Find the total cost of all projects where the principal investigator is not 1209639.
+7.037  What is the total cost of all projects where the principal investigator is not 1209639?
+7.037  What is the total cost of projects for which the principal investigator is not 1209639?
+7.033  Get the total cost of projects where the principal investigator is someone other than 1209639.
+

@@ -1,0 +1,28 @@
+SELECT funding_schemes.title, count(*) FROM funding_schemes AS funding_schemes  GROUP BY funding_schemes.title
+
+###
+
+
+Original Query:
+SELECT T1.title, count(*) FROM funding_schemes AS T1  GROUP BY T1.title
+GPT-3 choices:
+(0) How many funding schemes are there for each title in the table of funding schemes?
+(1) "How many funding schemes are there for each title in the funding_schemes table?"
+(2) Find the number of projects for each title in the funding schemes table.
+(3) How many projects are there for each funding scheme's title in the funding schemes table?
+(4) How many funding schemes are there and what are their titles?
+(5) How many funding schemes are there for each title?
+(6) "How many funding schemes are there for each title in the table 'funding_schemes'?"
+(7) "How many entries are there for each title in the funding schemes table?"
+
+
+Re-ranked choices:
+4.262  "How many funding schemes are there for each title in the funding_schemes table?"
+4.262  Find the number of projects for each title in the funding schemes table.
+4.262  "How many funding schemes are there for each title in the table 'funding_schemes'?"
+4.262  "How many entries are there for each title in the funding schemes table?"
+4.254  How many funding schemes are there for each title in the table of funding schemes?
+4.254  How many projects are there for each funding scheme's title in the funding schemes table?
+2.943  How many funding schemes are there for each title?
+2.877  How many funding schemes are there and what are their titles?
+

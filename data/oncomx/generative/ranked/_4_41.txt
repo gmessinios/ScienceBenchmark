@@ -1,0 +1,28 @@
+SELECT count(*) FROM healthy_expression AS healthy_expression WHERE healthy_expression.call_quality = "GOLD"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM healthy_expression AS T1 WHERE T1.call_quality = "GOLD"
+GPT-3 choices:
+(0) Count the number of entries in the healthy_expression table where the call_quality is "GOLD".
+(1) How many entries are there in the table of healthy expression where the call quality is "GOLD"?
+(2) How many entries are there in the "healthy_expression" table where the call quality is equal to "GOLD"?
+(3) How many entries are there in the healthy expression table where the call quality is listed as "GOLD"?
+(4) How many entries are there in the healthy expression table where the call quality is "GOLD"?
+(5) How many entries are in the "healthy_expression" table where the call quality is listed as "GOLD"?
+(6) How many rows are there in the healthy_expression table where the call_quality is equal to "GOLD"?
+(7) Count the number of rows in the table "healthy_expression" where the column "call_quality" has a value of "GOLD".
+
+
+Re-ranked choices:
+6.342  How many entries are there in the healthy expression table where the call quality is "GOLD"?
+6.339  How many entries are there in the table of healthy expression where the call quality is "GOLD"?
+6.337  How many entries are there in the healthy expression table where the call quality is listed as "GOLD"?
+3.539  How many entries are there in the "healthy_expression" table where the call quality is equal to "GOLD"?
+3.536  How many entries are in the "healthy_expression" table where the call quality is listed as "GOLD"?
+0.742  How many rows are there in the healthy_expression table where the call_quality is equal to "GOLD"?
+0.734  Count the number of entries in the healthy_expression table where the call_quality is "GOLD".
+0.729  Count the number of rows in the table "healthy_expression" where the column "call_quality" has a value of "GOLD".
+

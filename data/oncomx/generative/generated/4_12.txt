@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.id = "FDA000198"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda AS T1 WHERE T1.id = "FDA000198"
+GPT-3 choices:
+(0) How many entries are there in the "biomarker_fda" table with an id of "FDA000198"?
+(1) How many biomarkers have an id of "FDA000198" in the biomarker_fda database?
+(2) How many biomarkers are there in the FDA database with an ID of "FDA000198"?
+(3) How many biomarkers are there in the FDA database with the ID "FDA000198"?
+(4) How many records are there in the biomarker_fda table with an id of "FDA000198"?
+(5) How many rows are in the biomarker_fda table with an id of "FDA000198"?
+(6) How many biomarkers in the FDA database have the ID "FDA000198"?
+(7) How many biomarkers in the FDA database have an ID of "FDA000198"?

@@ -1,0 +1,16 @@
+SELECT Photometric_objects.mjd, count(*) FROM photoobj AS Photometric_objects  GROUP BY Photometric_objects.mjd
+
+###
+
+
+Original Query:
+SELECT T1.mjd, count(*) FROM photoobj AS T1  GROUP BY T1.mjd
+GPT-3 choices:
+(0) Find the number of objects in the photoobj table grouped by mjd and list the mjd value and corresponding count for each group.
+(1) How many rows are there in the photoobj table grouped by mjd, and what is the count for each distinct value of mjd?
+(2) "Count the number of records in the table 'photoobj' grouped by their MJD values, and retrieve the MJD value and its corresponding count."
+(3) Count the number of photometric objects for each distinct Modified Julian Date and group them by their respective Modified Julian Dates.
+(4) How many photometric objects were observed on each mjd (modified Julian date)?
+(5) What is the count of photometric objects for each unique modified Julian date (mjd)?
+(6) Find the number of photometric objects for each MJD value and group them by MJD.
+(7) "Count the number of objects observed on each unique Modified Julian Date (MJD) in the photoobj table, and group the results by MJD."

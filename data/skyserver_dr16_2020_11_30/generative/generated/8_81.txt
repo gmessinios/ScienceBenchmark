@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description != "Star: A self-luminous gaseous celestial body."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description != "Star: A self-luminous gaseous celestial body."
+GPT-3 choices:
+(0) Retrieve the names of celestial bodies that have been observed using photometric techniques and are not classified as stars.
+(1) Retrieve the names of all objects that have been observed photometrically, excluding those that are described as stars.
+(2) Get the names of all celestial objects in photometrically_observed that are not stars.
+(3) Show the names of objects that have a photo type description other than "Star: A self-luminous gaseous celestial body." in the photometrically_observed table.
+(4) Retrieve the names of all objects that have been observed photometrically, excluding stars.
+(5) Find the names of celestial objects that have been observed photometrically and are not stars.
+(6) Retrieve the names of all objects that are photometrically observed and not described as a star.
+(7) Retrieve the names of all non-star objects that have been observed photometrically.

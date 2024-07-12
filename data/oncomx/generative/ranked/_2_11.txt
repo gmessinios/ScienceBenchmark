@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.ensembl_gene_id, count(*) FROM xref_gene_ensembl AS xref_gene_ensembl  GROUP BY xref_gene_ensembl.ensembl_gene_id
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id, count(*) FROM xref_gene_ensembl AS T1  GROUP BY T1.ensembl_gene_id
+GPT-3 choices:
+(0) Count the number of occurrences of each Ensembl gene ID in the Xref Gene Ensembl table.
+(1) "Count the number of occurrences of each unique Ensembl gene ID in the table xref_gene_ensembl and group them together."
+(2) Find the number of occurrences of each Ensembl gene ID in the xref_gene_ensembl table.
+(3) How many occurrences of each ensembl gene ID are there in the xref_gene_ensembl table?
+(4) "Count the number of records in the 'xref_gene_ensembl' table for each unique 'ensembl_gene_id' and group them by their corresponding Ensembl gene identifier."
+(5) How many times does each Ensembl gene ID appear in the xref_gene_ensembl table?
+(6) Count the number of occurrences of each Ensembl gene ID in the xref_gene_ensembl table.
+(7) How many counts are there for each unique Ensembl gene ID in the Xref_gene_ensembl table?
+
+
+Re-ranked choices:
+5.629  Count the number of occurrences of each Ensembl gene ID in the Xref Gene Ensembl table.
+4.234  How many counts are there for each unique Ensembl gene ID in the Xref_gene_ensembl table?
+4.233  How many times does each Ensembl gene ID appear in the xref_gene_ensembl table?
+4.228  Find the number of occurrences of each Ensembl gene ID in the xref_gene_ensembl table.
+4.228  How many occurrences of each ensembl gene ID are there in the xref_gene_ensembl table?
+4.228  Count the number of occurrences of each Ensembl gene ID in the xref_gene_ensembl table.
+4.224  "Count the number of occurrences of each unique Ensembl gene ID in the table xref_gene_ensembl and group them together."
+3.519  "Count the number of records in the 'xref_gene_ensembl' table for each unique 'ensembl_gene_id' and group them by their corresponding Ensembl gene identifier."
+

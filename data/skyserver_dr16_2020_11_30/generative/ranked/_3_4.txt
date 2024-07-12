@@ -1,0 +1,26 @@
+SELECT count(*) FROM photoobj AS Photometric_objects
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1
+GPT-3 choices:
+(0) How many rows are there in the table "photoobj" with the alias "Photometric_objects"?
+(1) How many Photometric objects are there in the table Photoobj?
+(2) How many Photometric objects are there in the table Photoobj?
+(3) How many rows are in the table "Photometric_objects" from the table "photoobj"?
+(4) How many Photometric objects are in the photoobj table?
+(5) How many Photometric objects are there in the photoobj table?
+(6) How many Photometric objects are there in the photoobj table?
+(7) Count the total number of rows in the Photometric_objects table from the photoobj database.
+
+
+Re-ranked choices:
+1.437  How many Photometric objects are there in the table Photoobj?
+1.437  How many Photometric objects are there in the photoobj table?
+1.433  How many Photometric objects are in the photoobj table?
+0.037  How many rows are there in the table "photoobj" with the alias "Photometric_objects"?
+0.033  How many rows are in the table "Photometric_objects" from the table "photoobj"?
+0.031  Count the total number of rows in the Photometric_objects table from the photoobj database.
+

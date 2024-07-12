@@ -1,0 +1,28 @@
+SELECT differential_expression.expression_change_direction FROM differential_expression AS differential_expression WHERE differential_expression.subjects_up = 89
+
+###
+
+
+Original Query:
+SELECT T1.expression_change_direction FROM differential_expression AS T1 WHERE T1.subjects_up = 89
+GPT-3 choices:
+(0) Find the expression change direction from the table of differential expression for subjects with 89 up-regulated genes.
+(1) Find the expression change direction from the differential expression table where the number of subjects up is 89.
+(2) Find the direction of expression change from the table of differential expression where the number of subjects up is equal to 89.
+(3) Retrieve the expression change direction from the table of differential expressions for subjects where the number of subjects increased is 89.
+(4) Retrieve the expression change direction from the differential expression table where the number of subjects up is equal to 89.
+(5) What is the expression change direction for all instances of differential expression where the number of subjects up is 89?
+(6) What is the expression change direction for subjects with 89 up-regulated genes in a differential expression analysis?
+(7) What is the expression change direction for differential expressions where the number of subjects up is 89?
+
+
+Re-ranked choices:
+8.430  What is the expression change direction for differential expressions where the number of subjects up is 89?
+8.428  Find the direction of expression change from the table of differential expression where the number of subjects up is equal to 89.
+8.427  What is the expression change direction for all instances of differential expression where the number of subjects up is 89?
+8.426  Find the expression change direction from the differential expression table where the number of subjects up is 89.
+8.424  Retrieve the expression change direction from the differential expression table where the number of subjects up is equal to 89.
+7.024  Retrieve the expression change direction from the table of differential expressions for subjects where the number of subjects increased is 89.
+7.022  Find the expression change direction from the table of differential expression for subjects with 89 up-regulated genes.
+7.022  What is the expression change direction for subjects with 89 up-regulated genes in a differential expression analysis?
+

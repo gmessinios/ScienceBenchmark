@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Unknown: Object type is not known." or photometrically_observed.value = 7
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Unknown: Object type is not known." or T1.value = 7
+GPT-3 choices:
+(0) "What is the name of all photometrically observed objects with a description of "Unknown: Object type is not known." or a value of 7 in the photo_type table?"
+(1) Find the names of objects that have either a description of "Unknown: Object type is not known." or a value of 7 in the photometrically observed photo type.
+(2) List the names of all objects that have a photo type value of 7 or a description of "Unknown: Object type is not known."
+(3) Find the name of objects that have been observed photometrically and are either described as "Unknown: Object type is not known." or have a value of 7 in the photo_type table.
+(4) Which objects have a photometric observation type of "Unknown" or a value of 7 in the photo_type table?
+(5) Retrieve the name of all objects from the photo_type table where their description is "Unknown: Object type is not known." or their value is 7.
+(6) "Retrieve the names of all objects that are either classified as 'Unknown' with a description of 'Object type is not known', or have a value of 7 in the photo_type table."
+(7) "What are the names of all objects that have either an unknown type or a value of 7 in the photometrically observed field?"
+
+
+Re-ranked choices:
+10.531  "What is the name of all photometrically observed objects with a description of "Unknown: Object type is not known." or a value of 7 in the photo_type table?"
+9.139  Find the names of objects that have either a description of "Unknown: Object type is not known." or a value of 7 in the photometrically observed photo type.
+9.137  Find the name of objects that have been observed photometrically and are either described as "Unknown: Object type is not known." or have a value of 7 in the photo_type table.
+7.752  Retrieve the name of all objects from the photo_type table where their description is "Unknown: Object type is not known." or their value is 7.
+6.333  List the names of all objects that have a photo type value of 7 or a description of "Unknown: Object type is not known."
+6.323  "Retrieve the names of all objects that are either classified as 'Unknown' with a description of 'Object type is not known', or have a value of 7 in the photo_type table."
+5.630  "What are the names of all objects that have either an unknown type or a value of 7 in the photometrically observed field?"
+2.826  Which objects have a photometric observation type of "Unknown" or a value of 7 in the photo_type table?
+

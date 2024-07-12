@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people AS people WHERE people.unics_id != 1209925
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 WHERE T1.unics_id != 1209925
+GPT-3 choices:
+(0) Who are all the people's full names who do not have a unics ID of 1209925?
+(1) "Retrieve the full name of all people whose unics_id is not equal to 1209925 from the table people."
+(2) Retrieve the full names of all people who do not have a unics ID of 1209925.
+(3) Retrieve the full names of all people who have a unique ID that is not equal to 1209925 from the "people" table.
+(4) Find the full name of all people in the database whose unics_id is not equal to 1209925.
+(5) Show me the full names of people whose UNICS ID is not 1209925.
+(6) Find the full names of all people who do not have a Unics ID of 1209925.
+(7) Show the full name of all people who do not have a UNICS ID of 1209925.
+
+
+Re-ranked choices:
+7.065  Show the full name of all people who do not have a UNICS ID of 1209925.
+5.686  Show me the full names of people whose UNICS ID is not 1209925.
+5.654  Who are all the people's full names who do not have a unics ID of 1209925?
+5.654  Retrieve the full names of all people who do not have a unics ID of 1209925.
+5.654  Find the full names of all people who do not have a Unics ID of 1209925.
+4.248  Find the full name of all people in the database whose unics_id is not equal to 1209925.
+4.242  Retrieve the full names of all people who have a unique ID that is not equal to 1209925 from the "people" table.
+4.238  "Retrieve the full name of all people whose unics_id is not equal to 1209925 from the table people."
+

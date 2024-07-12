@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics WHERE topics.code = "EE-15-2017" and topics.rcn = "700598"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 WHERE T1.code = "EE-15-2017" and T1.rcn = "700598"
+GPT-3 choices:
+(0) What are the titles of topics with code "EE-15-2017" and rcn "700598"?
+(1) Retrieve the title from the topics table where the code is "EE-15-2017" and the rcn is "700598".
+(2) What is the title of the topic with code "EE-15-2017" and RCN "700598"?
+(3) What is the title of the topic with code "EE-15-2017" and RCN "700598"?
+(4) What is the title of the topic with code "EE-15-2017" and RCN "700598"?
+(5) Retrieve the title from the "topics" table where the code is "EE-15-2017" and the rcn is "700598".
+(6) What is the title of the topic with code "EE-15-2017" and rcn "700598"?
+(7) What is the title of the topic with the code "EE-15-2017" and RCN "700598"?

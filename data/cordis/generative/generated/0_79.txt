@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types WHERE activity_types.description = "Private for-profit entities (excluding Higher or Secondary Education Establishments)"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 WHERE T1.description = "Private for-profit entities (excluding Higher or Secondary Education Establishments)"
+GPT-3 choices:
+(0) Retrieve the code for activity types from the table where the description is "Private for-profit entities (excluding Higher or Secondary Education Establishments)".
+(1) Get the code for activity types that represent private for-profit entities, excluding higher education or secondary education establishments.
+(2) Retrieve the code of all activity types that correspond to private for-profit entities, excluding higher or secondary education establishments.
+(3) Find the code for activity types that represent private for-profit entities, excluding higher or secondary education establishments.
+(4) What is the code for private for-profit entities in the activity types table, excluding higher or secondary education establishments?
+(5) Retrieve the code of activity types for private for-profit entities, excluding higher or secondary education establishments.
+(6) What is the code for activity types that are private for-profit entities, excluding higher or secondary education establishments?
+(7) Find the code for private, for-profit entities excluding higher or secondary education establishments in the activity types table.

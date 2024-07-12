@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes AS programmes JOIN project_programmes AS project_programmes ON programmes.code = project_programmes.programme JOIN projects AS projects ON project_programmes.project = projects.unics_id WHERE projects.end_date = "2023-06-12"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM programmes AS T1 JOIN project_programmes AS T3 ON T1.code = T3.programme JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.end_date = "2023-06-12"
+GPT-3 choices:
+(0) Find the short names of programmes associated with projects that have an end date of June 12th, 2023.
+(1) Get the short names of programmes that are associated with projects that end on June 12, 2023.
+(2) What are the short names of all programmes that are associated with projects ending on June 12th, 2023?
+(3) Find the short names of programmes that are associated with projects that end on June 12, 2023.
+(4) Retrieve the short names of programmes from the database that are associated with projects ending on June 12th, 2023.
+(5) Retrieve the short names of all programmes that are associated with a project that has an end date of June 12, 2023.
+(6) Retrieve the short names of programmes that are associated with projects that have an end date of June 12th, 2023.
+(7) Find the short names of all programmes that are associated with projects ending on June 12th, 2023.

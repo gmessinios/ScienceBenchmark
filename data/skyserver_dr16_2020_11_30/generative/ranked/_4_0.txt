@@ -1,0 +1,27 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 311956494700537856
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 311956494700537856
+GPT-3 choices:
+(0) How many rows are there in the spplines table where the specobjid is equal to 311956494700537856 in the Stellar_spectal_line_indices column?
+(1) How many rows are in the table "spplines" with a specobjid of 311956494700537856 in the column "Stellar_spectal_line_indices"?
+(2) How many spectral line indices are there in the Stellar Spectal Line Indices table where the specobjid is equal to 311956494700537856?
+(3) How many stellar spectral lines are there for the specobjid 311956494700537856 in the table spplines?
+(4) How many stellar spectral lines are there for the spectobjid 311956494700537856 in the spplines table?
+(5) How many spectral lines are there for the object with specobjid 311956494700537856 in the table spplines?
+(6) How many rows are there in the table spplines where the specobjid is equal to 311956494700537856?
+(7) How many rows are there in the spplines table where the specobjid is equal to 311956494700537856 in the Stellar_spectal_line_indices column?
+
+
+Re-ranked choices:
+4.230  How many spectral line indices are there in the Stellar Spectal Line Indices table where the specobjid is equal to 311956494700537856?
+1.438  How many spectral lines are there for the object with specobjid 311956494700537856 in the table spplines?
+0.728  How many rows are in the table "spplines" with a specobjid of 311956494700537856 in the column "Stellar_spectal_line_indices"?
+0.726  How many rows are there in the spplines table where the specobjid is equal to 311956494700537856 in the Stellar_spectal_line_indices column?
+0.044  How many rows are there in the table spplines where the specobjid is equal to 311956494700537856?
+0.039  How many stellar spectral lines are there for the specobjid 311956494700537856 in the table spplines?
+0.030  How many stellar spectral lines are there for the spectobjid 311956494700537856 in the spplines table?
+

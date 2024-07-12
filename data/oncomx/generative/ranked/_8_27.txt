@@ -1,0 +1,28 @@
+SELECT map_uniprot_canonical_id.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_ac != "A2RUT3"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_ac != "A2RUT3"
+GPT-3 choices:
+(0) "Retrieve the canonical UniProtKB AC from the map_uniprot_canonical_id table, where the UniProtKB AC is not equal to "A2RUT3"."
+(1) What is the canonical UniProtKB accession for all entries in the map_uniprot_canonical_id table, excluding "A2RUT3"?
+(2) What is the canonical UniProtKB accession number for all entries in the map_uniprot_canonical_id table except for "A2RUT3"?
+(3) Find the uniprotkb_canonical_ac from the map_uniprot_canonical_id table where the uniprotkb_ac is not "A2RUT3".
+(4) What is the canonical UniProtKB AC for all entries in the map_uniprot_canonical_id table where the UniProtKB AC is not equal to "A2RUT3"?
+(5) Retrieve the uniprot canonical ID from the map_uniprot_canonical_id table where the uniprot AC is not "A2RUT3".
+(6) What is the canonical UniProtKB accession number for the canonical UniProtKB ID in the map_uniprot_canonical_id table, excluding the entry with the UniProtKB accession number "A2RUT3"?
+(7) Retrieve the uniprot canonical ID from the map_uniprot_canonical_id table where the uniprot AC is not equal to "A2RUT3".
+
+
+Re-ranked choices:
+6.325  Retrieve the uniprot canonical ID from the map_uniprot_canonical_id table where the uniprot AC is not equal to "A2RUT3".
+6.324  Retrieve the uniprot canonical ID from the map_uniprot_canonical_id table where the uniprot AC is not "A2RUT3".
+4.922  What is the canonical UniProtKB AC for all entries in the map_uniprot_canonical_id table where the UniProtKB AC is not equal to "A2RUT3"?
+4.921  "Retrieve the canonical UniProtKB AC from the map_uniprot_canonical_id table, where the UniProtKB AC is not equal to "A2RUT3"."
+4.915  What is the canonical UniProtKB accession number for the canonical UniProtKB ID in the map_uniprot_canonical_id table, excluding the entry with the UniProtKB accession number "A2RUT3"?
+3.521  What is the canonical UniProtKB accession number for all entries in the map_uniprot_canonical_id table except for "A2RUT3"?
+3.520  What is the canonical UniProtKB accession for all entries in the map_uniprot_canonical_id table, excluding "A2RUT3"?
+0.719  Find the uniprotkb_canonical_ac from the map_uniprot_canonical_id table where the uniprotkb_ac is not "A2RUT3".
+

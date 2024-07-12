@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name, count(*) FROM photo_type AS photometrically_observed  GROUP BY photometrically_observed.name
+
+###
+
+
+Original Query:
+SELECT T1.name, count(*) FROM photo_type AS T1  GROUP BY T1.name
+GPT-3 choices:
+(0) Count the number of observations for each name in the photometrically observed photo types.
+(1) Count the number of times each name appears in the table "photometrically_observed" and group them together, then list out the names and their corresponding counts.
+(2) How many photos are there for each unique name in the photometrically_observed table?
+(3) How many observations does each photometrically observed object have in the photo_type table, grouped by name?
+(4) How many photometrically observed photos are there for each name in the photo_type table?
+(5) How many photometrically observed objects are there for each unique name?
+(6) How many photometrically observed objects are there for each name?
+(7) What is the total number of entries in the column "name" for all rows in the table "photo_type", grouped by name, where the value in the column "name" is named "photometrically_observed"?
+
+
+Re-ranked choices:
+4.230  How many photometrically observed photos are there for each name in the photo_type table?
+4.227  Count the number of observations for each name in the photometrically observed photo types.
+3.525  How many observations does each photometrically observed object have in the photo_type table, grouped by name?
+2.839  How many photometrically observed objects are there for each unique name?
+2.836  How many photometrically observed objects are there for each name?
+2.821  What is the total number of entries in the column "name" for all rows in the table "photo_type", grouped by name, where the value in the column "name" is named "photometrically_observed"?
+2.136  How many photos are there for each unique name in the photometrically_observed table?
+2.123  Count the number of times each name appears in the table "photometrically_observed" and group them together, then list out the names and their corresponding counts.
+

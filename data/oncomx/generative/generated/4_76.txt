@@ -1,0 +1,16 @@
+SELECT count(*) FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_ac = "A1L0T0"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_ac = "A1L0T0"
+GPT-3 choices:
+(0) How many records are there in the "map_uniprot_canonical_id" table where the value in the "uniprotkb_ac" column is equal to "A1L0T0"?
+(1) How many entries are there in the map_uniprot_canonical_id table with a value of "A1L0T0" for the uniprotkb_ac column?
+(2) How many records in the map_uniprot_canonical_id table have a value of "A1L0T0" for the uniprotkb_ac column?
+(3) How many rows are in the table "map_uniprot_canonical_id" where the column "uniprotkb_ac" has the value "A1L0T0"?
+(4) How many entries are there in the table "map_uniprot_canonical_id" where the column "uniprotkb_ac" has a value of "A1L0T0"?
+(5) How many rows are in the map_uniprot_canonical_id table where the uniprotkb_ac column has a value of "A1L0T0"?
+(6) How many rows are in the table "map_uniprot_canonical_id" where the column "uniprotkb_ac" has a value of "A1L0T0"?
+(7) How many entries in the table "map_uniprot_canonical_id" have a value of "A1L0T0" for the column "uniprotkb_ac"?

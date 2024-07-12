@@ -1,0 +1,16 @@
+SELECT species.species FROM species AS species JOIN xref_gene_ensembl AS xref_gene_ensembl ON species.speciesid = xref_gene_ensembl.speciesid WHERE xref_gene_ensembl.gene_symbol = "2310005A03Rik"
+
+###
+
+
+Original Query:
+SELECT T1.species FROM species AS T1 JOIN xref_gene_ensembl AS T2 ON T1.speciesid = T2.speciesid WHERE T2.gene_symbol = "2310005A03Rik"
+GPT-3 choices:
+(0) What species does the gene symbol "2310005A03Rik" belong to according to the xref_gene_ensembl table?
+(1) Retrieve the species name from the "species" table where the gene symbol is equal to "2310005A03Rik" in the "xref_gene_ensembl" table.
+(2) What is the species of a gene that has the gene symbol "2310005A03Rik" in the xref_gene_ensembl table, and how does it relate to the species table?
+(3) Retrieve the species name from the Species table where the gene symbol is "2310005A03Rik" and join it with the Ensembl gene cross-reference table based on their shared species ID.
+(4) What species is the gene "2310005A03Rik" associated with according to the Ensembl database?
+(5) What is the species name associated with the gene symbol "2310005A03Rik" in the xref_gene_ensembl table?
+(6) What is the species name for a gene with the gene symbol "2310005A03Rik" in the xref_gene_ensembl table, when joined with the species table?
+(7) What is the species of a gene with the symbol "2310005A03Rik" according to the xref_gene_ensembl table?

@@ -1,0 +1,16 @@
+SELECT countries.country_code3 FROM countries AS countries WHERE countries.unics_id = 250 and countries.country_name = "Antigua and Barbuda"
+
+###
+
+
+Original Query:
+SELECT T1.country_code3 FROM countries AS T1 WHERE T1.unics_id = 250 and T1.country_name = "Antigua and Barbuda"
+GPT-3 choices:
+(0) What is the country code3 for Antigua and Barbuda in the table countries where the unics_id is 250?
+(1) What is the country code3 for Antigua and Barbuda with a unics_id of 250?
+(2) Retrieve the three-letter country code for Antigua and Barbuda from the table "countries" where the unique ID is 250 and the country name is "Antigua and Barbuda".
+(3) What is the country code for Antigua and Barbuda with a UNICS ID of 250?
+(4) Retrieve the country code3 for Antigua and Barbuda from the countries table where the unics_id is 250 and the country name is "Antigua and Barbuda".
+(5) What is the three-letter country code for Antigua and Barbuda in the table "countries" with a unique ID of 250?
+(6) What is the country code for Antigua and Barbuda in the table countries where its unique ID is 250?
+(7) Find the country code3 for Antigua and Barbuda with a unics_id of 250 in the countries table.

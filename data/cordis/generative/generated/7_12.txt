@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes AS programmes WHERE programmes.short_name = "FET Proactive" or programmes.code = "ENV.2.1.5."
+
+###
+
+
+Original Query:
+SELECT T1.title FROM programmes AS T1 WHERE T1.short_name = "FET Proactive" or T1.code = "ENV.2.1.5."
+GPT-3 choices:
+(0) Show the title of all programmes where the short name is "FET Proactive" or the code is "ENV.2.1.5.".
+(1) Retrieve the title of the programme with a short name of "FET Proactive" or a code of "ENV.2.1.5." from the table "programmes".
+(2) Retrieve the title of all programmes where the short name is "FET Proactive" or the code is "ENV.2.1.5.".
+(3) Find the title of all programmes where the short name is "FET Proactive" or the code is "ENV.2.1.5.".
+(4) Find the title of all programmes where the short name is "FET Proactive" or the code is "ENV.2.1.5.".
+(5) Retrieve the title of all programmes where the short name is "FET Proactive" or the code is "ENV.2.1.5.".
+(6) Retrieve the title of all programmes from the table "programmes" where the short name is "FET Proactive" or the code is "ENV.2.1.5.".
+(7) What are the titles of programmes with a short name of "FET Proactive" or a code of "ENV.2.1.5." in the table called "programmes"?

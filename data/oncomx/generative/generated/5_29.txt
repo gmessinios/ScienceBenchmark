@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation    ORDER BY disease_mutation_site_annotation.id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1    ORDER BY T1.id DESC LIMIT 1
+GPT-3 choices:
+(0) Give me the description of the most recent disease mutation site annotation in descending order by its ID.
+(1) Retrieve the description of the most recent disease mutation site annotation from the disease_mutation_site_annotation table.
+(2) Retrieve the description of the latest disease mutation site annotation from the disease_mutation_site_annotation table in descending order by id.
+(3) What is the description of the most recent entry in the disease mutation site annotation table?
+(4) What is the description of the most recent entry in the disease mutation site annotation table?
+(5) "Retrieve the description from the latest entry in the disease mutation site annotation table, sorted by descending ID."
+(6) Get the description of the latest entry in the disease_mutation_site_annotation table, ordered by id descending.
+(7) "Get the description of the most recent disease mutation site annotation in descending order based on its ID from the disease_mutation_site_annotation table."

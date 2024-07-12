@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles AS project_member_roles WHERE project_member_roles.code = "hostInstitution"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM project_member_roles AS T1 WHERE T1.code = "hostInstitution"
+GPT-3 choices:
+(0) Retrieve the description of the project member role with the code "hostInstitution" from the table "project_member_roles".
+(1) Get the description from the project member roles table where the code is equal to "hostInstitution".
+(2) Retrieve the description of the project member role with the code "hostInstitution" from the project_member_roles table.
+(3) Retrieve the description from the project member roles table where the code is equal to "hostInstitution".
+(4) What is the description of the project member role with the code "hostInstitution" in the project_member_roles table?
+(5) Retrieve the description of the project member role with the code "hostInstitution" from the table "project_member_roles".
+(6) Retrieve the description from the project member roles table for the role with a code of "hostInstitution".
+(7) Retrieve the description of a project member's role from the project_member_roles table where their code is "hostInstitution".

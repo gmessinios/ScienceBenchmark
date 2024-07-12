@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.zerr FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.bestobjid != 1237645943978918153
+
+###
+
+
+Original Query:
+SELECT T1.zerr FROM specobj AS T1 WHERE T1.bestobjid != 1237645943978918153
+GPT-3 choices:
+(0) Retrieve the redshift error from the spectroscopic objects table for all rows where the best object ID is not equal to 1237645943978918153.
+(1) Find the redshift error for spectroscopic objects where the best object ID is not equal to 1237645943978918153.
+(2) What is the redshift error value for objects with a bestobjid not equal to 1237645943978918153 in the table specobj?
+(3) What is the redshift error of all spectroscopic objects that have a best object ID different from 1237645943978918153 in the specobj table?
+(4) Retrieve the redshift error for all spectroscopic objects where the best object ID is not equal to 1237645943978918153.
+(5) What are the z errors for all spectroscopic objects where the best object ID is not equal to 1237645943978918153?
+(6) What is the error on the redshift value for all spectroscopic objects where the best object ID is not equal to 1237645943978918153?
+(7) What are the errors (zerr) for all spectroscopic objects where the bestobjid is not equal to 1237645943978918153?
+
+
+Re-ranked choices:
+8.439  Find the redshift error for spectroscopic objects where the best object ID is not equal to 1237645943978918153.
+8.437  Retrieve the redshift error for all spectroscopic objects where the best object ID is not equal to 1237645943978918153.
+8.432  Retrieve the redshift error from the spectroscopic objects table for all rows where the best object ID is not equal to 1237645943978918153.
+8.432  What is the error on the redshift value for all spectroscopic objects where the best object ID is not equal to 1237645943978918153?
+8.424  What is the redshift error of all spectroscopic objects that have a best object ID different from 1237645943978918153 in the specobj table?
+5.642  What are the z errors for all spectroscopic objects where the best object ID is not equal to 1237645943978918153?
+4.229  What is the redshift error value for objects with a bestobjid not equal to 1237645943978918153 in the table specobj?
+1.428  What are the errors (zerr) for all spectroscopic objects where the bestobjid is not equal to 1237645943978918153?
+

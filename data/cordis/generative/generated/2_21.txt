@@ -1,0 +1,16 @@
+SELECT institutions.wikidata_url, count(*) FROM institutions AS institutions  GROUP BY institutions.wikidata_url
+
+###
+
+
+Original Query:
+SELECT T1.wikidata_url, count(*) FROM institutions AS T1  GROUP BY T1.wikidata_url
+GPT-3 choices:
+(0) Count the number of institutions and their associated Wikidata URLs from the institutions table, grouping them by their Wikidata URLs.
+(1) Find the number of institutions in the database grouped by their corresponding Wikidata URL, and also retrieve the Wikidata URL for each institution.
+(2) How many institutions have a wikidata URL, and what is the total count for each unique wikidata URL?
+(3) Find the number of institutions with a Wikidata URL and group them by the URL.
+(4) Count the number of institutions and their associated Wikidata URLs in the institutions table, grouping them by their Wikidata URL.
+(5) Count the number of records in the institutions table and group them by their corresponding wikidata URL, and then retrieve the count for each unique URL along with its associated wikidata URL.
+(6) How many institutions have a specified Wikidata URL and what is the count of each unique URL?
+(7) Get the count of records for each unique Wikidata URL in the institutions table and group the results by that URL.

@@ -1,0 +1,16 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_code2 = "KM"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_code2 = "KM"
+GPT-3 choices:
+(0) Retrieve the geocode country code from the "countries" table where the country code 2 is equal to "KM".
+(1) What is the geocode country code for the country with a country code2 of "KM"?
+(2) Find the geocode country code from the countries table where the country code2 is equal to "KM".
+(3) Retrieve the geocode country code from the countries table where the country code 2 is equal to "KM".
+(4) Get the geocode country code from the countries table where the country code2 is equal to "KM".
+(5) Retrieve the geocode country code from the countries table where the country code2 is equal to "KM".
+(6) Which geocode country code belongs to the country with a 2-letter country code of "KM"?
+(7) What is the geocode country code for a country with a country code 2 of "KM" in the countries table?

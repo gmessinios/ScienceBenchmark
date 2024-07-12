@@ -1,0 +1,16 @@
+SELECT count(*) FROM stage AS stage WHERE stage.id = "HsapDv:0000089"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM stage AS T1 WHERE T1.id = "HsapDv:0000089"
+GPT-3 choices:
+(0) How many rows are there in the "stage" table with an "id" value of "HsapDv:0000089"?
+(1) How many entries are there in the stage table with the id "HsapDv:0000089"?
+(2) How many records are in the stage table where the id is equal to "HsapDv:0000089"?
+(3) How many entries are there in the stage table with an ID of "HsapDv:0000089"?
+(4) How many entries are there in the stage table with an id of "HsapDv:0000089"?
+(5) How many entries are in the stage table with the ID "HsapDv:0000089"?
+(6) How many entries are there in the stage table with the id "HsapDv:0000089"?
+(7) How many entries are there in the "stage" table with the ID of "HsapDv:0000089"?

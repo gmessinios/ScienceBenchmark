@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.programname FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.scienceprimary = 1 or Spectroscopic_objects.specobjid = 300681272802437120
+
+###
+
+
+Original Query:
+SELECT T1.programname FROM specobj AS T1 WHERE T1.scienceprimary = 1 or T1.specobjid = 300681272802437120
+GPT-3 choices:
+(0) What is the program name of the spectroscopic object that has a science primary value of 1 or a specobjid value of 300681272802437120?
+(1) What is the program name for all spectroscopic objects that are either marked as science primary or have a specobjid of 300681272802437120?
+(2) What is the program name for a spectroscopic object where the scienceprimary value is equal to 1 or the specobjid is equal to 300681272802437120?
+(3) What is the program name for objects in the specobj table where scienceprimary is equal to 1 or specobjid is equal to 300681272802437120?
+(4) "Retrieve the program names for spectroscopic objects that are marked as science primary or have a specobjid of 300681272802437120."
+(5) Get the program names for all spectroscopic objects where either the "scienceprimary" attribute is equal to 1 or the "specobjid" attribute is equal to 300681272802437120.
+(6) Find the program name for spectroscopic objects that are either marked as science primary or have a specobjid of 300681272802437120.
+(7) Show the program names of all spectroscopic objects that have a value of 1 for the "scienceprimary" column or a specobjid equal to 300681272802437120.
+
+
+Re-ranked choices:
+4.228  Find the program name for spectroscopic objects that are either marked as science primary or have a specobjid of 300681272802437120.
+4.226  What is the program name for all spectroscopic objects that are either marked as science primary or have a specobjid of 300681272802437120?
+4.225  What is the program name of the spectroscopic object that has a science primary value of 1 or a specobjid value of 300681272802437120?
+4.222  What is the program name for a spectroscopic object where the scienceprimary value is equal to 1 or the specobjid is equal to 300681272802437120?
+2.829  "Retrieve the program names for spectroscopic objects that are marked as science primary or have a specobjid of 300681272802437120."
+2.826  What is the program name for objects in the specobj table where scienceprimary is equal to 1 or specobjid is equal to 300681272802437120?
+2.822  Show the program names of all spectroscopic objects that have a value of 1 for the "scienceprimary" column or a specobjid equal to 300681272802437120.
+2.822  Get the program names for all spectroscopic objects where either the "scienceprimary" attribute is equal to 1 or the "specobjid" attribute is equal to 300681272802437120.
+

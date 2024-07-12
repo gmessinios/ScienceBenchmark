@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_level = 0
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 WHERE T1.geocode_level = 0
+GPT-3 choices:
+(0) Get the description from the EU territorial units where the geocode level is equal to 0.
+(1) Retrieve the description from the EU territorial units where the geocode level is equal to 0.
+(2) What are the descriptions of all the European Union territorial units with a geocode level of 0?
+(3) What are the descriptions of the European territorial units with a geocode level of 0?
+(4) Retrieve the description of all territorial units from the European Union that have a geocode level of 0.
+(5) "Get the descriptions of all European Union territorial units with a geocode level of 0."
+(6) What are the descriptions of all EU territorial units with a geocode level of 0?
+(7) Get the description from eu_territorial_units where geocode_level is equal to 0.

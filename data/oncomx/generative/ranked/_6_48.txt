@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.id FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.description = "Leucine amide" and disease_mutation_site_annotation.disease_mutation_id = 184971
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease_mutation_site_annotation AS T1 WHERE T1.description = "Leucine amide" and T1.disease_mutation_id = 184971
+GPT-3 choices:
+(0) Find the ID of the disease mutation site annotation where the description is "Leucine amide" and the disease mutation ID is 184971.
+(1) Find the ID of the disease mutation site annotation with the description "Leucine amide" for the disease mutation with an ID of 184971.
+(2) Get the id from disease_mutation_site_annotation where the description is "Leucine amide" and the disease_mutation_id is 184971.
+(3) Find the ID from the disease_mutation_site_annotation table where the description is "Leucine amide" and the disease_mutation_id is equal to 184971.
+(4) Find the ID of the disease mutation site annotation that has a description of "Leucine amide" and belongs to the disease mutation with an ID of 184971.
+(5) Find the id for the disease mutation site annotation that has a description of "Leucine amide" and is associated with the disease mutation id 184971.
+(6) What is the id of the disease mutation site annotation where the description is "Leucine amide" and the disease mutation id is 184971?
+(7) Find the ID for the disease mutation site annotation where the description is "Leucine amide" and the disease mutation ID is 184971.
+
+
+Re-ranked choices:
+9.828  Find the ID of the disease mutation site annotation where the description is "Leucine amide" and the disease mutation ID is 184971.
+9.828  Find the ID for the disease mutation site annotation where the description is "Leucine amide" and the disease mutation ID is 184971.
+9.827  Find the ID of the disease mutation site annotation with the description "Leucine amide" for the disease mutation with an ID of 184971.
+9.826  Find the ID of the disease mutation site annotation that has a description of "Leucine amide" and belongs to the disease mutation with an ID of 184971.
+9.823  What is the id of the disease mutation site annotation where the description is "Leucine amide" and the disease mutation id is 184971?
+9.820  Find the id for the disease mutation site annotation that has a description of "Leucine amide" and is associated with the disease mutation id 184971.
+4.224  Find the ID from the disease_mutation_site_annotation table where the description is "Leucine amide" and the disease_mutation_id is equal to 184971.
+4.223  Get the id from disease_mutation_site_annotation where the description is "Leucine amide" and the disease_mutation_id is 184971.
+

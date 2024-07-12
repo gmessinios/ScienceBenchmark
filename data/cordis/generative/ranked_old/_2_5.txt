@@ -1,0 +1,28 @@
+SELECT subject_areas.description, count(*) FROM subject_areas  GROUP BY subject_areas.description
+
+###
+
+
+Original Query:
+SELECT subject_areas.description, count(*) FROM subject_areas  GROUP BY subject_areas.description
+GPT-3 choices:
+(0) Total subject areas
+(1) What is the total number of subject areas?
+(2) Show the number of different description of subject areas
+(3) Show the number of subject areas.
+(4) Count all subject areas
+(5) What are the different subject areas?
+(6) How many subject areas are there?
+(7) Total number of subjects areas
+
+
+Re-ranked choices:
+4.233  Show the number of different description of subject areas
+2.943  How many subject areas are there?
+2.881  Count all subject areas
+2.833  Total subject areas
+1.467  Show the number of subject areas.
+1.458  What is the total number of subject areas?
+1.444  What are the different subject areas?
+1.439  Total number of subjects areas
+

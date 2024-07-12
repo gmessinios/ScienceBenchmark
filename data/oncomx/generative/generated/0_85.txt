@@ -1,0 +1,16 @@
+SELECT stage.name FROM stage AS stage WHERE stage.id = "HsapDv:0000085"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 WHERE T1.id = "HsapDv:0000085"
+GPT-3 choices:
+(0) What is the name of the stage with an id of "HsapDv:0000085"?
+(1) What is the name of the stage with ID "HsapDv:0000085"?
+(2) What is the name of the stage with the id "HsapDv:0000085"?
+(3) Get the name of the stage with the ID "HsapDv:0000085" from the stage table.
+(4) Retrieve the name of the stage where the ID is "HsapDv:0000085" from the stage table.
+(5) What is the name of the stage with ID "HsapDv:0000085"?
+(6) What is the name of the stage with an ID of "HsapDv:0000085"?
+(7) What is the name of the stage with an ID of "HsapDv:0000085" in the stage table?

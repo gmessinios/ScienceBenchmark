@@ -1,0 +1,16 @@
+SELECT projects.principal_investigator FROM projects AS projects WHERE projects.end_date = "2011-03-22"
+
+###
+
+
+Original Query:
+SELECT T1.principal_investigator FROM projects AS T1 WHERE T1.end_date = "2011-03-22"
+GPT-3 choices:
+(0) What is the name of the principal investigator for projects that ended on March 22, 2011?
+(1) Retrieve the principal investigator of all projects that ended on March 22, 2011.
+(2) Retrieve the principal investigator from the projects table where the end date is equal to "2011-03-22".
+(3) Find the principal investigator for all projects that ended on March 22, 2011.
+(4) Retrieve the principal investigator from the projects table where the end date is equal to "2011-03-22".
+(5) Retrieve the principal investigator from the projects table where the end date is March 22, 2011.
+(6) Which principal investigator worked on projects that ended on March 22, 2011?
+(7) Which principal investigators were responsible for projects that ended on March 22, 2011?

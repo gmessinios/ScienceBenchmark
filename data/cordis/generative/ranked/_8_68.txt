@@ -1,0 +1,27 @@
+SELECT projects.start_date FROM projects AS projects WHERE projects.ec_call != "H2020-CS2-CFP08-2018-01"
+
+###
+
+
+Original Query:
+SELECT T1.start_date FROM projects AS T1 WHERE T1.ec_call != "H2020-CS2-CFP08-2018-01"
+GPT-3 choices:
+(0) Find the start date for projects that are not part of the H2020-CS2-CFP08-2018-01 ec call.
+(1) What is the start date of projects that do not have an EC call of "H2020-CS2-CFP08-2018-01"?
+(2) Find the start date of all projects except those with the ec_call equal to "H2020-CS2-CFP08-2018-01".
+(3) "Retrieve the start date of all projects that have an EC call number different than 'H2020-CS2-CFP08-2018-01' from the 'projects' table."
+(4) What is the start date of all projects that do not have the EC call "H2020-CS2-CFP08-2018-01"?
+(5) Retrieve the start date of all projects except those with an EC call value of "H2020-CS2-CFP08-2018-01".
+(6) Find the start date of all projects that are not part of the H2020-CS2-CFP08-2018-01 European Commission call.
+(7) Retrieve the start date of all projects except those with an EC call value of "H2020-CS2-CFP08-2018-01".
+
+
+Re-ranked choices:
+7.783  What is the start date of projects that do not have an EC call of "H2020-CS2-CFP08-2018-01"?
+7.783  What is the start date of all projects that do not have the EC call "H2020-CS2-CFP08-2018-01"?
+7.750  Retrieve the start date of all projects except those with an EC call value of "H2020-CS2-CFP08-2018-01".
+7.731  "Retrieve the start date of all projects that have an EC call number different than 'H2020-CS2-CFP08-2018-01' from the 'projects' table."
+6.371  Find the start date for projects that are not part of the H2020-CS2-CFP08-2018-01 ec call.
+4.945  Find the start date of all projects except those with the ec_call equal to "H2020-CS2-CFP08-2018-01".
+4.939  Find the start date of all projects that are not part of the H2020-CS2-CFP08-2018-01 European Commission call.
+

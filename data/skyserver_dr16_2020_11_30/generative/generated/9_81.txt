@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.cmodelmag_r != 12.59261
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.cmodelmag_r != 12.59261
+GPT-3 choices:
+(0) Find the descriptions of photo types where the value is equal to the type in Photometric objects and the cmodelmag_r is not equal to 12.59261.
+(1) Retrieve the description from the photometrically_observed table for all photo objects with a type value that matches the type in the photo_type table, where the cmodelmag_r value is not equal to 12.59261.
+(2) What is the description for photometrically observed photo types that are present in the photoobj table and have a cmodelmag_r value not equal to 12.59261?
+(3) Retrieve the description of the photometrically observed type for objects in the photoobj table that have a cmodelmag_r value other than 12.59261.
+(4) Retrieve the description of photometrically observed objects from the table "photo_type" for those objects in the table "photoobj" with a type matching that of the photometrically observed objects, where their cmodelmag_r value is not equal to 12.59261.
+(5) Retrieve the description from the photometrically_observed table for all objects in the photoobj table that have a cmodelmag_r value not equal to 12.59261, by matching their type values with those in the photo_type table.
+(6) What is the description for photometrically observed objects whose cmodelmag_r value is not equal to 12.59261?
+(7) Find the description of all photometric objects in the photoobj table whose type matches a value in the photo_type table, and have a cmodelmag_r value that is not equal to 12.59261.

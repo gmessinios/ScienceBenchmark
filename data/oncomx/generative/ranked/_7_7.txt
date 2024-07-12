@@ -1,0 +1,28 @@
+SELECT anatomical_entity.id FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.name = "cerebellar vermis" or anatomical_entity.description = "A blood vessel that is part of a brain [Automatically generated definition]."
+
+###
+
+
+Original Query:
+SELECT T1.id FROM anatomical_entity AS T1 WHERE T1.name = "cerebellar vermis" or T1.description = "A blood vessel that is part of a brain [Automatically generated definition]."
+GPT-3 choices:
+(0) Find the ID of the anatomical entity that is either named "cerebellar vermis" or described as a blood vessel that is part of a brain.
+(1) Find the ID of an anatomical entity named "cerebellar vermis" or described as a blood vessel that is part of a brain.
+(2) Find the ID of the anatomical entity called "cerebellar vermis" or that has a description of being a blood vessel in the brain.
+(3) Find the ID of the anatomical entity for which either the name is "cerebellar vermis" or the description is "A blood vessel that is part of a brain [Automatically generated definition]".
+(4) Find the ID of the anatomical entity named "cerebellar vermis" or with a description that includes "A blood vessel that is part of a brain".
+(5) Find the ID of the anatomical entity in the cerebellar vermis or that is described as a blood vessel within the brain.
+(6) Find the identifier of an anatomical entity in the table "anatomical_entity" that has a name "cerebellar vermis" or a description "A blood vessel that is part of a brain [Automatically generated definition]."
+(7) Find the ID of an anatomical entity that has a name of "cerebellar vermis" or a description stating it is a blood vessel within the brain.
+
+
+Re-ranked choices:
+15.417  Find the ID of the anatomical entity for which either the name is "cerebellar vermis" or the description is "A blood vessel that is part of a brain [Automatically generated definition]".
+13.315  Find the identifier of an anatomical entity in the table "anatomical_entity" that has a name "cerebellar vermis" or a description "A blood vessel that is part of a brain [Automatically generated definition]."
+11.926  Find the ID of the anatomical entity named "cerebellar vermis" or with a description that includes "A blood vessel that is part of a brain".
+11.923  Find the ID of an anatomical entity that has a name of "cerebellar vermis" or a description stating it is a blood vessel within the brain.
+10.525  Find the ID of the anatomical entity called "cerebellar vermis" or that has a description of being a blood vessel in the brain.
+9.829  Find the ID of an anatomical entity named "cerebellar vermis" or described as a blood vessel that is part of a brain.
+9.826  Find the ID of the anatomical entity that is either named "cerebellar vermis" or described as a blood vessel that is part of a brain.
+9.126  Find the ID of the anatomical entity in the cerebellar vermis or that is described as a blood vessel within the brain.
+

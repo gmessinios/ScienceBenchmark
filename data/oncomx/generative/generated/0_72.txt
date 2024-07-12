@@ -1,0 +1,16 @@
+SELECT disease_mutation.mutation_freq FROM disease_mutation AS disease_mutation WHERE disease_mutation.doid = 1790
+
+###
+
+
+Original Query:
+SELECT T1.mutation_freq FROM disease_mutation AS T1 WHERE T1.doid = 1790
+GPT-3 choices:
+(0) Retrieve the mutation frequency from disease_mutation for a specific disease identified by the DOID code 1790.
+(1) Retrieve the mutation frequency from the disease_mutation table where the disease's DOID is 1790.
+(2) What is the frequency of mutations associated with disease ID 1790?
+(3) What is the mutation frequency for all mutations associated with Disease Ontology ID 1790 in the disease_mutation table?
+(4) What is the mutation frequency for disease ID 1790 in the table "disease_mutation"?
+(5) What is the mutation frequency for disease associated with DOID 1790?
+(6) What is the mutation frequency for disease with DOID 1790 in the table disease_mutation?
+(7) What is the mutation frequency for a disease with the DOID code 1790 in the disease_mutation table?

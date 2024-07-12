@@ -1,0 +1,28 @@
+SELECT cancer_tissue.uberon_anatomical_id FROM cancer_tissue AS cancer_tissue    ORDER BY cancer_tissue.doid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM cancer_tissue AS T1    ORDER BY T1.doid DESC LIMIT 1
+GPT-3 choices:
+(0) What is the highest corresponding uberon anatomical id for a cancer tissue ordered by doid descending with a limit of 1?
+(1) What is the anatomical ID of the latest cancer tissue listed in the database, sorted by descending DOID?
+(2) Show the anatomical identifier from the cancer tissue table in order of the disease identifier, limited to one result.
+(3) What is the Uberon anatomical ID of the cancer tissue in descending order by DOID, with a limit of 1?
+(4) Show the unique uberon anatomical ID from the cancer tissue table, ordered by descending DOID and limited to one result.
+(5) Find the UBeron anatomical ID from the cancer tissue table, ordered by descending DOID and limit the results to one row.
+(6) Get the uberon anatomical ID of the most recently added cancer tissue from the cancer_tissue table, sorted in descending order by doid, with a limit of 1.
+(7) Retrieve the uberon anatomical ID of the cancer tissue from the table "cancer_tissue" in descending order based on their doid, with a limit of 1 result.
+
+
+Re-ranked choices:
+9.124  Find the UBeron anatomical ID from the cancer tissue table, ordered by descending DOID and limit the results to one row.
+9.123  Show the unique uberon anatomical ID from the cancer tissue table, ordered by descending DOID and limited to one result.
+9.121  What is the highest corresponding uberon anatomical id for a cancer tissue ordered by doid descending with a limit of 1?
+7.728  What is the Uberon anatomical ID of the cancer tissue in descending order by DOID, with a limit of 1?
+7.721  Get the uberon anatomical ID of the most recently added cancer tissue from the cancer_tissue table, sorted in descending order by doid, with a limit of 1.
+7.021  Retrieve the uberon anatomical ID of the cancer tissue from the table "cancer_tissue" in descending order based on their doid, with a limit of 1 result.
+6.327  What is the anatomical ID of the latest cancer tissue listed in the database, sorted by descending DOID?
+4.223  Show the anatomical identifier from the cancer tissue table in order of the disease identifier, limited to one result.
+

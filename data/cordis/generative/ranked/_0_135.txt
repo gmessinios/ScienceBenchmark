@@ -1,0 +1,27 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas WHERE subject_areas.description = "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization."
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 WHERE T1.description = "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization."
+GPT-3 choices:
+(0) What are the titles of subject areas where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization"?
+(1) Retrieve the title of all subject areas where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization".
+(2) Find the title of the subject area where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization."
+(3) Find the title of the subject area with a description including coal, hydrocarbons, petroleum products, coke, by-products, transportation and storage of hydrocarbons, liquefaction and gasification of solid fuels, and exploration, mining, processing and utilization.
+(4) "Retrieve the title of the subject area where its description is 'Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization' from the subject areas table."
+(5) Retrieve the title of the subject area where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization".
+(6) Retrieve the title of subject areas where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization".
+(7) What are the titles of subject areas where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization"?
+
+
+Re-ranked choices:
+16.813  Retrieve the title of all subject areas where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization".
+16.813  "Retrieve the title of the subject area where its description is 'Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization' from the subject areas table."
+16.813  Retrieve the title of subject areas where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization".
+15.413  What are the titles of subject areas where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization"?
+15.413  Retrieve the title of the subject area where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization".
+14.713  Find the title of the subject area where the description is "Coal and hydrocarbons; petroleum products; coke; by-products; transporting and storage of hydrocarbons; liquefaction and gasification of solid fuels; exploration; mining, processing and utilization."
+9.113  Find the title of the subject area with a description including coal, hydrocarbons, petroleum products, coke, by-products, transportation and storage of hydrocarbons, liquefaction and gasification of solid fuels, and exploration, mining, processing and utilization.
+

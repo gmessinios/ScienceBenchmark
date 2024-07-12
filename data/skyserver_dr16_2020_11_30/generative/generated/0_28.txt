@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 4
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.value = 4
+GPT-3 choices:
+(0) What is the description of all photometrically observed objects with a value of 4 in the photo_type table?
+(1) "What is the description for the photo type that has a value of 4 and is photometrically observed?"
+(2) Retrieve the description from the photo_type table where the value is equal to 4 for photometrically observed images.
+(3) "Retrieve the description from the photometrically_observed table for photo types where the value is equal to 4."
+(4) What is the description for photo types with a value of 4 that have been observed photometrically?
+(5) Retrieve the description from the photo_type table for values that are equal to 4 in the value column and are labeled as "photometrically observed".
+(6) "What is the description of photometrically observed photo types with a value of 4?"
+(7) "Retrieve the description from the photometrically observed photo type where the value is equal to 4."

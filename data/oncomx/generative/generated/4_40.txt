@@ -1,0 +1,16 @@
+SELECT count(*) FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.name = "superior frontal gyrus"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM anatomical_entity AS T1 WHERE T1.name = "superior frontal gyrus"
+GPT-3 choices:
+(0) How many anatomical entities are there where the name is "superior frontal gyrus"?
+(1) How many anatomical entities are there with the name "superior frontal gyrus"?
+(2) How many anatomical entities have the name "superior frontal gyrus"?
+(3) How many anatomical entities have the name "superior frontal gyrus"?
+(4) How many anatomical entities are there with the name "superior frontal gyrus"?
+(5) How many anatomical entities have the name "superior frontal gyrus"?
+(6) How many anatomical entities are there with the name "superior frontal gyrus"?
+(7) How many anatomical entities have the name "superior frontal gyrus"?

@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.mjd FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.survey != "boss"
+
+###
+
+
+Original Query:
+SELECT T1.mjd FROM specobj AS T1 WHERE T1.survey != "boss"
+GPT-3 choices:
+(0) Get the MJD values from the Spectroscopic_objects table where the survey is not "boss".
+(1) Find the MJD values from specobj where the survey is not "boss".
+(2) Find the Modified Julian Date from the table of spectroscopic objects where the survey is not "boss".
+(3) Retrieve the MJD values for all spectroscopic objects in the database that are not associated with the BOSS survey.
+(4) Find the Modified Julian Date for all spectroscopic objects from the specobj table where the survey is not equal to "boss".
+(5) Find the MJD values for all spectroscopic objects that are not from the "boss" survey.
+(6) What is the modified Julian date for all spectroscopic objects that were not part of the BOSS survey?
+(7) What is the modified Julian date for all spectroscopic objects from the specobj table where the survey does not equal "boss"?
+
+
+Re-ranked choices:
+6.334  Find the Modified Julian Date from the table of spectroscopic objects where the survey is not "boss".
+6.330  Find the Modified Julian Date for all spectroscopic objects from the specobj table where the survey is not equal to "boss".
+6.330  What is the modified Julian date for all spectroscopic objects from the specobj table where the survey does not equal "boss"?
+4.937  What is the modified Julian date for all spectroscopic objects that were not part of the BOSS survey?
+2.839  Get the MJD values from the Spectroscopic_objects table where the survey is not "boss".
+2.170  Find the MJD values from specobj where the survey is not "boss".
+2.144  Find the MJD values for all spectroscopic objects that are not from the "boss" survey.
+2.128  Retrieve the MJD values for all spectroscopic objects in the database that are not associated with the BOSS survey.
+

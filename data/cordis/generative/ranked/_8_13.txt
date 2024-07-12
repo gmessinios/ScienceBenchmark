@@ -1,0 +1,27 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.nuts_version != "2021"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.nuts_version != "2021"
+GPT-3 choices:
+(0) Retrieve the geocode regions from the EU territorial units table, where the nuts version is not equal to 2021.
+(1) "Retrieve the geocode regions from the EU territorial units table where the NUTS version is not equal to "2021"."
+(2) Retrieve the geocode regions from the EU territorial units table, excluding any that have a NUTS version of 2021.
+(3) Get the geocode regions from the EU territorial units table where the nuts version is not equal to 2021.
+(4) Retrieve the geocode regions from the EU territorial units table where the nuts version is not equal to "2021".
+(5) Retrieve the geocode regions from the EU territorial units table where the nuts version is not equal to "2021".
+(6) Retrieve the geocode regions from the EU Territorial Units table where the nuts version is not equal to "2021".
+(7) Select the geocode regions from the EU territorial units table where the NUTS version is not 2021.
+
+
+Re-ranked choices:
+9.836  Retrieve the geocode regions from the EU territorial units table, where the nuts version is not equal to 2021.
+9.836  Get the geocode regions from the EU territorial units table where the nuts version is not equal to 2021.
+9.836  Retrieve the geocode regions from the EU territorial units table where the nuts version is not equal to "2021".
+9.836  Retrieve the geocode regions from the EU Territorial Units table where the nuts version is not equal to "2021".
+9.834  Select the geocode regions from the EU territorial units table where the NUTS version is not 2021.
+9.832  "Retrieve the geocode regions from the EU territorial units table where the NUTS version is not equal to "2021"."
+9.832  Retrieve the geocode regions from the EU territorial units table, excluding any that have a NUTS version of 2021.
+

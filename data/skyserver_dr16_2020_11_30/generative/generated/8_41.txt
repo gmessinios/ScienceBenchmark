@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbormode != 1
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.neighbormode != 1
+GPT-3 choices:
+(0) Retrieve the objid of all nearest neighbor objects from the neighbors table, excluding those with a neighbormode of 1.
+(1) Find the object IDs of nearest neighbor objects from the table "neighbors" where the neighbormode is not equal to 1.
+(2) Find the object IDs of nearest neighbor objects from the "neighbors" table where the neighbor mode is not equal to 1.
+(3) Find the object IDs of the nearest neighbor objects where the neighbor mode is not equal to 1.
+(4) Find the objects with the nearest neighbors that do not have a neighbor mode of 1.
+(5) "Find the objects that are nearest neighbors and have a neighbor mode other than 1."
+(6) Find the objects that are the nearest neighbors of each other, excluding those with a neighbor mode value of 1.
+(7) Find the object IDs of nearest neighbor objects where the neighbor mode is not equal to 1.

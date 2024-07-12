@@ -1,0 +1,28 @@
+SELECT funding_schemes.code, count(*) FROM funding_schemes AS funding_schemes  GROUP BY funding_schemes.code
+
+###
+
+
+Original Query:
+SELECT T1.code, count(*) FROM funding_schemes AS T1  GROUP BY T1.code
+GPT-3 choices:
+(0) How many funding schemes are there for each code in the funding_schemes table?
+(1) How many funding schemes are there for each unique code in the "funding_schemes" table?
+(2) Count the number of funding schemes for each code in the table "funding_schemes".
+(3) Find the number of funding schemes for each unique code in the funding_schemes table.
+(4) Count the number of funding schemes and group them by their code.
+(5) Count the number of records in the "funding_schemes" table for each distinct code value and group them by code.
+(6) Count the number of records in the "funding_schemes" table and group them by their code.
+(7) Count the number of times each code appears in the "funding_schemes" table.
+
+
+Re-ranked choices:
+4.283  How many funding schemes are there for each code in the funding_schemes table?
+4.275  How many funding schemes are there for each unique code in the "funding_schemes" table?
+4.262  Count the number of funding schemes for each code in the table "funding_schemes".
+4.258  Find the number of funding schemes for each unique code in the funding_schemes table.
+3.591  Count the number of funding schemes and group them by their code.
+2.142  Count the number of records in the "funding_schemes" table for each distinct code value and group them by code.
+1.468  Count the number of times each code appears in the "funding_schemes" table.
+0.768  Count the number of records in the "funding_schemes" table and group them by their code.
+

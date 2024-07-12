@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes AS programmes WHERE programmes.parent = "HEALTH-2007-2.1" or programmes.code = "AAT-2007-4.2-02"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM programmes AS T1 WHERE T1.parent = "HEALTH-2007-2.1" or T1.code = "AAT-2007-4.2-02"
+GPT-3 choices:
+(0) Retrieve the title of programmes where the parent is "HEALTH-2007-2.1" or the code is "AAT-2007-4.2-02".
+(1) What are the titles of programmes with a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02"?
+(2) What is the title of all programmes where the parent programme is "HEALTH-2007-2.1" or the code is "AAT-2007-4.2-02"?
+(3) What are the titles of all programmes that either have a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02"?
+(4) Retrieve the title of all programmes where the parent code is "HEALTH-2007-2.1" or the code is "AAT-2007-4.2-02".
+(5) Show me the title of all programmes that have a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02".
+(6) Retrieve the title of all programmes whose parent is "HEALTH-2007-2.1" or whose code is "AAT-2007-4.2-02".
+(7) What are the titles of all programmes with a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02"?
+
+
+Re-ranked choices:
+5.703  Retrieve the title of all programmes where the parent code is "HEALTH-2007-2.1" or the code is "AAT-2007-4.2-02".
+5.691  Show me the title of all programmes that have a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02".
+5.681  Retrieve the title of programmes where the parent is "HEALTH-2007-2.1" or the code is "AAT-2007-4.2-02".
+5.681  Retrieve the title of all programmes whose parent is "HEALTH-2007-2.1" or whose code is "AAT-2007-4.2-02".
+5.673  What is the title of all programmes where the parent programme is "HEALTH-2007-2.1" or the code is "AAT-2007-4.2-02"?
+4.303  What are the titles of programmes with a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02"?
+4.297  What are the titles of all programmes with a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02"?
+4.286  What are the titles of all programmes that either have a parent code of "HEALTH-2007-2.1" or a code of "AAT-2007-4.2-02"?
+

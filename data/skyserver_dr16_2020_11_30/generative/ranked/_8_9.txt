@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "GHOST"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.name != "GHOST"
+GPT-3 choices:
+(0) Retrieve the value of photometrically observed photos, excluding those labeled as "GHOST".
+(1) Retrieve the value of all photo types that are not labeled as "GHOST" in the table "photometrically_observed".
+(2) Get the values of photometrically observed data except for those labeled as "GHOST" from the photo_type table.
+(3) Retrieve the value of all photometrically observed photo types except for "GHOST".
+(4) Retrieve the value of all observations from the photometrically observed type, excluding those from GHOST.
+(5) What are the values of photometrically observed data, excluding those under the name "GHOST"?
+(6) Retrieve the value from the column "value" in the table "photo_type", specifically for those rows where the name is not equal to "GHOST".
+(7) Retrieve the values for all photometrically observed objects that are not named "GHOST".
+
+
+Re-ranked choices:
+4.929  Retrieve the value of all photometrically observed photo types except for "GHOST".
+4.927  What are the values of photometrically observed data, excluding those under the name "GHOST"?
+4.924  Retrieve the value of photometrically observed photos, excluding those labeled as "GHOST".
+4.224  Retrieve the value of all observations from the photometrically observed type, excluding those from GHOST.
+3.532  Retrieve the values for all photometrically observed objects that are not named "GHOST".
+3.530  Retrieve the value from the column "value" in the table "photo_type", specifically for those rows where the name is not equal to "GHOST".
+3.524  Get the values of photometrically observed data except for those labeled as "GHOST" from the photo_type table.
+2.830  Retrieve the value of all photo types that are not labeled as "GHOST" in the table "photometrically_observed".
+

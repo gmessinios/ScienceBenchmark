@@ -1,0 +1,28 @@
+SELECT differential_expression.subjects_total FROM differential_expression AS differential_expression    ORDER BY differential_expression.doid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.subjects_total FROM differential_expression AS T1    ORDER BY T1.doid DESC LIMIT 1
+GPT-3 choices:
+(0) What is the total number of subjects in the table "differential_expression" ordered by descending "doid" and limited to 1 result?
+(1) "Retrieve the total number of subjects from the differential expression table, sorted by descending disease ontology identifier and limited to one result."
+(2) Get the total number of subjects from the most recent differential expression entry, ordered by the disease ontology ID in descending order, with a limit of 1.
+(3) Get the total number of subjects in the latest entry of differential expression, sorted by descending DOID and limited to 1 result.
+(4) Get the total number of subjects from the differential expression table, sorted in descending order by disease ontology ID and limit the result to one row.
+(5) Get the total number of subjects from the differential expression table, sorted in descending order by doid, and limit the result to 1.
+(6) Get the total number of subjects from the latest entry in the differential_expression table, ordered by descending doid values and limited to 1 result.
+(7) What is the total number of subjects in the most recent differential expression study, sorted by descending DOID?
+
+
+Re-ranked choices:
+6.324  What is the total number of subjects in the most recent differential expression study, sorted by descending DOID?
+6.321  Get the total number of subjects in the latest entry of differential expression, sorted by descending DOID and limited to 1 result.
+6.321  Get the total number of subjects from the differential expression table, sorted in descending order by doid, and limit the result to 1.
+6.321  Get the total number of subjects from the differential expression table, sorted in descending order by disease ontology ID and limit the result to one row.
+6.320  Get the total number of subjects from the most recent differential expression entry, ordered by the disease ontology ID in descending order, with a limit of 1.
+6.318  "Retrieve the total number of subjects from the differential expression table, sorted by descending disease ontology identifier and limited to one result."
+4.921  What is the total number of subjects in the table "differential_expression" ordered by descending "doid" and limited to 1 result?
+4.919  Get the total number of subjects from the latest entry in the differential_expression table, ordered by descending doid values and limited to 1 result.
+

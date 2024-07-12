@@ -1,0 +1,16 @@
+SELECT cancer_tissue.doid FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.uberon_anatomical_id = "UBERON:0000945"
+
+###
+
+
+Original Query:
+SELECT T1.doid FROM cancer_tissue AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0000945"
+GPT-3 choices:
+(0) Retrieve the disease ontology IDs for cancer tissues that have a corresponding Uberon anatomical ID of "UBERON:0000945".
+(1) Retrieve the DOID of the cancer tissue associated with the anatomical structure UBERON:0000945.
+(2) What are the disease ontology IDs associated with cancer tissues that have a Uberon anatomical ID of "UBERON:0000945"?
+(3) Retrieve the disease ontology identifier for cancer from the cancer_tissue table where the anatomical ID is "UBERON:0000945".
+(4) What is the disease ontology identifier of the cancer tissue with an Uberon anatomical ID of "UBERON:0000945"?
+(5) Find the disease ontology identifier for cancer in the cancer tissue table, where the anatomical identifier is UBERON:0000945.
+(6) What is the DOID code for cancer tissues that have the UBERON anatomical ID "UBERON:0000945"?
+(7) Retrieve the disease ontology ID for cancer tissue from the table cancer_tissue where the Uberon anatomical ID is "UBERON:0000945".

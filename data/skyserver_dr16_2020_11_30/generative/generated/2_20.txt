@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.survey, count(*) FROM specobj AS Spectroscopic_objects  GROUP BY Spectroscopic_objects.survey
+
+###
+
+
+Original Query:
+SELECT T1.survey, count(*) FROM specobj AS T1  GROUP BY T1.survey
+GPT-3 choices:
+(0) What is the count of spectroscopic objects grouped by survey?
+(1) Find the number of objects in each survey from the specobj table.
+(2) How many spectroscopic objects are there in each survey?
+(3) "How many objects are there for each survey in the table 'specobj'?"
+(4) How many objects were observed in each survey from the Spectroscopic_objects table?
+(5) Count the number of objects in the Spectroscopic_objects table grouped by their survey.
+(6) What is the number of objects in the specobj table grouped by their survey?
+(7) How many objects are there in each survey, grouped by the name of the survey?

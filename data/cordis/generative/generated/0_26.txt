@@ -1,0 +1,16 @@
+SELECT institutions.geocode_regions_3 FROM institutions AS institutions WHERE institutions.country_id = 185
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions_3 FROM institutions AS T1 WHERE T1.country_id = 185
+GPT-3 choices:
+(0) Get the geocode regions 3 for institutions where the country ID is equal to 185.
+(1) Find the geocode regions 3 for all institutions located in a country with an ID of 185.
+(2) Retrieve the geocode regions from institutions where the country ID is 185.
+(3) What are the geocode regions 3 for institutions located in country with ID 185?
+(4) Find the geocode regions in institutions where the country ID is 185.
+(5) Retrieve the geocode regions 3 for institutions located in a country with an ID of 185.
+(6) Find the geocode regions 3 for institutions located in the country with ID 185.
+(7) Find the geocode regions for institutions that have a country ID of 185 in the institutions table.

@@ -1,0 +1,16 @@
+SELECT stage.name, count(*) FROM stage AS stage  GROUP BY stage.name
+
+###
+
+
+Original Query:
+SELECT T1.name, count(*) FROM stage AS T1  GROUP BY T1.name
+GPT-3 choices:
+(0) Count the number of rows in the "stage" table for each unique value in the "name" column and display the name along with its corresponding count.
+(1) Find the name of each stage and count the number of occurrences in the table named "stage".
+(2) Count the number of occurrences for each name in the stage table and group them by their name.
+(3) "Find the count of records in the stage table grouped by stage name."
+(4) "Find the count of all stages grouped by their name."
+(5) Count the number of records in the "stage" table and group them by the stage's name, then display the stage name and its corresponding count.
+(6) "Retrieve the name of each stage and the count of all records in the stage table, grouped by the name column."
+(7) "Count the number of records in the 'stage' table and group them by the name column, displaying the name and count for each distinct stage."

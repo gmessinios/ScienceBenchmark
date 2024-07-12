@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "Host institution"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description = "Host institution"
+GPT-3 choices:
+(0) Find the code of all project member roles whose description is "Host institution".
+(1) What is the code for the project member role with the description of "Host institution"?
+(2) "Retrieve the code for all project member roles that have a description of "Host institution"."
+(3) Retrieve the code for the role of "Host institution" from the project member roles table.
+(4) What is the code for project member roles where the description is "Host institution"?
+(5) Find the project member role code for the "Host institution" in the project_member_roles table.
+(6) Get the code for all project member roles that have a description of "Host institution".
+(7) Get the project member role code for the "Host institution" description from the project_member_roles table.

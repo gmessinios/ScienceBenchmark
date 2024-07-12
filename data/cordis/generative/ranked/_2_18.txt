@@ -1,0 +1,28 @@
+SELECT institutions.db_pedia_url, count(*) FROM institutions AS institutions  GROUP BY institutions.db_pedia_url
+
+###
+
+
+Original Query:
+SELECT T1.db_pedia_url, count(*) FROM institutions AS T1  GROUP BY T1.db_pedia_url
+GPT-3 choices:
+(0) What is the count of institutions grouped by their db_pedia_url from the institutions table?
+(1) "How many institutions are there in the database, grouped by their DBpedia URL?"
+(2) Count the number of institutions and group them by their DBpedia URLs.
+(3) "How many institutions have a DBpedia URL, and how many of each type are there?"
+(4) How many institutions are there for each unique DBPedia URL in the "institutions" table?
+(5) "Retrieve the number of records grouped by the DBpedia URL of institutions from the institutions table."
+(6) Count the number of institutions in the table "institutions" and group them by their corresponding DBPedia URL.
+(7) Find the number of institutions in the table "institutions" grouped by their DBPedia URLs.
+
+
+Re-ranked choices:
+3.526  "Retrieve the number of records grouped by the DBpedia URL of institutions from the institutions table."
+2.831  How many institutions are there for each unique DBPedia URL in the "institutions" table?
+2.138  Count the number of institutions and group them by their DBpedia URLs.
+2.137  "How many institutions are there in the database, grouped by their DBpedia URL?"
+2.128  Find the number of institutions in the table "institutions" grouped by their DBPedia URLs.
+2.125  What is the count of institutions grouped by their db_pedia_url from the institutions table?
+2.123  Count the number of institutions in the table "institutions" and group them by their corresponding DBPedia URL.
+1.445  "How many institutions have a DBpedia URL, and how many of each type are there?"
+

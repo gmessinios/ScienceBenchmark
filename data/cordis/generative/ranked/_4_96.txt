@@ -1,0 +1,28 @@
+SELECT count(*) FROM programmes AS programmes WHERE programmes.rcn = "11336"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes AS T1 WHERE T1.rcn = "11336"
+GPT-3 choices:
+(0) How many programmes have an RCN of "11336"?
+(1) How many programmes in the database have an RCN value of "11336"?
+(2) How many records are there in the "programmes" table with an RCN value of 11336?
+(3) How many programmes have the rcn number 11336 in the programmes table?
+(4) How many programmes are there in the database with the rcn of "11336"?
+(5) How many programmes have an RCN of 11336 in the database?
+(6) How many programmes in the table have a RCN value of "11336"?
+(7) How many programmes have the Research Council Number "11336"?
+
+
+Re-ranked choices:
+3.000  How many programmes have an RCN of "11336"?
+2.877  How many programmes have an RCN of 11336 in the database?
+2.856  How many programmes in the database have an RCN value of "11336"?
+2.856  How many records are there in the "programmes" table with an RCN value of 11336?
+2.854  How many programmes are there in the database with the rcn of "11336"?
+2.847  How many programmes in the table have a RCN value of "11336"?
+2.841  How many programmes have the rcn number 11336 in the programmes table?
+1.456  How many programmes have the Research Council Number "11336"?
+

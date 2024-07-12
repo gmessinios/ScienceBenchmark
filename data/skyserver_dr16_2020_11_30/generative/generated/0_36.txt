@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.scienceprimary FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.class = "QSO"
+
+###
+
+
+Original Query:
+SELECT T1.scienceprimary FROM specobj AS T1 WHERE T1.class = "QSO"
+GPT-3 choices:
+(0) Find the primary scientific objects from the table "specobj" where their class is "QSO" or Quasar.
+(1) "Find the primary science objects from the Spectroscopic_objects table where the class is 'QSO'."
+(2) Retrieve the primary object from the Spectroscopic objects table where the class is equal to "QSO".
+(3) "Retrieve the primary science objects from the specobj table where their class is 'QSO'."
+(4) Find the primary scientific objects from the specobj table where the class is QSO.
+(5) Find the primary science object from the specobj table where the class is equal to "QSO".
+(6) Retrieve the primary science objects from the specobj table that have a class of "QSO".
+(7) Retrieve the primary object for scientific purposes from the "specobj" table, where its class is identified as "QSO".

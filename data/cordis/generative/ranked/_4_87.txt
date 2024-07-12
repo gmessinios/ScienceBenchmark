@@ -1,0 +1,24 @@
+SELECT count(*) FROM funding_schemes AS funding_schemes WHERE funding_schemes.title = "Industrial pilot contracts"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes AS T1 WHERE T1.title = "Industrial pilot contracts"
+GPT-3 choices:
+(0) How many funding schemes have the title "Industrial pilot contracts"?
+(1) How many funding schemes have the title "Industrial pilot contracts"?
+(2) How many funding schemes have the title "Industrial pilot contracts"?
+(3) How many funding schemes have a title of "Industrial pilot contracts"?
+(4) How many entries are there in the funding schemes table where the title is "Industrial pilot contracts"?
+(5) How many funding schemes have the title "Industrial pilot contracts"?
+(6) How many entries are in the funding schemes table with a title of "Industrial pilot contracts"?
+(7) How many funding schemes have the title "Industrial pilot contracts"?
+
+
+Re-ranked choices:
+6.339  How many funding schemes have a title of "Industrial pilot contracts"?
+6.336  How many funding schemes have the title "Industrial pilot contracts"?
+6.334  How many entries are there in the funding schemes table where the title is "Industrial pilot contracts"?
+6.332  How many entries are in the funding schemes table with a title of "Industrial pilot contracts"?
+

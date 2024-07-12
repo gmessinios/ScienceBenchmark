@@ -1,0 +1,28 @@
+SELECT projects.start_year FROM projects AS projects WHERE projects.framework_program = "FP7" or projects.ec_fund_scheme = "FCH2-IA"
+
+###
+
+
+Original Query:
+SELECT T1.start_year FROM projects AS T1 WHERE T1.framework_program = "FP7" or T1.ec_fund_scheme = "FCH2-IA"
+GPT-3 choices:
+(0) Find the start year of all projects that were funded by either the FP7 framework program or the FCH2-IA EC fund scheme.
+(1) Find the starting year of all projects that are either part of the FP7 framework program or funded by the FCH2-IA scheme.
+(2) What is the start year of projects funded by either the FP7 or FCH2-IA schemes?
+(3) Retrieve the start year of all projects that are either part of the FP7 framework program or funded by the FCH2-IA scheme.
+(4) Retrieve the starting years of all projects that are either funded by the "FP7" framework program or belong to the "FCH2-IA" EC fund scheme.
+(5) Retrieve the start year from projects where the framework program is FP7 or the EC fund scheme is FCH2-IA.
+(6) What is the start year of projects funded by either the Framework Program 7 or the FCH2-IA scheme?
+(7) Retrieve the starting years of all projects that are either part of the Framework Program 7 or funded through the FCH2-IA scheme.
+
+
+Re-ranked choices:
+11.950  Retrieve the start year from projects where the framework program is FP7 or the EC fund scheme is FCH2-IA.
+11.242  Find the start year of all projects that were funded by either the FP7 framework program or the FCH2-IA EC fund scheme.
+8.442  Retrieve the start year of all projects that are either part of the FP7 framework program or funded by the FCH2-IA scheme.
+8.433  Retrieve the starting years of all projects that are either funded by the "FP7" framework program or belong to the "FCH2-IA" EC fund scheme.
+7.754  What is the start year of projects funded by either the Framework Program 7 or the FCH2-IA scheme?
+7.042  Find the starting year of all projects that are either part of the FP7 framework program or funded by the FCH2-IA scheme.
+5.694  What is the start year of projects funded by either the FP7 or FCH2-IA schemes?
+4.936  Retrieve the starting years of all projects that are either part of the Framework Program 7 or funded through the FCH2-IA scheme.
+

@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_submission FROM biomarker_fda_test AS biomarker_fda_test JOIN disease AS disease ON biomarker_fda_test.doid = disease.id WHERE disease.name != "testicular cancer"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test AS T1 JOIN disease AS T2 ON T1.doid = T2.id WHERE T2.name != "testicular cancer"
+GPT-3 choices:
+(0) Get all test submissions from the FDA biomarker database for diseases other than testicular cancer.
+(1) Get all the test submissions from the biomarker_fda_test table for diseases that are not testicular cancer.
+(2) Retrieve the test submission from the biomarker FDA test table for all diseases except for testicular cancer, by joining the biomarker FDA test and disease tables and selecting only those rows where the disease name is not "testicular cancer".
+(3) Retrieve the test submissions from the biomarker FDA test database for all diseases except testicular cancer.
+(4) Get the test submission from the FDA biomarker test data for all diseases except for testicular cancer.
+(5) Find the test submissions from biomarker FDA testing for all diseases except testicular cancer.
+(6) Find all test submissions from the biomarker_fda_test table for diseases that are not testicular cancer, by joining the biomarker_fda_test and disease tables and selecting only the doid column.
+(7) Retrieve all test submissions from the biomarker_fda_test table for diseases that are not "testicular cancer".

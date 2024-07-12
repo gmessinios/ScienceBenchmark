@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.survey FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.veldisp != 137.458
+
+###
+
+
+Original Query:
+SELECT T1.survey FROM specobj AS T1 WHERE T1.veldisp != 137.458
+GPT-3 choices:
+(0) What is the survey name of all spectroscopic objects with a velocity dispersion that is not equal to 137.458?
+(1) What is the survey of spectroscopic objects in which the velocity dispersion is not equal to 137.458?
+(2) What is the survey of all spectroscopic objects with a veldisp value other than 137.458?
+(3) Find the survey of spectroscopic objects from the specobj table where the veldisp value is not 137.458.
+(4) What is the name of the survey for spectroscopic objects that have a velocity dispersion different from 137.458?
+(5) Retrieve the survey from Spectroscopic_objects where the veldisp is not equal to 137.458.
+(6) What surveys are associated with spectroscopic objects that have a velocity dispersion value not equal to 137.458?
+(7) Retrieve the survey from the Spectroscopic_objects table where the veldisp column is not equal to 137.458.

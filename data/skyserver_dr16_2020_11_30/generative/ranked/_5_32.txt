@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects    ORDER BY Nearest_neighbour_objects.objid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1    ORDER BY T1.objid DESC LIMIT 1
+GPT-3 choices:
+(0) Find the ID of the nearest neighboring object from a table called "neighbors", where the objects are ordered by their own ID in descending order and only return the top result.
+(1) "Retrieve the object ID of the nearest neighbor object from the 'neighbors' table, sorted in descending order by object ID and limited to only one result."
+(2) Get the neighbor object ID for the nearest neighbor object in descending order by its own ID, with a limit of 1.
+(3) Select the object ID of the nearest neighboring object from the list of neighbors, ordered in descending order by object ID, and limit the results to only the first row.
+(4) "Find the objid of the nearest neighbor object in the table 'neighbors', ordered by descending objid and limited to one result."
+(5) "Retrieve the objid of the nearest neighbor object from the neighbors table, sorted in descending order and limited to one result."
+(6) Find the ID of the nearest neighbor object by selecting it from a table called "neighbors" and ordering it in descending order based on its object ID, then limit the results to only the first one.
+(7) Find the ID of the nearest neighboring object by selecting the object ID from the "neighbors" table and ordering it in descending order, then limiting the result to only the last row.
+
+
+Re-ranked choices:
+4.932  Get the neighbor object ID for the nearest neighbor object in descending order by its own ID, with a limit of 1.
+4.922  "Retrieve the object ID of the nearest neighbor object from the 'neighbors' table, sorted in descending order by object ID and limited to only one result."
+4.921  Find the ID of the nearest neighboring object from a table called "neighbors", where the objects are ordered by their own ID in descending order and only return the top result.
+4.920  Find the ID of the nearest neighbor object by selecting it from a table called "neighbors" and ordering it in descending order based on its object ID, then limit the results to only the first one.
+3.522  "Find the objid of the nearest neighbor object in the table 'neighbors', ordered by descending objid and limited to one result."
+3.522  Select the object ID of the nearest neighboring object from the list of neighbors, ordered in descending order by object ID, and limit the results to only the first row.
+3.519  Find the ID of the nearest neighboring object by selecting the object ID from the "neighbors" table and ordering it in descending order, then limiting the result to only the last row.
+2.822  "Retrieve the objid of the nearest neighbor object from the neighbors table, sorted in descending order and limited to one result."
+

@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.disease_mutation_id FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.id = 6998
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_impact_prediction AS T1 WHERE T1.id = 6998
+GPT-3 choices:
+(0) Find the disease mutation impact prediction with the ID of 6998 from the disease_mutation_impact_prediction table and return its corresponding disease_mutation_id.
+(1) Retrieve the disease mutation ID from the table "disease_mutation_impact_prediction" where the ID is equal to 6998.
+(2) Find the disease mutation impact ID from the disease_mutation_impact_prediction table where the id is equal to 6998.
+(3) Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the id is equal to 6998.
+(4) What is the disease mutation ID for the record with an ID of 6998 in the table "disease_mutation_impact_prediction"?
+(5) Retrieve the disease mutation ID from the table "disease_mutation_impact_prediction" where the ID is equal to 6998.
+(6) Retrieve the disease mutation ID from the disease mutation impact prediction table where the ID is equal to 6998.
+(7) Retrieve the disease mutation ID from the disease_mutation_impact_prediction table where the ID is equal to 6998.

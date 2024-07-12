@@ -1,0 +1,28 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1
+GPT-3 choices:
+(0) How many Nearest_neighbour_objects are there in the neighbors table?
+(1) How many rows are in the "neighbors" table that contains the total count of objects that are nearest neighbours?
+(2) How many nearest neighbor objects are there in the neighbors table?
+(3) How many objects are there in the Neighbors table that are considered the nearest neighbors?
+(4) How many objects are there in the table "neighbors" that can be considered as the nearest neighbors to other objects?
+(5) How many rows are in the table "neighbors" under the alias "Nearest_neighbour_objects"?
+(6) How many nearest neighbor objects are in the table "neighbors"?
+(7) How many nearest neighbor objects are there in the "neighbors" table?
+
+
+Re-ranked choices:
+1.450  How many nearest neighbor objects are in the table "neighbors"?
+1.447  How many nearest neighbor objects are there in the neighbors table?
+1.447  How many nearest neighbor objects are there in the "neighbors" table?
+1.438  How many objects are there in the Neighbors table that are considered the nearest neighbors?
+1.432  How many rows are in the "neighbors" table that contains the total count of objects that are nearest neighbours?
+1.430  How many objects are there in the table "neighbors" that can be considered as the nearest neighbors to other objects?
+0.038  How many Nearest_neighbour_objects are there in the neighbors table?
+0.038  How many rows are in the table "neighbors" under the alias "Nearest_neighbour_objects"?
+

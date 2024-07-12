@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.biomarker_origin FROM biomarker_fda_test AS biomarker_fda_test    ORDER BY biomarker_fda_test.doid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_origin FROM biomarker_fda_test AS T1    ORDER BY T1.doid DESC LIMIT 1
+GPT-3 choices:
+(0) What is the origin of the biomarker listed in the last row of the table "biomarker_fda_test", ordered by descending disease ID, with a limit of 1?
+(1) What is the biomarker origin of the most recently added entry in the biomarker_fda_test table, according to its associated disease ID in descending order?
+(2) Retrieve the origin of the biomarker from the FDA test table, sorted by descending DOID and limited to 1 result.
+(3) What is the biomarker origin for the last entry in the biomarker_fda_test table, ordered by doid in descending order?
+(4) Get the origin of biomarkers from the most recent entry in the biomarker_fda_test table, sorted by doid in descending order and limited to 1 result.
+(5) "Retrieve the origin of biomarkers from the most recently updated entry in the FDA test database, ordered by descending disease ontology identifier, with a limit of one result."
+(6) Retrieve the origin of the biomarker from the latest entry in the FDA test records sorted by disease ID in descending order.
+(7) "Retrieve the origin of biomarkers from the FDA testing data, sorted in descending order by disease ID and limited to 1 result."

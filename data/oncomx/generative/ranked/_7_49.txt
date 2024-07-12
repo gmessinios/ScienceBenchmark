@@ -1,0 +1,28 @@
+SELECT disease_mutation.data_source FROM disease_mutation AS disease_mutation WHERE disease_mutation.doid = 1781 or disease_mutation.id = 7016
+
+###
+
+
+Original Query:
+SELECT T1.data_source FROM disease_mutation AS T1 WHERE T1.doid = 1781 or T1.id = 7016
+GPT-3 choices:
+(0) Retrieve the data source for disease mutations associated with a specified DOID or ID.
+(1) What is the data source for the disease mutation with DOID 1781 or ID 7016?
+(2) Get the data source from the disease_mutation table where the disease's DOID is 1781 or its ID is 7016.
+(3) Retrieve the data source for disease mutations associated with a specific DOID or ID.
+(4) Retrieve the data source of all disease mutations associated with a disease having DOID 1781 or an ID of 7016.
+(5) "Retrieve the data source of disease mutations for a disease with an ID of 1781 or an ID of 7016."
+(6) Retrieve the data source from disease_mutation where the doid is equal to 1781 or the id is equal to 7016.
+(7) Find the data sources for disease mutations associated with a Disease Ontology ID of 1781 or an ID of 7016.
+
+
+Re-ranked choices:
+8.445  What is the data source for the disease mutation with DOID 1781 or ID 7016?
+7.032  Get the data source from the disease_mutation table where the disease's DOID is 1781 or its ID is 7016.
+7.025  Retrieve the data source of all disease mutations associated with a disease having DOID 1781 or an ID of 7016.
+5.639  "Retrieve the data source of disease mutations for a disease with an ID of 1781 or an ID of 7016."
+5.631  Retrieve the data source from disease_mutation where the doid is equal to 1781 or the id is equal to 7016.
+5.625  Retrieve the data source for disease mutations associated with a specified DOID or ID.
+5.625  Retrieve the data source for disease mutations associated with a specific DOID or ID.
+4.227  Find the data sources for disease mutations associated with a Disease Ontology ID of 1781 or an ID of 7016.
+

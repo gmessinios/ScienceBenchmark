@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types AS activity_types
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types AS T1
+GPT-3 choices:
+(0) How many activity types are there in the activity_types table?
+(1) How many rows are in the table activity_types?
+(2) How many activity types are there in the table named "activity_types"?
+(3) How many rows are in the "activity_types" table?
+(4) How many types of activities are there in the activity_types table?
+(5) How many activity types are there in the database?
+(6) How many activity types are there in the activity_types table?
+(7) How many activity types are there in the activity_types table?

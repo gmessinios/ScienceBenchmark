@@ -1,0 +1,28 @@
+SELECT project_members.member_name FROM project_members AS project_members JOIN eu_territorial_units AS eu_territorial_units ON project_members.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_level != 2
+
+###
+
+
+Original Query:
+SELECT T1.member_name FROM project_members AS T1 JOIN eu_territorial_units AS T2 ON T1.geocode_regions_3 = T2.geocode_regions WHERE T2.geocode_level != 2
+GPT-3 choices:
+(0) "Retrieve the names of members from the project_members table who belong to EU territorial units at a geocode level other than 2."
+(1) "Retrieve the names of all project members from the EU territorial units table where their geocode regions do not have a level of 2."
+(2) What are the names of all members who belong to a project and are located in an EU territorial unit that is not at the level 2 geocode?
+(3) Get the member names of all project members from the "project_members" table where the geocode level of their corresponding region in the "eu_territorial_units" table is not equal to 2.
+(4) Retrieve the names of project members who are located in territorial units that are not at the second level of geographical coding.
+(5) Get the names of all project members whose geocode regions at level 3 are different from level 2.
+(6) Get the names of all members from the project_members table who are associated with a geocode_regions_3 value that is not at the geocode_level 2 in the eu_territorial_units table.
+(7) Retrieve the names of all project members who are associated with any territorial unit that is not at level 2.
+
+
+Re-ranked choices:
+11.229  "Retrieve the names of all project members from the EU territorial units table where their geocode regions do not have a level of 2."
+8.444  Get the names of all project members whose geocode regions at level 3 are different from level 2.
+8.425  "Retrieve the names of members from the project_members table who belong to EU territorial units at a geocode level other than 2."
+7.028  What are the names of all members who belong to a project and are located in an EU territorial unit that is not at the level 2 geocode?
+7.023  Retrieve the names of project members who are located in territorial units that are not at the second level of geographical coding.
+7.019  Get the member names of all project members from the "project_members" table where the geocode level of their corresponding region in the "eu_territorial_units" table is not equal to 2.
+5.627  Retrieve the names of all project members who are associated with any territorial unit that is not at level 2.
+1.418  Get the names of all members from the project_members table who are associated with a geocode_regions_3 value that is not at the geocode_level 2 in the eu_territorial_units table.
+

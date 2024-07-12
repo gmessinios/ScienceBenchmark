@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.ec_contribution != 198034.38
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.ec_contribution != 198034.38
+GPT-3 choices:
+(0) What are the activity codes for all project members whose EC contribution is not equal to 198034.38?
+(1) What are the activity codes for all project members whose EC contribution is not equal to 198034.38?
+(2) Find the code of all activity types for project members whose EC contribution is not equal to 198034.38.
+(3) Get the activity types' codes from the activity_types table for all project members whose ec_contribution is not equal to 198034.38.
+(4) Find the code for all activity types where the EC contribution is not equal to 198034.38, from the project members table.
+(5) Retrieve the activity type code from the activity types table where it matches with the activity type in the project members table, but only for project members whose EC contribution is not equal to 198034.38.
+(6) What is the code for all activity types from the project members table where the EC contribution is not equal to 198034.38?
+(7) Retrieve the activity type code from the activity types table, but only for project members whose EC contribution is not equal to 198034.38 in the project_members table.

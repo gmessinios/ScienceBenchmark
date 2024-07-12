@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.description = "Ghost: Object created by reflected or refracted light. (not used)"
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.description = "Ghost: Object created by reflected or refracted light. (not used)"
+GPT-3 choices:
+(0) What is the mode of the nearest neighbor objects that were not used and created by reflected or refracted light?
+(1) What is the mode of the nearest neighbor objects that were photometrically observed as ghosts, which are objects created by reflected or refracted light and not used?
+(2) Find the mode of the nearest neighbor objects where the neighbor type is equal to "Ghost: Object created by reflected or refracted light. (not used)".
+(3) What is the mode of the nearest neighbor objects that were observed photometrically and described as "Ghost: Object created by reflected or refracted light. (not used)"?
+(4) Retrieve the mode of the nearest neighbor objects that are photometrically observed as "Ghost: Object created by reflected or refracted light (not used)".
+(5) Retrieve the mode value from the neighbors table where the neighbortype matches the value of photometrically_observed in the photo_type table, which is described as a ghost object created by reflected or refracted light.
+(6) Retrieve the mode of nearest neighbor objects that have a type described as "Ghost: Object created by reflected or refracted light" from the neighbors table.
+(7) Get the mode of the nearest neighbor objects where the neighbor type is "Ghost: Object created by reflected or refracted light. (not used)".
+
+
+Re-ranked choices:
+14.722  Retrieve the mode of the nearest neighbor objects that are photometrically observed as "Ghost: Object created by reflected or refracted light (not used)".
+14.021  What is the mode of the nearest neighbor objects that were observed photometrically and described as "Ghost: Object created by reflected or refracted light. (not used)"?
+12.628  Find the mode of the nearest neighbor objects where the neighbor type is equal to "Ghost: Object created by reflected or refracted light. (not used)".
+12.627  Get the mode of the nearest neighbor objects where the neighbor type is "Ghost: Object created by reflected or refracted light. (not used)".
+11.923  Retrieve the mode of nearest neighbor objects that have a type described as "Ghost: Object created by reflected or refracted light" from the neighbors table.
+11.922  What is the mode of the nearest neighbor objects that were photometrically observed as ghosts, which are objects created by reflected or refracted light and not used?
+8.430  What is the mode of the nearest neighbor objects that were not used and created by reflected or refracted light?
+8.416  Retrieve the mode value from the neighbors table where the neighbortype matches the value of photometrically_observed in the photo_type table, which is described as a ghost object created by reflected or refracted light.
+

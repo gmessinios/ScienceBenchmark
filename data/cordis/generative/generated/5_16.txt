@@ -1,0 +1,16 @@
+SELECT institutions.acronym FROM institutions AS institutions    ORDER BY institutions.unics_id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM institutions AS T1    ORDER BY T1.unics_id DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the acronym of the institution with the highest UNICS ID value from the institutions table, sorted in descending order, limited to 1 result.
+(1) "Retrieve the acronym of the institution with the highest UNICS ID in descending order, limited to one result."
+(2) Get the acronym of the last institution in the database, ordered by its UNICS ID in descending order.
+(3) Give me the acronym of the last institution in the institutions table, sorted by its unique identifier in descending order and limited to one result.
+(4) Get the acronym of the last added institution in descending order based on their unique ID from the institutions table.
+(5) Get the acronym of the last institution in alphabetical order based on their unique identifier.
+(6) Retrieve the acronym of the last institution in the institutions table, sorted by descending unics_id and limited to one result.
+(7) Get the acronym of the institution with the highest unics_id from the institutions table, ordered in descending order and limited to 1 result.

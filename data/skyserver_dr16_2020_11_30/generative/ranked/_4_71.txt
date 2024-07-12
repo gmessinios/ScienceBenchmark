@@ -1,0 +1,28 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 0
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.value = 0
+GPT-3 choices:
+(0) How many records are in the photo_type table where the value for photometrically_observed is equal to 0?
+(1) How many photo types have a value of "0" for being photometrically observed?
+(2) How many photo types have a value of 0 in the "photometrically_observed" column?
+(3) How many entries are there in the "photo_type" table where the value in the "value" column is equal to 0 and corresponds to observations made using photometric methods?
+(4) How many rows are in the table "photo_type" where the value in the column "value" is equal to 0 and represents photometrically observed data?
+(5) How many records are there in the photo_type table where the value in the column "value" is equal to 0 and represents photometrically observed data?
+(6) How many photos have a photometric observation value of 0?
+(7) Count the number of rows in the photo_type table where the value column has a value of 0 for photometrically_observed.
+
+
+Re-ranked choices:
+4.224  How many rows are in the table "photo_type" where the value in the column "value" is equal to 0 and represents photometrically observed data?
+4.223  How many records are there in the photo_type table where the value in the column "value" is equal to 0 and represents photometrically observed data?
+2.832  How many photo types have a value of "0" for being photometrically observed?
+2.132  How many photo types have a value of 0 in the "photometrically_observed" column?
+2.130  How many records are in the photo_type table where the value for photometrically_observed is equal to 0?
+1.431  How many photos have a photometric observation value of 0?
+1.424  Count the number of rows in the photo_type table where the value column has a value of 0 for photometrically_observed.
+1.421  How many entries are there in the "photo_type" table where the value in the "value" column is equal to 0 and corresponds to observations made using photometric methods?
+

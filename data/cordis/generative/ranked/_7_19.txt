@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_level = 1 or eu_territorial_units.description = "Elbe-Elster"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.geocode_level = 1 or T1.description = "Elbe-Elster"
+GPT-3 choices:
+(0) Return the geocode_regions for all eu_territorial_units where the geocode_level is equal to 1 or the description is "Elbe-Elster".
+(1) Get the geocode regions from the EU territorial units table where the geocode level is 1 or the description is "Elbe-Elster".
+(2) Retrieve the geocode regions for which the geocode level is 1 or the description is "Elbe-Elster" from the table eu_territorial_units in the database eu_territorial_units.
+(3) Find the geocode regions for EU territorial units where the geocode level is 1 or the description is "Elbe-Elster".
+(4) Get the geocode_regions for all eu_territorial_units where the geocode_level is 1 or the description is "Elbe-Elster".
+(5) Retrieve the geocode regions for European Union territorial units where the geocode level is 1 or the description is "Elbe-Elster".
+(6) Retrieve the geocode regions from the European territorial units table where the geocode level is equal to 1 or the description is "Elbe-Elster".
+(7) Find the geocode_regions of all EU territorial units where the geocode_level is 1 or the description is "Elbe-Elster".
+
+
+Re-ranked choices:
+10.529  Find the geocode regions for EU territorial units where the geocode level is 1 or the description is "Elbe-Elster".
+10.527  Get the geocode regions from the EU territorial units table where the geocode level is 1 or the description is "Elbe-Elster".
+9.123  Retrieve the geocode regions for European Union territorial units where the geocode level is 1 or the description is "Elbe-Elster".
+9.123  Retrieve the geocode regions from the European territorial units table where the geocode level is equal to 1 or the description is "Elbe-Elster".
+6.327  Find the geocode_regions of all EU territorial units where the geocode_level is 1 or the description is "Elbe-Elster".
+6.316  Retrieve the geocode regions for which the geocode level is 1 or the description is "Elbe-Elster" from the table eu_territorial_units in the database eu_territorial_units.
+2.122  Return the geocode_regions for all eu_territorial_units where the geocode_level is equal to 1 or the description is "Elbe-Elster".
+2.122  Get the geocode_regions for all eu_territorial_units where the geocode_level is 1 or the description is "Elbe-Elster".
+

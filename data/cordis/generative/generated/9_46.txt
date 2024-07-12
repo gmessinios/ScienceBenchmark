@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.ec_ref != "101002507"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.ec_ref != "101002507"
+GPT-3 choices:
+(0) Find the ERC research domains codes for all projects that are part of a panel and have a corresponding project in the project_erc_panels table, as long as those projects have an EC reference that is not equal to "101002507".
+(1) Show the research domain codes for all ERC panels that are a part of a project in which the EC reference is not "101002507".
+(2) Find the research domain codes for all ERC panels that are part of a project whose EC reference number is not equal to "101002507".
+(3) Find the ERC research domain code for all projects that are part of an ERC panel which is in turn connected to a specific project through the "project_erc_panels" table.
+(4) Find the ERC research domain code for all projects that are part of an ERC panel that is associated with a project in the Projects table where the EC reference is not equal to "101002507".
+(5) Get the codes for research domains from ERC Research Domains that are part of an ERC Panel, which is joined with Project ERC Panels on the code column, which in turn is joined with Projects on the unics_id column, where the EC reference number is not equal to "101002507".
+(6) Get the codes for the research domains that are part of a panel in the ERC panels table, which is also associated with projects through the project ERC panels table, where the project's EC reference number is not equal to 101002507.
+(7) Get the codes for research domains from the ERC research domains table, which are also present in the part of column of the ERC panels table, and which are used in projects that have a EC reference number that is not equal to "101002507".

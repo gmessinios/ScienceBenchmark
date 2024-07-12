@@ -1,0 +1,16 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 7 or photometrically_observed.name = "GHOST"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.value = 7 or T1.name = "GHOST"
+GPT-3 choices:
+(0) What is the description of photometrically observed photo types with a value of 7 or a name of "GHOST"?
+(1) What is the description of the photo type "photometrically observed" where the value is equal to 7 or the name is "GHOST"?
+(2) What are the descriptions for all photo types with a value of 7 or a name of "GHOST" in the photometrically observed table?
+(3) Retrieve the description from the photo_type table where the value is 7 or the name is "GHOST" and store it in a variable called photometrically_observed.
+(4) Retrieve the description from the photo_type table for observations that have a value of 7 or are named "GHOST" in the photometrically_observed column.
+(5) What is the description of a photometrically observed photo type with a value of 7 or a name of "GHOST"?
+(6) Find the description of photometrically observed objects from photo_type where the value is 7 or the name is "GHOST".
+(7) What is the description of the photo type with a value of 7 or a name of "GHOST" in the table for photometrically observed data?

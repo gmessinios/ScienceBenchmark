@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.segue2primary != 1
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.segue2primary != 1
+GPT-3 choices:
+(0) Find the specobjid values from the Emission_line_estimates table where the segue2primary column in the specobj table is not equal to 1.
+(1) Retrieve the specobjid values from the Emission_line_estimates table for all spectroscopic objects in the Spectroscopic_objects table that are not classified as SEGUE2 primary.
+(2) Find the spectroscopic object identification numbers for emission line estimates from the galspecline table that are not primary objects in the specobj table in SEGUE2.
+(3) Find the specobjid of all galspecline objects where segue2primary is not equal to 1 in the table specobj.
+(4) Find the specobjid for Emission_line_estimates where the segue2primary value in Spectroscopic_objects is not equal to 1.
+(5) Retrieve the specobjid values from the Emission_line_estimates table for objects that are in the Spectroscopic_objects table but are not designated as primary objects in Segue 2.
+(6) Find the specobjid of all objects with emission line estimates where the object is not a primary target in the segue2 survey.
+(7) Find the specobjid for all spectroscopic objects where their segue2primary value is not equal to 1, from the table galspecline.

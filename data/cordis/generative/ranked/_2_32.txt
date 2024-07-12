@@ -1,0 +1,28 @@
+SELECT institutions.institutions_name, count(*) FROM institutions AS institutions  GROUP BY institutions.institutions_name
+
+###
+
+
+Original Query:
+SELECT T1.institutions_name, count(*) FROM institutions AS T1  GROUP BY T1.institutions_name
+GPT-3 choices:
+(0) Get the name of institutions and the number of occurrences in the institutions table, grouped by institution name.
+(1) Get the names of institutions and the corresponding count by grouping them according to their names from the table "institutions".
+(2) "How many records are in each institution's name from the institutions table?"
+(3) Count the number of records in the institutions table for each unique institution name and display the institution name along with its corresponding count.
+(4) Find the number of records in the "institutions" table grouped by the name of the institution and also show their respective names.
+(5) Count the number of records in the institutions table grouped by institution name and show the institution name and count for each group.
+(6) "How many institutions have a unique name and how many records belong to each one of those institutions?"
+(7) "How many records are in each institution, and what is the name of each institution?"
+
+
+Re-ranked choices:
+3.528  Find the number of records in the "institutions" table grouped by the name of the institution and also show their respective names.
+3.527  Count the number of records in the institutions table grouped by institution name and show the institution name and count for each group.
+3.526  Get the name of institutions and the number of occurrences in the institutions table, grouped by institution name.
+2.837  "How many records are in each institution's name from the institutions table?"
+2.837  "How many institutions have a unique name and how many records belong to each one of those institutions?"
+2.824  Count the number of records in the institutions table for each unique institution name and display the institution name along with its corresponding count.
+2.124  Get the names of institutions and the corresponding count by grouping them according to their names from the table "institutions".
+1.444  "How many records are in each institution, and what is the name of each institution?"
+

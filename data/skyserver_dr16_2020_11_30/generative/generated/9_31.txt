@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.loadversion != 1017
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.loadversion != 1017
+GPT-3 choices:
+(0) Select the specobjid values from the Emission_line_estimates table where the loadversion column in the joined Spectroscopic_objects table is not equal to 1017.
+(1) Find the specobjid values from galspecline where the corresponding specobjid in specobj has a loadversion that is not equal to 1017.
+(2) Find the specobjid of all emission line estimates for galaxies that have been spectroscopically observed, excluding those with a loadversion of 1017.
+(3) Find the specobjid for each emission line estimate where the loadversion in the specobj table is not equal to 1017.
+(4) Find the specobjid from the galspecline table where the loadversion of the corresponding Spectroscopic_objects entry is not equal to 1017.
+(5) Retrieve the specobjid from the galspecline table where the corresponding Spectroscopic_objects have a loadversion other than 1017.
+(6) Get the specobjid of all objects in galspecline that have a matching specobjid in specobj, but only if the loadversion for that object in specobj is not equal to 1017.
+(7) Retrieve the specobjid from the table Emission_line_estimates where the loadversion is not equal to 1017 in the table Spectroscopic_objects.

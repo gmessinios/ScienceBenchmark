@@ -1,0 +1,16 @@
+SELECT projects.ec_call FROM projects AS projects    ORDER BY projects.end_year DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.ec_call FROM projects AS T1    ORDER BY T1.end_year DESC LIMIT 1
+GPT-3 choices:
+(0) Show the name of the European Commission project that was last called in order from newest to oldest.
+(1) Retrieve the call for European Commission from the most recent project in descending order by end year, limited to one result.
+(2) Get the EC call for the latest project in descending order by end year from the projects table.
+(3) "Retrieve the EC call of the most recent project, sorted by end year in descending order."
+(4) Get the EC call for all projects in descending order by end year and limit the results to one.
+(5) Retrieve the EC call from the most recent project, ordered by end year in descending order.
+(6) Find the ec_call column from the projects table and order the results by the end_year column in descending order, with a limit of 1 result.
+(7) Get the economic call from the most recent project, sorted by end year in descending order, with a limit of one result.

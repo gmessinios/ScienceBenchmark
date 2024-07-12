@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.objid = 1237678906256196033 and Nearest_neighbour_objects.neighbortype = 3
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 WHERE T1.objid = 1237678906256196033 and T1.neighbortype = 3
+GPT-3 choices:
+(0) "Retrieve the neighbor object's ID for objects with the ID 1237678906256196033 and a type of 3 from the neighbors table."
+(1) Retrieve the neighborobjid from the neighbors table where objid is equal to 1237678906256196033 and neighbortype is equal to 3.
+(2) Find the neighbor object IDs for the nearest objects to the given object ID 1237678906256196033 that have a neighbor type of 3.
+(3) Find the IDs of all objects that are nearest neighbors to object 1237678906256196033 and have a neighbor type of 3.
+(4) Get the ID of the nearest neighbor object for the given object with an ID of 1237678906256196033 and a type of 3.
+(5) Find the neighbor object IDs of type 3 for the object with ID 1237678906256196033.
+(6) What is the neighbor object ID for the object with ID 1237678906256196033 and a neighbor type of 3 in the neighbors table?
+(7) Find the objects that are nearest neighbors of the object with id 1237678906256196033 and have a neighbor type of 3.

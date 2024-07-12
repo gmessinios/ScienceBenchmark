@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title = "Urban – interurban shipments" and topics.rcn = "11949"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title = "Urban – interurban shipments" and T1.rcn = "11949"
+GPT-3 choices:
+(0) Retrieve the code of topics where the title is "Urban - interurban shipments" and the RCN is "11949".
+(1) Retrieve the code of topics with title "Urban – interurban shipments" and RCN number "11949" from the table "topics".
+(2) Retrieve the code from the topics table where the title is "Urban – interurban shipments" and the rcn is "11949".
+(3) Retrieve the topic code from the topics table where the title is "Urban – interurban shipments" and the rcn is "11949".
+(4) What is the code for the topic "Urban – interurban shipments" with an rcn of "11949"?
+(5) Retrieve the topic code for "Urban – interurban shipments" with a research code of "11949".
+(6) Find the code for topics with the title "Urban - interurban shipments" and rcn of "11949".
+(7) What is the code for the topic "Urban – interurban shipments" with an rcn value of "11949" in the table "topics"?
+
+
+Re-ranked choices:
+8.432  Retrieve the code from the topics table where the title is "Urban – interurban shipments" and the rcn is "11949".
+8.429  Retrieve the code of topics with title "Urban – interurban shipments" and RCN number "11949" from the table "topics".
+8.428  Retrieve the topic code from the topics table where the title is "Urban – interurban shipments" and the rcn is "11949".
+7.739  Retrieve the code of topics where the title is "Urban - interurban shipments" and the RCN is "11949".
+7.738  Find the code for topics with the title "Urban - interurban shipments" and rcn of "11949".
+7.028  What is the code for the topic "Urban – interurban shipments" with an rcn value of "11949" in the table "topics"?
+5.639  What is the code for the topic "Urban – interurban shipments" with an rcn of "11949"?
+4.239  Retrieve the topic code for "Urban – interurban shipments" with a research code of "11949".
+

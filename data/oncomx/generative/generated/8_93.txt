@@ -1,0 +1,16 @@
+SELECT biomarker_fda_drug.biomarker_fda_id FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_drug != "31703"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_drug != "31703"
+GPT-3 choices:
+(0) Retrieve the biomarker FDA ID from the biomarker FDA drug table where the biomarker drug is not equal to "31703".
+(1) Retrieve the FDA ID of biomarkers for drugs that are not "31703".
+(2) Show me the biomarker FDA IDs for all drugs in which the biomarker is not "31703".
+(3) Find the biomarker FDA IDs from the biomarker FDA drug table where the biomarker drug is not equal to "31703".
+(4) Get the FDA IDs for biomarkers that are not associated with drug ID 31703 in the table biomarker_fda_drug.
+(5) Retrieve the biomarker FDA ID from the biomarker_fda_drug table where the biomarker_drug is not equal to "31703".
+(6) Retrieve the biomarker FDA ID from the biomarker FDA drug table where the biomarker drug is not equal to "31703".
+(7) Retrieve the FDA biomarker IDs from the table "biomarker_fda_drug" where the biomarker drug is not equal to "31703".

@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code = "Activity-5-2014" and topics.title = "Technologies and systems for urban water cycle services"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code = "Activity-5-2014" and T1.title = "Technologies and systems for urban water cycle services"
+GPT-3 choices:
+(0) Find the research code for a topic titled "Technologies and systems for urban water cycle services" with the code "Activity-5-2014".
+(1) Retrieve the research council number from the topics table where the code is "Activity-5-2014" and the title is "Technologies and systems for urban water cycle services".
+(2) Retrieve the research council number for the topic with a code of "Activity-5-2014" and a title of "Technologies and systems for urban water cycle services".
+(3) Retrieve the research code for the topic "Activity-5-2014" with the title "Technologies and systems for urban water cycle services" from the table of topics.
+(4) What is the research council number for the topic "Technologies and systems for urban water cycle services" with a code of "Activity-5-2014" in the topics database?
+(5) What is the research code for "Activity-5-2014" with a title of "Technologies and systems for urban water cycle services" from the topics table?
+(6) Find the Research Council Number (RCN) for a topic with the code "Activity-5-2014" and the title "Technologies and systems for urban water cycle services".
+(7) Retrieve the Research Council Number for the topic "Technologies and systems for urban water cycle services" with the code "Activity-5-2014".

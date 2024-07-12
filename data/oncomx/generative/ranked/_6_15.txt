@@ -1,0 +1,27 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_trade_name = "PROGENSA PCA3 Assay" and biomarker_fda.id = "FDA000084"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.test_trade_name = "PROGENSA PCA3 Assay" and T1.id = "FDA000084"
+GPT-3 choices:
+(0) Retrieve the test submission for the FDA approval with ID "FDA000084" for the PROGENSA PCA3 Assay from the biomarker_fda table.
+(1) Retrieve the test submission information for the PROGENSA PCA3 Assay from the biomarker_fda table where the id is "FDA000084".
+(2) Retrieve the test submission for the FDA-approved biomarker "PROGENSA PCA3 Assay".
+(3) Retrieve the test submission from the FDA database for the PROGENSA PCA3 Assay with an ID of "FDA000084".
+(4) Retrieve the test submission for the Progensa PCA3 Assay from the FDA database with ID "FDA000084".
+(5) Retrieve the test submission from the FDA database for the "PROGENSA PCA3 Assay" with ID FDA000084.
+(6) Retrieve the test submission from the FDA for the "PROGENSA PCA3 Assay" biomarker, specifically with an ID of "FDA000084".
+(7) Retrieve the test submission from the FDA database for the PROGENSA PCA3 Assay with an ID of "FDA000084".
+
+
+Re-ranked choices:
+8.437  Retrieve the test submission for the Progensa PCA3 Assay from the FDA database with ID "FDA000084".
+8.433  Retrieve the test submission from the FDA database for the PROGENSA PCA3 Assay with an ID of "FDA000084".
+8.429  Retrieve the test submission from the FDA for the "PROGENSA PCA3 Assay" biomarker, specifically with an ID of "FDA000084".
+8.425  Retrieve the test submission for the FDA approval with ID "FDA000084" for the PROGENSA PCA3 Assay from the biomarker_fda table.
+7.737  Retrieve the test submission from the FDA database for the "PROGENSA PCA3 Assay" with ID FDA000084.
+7.022  Retrieve the test submission information for the PROGENSA PCA3 Assay from the biomarker_fda table where the id is "FDA000084".
+6.331  Retrieve the test submission for the FDA-approved biomarker "PROGENSA PCA3 Assay".
+

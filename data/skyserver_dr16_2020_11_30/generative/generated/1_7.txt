@@ -1,0 +1,16 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.z = -0.001668776
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.z = -0.001668776
+GPT-3 choices:
+(0) Find the specobjid for all spplines where the z value in the corresponding entry in specobj is equal to -0.001668776.
+(1) Find the specobjid from spplines where the corresponding Spectroscopic_objects have a redshift value of -0.001668776.
+(2) Find the specobjid from the spplines table where the redshift value in the corresponding row in the specobj table is equal to -0.001668776.
+(3) Get the specobjid from spplines where the corresponding Spectroscopic_objects have a redshift value of -0.001668776.
+(4) Find the specobjid for stellar spectral line indices where the redshift value in Spectroscopic objects is -0.001668776.
+(5) Find the specobjid for all spplines where the corresponding Spectroscopic_objects have a redshift of -0.001668776.
+(6) Retrieve the specobjid from spplines where the corresponding z value in the specobj table is -0.001668776.
+(7) Retrieve the specobjid from spplines where the corresponding spectroscopic object has a redshift of -0.001668776.

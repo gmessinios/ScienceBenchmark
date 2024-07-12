@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units JOIN project_members AS project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.member_name = "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA"
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 JOIN project_members AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.member_name = "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA"
+GPT-3 choices:
+(0) What is the NUTS version for the geocode regions associated with the project member named "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA"?
+(1) Get the nuts version from the eu_territorial_units table for the project member "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA" by joining with project_members on geocode_regions_3.
+(2) Retrieve the NUTS version from the European Union territorial units for the project member with a geocode region 3 of "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA".
+(3) What is the nuts version for the project member named "Asociación para la Defensa de la Naturaleza"?
+(4) Retrieve the NUTS version of the EU territorial units for the project member with the name "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA".
+(5) Retrieve the NUTS version for the EU territorial units where the geocode regions match those of the project members whose member name is "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA".
+(6) What is the NUTS version for the EU territorial units that are associated with the project members from the association for nature conservation?
+(7) What is the NUTS version associated with the geocode regions for members of the project "ASOCIACION PARA LA DEFENSA DE LA NATURALEZA"?

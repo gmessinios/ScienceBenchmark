@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_manufacturer = "INVITROGEN CORPORATION"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test AS T1 WHERE T1.test_manufacturer = "INVITROGEN CORPORATION"
+GPT-3 choices:
+(0) How many biomarker tests have been done by Invitrogen Corporation?
+(1) How many biomarker FDA tests were done by the manufacturer Invitrogen Corporation?
+(2) How many biomarker tests were conducted by the manufacturer INVITROGEN CORPORATION?
+(3) How many entries are there in the biomarker FDA test table where the test manufacturer is Invitrogen Corporation?
+(4) How many biomarker tests were conducted by Invitrogen Corporation?
+(5) How many biomarker FDA tests are there where the test manufacturer is Invitrogen Corporation?
+(6) How many biomarker FDA tests were conducted by Invitrogen Corporation?
+(7) How many rows are in the table biomarker_fda_test where the test manufacturer is "INVITROGEN CORPORATION"?
+
+
+Re-ranked choices:
+6.325  How many biomarker FDA tests are there where the test manufacturer is Invitrogen Corporation?
+6.324  How many entries are there in the biomarker FDA test table where the test manufacturer is Invitrogen Corporation?
+4.924  How many biomarker FDA tests were done by the manufacturer Invitrogen Corporation?
+4.220  How many rows are in the table biomarker_fda_test where the test manufacturer is "INVITROGEN CORPORATION"?
+3.526  How many biomarker FDA tests were conducted by Invitrogen Corporation?
+3.519  How many biomarker tests were conducted by the manufacturer INVITROGEN CORPORATION?
+2.132  How many biomarker tests have been done by Invitrogen Corporation?
+2.124  How many biomarker tests were conducted by Invitrogen Corporation?
+

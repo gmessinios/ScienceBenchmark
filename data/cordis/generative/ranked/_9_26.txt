@@ -1,0 +1,28 @@
+SELECT institutions.unics_id FROM institutions AS institutions JOIN project_members AS project_members ON institutions.unics_id = project_members.institution_id WHERE project_members.street != "Via Fratelli Rosselli 50-52"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id WHERE T2.street != "Via Fratelli Rosselli 50-52"
+GPT-3 choices:
+(0) Find the unique identifier of institutions where the street is not "Via Fratelli Rosselli 50-52" and it matches with the institution id in project_members.
+(1) Find the unique identification numbers of institutions that have project members whose street is not "Via Fratelli Rosselli 50-52".
+(2) "Retrieve the unique identifier of all institutions that have a project member who is not located at 'Via Fratelli Rosselli 50-52'."
+(3) Find the UNICS ID for institutions where their street is not "Via Fratelli Rosselli 50-52" and they have project members associated with them.
+(4) Get the unics ID from institutions for all project members whose street is not "Via Fratelli Rosselli 50-52".
+(5) Get the unics_id from institutions for all project members whose institution is not located at "Via Fratelli Rosselli 50-52".
+(6) Retrieve the unique institution IDs from the institutions table where the street for project members is not "Via Fratelli Rosselli 50-52", and join it with the project members table using the matching institution ID.
+(7) Retrieve the UNICS IDs of institutions where the street is not "Via Fratelli Rosselli 50-52" and there exists a project member associated with that institution.
+
+
+Re-ranked choices:
+11.234  Get the unics ID from institutions for all project members whose street is not "Via Fratelli Rosselli 50-52".
+11.225  Find the UNICS ID for institutions where their street is not "Via Fratelli Rosselli 50-52" and they have project members associated with them.
+9.818  Retrieve the unique institution IDs from the institutions table where the street for project members is not "Via Fratelli Rosselli 50-52", and join it with the project members table using the matching institution ID.
+8.426  Find the unique identification numbers of institutions that have project members whose street is not "Via Fratelli Rosselli 50-52".
+8.424  Get the unics_id from institutions for all project members whose institution is not located at "Via Fratelli Rosselli 50-52".
+8.420  Find the unique identifier of institutions where the street is not "Via Fratelli Rosselli 50-52" and it matches with the institution id in project_members.
+8.420  Retrieve the UNICS IDs of institutions where the street is not "Via Fratelli Rosselli 50-52" and there exists a project member associated with that institution.
+5.624  "Retrieve the unique identifier of all institutions that have a project member who is not located at 'Via Fratelli Rosselli 50-52'."
+

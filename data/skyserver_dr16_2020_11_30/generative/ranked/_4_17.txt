@@ -1,0 +1,28 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.mode = 1
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.mode = 1
+GPT-3 choices:
+(0) How many objects are there in the neighbors table that have a mode value of 1?
+(1) How many objects are there in the "neighbors" table that have a mode value of 1 in the "Nearest_neighbour_objects" column?
+(2) How many objects are there in the "neighbors" table that have a mode of 1 in the "Nearest_neighbour_objects" column?
+(3) "How many objects have a mode value of 1 in the neighbors table?"
+(4) "How many nearest neighbor objects have a mode value of 1 in the 'neighbors' table?"
+(5) How many objects are there in the "neighbors" table where the mode is equal to 1 and they are considered nearest neighbors?
+(6) Find the count of all objects in the neighbors table where the mode is equal to 1.
+(7) Count the number of objects in the "neighbors" table where the mode is equal to 1.
+
+
+Re-ranked choices:
+4.932  How many objects are there in the "neighbors" table that have a mode of 1 in the "Nearest_neighbour_objects" column?
+4.931  How many objects are there in the "neighbors" table that have a mode value of 1 in the "Nearest_neighbour_objects" column?
+4.262  "How many objects have a mode value of 1 in the neighbors table?"
+4.258  Find the count of all objects in the neighbors table where the mode is equal to 1.
+4.250  How many objects are there in the neighbors table that have a mode value of 1?
+4.250  Count the number of objects in the "neighbors" table where the mode is equal to 1.
+4.244  "How many nearest neighbor objects have a mode value of 1 in the 'neighbors' table?"
+2.832  How many objects are there in the "neighbors" table where the mode is equal to 1 and they are considered nearest neighbors?
+

@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type = 3
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 WHERE T1.type = 3
+GPT-3 choices:
+(0) Get the type of all neighboring objects where the type is 3.
+(1) Find the type of neighbors that are closest to the objects with a type of 3.
+(2) Retrieve the type of neighbors from the table "neighbors" where the type is equal to 3, calling this table "Nearest_neighbour_objects".
+(3) "Retrieve the type of nearest neighbour objects from the 'neighbors' table where the type is equal to 3."
+(4) What are the types of the nearest neighbours in the neighbors table whose type is equal to 3?
+(5) Find the type of nearest neighbor objects where the type is equal to 3.
+(6) "Retrieve the type of nearest neighbour objects from the neighbors table where the type is equal to 3."
+(7) Find the type of nearest neighbor objects where the type is equal to 3.

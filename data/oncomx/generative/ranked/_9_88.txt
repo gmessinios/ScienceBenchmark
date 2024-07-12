@@ -1,0 +1,28 @@
+SELECT disease_mutation_impact_prediction.tool FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction JOIN disease_mutation AS disease_mutation ON disease_mutation_impact_prediction.disease_mutation_id = disease_mutation.id WHERE disease_mutation.alt_aa != "M"
+
+###
+
+
+Original Query:
+SELECT T1.tool FROM disease_mutation_impact_prediction AS T1 JOIN disease_mutation AS T2 ON T1.disease_mutation_id = T2.id WHERE T2.alt_aa != "M"
+GPT-3 choices:
+(0) Retrieve the tool used for predicting the impact of a mutation in a disease from the database for all disease mutations with an alternative amino acid that is not "M".
+(1) Find the tool used for predicting the impact of mutations associated with diseases, excluding mutations where the alternate amino acid is not "M".
+(2) Find the tool used in disease mutation impact prediction for all mutations where the alternate amino acid is not "M".
+(3) Retrieve the tool used for predicting the impact of a disease mutation from the database, where the alternative amino acid is not equal to "M".
+(4) Find the tool used in predicting the impact of mutations on diseases for all disease-mutation pairs where the alternate amino acid is not "M".
+(5) What are the tools used for disease mutation impact prediction where the alternative amino acid is not "M"?
+(6) Retrieve the tools used for predicting the impact of mutations in diseases where the alternate amino acid is not "M".
+(7) What are the names of tools used in predicting the impact of mutations on diseases, for cases where the mutated amino acid is not methionine?
+
+
+Re-ranked choices:
+7.730  Find the tool used in disease mutation impact prediction for all mutations where the alternate amino acid is not "M".
+6.333  What are the tools used for disease mutation impact prediction where the alternative amino acid is not "M"?
+6.328  Retrieve the tool used for predicting the impact of a disease mutation from the database, where the alternative amino acid is not equal to "M".
+6.322  Retrieve the tool used for predicting the impact of a mutation in a disease from the database for all disease mutations with an alternative amino acid that is not "M".
+4.226  Find the tool used in predicting the impact of mutations on diseases for all disease-mutation pairs where the alternate amino acid is not "M".
+3.522  Find the tool used for predicting the impact of mutations associated with diseases, excluding mutations where the alternate amino acid is not "M".
+2.130  Retrieve the tools used for predicting the impact of mutations in diseases where the alternate amino acid is not "M".
+2.125  What are the names of tools used in predicting the impact of mutations on diseases, for cases where the mutated amino acid is not methionine?
+

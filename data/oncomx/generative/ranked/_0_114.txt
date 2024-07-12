@@ -1,0 +1,28 @@
+SELECT biomarker_fda_drug.biomarker_drug FROM biomarker_fda_drug AS biomarker_fda_drug WHERE biomarker_fda_drug.biomarker_fda_id = "FDA000036"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_drug FROM biomarker_fda_drug AS T1 WHERE T1.biomarker_fda_id = "FDA000036"
+GPT-3 choices:
+(0) Show me the biomarker drugs associated with FDA ID "FDA000036" from the table "biomarker_fda_drug".
+(1) Retrieve the biomarker drug from the FDA-approved drugs for which the biomarker FDA ID is "FDA000036".
+(2) "Retrieve the biomarker drugs associated with the FDA biomarker ID 'FDA000036' from the table of FDA-approved biomarker drugs."
+(3) Which biomarker drugs are associated with the FDA approval ID "FDA000036"?
+(4) "Retrieve the biomarker drug associated with the FDA ID "FDA000036" from the table biomarker_fda_drug."
+(5) Retrieve the biomarker drugs associated with the FDA biomarker ID "FDA000036" from the table "biomarker_fda_drug".
+(6) Get the name of the drug associated with biomarker FDA000036 in the "biomarker_fda_drug" table.
+(7) Find all biomarker drugs associated with the FDA record with ID "FDA000036".
+
+
+Re-ranked choices:
+6.350  Retrieve the biomarker drug from the FDA-approved drugs for which the biomarker FDA ID is "FDA000036".
+6.325  "Retrieve the biomarker drug associated with the FDA ID "FDA000036" from the table biomarker_fda_drug."
+4.954  Find all biomarker drugs associated with the FDA record with ID "FDA000036".
+4.947  Which biomarker drugs are associated with the FDA approval ID "FDA000036"?
+4.931  Show me the biomarker drugs associated with FDA ID "FDA000036" from the table "biomarker_fda_drug".
+4.929  "Retrieve the biomarker drugs associated with the FDA biomarker ID 'FDA000036' from the table of FDA-approved biomarker drugs."
+4.927  Retrieve the biomarker drugs associated with the FDA biomarker ID "FDA000036" from the table "biomarker_fda_drug".
+3.531  Get the name of the drug associated with biomarker FDA000036 in the "biomarker_fda_drug" table.
+

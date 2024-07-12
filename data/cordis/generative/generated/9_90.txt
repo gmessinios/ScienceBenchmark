@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_role != "participant"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.member_role != "participant"
+GPT-3 choices:
+(0) Get the description of the activity type from the project members' activity types table for all project members who do not have a role of "participant".
+(1) Retrieve the description of activity types from the project members table where the member role is not equal to "participant".
+(2) Retrieve the descriptions of all activity types from the project members table where the member role is not equal to "participant".
+(3) What are the descriptions of all activity types that project members are involved in, excluding those with the role of "participant"?
+(4) Find the description of all activity types for project members who do not have the role of "participant".
+(5) Retrieve the description of all activity types from the project_members table where the member_role is not "participant", joined with the activity_types table on matching activity type codes.
+(6) Retrieve the description of all activity types from the project_members table, excluding those where the member_role is "participant", by joining with the activity_types table and matching on the activity_type code.
+(7) "Retrieve the description from activity_types where the activity_type code matches the project_members' activity_type and the member_role is not equal to 'participant'."

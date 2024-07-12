@@ -1,0 +1,16 @@
+SELECT disease_mutation_site_annotation.id, count(*) FROM disease_mutation_site_annotation AS disease_mutation_site_annotation  GROUP BY disease_mutation_site_annotation.id
+
+###
+
+
+Original Query:
+SELECT T1.id, count(*) FROM disease_mutation_site_annotation AS T1  GROUP BY T1.id
+GPT-3 choices:
+(0) Count the number of occurrences of each unique identifier in the "disease_mutation_site_annotation" table and group the results by those identifiers.
+(1) How many records are there in the disease_mutation_site_annotation table and what is the count for each distinct ID?
+(2) How many disease mutation site annotations are there, grouped by their IDs?
+(3) Count the number of occurrences for each ID in the disease_mutation_site_annotation table.
+(4) Count the number of occurrences for each unique id in the disease_mutation_site_annotation table.
+(5) Count the number of mutations for each ID in the table disease_mutation_site_annotation and group them by their respective IDs.
+(6) Count the number of occurrences for each unique identifier in the table "disease_mutation_site_annotation".
+(7) Count the number of occurrences of each unique ID in the table "disease_mutation_site_annotation" and group them together by their respective IDs.

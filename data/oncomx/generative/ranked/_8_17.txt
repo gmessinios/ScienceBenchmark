@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.biomarker_origin FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_manufacturer != "23andMe"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_origin FROM biomarker_fda_test AS T1 WHERE T1.test_manufacturer != "23andMe"
+GPT-3 choices:
+(0) "Retrieve the origin of biomarkers from the FDA that are not manufactured by 23andMe."
+(1) What is the origin of biomarkers from FDA tests that were not manufactured by "23andMe"?
+(2) What is the origin of biomarkers from the biomarker_fda_test table where the test manufacturer is not "23andMe"?
+(3) "Retrieve the origin of biomarkers from FDA-approved tests, excluding any that were manufactured by 23andMe."
+(4) Retrieve the origin of all biomarkers from FDA-approved tests that were not manufactured by 23andMe.
+(5) Find the origin of biomarkers that are not manufactured by 23andMe in the biomarker_fda_test table.
+(6) What is the biomarker origin for all entries in the biomarker_fda_test table, where the test manufacturer is not equal to "23andMe"?
+(7) "What is the origin of the biomarker from the FDA test if it was not manufactured by 23andMe?"
+
+
+Re-ranked choices:
+6.327  What is the biomarker origin for all entries in the biomarker_fda_test table, where the test manufacturer is not equal to "23andMe"?
+5.644  "What is the origin of the biomarker from the FDA test if it was not manufactured by 23andMe?"
+4.931  What is the origin of biomarkers from the biomarker_fda_test table where the test manufacturer is not "23andMe"?
+3.554  What is the origin of biomarkers from FDA tests that were not manufactured by "23andMe"?
+2.847  "Retrieve the origin of biomarkers from the FDA that are not manufactured by 23andMe."
+2.133  Find the origin of biomarkers that are not manufactured by 23andMe in the biomarker_fda_test table.
+1.438  Retrieve the origin of all biomarkers from FDA-approved tests that were not manufactured by 23andMe.
+1.433  "Retrieve the origin of biomarkers from FDA-approved tests, excluding any that were manufactured by 23andMe."
+

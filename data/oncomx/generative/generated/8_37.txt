@@ -1,0 +1,16 @@
+SELECT anatomical_entity.description FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.name != "caudate-putamen"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM anatomical_entity AS T1 WHERE T1.name != "caudate-putamen"
+GPT-3 choices:
+(0) Retrieve the description of all anatomical entities that are not named "caudate-putamen".
+(1) Retrieve the description of all anatomical entities except for the caudate-putamen.
+(2) Get the description of all anatomical entities, excluding "caudate-putamen", from the anatomical_entity table.
+(3) What is the description of all anatomical entities except for the caudate-putamen?
+(4) Retrieve the descriptions of all anatomical entities except for "caudate-putamen".
+(5) Retrieve the descriptions of all anatomical entities except for the "caudate-putamen".
+(6) Retrieve the description of all anatomical entities excluding the one named "caudate-putamen".
+(7) Retrieve the description of all anatomical entities except for the caudate-putamen from the database.

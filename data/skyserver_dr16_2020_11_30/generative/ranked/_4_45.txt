@@ -1,0 +1,28 @@
+SELECT count(*) FROM galspecline AS Emission_line_estimates WHERE Emission_line_estimates.specobjid = 299536131811207168
+
+###
+
+
+Original Query:
+SELECT count(*) FROM galspecline AS T1 WHERE T1.specobjid = 299536131811207168
+GPT-3 choices:
+(0) How many rows are there in the table "galspecline" where the value of the column "specobjid" is equal to 299536131811207168?
+(1) How many emission line estimates are there for the spectral object with ID 299536131811207168?
+(2) How many emission line estimates are there for the spectrum object with specobjid 299536131811207168?
+(3) How many rows are there in the table "galspecline" where the specobjid is equal to 299536131811207168 in the table "Emission_line_estimates"?
+(4) How many emission line estimates are there for the spectroscopic object with an ID of 299536131811207168 in the galspecline table?
+(5) How many emission line estimates are there for the spectrum with a specobjid of 299536131811207168?
+(6) How many emission line estimates are there for the specobjid 299536131811207168 in the table galspecline?
+(7) Count the number of rows in the table "galspecline" where the specobjid column is equal to 299536131811207168.
+
+
+Re-ranked choices:
+7.028  How many emission line estimates are there for the spectroscopic object with an ID of 299536131811207168 in the galspecline table?
+5.647  How many emission line estimates are there for the spectral object with ID 299536131811207168?
+4.241  How many emission line estimates are there for the spectrum object with specobjid 299536131811207168?
+2.845  How many emission line estimates are there for the spectrum with a specobjid of 299536131811207168?
+2.834  How many emission line estimates are there for the specobjid 299536131811207168 in the table galspecline?
+0.728  How many rows are there in the table "galspecline" where the specobjid is equal to 299536131811207168 in the table "Emission_line_estimates"?
+0.036  Count the number of rows in the table "galspecline" where the specobjid column is equal to 299536131811207168.
+0.031  How many rows are there in the table "galspecline" where the value of the column "specobjid" is equal to 299536131811207168?
+

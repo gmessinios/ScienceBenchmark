@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.zwarning = 0
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.zwarning = 0
+GPT-3 choices:
+(0) Retrieve the specobjid values from the Emission_line_estimates table for spectroscopic objects that have a zwarning value of 0 in the specobj table.
+(1) Retrieve the specobjid from the Emission_line_estimates table for all Spectroscopic_objects that have a zwarning value of 0 in the specobj table.
+(2) Find the specobjid values from the galspecline table where the corresponding Spectroscopic_objects have a zwarning value of 0.
+(3) Retrieve the specobjid values from the Emission_line_estimates table where the corresponding Spectroscopic_objects have a zwarning value of 0.
+(4) Retrieve the specobjid values from the galspecline table where the zwarning value for that specobjid in the corresponding row of the specobj table is equal to 0.
+(5) Retrieve the specobjid values from the galspecline table where zwarning is equal to 0 in the specobj table.
+(6) Retrieve the specobjid values from the Emission_line_estimates table for all spectroscopic objects in the Spectroscopic_objects table where zwarning is equal to 0.
+(7) Find the specobjid for emission line estimates where the corresponding spectroscopic object has a zwarning value of 0.

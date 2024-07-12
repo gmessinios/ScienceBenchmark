@@ -1,0 +1,16 @@
+SELECT anatomical_entity.description FROM anatomical_entity AS anatomical_entity JOIN biomarker_edrn AS biomarker_edrn ON anatomical_entity.id = biomarker_edrn.uberon_anatomical_id WHERE biomarker_edrn.qa_state = "Under Review"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM anatomical_entity AS T1 JOIN biomarker_edrn AS T2 ON T1.id = T2.uberon_anatomical_id WHERE T2.qa_state = "Under Review"
+GPT-3 choices:
+(0) What is the description of anatomical entities for which the QA state in biomarker_edrn is "Under Review"?
+(1) Retrieve the description of anatomical entities that are associated with biomarkers currently under review in the EDRN database.
+(2) What are the descriptions of anatomical entities that have a corresponding ID in the biomarker_edrn table and a QA state of "Under Review"?
+(3) Retrieve the description of anatomical entities associated with biomarkers that are currently under review in the EDRN database.
+(4) What are the descriptions of anatomical entities that are linked to biomarkers currently under review in the EDRN database?
+(5) Get the description of the anatomical entity from the biomarker_edrn table where the QA state is "Under Review" and join it with the anatomical_entity table on matching IDs.
+(6) What is the description of the anatomical entity associated with a biomarker in review?
+(7) What are the descriptions of anatomical entities associated with biomarkers in a QA state of "Under Review" in the EDRN database?

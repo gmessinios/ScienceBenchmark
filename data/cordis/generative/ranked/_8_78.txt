@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions AS institutions WHERE institutions.website != "http://www.aslto3.piemonte.it/"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM institutions AS T1 WHERE T1.website != "http://www.aslto3.piemonte.it/"
+GPT-3 choices:
+(0) Retrieve the short names of institutions where their website is not "http://www.aslto3.piemonte.it/".
+(1) Get the short names of institutions from a table called "institutions" where their website is not equal to "http://www.aslto3.piemonte.it/".
+(2) Retrieve the short names of institutions from a table called "institutions" where their website is not equal to "http://www.aslto3.piemonte.it/".
+(3) Get the short names of institutions where their website is not "http://www.aslto3.piemonte.it/".
+(4) Retrieve the short names of all institutions whose website is not "http://www.aslto3.piemonte.it/".
+(5) Retrieve the short names of all institutions from the database, except for those with a website that is equal to "http://www.aslto3.piemonte.it/".
+(6) Retrieve the short names of institutions from the table "institutions" where their website is not "http://www.aslto3.piemonte.it/".
+(7) Find the short names of institutions that have a website other than "http://www.aslto3.piemonte.it/".
+
+
+Re-ranked choices:
+4.244  Get the short names of institutions where their website is not "http://www.aslto3.piemonte.it/".
+4.242  Find the short names of institutions that have a website other than "http://www.aslto3.piemonte.it/".
+4.237  Retrieve the short names of institutions where their website is not "http://www.aslto3.piemonte.it/".
+4.237  Retrieve the short names of all institutions whose website is not "http://www.aslto3.piemonte.it/".
+4.233  Retrieve the short names of all institutions from the database, except for those with a website that is equal to "http://www.aslto3.piemonte.it/".
+4.232  Get the short names of institutions from a table called "institutions" where their website is not equal to "http://www.aslto3.piemonte.it/".
+4.228  Retrieve the short names of institutions from a table called "institutions" where their website is not equal to "http://www.aslto3.piemonte.it/".
+4.228  Retrieve the short names of institutions from the table "institutions" where their website is not "http://www.aslto3.piemonte.it/".
+

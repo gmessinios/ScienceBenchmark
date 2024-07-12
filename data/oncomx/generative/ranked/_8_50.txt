@@ -1,0 +1,28 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article WHERE biomarker_article.biomarker_internal_id != "EDRN00305"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 WHERE T1.biomarker_internal_id != "EDRN00305"
+GPT-3 choices:
+(0) Find the PMID numbers for articles associated with biomarkers other than "EDRN00305".
+(1) Find the PubMed IDs for articles that do not have the same biomarker internal ID as "EDRN00305".
+(2) Retrieve the PMID of articles related to biomarkers that are not equal to "EDRN00305".
+(3) "Retrieve the PMID values from the biomarker_article table for all entries where the biomarker_internal_id is not equal to "EDRN00305".
+(4) Find the PMID of articles in the biomarker_article table where the biomarker_internal_id is not equal to "EDRN00305".
+(5) Find the PMID of all articles in the biomarker_article table where the biomarker_internal_id is not equal to "EDRN00305".
+(6) Get the PubMed IDs of all articles that contain biomarkers, excluding the article with a biomarker internal ID of "EDRN00305".
+(7) Find the PMID of all articles that have a biomarker internal ID different from "EDRN00305".
+
+
+Re-ranked choices:
+6.337  Find the PMID of all articles that have a biomarker internal ID different from "EDRN00305".
+6.327  Get the PubMed IDs of all articles that contain biomarkers, excluding the article with a biomarker internal ID of "EDRN00305".
+4.947  Find the PubMed IDs for articles that do not have the same biomarker internal ID as "EDRN00305".
+2.147  Retrieve the PMID of articles related to biomarkers that are not equal to "EDRN00305".
+2.134  Find the PMID of articles in the biomarker_article table where the biomarker_internal_id is not equal to "EDRN00305".
+2.133  Find the PMID of all articles in the biomarker_article table where the biomarker_internal_id is not equal to "EDRN00305".
+2.129  Find the PMID numbers for articles associated with biomarkers other than "EDRN00305".
+2.129  "Retrieve the PMID values from the biomarker_article table for all entries where the biomarker_internal_id is not equal to "EDRN00305".
+

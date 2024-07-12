@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.feature_key FROM disease_mutation_site_annotation AS disease_mutation_site_annotation    ORDER BY disease_mutation_site_annotation.disease_mutation_id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.feature_key FROM disease_mutation_site_annotation AS T1    ORDER BY T1.disease_mutation_id DESC LIMIT 1
+GPT-3 choices:
+(0) What is the most recent disease mutation site annotation feature key?
+(1) "Retrieve the feature key from the latest disease mutation site annotation, sorted by descending disease mutation ID, limited to one result."
+(2) "Retrieve the most recent feature key from the disease mutation site annotation table, ordered by the disease mutation ID in descending order and limit the results to 1."
+(3) Find the most recent feature key in the disease mutation site annotation table, ordered by the ID of the corresponding disease mutation in descending order.
+(4) Retrieve the feature key from the most recently added entry in the disease_mutation_site_annotation table.
+(5) Retrieve the feature key from the disease mutation site annotation table, sorted in descending order by disease mutation ID and limited to 1 result.
+(6) Get the most recent feature key from the disease mutation site annotation table, ordered by disease mutation ID in descending order and limited to 1 result.
+(7) Get the feature key from the disease mutation site annotation table, sorted in descending order by disease mutation id and limit the result to one entry.
+
+
+Re-ranked choices:
+10.521  Get the most recent feature key from the disease mutation site annotation table, ordered by disease mutation ID in descending order and limited to 1 result.
+10.520  Retrieve the feature key from the disease mutation site annotation table, sorted in descending order by disease mutation ID and limited to 1 result.
+10.519  "Retrieve the most recent feature key from the disease mutation site annotation table, ordered by the disease mutation ID in descending order and limit the results to 1."
+10.519  Find the most recent feature key in the disease mutation site annotation table, ordered by the ID of the corresponding disease mutation in descending order.
+10.519  Get the feature key from the disease mutation site annotation table, sorted in descending order by disease mutation id and limit the result to one entry.
+7.720  "Retrieve the feature key from the latest disease mutation site annotation, sorted by descending disease mutation ID, limited to one result."
+7.034  What is the most recent disease mutation site annotation feature key?
+2.824  Retrieve the feature key from the most recently added entry in the disease_mutation_site_annotation table.
+

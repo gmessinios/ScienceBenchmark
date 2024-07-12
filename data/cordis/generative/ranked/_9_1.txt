@@ -1,0 +1,28 @@
+SELECT project_members.member_name FROM project_members AS project_members JOIN institutions AS institutions ON project_members.institution_id = institutions.unics_id WHERE institutions.grid_id != "grid.447066.7"
+
+###
+
+
+Original Query:
+SELECT T1.member_name FROM project_members AS T1 JOIN institutions AS T2 ON T1.institution_id = T2.unics_id WHERE T2.grid_id != "grid.447066.7"
+GPT-3 choices:
+(0) Find the names of all members belonging to projects associated with institutions whose grid ID is not "grid.447066.7".
+(1) Get the member names of all project members from institutions that have a grid ID other than "grid.447066.7".
+(2) Retrieve the member names of project members who belong to institutions that have a grid ID different from "grid.447066.7".
+(3) Retrieve the names of members from the "project_members" table who are associated with institutions other than "grid.447066.7".
+(4) Retrieve the member names of all project members who belong to an institution with a grid ID different from "grid.447066.7".
+(5) Retrieve the names of all members from the table "project_members" who are affiliated with institutions whose grid ID is not equal to "grid.447066.7".
+(6) Find the names of all members from institutions that are not equal to "grid.447066.7" in the project_members table, and join them with their corresponding institution name from the institutions table using their unique ID.
+(7) Retrieve the member names of all project members who belong to an institution with a GRID ID that is not equal to "grid.447066.7".
+
+
+Re-ranked choices:
+8.444  Get the member names of all project members from institutions that have a grid ID other than "grid.447066.7".
+8.434  Retrieve the member names of all project members who belong to an institution with a GRID ID that is not equal to "grid.447066.7".
+8.432  Retrieve the member names of project members who belong to institutions that have a grid ID different from "grid.447066.7".
+8.430  Retrieve the member names of all project members who belong to an institution with a grid ID different from "grid.447066.7".
+5.630  Find the names of all members from institutions that are not equal to "grid.447066.7" in the project_members table, and join them with their corresponding institution name from the institutions table using their unique ID.
+5.629  Find the names of all members belonging to projects associated with institutions whose grid ID is not "grid.447066.7".
+5.624  Retrieve the names of all members from the table "project_members" who are affiliated with institutions whose grid ID is not equal to "grid.447066.7".
+2.824  Retrieve the names of members from the "project_members" table who are associated with institutions other than "grid.447066.7".
+

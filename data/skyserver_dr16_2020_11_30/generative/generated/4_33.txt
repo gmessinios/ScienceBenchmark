@@ -1,0 +1,16 @@
+SELECT count(*) FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photo_type AS T1 WHERE T1.description = "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)"
+GPT-3 choices:
+(0) How many photometrically observed objects in the photo_type table have a description of "KnownObject: Object came from some other catalog (not the SDSS catalog)" that is not currently being used?
+(1) How many objects have been photometrically observed that were not from the SDSS catalog?
+(2) How many objects have been photometrically observed and are described as coming from a catalog other than the SDSS catalog?
+(3) How many photometrically observed objects are classified as "KnownObject: Object came from some other catalog (not the SDSS catalog)"?
+(4) How many objects in the photo_type table are marked as being known objects that came from a catalog other than SDSS and have not yet been used?
+(5) How many photo types in the photometrically observed category have a description of "KnownObject: Object came from some other catalog (not the SDSS catalog). (not yet used)"?
+(6) How many objects are in the photo_type table that were observed photometrically and came from a catalog other than SDSS, but have not yet been used?
+(7) How many objects have been photometrically observed and are known to have come from a catalog other than the SDSS catalog, but this information has not yet been utilized?

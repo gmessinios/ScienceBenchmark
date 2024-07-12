@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.end_date = "2015-11-14"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.end_date = "2015-11-14"
+GPT-3 choices:
+(0) What is the name of the framework program associated with projects that ended on November 14, 2015?
+(1) Retrieve the name of the framework program from the table "ec_framework_programs" that matches the value of "framework_program" in the table "projects" where the end date is equal to "2015-11-14".
+(2) What is the name of the framework program for projects that ended on November 14, 2015?
+(3) Find the name of the framework program from the table ec_framework_programs that matches with the framework program in the projects table where the end date is November 14, 2015.
+(4) Find the name of the framework program from the ec_framework_programs table that matches the framework program listed in the projects table where the project's end date is November 14, 2015.
+(5) Retrieve the name of the framework program from the ec_framework_programs table that is associated with projects that have an end date of November 14, 2015.
+(6) Find the names of all framework programs from the EC Framework Programs table that match with the framework program used in projects with an end date of November 14th, 2015.
+(7) What are the names of the framework programs that were used for projects with an end date of November 14th, 2015?
+
+
+Re-ranked choices:
+9.826  Find the names of all framework programs from the EC Framework Programs table that match with the framework program used in projects with an end date of November 14th, 2015.
+9.123  Retrieve the name of the framework program from the table "ec_framework_programs" that matches the value of "framework_program" in the table "projects" where the end date is equal to "2015-11-14".
+8.423  Retrieve the name of the framework program from the ec_framework_programs table that is associated with projects that have an end date of November 14, 2015.
+8.423  Find the name of the framework program from the table ec_framework_programs that matches with the framework program in the projects table where the end date is November 14, 2015.
+8.422  Find the name of the framework program from the ec_framework_programs table that matches the framework program listed in the projects table where the project's end date is November 14, 2015.
+7.044  What are the names of the framework programs that were used for projects with an end date of November 14th, 2015?
+6.350  What is the name of the framework program for projects that ended on November 14, 2015?
+6.334  What is the name of the framework program associated with projects that ended on November 14, 2015?
+

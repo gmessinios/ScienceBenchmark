@@ -1,0 +1,28 @@
+SELECT disease_mutation_tissue.disease_mutation_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.uberon_anatomical_id = "UBERON:0000467"
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_tissue AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0000467"
+GPT-3 choices:
+(0) Find the disease mutation IDs associated with tissue samples from the uterine cervix.
+(1) Retrieve the disease mutation ID from the disease_mutation_tissue table where the uberon_anatomical_id is equal to "UBERON:0000467".
+(2) Retrieve the disease mutation IDs associated with the tissue located in the uterine tube (UBERON:0000467).
+(3) "Find the disease mutation IDs associated with a specific tissue represented by UBERON:0000467 in the disease_mutation_tissue table."
+(4) Get the disease mutation IDs from the table "disease_mutation_tissue" where the anatomical ID is "UBERON:0000467".
+(5) Get the disease mutation IDs from the table "disease_mutation_tissue" where the uberon_anatomical_id is equal to "UBERON:0000467".
+(6) What are the disease mutation IDs associated with tissues that have a UBERON anatomical ID of "UBERON:0000467"?
+(7) Find the disease-mutation IDs from the table disease_mutation_tissue where the uberon_anatomical_id is "UBERON:0000467".
+
+
+Re-ranked choices:
+7.725  What are the disease mutation IDs associated with tissues that have a UBERON anatomical ID of "UBERON:0000467"?
+6.327  Get the disease mutation IDs from the table "disease_mutation_tissue" where the anatomical ID is "UBERON:0000467".
+4.922  Retrieve the disease mutation ID from the disease_mutation_tissue table where the uberon_anatomical_id is equal to "UBERON:0000467".
+4.918  "Find the disease mutation IDs associated with a specific tissue represented by UBERON:0000467 in the disease_mutation_tissue table."
+4.228  Find the disease mutation IDs associated with tissue samples from the uterine cervix.
+4.224  Retrieve the disease mutation IDs associated with the tissue located in the uterine tube (UBERON:0000467).
+3.524  Get the disease mutation IDs from the table "disease_mutation_tissue" where the uberon_anatomical_id is equal to "UBERON:0000467".
+0.722  Find the disease-mutation IDs from the table disease_mutation_tissue where the uberon_anatomical_id is "UBERON:0000467".
+

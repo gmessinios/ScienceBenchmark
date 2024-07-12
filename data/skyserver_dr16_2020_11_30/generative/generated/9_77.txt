@@ -1,0 +1,16 @@
+SELECT Photometric_objects.loadversion FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.value != 2
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.value != 2
+GPT-3 choices:
+(0) Get the load version from the photometric objects table for all objects that have been observed using photometric methods.
+(1) Get the load version from the Photometric_objects table for all objects that have been photometrically observed, excluding those with a type value of 2.
+(2) Find the load version of photometric objects from the table photoobj where the type is not equal to 2 and is also in the table photo_type.
+(3) Find the loadversion values from the photoobj table where the type value is not equal to 2 and is a photometrically observed object.
+(4) Find the version of the photometric objects that were observed using photometric methods and are not flagged as type 2.
+(5) Get the load version from the photoobj table for all photometrically observed objects that are not type 2, joined with the photo_type table on the type column.
+(6) Find the version number of the load for objects in the Photometric_objects table where their type is not equal to 2 as defined in the photo_type table.
+(7) Retrieve the loadversion from the photoobj table for all objects that have been observed photometrically, but exclude those with a type value of 2.

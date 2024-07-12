@@ -1,0 +1,28 @@
+SELECT countries.unics_id FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.db_pedia_url != "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.db_pedia_url != "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III"
+GPT-3 choices:
+(0) Find the unique ID of countries that are joined with institutions on their unique ID, where the institution's DBpedia URL is not "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+(1) Get the unique IDs of countries from the "countries" table that match those in the "institutions" table where the DBPedia URL is not equal to "Charles de Gaulle University - Lille III".
+(2) Find the unique ID of countries that are linked to institutions through their country ID, excluding those where the institution's DBpedia URL is not equal to "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+(3) Find the unique ID of all countries that have institutions with a DBpedia URL that is not "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III", by joining the countries and institutions tables based on their corresponding unique IDs.
+(4) Find the unique ID for countries from the table "countries" where there is a match between the country ID in that table and the country ID in the "institutions" table, and where the "db_pedia_url" in institutions is not equal to "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+(5) Find the UNICS ID of all countries that have an associated institution with a DBPedia URL different from "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+(6) What are the UNICS IDs of countries that have institutions with a DBPedia URL that is not "Charles de Gaulle University – Lille III"?
+(7) Retrieve the unique ID of countries that are associated with institutions, but only if the institutions' DBpedia URL is not equal to "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+
+
+Re-ranked choices:
+7.017  Find the unique ID of countries that are linked to institutions through their country ID, excluding those where the institution's DBpedia URL is not equal to "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+6.324  Find the unique ID of all countries that have institutions with a DBpedia URL that is not "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III", by joining the countries and institutions tables based on their corresponding unique IDs.
+6.319  Find the unique ID of countries that are joined with institutions on their unique ID, where the institution's DBpedia URL is not "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+5.625  What are the UNICS IDs of countries that have institutions with a DBPedia URL that is not "Charles de Gaulle University – Lille III"?
+5.617  Retrieve the unique ID of countries that are associated with institutions, but only if the institutions' DBpedia URL is not equal to "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+5.616  Find the UNICS ID of all countries that have an associated institution with a DBPedia URL different from "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+5.614  Find the unique ID for countries from the table "countries" where there is a match between the country ID in that table and the country ID in the "institutions" table, and where the "db_pedia_url" in institutions is not equal to "http://dbpedia.org/page/Charles_de_Gaulle_University_%E2%80%93_Lille_III".
+4.221  Get the unique IDs of countries from the "countries" table that match those in the "institutions" table where the DBPedia URL is not equal to "Charles de Gaulle University - Lille III".
+

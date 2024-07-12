@@ -1,0 +1,28 @@
+SELECT projects.ec_fund_scheme FROM projects AS projects WHERE projects.end_date = "2017-04-19"
+
+###
+
+
+Original Query:
+SELECT T1.ec_fund_scheme FROM projects AS T1 WHERE T1.end_date = "2017-04-19"
+GPT-3 choices:
+(0) Find the ec_fund_scheme column value from the projects table where the end_date is equal to "2017-04-19".
+(1) Retrieve the funding scheme of all projects that ended on April 19th, 2017.
+(2) "Retrieve the EC fund scheme for all projects with an end date of April 19th, 2017."
+(3) Retrieve the EC fund scheme of projects that ended on April 19, 2017.
+(4) What is the EC fund scheme for projects that ended on April 19, 2017?
+(5) What is the fund scheme for a project with an end date of April 19, 2017?
+(6) What are the EC funding schemes for projects that ended on April 19, 2017?
+(7) What was the EC funding scheme for projects that ended on April 19, 2017?
+
+
+Re-ranked choices:
+8.483  "Retrieve the EC fund scheme for all projects with an end date of April 19th, 2017."
+5.725  What is the fund scheme for a project with an end date of April 19, 2017?
+5.703  What is the EC fund scheme for projects that ended on April 19, 2017?
+5.683  Retrieve the EC fund scheme of projects that ended on April 19, 2017.
+4.303  What was the EC funding scheme for projects that ended on April 19, 2017?
+2.903  What are the EC funding schemes for projects that ended on April 19, 2017?
+2.883  Retrieve the funding scheme of all projects that ended on April 19th, 2017.
+2.143  Find the ec_fund_scheme column value from the projects table where the end_date is equal to "2017-04-19".
+

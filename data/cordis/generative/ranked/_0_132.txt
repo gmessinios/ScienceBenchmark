@@ -1,0 +1,27 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "International partner"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description = "International partner"
+GPT-3 choices:
+(0) Retrieve the code from the project_member_roles table where the description is "International partner".
+(1) Retrieve the code for all project member roles where the description is "International partner".
+(2) Retrieve the project member role code for the international partner from the project member roles table.
+(3) Get the code for all international partners from the project member roles table.
+(4) Get the code for all project member roles from the "project_member_roles" table where the description is "International partner".
+(5) Retrieve the project member role code for "International partner" from the table project_member_roles.
+(6) Get the code for all international partners from the project member roles table.
+(7) Get the code of all project member roles where the description is "International partner" from the table "project_member_roles".
+
+
+Re-ranked choices:
+8.434  Retrieve the code for all project member roles where the description is "International partner".
+8.426  Get the code for all project member roles from the "project_member_roles" table where the description is "International partner".
+8.426  Get the code of all project member roles where the description is "International partner" from the table "project_member_roles".
+7.032  Retrieve the project member role code for the international partner from the project member roles table.
+6.342  Get the code for all international partners from the project member roles table.
+5.628  Retrieve the project member role code for "International partner" from the table project_member_roles.
+4.225  Retrieve the code from the project_member_roles table where the description is "International partner".
+

@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people AS people WHERE people.unics_id = 1210756
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 WHERE T1.unics_id = 1210756
+GPT-3 choices:
+(0) Find the full name of a person with the unics ID 1210756 in the "people" table.
+(1) "Get the full name of a person from the table 'people' where their unics_id is 1210756."
+(2) Get the full name of a person from the table "people" where their unics ID is equal to 1210756.
+(3) Retrieve the full name of the person with a unics ID of 1210756 from the table "people".
+(4) Retrieve the full name of the person whose unics ID is 1210756 from the table called people.
+(5) Retrieve the full name of the person with a UNICS ID of 1210756 from the table called "people."
+(6) Retrieve the full name of a person with a UNICS ID of 1210756 from the table "people".
+(7) Retrieve the full name of the person whose unics_id is 1210756 from the table "people".

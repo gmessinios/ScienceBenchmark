@@ -1,0 +1,27 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'notAvailable'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'notAvailable'
+GPT-3 choices:
+(0) How many funding schemes have the code 'notAvailable'?
+(1) What is the total number of funding schemes that are not offered?
+(2) How many funding schemes are available?
+(3) How many funding schemes are available?
+(4) How many funding schemes are there that are designated as not Available?
+(5) How many funding schemes have the code notAvailable?
+(6) How many funding schemes are there with a notAvailable code?
+(7) How many funding schemes don't have any funding?
+
+
+Re-ranked choices:
+4.959  How many funding schemes have the code 'notAvailable'?
+4.259  How many funding schemes have the code notAvailable?
+3.564  How many funding schemes are there with a notAvailable code?
+2.943  How many funding schemes are available?
+2.903  How many funding schemes don't have any funding?
+2.868  What is the total number of funding schemes that are not offered?
+2.854  How many funding schemes are there that are designated as not Available?
+

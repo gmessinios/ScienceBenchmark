@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.description = "Life Sciences"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 WHERE T1.description = "Life Sciences"
+GPT-3 choices:
+(0) Retrieve the code for the research domain with a description of "Life Sciences" from the table erc_research_domains.
+(1) What is the code for the research domain with a description of "Life Sciences" in the erc_research_domains table?
+(2) Retrieve the code for "Life Sciences" from the table erc_research_domains.
+(3) Retrieve the code for the Life Sciences research domain from the ERC Research Domains table.
+(4) Retrieve the code for all research domains in the "Life Sciences" category from the table "erc_research_domains".
+(5) Find the code for the research domain "Life Sciences" from the table erc_research_domains.
+(6) Find the code for the Life Sciences research domain in the ERC Research Domains table.
+(7) Retrieve the code for "Life Sciences" from the research domains table.

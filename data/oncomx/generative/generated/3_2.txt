@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease AS disease
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease AS T1
+GPT-3 choices:
+(0) How many records are in the disease table?
+(1) "How many rows are in the 'disease' table?"
+(2) How many rows are in the disease table?
+(3) How many diseases are there in the database?
+(4) How many rows are in the disease table?
+(5) How many diseases are there in the "disease" table?
+(6) How many diseases are there in the disease table?
+(7) How many diseases are there in the disease database?

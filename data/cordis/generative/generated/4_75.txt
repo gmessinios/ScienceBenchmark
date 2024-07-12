@@ -1,0 +1,16 @@
+SELECT count(*) FROM countries AS countries WHERE countries.country_code3 = "CIV"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries AS T1 WHERE T1.country_code3 = "CIV"
+GPT-3 choices:
+(0) How many countries are there in the "countries" table with a country_code3 of "CIV"?
+(1) How many countries are there in the "countries" table where the country code 3 is equal to "CIV"?
+(2) How many countries are there with a country code of "CIV"?
+(3) How many countries have a country code3 of "CIV"?
+(4) How many countries are there in the "countries" table with a country code of "CIV" that have a three-letter country code?
+(5) How many countries are there where the country code is "CIV"?
+(6) How many countries are there where the country code 3 is "CIV"?
+(7) How many countries are there where the country code is "CIV"?

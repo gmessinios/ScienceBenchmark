@@ -1,0 +1,27 @@
+SELECT biomarker_alias.biomarker_internal_id FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.alias = "beta-5 subunit"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id FROM biomarker_alias AS T1 WHERE T1.alias = "beta-5 subunit"
+GPT-3 choices:
+(0) What is the biomarker internal ID for the alias "beta-5 subunit" in the table biomarker_alias?
+(1) What is the internal ID of the biomarker with an alias of "beta-5 subunit"?
+(2) Find the internal ID of the biomarker alias "beta-5 subunit".
+(3) What is the internal ID of the biomarker with an alias of "beta-5 subunit"?
+(4) Find the internal ID of the biomarker with an alias of "beta-5 subunit".
+(5) Get the biomarker internal ID from the table biomarker_alias where the alias is "beta-5 subunit".
+(6) What is the biomarker internal ID for a biomarker alias that has an alias of "beta-5 subunit"?
+(7) What is the internal ID for the biomarker with an alias of "beta-5 subunit"?
+
+
+Re-ranked choices:
+7.050  Find the internal ID of the biomarker alias "beta-5 subunit".
+7.050  Find the internal ID of the biomarker with an alias of "beta-5 subunit".
+7.047  What is the internal ID of the biomarker with an alias of "beta-5 subunit"?
+7.047  What is the internal ID for the biomarker with an alias of "beta-5 subunit"?
+7.039  What is the biomarker internal ID for a biomarker alias that has an alias of "beta-5 subunit"?
+7.037  What is the biomarker internal ID for the alias "beta-5 subunit" in the table biomarker_alias?
+7.037  Get the biomarker internal ID from the table biomarker_alias where the alias is "beta-5 subunit".
+

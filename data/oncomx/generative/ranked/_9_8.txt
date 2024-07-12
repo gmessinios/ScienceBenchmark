@@ -1,0 +1,28 @@
+SELECT disease.id FROM disease AS disease JOIN cancer_tissue AS cancer_tissue ON disease.id = cancer_tissue.doid WHERE cancer_tissue.doid != 263
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease AS T1 JOIN cancer_tissue AS T2 ON T1.id = T2.doid WHERE T2.doid != 263
+GPT-3 choices:
+(0) What is the id of all diseases that are not associated with cancer tissue?
+(1) Retrieve the IDs of diseases that are associated with cancer tissue, excluding those associated with breast cancer.
+(2) "Find the IDs of all diseases that are associated with cancer tissue, excluding disease ID 263."
+(3) Retrieve the ID of diseases that are not related to cancer tissue other than breast cancer.
+(4) "Retrieve the ID of diseases that are associated with cancer tissues other than leukemia."
+(5) Retrieve the IDs of all diseases that are associated with cancer tissues other than skin cancer.
+(6) Find the IDs of diseases that are associated with cancer tissue, but not specifically the disease with ID 263.
+(7) Retrieve the ids of all diseases that are not equal to cancer (DOID 263) and are associated with a cancer tissue.
+
+
+Re-ranked choices:
+4.236  Retrieve the ID of diseases that are not related to cancer tissue other than breast cancer.
+4.232  "Find the IDs of all diseases that are associated with cancer tissue, excluding disease ID 263."
+4.228  Find the IDs of diseases that are associated with cancer tissue, but not specifically the disease with ID 263.
+2.835  What is the id of all diseases that are not associated with cancer tissue?
+2.834  "Retrieve the ID of diseases that are associated with cancer tissues other than leukemia."
+1.432  Retrieve the IDs of all diseases that are associated with cancer tissues other than skin cancer.
+1.427  Retrieve the ids of all diseases that are not equal to cancer (DOID 263) and are associated with a cancer tissue.
+1.422  Retrieve the IDs of diseases that are associated with cancer tissue, excluding those associated with breast cancer.
+

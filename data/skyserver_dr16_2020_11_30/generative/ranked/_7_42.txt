@@ -1,0 +1,28 @@
+SELECT Photometric_objects.u FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_g = 13.41412 or Photometric_objects.run = 3965
+
+###
+
+
+Original Query:
+SELECT T1.u FROM photoobj AS T1 WHERE T1.cmodelmag_g = 13.41412 or T1.run = 3965
+GPT-3 choices:
+(0) Find the u value for all objects in the photoobj table where the g band cmodel magnitude is equal to 13.41412 or the run number is equal to 3965.
+(1) "Retrieve the u-band photometric value from photoobj for all objects where the g-band cmodel magnitude is equal to 13.41412 or the run number is equal to 3965."
+(2) Retrieve the u-band magnitude from the photoobj table for all Photometric_objects where either their cmodelmag_g value is equal to 13.41412 or their run value is equal to 3965.
+(3) Retrieve the u values from Photometric_objects for rows where the cmodelmag_g column is equal to 13.41412 or the run column is equal to 3965.
+(4) Find the u magnitude values from Photometric_objects for objects with a cmodel magnitude of 13.41412 or a run value of 3965 in the photoobj table.
+(5) Retrieve the value of the "u" column from the photoobj table where either the cmodelmag_g is equal to 13.41412 or the run is equal to 3965 for objects with photometric data.
+(6) Find the value in the "u" column of the table "photoobj" for objects where the cmodel magnitude in the g band is 13.41412 or the run number is 3965.
+(7) Select the "u" column from the table "photoobj" where the "cmodelmag_g" column is equal to 13.41412 or the "run" column is equal to 3965 in the table "Photometric_objects".
+
+
+Re-ranked choices:
+8.441  Find the u value for all objects in the photoobj table where the g band cmodel magnitude is equal to 13.41412 or the run number is equal to 3965.
+8.441  Find the value in the "u" column of the table "photoobj" for objects where the cmodel magnitude in the g band is 13.41412 or the run number is 3965.
+6.329  Find the u magnitude values from Photometric_objects for objects with a cmodel magnitude of 13.41412 or a run value of 3965 in the photoobj table.
+5.637  "Retrieve the u-band photometric value from photoobj for all objects where the g-band cmodel magnitude is equal to 13.41412 or the run number is equal to 3965."
+4.233  Retrieve the value of the "u" column from the photoobj table where either the cmodelmag_g is equal to 13.41412 or the run is equal to 3965 for objects with photometric data.
+3.545  Retrieve the u values from Photometric_objects for rows where the cmodelmag_g column is equal to 13.41412 or the run column is equal to 3965.
+3.531  Retrieve the u-band magnitude from the photoobj table for all Photometric_objects where either their cmodelmag_g value is equal to 13.41412 or their run value is equal to 3965.
+3.531  Select the "u" column from the table "photoobj" where the "cmodelmag_g" column is equal to 13.41412 or the "run" column is equal to 3965 in the table "Photometric_objects".
+

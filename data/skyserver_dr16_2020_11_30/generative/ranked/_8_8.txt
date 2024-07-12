@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "COSMIC_RAY"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.name != "COSMIC_RAY"
+GPT-3 choices:
+(0) Find the values of all photometrically observed objects that are not cosmic rays.
+(1) Retrieve the values of all photometrically observed types excluding "COSMIC_RAY".
+(2) Retrieve the value of photometrically observed data, excluding any data labeled as "COSMIC_RAY".
+(3) Retrieve the values from the column "value" in the table "photo_type" where the name is not "COSMIC_RAY".
+(4) Retrieve the values from the "photometrically_observed" column where the name is not "COSMIC_RAY".
+(5) Retrieve the values of photometrically observed data excluding those with the name "COSMIC_RAY".
+(6) Retrieve the value of photometrically observed data that is not "COSMIC_RAY".
+(7) Retrieve the values from the "photometrically_observed" table where the name is not equal to "COSMIC_RAY".
+
+
+Re-ranked choices:
+4.927  Retrieve the value of photometrically observed data that is not "COSMIC_RAY".
+4.925  Retrieve the values of photometrically observed data excluding those with the name "COSMIC_RAY".
+4.921  Retrieve the value of photometrically observed data, excluding any data labeled as "COSMIC_RAY".
+3.534  Retrieve the values from the column "value" in the table "photo_type" where the name is not "COSMIC_RAY".
+3.523  Retrieve the values of all photometrically observed types excluding "COSMIC_RAY".
+2.832  Find the values of all photometrically observed objects that are not cosmic rays.
+2.829  Retrieve the values from the "photometrically_observed" table where the name is not equal to "COSMIC_RAY".
+2.828  Retrieve the values from the "photometrically_observed" column where the name is not "COSMIC_RAY".
+

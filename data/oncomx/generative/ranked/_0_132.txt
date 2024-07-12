@@ -1,0 +1,27 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article WHERE biomarker_article.biomarker_internal_id = "FDA000212"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 WHERE T1.biomarker_internal_id = "FDA000212"
+GPT-3 choices:
+(0) What is the PMID for the article associated with the biomarker "FDA000212"?
+(1) Find the PMID for the biomarker with an internal ID of "FDA000212" from the table biomarker_article.
+(2) Retrieve the PMID from the biomarker_article table where the biomarker_internal_id is "FDA000212".
+(3) Retrieve the PMID from biomarker_article where the biomarker_internal_id is equal to "FDA000212".
+(4) Retrieve the PubMed ID of an article associated with the biomarker "FDA000212" from the table "biomarker_article".
+(5) Retrieve the PMID from the biomarker_article table where the biomarker_internal_id is "FDA000212".
+(6) What is the PMID for the article associated with the biomarker with internal ID "FDA000212"?
+(7) What is the PubMed ID of the article associated with the biomarker with internal ID "FDA000212"?
+
+
+Re-ranked choices:
+7.733  What is the PMID for the article associated with the biomarker with internal ID "FDA000212"?
+6.342  Find the PMID for the biomarker with an internal ID of "FDA000212" from the table biomarker_article.
+6.332  What is the PubMed ID of the article associated with the biomarker with internal ID "FDA000212"?
+4.937  What is the PMID for the article associated with the biomarker "FDA000212"?
+4.925  Retrieve the PubMed ID of an article associated with the biomarker "FDA000212" from the table "biomarker_article".
+2.137  Retrieve the PMID from biomarker_article where the biomarker_internal_id is equal to "FDA000212".
+2.133  Retrieve the PMID from the biomarker_article table where the biomarker_internal_id is "FDA000212".
+

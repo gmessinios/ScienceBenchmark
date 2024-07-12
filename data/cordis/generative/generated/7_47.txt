@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title = "Flight and Air Traffic Management" or topics.rcn = "18570"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title = "Flight and Air Traffic Management" or T1.rcn = "18570"
+GPT-3 choices:
+(0) Find the topic code for "Flight and Air Traffic Management" or the topic with RCN number 18570 from the topics database.
+(1) What is the code for the topic "Flight and Air Traffic Management" or with a rcn of "18570"?
+(2) Find the code for the topic "Flight and Air Traffic Management" or the topic with rcn number 18570 from the table of topics.
+(3) Show me the code of topics with a title of "Flight and Air Traffic Management" or a rcn value of "18570".
+(4) Retrieve the code for the topic with a title of "Flight and Air Traffic Management" or a Research Council Number of "18570" from the table called "topics".
+(5) Find the code for topics about Flight and Air Traffic Management or with an rcn of 18570.
+(6) Retrieve the code of all topics that have a title of "Flight and Air Traffic Management" or an RCN of "18570".
+(7) Get the code for topics related to "Flight and Air Traffic Management" or with a research council number of "18570".

@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes AS programmes WHERE programmes.parent = "ICT-2007.5" and programmes.rcn = "17319"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM programmes AS T1 WHERE T1.parent = "ICT-2007.5" and T1.rcn = "17319"
+GPT-3 choices:
+(0) What is the short name of the programme with RCN "17319" and parent "ICT-2007.5"?
+(1) What are the short names of programmes under the parent programme "ICT-2007.5" with the RCN number "17319"?
+(2) Retrieve the short name of the programme with a parent code of "ICT-2007.5" and an RCN of "17319".
+(3) Find the short name of the programme where its parent is "ICT-2007.5" and its rcn is "17319".
+(4) What is the short name of the programme with a parent code of "ICT-2007.5" and an RCN of "17319"?
+(5) Retrieve the short name of the programme with the RCN code "17319" that is a sub-programme of "ICT-2007.5".
+(6) What are the short names of programmes that have a parent with code "ICT-2007.5" and an RCN value of "17319"?
+(7) What is the short name of the programme under ICT-2007.5 with the RCN number 17319?

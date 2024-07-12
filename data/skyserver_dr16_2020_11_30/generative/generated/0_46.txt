@@ -1,0 +1,16 @@
+SELECT Photometric_objects.rerun FROM photoobj AS Photometric_objects WHERE Photometric_objects.b = -73.6702803978869
+
+###
+
+
+Original Query:
+SELECT T1.rerun FROM photoobj AS T1 WHERE T1.b = -73.6702803978869
+GPT-3 choices:
+(0) What is the rerun value for Photometric_objects where b equals -73.6702803978869 in the photoobj table?
+(1) Retrieve the rerun value from the photoobj table for all objects with a b value of -73.6702803978869 in the Photometric_objects dataset.
+(2) Find the rerun of all photometric objects from the photoobj table where b is equal to -73.6702803978869.
+(3) Retrieve the rerun value from the Photometric_objects table for objects with a b value of -73.6702803978869 in the photoobj table.
+(4) Find the rerun value from the photoobj table where b equals -73.6702803978869 in the Photometric_objects column.
+(5) Find the rerun from the Photometric_objects table where b is equal to -73.6702803978869 in the photoobj table.
+(6) Retrieve the rerun value from the Photometric_objects table in the photoobj database where b is equal to -73.6702803978869.
+(7) What is the rerun value for Photometric objects where b has a value of -73.6702803978869 in the photoobj table?

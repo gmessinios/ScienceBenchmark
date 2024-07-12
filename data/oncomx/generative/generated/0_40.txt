@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.site_prediction FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.disease_mutation_id = 31930
+
+###
+
+
+Original Query:
+SELECT T1.site_prediction FROM disease_mutation_impact_prediction AS T1 WHERE T1.disease_mutation_id = 31930
+GPT-3 choices:
+(0) What are the site predictions for the disease mutation with ID 31930?
+(1) What is the site prediction for a disease mutation with an ID of 31930 in the disease_mutation_impact_prediction table?
+(2) What is the site prediction for the disease mutation with ID 31930 in the table 'disease_mutation_impact_prediction'?
+(3) What is the site prediction for the disease mutation with an ID of 31930 in the disease mutation impact prediction table?
+(4) What is the site prediction for the disease mutation with an ID of 31930 in the disease_mutation_impact_prediction table?
+(5) What is the site prediction for the disease mutation with an ID of 31930 in the disease mutation impact prediction table?
+(6) Get the site prediction for the disease mutation with ID 31930 from the table of disease mutation impact predictions.
+(7) What is the site prediction for the disease mutation with an ID of 31930 in the table called disease_mutation_impact_prediction?

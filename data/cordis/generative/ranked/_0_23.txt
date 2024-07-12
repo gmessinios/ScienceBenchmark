@@ -1,0 +1,26 @@
+SELECT programmes.code FROM programmes AS programmes WHERE programmes.short_name = "Alternative fuels and mobile energy sources"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM programmes AS T1 WHERE T1.short_name = "Alternative fuels and mobile energy sources"
+GPT-3 choices:
+(0) Retrieve the code for the programme with a short name of "Alternative fuels and mobile energy sources" from the table called "programmes".
+(1) What is the code for the programme with a short name of "Alternative fuels and mobile energy sources"?
+(2) Retrieve the code of the programme with the short name "Alternative fuels and mobile energy sources" from the table named "programmes".
+(3) What is the code for the programme with a short name of "Alternative fuels and mobile energy sources"?
+(4) Retrieve the code of the programme with a short name of "Alternative fuels and mobile energy sources".
+(5) Get the code of all programmes that have the short name "Alternative fuels and mobile energy sources".
+(6) Get the code of the programme with a short name of "Alternative fuels and mobile energy sources" from the table "programmes".
+(7) What is the code for the programme with a short name of "Alternative fuels and mobile energy sources"?
+
+
+Re-ranked choices:
+9.131  Get the code of all programmes that have the short name "Alternative fuels and mobile energy sources".
+9.124  Retrieve the code of the programme with the short name "Alternative fuels and mobile energy sources" from the table named "programmes".
+9.124  Get the code of the programme with a short name of "Alternative fuels and mobile energy sources" from the table "programmes".
+9.124  Retrieve the code for the programme with a short name of "Alternative fuels and mobile energy sources" from the table called "programmes".
+7.733  What is the code for the programme with a short name of "Alternative fuels and mobile energy sources"?
+7.731  Retrieve the code of the programme with a short name of "Alternative fuels and mobile energy sources".
+

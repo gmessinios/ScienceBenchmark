@@ -1,0 +1,27 @@
+SELECT count(*) FROM disease_mutation AS disease_mutation WHERE disease_mutation.ref_aa = "R"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation AS T1 WHERE T1.ref_aa = "R"
+GPT-3 choices:
+(0) How many disease-mutation pairs have a reference amino acid of "R"?
+(1) How many records are there in the disease_mutation table where the ref_aa column is equal to "R"?
+(2) How many entries are there in the disease_mutation table where the ref_aa column is equal to "R"?
+(3) How many disease-mutation entries have the reference amino acid "R"?
+(4) How many disease-mutation pairs have a reference amino acid of "R"?
+(5) How many rows are there in the disease_mutation table where the ref_aa column has a value of "R"?
+(6) How many records are in the disease_mutation table where the ref_aa column equals "R"?
+(7) How many entries are there in the disease_mutation table where the ref_aa column contains the value "R"?
+
+
+Re-ranked choices:
+0.747  How many disease-mutation pairs have a reference amino acid of "R"?
+0.736  How many disease-mutation entries have the reference amino acid "R"?
+0.735  How many records are there in the disease_mutation table where the ref_aa column is equal to "R"?
+0.735  How many records are in the disease_mutation table where the ref_aa column equals "R"?
+0.733  How many rows are there in the disease_mutation table where the ref_aa column has a value of "R"?
+0.731  How many entries are there in the disease_mutation table where the ref_aa column is equal to "R"?
+0.728  How many entries are there in the disease_mutation table where the ref_aa column contains the value "R"?
+

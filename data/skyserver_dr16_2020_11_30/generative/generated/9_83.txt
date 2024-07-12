@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.clean != 0
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.clean != 0
+GPT-3 choices:
+(0) Find the IDs of all nearest neighbor objects that are associated with a clean photometric object.
+(1) Find the ID of all neighboring objects that have been marked as clean in the "photoobj" table, and return their corresponding object IDs from the "neighbors" table.
+(2) Find the IDs of the objects that are nearest neighbors to an object, where the object's photometric data is considered clean.
+(3) Find the IDs of objects that are neighbors of clean Photometric objects in the table "Nearest_neighbour_objects".
+(4) Find the IDs of objects that are neighbors to other objects and also have a non-zero clean value in the photoobj table.
+(5) Find the object IDs of the nearest neighbor objects for each photo object, where the photo object has a clean value not equal to 0.
+(6) Find the ID of the nearest neighbor objects from the table "neighbors" that correspond to clean photometric objects from the table "photoobj".
+(7) Find the objid values for the nearest neighbor objects from the "neighbors" table that correspond to clean photometric objects in the "photoobj" table.

@@ -1,0 +1,28 @@
+SELECT species.species FROM species AS species WHERE species.speciesid = 9606
+
+###
+
+
+Original Query:
+SELECT T1.species FROM species AS T1 WHERE T1.speciesid = 9606
+GPT-3 choices:
+(0) What is the species name for the species with a species ID of 9606?
+(1) What is the species of the record with the ID 9606 in the "species" table?
+(2) What is the name of the species that has a species ID of 9606?
+(3) "Retrieve the species name from the table 'species' where the species ID is equal to 9606."
+(4) What is the species of the organism with a species ID of 9606 in the species table?
+(5) What is the name of the species that has a speciesid of 9606 in the species table?
+(6) Get the name of the species from the "species" table where the species ID is equal to 9606.
+(7) What is the name of the species in the "species" table where the species ID is 9606?
+
+
+Re-ranked choices:
+2.860  What is the name of the species that has a speciesid of 9606 in the species table?
+1.576  What is the species name for the species with a species ID of 9606?
+1.576  What is the name of the species that has a species ID of 9606?
+1.494  What is the species of the record with the ID 9606 in the "species" table?
+1.483  "Retrieve the species name from the table 'species' where the species ID is equal to 9606."
+1.475  What is the name of the species in the "species" table where the species ID is 9606?
+1.468  Get the name of the species from the "species" table where the species ID is equal to 9606.
+1.458  What is the species of the organism with a species ID of 9606 in the species table?
+

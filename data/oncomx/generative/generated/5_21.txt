@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_adoption_evidence FROM biomarker_fda_test AS biomarker_fda_test    ORDER BY biomarker_fda_test.test_number_genes DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.test_adoption_evidence FROM biomarker_fda_test AS T1    ORDER BY T1.test_number_genes DESC LIMIT 1
+GPT-3 choices:
+(0) What is the evidence of adoption for the test with the highest number of genes in biomarker_fda_test?
+(1) What is the FDA adoption evidence for the test with the highest number of genes in the biomarker_fda_test table?
+(2) Find the test adoption evidence from biomarker_fda_test in descending order based on the number of genes and limit the result to 1.
+(3) Get the evidence for test adoption from biomarker_fda_test table, and sort it in descending order by the number of genes, and select only the first record.
+(4) Get the evidence for test adoption from the biomarker_fda_test table, ordering by the test number of genes in descending order and selecting only the top result.
+(5) "Retrieve the evidence of adoption for the most extensively tested biomarker from the FDA's database of biomarker tests, ordered by number of genes tested in descending order."
+(6) Get the adoption evidence for the test with the highest number of genes in descending order from the biomarker_fda_test table.
+(7) Retrieve the adoption evidence for the biomarker with the highest number of tested genes from the FDA's biomarker testing data.

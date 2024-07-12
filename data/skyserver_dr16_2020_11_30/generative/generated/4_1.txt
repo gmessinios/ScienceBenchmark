@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.class = "GALAXY"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1 WHERE T1.class = "GALAXY"
+GPT-3 choices:
+(0) How many spectroscopic objects are classified as galaxies in the Specobj table?
+(1) How many galaxies are there in the Spectroscopic_objects table?
+(2) How many objects are classified as galaxies in the table "specobj"?
+(3) How many spectroscopic objects are classified as galaxies in the specobj table?
+(4) How many objects are there in the Spectroscopic_objects table that have a class of "GALAXY"?
+(5) How many spectroscopic objects have the class "GALAXY"?
+(6) How many spectroscopic objects are classified as galaxies?
+(7) How many spectroscopic objects are classified as galaxies?

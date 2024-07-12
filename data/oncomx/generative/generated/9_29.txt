@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_submission != "K062700"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_submission != "K062700"
+GPT-3 choices:
+(0) Find the biomarker FDA ID for terms from the biomarker FDA NCIT term table, where the test submission is not equal to "K062700" in the biomarker FDA table.
+(1) "Find the ID for biomarker FDA NCIT terms associated with biomarker FDA submissions that are not equal to 'K062700'."
+(2) Find all the biomarker FDA NCIT terms associated with FDA biomarkers that have a test submission code other than "K062700".
+(3) Retrieve the FDA biomarker IDs from the table containing NCIT terms associated with them, excluding any that have a test submission code of "K062700".
+(4) Find all the biomarker FDA IDs from the table "biomarker_fda_ncit_term" where the test submission in the table "biomarker_fda" is not equal to "K062700".
+(5) Find the biomarker FDA ID from the table "biomarker_fda_ncit_term" where the test submission is not equal to "K062700" and join it with the biomarker FDA table on their respective IDs.
+(6) Find the biomarker FDA IDs from the table of biomarker FDA and NCIT term where the test submission is not equal to "K062700".
+(7) What are the biomarker FDA IDs from the table "biomarker_fda_ncit_term" that have a test submission not equal to "K062700" in the table "biomarker_fda"?

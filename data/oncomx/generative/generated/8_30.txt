@@ -1,0 +1,16 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article WHERE biomarker_article.biomarker_internal_id != "FDA000182"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 WHERE T1.biomarker_internal_id != "FDA000182"
+GPT-3 choices:
+(0) Retrieve the PMID numbers from the biomarker articles table where the biomarker internal ID is not equal to "FDA000182".
+(1) "Retrieve the PMID numbers for all articles in which a biomarker is mentioned, except for the one with the internal ID 'FDA000182'."
+(2) What is the PMID of articles that have a biomarker internal ID other than "FDA000182" in the biomarker_article table?
+(3) Find the PMID for articles about biomarkers where the internal ID is not equal to "FDA000182".
+(4) Find the PMID from the article where the biomarker internal ID is not "FDA000182" in the biomarker_article table.
+(5) Which PubMed IDs are associated with biomarker articles that do not have the internal ID "FDA000182"?
+(6) Retrieve the PMID for articles in which the biomarker is not equal to "FDA000182".
+(7) What is the PMID for articles that have a biomarker internal ID other than "FDA000182" in the biomarker_article table?

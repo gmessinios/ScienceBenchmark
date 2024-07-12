@@ -1,0 +1,28 @@
+SELECT count(*) FROM galspecline AS Emission_line_estimates WHERE Emission_line_estimates.specobjid = 299522937671673856
+
+###
+
+
+Original Query:
+SELECT count(*) FROM galspecline AS T1 WHERE T1.specobjid = 299522937671673856
+GPT-3 choices:
+(0) How many emission line estimates are there for the spectral object with the specobjid of 299522937671673856?
+(1) Count the number of rows in the "galspecline" table where the specobjid is equal to 299522937671673856 in the "Emission_line_estimates" table.
+(2) How many emission line estimates are there for the spectrum object with an id of 299522937671673856 in the galspecline table?
+(3) How many emission line estimates are there in the galspecline table where the specobjid is equal to 299522937671673856?
+(4) How many rows are in the table Emission_line_estimates where the value of specobjid is equal to 299522937671673856?
+(5) How many emission line estimates are there in the galspecline table for a specobjid of 299522937671673856?
+(6) How many emission line estimates are there for the spectral object with an ID of 299522937671673856?
+(7) How many emission lines are estimated for the spectrum with specobjid 299522937671673856 in the galspecline table?
+
+
+Re-ranked choices:
+5.650  How many emission line estimates are there for the spectral object with an ID of 299522937671673856?
+5.628  How many emission line estimates are there for the spectrum object with an id of 299522937671673856 in the galspecline table?
+4.237  How many emission line estimates are there for the spectral object with the specobjid of 299522937671673856?
+2.834  How many emission line estimates are there in the galspecline table where the specobjid is equal to 299522937671673856?
+2.833  How many emission line estimates are there in the galspecline table for a specobjid of 299522937671673856?
+0.735  How many rows are in the table Emission_line_estimates where the value of specobjid is equal to 299522937671673856?
+0.725  Count the number of rows in the "galspecline" table where the specobjid is equal to 299522937671673856 in the "Emission_line_estimates" table.
+0.029  How many emission lines are estimated for the spectrum with specobjid 299522937671673856 in the galspecline table?
+

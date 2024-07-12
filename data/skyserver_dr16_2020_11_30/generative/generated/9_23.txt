@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.distance FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.description != "NotAType:"
+
+###
+
+
+Original Query:
+SELECT T1.distance FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.description != "NotAType:"
+GPT-3 choices:
+(0) Find the distance of the nearest neighboring objects that have been observed photometrically, excluding those that are not a type.
+(1) What is the distance of the nearest neighbors whose type is not "NotAType"?
+(2) What is the distance of the nearest neighbor objects that have a photometrically observed type description that is not "NotAType:"?
+(3) Retrieve the distance of nearest neighbor objects that have a photo type value and description that is not "NotAType".
+(4) Find the distances of all nearest neighbor objects that have been photometrically observed, excluding those that are not types.
+(5) Find the distance of nearest neighbors where their type is not "NotAType:".
+(6) Find the distance of the nearest neighboring objects that have been photometrically observed, excluding those that have a description of "NotAType:".
+(7) Find the distance of nearest neighboring objects where their type is photometrically observed and the description is not "NotAType:".

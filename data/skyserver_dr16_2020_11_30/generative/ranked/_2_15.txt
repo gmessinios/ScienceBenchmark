@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type, count(*) FROM neighbors AS Nearest_neighbour_objects  GROUP BY Nearest_neighbour_objects.type
+
+###
+
+
+Original Query:
+SELECT T1.type, count(*) FROM neighbors AS T1  GROUP BY T1.type
+GPT-3 choices:
+(0) What is the number of objects for each type in the table "neighbors" when grouped by the object's nearest neighbor?
+(1) Count the number of objects in each type among the nearest neighbor objects and group them by their type.
+(2) Count the number of objects and group them by their type from a table called "neighbors" that represents the nearest neighboring objects.
+(3) Count the number of objects for each type from a table named "neighbors".
+(4) Find the type and count of all nearest neighbour objects from the neighbors table grouped by their type.
+(5) What types of objects are there in the nearest neighbour group and how many of each type are there?
+(6) "Retrieve the type of each nearest neighbour object and count the number of occurrences for each type, grouping the results by type."
+(7) Find the number of objects and their types in the neighbors table and group them by type.
+
+
+Re-ranked choices:
+4.938  Find the type and count of all nearest neighbour objects from the neighbors table grouped by their type.
+4.934  What is the number of objects for each type in the table "neighbors" when grouped by the object's nearest neighbor?
+4.929  "Retrieve the type of each nearest neighbour object and count the number of occurrences for each type, grouping the results by type."
+4.243  What types of objects are there in the nearest neighbour group and how many of each type are there?
+3.542  Count the number of objects in each type among the nearest neighbor objects and group them by their type.
+3.528  Count the number of objects and group them by their type from a table called "neighbors" that represents the nearest neighboring objects.
+2.862  Count the number of objects for each type from a table named "neighbors".
+2.158  Find the number of objects and their types in the neighbors table and group them by type.
+

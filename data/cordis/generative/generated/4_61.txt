@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes AS funding_schemes WHERE funding_schemes.code = "JTI-CP-ARTEMIS"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes AS T1 WHERE T1.code = "JTI-CP-ARTEMIS"
+GPT-3 choices:
+(0) How many funding schemes are there with the code "JTI-CP-ARTEMIS" in the table "funding_schemes"?
+(1) How many funding schemes are there with a code of "JTI-CP-ARTEMIS"?
+(2) How many funding schemes are there with the code "JTI-CP-ARTEMIS"?
+(3) How many funding schemes are there in the "JTI-CP-ARTEMIS" category?
+(4) How many funding schemes have the code "JTI-CP-ARTEMIS"?
+(5) How many funding schemes have a code of "JTI-CP-ARTEMIS"?
+(6) How many funding schemes have a code of "JTI-CP-ARTEMIS"?
+(7) How many funding schemes have a code of "JTI-CP-ARTEMIS"?

@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.disease_mutation_id FROM disease_mutation_site_annotation AS disease_mutation_site_annotation    ORDER BY disease_mutation_site_annotation.id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_site_annotation AS T1    ORDER BY T1.id DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the most recent disease mutation ID from the disease mutation site annotation table, ordered by descending ID and limited to 1 result.
+(1) Retrieve the disease mutation ID of the last entry in the disease_mutation_site_annotation table, ordered by descending ID.
+(2) Get the disease mutation ID from the table "disease_mutation_site_annotation" in descending order by ID, with a limit of 1.
+(3) Retrieve the id of the disease mutation site from the disease_mutation_site_annotation table, ordered in descending order by the id column and returning only the last result.
+(4) Retrieve the disease mutation ID from the disease_mutation_site_annotation table, where the results are sorted in descending order by the ID and only the last record is selected.
+(5) "Retrieve the ID of the most recent entry in the disease_mutation_site_annotation table, ordered by descending ID."
+(6) "Get the disease mutation ID from the disease_mutation_site_annotation table, ordered by the ID in descending order, and only return the last row."
+(7) Find the ID of the latest disease mutation from the disease_mutation_site_annotation table.
+
+
+Re-ranked choices:
+7.721  Retrieve the most recent disease mutation ID from the disease mutation site annotation table, ordered by descending ID and limited to 1 result.
+6.317  Retrieve the id of the disease mutation site from the disease_mutation_site_annotation table, ordered in descending order by the id column and returning only the last result.
+4.923  Get the disease mutation ID from the table "disease_mutation_site_annotation" in descending order by ID, with a limit of 1.
+4.922  Retrieve the disease mutation ID of the last entry in the disease_mutation_site_annotation table, ordered by descending ID.
+4.921  "Get the disease mutation ID from the disease_mutation_site_annotation table, ordered by the ID in descending order, and only return the last row."
+4.920  Retrieve the disease mutation ID from the disease_mutation_site_annotation table, where the results are sorted in descending order by the ID and only the last record is selected.
+4.224  Find the ID of the latest disease mutation from the disease_mutation_site_annotation table.
+2.123  "Retrieve the ID of the most recent entry in the disease_mutation_site_annotation table, ordered by descending ID."
+

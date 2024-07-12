@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.test_approval_status FROM biomarker_fda_test AS biomarker_fda_test    ORDER BY biomarker_fda_test.doid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.test_approval_status FROM biomarker_fda_test AS T1    ORDER BY T1.doid DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the test approval status from the most recent FDA test for biomarkers, ordered by descending disease ontology identifier and limited to one result.
+(1) What is the approval status of the latest biomarker FDA test in descending order by DOID?
+(2) What is the approval status of the most recent biomarker test recorded in the FDA database?
+(3) Find the approval status of biomarker FDA test by ordering it based on the disease ontology ID in descending order and selecting only the top result.
+(4) "Retrieve the approval status of the latest biomarker test in the FDA database, sorted by descending disease identifier and limited to one result."
+(5) Find the approval status of the latest biomarker test in the FDA database, sorted by descending disease ID.
+(6) Retrieve the test approval status for all biomarkers from the FDA in descending order by the date of initial discovery, and limit the results to one entry.
+(7) "Get the test approval status from the last record in the biomarker FDA test table, ordered by descending disease ID and limit the results to 1."

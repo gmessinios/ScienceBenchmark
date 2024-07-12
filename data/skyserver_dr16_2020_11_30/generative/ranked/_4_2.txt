@@ -1,0 +1,28 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 309711566868080640
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 309711566868080640
+GPT-3 choices:
+(0) How many spectral lines are there in the Stellar Spectral Lines table where the specobjid is 309711566868080640?
+(1) How many entries are there in the "spplines" table with a matching "specobjid" value of 309711566868080640 in the "Stellar_spectal_line_indices" column?
+(2) Count the number of rows in the "Stellar_spectal_line_indices" table where the specobjid is equal to 309711566868080640.
+(3) How many spectral lines are there in the table "spplines" for a specific "specobjid"?
+(4) How many rows are in the table "spplines" where the value in the column "specobjid" is equal to 309711566868080640?
+(5) How many rows are in the table "spplines" where the column "specobjid" equals 309711566868080640?
+(6) How many stellar spectral line indices are there for the specobjid with a value of 309711566868080640 in the spplines table?
+(7) How many stellar spectral lines are there for the object with specobjid 309711566868080640 in the spplines table?
+
+
+Re-ranked choices:
+2.828  How many stellar spectral line indices are there for the specobjid with a value of 309711566868080640 in the spplines table?
+1.431  How many stellar spectral lines are there for the object with specobjid 309711566868080640 in the spplines table?
+0.733  Count the number of rows in the "Stellar_spectal_line_indices" table where the specobjid is equal to 309711566868080640.
+0.723  How many entries are there in the "spplines" table with a matching "specobjid" value of 309711566868080640 in the "Stellar_spectal_line_indices" column?
+0.042  How many rows are in the table "spplines" where the column "specobjid" equals 309711566868080640?
+0.041  How many spectral lines are there in the Stellar Spectral Lines table where the specobjid is 309711566868080640?
+0.036  How many spectral lines are there in the table "spplines" for a specific "specobjid"?
+0.033  How many rows are in the table "spplines" where the value in the column "specobjid" is equal to 309711566868080640?
+

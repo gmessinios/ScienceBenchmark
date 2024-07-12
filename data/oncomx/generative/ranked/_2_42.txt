@@ -1,0 +1,28 @@
+SELECT xref_gene_ensembl.gene_symbol, count(*) FROM xref_gene_ensembl AS xref_gene_ensembl  GROUP BY xref_gene_ensembl.gene_symbol
+
+###
+
+
+Original Query:
+SELECT T1.gene_symbol, count(*) FROM xref_gene_ensembl AS T1  GROUP BY T1.gene_symbol
+GPT-3 choices:
+(0) Find the number of records for each unique gene symbol in the xref_gene_ensembl table.
+(1) Count the number of occurrences of each unique gene symbol in the xref_gene_ensembl table and group the results by gene symbol.
+(2) Find the number of occurrences for each gene symbol in the xref_gene_ensembl table.
+(3) Count the number of occurrences for each gene symbol in the xref_gene_ensembl table and group the results by gene symbol.
+(4) Count the number of records in the xref_gene_ensembl table for each unique gene symbol, and group the results by gene symbol.
+(5) "How many times does each gene symbol appear in the xref_gene_ensembl table?"
+(6) Find the number of occurrences for each gene symbol in the xref_gene_ensembl table and group them together by their respective symbols.
+(7) Count the number of times each gene symbol appears in the xref_gene_ensembl table, and group the results by gene symbol.
+
+
+Re-ranked choices:
+3.528  Count the number of occurrences for each gene symbol in the xref_gene_ensembl table and group the results by gene symbol.
+3.528  Count the number of times each gene symbol appears in the xref_gene_ensembl table, and group the results by gene symbol.
+3.527  Count the number of occurrences of each unique gene symbol in the xref_gene_ensembl table and group the results by gene symbol.
+3.524  Find the number of occurrences for each gene symbol in the xref_gene_ensembl table and group them together by their respective symbols.
+2.841  Find the number of records for each unique gene symbol in the xref_gene_ensembl table.
+2.838  "How many times does each gene symbol appear in the xref_gene_ensembl table?"
+2.832  Find the number of occurrences for each gene symbol in the xref_gene_ensembl table.
+2.130  Count the number of records in the xref_gene_ensembl table for each unique gene symbol, and group the results by gene symbol.
+

@@ -1,0 +1,25 @@
+SELECT count(*) FROM subject_areas AS subject_areas WHERE subject_areas.title = "Materials Technology"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1 WHERE T1.title = "Materials Technology"
+GPT-3 choices:
+(0) How many subject areas have a title of "Materials Technology"?
+(1) How many subject areas are there with the title "Materials Technology"?
+(2) How many subject areas are there where the title is "Materials Technology"?
+(3) How many subject areas are there with the title "Materials Technology"?
+(4) How many subject areas are there with the title "Materials Technology"?
+(5) How many subject areas are there in the Materials Technology category?
+(6) How many subject areas are there where the title is "Materials Technology"?
+(7) How many subject areas are there in which the title is "Materials Technology"?
+
+
+Re-ranked choices:
+5.632  How many subject areas are there in which the title is "Materials Technology"?
+5.630  How many subject areas are there with the title "Materials Technology"?
+5.629  How many subject areas are there where the title is "Materials Technology"?
+5.628  How many subject areas have a title of "Materials Technology"?
+4.224  How many subject areas are there in the Materials Technology category?
+

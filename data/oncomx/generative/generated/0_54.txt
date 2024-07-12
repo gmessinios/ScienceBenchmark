@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_trade_name FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.id = "FDA000348"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda AS T1 WHERE T1.id = "FDA000348"
+GPT-3 choices:
+(0) What is the trade name of the biomarker with the ID "FDA000348" in the biomarker_fda table?
+(1) What is the trade name of the biomarker with an ID of "FDA000348" in the FDA biomarker database?
+(2) Find the test trade name from the biomarker_fda table where the id is "FDA000348".
+(3) Retrieve the trade name for the biomarker with the ID "FDA000348" from the FDA database.
+(4) What is the test trade name of the biomarker with an ID of "FDA000348" in the table biomarker_fda?
+(5) What is the test trade name for biomarker with the FDA ID "FDA000348"?
+(6) Retrieve the test trade name from the biomarker FDA table where the ID is "FDA000348".
+(7) What is the trade name of the biomarker with an FDA ID of "FDA000348" in the FDA database?

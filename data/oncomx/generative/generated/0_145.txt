@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.id FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.disease_mutation_id = 31022
+
+###
+
+
+Original Query:
+SELECT T1.id FROM disease_mutation_impact_prediction AS T1 WHERE T1.disease_mutation_id = 31022
+GPT-3 choices:
+(0) Find the ID from the table of disease-mutation impact predictions where the disease-mutation ID is equal to 31022.
+(1) Find the ID from the disease_mutation_impact_prediction table where the disease_mutation_id is equal to 31022.
+(2) Find the id from disease_mutation_impact_prediction where the disease_mutation_id is equal to 31022.
+(3) Retrieve the id from the disease_mutation_impact_prediction table where the disease_mutation_id is equal to 31022.
+(4) What is the impact prediction id for the disease mutation with an id of 31022 in the table for disease mutation impact predictions?
+(5) Retrieve the ID from the disease_mutation_impact_prediction table where the disease_mutation_id is equal to 31022.
+(6) What is the id of the disease mutation impact prediction associated with the disease mutation with an id of 31022?
+(7) Find the id of the disease_mutation_impact_prediction where the disease_mutation_id is equal to 31022.

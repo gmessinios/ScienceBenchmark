@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.i = 12.27805
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.i = 12.27805
+GPT-3 choices:
+(0) Retrieve the value of the "photometrically observed" field for a photo object with an "i" value of 12.27805 from the "photo_type" table and match it with the corresponding type in the "photoobj" table.
+(1) Retrieve the value of photometrically observed types for photo objects where the i value is 12.27805.
+(2) Retrieve the value of photometrically observed objects for photo objects with a magnitude of 12.27805 in the i filter.
+(3) What is the value of photometrically observed objects in the i-band that have a type matching the value in Photometric objects?
+(4) Find the value of photometrically observed objects where the type matches with photoobj objects having a value of 12.27805 for the i parameter.
+(5) Retrieve the value of the "photometrically_observed" column from the "photo_type" table for all objects in the "photoobj" table with a type equal to 12.27805 in the "i" column.
+(6) Retrieve the value from the "photometrically_observed" column where the type in the "photoobj" table is equal to 12.27805 and join it with the "photo_type" table.
+(7) Get the value of "photometrically_observed" for objects with a type that matches the "i" value of 12.27805 in the "photoobj" table.
+
+
+Re-ranked choices:
+8.433  Retrieve the value of photometrically observed objects for photo objects with a magnitude of 12.27805 in the i filter.
+8.430  Find the value of photometrically observed objects where the type matches with photoobj objects having a value of 12.27805 for the i parameter.
+8.428  Retrieve the value of the "photometrically observed" field for a photo object with an "i" value of 12.27805 from the "photo_type" table and match it with the corresponding type in the "photoobj" table.
+7.026  Retrieve the value of photometrically observed types for photo objects where the i value is 12.27805.
+7.024  What is the value of photometrically observed objects in the i-band that have a type matching the value in Photometric objects?
+6.336  Get the value of "photometrically_observed" for objects with a type that matches the "i" value of 12.27805 in the "photoobj" table.
+6.331  Retrieve the value of the "photometrically_observed" column from the "photo_type" table for all objects in the "photoobj" table with a type equal to 12.27805 in the "i" column.
+3.533  Retrieve the value from the "photometrically_observed" column where the type in the "photoobj" table is equal to 12.27805 and join it with the "photo_type" table.
+

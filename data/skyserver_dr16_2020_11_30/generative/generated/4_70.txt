@@ -1,0 +1,16 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.dec = -19.2292554009466
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.dec = -19.2292554009466
+GPT-3 choices:
+(0) How many objects are there in the Photometric_objects table where the dec value is equal to -19.2292554009466?
+(1) How many Photometric objects have a declination of -19.2292554009466?
+(2) How many Photometric objects have a declination value of -19.2292554009466 in the photoobj table?
+(3) How many objects are there in the photoobj table with a declination of -19.2292554009466?
+(4) How many photometric objects are there with a declination of -19.2292554009466 in the table called photoobj?
+(5) How many photometric objects are there with a declination of -19.2292554009466 in the photoobj table?
+(6) How many objects with a declination of -19.2292554009466 are in the photoobj table?
+(7) How many photometric objects have a declination of -19.2292554009466?

@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes JOIN projects AS projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.acronym != "nanoCARBS"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 JOIN projects AS T2 ON T1.code = T2.ec_fund_scheme WHERE T2.acronym != "nanoCARBS"
+GPT-3 choices:
+(0) Get the code for funding schemes from projects where the acronym is not "nanoCARBS".
+(1) Find the codes of all funding schemes that are associated with projects whose acronym is not "nanoCARBS".
+(2) Retrieve the code of the funding schemes for all projects except "nanoCARBS" by joining the tables "funding_schemes" and "projects" on their matching column "code".
+(3) Find the codes for all funding schemes that are associated with projects whose acronym is not "nanoCARBS".
+(4) Get the codes for funding schemes from the table "funding_schemes" where the code matches with the column "ec_fund_scheme" in the table "projects" excluding any projects with an acronym of "nanoCARBS".
+(5) Retrieve the code of all funding schemes for projects where the acronym is not "nanoCARBS".
+(6) Retrieve the code from the funding schemes table for all projects that are not associated with the "nanoCARBS" acronym.
+(7) Retrieve the code of all funding schemes from the funding_schemes table where the acronym of the associated project in projects table is not equal to "nanoCARBS".
+
+
+Re-ranked choices:
+7.777  Get the code for funding schemes from projects where the acronym is not "nanoCARBS".
+7.756  Retrieve the code of all funding schemes for projects where the acronym is not "nanoCARBS".
+7.725  Retrieve the code of all funding schemes from the funding_schemes table where the acronym of the associated project in projects table is not equal to "nanoCARBS".
+7.722  Get the codes for funding schemes from the table "funding_schemes" where the code matches with the column "ec_fund_scheme" in the table "projects" excluding any projects with an acronym of "nanoCARBS".
+7.030  Retrieve the code of the funding schemes for all projects except "nanoCARBS" by joining the tables "funding_schemes" and "projects" on their matching column "code".
+6.335  Find the codes of all funding schemes that are associated with projects whose acronym is not "nanoCARBS".
+6.335  Find the codes for all funding schemes that are associated with projects whose acronym is not "nanoCARBS".
+6.332  Retrieve the code from the funding schemes table for all projects that are not associated with the "nanoCARBS" acronym.
+

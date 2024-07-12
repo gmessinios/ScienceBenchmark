@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code, count(*) FROM erc_research_domains AS erc_research_domains  GROUP BY erc_research_domains.code
+
+###
+
+
+Original Query:
+SELECT T1.code, count(*) FROM erc_research_domains AS T1  GROUP BY T1.code
+GPT-3 choices:
+(0) How many research domains are there for each ERC code?
+(1) Count the number of occurrences for each code in the erc_research_domains table and group them by their respective codes.
+(2) Count the number of records in the erc_research_domains table for each unique code and group the results by code.
+(3) Count the number of records in the table erc_research_domains and group them by the code column.
+(4) Find the number of occurrences for each code in the erc_research_domains table and group them together.
+(5) Count the number of records in the ERC research domains table, grouping them by their code and displaying the code along with the count.
+(6) What is the count of occurrences for each code in the erc_research_domains table, grouped by code?
+(7) Count the number of research domains in the ERC Research Domains table and group them by their code.

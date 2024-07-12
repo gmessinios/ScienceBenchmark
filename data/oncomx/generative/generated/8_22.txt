@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_use.approved_indication FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission != "P100033"
+
+###
+
+
+Original Query:
+SELECT T1.approved_indication FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission != "P100033"
+GPT-3 choices:
+(0) Find the approved indication for biomarkers from submissions other than "P100033" in the FDA test use database.
+(1) What are the approved indications for all biomarker tests submitted to the FDA except for test submission P100033?
+(2) What is the approved indication for biomarker_fda_test_use when the test submission is not equal to "P100033"?
+(3) What is the approved indication for biomarkers that have a test submission other than "P100033" in the biomarker_fda_test_use table?
+(4) Retrieve the approved indication from the biomarker_fda_test_use table for all tests except those with a test_submission of "P100033".
+(5) What are the approved indications for biomarker FDA test use submissions that are not equal to "P100033"?
+(6) Which approved indications are associated with the biomarker-fda test use entries where the test submission is not equal to "P100033"?
+(7) Retrieve the approved indication for all biomarker FDA tests, excluding the test with a test submission of "P100033".

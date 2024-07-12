@@ -1,0 +1,16 @@
+SELECT disease_mutation.peptide_pos FROM disease_mutation AS disease_mutation JOIN disease_mutation_impact_prediction AS disease_mutation_impact_prediction ON disease_mutation.id = disease_mutation_impact_prediction.disease_mutation_id WHERE disease_mutation_impact_prediction.id != 9737
+
+###
+
+
+Original Query:
+SELECT T1.peptide_pos FROM disease_mutation AS T1 JOIN disease_mutation_impact_prediction AS T2 ON T1.id = T2.disease_mutation_id WHERE T2.id != 9737
+GPT-3 choices:
+(0) Retrieve the peptide position from disease_mutation table where the id of disease_mutation_impact_prediction table is not equal to 9737 and both tables are joined on the primary key of disease_mutation.
+(1) Find the peptide position of disease mutations with an impact prediction that is not equal to 9737.
+(2) What is the position of the peptide for all disease mutations where the impact prediction ID is not equal to 9737?
+(3) Retrieve the peptide positions from the disease mutation table where the impact prediction id is not 9737, joined with the disease mutation impact prediction table on their respective IDs.
+(4) Find the position of the peptide for all disease mutations that have an impact prediction other than 9737.
+(5) Retrieve the peptide position from disease mutations where the impact prediction ID is not equal to 9737, joined with the disease mutation impact prediction table on matching IDs.
+(6) Retrieve the peptide positions for disease mutations that have a disease mutation impact prediction ID other than 9737.
+(7) Find the position of the peptides for all disease mutations where the impact prediction ID is not equal to 9737.

@@ -1,0 +1,28 @@
+SELECT project_members.activity_type FROM project_members AS project_members WHERE project_members.street != "BUCKINGHAM GATE 85"
+
+###
+
+
+Original Query:
+SELECT T1.activity_type FROM project_members AS T1 WHERE T1.street != "BUCKINGHAM GATE 85"
+GPT-3 choices:
+(0) What are the activity types of all project members who do not live on Buckingham Gate 85?
+(1) Retrieve the activity types for all project members whose street is not "BUCKINGHAM GATE 85".
+(2) Find the activity type for all project members whose street is not "BUCKINGHAM GATE 85".
+(3) Retrieve the activity type of project members whose street is not "BUCKINGHAM GATE 85".
+(4) Retrieve the activity type of all project members who do not live at "BUCKINGHAM GATE 85".
+(5) What is the activity type of all project members who do not live on Buckingham Gate 85 street?
+(6) Retrieve the activity type of project members who do not live on Buckingham Gate 85.
+(7) Retrieve the activity type for all project members whose street is not "BUCKINGHAM GATE 85".
+
+
+Re-ranked choices:
+8.444  Find the activity type for all project members whose street is not "BUCKINGHAM GATE 85".
+8.439  Retrieve the activity type of project members whose street is not "BUCKINGHAM GATE 85".
+8.437  Retrieve the activity type for all project members whose street is not "BUCKINGHAM GATE 85".
+7.044  What is the activity type of all project members who do not live on Buckingham Gate 85 street?
+7.042  Retrieve the activity type of all project members who do not live at "BUCKINGHAM GATE 85".
+7.037  Retrieve the activity types for all project members whose street is not "BUCKINGHAM GATE 85".
+7.037  Retrieve the activity type of project members who do not live on Buckingham Gate 85.
+5.639  What are the activity types of all project members who do not live on Buckingham Gate 85?
+

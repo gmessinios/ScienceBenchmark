@@ -1,0 +1,27 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.mjd = 53996
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.mjd = 53996
+GPT-3 choices:
+(0) How many photometric objects were observed on a specific modified Julian date of 53996?
+(1) How many photometric objects were observed on MJD 53996?
+(2) How many objects were counted in the Photometric_objects table that have an mjd value of 53996?
+(3) How many Photometric objects were observed on mjd 53996?
+(4) How many Photometric objects have an mjd value of 53996?
+(5) How many photometric objects were observed on the night of mjd = 53996?
+(6) How many photometric objects were counted on MJD 53996?
+(7) How many photometric objects were observed on MJD 53996?
+
+
+Re-ranked choices:
+4.230  How many photometric objects were observed on a specific modified Julian date of 53996?
+2.129  How many objects were counted in the Photometric_objects table that have an mjd value of 53996?
+1.445  How many photometric objects were observed on the night of mjd = 53996?
+1.444  How many photometric objects were observed on MJD 53996?
+1.444  How many photometric objects were counted on MJD 53996?
+1.438  How many Photometric objects were observed on mjd 53996?
+1.438  How many Photometric objects have an mjd value of 53996?
+

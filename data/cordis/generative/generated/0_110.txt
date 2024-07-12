@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries AS countries WHERE countries.country_code3 = "GNQ"
+
+###
+
+
+Original Query:
+SELECT T1.country_name FROM countries AS T1 WHERE T1.country_code3 = "GNQ"
+GPT-3 choices:
+(0) Show me the country name of the country where the country code3 is "GNQ".
+(1) Get the name of the country from the countries table where the country code is "GNQ".
+(2) What is the name of the country with a country code of "GNQ" in the table "countries"?
+(3) Retrieve the name of the country from the database where the country code is "GNQ".
+(4) Retrieve the country name from the "countries" table where the country code is "GNQ".
+(5) What is the name of the country in the "countries" table where the country code is "GNQ"?
+(6) Retrieve the name of the country from the "countries" table where the country code is "GNQ".
+(7) Retrieve the country name from the table "countries" where the country code is equal to "GNQ".

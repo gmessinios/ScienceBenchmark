@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.value = 0 and photometrically_observed.name = "SKY"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.value = 0 and T1.name = "SKY"
+GPT-3 choices:
+(0) What is the description of photometrically observed sky conditions where the value is 0?
+(1) Retrieve the description from the table "photo_type" where the value is equal to 0 and the name is equal to "SKY".
+(2) Retrieve the description of all observations that have a value of 0 and a name of "SKY" from the table "photo_type" where those observations are photometrically observed.
+(3) Find the description for a type of photography, specifically the type that has a value of 0 and is named "SKY".
+(4) What is the description of the photo type named "SKY" with a value of 0 in the table for photometrically observed data?
+(5) Retrieve the description from the photo_type table for sky observations that have a value of 0.
+(6) Retrieve the description from the photometrically_observed table where the value is 0 and the name is "SKY".
+(7) Retrieve the description from photo_type where the value is equal to 0 and the name is "SKY" for photometrically observed data.
+
+
+Re-ranked choices:
+7.726  Retrieve the description from photo_type where the value is equal to 0 and the name is "SKY" for photometrically observed data.
+6.328  What is the description of the photo type named "SKY" with a value of 0 in the table for photometrically observed data?
+6.327  What is the description of photometrically observed sky conditions where the value is 0?
+6.320  Retrieve the description of all observations that have a value of 0 and a name of "SKY" from the table "photo_type" where those observations are photometrically observed.
+5.630  Retrieve the description from the photometrically_observed table where the value is 0 and the name is "SKY".
+4.938  Retrieve the description from the table "photo_type" where the value is equal to 0 and the name is equal to "SKY".
+3.533  Find the description for a type of photography, specifically the type that has a value of 0 and is named "SKY".
+3.532  Retrieve the description from the photo_type table for sky observations that have a value of 0.
+

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.description != "Galaxy: An extended object composed of many stars and other matter."
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.description != "Galaxy: An extended object composed of many stars and other matter."
+GPT-3 choices:
+(0) Find the type of nearest neighbour objects where the photometrically observed description is not "Galaxy: An extended object composed of many stars and other matter."
+(1) Retrieve the type of objects from the table "Nearest_neighbour_objects" that are not described as a galaxy in the table "photo_type", where the value in the column "neighbortype" matches with the value in the column "value".
+(2) Find the type of nearest neighbor objects that have been photometrically observed and are not described as galaxies.
+(3) "Retrieve the type of nearest neighbor objects that have been photometrically observed and are not described as galaxies."
+(4) What are the types of nearest neighbor objects that have been photometrically observed and are not described as galaxies?
+(5) Retrieve the type of nearest neighbor objects whose description is not "Galaxy: An extended object composed of many stars and other matter.", by joining the neighbors table with the photo_type table and selecting the type from Nearest_neighbour_objects.
+(6) Retrieve the type of objects that are nearest neighbours to other objects, excluding galaxies.
+(7) Find the types of nearest neighbor objects where their photometrically observed value is not "Galaxy: An extended object composed of many stars and other matter."
+
+
+Re-ranked choices:
+15.420  Find the type of nearest neighbour objects where the photometrically observed description is not "Galaxy: An extended object composed of many stars and other matter."
+14.021  Find the types of nearest neighbor objects where their photometrically observed value is not "Galaxy: An extended object composed of many stars and other matter."
+12.626  Retrieve the type of nearest neighbor objects whose description is not "Galaxy: An extended object composed of many stars and other matter.", by joining the neighbors table with the photo_type table and selecting the type from Nearest_neighbour_objects.
+7.726  Find the type of nearest neighbor objects that have been photometrically observed and are not described as galaxies.
+7.726  "Retrieve the type of nearest neighbor objects that have been photometrically observed and are not described as galaxies."
+6.328  What are the types of nearest neighbor objects that have been photometrically observed and are not described as galaxies?
+5.617  Retrieve the type of objects from the table "Nearest_neighbour_objects" that are not described as a galaxy in the table "photo_type", where the value in the column "neighbortype" matches with the value in the column "value".
+4.228  Retrieve the type of objects that are nearest neighbours to other objects, excluding galaxies.
+

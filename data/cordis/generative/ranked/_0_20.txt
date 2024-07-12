@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.description = "Social Sciences And Humanities"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 WHERE T1.description = "Social Sciences And Humanities"
+GPT-3 choices:
+(0) Retrieve the code for all research domains from the table "erc_research_domains" where the description is "Social Sciences And Humanities".
+(1) Retrieve the code for all research domains from the ERC Research Domains table where the description is "Social Sciences And Humanities".
+(2) Retrieve the code for research domains in social sciences and humanities from the table "erc_research_domains" where the description is "Social Sciences And Humanities".
+(3) Get the code for all research domains in the Social Sciences and Humanities category from the table erc_research_domains.
+(4) Retrieve the code for the research domain "Social Sciences and Humanities" from the table "erc_research_domains".
+(5) Retrieve the code for all research domains within the "Social Sciences And Humanities" category from the erc_research_domains table.
+(6) Retrieve the code from the ERC research domains table where the description is "Social Sciences And Humanities".
+(7) What is the code for the research domain "Social Sciences And Humanities" in the table "erc_research_domains"?
+
+
+Re-ranked choices:
+9.130  Retrieve the code from the ERC research domains table where the description is "Social Sciences And Humanities".
+9.126  Retrieve the code for all research domains from the ERC Research Domains table where the description is "Social Sciences And Humanities".
+7.721  Retrieve the code for all research domains from the table "erc_research_domains" where the description is "Social Sciences And Humanities".
+7.718  Retrieve the code for research domains in social sciences and humanities from the table "erc_research_domains" where the description is "Social Sciences And Humanities".
+6.322  Get the code for all research domains in the Social Sciences and Humanities category from the table erc_research_domains.
+6.320  Retrieve the code for all research domains within the "Social Sciences And Humanities" category from the erc_research_domains table.
+4.923  What is the code for the research domain "Social Sciences And Humanities" in the table "erc_research_domains"?
+4.922  Retrieve the code for the research domain "Social Sciences and Humanities" from the table "erc_research_domains".
+

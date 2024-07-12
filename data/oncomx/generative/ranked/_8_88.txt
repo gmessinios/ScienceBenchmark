@@ -1,0 +1,28 @@
+SELECT disease_mutation_site_annotation.description FROM disease_mutation_site_annotation AS disease_mutation_site_annotation WHERE disease_mutation_site_annotation.feature_key != "natural variant"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM disease_mutation_site_annotation AS T1 WHERE T1.feature_key != "natural variant"
+GPT-3 choices:
+(0) What are the descriptions of disease mutation site annotations where the feature key is not "natural variant"?
+(1) Get the descriptions of all disease mutation sites that are not natural variants.
+(2) Get the description of all disease mutation site annotations, excluding those with a feature key of "natural variant".
+(3) What is the description for all mutation sites that are not classified as natural variants in the disease_mutation_site_annotation table?
+(4) Retrieve the description of all mutation sites in the disease mutation site annotation table, excluding those labeled as "natural variant".
+(5) Retrieve the description of all mutation sites in disease_mutation_site_annotation that are not natural variants.
+(6) What are the descriptions of all disease mutation sites that are not considered natural variants?
+(7) Retrieve the descriptions of all disease mutation site annotations where the feature key is not "natural variant".
+
+
+Re-ranked choices:
+9.824  Get the description of all disease mutation site annotations, excluding those with a feature key of "natural variant".
+8.427  What are the descriptions of disease mutation site annotations where the feature key is not "natural variant"?
+8.424  Retrieve the descriptions of all disease mutation site annotations where the feature key is not "natural variant".
+8.421  Retrieve the description of all mutation sites in the disease mutation site annotation table, excluding those labeled as "natural variant".
+3.536  Get the descriptions of all disease mutation sites that are not natural variants.
+3.529  What are the descriptions of all disease mutation sites that are not considered natural variants?
+3.521  What is the description for all mutation sites that are not classified as natural variants in the disease_mutation_site_annotation table?
+3.520  Retrieve the description of all mutation sites in disease_mutation_site_annotation that are not natural variants.
+

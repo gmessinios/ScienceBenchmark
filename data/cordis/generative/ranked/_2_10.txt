@@ -1,0 +1,28 @@
+SELECT subject_areas.description, count(*) FROM subject_areas AS subject_areas  GROUP BY subject_areas.description
+
+###
+
+
+Original Query:
+SELECT T1.description, count(*) FROM subject_areas AS T1  GROUP BY T1.description
+GPT-3 choices:
+(0) Count the number of records in the subject areas table grouped by the description field.
+(1) "Count the number of records for each unique subject area description in the 'subject_areas' table."
+(2) What is the total count of records in the subject_areas table grouped by their descriptions?
+(3) "How many records are in each subject area and what is the description of those subject areas?"
+(4) "Retrieve the number of records grouped by the description field from the subject_areas table."
+(5) How many subject areas are there for each unique description in the subject_areas table?
+(6) "Get the number of records grouped by the description from the subject areas table."
+(7) "How many records are in each subject area and what is the description of each subject area?"
+
+
+Re-ranked choices:
+4.947  "Get the number of records grouped by the description from the subject areas table."
+4.944  Count the number of records in the subject areas table grouped by the description field.
+4.234  How many subject areas are there for each unique description in the subject_areas table?
+2.858  "How many records are in each subject area and what is the description of each subject area?"
+2.847  "How many records are in each subject area and what is the description of those subject areas?"
+2.837  "Count the number of records for each unique subject area description in the 'subject_areas' table."
+2.134  "Retrieve the number of records grouped by the description field from the subject_areas table."
+0.737  What is the total count of records in the subject_areas table grouped by their descriptions?
+

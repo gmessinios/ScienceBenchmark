@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes JOIN projects AS projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.title != "A Cognitive Detection System for Cybersecure Operational Technologies"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 JOIN projects AS T2 ON T1.code = T2.ec_fund_scheme WHERE T2.title != "A Cognitive Detection System for Cybersecure Operational Technologies"
+GPT-3 choices:
+(0) What are the codes of all funding schemes that have been used for projects other than "A Cognitive Detection System for Cybersecure Operational Technologies"?
+(1) Find the codes for all funding schemes associated with projects that have titles other than "A Cognitive Detection System for Cybersecure Operational Technologies".
+(2) Find the funding scheme code for all projects that are not titled "A Cognitive Detection System for Cybersecure Operational Technologies".
+(3) Find the code for all funding schemes that are used by projects with titles other than "A Cognitive Detection System for Cybersecure Operational Technologies".
+(4) What is the funding scheme code for projects that are not titled "A Cognitive Detection System for Cybersecure Operational Technologies"?
+(5) What is the code of the funding scheme for projects that have a title other than "A Cognitive Detection System for Cybersecure Operational Technologies"?
+(6) Find the code for all funding schemes that are associated with projects titled anything other than "A Cognitive Detection System for Cybersecure Operational Technologies".
+(7) Find the code for funding schemes where the project title is not "A Cognitive Detection System for Cybersecure Operational Technologies".

@@ -1,0 +1,16 @@
+SELECT count(*) FROM topics AS topics WHERE topics.title = "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics AS T1 WHERE T1.title = "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"
+GPT-3 choices:
+(0) How many records are there in the "topics" table where the title is "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"?
+(1) How many topics have the title "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"?
+(2) How many topics in the database have the title "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"?
+(3) How many topics have the title "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"?
+(4) How many topics are there with the title "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"?
+(5) How many records are there in the "topics" table where the title is "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"?
+(6) How many topics have the title "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests"?
+(7) How many topics have the title "Assessment of optimized tiltrotor engine intake performance by wind tunnel tests" in the database?

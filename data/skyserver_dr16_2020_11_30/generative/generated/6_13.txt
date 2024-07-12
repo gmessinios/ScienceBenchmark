@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861534609 and Nearest_neighbour_objects.distance = 9.74622584843595e-06
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.neighborobjid = 1237645876861534609 and T1.distance = 9.74622584843595e-06
+GPT-3 choices:
+(0) Find the objid of the nearest neighbour object with neighborobjid 1237645876861534609 and a distance of 9.74622584843595e-06 in the neighbors table.
+(1) "Find the object IDs of the nearest neighbors to 1237645876861534609 with a distance of 9.74622584843595e-06."
+(2) "Select the object ID of the nearest neighbour from the neighbors table where the neighbor object ID is 1237645876861534609 and the distance is 9.74622584843595e-06."
+(3) Find the objects that are nearest to an object with objid of 1237645876861534609 and have a distance of 9.74622584843595e-06 in the neighbors table.
+(4) Find the objid of objects that are nearest neighbors to 1237645876861534609 and have a distance of 9.74622584843595e-06.
+(5) Find the object IDs of the nearest neighbors to object ID 1237645876861534609 where the distance is equal to 9.74622584843595e-06.
+(6) Find the object IDs of the nearest neighbors from a table called "neighbors" where the neighbor object ID is equal to 1237645876861534609 and the distance is equal to 9.74622584843595e-06.
+(7) Get the object ID of the nearest neighbor for an object with ID 1237645876861534609, where the distance between them is equal to 9.74622584843595e-06.

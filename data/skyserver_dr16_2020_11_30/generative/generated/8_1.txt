@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.objid != 1237678618506690882
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.objid != 1237678618506690882
+GPT-3 choices:
+(0) Find the type of all objects that are neighbors to an object with ID 1237678618506690882, excluding the object itself.
+(1) Retrieve the types of objects that are nearest neighbors to an object with an ID of 1237678618506690882, except for the object itself.
+(2) Find the type of all nearest neighbor objects that have an object ID different from 1237678618506690882.
+(3) What is the type of objects that are nearest neighbors to the object with ID 1237678618506690882 in the neighbors table?
+(4) "Get the type of the nearest neighbour objects that are not equal to the object with objid 1237678618506690882."
+(5) Find the type of objects that are neighbors to the object with ID 1237678618506690882, excluding itself.
+(6) Retrieve the type of all nearest neighbour objects, except for the object with objid 1237678618506690882.
+(7) Find the type of objects that are nearest neighbours to the object with ID 1237678618506690882, excluding that object itself.

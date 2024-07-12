@@ -1,0 +1,16 @@
+SELECT biomarker_fda_drug.biomarker_drug, count(*) FROM biomarker_fda_drug AS biomarker_fda_drug  GROUP BY biomarker_fda_drug.biomarker_drug
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_drug, count(*) FROM biomarker_fda_drug AS T1  GROUP BY T1.biomarker_drug
+GPT-3 choices:
+(0) How many times has each biomarker drug appeared in the biomarker_fda_drug table?
+(1) "Count the number of times each biomarker drug appears in the database."
+(2) Count the number of occurrences of each biomarker drug in the biomarker_fda_drug table.
+(3) What is the number of instances of each biomarker drug in the biomarker_fda_drug table?
+(4) Count the number of occurrences for each biomarker and FDA drug combination in the "biomarker_fda_drug" table.
+(5) "Count the number of occurrences for each biomarker drug in the biomarker_fda_drug table."
+(6) How many biomarker drugs are there for each biomarker listed in the table "biomarker_fda_drug"?
+(7) Count the number of biomarker drugs in the table "biomarker_fda_drug" and group them by each specific biomarker drug.

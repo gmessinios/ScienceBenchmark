@@ -1,0 +1,28 @@
+SELECT Photometric_objects.loadversion FROM photoobj AS Photometric_objects WHERE Photometric_objects.flags != 80330494792
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM photoobj AS T1 WHERE T1.flags != 80330494792
+GPT-3 choices:
+(0) Retrieve the loadversion data from the photoobj table for objects in the Photometric_objects table where their flags do not equal 80330494792.
+(1) Find the version number of loaded photometric objects from the photoobj table where the flags do not equal 80330494792.
+(2) Find the version of the load for all objects in the Photometric_objects table from the photoobj table, where the flags column is not equal to 80330494792.
+(3) Retrieve the load version from the photoobj table for photometric objects where the flags column is not equal to 80330494792.
+(4) Get the load version from the photo object table where the flags column does not equal 80330494792.
+(5) Get the loadversion from the photoobj table for objects in the Photometric_objects where the flags do not equal 80330494792.
+(6) Retrieve the loadversion data from the Photometric_objects table of photoobj where the flags are not equal to 80330494792.
+(7) Find the load version of photometric objects from the photoobj table where their flags do not equal 80330494792.
+
+
+Re-ranked choices:
+7.041  Get the load version from the photo object table where the flags column does not equal 80330494792.
+6.323  Find the version of the load for all objects in the Photometric_objects table from the photoobj table, where the flags column is not equal to 80330494792.
+5.633  Find the load version of photometric objects from the photoobj table where their flags do not equal 80330494792.
+5.625  Retrieve the load version from the photoobj table for photometric objects where the flags column is not equal to 80330494792.
+4.229  Find the version number of loaded photometric objects from the photoobj table where the flags do not equal 80330494792.
+3.526  Get the loadversion from the photoobj table for objects in the Photometric_objects where the flags do not equal 80330494792.
+3.522  Retrieve the loadversion data from the photoobj table for objects in the Photometric_objects table where their flags do not equal 80330494792.
+2.124  Retrieve the loadversion data from the Photometric_objects table of photoobj where the flags are not equal to 80330494792.
+

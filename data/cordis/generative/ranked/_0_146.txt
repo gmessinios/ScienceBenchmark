@@ -1,0 +1,28 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.title = "Transport"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.title = "Transport"
+GPT-3 choices:
+(0) What is the code for the subject area "Transport" in the table "subject_areas"?
+(1) Retrieve the code for all subject areas where the title is "Transport".
+(2) What is the subject area code for "Transport"?
+(3) What is the code for the subject area "Transport"?
+(4) Find the code for subject areas that have a title of "Transport".
+(5) Retrieve the code for subject areas where the title is "Transport".
+(6) Retrieve the subject area code for "Transport" from the subject areas table.
+(7) Find the code for subject areas related to transportation.
+
+
+Re-ranked choices:
+6.368  Find the code for subject areas that have a title of "Transport".
+6.354  Retrieve the code for all subject areas where the title is "Transport".
+6.347  Retrieve the code for subject areas where the title is "Transport".
+4.944  Retrieve the subject area code for "Transport" from the subject areas table.
+4.237  Find the code for subject areas related to transportation.
+3.643  What is the code for the subject area "Transport"?
+3.603  What is the subject area code for "Transport"?
+3.542  What is the code for the subject area "Transport" in the table "subject_areas"?
+

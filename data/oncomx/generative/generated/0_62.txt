@@ -1,0 +1,16 @@
+SELECT biomarker_article.biomarker_internal_id FROM biomarker_article AS biomarker_article WHERE biomarker_article.pmid = "15059887"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id FROM biomarker_article AS T1 WHERE T1.pmid = "15059887"
+GPT-3 choices:
+(0) Find the biomarker internal ID from the biomarker_article table where the PMID is equal to 15059887.
+(1) Get the internal ID of a biomarker from the biomarker_article table where the PMID is equal to "15059887".
+(2) Find the biomarker internal ID from the biomarker_article table where the PMID is "15059887".
+(3) Find the biomarker internal ID for articles with a PMID of 15059887.
+(4) What is the internal ID of the biomarker mentioned in an article with PMID 15059887?
+(5) Find the biomarker internal ID for an article with a PMID of 15059887 in the biomarker_article table.
+(6) Find the internal ID for the biomarker mentioned in an article with a PMID of 15059887.
+(7) Retrieve the internal ID of a biomarker from the "biomarker_article" table where the PMID is equal to 15059887.

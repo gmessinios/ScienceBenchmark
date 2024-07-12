@@ -1,0 +1,16 @@
+SELECT disease_mutation.chromosome_pos FROM disease_mutation AS disease_mutation WHERE disease_mutation.cds_pos = 471 or disease_mutation.peptide_pos = 83
+
+###
+
+
+Original Query:
+SELECT T1.chromosome_pos FROM disease_mutation AS T1 WHERE T1.cds_pos = 471 or T1.peptide_pos = 83
+GPT-3 choices:
+(0) Find the chromosome position in the disease mutation table where the CDS position is equal to 471 or the peptide position is equal to 83.
+(1) Retrieve the chromosome position from the disease_mutation table where the cds_pos is equal to 471 or the peptide_pos is equal to 83.
+(2) Find the chromosome position in the disease mutation table where either the CDS position is 471 or the peptide position is 83.
+(3) Retrieve the chromosome position from the disease mutation table where the CDS position is equal to 471 or the peptide position is equal to 83.
+(4) Retrieve the chromosome position from the disease_mutation table where the cds_pos is equal to 471 or the peptide_pos is equal to 83.
+(5) What is the chromosome position of the disease mutation with a coding sequence position of 471 or a peptide position of 83?
+(6) Retrieve the chromosome position from the disease_mutation table where the cds_pos is equal to 471 or the peptide_pos is equal to 83.
+(7) Find the chromosome positions from disease mutations where the coding sequence position is 471 or the peptide position is 83.

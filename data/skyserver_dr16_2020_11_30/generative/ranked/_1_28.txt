@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.clean = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.clean = 0
+GPT-3 choices:
+(0) Find the objid of the nearest neighbor objects that are clean based on the photoobj table.
+(1) Find the objid of nearest neighbor objects for which the corresponding photoobj has a clean value of 0 in the neighbors and photoobj tables.
+(2) Find the IDs of objects that are the nearest neighbors to a given set of photo objects that are not considered clean.
+(3) Find the neighbor object IDs of all objects in the neighbors table where the corresponding object ID in the photoobj table has a value of 0 for the clean column.
+(4) Find the object IDs of the nearest neighbors for objects in the photoobj table that have a clean value of 0 in the photometric_objects table.
+(5) Find the IDs of objects that are nearest neighbors to a given object, but only include those whose corresponding Photometric object has not been flagged as clean.
+(6) Find the neighborobjid values from the Nearest_neighbour_objects table for all objects in the Photometric_objects table with a clean value of 0.
+(7) Find the nearest neighbor objects with their object IDs from the neighbors table where the photometric objects are not clean, by joining the neighbors and photoobj tables.
+
+
+Re-ranked choices:
+7.022  Find the neighbor object IDs of all objects in the neighbors table where the corresponding object ID in the photoobj table has a value of 0 for the clean column.
+4.933  Find the objid of the nearest neighbor objects that are clean based on the photoobj table.
+4.923  Find the object IDs of the nearest neighbors for objects in the photoobj table that have a clean value of 0 in the photometric_objects table.
+4.222  Find the nearest neighbor objects with their object IDs from the neighbors table where the photometric objects are not clean, by joining the neighbors and photoobj tables.
+4.221  Find the objid of nearest neighbor objects for which the corresponding photoobj has a clean value of 0 in the neighbors and photoobj tables.
+4.220  Find the neighborobjid values from the Nearest_neighbour_objects table for all objects in the Photometric_objects table with a clean value of 0.
+2.824  Find the IDs of objects that are nearest neighbors to a given object, but only include those whose corresponding Photometric object has not been flagged as clean.
+1.432  Find the IDs of objects that are the nearest neighbors to a given set of photo objects that are not considered clean.
+

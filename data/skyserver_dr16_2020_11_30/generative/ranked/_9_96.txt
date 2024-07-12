@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.type != 6
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.type != 6
+GPT-3 choices:
+(0) Retrieve the names of all photometric objects that have been observed, excluding those with a type equal to 6, from the table "photometrically_observed".
+(1) Retrieve the names of all objects that have been observed photometrically, excluding those with a type value of 6.
+(2) "Get the names of objects that have been observed photometrically but are not type 6 in the photoobj table."
+(3) List the names of all objects that have been photometrically observed and are not classified as type 6 in the photoobj table.
+(4) Find the names of all objects that have been observed photometrically and are not type 6 in the photo_type table, by joining with the photoobj table on matching type values.
+(5) Find the names of all objects that have been observed photometrically and are not of type 6 in the photoobj table.
+(6) Find the names of all photometrically observed objects that have a photo type value different from 6 in the photoobj table.
+(7) Find the names of all objects in the photoobj table that have a type other than 6, and match those types to their corresponding name in the photo_type table.
+
+
+Re-ranked choices:
+7.024  Find the names of all photometrically observed objects that have a photo type value different from 6 in the photoobj table.
+6.320  Find the names of all objects that have been observed photometrically and are not type 6 in the photo_type table, by joining with the photoobj table on matching type values.
+5.630  Find the names of all objects that have been observed photometrically and are not of type 6 in the photoobj table.
+5.629  "Get the names of objects that have been observed photometrically but are not type 6 in the photoobj table."
+5.628  Retrieve the names of all objects that have been observed photometrically, excluding those with a type value of 6.
+5.626  List the names of all objects that have been photometrically observed and are not classified as type 6 in the photoobj table.
+4.225  Find the names of all objects in the photoobj table that have a type other than 6, and match those types to their corresponding name in the photo_type table.
+3.522  Retrieve the names of all photometric objects that have been observed, excluding those with a type equal to 6, from the table "photometrically_observed".
+

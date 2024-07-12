@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.ec_max_contribution = 1716960.0
+
+###
+
+
+Original Query:
+SELECT T1.description FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.ec_max_contribution = 1716960.0
+GPT-3 choices:
+(0) What are the research domains that have a description and are part of panels which are included in projects that have an EC maximum contribution of 1716960.0?
+(1) Find the description of ERC research domains for projects where the EC maximum contribution is equal to 1716960.0 and it is part of an ERC panel, which in turn is a part of a research domain.
+(2) Retrieve the description of ERC research domains for projects where the maximum EC contribution is equal to 1716960.0.
+(3) Retrieve the description of all research domains from the ERC Research Domains table where the EC Max Contribution of a project in the Projects table is equal to 1716960.0 and it belongs to a panel that is part of an ERC Panel in the Project ERC Panels table.
+(4) Get the description of research domains from the ERC research domains table where the project's EC max contribution is equal to 1716960.0, joining the erc panels and project erc panels tables on their respective codes and also joining the projects table on the project erc panels' project code.
+(5) Retrieve the description of the research domain associated with ERC panels that are part of a project with an EC maximum contribution of 1716960.0.
+(6) What is the description of the ERC research domain for projects that have an EC maximum contribution of 1716960.0 and are part of an ERC panel?
+(7) Find the description of research domains from the ERC research domains table where the code matches that of a panel from the ERC panels table, and the code also matches a panel in the project ERC panels table, which is then linked to projects where the maximum EC contribution is equal to 1716960.0.

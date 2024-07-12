@@ -1,0 +1,16 @@
+SELECT count(*) FROM disease_mutation_article AS disease_mutation_article WHERE disease_mutation_article.pmid = 23676790
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease_mutation_article AS T1 WHERE T1.pmid = 23676790
+GPT-3 choices:
+(0) How many rows are there in the disease_mutation_article table where the pmid value is equal to 23676790?
+(1) How many articles are associated with the PMID 23676790 in the disease_mutation_article table?
+(2) How many disease mutation articles have a PMID of 23676790?
+(3) How many records are in the "disease_mutation_article" table where the PMID is equal to 23676790?
+(4) How many articles about disease mutations have a PMID of 23676790?
+(5) How many records are there in the "disease_mutation_article" table where the "pmid" column is equal to 23676790?
+(6) How many articles are associated with a disease and mutation where the PubMed ID is 23676790?
+(7) How many articles are associated with the disease mutation with PMID 23676790?

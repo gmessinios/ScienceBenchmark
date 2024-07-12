@@ -1,0 +1,28 @@
+SELECT projects.start_year FROM projects WHERE projects.acronym = 'StentFEM'
+
+###
+
+
+Original Query:
+SELECT projects.start_year FROM projects WHERE projects.acronym = 'StentFEM'
+GPT-3 choices:
+(0) Show me project start years of projects with acronym StentFEM
+(1) Show me all funding entries for projects with the acronym StentFEM
+(2) Show me all projects with acronym StentFEM and the year when they started.
+(3) Show the different project start years for the projects with acronym StentFEM
+(4) What is the starting year of projects that have the acronym StentFEM?
+(5) Show me the year of project start of the project whose acronym is StentFEM
+(6) Show me projects whose acronym is StentFEM and whose first project year was
+(7) Show me the years projects started with "StentFEM"
+
+
+Re-ranked choices:
+4.986  Show me project start years of projects with acronym StentFEM
+4.977  Show me the year of project start of the project whose acronym is StentFEM
+4.965  Show me all projects with acronym StentFEM and the year when they started.
+4.965  Show me projects whose acronym is StentFEM and whose first project year was
+4.956  Show the different project start years for the projects with acronym StentFEM
+4.256  What is the starting year of projects that have the acronym StentFEM?
+3.548  Show me all funding entries for projects with the acronym StentFEM
+2.177  Show me the years projects started with "StentFEM"
+

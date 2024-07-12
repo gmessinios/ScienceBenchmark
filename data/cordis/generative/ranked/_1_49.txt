@@ -1,0 +1,28 @@
+SELECT countries.country_code2 FROM countries AS countries JOIN institutions AS institutions ON countries.unics_id = institutions.country_id WHERE institutions.country_id = 131
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 JOIN institutions AS T2 ON T1.unics_id = T2.country_id WHERE T2.country_id = 131
+GPT-3 choices:
+(0) Find the country code2 of all countries that have a corresponding unics_id in the institutions table and whose country_id is equal to 131.
+(1) Find the country code 2 for all countries where institutions are located by joining the countries and institutions tables on their respective IDs and selecting the country code 2 for the country with a unics ID of 131.
+(2) Retrieve the country code for countries that have a corresponding institution with a country ID of 131.
+(3) Return the country code 2 for all countries where the country ID of institutions is equal to 131.
+(4) Get the country code2 from the countries table where the country_id in institutions table is equal to 131.
+(5) Find the country code2 of the countries where the institutions have a matching country_id as 131.
+(6) Find the country code2 for all institutions located in the country with a unics_id of 131 by joining the tables countries and institutions and matching on the country_id.
+(7) Retrieve the country code for all countries that have institutions located within them, where the country's unique ID is 131.
+
+
+Re-ranked choices:
+7.716  Find the country code 2 for all countries where institutions are located by joining the countries and institutions tables on their respective IDs and selecting the country code 2 for the country with a unics ID of 131.
+6.319  Find the country code2 for all institutions located in the country with a unics_id of 131 by joining the tables countries and institutions and matching on the country_id.
+5.642  Find the country code2 of the countries where the institutions have a matching country_id as 131.
+5.637  Return the country code 2 for all countries where the country ID of institutions is equal to 131.
+5.637  Get the country code2 from the countries table where the country_id in institutions table is equal to 131.
+5.630  Retrieve the country code for all countries that have institutions located within them, where the country's unique ID is 131.
+5.625  Find the country code2 of all countries that have a corresponding unics_id in the institutions table and whose country_id is equal to 131.
+4.230  Retrieve the country code for countries that have a corresponding institution with a country ID of 131.
+

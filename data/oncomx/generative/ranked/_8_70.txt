@@ -1,0 +1,28 @@
+SELECT biomarker_fda.id FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_trade_name != "FoundationFocus CDxBRCA"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker_fda AS T1 WHERE T1.test_trade_name != "FoundationFocus CDxBRCA"
+GPT-3 choices:
+(0) "Retrieve the id of all biomarkers from the FDA database that do not have a test trade name of "FoundationFocus CDxBRCA".
+(1) "Select the id of all biomarkers from the FDA database that have a test trade name other than "FoundationFocus CDxBRCA"."
+(2) Find the ID of all biomarkers in the FDA database that do not have a test trade name of "FoundationFocus CDxBRCA".
+(3) What are the ids of biomarkers in the FDA database where their test trade name is not "FoundationFocus CDxBRCA"?
+(4) Get the IDs of all biomarkers in the FDA database that do not have the trade name "FoundationFocus CDxBRCA".
+(5) Find the IDs of all biomarkers in the FDA database that have a test trade name other than "FoundationFocus CDxBRCA".
+(6) Find the ID of all biomarkers from the FDA database that have a test trade name other than "FoundationFocus CDxBRCA".
+(7) Retrieve the IDs from the table "biomarker_fda" where the test trade name is not equal to "FoundationFocus CDxBRCA".
+
+
+Re-ranked choices:
+8.430  Find the ID of all biomarkers in the FDA database that do not have a test trade name of "FoundationFocus CDxBRCA".
+8.428  Find the ID of all biomarkers from the FDA database that have a test trade name other than "FoundationFocus CDxBRCA".
+8.423  "Retrieve the id of all biomarkers from the FDA database that do not have a test trade name of "FoundationFocus CDxBRCA".
+8.420  "Select the id of all biomarkers from the FDA database that have a test trade name other than "FoundationFocus CDxBRCA"."
+7.028  Find the IDs of all biomarkers in the FDA database that have a test trade name other than "FoundationFocus CDxBRCA".
+7.027  What are the ids of biomarkers in the FDA database where their test trade name is not "FoundationFocus CDxBRCA"?
+5.629  Get the IDs of all biomarkers in the FDA database that do not have the trade name "FoundationFocus CDxBRCA".
+5.625  Retrieve the IDs from the table "biomarker_fda" where the test trade name is not equal to "FoundationFocus CDxBRCA".
+

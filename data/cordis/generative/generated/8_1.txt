@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.code != "ID"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM erc_research_domains AS T1 WHERE T1.code != "ID"
+GPT-3 choices:
+(0) Retrieve the description of all research domains except "ID" from the erc_research_domains table.
+(1) Retrieve the descriptions of all research domains that have a code other than "ID".
+(2) Find the description of all research domains except for those with the code "ID" in the ERC Research Domains table.
+(3) Retrieve the description of all research domains from the ERC Research Domains table, except for the one with a code of "ID".
+(4) What are the descriptions of all research domains that have a code other than "ID"?
+(5) What are the descriptions of all research domains except for "ID"?
+(6) Retrieve the description from the ERC Research Domains table, excluding any rows where the code is "ID".
+(7) Get the description of all research domains from the table "erc_research_domains", except for those with the code "ID".

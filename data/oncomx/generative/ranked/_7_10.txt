@@ -1,0 +1,28 @@
+SELECT disease_mutation.ref_nt FROM disease_mutation AS disease_mutation WHERE disease_mutation.data_source = "clinvar" or disease_mutation.peptide_pos = 438
+
+###
+
+
+Original Query:
+SELECT T1.ref_nt FROM disease_mutation AS T1 WHERE T1.data_source = "clinvar" or T1.peptide_pos = 438
+GPT-3 choices:
+(0) Retrieve the reference nucleotide from disease mutations where the data source is "clinvar" or the peptide position is 438.
+(1) What is the reference nucleotide for disease mutations in position 438 that are sourced from ClinVar?
+(2) Retrieve the reference nucleotide from the disease_mutation table where the data source is equal to "clinvar" or the peptide position is equal to 438.
+(3) What is the reference nucleotide for the disease mutation with either a data source of "clinvar" or a peptide position of 438?
+(4) What is the reference nucleotide for a disease mutation with either a data source of ClinVar or a peptide position of 438?
+(5) Get the reference nucleotide from the disease mutation data where the data source is "clinvar" or the peptide position is 438.
+(6) Retrieve the reference nucleotide from the disease_mutation table where either the data_source is "clinvar" or the peptide position is 438.
+(7) Find the reference nucleotide for disease mutations where the data source is "clinvar" or the peptide position is 438.
+
+
+Re-ranked choices:
+7.724  Get the reference nucleotide from the disease mutation data where the data source is "clinvar" or the peptide position is 438.
+7.723  What is the reference nucleotide for the disease mutation with either a data source of "clinvar" or a peptide position of 438?
+7.723  What is the reference nucleotide for a disease mutation with either a data source of ClinVar or a peptide position of 438?
+6.326  Find the reference nucleotide for disease mutations where the data source is "clinvar" or the peptide position is 438.
+6.323  Retrieve the reference nucleotide from disease mutations where the data source is "clinvar" or the peptide position is 438.
+4.922  Retrieve the reference nucleotide from the disease_mutation table where the data source is equal to "clinvar" or the peptide position is equal to 438.
+2.121  Retrieve the reference nucleotide from the disease_mutation table where either the data_source is "clinvar" or the peptide position is 438.
+1.429  What is the reference nucleotide for disease mutations in position 438 that are sourced from ClinVar?
+

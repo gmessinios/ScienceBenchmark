@@ -1,0 +1,16 @@
+SELECT biomarker.test_is_a_panel FROM biomarker AS biomarker WHERE biomarker.gene_symbol != "DNAJB6"
+
+###
+
+
+Original Query:
+SELECT T1.test_is_a_panel FROM biomarker AS T1 WHERE T1.gene_symbol != "DNAJB6"
+GPT-3 choices:
+(0) What is the panel test status for biomarkers that do not have a gene symbol of "DNAJB6"?
+(1) What is the test_is_a_panel status for biomarkers that do not have a gene symbol of "DNAJB6"?
+(2) Return the value of the "test_is_a_panel" column from the "biomarker" table where the gene symbol is not equal to "DNAJB6".
+(3) "Retrieve the test_is_a_panel values from the biomarker table for all genes except DNAJB6."
+(4) Retrieve whether the test associated with each biomarker is a panel, excluding those that have a gene symbol of "DNAJB6".
+(5) What is the test_is_a_panel value for all biomarkers with a gene symbol other than "DNAJB6"?
+(6) Retrieve the test_is_a_panel value from the biomarker table where the gene symbol is not equal to "DNAJB6".
+(7) Retrieve the value of the test_is_a_panel column from the biomarker table for all entries where the gene_symbol is not "DNAJB6".

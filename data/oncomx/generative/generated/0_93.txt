@@ -1,0 +1,16 @@
+SELECT species.species FROM species AS species WHERE species.speciesid = 10090
+
+###
+
+
+Original Query:
+SELECT T1.species FROM species AS T1 WHERE T1.speciesid = 10090
+GPT-3 choices:
+(0) Retrieve the species name from the "species" table where the species ID is 10090.
+(1) Retrieve the species name from the "species" table where the speciesid is equal to 10090.
+(2) Find the name of the species in the table "species" where the species ID is equal to 10090.
+(3) What is the name of the species in the table "species" where the speciesid is 10090?
+(4) What are the species names for which the species ID is 10090 in the table "species"?
+(5) Retrieve the species name from the "species" table where the "speciesid" is equal to 10090.
+(6) What is the name of the species with a speciesid of 10090 in the table named "species"?
+(7) Retrieve the species name from the "species" table where the species ID is equal to 10090.

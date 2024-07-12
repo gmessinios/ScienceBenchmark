@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.objid FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.distance = 1.13413602378053e-05 or Nearest_neighbour_objects.neighborobjid = 1237645876861534336
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM neighbors AS T1 WHERE T1.distance = 1.13413602378053e-05 or T1.neighborobjid = 1237645876861534336
+GPT-3 choices:
+(0) Find the object ID of the nearest neighbor with a distance of 1.13413602378053e-05 or a neighbor object ID of 1237645876861534336 from the neighbors table.
+(1) Find the objects that are either at a distance of 1.13413602378053e-05 or have an ID of 1237645876861534336 from the neighbors table.
+(2) Find the object ID for the nearest neighbor where the distance is equal to 1.13413602378053e-05 or the neighbor object ID is equal to 1237645876861534336 from the table "neighbors".
+(3) Find the objid of the nearest neighbor object with a distance of 1.13413602378053e-05 or a neighborobjid of 1237645876861534336 from the neighbors table.
+(4) What are the objects with the ID 1237645876861534336's nearest neighbor that has a distance of 1.13413602378053e-05?
+(5) Find the object IDs of nearest neighbors with a distance of 1.13413602378053e-05 or with a neighbor ID of 1237645876861534336.
+(6) Find the object IDs of the nearest neighbours whose distance is equal to 1.13413602378053e-05 or whose neighborobjid is equal to 1237645876861534336.
+(7) Find the objid of the nearest neighbor objects with a distance of 1.13413602378053e-05 or a neighborobjid of 1237645876861534336 in the table "neighbors".
+
+
+Re-ranked choices:
+7.086  Find the object IDs of nearest neighbors with a distance of 1.13413602378053e-05 or with a neighbor ID of 1237645876861534336.
+7.068  Find the object ID of the nearest neighbor with a distance of 1.13413602378053e-05 or a neighbor object ID of 1237645876861534336 from the neighbors table.
+7.058  Find the object ID for the nearest neighbor where the distance is equal to 1.13413602378053e-05 or the neighbor object ID is equal to 1237645876861534336 from the table "neighbors".
+7.050  What are the objects with the ID 1237645876861534336's nearest neighbor that has a distance of 1.13413602378053e-05?
+5.711  Find the objects that are either at a distance of 1.13413602378053e-05 or have an ID of 1237645876861534336 from the neighbors table.
+5.642  Find the objid of the nearest neighbor object with a distance of 1.13413602378053e-05 or a neighborobjid of 1237645876861534336 from the neighbors table.
+5.642  Find the objid of the nearest neighbor objects with a distance of 1.13413602378053e-05 or a neighborobjid of 1237645876861534336 in the table "neighbors".
+4.252  Find the object IDs of the nearest neighbours whose distance is equal to 1.13413602378053e-05 or whose neighborobjid is equal to 1237645876861534336.
+

@@ -1,0 +1,28 @@
+SELECT Photometric_objects.field FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name = "UNKNOWN"
+
+###
+
+
+Original Query:
+SELECT T1.field FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name = "UNKNOWN"
+GPT-3 choices:
+(0) What is the name of the field where photometrically observed objects with an unknown type are located?
+(1) Find the field of photometric objects that were observed using an unknown photometric type.
+(2) Find the fields in which objects were observed photometrically with an unknown type.
+(3) Find the field of photometric objects where the type is labeled as "UNKNOWN" in the photo_type table.
+(4) Find the field from the photoobj table for all objects that are observed to have an unknown type in the photo_type table.
+(5) Find the field names of all photo objects that have a type listed as "UNKNOWN" according to the table of photo types.
+(6) Retrieve the field data from the Photometric_objects table for all objects where the type is labeled as "UNKNOWN" in the photo_type table.
+(7) Find the field name from the table of photometric objects where the type matches with the value "UNKNOWN" in the photo_type table.
+
+
+Re-ranked choices:
+9.130  What is the name of the field where photometrically observed objects with an unknown type are located?
+7.728  Find the field name from the table of photometric objects where the type matches with the value "UNKNOWN" in the photo_type table.
+6.329  Find the field from the photoobj table for all objects that are observed to have an unknown type in the photo_type table.
+5.625  Retrieve the field data from the Photometric_objects table for all objects where the type is labeled as "UNKNOWN" in the photo_type table.
+4.936  Find the fields in which objects were observed photometrically with an unknown type.
+4.934  Find the field of photometric objects where the type is labeled as "UNKNOWN" in the photo_type table.
+4.932  Find the field names of all photo objects that have a type listed as "UNKNOWN" according to the table of photo types.
+4.930  Find the field of photometric objects that were observed using an unknown photometric type.
+

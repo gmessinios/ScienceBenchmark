@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.ensembl_gene_id FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.speciesid = 10090 and xref_gene_ensembl.gene_symbol = "2310015D24Rik"
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id FROM xref_gene_ensembl AS T1 WHERE T1.speciesid = 10090 and T1.gene_symbol = "2310015D24Rik"
+GPT-3 choices:
+(0) Find the Ensembl gene ID for the gene with the symbol "2310015D24Rik" in mouse (species ID 10090) from the xref_gene_ensembl table.
+(1) What is the Ensembl gene ID for the gene symbol "2310015D24Rik" in the species 10090?
+(2) What is the Ensembl gene ID for the gene symbol "2310015D24Rik" in mouse (speciesid = 10090)?
+(3) Retrieve the Ensembl gene ID for the gene with the gene symbol "2310015D24Rik" from the xref_gene_ensembl table where the speciesid is 10090.
+(4) Retrieve the Ensembl gene ID for the gene with symbol "2310015D24Rik" from the xref_gene_ensembl table for species 10090.
+(5) Retrieve the Ensembl gene ID for the species with ID 10090 where the gene symbol is "2310015D24Rik" from the table xref_gene_ensembl.
+(6) Retrieve the Ensembl gene ID for the gene symbol "2310015D24Rik" in species 10090 from the xref_gene_ensembl database.
+(7) What is the Ensembl gene ID for the gene symbol "2310015D24Rik" in the species 10090?

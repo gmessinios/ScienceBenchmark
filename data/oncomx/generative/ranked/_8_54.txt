@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.approved_indication FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.id != 62
+
+###
+
+
+Original Query:
+SELECT T1.approved_indication FROM biomarker_fda_test_use AS T1 WHERE T1.id != 62
+GPT-3 choices:
+(0) Retrieve the approved indication for all biomarkers except the one with an ID of 62 from the FDA test use table.
+(1) What are the approved indications for all biomarker FDA test uses except for the one with an ID of 62?
+(2) Get the approved indication for all biomarkers except the one with an ID of 62 from the table "biomarker_fda_test_use".
+(3) What are the approved indications for biomarker FDA test use, excluding the indication with an ID of 62?
+(4) Retrieve the approved indication from the FDA for all biomarkers except for biomarker ID 62.
+(5) Get the approved indication from the biomarker_fda_test_use table for all entries except for the one with id 62.
+(6) What are the approved indications for all biomarkers except for the one with an ID of 62 in the FDA test use database?
+(7) Get the approved indication from biomarker FDA test use where the id is not equal to 62.
+
+
+Re-ranked choices:
+9.841  Get the approved indication from biomarker FDA test use where the id is not equal to 62.
+8.433  Retrieve the approved indication for all biomarkers except the one with an ID of 62 from the FDA test use table.
+8.429  What are the approved indications for biomarker FDA test use, excluding the indication with an ID of 62?
+7.037  Retrieve the approved indication from the FDA for all biomarkers except for biomarker ID 62.
+7.034  What are the approved indications for all biomarker FDA test uses except for the one with an ID of 62?
+7.034  What are the approved indications for all biomarkers except for the one with an ID of 62 in the FDA test use database?
+4.229  Get the approved indication for all biomarkers except the one with an ID of 62 from the table "biomarker_fda_test_use".
+4.227  Get the approved indication from the biomarker_fda_test_use table for all entries except for the one with id 62.
+

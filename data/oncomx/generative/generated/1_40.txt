@@ -1,0 +1,16 @@
+SELECT stage.name FROM stage AS stage JOIN healthy_expression AS healthy_expression ON stage.id = healthy_expression.uberon_developmental_id WHERE healthy_expression.uberon_developmental_id = "HsapDv:0000093"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM stage AS T1 JOIN healthy_expression AS T2 ON T1.id = T2.uberon_developmental_id WHERE T2.uberon_developmental_id = "HsapDv:0000093"
+GPT-3 choices:
+(0) Get the name of the stage from the stage table where the id matches "HsapDv:0000093" in the healthy_expression table.
+(1) Retrieve the name of a stage from the "stage" table where the id matches "HsapDv:0000093", and that same id is also present in the "uberon_developmental_id" column of the "healthy_expression" table.
+(2) What is the stage name of the developmental stage with ID "HsapDv:0000093" in the healthy_expression table?
+(3) What is the stage name for a given uberon developmental id in the table "healthy_expression"?
+(4) What are the names of all stages that have a match in the healthy_expression table for the uberon_developmental_id "HsapDv:0000093"?
+(5) What are the names of stages associated with healthy expressions for the human developmental term "HsapDv:0000093"?
+(6) Find the name of the stage from the "stage" table where the "id" column is equal to "HsapDv:0000093", and join it with the "healthy_expression" table where the column "uberon_developmental_id" in both tables match, then select only the resulting name.
+(7) Retrieve the name of the stage from the "stage" table where the uberon_developmental_id is "HsapDv:0000093" by joining it with the "healthy_expression" table.

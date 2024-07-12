@@ -1,0 +1,27 @@
+SELECT count(*) FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.alias = "5&apos"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_alias AS T1 WHERE T1.alias = "5&apos"
+GPT-3 choices:
+(0) How many biomarkers have an alias of "5' "?
+(1) How many biomarker aliases are there with the alias "5'".
+(2) How many biomarker aliases are there where the alias is equal to "5&apos"?
+(3) How many biomarker aliases in the biomarker_alias table have the alias "5&apos"?
+(4) "How many biomarkers have the alias '5'?"
+(5) How many biomarkers have an alias of "5' "?
+(6) How many biomarkers have the alias "5&apos"?
+(7) How many rows are in the table biomarker_alias where the alias is "5&apos"?
+
+
+Re-ranked choices:
+4.400  "How many biomarkers have the alias '5'?"
+3.583  How many biomarker aliases are there where the alias is equal to "5&apos"?
+3.554  How many biomarker aliases in the biomarker_alias table have the alias "5&apos"?
+2.920  How many biomarker aliases are there with the alias "5'".
+2.220  How many biomarkers have the alias "5&apos"?
+2.183  How many rows are in the table biomarker_alias where the alias is "5&apos"?
+1.520  How many biomarkers have an alias of "5' "?
+

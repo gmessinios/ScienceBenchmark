@@ -1,0 +1,16 @@
+SELECT people.unics_id, count(*) FROM people AS people  GROUP BY people.unics_id
+
+###
+
+
+Original Query:
+SELECT T1.unics_id, count(*) FROM people AS T1  GROUP BY T1.unics_id
+GPT-3 choices:
+(0) Find the number of occurrences for each unique unics_id in the people table.
+(1) What is the total number of records for each unique person identified by their UNICS ID in the table "people"?
+(2) Count the number of occurrences for each unique unics_id in the people table.
+(3) "Count the number of rows for each unique unics_id in the people table."
+(4) Count the number of times a unique identification number appears in the people table and group the results by that identification number.
+(5) Find the unique identifier and count the number of records for each individual in the "people" table.
+(6) Count the number of rows for each unique unics_id in the people table.
+(7) "How many people are associated with each unique unics ID in the people database?"

@@ -1,0 +1,26 @@
+SELECT disease.name FROM disease AS disease WHERE disease.id = 1793
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1 WHERE T1.id = 1793
+GPT-3 choices:
+(0) What is the name of the disease with an ID of 1793 in the database?
+(1) What is the name of the disease with an ID of 1793 in the "disease" table?
+(2) What is the name of the disease with an ID of 1793 in the "disease" table?
+(3) What is the name of the disease with an ID of 1793 in the table "disease"?
+(4) What is the name of the disease with an id of 1793?
+(5) Retrieve the name of the disease with an ID of 1793 from the "disease" table.
+(6) What is the name of the disease with an ID of 1793?
+(7) What is the name of the disease with an ID of 1793 in the table "disease"?
+
+
+Re-ranked choices:
+4.343  What is the name of the disease with an ID of 1793?
+4.297  What is the name of the disease with an id of 1793?
+4.294  What is the name of the disease with an ID of 1793 in the database?
+4.262  What is the name of the disease with an ID of 1793 in the "disease" table?
+4.262  What is the name of the disease with an ID of 1793 in the table "disease"?
+4.254  Retrieve the name of the disease with an ID of 1793 from the "disease" table.
+

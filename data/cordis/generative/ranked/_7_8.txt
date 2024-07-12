@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.nuts_version FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions = "ES42" or eu_territorial_units.geocode_level = 3
+
+###
+
+
+Original Query:
+SELECT T1.nuts_version FROM eu_territorial_units AS T1 WHERE T1.geocode_regions = "ES42" or T1.geocode_level = 3
+GPT-3 choices:
+(0) What is the nuts version for the European Union territorial unit with a geocode region of "ES42" or a geocode level of 3?
+(1) Retrieve the NUTS version from the EU territorial units table where the geocode regions are "ES42" or the geocode level is 3.
+(2) Retrieve the NUTS version from the EU territorial units table where either the geocode regions is equal to "ES42" or the geocode level is equal to 3.
+(3) "Retrieve the NUTS version for the territorial unit in Spain with either a geocode region of ES42 or a geocode level of 3 from the EU territorial units database."
+(4) Get the NUTS version for the EU territorial unit where the geocode regions are "ES42" or the geocode level is 3.
+(5) Retrieve the nuts_version of the European Union territorial units where the geocode_regions is "ES42" or the geocode_level is 3.
+(6) Retrieve the NUTS version of the EU territorial unit for which either the geocode_regions is "ES42" or the geocode_level is 3.
+(7) Find the NUTS version for the EU territorial unit with a geocode_regions of "ES42" or a geocode_level of 3.
+
+
+Re-ranked choices:
+11.928  Retrieve the NUTS version from the EU territorial units table where the geocode regions are "ES42" or the geocode level is 3.
+11.926  Retrieve the NUTS version from the EU territorial units table where either the geocode regions is equal to "ES42" or the geocode level is equal to 3.
+10.533  Get the NUTS version for the EU territorial unit where the geocode regions are "ES42" or the geocode level is 3.
+10.521  "Retrieve the NUTS version for the territorial unit in Spain with either a geocode region of ES42 or a geocode level of 3 from the EU territorial units database."
+7.730  What is the nuts version for the European Union territorial unit with a geocode region of "ES42" or a geocode level of 3?
+6.336  Find the NUTS version for the EU territorial unit with a geocode_regions of "ES42" or a geocode_level of 3.
+6.329  Retrieve the NUTS version of the EU territorial unit for which either the geocode_regions is "ES42" or the geocode_level is 3.
+3.528  Retrieve the nuts_version of the European Union territorial units where the geocode_regions is "ES42" or the geocode_level is 3.
+

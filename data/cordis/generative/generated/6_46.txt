@@ -1,0 +1,16 @@
+SELECT projects.total_cost FROM projects AS projects WHERE projects.acronym = "LAKESIDE NIGHT" and projects.ec_call = "H2020-INFRASUPP-2018-1"
+
+###
+
+
+Original Query:
+SELECT T1.total_cost FROM projects AS T1 WHERE T1.acronym = "LAKESIDE NIGHT" and T1.ec_call = "H2020-INFRASUPP-2018-1"
+GPT-3 choices:
+(0) What is the total cost of the project with the acronym "LAKESIDE NIGHT" and EC call "H2020-INFRASUPP-2018-1" in the projects table?
+(1) Get the total cost of the project "LAKESIDE NIGHT" for the EC call "H2020-INFRASUPP-2018-1".
+(2) Find the total cost for the project with an acronym of "LAKESIDE NIGHT" and an EC call of "H2020-INFRASUPP-2018-1".
+(3) Retrieve the total cost of the project with the acronym "LAKESIDE NIGHT" and EC call "H2020-INFRASUPP-2018-1" from the table "projects".
+(4) Retrieve the total cost from the projects table where the project acronym is "LAKESIDE NIGHT" and the EC call is "H2020-INFRASUPP-2018-1".
+(5) Retrieve the total cost of the project with acronym "LAKESIDE NIGHT" and EC call "H2020-INFRASUPP-2018-1" from the projects table.
+(6) Retrieve the total cost of the project with an acronym of "LAKESIDE NIGHT" and an EC call of "H2020-INFRASUPP-2018-1" from the table "projects".
+(7) Get the total cost of the project "LAKESIDE NIGHT" with an EC call of "H2020-INFRASUPP-2018-1" from the table "projects".

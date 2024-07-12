@@ -1,0 +1,28 @@
+SELECT count(*) FROM spplines AS Stellar_spectal_line_indices WHERE Stellar_spectal_line_indices.specobjid = 308591714325522432
+
+###
+
+
+Original Query:
+SELECT count(*) FROM spplines AS T1 WHERE T1.specobjid = 308591714325522432
+GPT-3 choices:
+(0) How many stellar spectral line indices are associated with the specobjid 308591714325522432?
+(1) How many spectral lines are there for the object with specobjid 308591714325522432 in the table spplines?
+(2) How many spectral lines are present in the spplines table with a specobjid of 308591714325522432?
+(3) How many entries are there in the "spplines" table where the "specobjid" column equals 308591714325522432?
+(4) How many rows are in the table "spplines" where the value in the "specobjid" column is equal to 308591714325522432?
+(5) How many entries are there in the spplines table where the specobjid column is equal to 308591714325522432?
+(6) How many lines are there in the table "spplines" where the specobjid is equal to 308591714325522432?
+(7) How many stellar spectral line indices are there for the specobjid 308591714325522432?
+
+
+Re-ranked choices:
+2.856  How many stellar spectral line indices are there for the specobjid 308591714325522432?
+2.829  How many stellar spectral line indices are associated with the specobjid 308591714325522432?
+1.438  How many spectral lines are there for the object with specobjid 308591714325522432 in the table spplines?
+0.044  How many lines are there in the table "spplines" where the specobjid is equal to 308591714325522432?
+0.039  How many spectral lines are present in the spplines table with a specobjid of 308591714325522432?
+0.039  How many entries are there in the "spplines" table where the "specobjid" column equals 308591714325522432?
+0.036  How many entries are there in the spplines table where the specobjid column is equal to 308591714325522432?
+0.033  How many rows are in the table "spplines" where the value in the "specobjid" column is equal to 308591714325522432?
+

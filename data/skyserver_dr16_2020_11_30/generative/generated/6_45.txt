@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.mjd FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.special_target1 = 6442450944 and Spectroscopic_objects.subclass = "G8V (101501)"
+
+###
+
+
+Original Query:
+SELECT T1.mjd FROM specobj AS T1 WHERE T1.special_target1 = 6442450944 and T1.subclass = "G8V (101501)"
+GPT-3 choices:
+(0) Find the MJD values for objects in the "specobj" table where the special_target1 column has a value of 6442450944 and the subclass column has a value of "G8V (101501)".
+(1) "Retrieve the mjd values from the specobj table for objects with a special_target1 value of 6442450944 and a subclass of 'G8V (101501)'."
+(2) "Retrieve the Modified Julian Date values from the 'mjd' column of the specobj table, for objects with a special_target1 value of 6442450944 and a subclass of "G8V (101501)".
+(3) Find the mjd value from the specobj table for spectroscopic objects with a special_target1 of 6442450944 and a subclass of "G8V (101501)".
+(4) Find the date (mjd) for spectroscopic objects where the special target1 is 6442450944 and the subclass is "G8V (101501)".
+(5) "Select the MJD values from the specobj table for objects with a special target of 6442450944 and a subclass of G8V (101501)."
+(6) Find the Modified Julian Date for all objects from the Spectroscopic Catalog where the special target1 is equal to 6442450944 and the subclass is "G8V (101501)".
+(7) Get the MJD values from specobj where special_target1 is equal to 6442450944 and subclass is equal to "G8V (101501)".

@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions AS institutions JOIN eu_territorial_units AS eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.description != "Elbe-Elster"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM institutions AS T1 JOIN eu_territorial_units AS T2 ON T1.geocode_regions_3 = T2.geocode_regions WHERE T2.description != "Elbe-Elster"
+GPT-3 choices:
+(0) Show the short names of institutions that are located in EU territorial units, excluding those in "Elbe-Elster".
+(1) Find the short names of institutions that are located in EU territorial units, excluding those in Elbe-Elster.
+(2) "Retrieve the short names of institutions located in regions that are not Elbe-Elster, by joining the institutions and eu_territorial_units tables on their geocode_regions columns."
+(3) Find the short names of institutions that are associated with a European territorial unit, excluding those in Elbe-Elster.
+(4) Find the short names of institutions that are associated with EU territorial units other than "Elbe-Elster".
+(5) Find the short names of institutions that are located in regions with a geocode that is not "Elbe-Elster" and also have matching geocode values with the EU territorial units table.
+(6) Find the short names of institutions that are associated with EU territorial units, excluding those in Elbe-Elster.
+(7) "Retrieve the short names of institutions located in EU territorial units, excluding those in Elbe-Elster."
+
+
+Re-ranked choices:
+10.520  Find the short names of institutions that are located in regions with a geocode that is not "Elbe-Elster" and also have matching geocode values with the EU territorial units table.
+7.721  Find the short names of institutions that are associated with EU territorial units other than "Elbe-Elster".
+6.323  Show the short names of institutions that are located in EU territorial units, excluding those in "Elbe-Elster".
+5.623  Find the short names of institutions that are located in EU territorial units, excluding those in Elbe-Elster.
+5.622  "Retrieve the short names of institutions located in EU territorial units, excluding those in Elbe-Elster."
+5.621  Find the short names of institutions that are associated with EU territorial units, excluding those in Elbe-Elster.
+4.916  "Retrieve the short names of institutions located in regions that are not Elbe-Elster, by joining the institutions and eu_territorial_units tables on their geocode_regions columns."
+4.220  Find the short names of institutions that are associated with a European territorial unit, excluding those in Elbe-Elster.
+

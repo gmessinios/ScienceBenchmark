@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.tool FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.id = 3154 or disease_mutation_impact_prediction.site_prediction = "unknown"
+
+###
+
+
+Original Query:
+SELECT T1.tool FROM disease_mutation_impact_prediction AS T1 WHERE T1.id = 3154 or T1.site_prediction = "unknown"
+GPT-3 choices:
+(0) Find the tool used for disease mutation impact prediction where the ID is 3154 or the site prediction is unknown.
+(1) What tool was used for the disease mutation impact prediction with an ID of 3154 or unknown site prediction?
+(2) What is the tool used for predicting the impact of a disease mutation with an ID of 3154 or if the site prediction is unknown?
+(3) Retrieve the tool used for predicting the impact of a mutation on a disease from the table "disease_mutation_impact_prediction" where either the ID is 3154 or the site prediction is unknown.
+(4) Find the name of the tool used for disease mutation impact prediction where the id is 3154 or site prediction is unknown in the disease_mutation_impact_prediction table.
+(5) Which tool was used for the disease mutation impact prediction where the ID is 3154 or the site prediction is "unknown"?
+(6) What tools were used for predicting the impact of a mutation in the disease mutation impact prediction table with an ID of 3154 or a site prediction of "unknown"?
+(7) Retrieve the tool used for predicting the impact of a disease mutation or the site prediction when the id is 3154, or if no site prediction was given.

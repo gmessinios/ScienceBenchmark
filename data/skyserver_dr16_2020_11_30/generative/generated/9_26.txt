@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.clean != 1
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.clean != 1
+GPT-3 choices:
+(0) Retrieve the types of objects that are nearest neighbors to clean photometric objects from the neighbors and photoobj tables.
+(1) Find the type of nearest neighbor objects from the neighbors table where the objid matches with Photometric_objects table and the clean column does not equal 1.
+(2) Get the type of nearest neighbour objects from the "neighbors" table where their object ID matches with that in the "photoobj" table and their cleanliness is not equal to 1.
+(3) Retrieve the type of nearest neighbor objects from the neighbors table for all objects in the photoobj table that are not clean.
+(4) Find the type of nearest neighbor objects from the neighbors table, where the object ID matches in both tables and the clean value is not equal to 1 in the photoobj table.
+(5) Find the type of nearest neighbor objects from the neighbors table for all Photometric objects that are not clean in the photoobj table.
+(6) What are the neighbor types for objects in the "neighbors" table whose object IDs also appear in the "photoobj" table but have a "clean" value not equal to 1?
+(7) Find the types of objects that are nearest neighbors to objects in the photoobj table, excluding any objects that have a "clean" value of 1 in the Photometric_objects table.

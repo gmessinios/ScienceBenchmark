@@ -1,0 +1,16 @@
+SELECT biomarker_fda_ncit_term.ncit_biomarker FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_ncit_term.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.id = "FDA000219"
+
+###
+
+
+Original Query:
+SELECT T1.ncit_biomarker FROM biomarker_fda_ncit_term AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.id = "FDA000219"
+GPT-3 choices:
+(0) What is the NCIt biomarker term associated with the FDA biomarker "FDA000219"?
+(1) Retrieve the NCIt biomarker term from the table biomarker_fda_ncit_term where the id in biomarker_fda matches "FDA000219".
+(2) What is the NCIt term associated with the FDA biomarker "FDA000219"?
+(3) What is the FDA NCIT biomarker term associated with the FDA biomarker ID "FDA000219"?
+(4) Retrieve the NCIt biomarker term for the biomarker with FDA ID "FDA000219" from the biomarker_fda_ncit_term and biomarker_fda tables.
+(5) What is the NCIt biomarker term for the FDA biomarker with an ID of "FDA000219"?
+(6) What is the FDA's NCIt term for the biomarker with an ID of "FDA000219"?
+(7) Retrieve the NCIt biomarker term from the table biomarker_fda_ncit_term where the ID of the associated entry in the biomarker_fda table is "FDA000219".

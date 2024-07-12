@@ -1,0 +1,28 @@
+SELECT Photometric_objects.cmodelmag_u FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name != "GHOST"
+
+###
+
+
+Original Query:
+SELECT T1.cmodelmag_u FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name != "GHOST"
+GPT-3 choices:
+(0) Retrieve the cmodelmag_u value from the Photometric_objects table for objects that have been observed photometrically, excluding those labeled as "GHOST" in the photo_type table.
+(1) Find the cmodelmag_u values from the photoobj table for objects that have been observed photometrically and are not classified as "GHOST".
+(2) Retrieve the cmodelmag_u value for all objects from the photoobj table that have been photometrically observed, excluding those that have a type of "GHOST".
+(3) "Retrieve the cmodel magnitude values in the u-band from Photometric_objects for all objects that have been photometrically observed and are not classified as GHOST."
+(4) Find the CModel u-band magnitude for photometric objects that have been observed using photometry but not identified as GHOST.
+(5) Find the cmodel magnitude in the u band for all photometric objects where the type is not equal to "GHOST".
+(6) Get the u-band model magnitude from Photometric_objects for objects that have been observed photometrically and are not categorized as "GHOST" in the photo_type table.
+(7) Retrieve the u-band cmodel magnitudes of photometric objects that have been observed through photometric means, excluding any objects labeled as "GHOST".
+
+
+Re-ranked choices:
+8.420  Get the u-band model magnitude from Photometric_objects for objects that have been observed photometrically and are not categorized as "GHOST" in the photo_type table.
+6.331  Find the cmodel magnitude in the u band for all photometric objects where the type is not equal to "GHOST".
+6.320  Retrieve the cmodelmag_u value for all objects from the photoobj table that have been photometrically observed, excluding those that have a type of "GHOST".
+6.319  "Retrieve the cmodel magnitude values in the u-band from Photometric_objects for all objects that have been photometrically observed and are not classified as GHOST."
+5.617  Retrieve the cmodelmag_u value from the Photometric_objects table for objects that have been observed photometrically, excluding those labeled as "GHOST" in the photo_type table.
+4.920  Find the cmodelmag_u values from the photoobj table for objects that have been observed photometrically and are not classified as "GHOST".
+4.223  Find the CModel u-band magnitude for photometric objects that have been observed using photometry but not identified as GHOST.
+3.520  Retrieve the u-band cmodel magnitudes of photometric objects that have been observed through photometric means, excluding any objects labeled as "GHOST".
+

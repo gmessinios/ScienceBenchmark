@@ -1,0 +1,16 @@
+SELECT count(*) FROM specobj AS Spectroscopic_objects
+
+###
+
+
+Original Query:
+SELECT count(*) FROM specobj AS T1
+GPT-3 choices:
+(0) How many spectroscopic objects are there in the specobj table?
+(1) "How many spectroscopic objects are there in the specobj table?"
+(2) "How many Spectroscopic objects are there in the specobj table?"
+(3) How many spectroscopic objects are there in the specobj table?
+(4) How many spectroscopic objects are there in the specobj table?
+(5) "How many spectroscopic objects are there in the table called 'specobj'?"
+(6) How many spectroscopic objects are there in the specobj table?
+(7) "How many spectroscopic objects are in the specobj table?"

@@ -1,0 +1,28 @@
+SELECT projects.start_year FROM projects AS projects    ORDER BY projects.unics_id DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.start_year FROM projects AS T1    ORDER BY T1.unics_id DESC LIMIT 1
+GPT-3 choices:
+(0) Find the start year of the most recent project in the database, sorted by unique ID, limited to one result.
+(1) Find the starting year of the most recent project in descending order based on its unique ID.
+(2) Get the start year of the project with the highest unics_id from the projects table, in descending order.
+(3) What is the start year for the most recent project in the projects table?
+(4) Get the start year from the latest project in descending order based on its unique ID.
+(5) "Find the starting year of the most recent project in descending order based on their unique IDs from the projects table."
+(6) "Get the starting year of the most recently created project from the projects table."
+(7) Find the starting year of the most recent project in the projects table.
+
+
+Re-ranked choices:
+4.303  What is the start year for the most recent project in the projects table?
+4.238  Get the start year of the project with the highest unics_id from the projects table, in descending order.
+3.539  Find the start year of the most recent project in the database, sorted by unique ID, limited to one result.
+2.883  Find the starting year of the most recent project in the projects table.
+2.850  Get the start year from the latest project in descending order based on its unique ID.
+2.847  "Get the starting year of the most recently created project from the projects table."
+2.838  "Find the starting year of the most recent project in descending order based on their unique IDs from the projects table."
+1.447  Find the starting year of the most recent project in descending order based on its unique ID.
+

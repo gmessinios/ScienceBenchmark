@@ -1,0 +1,28 @@
+SELECT Photometric_objects.rowc FROM photoobj AS Photometric_objects JOIN specobj AS Spectroscopic_objects ON Photometric_objects.objid = Spectroscopic_objects.bestobjid WHERE Spectroscopic_objects.veldisperr != 13.42702
+
+###
+
+
+Original Query:
+SELECT T1.rowc FROM photoobj AS T1 JOIN specobj AS T2 ON T1.objid = T2.bestobjid WHERE T2.veldisperr != 13.42702
+GPT-3 choices:
+(0) Retrieve the rowc values from the Photometric_objects table where the objid column in the photoobj table matches the bestobjid column in the specobj table and the veldisperr column does not equal 13.42702.
+(1) Retrieve the rowc value from the Photometric_objects table for all objects in the photoobj table where the bestobjid matches and the veldisperr does not equal 13.42702 in the specobj table.
+(2) Find the rowc value from the Photometric_objects table for objects where their objid in the photoobj table matches the bestobjid in the specobj table, and where the veldisperr value in the specobj table is not equal to 13.42702.
+(3) Retrieve the value in the "rowc" column from the "photoobj" table for objects where the bestobjid column in the "specobj" table is equal to the objid column in the "photometric_objects" table, and where the veldisperr column in the "specobj" table is not equal to 13.42702.
+(4) Find the rowc values from the Photometric_objects table where the objid column in the photoobj table is equal to the bestobjid column in the specobj table, but only if the veldisperr column in Spectroscopic_objects does not have a value of 13.42702.
+(5) Retrieve the rowc values from the Photometric_objects table for all objects where the veldisperr value in the Spectroscopic_objects table is not equal to 13.42702.
+(6) Retrieve the rowc values from Photometric_objects where the bestobjid in Spectroscopic_objects is equal to objid in photoobj, but only include cases where the veldisperr value in Spectroscopic_objects is not equal to 13.42702.
+(7) Find the rowc value from the Photometric_objects table where the objid in the photoobj table matches with the bestobjid in the specobj table, and also ensure that veldisperr is not equal to 13.42702 in the Spectroscopic_objects table.
+
+
+Re-ranked choices:
+2.819  Retrieve the rowc values from the Photometric_objects table for all objects where the veldisperr value in the Spectroscopic_objects table is not equal to 13.42702.
+2.121  Retrieve the rowc value from the Photometric_objects table for all objects in the photoobj table where the bestobjid matches and the veldisperr does not equal 13.42702 in the specobj table.
+2.113  Find the rowc value from the Photometric_objects table for objects where their objid in the photoobj table matches the bestobjid in the specobj table, and where the veldisperr value in the specobj table is not equal to 13.42702.
+2.111  Retrieve the value in the "rowc" column from the "photoobj" table for objects where the bestobjid column in the "specobj" table is equal to the objid column in the "photometric_objects" table, and where the veldisperr column in the "specobj" table is not equal to 13.42702.
+1.418  Find the rowc value from the Photometric_objects table where the objid in the photoobj table matches with the bestobjid in the specobj table, and also ensure that veldisperr is not equal to 13.42702 in the Spectroscopic_objects table.
+1.413  Retrieve the rowc values from Photometric_objects where the bestobjid in Spectroscopic_objects is equal to objid in photoobj, but only include cases where the veldisperr value in Spectroscopic_objects is not equal to 13.42702.
+1.412  Find the rowc values from the Photometric_objects table where the objid column in the photoobj table is equal to the bestobjid column in the specobj table, but only if the veldisperr column in Spectroscopic_objects does not have a value of 13.42702.
+0.714  Retrieve the rowc values from the Photometric_objects table where the objid column in the photoobj table matches the bestobjid column in the specobj table and the veldisperr column does not equal 13.42702.
+

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.type = 3 and Nearest_neighbour_objects.neighborobjid = 1237645876861535257
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 WHERE T1.type = 3 and T1.neighborobjid = 1237645876861535257
+GPT-3 choices:
+(0) Find the mode of the neighbor objects with type 3 and an object ID of 1237645876861535257 in the table called "neighbors".
+(1) Find the mode of the nearest neighbor object with a type of 3 and an object ID of 1237645876861535257 in the table called "neighbors".
+(2) Retrieve the mode of the nearest neighbor object with a type of 3 and an ID of 1237645876861535257 from the neighbors table.
+(3) Find the type of neighbor for object with an ID of 1237645876861535257 in the neighbors table, specifically if the type is 3.
+(4) What is the neighbor mode for object with ID 1237645876861535257 in the neighbors table where type equals 3?
+(5) What is the mode of the nearest neighbors for object 1237645876861535257 of type 3 in the table "neighbors"?
+(6) Retrieve the mode of nearest neighbors for objects with a type of 3 and a neighbor object ID of 1237645876861535257 from the table "neighbors".
+(7) Find the neighbor mode from the table of nearest neighbors where the type is 3 and the neighbor object ID is 1237645876861535257.
+
+
+Re-ranked choices:
+9.844  Find the mode of the neighbor objects with type 3 and an object ID of 1237645876861535257 in the table called "neighbors".
+9.833  Retrieve the mode of nearest neighbors for objects with a type of 3 and a neighbor object ID of 1237645876861535257 from the table "neighbors".
+8.436  Retrieve the mode of the nearest neighbor object with a type of 3 and an ID of 1237645876861535257 from the neighbors table.
+8.436  Find the neighbor mode from the table of nearest neighbors where the type is 3 and the neighbor object ID is 1237645876861535257.
+8.433  Find the mode of the nearest neighbor object with a type of 3 and an object ID of 1237645876861535257 in the table called "neighbors".
+7.054  What is the neighbor mode for object with ID 1237645876861535257 in the neighbors table where type equals 3?
+7.036  Find the type of neighbor for object with an ID of 1237645876861535257 in the neighbors table, specifically if the type is 3.
+5.644  What is the mode of the nearest neighbors for object 1237645876861535257 of type 3 in the table "neighbors"?
+

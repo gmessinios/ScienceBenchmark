@@ -1,0 +1,25 @@
+SELECT count(*) FROM project_member_roles AS project_member_roles WHERE project_member_roles.code = "coordinator"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles AS T1 WHERE T1.code = "coordinator"
+GPT-3 choices:
+(0) How many project member roles are there with the code "coordinator"?
+(1) Count the number of project member roles with a code of "coordinator" in the table "project_member_roles".
+(2) How many project member roles have a code of "coordinator"?
+(3) How many project member roles have a code of "coordinator"?
+(4) How many project member roles with the code "coordinator" exist in the project?
+(5) How many project member roles are there with the code "coordinator"?
+(6) How many project member roles have a code of "coordinator"?
+(7) Count the number of project members who have the role of coordinator in the table "project_member_roles".
+
+
+Re-ranked choices:
+6.350  How many project member roles have a code of "coordinator"?
+6.347  How many project member roles are there with the code "coordinator"?
+6.342  How many project member roles with the code "coordinator" exist in the project?
+6.332  Count the number of project member roles with a code of "coordinator" in the table "project_member_roles".
+2.132  Count the number of project members who have the role of coordinator in the table "project_member_roles".
+

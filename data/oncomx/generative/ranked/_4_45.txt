@@ -1,0 +1,28 @@
+SELECT count(*) FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.id = "FDA000182"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda AS T1 WHERE T1.id = "FDA000182"
+GPT-3 choices:
+(0) How many biomarkers are in the FDA database with an ID of "FDA000182"?
+(1) How many records are in the biomarker_fda table with the id "FDA000182"?
+(2) How many biomarkers in the FDA database have an ID of "FDA000182"?
+(3) How many entries are there in the biomarker_fda table with an id of "FDA000182"?
+(4) How many biomarkers are there in the FDA database with the ID "FDA000182"?
+(5) How many rows are there in the biomarker_fda table where the id column is equal to "FDA000182"?
+(6) How many biomarkers have an ID of "FDA000182" in the FDA database?
+(7) How many records are there in the FDA biomarker database with the ID "FDA000182"?
+
+
+Re-ranked choices:
+5.003  How many records are there in the FDA biomarker database with the ID "FDA000182"?
+3.591  How many biomarkers in the FDA database have an ID of "FDA000182"?
+3.591  How many biomarkers have an ID of "FDA000182" in the FDA database?
+3.583  How many biomarkers are in the FDA database with an ID of "FDA000182"?
+3.583  How many biomarkers are there in the FDA database with the ID "FDA000182"?
+2.147  How many records are in the biomarker_fda table with the id "FDA000182"?
+2.142  How many entries are there in the biomarker_fda table with an id of "FDA000182"?
+2.142  How many rows are there in the biomarker_fda table where the id column is equal to "FDA000182"?
+

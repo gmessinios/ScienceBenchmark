@@ -1,0 +1,28 @@
+SELECT projects.start_year FROM projects AS projects WHERE projects.framework_program = "FP7" or projects.end_year = 2025
+
+###
+
+
+Original Query:
+SELECT T1.start_year FROM projects AS T1 WHERE T1.framework_program = "FP7" or T1.end_year = 2025
+GPT-3 choices:
+(0) Find the start year of all projects in the table "projects" where the framework program is "FP7" or the end year is 2025.
+(1) Find the start year of all projects where the framework program is FP7 or the end year is 2025.
+(2) Find the start year of all projects that are either part of the FP7 framework program or end in 2025.
+(3) Find the start year of all projects in the "FP7" framework or with an end year of 2025 from the projects table.
+(4) Find the start year of projects that are part of the FP7 framework program or end in the year 2025.
+(5) Get the start year of all projects where the framework program is "FP7" or the end year is 2025.
+(6) Get the start year of all projects from the "FP7" framework program or with an end year of 2025.
+(7) Find the start year of all projects that are either part of the framework program "FP7" or have an end year of 2025.
+
+
+Re-ranked choices:
+9.162  Find the start year of all projects where the framework program is FP7 or the end year is 2025.
+9.162  Get the start year of all projects where the framework program is "FP7" or the end year is 2025.
+9.162  Get the start year of all projects from the "FP7" framework program or with an end year of 2025.
+9.158  Find the start year of projects that are part of the FP7 framework program or end in the year 2025.
+9.147  Find the start year of all projects in the table "projects" where the framework program is "FP7" or the end year is 2025.
+9.147  Find the start year of all projects that are either part of the FP7 framework program or end in 2025.
+9.147  Find the start year of all projects that are either part of the framework program "FP7" or have an end year of 2025.
+7.750  Find the start year of all projects in the "FP7" framework or with an end year of 2025 from the projects table.
+

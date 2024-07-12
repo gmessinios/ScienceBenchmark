@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_trade_name FROM biomarker_fda AS biomarker_fda JOIN biomarker_fda_drug AS biomarker_fda_drug ON biomarker_fda.id = biomarker_fda_drug.biomarker_fda_id WHERE biomarker_fda_drug.biomarker_fda_id != "FDA000037"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda AS T1 JOIN biomarker_fda_drug AS T2 ON T1.id = T2.biomarker_fda_id WHERE T2.biomarker_fda_id != "FDA000037"
+GPT-3 choices:
+(0) "Get the test trade name from the FDA biomarker database for all drugs except the one with ID 'FDA000037'."
+(1) Retrieve the trade names of biomarkers that are not associated with drug "FDA000037".
+(2) What are the trade names of all biomarkers in the FDA database, excluding those with the ID "FDA000037" and their corresponding drugs?
+(3) "Retrieve the test trade name from the FDA biomarker database for all biomarkers that are not associated with drug ID "FDA000037"."
+(4) Show me the trade names for all FDA-approved biomarkers, excluding those with the ID "FDA000037".
+(5) Find the test trade name from the biomarker FDA table where the ID in the biomarker FDA drug table is not equal to "FDA000037".
+(6) Get the test trade names for biomarkers that are not equal to "FDA000037" from the FDA biomarker table, joined with the FDA biomarker drug table.
+(7) Retrieve the test trade name from the FDA-approved biomarker list for drugs that are not associated with FDA000037.

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.specimen_type FROM biomarker_fda_test AS biomarker_fda_test JOIN disease AS disease ON biomarker_fda_test.doid = disease.id WHERE disease.id != 263
+
+###
+
+
+Original Query:
+SELECT T1.specimen_type FROM biomarker_fda_test AS T1 JOIN disease AS T2 ON T1.doid = T2.id WHERE T2.id != 263
+GPT-3 choices:
+(0) "Retrieve the specimen type from FDA-approved biomarker tests for diseases other than breast cancer."
+(1) Retrieve the specimen type from the biomarker FDA test for all diseases except for disease with ID 263.
+(2) Get the specimen type from the biomarker_fda_test table for all diseases except for the one with an ID of 263.
+(3) Find all specimen types associated with biomarker FDA tests for diseases other than colorectal cancer.
+(4) Get all the specimen types from the FDA biomarker tests for diseases that are not dengue fever.
+(5) Get the specimen type of biomarkers approved by the FDA for diseases other than cancer.
+(6) Find the specimen types for biomarker FDA tests associated with diseases other than Parkinson's disease.
+(7) Retrieve the specimen type from the biomarker FDA test for all diseases except for disease ID 263.
+
+
+Re-ranked choices:
+9.839  Retrieve the specimen type from the biomarker FDA test for all diseases except for disease ID 263.
+9.837  Retrieve the specimen type from the biomarker FDA test for all diseases except for disease with ID 263.
+4.258  Get all the specimen types from the FDA biomarker tests for diseases that are not dengue fever.
+4.237  Get the specimen type of biomarkers approved by the FDA for diseases other than cancer.
+4.234  "Retrieve the specimen type from FDA-approved biomarker tests for diseases other than breast cancer."
+4.231  Get the specimen type from the biomarker_fda_test table for all diseases except for the one with an ID of 263.
+4.229  Find the specimen types for biomarker FDA tests associated with diseases other than Parkinson's disease.
+4.226  Find all specimen types associated with biomarker FDA tests for diseases other than colorectal cancer.
+

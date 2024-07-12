@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes AS programmes WHERE programmes.rcn != "12802"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM programmes AS T1 WHERE T1.rcn != "12802"
+GPT-3 choices:
+(0) Show the titles of all programmes, except for the one with RCN number 12802, from the table "programmes".
+(1) Find the titles of all programmes, except for the one with rcn number 12802.
+(2) "Retrieve the title of all programmes, excluding the one with an RCN of 12802, from the programmes table."
+(3) Retrieve the titles of all programmes except the one with RCN 12802 from the table "programmes".
+(4) What are the titles of all programmes, excluding those with an rcn of "12802"?
+(5) What are the titles of all programmes, except for "12802", in the table "programmes"?
+(6) What is the title of all programmes except for the one with rcn number 12802?
+(7) Retrieve the titles of all programmes that are not labelled as "12802".

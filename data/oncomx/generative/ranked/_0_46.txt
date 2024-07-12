@@ -1,0 +1,28 @@
+SELECT healthy_expression.expression_level_gene_relative FROM healthy_expression AS healthy_expression WHERE healthy_expression.expression_score = 55.10000
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_gene_relative FROM healthy_expression AS T1 WHERE T1.expression_score = 55.10000
+GPT-3 choices:
+(0) Retrieve the relative expression level of genes from the healthy_expression table where the expression score is equal to 55.1.
+(1) What is the expression level gene relative for a healthy individual with an expression score of 55.1?
+(2) Get the relative gene expression level from the healthy_expression table where the expression score is 55.10000.
+(3) What is the relative expression level for genes with an expression score of 55.1 in healthy individuals?
+(4) Retrieve the expression level of genes with an expression score of 55.10000 from healthy individuals.
+(5) What is the expression level gene relative for healthy expressions where the expression score is 55.1?
+(6) Retrieve the expression level gene relative from the healthy expression table where the expression score is equal to 55.1.
+(7) Retrieve the expression level gene relative from the table "healthy_expression" where the expression score is 55.1.
+
+
+Re-ranked choices:
+8.432  What is the expression level gene relative for healthy expressions where the expression score is 55.1?
+8.430  What is the expression level gene relative for a healthy individual with an expression score of 55.1?
+8.428  Retrieve the expression level gene relative from the healthy expression table where the expression score is equal to 55.1.
+7.045  What is the relative expression level for genes with an expression score of 55.1 in healthy individuals?
+7.028  Get the relative gene expression level from the healthy_expression table where the expression score is 55.10000.
+7.025  Retrieve the expression level gene relative from the table "healthy_expression" where the expression score is 55.1.
+5.641  Retrieve the expression level of genes with an expression score of 55.10000 from healthy individuals.
+5.628  Retrieve the relative expression level of genes from the healthy_expression table where the expression score is equal to 55.1.
+

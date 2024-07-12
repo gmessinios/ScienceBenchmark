@@ -1,0 +1,28 @@
+SELECT biomarker_fda_drug.biomarker_drug FROM biomarker_fda_drug AS biomarker_fda_drug JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_drug.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.id != "FDA000143"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_drug FROM biomarker_fda_drug AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.id != "FDA000143"
+GPT-3 choices:
+(0) Get all of the FDA-approved drugs associated with biomarkers, excluding the biomarker with ID "FDA000143".
+(1) Find all FDA approved drugs associated with biomarkers, excluding the one with ID "FDA000143".
+(2) What biomarker drugs have been associated with FDA-approved biomarkers, excluding those with the ID "FDA000143"?
+(3) Get the names of all biomarker drugs from the biomarker_fda_drug table where the associated biomarker fda id is not "FDA000143".
+(4) What are the biomarker drugs associated with FDA biomarkers, excluding FDA000143?
+(5) Retrieve the biomarker-drug associations for all drugs that have not been assigned the ID "FDA000143" in the FDA biomarker database.
+(6) Find all the biomarker drugs associated with FDA biomarkers except for the one with ID "FDA000143".
+(7) Get the list of biomarker drugs from the biomarker FDA drug table, excluding those that have the ID "FDA000143", by joining it with the biomarker FDA table.
+
+
+Re-ranked choices:
+6.329  Get the list of biomarker drugs from the biomarker FDA drug table, excluding those that have the ID "FDA000143", by joining it with the biomarker FDA table.
+4.942  Find all the biomarker drugs associated with FDA biomarkers except for the one with ID "FDA000143".
+4.930  Retrieve the biomarker-drug associations for all drugs that have not been assigned the ID "FDA000143" in the FDA biomarker database.
+4.923  Get the names of all biomarker drugs from the biomarker_fda_drug table where the associated biomarker fda id is not "FDA000143".
+3.534  Find all FDA approved drugs associated with biomarkers, excluding the one with ID "FDA000143".
+3.533  What biomarker drugs have been associated with FDA-approved biomarkers, excluding those with the ID "FDA000143"?
+3.530  Get all of the FDA-approved drugs associated with biomarkers, excluding the biomarker with ID "FDA000143".
+2.834  What are the biomarker drugs associated with FDA biomarkers, excluding FDA000143?
+

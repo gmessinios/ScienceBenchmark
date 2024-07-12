@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.distance FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861272853
+
+###
+
+
+Original Query:
+SELECT T1.distance FROM neighbors AS T1 WHERE T1.neighborobjid = 1237645876861272853
+GPT-3 choices:
+(0) What is the distance of the nearest neighbor object with an ID of 1237645876861272853 from the table "neighbors"?
+(1) Retrieve the distance of the nearest neighbor object with a neighborobjid of 1237645876861272853 from the table "neighbors".
+(2) What is the distance of the nearest neighbor object with a neighborobjid of 1237645876861272853?
+(3) Retrieve the distance of the nearest neighbor object with an ID of 1237645876861272853 from the neighbors table.
+(4) Find the distance of the nearest neighbor object with an ID of 1237645876861272853 from the neighbors table.
+(5) Find the distance of the nearest neighbor object with ID 1237645876861272853 from the neighbors table.
+(6) Find the distance of the nearest neighbor object with the ID 1237645876861272853 from the table called "neighbors".
+(7) Find the distance of the nearest neighbor with an object ID of 1237645876861272853 from the neighbors table.
+
+
+Re-ranked choices:
+7.044  What is the distance of the nearest neighbor object with an ID of 1237645876861272853 from the table "neighbors"?
+7.044  Find the distance of the nearest neighbor object with ID 1237645876861272853 from the neighbors table.
+7.039  Retrieve the distance of the nearest neighbor object with an ID of 1237645876861272853 from the neighbors table.
+7.039  Find the distance of the nearest neighbor object with an ID of 1237645876861272853 from the neighbors table.
+7.039  Find the distance of the nearest neighbor object with the ID 1237645876861272853 from the table called "neighbors".
+7.039  Find the distance of the nearest neighbor with an object ID of 1237645876861272853 from the neighbors table.
+5.641  What is the distance of the nearest neighbor object with a neighborobjid of 1237645876861272853?
+5.631  Retrieve the distance of the nearest neighbor object with a neighborobjid of 1237645876861272853 from the table "neighbors".
+

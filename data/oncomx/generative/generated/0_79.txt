@@ -1,0 +1,16 @@
+SELECT biomarker.id FROM biomarker AS biomarker WHERE biomarker.test_is_a_panel = True
+
+###
+
+
+Original Query:
+SELECT T1.id FROM biomarker AS T1 WHERE T1.test_is_a_panel = True
+GPT-3 choices:
+(0) Find the id of the biomarker that is a panel in the biomarker table.
+(1) Find the id of all biomarkers that are panels.
+(2) What are the ids of biomarkers that have a test which is classified as a panel?
+(3) Find the IDs of all biomarkers that are panels in the biomarker table.
+(4) Retrieve the ID of all biomarkers from the table "biomarker" where the test is classified as a panel.
+(5) Find the ID of all biomarkers where the test is a panel.
+(6) "Get the id of all biomarkers where the test is a panel."
+(7) "Retrieve the IDs of biomarkers that are considered panels from the biomarker table."

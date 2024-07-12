@@ -1,0 +1,28 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.bestobjid = 1237645943979442192
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.bestobjid = 1237645943979442192
+GPT-3 choices:
+(0) Find the specobjid from the table Emission_line_estimates where bestobjid in Spectroscopic_objects is equal to 1237645943979442192.
+(1) Retrieve the specobjid from the galspecline table where the bestobjid of Spectroscopic_objects is equal to 1237645943979442192.
+(2) Retrieve the specobjid from the Emission_line_estimates table for all rows where the bestobjid in the Spectroscopic_objects table is equal to 1237645943979442192.
+(3) Find the specobjid from the table Emission_line_estimates where the bestobjid in the table Spectroscopic_objects is equal to 1237645943979442192.
+(4) Get the specobjid from the galspecline table where the bestobjid in the Spectroscopic_objects table is equal to 1237645943979442192.
+(5) Retrieve the specobjid from the Emission_line_estimates table where the bestobjid in the Spectroscopic_objects table is equal to 1237645943979442192.
+(6) Retrieve the specobjid from the galspecline table where the bestobjid of the corresponding Spectroscopic_objects is equal to 1237645943979442192.
+(7) Retrieve the specobjid from the table Emission_line_estimates where it joins with Spectroscopic_objects and the bestobjid is equal to 1237645943979442192.
+
+
+Re-ranked choices:
+1.422  Retrieve the specobjid from the table Emission_line_estimates where it joins with Spectroscopic_objects and the bestobjid is equal to 1237645943979442192.
+1.420  Find the specobjid from the table Emission_line_estimates where bestobjid in Spectroscopic_objects is equal to 1237645943979442192.
+1.420  Retrieve the specobjid from the Emission_line_estimates table for all rows where the bestobjid in the Spectroscopic_objects table is equal to 1237645943979442192.
+1.420  Find the specobjid from the table Emission_line_estimates where the bestobjid in the table Spectroscopic_objects is equal to 1237645943979442192.
+1.420  Retrieve the specobjid from the Emission_line_estimates table where the bestobjid in the Spectroscopic_objects table is equal to 1237645943979442192.
+0.723  Get the specobjid from the galspecline table where the bestobjid in the Spectroscopic_objects table is equal to 1237645943979442192.
+0.722  Retrieve the specobjid from the galspecline table where the bestobjid of Spectroscopic_objects is equal to 1237645943979442192.
+0.719  Retrieve the specobjid from the galspecline table where the bestobjid of the corresponding Spectroscopic_objects is equal to 1237645943979442192.
+

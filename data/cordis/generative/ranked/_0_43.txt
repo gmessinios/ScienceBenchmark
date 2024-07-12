@@ -1,0 +1,27 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.description = "Gaziantep"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_regions FROM eu_territorial_units AS T1 WHERE T1.description = "Gaziantep"
+GPT-3 choices:
+(0) Retrieve the geocode_regions from eu_territorial_units where the description is "Gaziantep".
+(1) "Retrieve the geocode regions for the EU territorial unit with a description of "Gaziantep"."
+(2) Retrieve the geocode regions for Gaziantep from the EU territorial units table.
+(3) Get the geocode_regions of the EU territorial unit with a description of "Gaziantep".
+(4) Get the geocode regions for the European Union territorial unit of Gaziantep from the database of EU territorial units.
+(5) Retrieve the geocode regions from the EU territorial units table where the description is "Gaziantep".
+(6) Retrieve the geocode region for Gaziantep from the EU territorial units database.
+(7) Retrieve the geocode regions from the EU territorial units table where the description is "Gaziantep".
+
+
+Re-ranked choices:
+9.133  Retrieve the geocode regions from the EU territorial units table where the description is "Gaziantep".
+7.737  Retrieve the geocode regions for Gaziantep from the EU territorial units table.
+7.728  "Retrieve the geocode regions for the EU territorial unit with a description of "Gaziantep"."
+6.333  Retrieve the geocode region for Gaziantep from the EU territorial units database.
+6.328  Get the geocode regions for the European Union territorial unit of Gaziantep from the database of EU territorial units.
+4.942  Get the geocode_regions of the EU territorial unit with a description of "Gaziantep".
+2.123  Retrieve the geocode_regions from eu_territorial_units where the description is "Gaziantep".
+

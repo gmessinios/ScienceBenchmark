@@ -1,0 +1,28 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighborobjid = 1237645876861337660
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.neighborobjid = 1237645876861337660
+GPT-3 choices:
+(0) Count the number of rows in the "neighbors" table where the "neighborobjid" column is equal to 1237645876861337660.
+(1) How many objects in the "neighbors" table have a "neighborobjid" value of 1237645876861337660?
+(2) "How many objects are in the neighbors table that have a neighborobjid value of 1237645876861337660?"
+(3) How many objects in the "neighbors" table have a value of 1237645876861337660 in the column "neighborobjid"?
+(4) How many objects are in the "neighbors" table that have a neighborobjid of 1237645876861337660 in the "Nearest_neighbour_objects" column?
+(5) How many rows are in the table "neighbors" where the column "neighborobjid" is equal to 1237645876861337660?
+(6) How many objects are there in the "neighbors" table where the object's ID is equal to 1237645876861337660?
+(7) How many objects are in the "neighbors" table with a "neighborobjid" of 1237645876861337660?
+
+
+Re-ranked choices:
+4.258  How many objects are there in the "neighbors" table where the object's ID is equal to 1237645876861337660?
+2.127  How many objects are in the "neighbors" table that have a neighborobjid of 1237645876861337660 in the "Nearest_neighbour_objects" column?
+1.443  How many objects are in the "neighbors" table with a "neighborobjid" of 1237645876861337660?
+1.438  "How many objects are in the neighbors table that have a neighborobjid value of 1237645876861337660?"
+1.437  How many objects in the "neighbors" table have a "neighborobjid" value of 1237645876861337660?
+1.437  How many objects in the "neighbors" table have a value of 1237645876861337660 in the column "neighborobjid"?
+0.043  How many rows are in the table "neighbors" where the column "neighborobjid" is equal to 1237645876861337660?
+0.035  Count the number of rows in the "neighbors" table where the "neighborobjid" column is equal to 1237645876861337660.
+

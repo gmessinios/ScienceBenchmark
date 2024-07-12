@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types AS activity_types WHERE activity_types.code = "GOV"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types AS T1 WHERE T1.code = "GOV"
+GPT-3 choices:
+(0) How many rows are in the table of activity types where the code is "GOV"?
+(1) Count the number of rows in the "activity_types" table where the code column equals "GOV".
+(2) How many activity types with a code of "GOV" are in the database?
+(3) How many activity types are there where the code is "GOV"?
+(4) How many activity types have a code of "GOV"?
+(5) How many activity types with the code "GOV" are there in the table "activity_types"?
+(6) Count the number of rows in the "activity_types" table where the code column equals "GOV".
+(7) How many activity types have the code "GOV"?

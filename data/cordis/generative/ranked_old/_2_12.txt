@@ -1,0 +1,25 @@
+SELECT activity_types.code, count(*) FROM activity_types  GROUP BY activity_types.code
+
+###
+
+
+Original Query:
+SELECT activity_types.code, count(*) FROM activity_types  GROUP BY activity_types.code
+GPT-3 choices:
+(0) How many activity types are there?
+(1) How many activity types are there?
+(2) Count the number of activity types
+(3) How many activity types are there?
+(4) The number of different activity types in the database.
+(5) Show me all the activity types and the number of them.
+(6) How many activity types are there?
+(7) How many activity types are there in the system?
+
+
+Re-ranked choices:
+2.868  How many activity types are there in the system?
+2.867  How many activity types are there?
+2.858  Show me all the activity types and the number of them.
+2.844  Count the number of activity types
+2.833  The number of different activity types in the database.
+

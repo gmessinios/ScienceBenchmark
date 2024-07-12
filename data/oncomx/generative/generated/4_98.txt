@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_trade_name = "PATH VYSION HER-2 DNA PROBE KIT"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test_use AS T1 WHERE T1.test_trade_name = "PATH VYSION HER-2 DNA PROBE KIT"
+GPT-3 choices:
+(0) How many entries are in the "biomarker_fda_test_use" table where the test_trade_name column is equal to "PATH VYSION HER-2 DNA PROBE KIT"?
+(1) How many entries are there in the table for FDA-approved biomarkers that have a test trade name of "PATH VYSION HER-2 DNA PROBE KIT"?
+(2) How many entries are in the "biomarker_fda_test_use" table where the test trade name is "PATH VYSION HER-2 DNA PROBE KIT"?
+(3) How many biomarkers are there in the FDA test use table that have a trade name of "PATH VYSION HER-2 DNA PROBE KIT"?
+(4) How many biomarker FDA test uses have the test trade name "PATH VYSION HER-2 DNA PROBE KIT"?
+(5) How many entries are there in the "biomarker_fda_test_use" table where the test trade name is "PATH VYSION HER-2 DNA PROBE KIT"?
+(6) How many biomarker FDA test uses have the test trade name "PATH VYSION HER-2 DNA PROBE KIT"?
+(7) How many biomarker FDA test uses are there where the test trade name is "PATH VYSION HER-2 DNA PROBE KIT"?

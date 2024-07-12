@@ -1,0 +1,28 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_u = 14.14018
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.cmodelmag_u = 14.14018
+GPT-3 choices:
+(0) How many objects in the photoobj table have a cmodelmag_u value of 14.14018?
+(1) Count the number of rows in the "Photometric_objects" table where the value in the "cmodelmag_u" column is equal to 14.14018.
+(2) Count the number of photometric objects where the cmodelmag_u value is equal to 14.14018.
+(3) Count the number of objects in the "photoobj" table where the "cmodelmag_u" column has a value of 14.14018 for each object.
+(4) "How many photometric objects have a cmodelmag_u value of 14.14018?"
+(5) Count the number of objects in the "photoobj" table with a value of 14.14018 for the "cmodelmag_u" column, and label them as "Photometric objects".
+(6) "How many objects have a cmodelmag_u value of 14.14018 in the Photometric_objects table of the photoobj database?"
+(7) How many photometric objects have a cmodel magnitude of 14.14018 in the u band?
+
+
+Re-ranked choices:
+4.252  How many photometric objects have a cmodel magnitude of 14.14018 in the u band?
+2.135  "How many objects have a cmodelmag_u value of 14.14018 in the Photometric_objects table of the photoobj database?"
+1.443  Count the number of objects in the "photoobj" table where the "cmodelmag_u" column has a value of 14.14018 for each object.
+1.434  Count the number of objects in the "photoobj" table with a value of 14.14018 for the "cmodelmag_u" column, and label them as "Photometric objects".
+1.433  How many objects in the photoobj table have a cmodelmag_u value of 14.14018?
+1.432  "How many photometric objects have a cmodelmag_u value of 14.14018?"
+1.431  Count the number of photometric objects where the cmodelmag_u value is equal to 14.14018.
+0.728  Count the number of rows in the "Photometric_objects" table where the value in the "cmodelmag_u" column is equal to 14.14018.
+

@@ -1,0 +1,16 @@
+SELECT disease.name, count(*) FROM disease AS disease  GROUP BY disease.name
+
+###
+
+
+Original Query:
+SELECT T1.name, count(*) FROM disease AS T1  GROUP BY T1.name
+GPT-3 choices:
+(0) Count the number of occurrences for each disease name in the table "disease".
+(1) "Count the number of records in the 'disease' table for each unique disease name and list the disease names and their corresponding count."
+(2) What is the count of instances for each unique disease name in the "disease" table?
+(3) Get the name of each disease and count the number of occurrences in the disease table.
+(4) "How many diseases are there for each disease name?"
+(5) How many occurrences of each disease name are there in the disease table?
+(6) Find the number of occurrences of each disease in the database and group them by their name.
+(7) Find the number of occurrences for each unique name in the "disease" table and list them with their respective names.

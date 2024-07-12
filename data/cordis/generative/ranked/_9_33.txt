@@ -1,0 +1,28 @@
+SELECT activity_types.code FROM activity_types AS activity_types JOIN project_members AS project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name != "GMV UK"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 JOIN project_members AS T2 ON T1.code = T2.activity_type WHERE T2.member_short_name != "GMV UK"
+GPT-3 choices:
+(0) Get the activity type codes for all project members whose member short name is not "GMV UK".
+(1) Find the code for activity types that are associated with project members who are not identified as "GMV UK".
+(2) What is the code of all activity types for which there exists a project member who has a different short name than "GMV UK"?
+(3) Get the code of all activity types where the member's short name is not "GMV UK" and who are also project members.
+(4) Find the activity type code for all project members who are not "GMV UK" by joining the tables activity_types and project_members on their common code column.
+(5) Retrieve the code of all activity types that are associated with a project member other than "GMV UK".
+(6) Retrieve the code of all activity types where the member's short name is not "GMV UK" from the project members table, while joining with the activity types table.
+(7) Retrieve the code of activity types from the activity_types table for project members who are not "GMV UK".
+
+
+Re-ranked choices:
+12.625  Retrieve the code of all activity types where the member's short name is not "GMV UK" from the project members table, while joining with the activity types table.
+11.247  Get the activity type codes for all project members whose member short name is not "GMV UK".
+11.236  Get the code of all activity types where the member's short name is not "GMV UK" and who are also project members.
+11.233  What is the code of all activity types for which there exists a project member who has a different short name than "GMV UK"?
+9.121  Find the activity type code for all project members who are not "GMV UK" by joining the tables activity_types and project_members on their common code column.
+8.432  Find the code for activity types that are associated with project members who are not identified as "GMV UK".
+8.429  Retrieve the code of all activity types that are associated with a project member other than "GMV UK".
+8.429  Retrieve the code of activity types from the activity_types table for project members who are not "GMV UK".
+

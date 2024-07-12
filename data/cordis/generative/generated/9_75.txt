@@ -1,0 +1,16 @@
+SELECT project_members.ec_contribution FROM project_members AS project_members JOIN project_member_roles AS project_member_roles ON project_members.member_role = project_member_roles.code WHERE project_member_roles.code != "thirdParty"
+
+###
+
+
+Original Query:
+SELECT T1.ec_contribution FROM project_members AS T1 JOIN project_member_roles AS T2 ON T1.member_role = T2.code WHERE T2.code != "thirdParty"
+GPT-3 choices:
+(0) Retrieve the EC contribution of project members who have a member role code that is not "thirdParty" from the project_members and project_member_roles tables.
+(1) Retrieve the EC contribution for all project members where their member role is not "thirdParty".
+(2) What is the contribution amount from project members who have a role other than "third party"?
+(3) Retrieve the EC contribution amount for all project members whose role is not "third party".
+(4) Retrieve the economic contribution of all project members who do not have the role "third party".
+(5) What are the EC contributions for all project members who have a member role other than "thirdParty"?
+(6) Retrieve the EC contribution of project members where their member role is not "thirdParty".
+(7) Retrieve the ec_contribution of all project members where their member role is not equal to "thirdParty", with data from both the project_members and project_member_roles tables.

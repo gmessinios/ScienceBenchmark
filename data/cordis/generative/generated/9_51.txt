@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles JOIN project_members AS project_members ON project_member_roles.code = project_members.member_role WHERE project_members.city != "DRIMOLEAGUE"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 JOIN project_members AS T2 ON T1.code = T2.member_role WHERE T2.city != "DRIMOLEAGUE"
+GPT-3 choices:
+(0) Retrieve the code of all project member roles for members who are part of a project and have a city that is not "DRIMOLEAGUE".
+(1) Retrieve the codes of all project member roles from the project_member_roles table, where the city of the corresponding project member in the project_members table is not "DRIMOLEAGUE".
+(2) Retrieve the codes of all project member roles from the project_member_roles table where the corresponding city in the project_members table is not "DRIMOLEAGUE".
+(3) Find the code for each project member's role from the project_member_roles table where the city of their membership is not "DRIMOLEAGUE".
+(4) Find the code for the role of each project member from the table "project_member_roles" where their assigned city is not "DRIMOLEAGUE" in the table "project_members".
+(5) What are the project member roles for all project members who do not reside in Drimoleague?
+(6) What are the project member roles of all project members whose city is not "DRIMOLEAGUE"?
+(7) Retrieve the project member roles code from the project member roles table for all project members who have a city other than "DRIMOLEAGUE".

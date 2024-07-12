@@ -1,0 +1,28 @@
+SELECT differential_expression.subjects_down FROM differential_expression AS differential_expression WHERE differential_expression.pvalue = 5.67e-143 and differential_expression.gene_symbol = "AC000403.1"
+
+###
+
+
+Original Query:
+SELECT T1.subjects_down FROM differential_expression AS T1 WHERE T1.pvalue = 5.67e-143 and T1.gene_symbol = "AC000403.1"
+GPT-3 choices:
+(0) Retrieve the number of subjects with down-regulated gene expression for the gene AC000403.1 where the p-value is equal to 5.67e-143 from the differential_expression table.
+(1) Retrieve the subjects with down-regulated gene expression for the gene "AC000403.1" where the p-value is 5.67e-143 from the differential expression database.
+(2) Get the number of subjects with down-regulated gene expression for gene AC000403.1 where the p-value is equal to 5.67e-143 from the table differential_expression.
+(3) Retrieve the number of downregulated subjects from the table differential_expression where the p-value is equal to 5.67e-143 and the gene symbol is "AC000403.1".
+(4) Retrieve the number of subjects with down-regulated expression levels for gene symbol "AC000403.1" from the differential_expression table, where the p-value is 5.67e-143.
+(5) Retrieve the number of subjects with decreased expression from the differential expression table where the p-value is 5.67e-143 and the gene symbol is "AC000403.1".
+(6) Retrieve the list of subjects that have a down-regulated expression for gene "AC000403.1" where the p-value is equal to 5.67e-143 from the differential_expression table.
+(7) Retrieve the list of subjects that had decreased expression levels for gene AC000403.1 with a p-value of 5.67e-143 from the differential expression table.
+
+
+Re-ranked choices:
+7.037  Retrieve the number of subjects with decreased expression from the differential expression table where the p-value is 5.67e-143 and the gene symbol is "AC000403.1".
+5.648  Retrieve the list of subjects that had decreased expression levels for gene AC000403.1 with a p-value of 5.67e-143 from the differential expression table.
+5.642  Retrieve the subjects with down-regulated gene expression for the gene "AC000403.1" where the p-value is 5.67e-143 from the differential expression database.
+5.627  Retrieve the number of subjects with down-regulated expression levels for gene symbol "AC000403.1" from the differential_expression table, where the p-value is 5.67e-143.
+4.240  Get the number of subjects with down-regulated gene expression for gene AC000403.1 where the p-value is equal to 5.67e-143 from the table differential_expression.
+4.239  Retrieve the number of subjects with down-regulated gene expression for the gene AC000403.1 where the p-value is equal to 5.67e-143 from the differential_expression table.
+4.239  Retrieve the list of subjects that have a down-regulated expression for gene "AC000403.1" where the p-value is equal to 5.67e-143 from the differential_expression table.
+4.230  Retrieve the number of downregulated subjects from the table differential_expression where the p-value is equal to 5.67e-143 and the gene symbol is "AC000403.1".
+

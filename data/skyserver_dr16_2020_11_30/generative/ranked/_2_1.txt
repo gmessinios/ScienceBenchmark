@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode, count(*) FROM neighbors AS Nearest_neighbour_objects  GROUP BY Nearest_neighbour_objects.neighbormode
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode, count(*) FROM neighbors AS T1  GROUP BY T1.neighbormode
+GPT-3 choices:
+(0) Find the number of objects in the neighbors table grouped by their neighbormode, and return the neighbormode and count for each group.
+(1) "How many objects have been classified according to their nearest neighbor mode and what is the total count for each type?"
+(2) How many neighbors are there for each mode of the nearest neighbor objects in the neighbors table?
+(3) Find the number of nearest neighbor objects for each neighbor mode in the neighbors table and group the results by neighbormode.
+(4) Count the number of objects and group them by their nearest neighbor mode.
+(5) Count the number of objects in the "neighbors" table grouped by their mode of nearest neighbor.
+(6) What is the count of neighbors grouped by neighbor mode in the Nearest_neighbour_objects table?
+(7) How many objects have a particular neighbor mode, and what is the count for each one?
+
+
+Re-ranked choices:
+6.327  Find the number of nearest neighbor objects for each neighbor mode in the neighbors table and group the results by neighbormode.
+5.641  What is the count of neighbors grouped by neighbor mode in the Nearest_neighbour_objects table?
+5.639  How many neighbors are there for each mode of the nearest neighbor objects in the neighbors table?
+4.962  Count the number of objects and group them by their nearest neighbor mode.
+4.942  Count the number of objects in the "neighbors" table grouped by their mode of nearest neighbor.
+4.233  "How many objects have been classified according to their nearest neighbor mode and what is the total count for each type?"
+3.526  Find the number of objects in the neighbors table grouped by their neighbormode, and return the neighbormode and count for each group.
+2.850  How many objects have a particular neighbor mode, and what is the count for each one?
+

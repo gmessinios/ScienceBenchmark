@@ -1,0 +1,16 @@
+SELECT programmes.short_name, count(*) FROM programmes AS programmes  GROUP BY programmes.short_name
+
+###
+
+
+Original Query:
+SELECT T1.short_name, count(*) FROM programmes AS T1  GROUP BY T1.short_name
+GPT-3 choices:
+(0) Count the number of programmes and group them by their short names.
+(1) How many programmes are there in each short name category?
+(2) Count the number of programmes for each short name in the programmes table.
+(3) How many programmes are there for each short name in the programmes table?
+(4) How many programmes are there for each short name in the programmes table?
+(5) Count the number of programmes for each short name and display the short name along with its corresponding count.
+(6) Count the number of programmes and group them by their short name from the table called "programmes".
+(7) Count the number of programmes and group them by their short names.

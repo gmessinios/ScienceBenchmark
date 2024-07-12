@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles AS project_member_roles JOIN project_members AS project_members ON project_member_roles.code = project_members.member_role WHERE project_members.postal_code != "MK12 6HR"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM project_member_roles AS T1 JOIN project_members AS T2 ON T1.code = T2.member_role WHERE T2.postal_code != "MK12 6HR"
+GPT-3 choices:
+(0) Retrieve the description from the project member roles table where the member role code in the project members table is not equal to "MK12 6HR".
+(1) What are the descriptions of all project member roles for members in the project who have a postal code different from "MK12 6HR"?
+(2) Retrieve the description from project_member_roles where the code matches the member_role of project_members, excluding any entries with a postal code of "MK12 6HR".
+(3) What is the description for the member role of a project member whose postal code is not "MK12 6HR"?
+(4) What are the descriptions of the project member roles for project members who have a postal code other than "MK12 6HR"?
+(5) What is the description of the role for project members whose postal code is not "MK12 6HR"?
+(6) Find the description of the member role for each project member where their postal code is not "MK12 6HR".
+(7) Find the description of the member role for all project members where their postal code is not "MK12 6HR".

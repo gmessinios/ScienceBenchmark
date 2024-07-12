@@ -1,0 +1,28 @@
+SELECT Photometric_objects.dec FROM photoobj AS Photometric_objects WHERE Photometric_objects.b = -73.8462307764045
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM photoobj AS T1 WHERE T1.b = -73.8462307764045
+GPT-3 choices:
+(0) Find the declination value for all photometric objects with a b-value of -73.8462307764045 in the photoobj table.
+(1) Find the declination value for Photometric objects from the photoobj table where the b value is -73.8462307764045.
+(2) Retrieve the declination values from the photoobj table where b is equal to -73.8462307764045 in the Photometric_objects alias.
+(3) What is the declination of all photometric objects with a b-value of -73.8462307764045?
+(4) Find the declination values for objects in the "photoobj" table with a "b" value of -73.8462307764045 in the "Photometric_objects" alias.
+(5) Find the declination of photometric objects in the photoobj table where b is equal to -73.8462307764045.
+(6) Find the declination of objects in the table "photoobj" with a b value of -73.8462307764045 and name the table "Photometric_objects".
+(7) "Retrieve the declination values from the photoobj table for objects with a b value of -73.8462307764045."
+
+
+Re-ranked choices:
+3.537  Find the declination values for objects in the "photoobj" table with a "b" value of -73.8462307764045 in the "Photometric_objects" alias.
+3.537  Find the declination of objects in the table "photoobj" with a b value of -73.8462307764045 and name the table "Photometric_objects".
+2.839  Find the declination value for all photometric objects with a b-value of -73.8462307764045 in the photoobj table.
+2.836  What is the declination of all photometric objects with a b-value of -73.8462307764045?
+2.829  Find the declination of photometric objects in the photoobj table where b is equal to -73.8462307764045.
+2.829  "Retrieve the declination values from the photoobj table for objects with a b value of -73.8462307764045."
+2.828  Find the declination value for Photometric objects from the photoobj table where the b value is -73.8462307764045.
+2.138  Retrieve the declination values from the photoobj table where b is equal to -73.8462307764045 in the Photometric_objects alias.
+

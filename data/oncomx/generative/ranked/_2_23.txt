@@ -1,0 +1,28 @@
+SELECT differential_expression.subjects_nochange, count(*) FROM differential_expression AS differential_expression  GROUP BY differential_expression.subjects_nochange
+
+###
+
+
+Original Query:
+SELECT T1.subjects_nochange, count(*) FROM differential_expression AS T1  GROUP BY T1.subjects_nochange
+GPT-3 choices:
+(0) How many subjects have no change in differential expression?
+(1) How many subjects in the differential expression table have no changes and what is the total count for each unique value?
+(2) Count the number of times that subjects have not changed in the table differential_expression, grouped by their corresponding subject numbers.
+(3) What is the count of records in the differential expression table for each unique number of subjects with no change?
+(4) Find the number of subjects that did not experience any change in differential expression, and count how many there are.
+(5) How many subjects have no change in differential expression data?
+(6) How many subjects have no changes in differential expression?
+(7) Count the number of subjects that did not have any changes in their differential expression data in the table "differential_expression".
+
+
+Re-ranked choices:
+4.236  How many subjects have no change in differential expression data?
+4.234  What is the count of records in the differential expression table for each unique number of subjects with no change?
+4.230  How many subjects in the differential expression table have no changes and what is the total count for each unique value?
+4.222  Count the number of subjects that did not have any changes in their differential expression data in the table "differential_expression".
+2.837  How many subjects have no change in differential expression?
+2.837  How many subjects have no changes in differential expression?
+2.830  Find the number of subjects that did not experience any change in differential expression, and count how many there are.
+2.124  Count the number of times that subjects have not changed in the table differential_expression, grouped by their corresponding subject numbers.
+

@@ -1,0 +1,16 @@
+SELECT healthy_expression.call_quality FROM healthy_expression AS healthy_expression    ORDER BY healthy_expression.expression_rank_score DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.call_quality FROM healthy_expression AS T1    ORDER BY T1.expression_rank_score DESC LIMIT 1
+GPT-3 choices:
+(0) What is the call quality of the highest ranked expression in healthy_expression?
+(1) Select the call quality from the table healthy_expression and order it by its expression rank score in descending order, limiting the result to only one row.
+(2) Find the call quality from the table healthy_expression, ordering by the expression rank score in descending order and selecting only the top result.
+(3) Get the call quality from the top ranked healthy expression, ordered by its expression rank score in descending order, limited to just one result.
+(4) Find the call quality from the healthy_expression table, order it by expression_rank_score in descending order, and return only the top result.
+(5) Get the call quality from the highest ranked healthy expression in descending order.
+(6) Get the call quality from the highest ranked healthy expression in descending order.
+(7) Get the call quality from the highest ranked healthy expression in descending order.

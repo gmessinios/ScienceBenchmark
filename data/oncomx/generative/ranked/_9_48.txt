@@ -1,0 +1,28 @@
+SELECT disease.name FROM disease AS disease JOIN cancer_tissue AS cancer_tissue ON disease.id = cancer_tissue.doid WHERE cancer_tissue.doid != 363
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1 JOIN cancer_tissue AS T2 ON T1.id = T2.doid WHERE T2.doid != 363
+GPT-3 choices:
+(0) Find the name of all diseases that are not associated with tissue cancer.
+(1) What are the names of all diseases that are not associated with tissue cancer?
+(2) Find the name of all diseases that are associated with cancer tissues except for lung cancer.
+(3) What are the names of all diseases that are not related to cancer?
+(4) What are the names of diseases that are associated with cancer tissue other than lung cancer?
+(5) Find the names of diseases that are not associated with DOID 363 according to the cancer_tissue table.
+(6) Find the names of all diseases that are associated with cancer, excluding lung cancer.
+(7) Find the names of diseases that are associated with a cancer tissue type other than breast carcinoma.
+
+
+Re-ranked choices:
+2.842  Find the name of all diseases that are not associated with tissue cancer.
+2.832  Find the name of all diseases that are associated with cancer tissues except for lung cancer.
+2.832  What are the names of diseases that are associated with cancer tissue other than lung cancer?
+2.830  Find the names of diseases that are associated with a cancer tissue type other than breast carcinoma.
+1.439  What are the names of all diseases that are not associated with tissue cancer?
+1.428  Find the names of diseases that are not associated with DOID 363 according to the cancer_tissue table.
+0.062  What are the names of all diseases that are not related to cancer?
+0.034  Find the names of all diseases that are associated with cancer, excluding lung cancer.
+

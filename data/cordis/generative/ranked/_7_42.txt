@@ -1,0 +1,25 @@
+SELECT programmes.rcn FROM programmes AS programmes WHERE programmes.short_name = "Management of materials components" or programmes.parent = "ENERGY-3.5"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM programmes AS T1 WHERE T1.short_name = "Management of materials components" or T1.parent = "ENERGY-3.5"
+GPT-3 choices:
+(0) Find the RCN of programmes where the short name is "Management of materials components" or the parent is "ENERGY-3.5".
+(1) Find the RCN of programmes where the short name is "Management of materials components" or the parent is "ENERGY-3.5".
+(2) Find the RCN of the programme with the short name "Management of materials components" or with a parent programme named "ENERGY-3.5".
+(3) Find the Research Council Number for the programme titled "Management of materials components" or any programmes that have a parent programme with the title "ENERGY-3.5".
+(4) Retrieve the RCN of programmes where the short name is "Management of materials components" or the parent is "ENERGY-3.5".
+(5) Find the RCN of programmes where the short name is "Management of materials components" or the parent is "ENERGY-3.5".
+(6) Find the RCN of programmes where the short name is "Management of materials components" or the parent is "ENERGY-3.5".
+(7) Find the rcn value of the programme with a short name of "Management of materials components" or a parent value of "ENERGY-3.5".
+
+
+Re-ranked choices:
+9.826  Find the RCN of programmes where the short name is "Management of materials components" or the parent is "ENERGY-3.5".
+9.826  Retrieve the RCN of programmes where the short name is "Management of materials components" or the parent is "ENERGY-3.5".
+8.422  Find the RCN of the programme with the short name "Management of materials components" or with a parent programme named "ENERGY-3.5".
+8.422  Find the rcn value of the programme with a short name of "Management of materials components" or a parent value of "ENERGY-3.5".
+5.617  Find the Research Council Number for the programme titled "Management of materials components" or any programmes that have a parent programme with the title "ENERGY-3.5".
+

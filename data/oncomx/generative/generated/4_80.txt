@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.ncit_biomarker = "Anillin Actin Binding Protein Gene"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_ncit_term AS T1 WHERE T1.ncit_biomarker = "Anillin Actin Binding Protein Gene"
+GPT-3 choices:
+(0) How many rows are there in the table "biomarker_fda_ncit_term" where the column "ncit_biomarker" has a value of "Anillin Actin Binding Protein Gene"?
+(1) How many biomarker-fda-ncit-term entries have an ncit_biomarker value of "Anillin Actin Binding Protein Gene"?
+(2) How many records are there in the biomarker_fda_ncit_term table where the ncit_biomarker is "Anillin Actin Binding Protein Gene"?
+(3) How many biomarker and NCIt term entries are there in the database for the gene "Anillin Actin Binding Protein"?
+(4) How many entries are there in the table biomarker_fda_ncit_term where the value of the column ncit_biomarker is equal to "Anillin Actin Binding Protein Gene"?
+(5) How many records are there in the "biomarker_fda_ncit_term" table where the NCIt biomarker is "Anillin Actin Binding Protein Gene"?
+(6) How many entries are there in the biomarker_fda_ncit_term table where the ncit_biomarker column is equal to "Anillin Actin Binding Protein Gene"?
+(7) How many entries are in the biomarker_fda_ncit_term table where the ncit_biomarker column is equal to "Anillin Actin Binding Protein Gene"?

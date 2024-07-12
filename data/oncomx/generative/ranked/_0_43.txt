@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.histological_type FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.specimen_type = "Paraffin block"
+
+###
+
+
+Original Query:
+SELECT T1.histological_type FROM biomarker_fda_test AS T1 WHERE T1.specimen_type = "Paraffin block"
+GPT-3 choices:
+(0) What is the histological type for specimens of "Paraffin block" in the biomarker_fda_test table?
+(1) What is the histological type of biomarkers from FDA testing for specimens in paraffin blocks?
+(2) What is the histological type from biomarker FDA test where the specimen type is "Paraffin block"?
+(3) Get the histological type from the biomarker FDA test where the specimen type is "Paraffin block".
+(4) Retrieve the histological type from the biomarker FDA test table where the specimen type is "Paraffin block".
+(5) Retrieve the histological type from biomarker_fda_test for specimens of paraffin block.
+(6) "Retrieve the histological type from the biomarker_fda_test table for specimens with a specimen_type of Paraffin block."
+(7) What is the histological type of biomarkers found in paraffin blocks according to the FDA test?
+
+
+Re-ranked choices:
+9.836  What is the histological type from biomarker FDA test where the specimen type is "Paraffin block"?
+9.836  Get the histological type from the biomarker FDA test where the specimen type is "Paraffin block".
+9.830  Retrieve the histological type from the biomarker FDA test table where the specimen type is "Paraffin block".
+4.936  What is the histological type of biomarkers found in paraffin blocks according to the FDA test?
+4.933  What is the histological type of biomarkers from FDA testing for specimens in paraffin blocks?
+4.228  What is the histological type for specimens of "Paraffin block" in the biomarker_fda_test table?
+3.525  Retrieve the histological type from biomarker_fda_test for specimens of paraffin block.
+3.521  "Retrieve the histological type from the biomarker_fda_test table for specimens with a specimen_type of Paraffin block."
+

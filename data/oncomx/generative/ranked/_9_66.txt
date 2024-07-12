@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_use.test_trade_name FROM biomarker_fda_test_use AS biomarker_fda_test_use JOIN biomarker_fda_test AS biomarker_fda_test ON biomarker_fda_test_use.test_trade_name = biomarker_fda_test.test_trade_name WHERE biomarker_fda_test.test_submission != "K080252"
+
+###
+
+
+Original Query:
+SELECT T1.test_trade_name FROM biomarker_fda_test_use AS T1 JOIN biomarker_fda_test AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.test_submission != "K080252"
+GPT-3 choices:
+(0) Get the test trade name from the biomarker FDA test use table where the test trade name is not equal to "K080252" in the biomarker FDA test table.
+(1) Find the trade names of all biomarker tests that have been submitted for FDA approval but are not listed under submission number K080252.
+(2) Retrieve the test trade names from the biomarker_fda_test_use table that are associated with submissions in the biomarker_fda_test table, excluding any associated with submission number K080252.
+(3) "Find the test trade names from the FDA biomarker testing database that have been used for testing and are not associated with submission number K080252."
+(4) Retrieve the test trade name from the biomarker FDA test use table where the test trade name is also present in the biomarker FDA test table and the test submission is not equal to "K080252".
+(5) Retrieve the trade names from the biomarker_fda_test_use table where the test submission is not "K080252" and join it with the biomarker_fda_test table, then select only the test_trade_name column.
+(6) Find the trade name of all biomarker tests that are not part of submission K080252 in the FDA database.
+(7) Find the trade names of biomarker tests that are used for FDA approval but have not been submitted under the code "K080252".
+
+
+Re-ranked choices:
+10.525  Retrieve the test trade name from the biomarker FDA test use table where the test trade name is also present in the biomarker FDA test table and the test submission is not equal to "K080252".
+9.136  Get the test trade name from the biomarker FDA test use table where the test trade name is not equal to "K080252" in the biomarker FDA test table.
+7.750  Find the trade name of all biomarker tests that are not part of submission K080252 in the FDA database.
+7.028  "Find the test trade names from the FDA biomarker testing database that have been used for testing and are not associated with submission number K080252."
+5.630  Find the trade names of all biomarker tests that have been submitted for FDA approval but are not listed under submission number K080252.
+4.942  Find the trade names of biomarker tests that are used for FDA approval but have not been submitted under the code "K080252".
+4.920  Retrieve the trade names from the biomarker_fda_test_use table where the test submission is not "K080252" and join it with the biomarker_fda_test table, then select only the test_trade_name column.
+4.216  Retrieve the test trade names from the biomarker_fda_test_use table that are associated with submissions in the biomarker_fda_test table, excluding any associated with submission number K080252.
+

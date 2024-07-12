@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains AS erc_research_domains JOIN erc_panels AS erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels AS project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects AS projects ON project_erc_panels.project = projects.unics_id WHERE projects.cordis_ref != "100794"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM erc_research_domains AS T1 JOIN erc_panels AS T3 ON T1.code = T3.part_of JOIN project_erc_panels AS T4 ON T3.code = T4.panel JOIN projects AS T2 ON T4.project = T2.unics_id WHERE T2.cordis_ref != "100794"
+GPT-3 choices:
+(0) Retrieve the codes for research domains from the ERC research domain table that are associated with panels in the ERC panel table, which are then joined with project-ERC panel data on project-ERC panel code and matched to projects based on their UNICS ID, but exclude any projects with a CORDIS reference of "100794".
+(1) Retrieve the code for each research domain from the ERC research domains table that is also part of a panel in the ERC panels table, and then get the panel code from the project ERC panels table, where the project code is equal to a specified value and exclude any results where the cordis_ref in projects table is equal to 100794.
+(2) Get the research domain codes from the ERC research domains table where the code is part of the ERC panels table, which is joined with the project_erc_panels table and then joined with the projects table, and retrieve only those records where the cordis_ref column in projects does not have a value of "100794".
+(3) Retrieve the codes of ERC research domains for projects that are not 100794 and have corresponding panels and project ERC panels in order to join with projects on UNICS ID.
+(4) Get the code for the research domains from the ERC Research Domains table where the code is equal to the part of code in the ERC Panels table and join it with the Project ERC Panels table using their panel codes, then join that with Projects table using their UNICS ID, but only retrieve those that do not have a CORDIS reference of "100794".
+(5) Retrieve the code of all ERC research domains that are associated with panels and projects, where the cordis_ref is not equal to "100794".
+(6) Retrieve the codes for research domains from the ERC research domain table, where the code is equal to the part of field in the ERC panels table and is also equal to the panel field in the project_erc_panels table, which in turn has a project ID that matches with a project ID from the projects table, excluding any projects with a CORDIS reference of "100794".
+(7) Find the code for the research domains that are part of a panel, which is linked to a project, where the project's CORDIS reference number is not equal to "100794".
+
+
+Re-ranked choices:
+12.611  Retrieve the codes for research domains from the ERC research domain table, where the code is equal to the part of field in the ERC panels table and is also equal to the panel field in the project_erc_panels table, which in turn has a project ID that matches with a project ID from the projects table, excluding any projects with a CORDIS reference of "100794".
+11.911  Get the code for the research domains from the ERC Research Domains table where the code is equal to the part of code in the ERC Panels table and join it with the Project ERC Panels table using their panel codes, then join that with Projects table using their UNICS ID, but only retrieve those that do not have a CORDIS reference of "100794".
+11.213  Retrieve the codes for research domains from the ERC research domain table that are associated with panels in the ERC panel table, which are then joined with project-ERC panel data on project-ERC panel code and matched to projects based on their UNICS ID, but exclude any projects with a CORDIS reference of "100794".
+9.124  Retrieve the codes of ERC research domains for projects that are not 100794 and have corresponding panels and project ERC panels in order to join with projects on UNICS ID.
+9.112  Retrieve the code for each research domain from the ERC research domains table that is also part of a panel in the ERC panels table, and then get the panel code from the project ERC panels table, where the project code is equal to a specified value and exclude any results where the cordis_ref in projects table is equal to 100794.
+7.713  Get the research domain codes from the ERC research domains table where the code is part of the ERC panels table, which is joined with the project_erc_panels table and then joined with the projects table, and retrieve only those records where the cordis_ref column in projects does not have a value of "100794".
+7.027  Find the code for the research domains that are part of a panel, which is linked to a project, where the project's CORDIS reference number is not equal to "100794".
+5.628  Retrieve the code of all ERC research domains that are associated with panels and projects, where the cordis_ref is not equal to "100794".
+

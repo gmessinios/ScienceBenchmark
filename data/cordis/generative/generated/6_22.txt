@@ -1,0 +1,16 @@
+SELECT institutions.website FROM institutions AS institutions WHERE institutions.country_id = 133 and institutions.unics_id = 2688
+
+###
+
+
+Original Query:
+SELECT T1.website FROM institutions AS T1 WHERE T1.country_id = 133 and T1.unics_id = 2688
+GPT-3 choices:
+(0) What is the website of the institution located in country 133 with a unique ID of 2688?
+(1) Retrieve the website of institutions in the country with ID 133 and with a UNICS ID of 2688.
+(2) Retrieve the website of the institution where the country ID is 133 and UNICS ID is 2688.
+(3) Retrieve the website of the institution with a country_id of 133 and a unics_id of 2688 from the institutions table.
+(4) Get the website of the institution with a country ID of 133 and a UNICS ID of 2688 from the "institutions" table.
+(5) Find the website of the institution with a country ID of 133 and a UNICS ID of 2688.
+(6) What is the website of an institution with a country ID of 133 and a UNICS ID of 2688?
+(7) Retrieve the website of institutions located in country 133 and with a UNICS ID of 2688.

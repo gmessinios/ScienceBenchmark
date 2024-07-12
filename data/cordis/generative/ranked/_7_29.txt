@@ -1,0 +1,28 @@
+SELECT countries.country_code2 FROM countries AS countries WHERE countries.country_code3 = "NRU" or countries.country_name = "Colombia"
+
+###
+
+
+Original Query:
+SELECT T1.country_code2 FROM countries AS T1 WHERE T1.country_code3 = "NRU" or T1.country_name = "Colombia"
+GPT-3 choices:
+(0) Find the country code2 for countries with a country code3 of "NRU" or a country name of "Colombia" in the countries table.
+(1) Show me the country code 2 for countries where the country code 3 is "NRU" or the country name is "Colombia".
+(2) Retrieve the country code 2 for countries that have a country code 3 of "NRU" or a country name of "Colombia".
+(3) Retrieve the country code 2 for countries where the country code 3 is "NRU" or the country name is "Colombia".
+(4) Get the country code 2 for any country with a country code 3 of "NRU" or a country name of "Colombia" from the countries table.
+(5) Find the country code 2 for a country with a country code 3 of "NRU" or a country name of "Colombia" from the countries table.
+(6) What is the country code 2 for either Nauru or Colombia?
+(7) Retrieve the country code 2 for countries with a country code 3 of "NRU" or a country name of "Colombia" from the table "countries".
+
+
+Re-ranked choices:
+8.436  Find the country code2 for countries with a country code3 of "NRU" or a country name of "Colombia" in the countries table.
+5.644  Show me the country code 2 for countries where the country code 3 is "NRU" or the country name is "Colombia".
+5.639  Retrieve the country code 2 for countries where the country code 3 is "NRU" or the country name is "Colombia".
+5.638  Retrieve the country code 2 for countries that have a country code 3 of "NRU" or a country name of "Colombia".
+5.633  Retrieve the country code 2 for countries with a country code 3 of "NRU" or a country name of "Colombia" from the table "countries".
+5.632  Get the country code 2 for any country with a country code 3 of "NRU" or a country name of "Colombia" from the countries table.
+5.632  Find the country code 2 for a country with a country code 3 of "NRU" or a country name of "Colombia" from the countries table.
+1.458  What is the country code 2 for either Nauru or Colombia?
+

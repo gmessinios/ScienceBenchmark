@@ -1,0 +1,28 @@
+SELECT count(*) FROM topics WHERE topics.code = 'SCC-03-2015'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.code = 'SCC-03-2015'
+GPT-3 choices:
+(0) How many different topics are there about SCC-03-2015?
+(1) How many topics are there with code SCC-03-2015?
+(2) How many topics are there about SCC-03-2015?
+(3) How many topics are there in the SCC-03-2015 stream?
+(4) How many topics are there with the code SCC-03-2015?
+(5) How many topics are present in all with code SCC-03-2015?
+(6) Show me the number of topics within the SCC-03-2015 subject
+(7) The number of topics in the SCC-03-2015 subject
+
+
+Re-ranked choices:
+2.943  How many topics are there with the code SCC-03-2015?
+2.920  How many topics are present in all with code SCC-03-2015?
+2.903  How many topics are there with code SCC-03-2015?
+2.243  How many topics are there in the SCC-03-2015 stream?
+2.158  The number of topics in the SCC-03-2015 subject
+2.150  Show me the number of topics within the SCC-03-2015 subject
+1.520  How many topics are there about SCC-03-2015?
+1.458  How many different topics are there about SCC-03-2015?
+

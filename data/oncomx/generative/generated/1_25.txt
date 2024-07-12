@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test.platform_method FROM biomarker_fda_test AS biomarker_fda_test JOIN biomarker_fda_test_use AS biomarker_fda_test_use ON biomarker_fda_test.test_trade_name = biomarker_fda_test_use.test_trade_name WHERE biomarker_fda_test_use.approved_indication = "early detection"
+
+###
+
+
+Original Query:
+SELECT T1.platform_method FROM biomarker_fda_test AS T1 JOIN biomarker_fda_test_use AS T2 ON T1.test_trade_name = T2.test_trade_name WHERE T2.approved_indication = "early detection"
+GPT-3 choices:
+(0) "Retrieve the platform method for all biomarker tests from the FDA that are approved for use in early detection."
+(1) Retrieve the platform method from the FDA biomarker test for which the test trade name matches that in the list of tests used for early detection.
+(2) What is the platform method used by biomarker tests that have been approved for early detection by the FDA?
+(3) Find the platform method used for biomarker FDA tests approved for early detection by joining the biomarker FDA test table with the biomarker FDA test use table on matching trade names.
+(4) "Get the platform method used in the biomarker FDA tests for approved indications of early detection."
+(5) Retrieve the platform methods from the FDA biomarker test database for all tests with an approved indication of "early detection".
+(6) Find the platform method used for biomarker tests that have been approved for early detection by joining the tables "biomarker_fda_test" and "biomarker_fda_test_use".
+(7) What is the platform method used for biomarker FDA tests that have been approved for early detection?

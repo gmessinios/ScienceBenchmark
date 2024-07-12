@@ -1,0 +1,27 @@
+SELECT Spectroscopic_objects.plateid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.subclass = "F0IV (81937)"
+
+###
+
+
+Original Query:
+SELECT T1.plateid FROM specobj AS T1 WHERE T1.subclass = "F0IV (81937)"
+GPT-3 choices:
+(0) "Retrieve the plate ID of spectroscopic objects where the subclass is equal to 'F0IV (81937)'"
+(1) Find the plate IDs for all spectroscopic objects with a subclass of "F0IV (81937)".
+(2) Get the plate ID from the spectroscopic objects where the subclass is "F0IV (81937)".
+(3) Find the plate ID for objects in the "specobj" table with a subclass of "F0IV (81937)".
+(4) Retrieve the plate ID for all objects in the spectroscopic database that have a subclass of "F0IV (81937)".
+(5) Retrieve the plate ID from the specobj table for spectroscopic objects with a subclass of "F0IV (81937)".
+(6) Find the plate IDs for all spectroscopic objects with a subclass of "F0IV (81937)".
+(7) Find the plate ID for spectroscopic objects with a subclass of "F0IV (81937)".
+
+
+Re-ranked choices:
+8.450  Find the plate ID for spectroscopic objects with a subclass of "F0IV (81937)".
+8.447  Get the plate ID from the spectroscopic objects where the subclass is "F0IV (81937)".
+8.437  Retrieve the plate ID for all objects in the spectroscopic database that have a subclass of "F0IV (81937)".
+8.435  Retrieve the plate ID from the specobj table for spectroscopic objects with a subclass of "F0IV (81937)".
+8.434  "Retrieve the plate ID of spectroscopic objects where the subclass is equal to 'F0IV (81937)'"
+7.052  Find the plate ID for objects in the "specobj" table with a subclass of "F0IV (81937)".
+7.047  Find the plate IDs for all spectroscopic objects with a subclass of "F0IV (81937)".
+

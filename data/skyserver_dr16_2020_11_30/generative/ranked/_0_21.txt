@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.plate FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.programname = "lowz_loveday"
+
+###
+
+
+Original Query:
+SELECT T1.plate FROM specobj AS T1 WHERE T1.programname = "lowz_loveday"
+GPT-3 choices:
+(0) What is the plate number for all spectroscopic objects from the lowz_loveday program?
+(1) Find the plate numbers for objects from the "lowz_loveday" program in the specobj table.
+(2) Find the plate numbers of spectroscopic objects where the program name is "lowz_loveday".
+(3) Retrieve the plate numbers of spectroscopic objects from the specobj table where the program name is "lowz_loveday".
+(4) What is the plate number for objects in the lowz_loveday program?
+(5) Retrieve the plates from the spectroscopic objects where the program name is "lowz_loveday".
+(6) Find the plate numbers for all spectroscopic objects with a program name of "lowz_loveday".
+(7) Find the plate number for spectroscopic objects where the program name is "lowz_loveday".
+
+
+Re-ranked choices:
+6.333  Find the plate number for spectroscopic objects where the program name is "lowz_loveday".
+4.942  What is the plate number for objects in the lowz_loveday program?
+4.933  What is the plate number for all spectroscopic objects from the lowz_loveday program?
+4.933  Find the plate numbers of spectroscopic objects where the program name is "lowz_loveday".
+4.931  Find the plate numbers for all spectroscopic objects with a program name of "lowz_loveday".
+4.926  Retrieve the plate numbers of spectroscopic objects from the specobj table where the program name is "lowz_loveday".
+3.533  Retrieve the plates from the spectroscopic objects where the program name is "lowz_loveday".
+3.532  Find the plate numbers for objects from the "lowz_loveday" program in the specobj table.
+

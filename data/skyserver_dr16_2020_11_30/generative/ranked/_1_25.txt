@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbortype FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.type = 0
+
+###
+
+
+Original Query:
+SELECT T1.neighbortype FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.type = 0
+GPT-3 choices:
+(0) Find the nearest neighbor type for objects that are photometric and have a type of 0.
+(1) Find the type of the nearest neighbor objects from the photoobj table where the type is equal to 0.
+(2) Retrieve the neighbor type of objects closest to a photo object that has a type value of 0, by joining the neighbors and photoobj tables and selecting the neighbortype column from the Nearest_neighbour_objects table.
+(3) Retrieve the type of the nearest neighbour objects from the neighbor table, for all objects in the photoobj table that have a type value of 0.
+(4) Find the type of nearest neighbors for all objects that have a type of 0 in the photoobj table, using information from the neighbors table.
+(5) Find the type of nearest neighbor objects that are associated with photometric objects where the type is equal to 0.
+(6) Retrieve the type of nearest neighbor objects from a table that joins neighbors and photoobj on the object ID, where the type of objects in photoobj is equal to 0.
+(7) "Select the neighbor type of objects that are the nearest neighbors to objects classified as photometric with a type of 0."
+
+
+Re-ranked choices:
+6.322  Retrieve the type of nearest neighbor objects from a table that joins neighbors and photoobj on the object ID, where the type of objects in photoobj is equal to 0.
+6.315  Retrieve the neighbor type of objects closest to a photo object that has a type value of 0, by joining the neighbors and photoobj tables and selecting the neighbortype column from the Nearest_neighbour_objects table.
+5.623  Retrieve the type of the nearest neighbour objects from the neighbor table, for all objects in the photoobj table that have a type value of 0.
+4.242  Find the nearest neighbor type for objects that are photometric and have a type of 0.
+4.237  Find the type of the nearest neighbor objects from the photoobj table where the type is equal to 0.
+4.229  "Select the neighbor type of objects that are the nearest neighbors to objects classified as photometric with a type of 0."
+4.227  Find the type of nearest neighbor objects that are associated with photometric objects where the type is equal to 0.
+2.826  Find the type of nearest neighbors for all objects that have a type of 0 in the photoobj table, using information from the neighbors table.
+

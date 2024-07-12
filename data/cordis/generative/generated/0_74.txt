@@ -1,0 +1,16 @@
+SELECT programmes.parent FROM programmes AS programmes WHERE programmes.title = "Response"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 WHERE T1.title = "Response"
+GPT-3 choices:
+(0) Find the parent program of "Response".
+(1) Find the parent programme for "Response".
+(2) Retrieve the parent of the programme titled "Response".
+(3) Retrieve the parent programme from the "Programmes" table where the title is equal to "Response".
+(4) Find the parent of the programme titled "Response".
+(5) Find the parent program of "Response".
+(6) Get the parent programme of the programme titled "Response".
+(7) What is the parent programme of the programme titled "Response"?

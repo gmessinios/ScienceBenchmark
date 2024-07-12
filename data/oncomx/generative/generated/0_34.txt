@@ -1,0 +1,16 @@
+SELECT healthy_expression.ensembl_gene_id FROM healthy_expression AS healthy_expression WHERE healthy_expression.uberon_anatomical_id = "UBERON:0001950"
+
+###
+
+
+Original Query:
+SELECT T1.ensembl_gene_id FROM healthy_expression AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0001950"
+GPT-3 choices:
+(0) Retrieve the ensembl gene IDs from healthy expression where the uberon anatomical ID is "UBERON:0001950".
+(1) Retrieve the Ensembl gene IDs from healthy expression data where the anatomical location is UBERON:0001950.
+(2) Find the ensembl gene ID from the healthy expression data for genes expressed in the anatomical structure UBERON:0001950.
+(3) "Retrieve the Ensembl gene ID from the healthy expression dataset where the anatomical identifier is UBERON:0001950."
+(4) Find the Ensembl gene ID from the healthy expression data where the Uberon anatomical ID is "UBERON:0001950".
+(5) "Retrieve the Ensembl gene IDs from healthy expression data where the anatomical ID is 'UBERON:0001950'."
+(6) Find the Ensembl gene ID from the healthy_expression table where the anatomical location is "UBERON:0001950".
+(7) "What is the Ensembl gene ID for all genes present in the healthy expression dataset that correspond to the UBERON anatomical term with the ID UBERON:0001950?"

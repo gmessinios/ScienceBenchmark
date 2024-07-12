@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.fiberid FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.z = -0.001639362
+
+###
+
+
+Original Query:
+SELECT T1.fiberid FROM specobj AS T1 WHERE T1.z = -0.001639362
+GPT-3 choices:
+(0) Retrieve the fiberid of all objects from the Spectroscopic_objects table in specobj where the redshift is equal to -0.001639362.
+(1) Retrieve the fiber ID of all objects in the "specobj" table where the redshift value is equal to -0.001639362.
+(2) Find the fiber ID of all objects in the specobj table where the redshift value is equal to -0.001639362.
+(3) Retrieve the fiber ID of all spectroscopic objects from the specobj table where the redshift value is equal to -0.001639362.
+(4) "Find the fiber ID for all objects in the specobj table where their redshift is equal to -0.001639362."
+(5) Retrieve the fiber ID of all spectroscopic objects from the table "specobj" where the redshift value is equal to -0.001639362.
+(6) Find the fiber ID for all objects in the specobj table where the redshift value is -0.001639362.
+(7) Find the fiber IDs of spectroscopic objects where the redshift is -0.001639362.
+
+
+Re-ranked choices:
+5.648  Find the fiber ID for all objects in the specobj table where the redshift value is -0.001639362.
+5.645  "Find the fiber ID for all objects in the specobj table where their redshift is equal to -0.001639362."
+5.643  Find the fiber ID of all objects in the specobj table where the redshift value is equal to -0.001639362.
+5.637  Retrieve the fiber ID of all objects in the "specobj" table where the redshift value is equal to -0.001639362.
+5.631  Retrieve the fiber ID of all spectroscopic objects from the specobj table where the redshift value is equal to -0.001639362.
+5.631  Retrieve the fiber ID of all spectroscopic objects from the table "specobj" where the redshift value is equal to -0.001639362.
+4.254  Find the fiber IDs of spectroscopic objects where the redshift is -0.001639362.
+3.529  Retrieve the fiberid of all objects from the Spectroscopic_objects table in specobj where the redshift is equal to -0.001639362.
+

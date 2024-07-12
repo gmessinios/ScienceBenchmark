@@ -1,0 +1,16 @@
+SELECT biomarker_alias.biomarker_internal_id FROM biomarker_alias AS biomarker_alias WHERE biomarker_alias.alias = "ARE-binding protein AUFI"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_internal_id FROM biomarker_alias AS T1 WHERE T1.alias = "ARE-binding protein AUFI"
+GPT-3 choices:
+(0) What is the biomarker internal ID for the alias "ARE-binding protein AUFI"?
+(1) Get the internal ID of the biomarker from the table of biomarker aliases where the alias is "ARE-binding protein AUFI".
+(2) Find the internal ID of the biomarker that has an alias of "ARE-binding protein AUFI".
+(3) What is the biomarker_internal_id of the alias "ARE-binding protein AUFI" in the biomarker_alias table?
+(4) What is the internal ID of the biomarker with an alias of "ARE-binding protein AUFI"?
+(5) What is the biomarker internal ID for "ARE-binding protein AUFI" in the table biomarker_alias?
+(6) What is the biomarker internal ID for the alias "ARE-binding protein AUFI" in the table biomarker_alias?
+(7) What is the biomarker internal ID for the alias "ARE-binding protein AUFI"?

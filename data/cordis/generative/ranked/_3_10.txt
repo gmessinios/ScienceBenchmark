@@ -1,0 +1,25 @@
+SELECT count(*) FROM projects AS projects
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects AS T1
+GPT-3 choices:
+(0) How many projects are there in the projects table?
+(1) How many projects are there in the database?
+(2) How many projects are there in the database?
+(3) How many projects are there in the database?
+(4) How many projects are there in the table "projects"?
+(5) How many projects are there in the database called "projects"?
+(6) How many rows are in the "projects" table?
+(7) How many projects are there in the database?
+
+
+Re-ranked choices:
+2.000  How many projects are there in the database?
+2.000  How many rows are in the "projects" table?
+1.733  How many projects are there in the projects table?
+1.733  How many projects are there in the table "projects"?
+1.631  How many projects are there in the database called "projects"?
+

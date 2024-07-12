@@ -1,0 +1,28 @@
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'coordinator'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'coordinator'
+GPT-3 choices:
+(0) How many project member roles are there which have the code 'coordinator'?
+(1) Count the number of project member roles with codename coordinator
+(2) How many different project member roles involve the role of coordinator?
+(3) What is the number of project member roles that have the code coordinator?
+(4) How many projects have a coordinator?
+(5) How many project member roles are there in projects where the project members are coordinating?
+(6) How many project members have the role of coordinator?
+(7) How many people in the project members panellist role?
+
+
+Re-ranked choices:
+6.354  How many project member roles are there which have the code 'coordinator'?
+5.642  What is the number of project member roles that have the code coordinator?
+4.931  Count the number of project member roles with codename coordinator
+4.244  How many project member roles are there in projects where the project members are coordinating?
+4.234  How many different project member roles involve the role of coordinator?
+1.456  How many people in the project members panellist role?
+1.444  How many project members have the role of coordinator?
+0.044  How many projects have a coordinator?
+

@@ -1,0 +1,16 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl JOIN species AS species ON xref_gene_ensembl.speciesid = species.speciesid WHERE species.speciescommonname = "mouse"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 JOIN species AS T2 ON T1.speciesid = T2.speciesid WHERE T2.speciescommonname = "mouse"
+GPT-3 choices:
+(0) Find the species ID from the table xref_gene_ensembl where the corresponding species common name is "mouse".
+(1) Find the species ID of all genes in the "xref_gene_ensembl" table that belong to the species with a common name of "mouse", by joining it with the "species" table and selecting the corresponding species ID.
+(2) Get the species ID for the mouse from the xref_gene_ensembl and species tables, where the common name in the species table is "mouse".
+(3) Get the species ID for mouse from the xref_gene_ensembl table by joining it with the species table and selecting the species ID where the species common name is "mouse".
+(4) What is the species ID for the mouse in the table of cross-referenced genes and Ensembl?
+(5) Find the species ID for all records in the xref_gene_ensembl table that correspond to the "mouse" species name.
+(6) Retrieve the species ID for all species in the "xref_gene_ensembl" table where the common name is "mouse".
+(7) Find the species ID from the xref_gene_ensembl table where the corresponding species common name is "mouse".

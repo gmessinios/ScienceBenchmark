@@ -1,0 +1,16 @@
+SELECT people.unics_id FROM people AS people WHERE people.full_name != "Patrik Brundin"
+
+###
+
+
+Original Query:
+SELECT T1.unics_id FROM people AS T1 WHERE T1.full_name != "Patrik Brundin"
+GPT-3 choices:
+(0) Return the UNICS IDs of people from the database, excluding Patrik Brundin, who have a full name different from "Patrik Brundin".
+(1) Find the UNICS IDs of all people except for Patrik Brundin.
+(2) What are the unique IDs of people whose full name is not "Patrik Brundin"?
+(3) Retrieve the unique IDs of all people who have a full name that is not "Patrik Brundin".
+(4) Retrieve the unique identifier for people who have a full name that is not "Patrik Brundin".
+(5) Retrieve the unique identifier of all people who have a full name that is not "Patrik Brundin".
+(6) Retrieve the unique ID of all people except for Patrik Brundin.
+(7) Get the unique ID of all people who have a full name that is not "Patrik Brundin".

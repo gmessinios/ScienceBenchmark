@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles WHERE project_member_roles.description = "Coordinator"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 WHERE T1.description = "Coordinator"
+GPT-3 choices:
+(0) Retrieve the project member role code for the "Coordinator" role from the table of project member roles.
+(1) Find the code for the project member role that has the description "Coordinator".
+(2) Retrieve the code of all project member roles from the "project_member_roles" table where the role description is "Coordinator".
+(3) What is the code for the project member role with the description "Coordinator"?
+(4) Get the code for the project member role that has a description of "Coordinator" from the project_member_roles table.
+(5) Find the project member role code for "Coordinator" in the table called "project_member_roles".
+(6) Find the project member role code for the role of "Coordinator".
+(7) Find the project member role code for members who are coordinators.
+
+
+Re-ranked choices:
+7.726  Retrieve the code of all project member roles from the "project_member_roles" table where the role description is "Coordinator".
+6.342  Find the code for the project member role that has the description "Coordinator".
+6.342  What is the code for the project member role with the description "Coordinator"?
+6.329  Get the code for the project member role that has a description of "Coordinator" from the project_member_roles table.
+4.947  Find the project member role code for the role of "Coordinator".
+4.934  Retrieve the project member role code for the "Coordinator" role from the table of project member roles.
+4.932  Find the project member role code for "Coordinator" in the table called "project_member_roles".
+4.247  Find the project member role code for members who are coordinators.
+

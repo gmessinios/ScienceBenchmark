@@ -1,0 +1,28 @@
+SELECT disease_mutation_article.pmid FROM disease_mutation_article AS disease_mutation_article WHERE disease_mutation_article.disease_mutation_id = 81555
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM disease_mutation_article AS T1 WHERE T1.disease_mutation_id = 81555
+GPT-3 choices:
+(0) Find the PMID from the disease_mutation_article table where the disease_mutation_id is equal to 81555.
+(1) What is the PMID of the article associated with a specific disease mutation (ID 81555) in the table "disease_mutation_article"?
+(2) Retrieve the PubMed ID of the articles associated with a specific disease-mutation pair, where the disease-mutation ID is 81555.
+(3) Get the PubMed ID of articles related to a specific disease mutation with an ID of 81555.
+(4) Find the PubMed ID of articles that contain information about a specific disease mutation with the ID 81555.
+(5) Retrieve the PMID from the disease_mutation_article table where the disease_mutation_id is equal to 81555.
+(6) What is the PMID for the disease-mutation article with an ID of 81555?
+(7) Get the PMID of articles from disease_mutation_article where the disease_mutation_id is 81555.
+
+
+Re-ranked choices:
+5.621  What is the PMID of the article associated with a specific disease mutation (ID 81555) in the table "disease_mutation_article"?
+4.242  What is the PMID for the disease-mutation article with an ID of 81555?
+4.234  Get the PubMed ID of articles related to a specific disease mutation with an ID of 81555.
+4.229  Find the PubMed ID of articles that contain information about a specific disease mutation with the ID 81555.
+1.427  Find the PMID from the disease_mutation_article table where the disease_mutation_id is equal to 81555.
+1.424  Retrieve the PMID from the disease_mutation_article table where the disease_mutation_id is equal to 81555.
+1.424  Get the PMID of articles from disease_mutation_article where the disease_mutation_id is 81555.
+1.421  Retrieve the PubMed ID of the articles associated with a specific disease-mutation pair, where the disease-mutation ID is 81555.
+

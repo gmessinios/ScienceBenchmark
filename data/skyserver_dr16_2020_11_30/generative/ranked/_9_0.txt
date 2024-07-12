@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.segue2primary != 1
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.segue2primary != 1
+GPT-3 choices:
+(0) Retrieve the specobjid from the spplines table where the object is not designated as a primary object in the segue2primary column of the specobj table.
+(1) Find the specobjid for stellar spectral line indices where the corresponding spectroscopic objects are not considered as primary in the segue2 survey.
+(2) "Retrieve the specobjid from the spplines table where the associated spectroscopic object in the specobj table has a segue2primary value of 0."
+(3) Find the specobjid values from the table spplines for all stellar spectral line indices where the corresponding specobjid in the table Spectroscopic_objects is not associated with a segue2primary value of 1.
+(4) "Retrieve the specobjid from the spplines table for objects that are not primary targets in the Spectroscopic_objects table."
+(5) Retrieve the specobjid values from Stellar_spectal_line_indices table where the corresponding Spectroscopic_objects table has a segue2primary column value not equal to 1.
+(6) Retrieve the specobjid from the Stellar_spectal_line_indices table for objects in the Spectroscopic_objects table that do not have a value of 1 in their segue2primary column.
+(7) Retrieve the specobjid values from the Stellar_spectal_line_indices table where the corresponding objects in the Spectroscopic_objects table do not have a segue2primary value of 1.
+
+
+Re-ranked choices:
+7.021  Find the specobjid for stellar spectral line indices where the corresponding spectroscopic objects are not considered as primary in the segue2 survey.
+3.515  Find the specobjid values from the table spplines for all stellar spectral line indices where the corresponding specobjid in the table Spectroscopic_objects is not associated with a segue2primary value of 1.
+2.819  Retrieve the specobjid from the Stellar_spectal_line_indices table for objects in the Spectroscopic_objects table that do not have a value of 1 in their segue2primary column.
+2.818  "Retrieve the specobjid from the spplines table where the associated spectroscopic object in the specobj table has a segue2primary value of 0."
+2.817  Retrieve the specobjid values from the Stellar_spectal_line_indices table where the corresponding objects in the Spectroscopic_objects table do not have a segue2primary value of 1.
+2.122  "Retrieve the specobjid from the spplines table for objects that are not primary targets in the Spectroscopic_objects table."
+1.418  Retrieve the specobjid from the spplines table where the object is not designated as a primary object in the segue2primary column of the specobj table.
+1.417  Retrieve the specobjid values from Stellar_spectal_line_indices table where the corresponding Spectroscopic_objects table has a segue2primary column value not equal to 1.
+

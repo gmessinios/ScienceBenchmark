@@ -1,0 +1,28 @@
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code = 'thirdParty' or project_member_roles.code = 'hostInstitution'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code = 'thirdParty' or project_member_roles.code = 'hostInstitution'
+GPT-3 choices:
+(0) Show me the description of project member roles with code thirdParty or hostInstitution
+(1) Show me the description of all project member roles with code equals to 'thirdParty' and 'hostInstitution'
+(2) Show me all the project member roles descriptions of projects in which a third party or the host institution is involved
+(3) Show all project members roles descriptions for projects with third party or host institution members
+(4) Enter the description of the project member role 'thirdParty' or 'hostInstitution'
+(5) Show all description values of project member roles with code thirdParty or hostInstitution.
+(6) Show me the description of the project member roles of the project with code 'thirdParty' or 'hostInstitution'
+(7) Show the description of the project member role Third Party or Host Institution
+
+
+Re-ranked choices:
+8.429  Show me the description of project member roles with code thirdParty or hostInstitution
+8.429  Show me the description of all project member roles with code equals to 'thirdParty' and 'hostInstitution'
+8.428  Show me the description of the project member roles of the project with code 'thirdParty' or 'hostInstitution'
+7.726  Show all description values of project member roles with code thirdParty or hostInstitution.
+5.625  Enter the description of the project member role 'thirdParty' or 'hostInstitution'
+4.242  Show the description of the project member role Third Party or Host Institution
+4.233  Show me all the project member roles descriptions of projects in which a third party or the host institution is involved
+2.837  Show all project members roles descriptions for projects with third party or host institution members
+

@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people AS people WHERE people.unics_id = 1209587
+
+###
+
+
+Original Query:
+SELECT T1.full_name FROM people AS T1 WHERE T1.unics_id = 1209587
+GPT-3 choices:
+(0) Who is the person with the UNICS ID of 1209587?
+(1) Retrieve the full name of a person whose unics ID is 1209587 from the table "people".
+(2) What is the full name of the person with a unics ID of 1209587?
+(3) Retrieve the full name of a person from the "people" table where their unique identification number is 1209587.
+(4) Retrieve the full name of the person whose unics ID is 1209587 from the table of people.
+(5) Retrieve the full name of the person with a unics ID of 1209587 from the table "people".
+(6) Get the full name of a person whose unics id is 1209587 from the table "people" in the database.
+(7) What is the full name of the person with a UNICS ID of 1209587 in the table "people"?
+
+
+Re-ranked choices:
+7.045  What is the full name of the person with a UNICS ID of 1209587 in the table "people"?
+7.043  Retrieve the full name of a person whose unics ID is 1209587 from the table "people".
+7.042  Retrieve the full name of the person with a unics ID of 1209587 from the table "people".
+7.037  Get the full name of a person whose unics id is 1209587 from the table "people" in the database.
+5.661  What is the full name of the person with a unics ID of 1209587?
+5.648  Retrieve the full name of the person whose unics ID is 1209587 from the table of people.
+4.233  Retrieve the full name of a person from the "people" table where their unique identification number is 1209587.
+2.930  Who is the person with the UNICS ID of 1209587?
+

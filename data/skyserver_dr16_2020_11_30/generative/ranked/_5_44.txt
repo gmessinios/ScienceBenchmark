@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects    ORDER BY Nearest_neighbour_objects.distance DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1    ORDER BY T1.distance DESC LIMIT 1
+GPT-3 choices:
+(0) Get the nearest neighbor mode from the neighbors table, sorting by distance in descending order and limiting the result to one.
+(1) Find the neighbor mode from the neighbors table sorted by distance in descending order and limit the result to one row.
+(2) Get the neighbor mode from the nearest neighbor objects in the neighbors table, sorted by distance in descending order, with a limit of 1 result.
+(3) Find the neighborhood mode from the nearest neighbor objects, ordering them by distance in descending order, with a limit of one result.
+(4) Find the nearest neighbor's mode from the neighbors table by ordering the objects in descending order by their distance and selecting only the first result.
+(5) What is the nearest neighbor mode for all objects in the neighbors table, sorted by distance in descending order, with a limit of 1 result?
+(6) Select the neighbormode from the nearest neighbor objects in the neighbors table, ordering by distance in descending order and limiting the result to one.
+(7) Find the neighbormode value from the Nearest_neighbour_objects table in the neighbors database, sorting by distance in descending order and only returning the first result.
+
+
+Re-ranked choices:
+9.125  Get the neighbor mode from the nearest neighbor objects in the neighbors table, sorted by distance in descending order, with a limit of 1 result.
+9.125  What is the nearest neighbor mode for all objects in the neighbors table, sorted by distance in descending order, with a limit of 1 result?
+9.123  Find the nearest neighbor's mode from the neighbors table by ordering the objects in descending order by their distance and selecting only the first result.
+7.729  Find the neighbor mode from the neighbors table sorted by distance in descending order and limit the result to one row.
+7.726  Get the nearest neighbor mode from the neighbors table, sorting by distance in descending order and limiting the result to one.
+7.725  Find the neighborhood mode from the nearest neighbor objects, ordering them by distance in descending order, with a limit of one result.
+7.720  Select the neighbormode from the nearest neighbor objects in the neighbors table, ordering by distance in descending order and limiting the result to one.
+5.617  Find the neighbormode value from the Nearest_neighbour_objects table in the neighbors database, sorting by distance in descending order and only returning the first result.
+

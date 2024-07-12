@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes AS funding_schemes WHERE funding_schemes.title = "SMEs-Collective research projects"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM funding_schemes AS T1 WHERE T1.title = "SMEs-Collective research projects"
+GPT-3 choices:
+(0) Retrieve the code from the "funding_schemes" table where the title is equal to "SMEs-Collective research projects".
+(1) Retrieve the code from funding schemes where the title is "SMEs-Collective research projects".
+(2) What is the code for SMEs-Collective research projects in the funding schemes table?
+(3) Retrieve the code for funding schemes where the title is "SMEs-Collective research projects".
+(4) What is the code for a funding scheme with the title "SMEs-Collective research projects"?
+(5) What is the code for funding schemes with the title "SMEs-Collective research projects"?
+(6) Get the code for funding schemes that have the title "SMEs-Collective research projects" from the table "funding_schemes".
+(7) Find the code for all funding schemes that have a title of "SMEs-Collective research projects".
+
+
+Re-ranked choices:
+8.454  Find the code for all funding schemes that have a title of "SMEs-Collective research projects".
+8.450  What is the code for funding schemes with the title "SMEs-Collective research projects"?
+8.442  Retrieve the code from funding schemes where the title is "SMEs-Collective research projects".
+8.442  Retrieve the code for funding schemes where the title is "SMEs-Collective research projects".
+8.439  Get the code for funding schemes that have the title "SMEs-Collective research projects" from the table "funding_schemes".
+7.050  What is the code for SMEs-Collective research projects in the funding schemes table?
+7.047  What is the code for a funding scheme with the title "SMEs-Collective research projects"?
+5.642  Retrieve the code from the "funding_schemes" table where the title is equal to "SMEs-Collective research projects".
+

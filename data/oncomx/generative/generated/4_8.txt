@@ -1,0 +1,16 @@
+SELECT count(*) FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_canonical_ac = "A1KXE4-1"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_canonical_ac = "A1KXE4-1"
+GPT-3 choices:
+(0) How many rows are there in the map_uniprot_canonical_id table where the uniprotkb_canonical_ac column has the value "A1KXE4-1"?
+(1) How many entries are there in the map_uniprot_canonical_id table where the uniprotkb_canonical_ac column is equal to "A1KXE4-1"?
+(2) How many rows are in the table "map_uniprot_canonical_id" where the column "uniprotkb_canonical_ac" has the value "A1KXE4-1"?
+(3) How many rows are in the table "map_uniprot_canonical_id" where the column "uniprotkb_canonical_ac" has a value of "A1KXE4-1"?
+(4) How many entries in the table "map_uniprot_canonical_id" have the value "A1KXE4-1" for the column "uniprotkb_canonical_ac"?
+(5) How many rows are there in the map_uniprot_canonical_id table where the uniprotkb_canonical_ac column contains "A1KXE4-1"?
+(6) How many rows are in the table "map_uniprot_canonical_id" where the column "uniprotkb_canonical_ac" has a value of "A1KXE4-1"?
+(7) How many records are there in the table "map_uniprot_canonical_id" where the value of column "uniprotkb_canonical_ac" is equal to "A1KXE4-1"?

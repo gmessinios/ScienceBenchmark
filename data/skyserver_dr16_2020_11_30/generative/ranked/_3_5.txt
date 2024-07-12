@@ -1,0 +1,26 @@
+SELECT count(*) FROM galspecline AS Emission_line_estimates
+
+###
+
+
+Original Query:
+SELECT count(*) FROM galspecline AS T1
+GPT-3 choices:
+(0) How many emission line estimates are there in the galspecline table?
+(1) How many rows are in the Emission_line_estimates table of the galspecline database?
+(2) How many records are in the Emission_line_estimates table in the database?
+(3) How many rows are in the table "galspecline" that contains emission line estimates?
+(4) How many emission lines are estimated in the galspecline table?
+(5) How many emission line estimates are there in the galspecline table?
+(6) How many emission lines are estimated in the galspecline table?
+(7) "How many rows are there in the table 'Emission_line_estimates' in the column 'count'?"
+
+
+Re-ranked choices:
+2.841  How many emission line estimates are there in the galspecline table?
+1.437  How many rows are in the table "galspecline" that contains emission line estimates?
+0.047  How many records are in the Emission_line_estimates table in the database?
+0.042  "How many rows are there in the table 'Emission_line_estimates' in the column 'count'?"
+0.037  How many emission lines are estimated in the galspecline table?
+0.033  How many rows are in the Emission_line_estimates table of the galspecline database?
+

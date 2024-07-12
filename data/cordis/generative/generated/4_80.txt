@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.description = "Social Sciences And Humanities"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains AS T1 WHERE T1.description = "Social Sciences And Humanities"
+GPT-3 choices:
+(0) How many rows are there in the erc_research_domains table where the description is "Social Sciences And Humanities"?
+(1) How many records are in the erc_research_domains table where the description is "Social Sciences And Humanities"?
+(2) How many entries are there in the table "erc_research_domains" where the description is "Social Sciences And Humanities"?
+(3) How many records are there in the "erc_research_domains" table where the description is "Social Sciences And Humanities"?
+(4) How many research domains are there in the ERC database that have a description of "Social Sciences And Humanities"?
+(5) How many research domains are there in the "Social Sciences And Humanities" category?
+(6) How many rows are in the table "erc_research_domains" where the value for "description" is "Social Sciences And Humanities"?
+(7) How many records are in the table of research domains where the description is "Social Sciences And Humanities"?

@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units AS eu_territorial_units JOIN institutions AS institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.country_id = 245
+
+###
+
+
+Original Query:
+SELECT T1.description FROM eu_territorial_units AS T1 JOIN institutions AS T2 ON T1.geocode_regions = T2.geocode_regions_3 WHERE T2.country_id = 245
+GPT-3 choices:
+(0) Find the description of the European Union territorial units where the geocode regions match those in institutions with a country ID of 245.
+(1) Find the descriptions of all European territorial units that correspond to institutions located in a country with the ID 245.
+(2) Retrieve the description of all EU territorial units from institutions where the country ID is 245 and the geocode regions match between eu_territorial_units and institutions.
+(3) Retrieve the description of all European territorial units from institutions where the country ID is 245.
+(4) Find the description of EU territorial units that match with the geocode regions of institutions in country 245.
+(5) What are the descriptions of all EU territorial units that have a matching geocode_regions value in both eu_territorial_units and institutions tables, specifically for the country with ID 245?
+(6) "Retrieve the description of all EU territorial units where the geocode_regions_3 value in institutions is equal to geocode_regions in eu_territorial_units and the country_id in institutions is equal to 245."
+(7) Find the description of all EU territorial units where institutions have a geocode region code that matches the third geocode region for country 245.

@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.class FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.bestobjid != 1237645943979311239
+
+###
+
+
+Original Query:
+SELECT T1.class FROM specobj AS T1 WHERE T1.bestobjid != 1237645943979311239
+GPT-3 choices:
+(0) What is the class of spectroscopic objects where the best object ID is not equal to 1237645943979311239?
+(1) What is the class of objects from the specobj table where bestobjid is not equal to 1237645943979311239?
+(2) What is the class of spectroscopic objects where the best object ID is not equal to 1237645943979311239?
+(3) Find the class of objects from the specobj table where the bestobjid is not equal to 1237645943979311239.
+(4) Find the class of objects in the table "specobj" where the bestobjid is not equal to 1237645943979311239.
+(5) Retrieve the class attribute of all spectroscopic objects where the bestobjid is not equal to 1237645943979311239 from the specobj table.
+(6) Retrieve the class of objects from a table called specobj, where the bestobjid column does not equal 1237645943979311239.
+(7) Find the classification of spectroscopic objects where the best object ID is not equal to 1237645943979311239.

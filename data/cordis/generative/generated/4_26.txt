@@ -1,0 +1,16 @@
+SELECT count(*) FROM subject_areas AS subject_areas WHERE subject_areas.description = "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology."
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas AS T1 WHERE T1.description = "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology."
+GPT-3 choices:
+(0) How many subject areas have the description "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?
+(1) How many subject areas have a description of "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?
+(2) How many subject areas are there that have the description "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?
+(3) How many subject areas have a description of "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?
+(4) How many subject areas have a description of "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?
+(5) How many subject areas are there with a description of "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?
+(6) How many subject areas have a description of "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?
+(7) How many subject areas have a description of "Formulation, evaluation or application of policies, policy strategies or plans of action for research and development in science and technology"?

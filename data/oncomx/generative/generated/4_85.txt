@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term WHERE biomarker_fda_ncit_term.biomarker_fda_id = "FDA000248"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_ncit_term AS T1 WHERE T1.biomarker_fda_id = "FDA000248"
+GPT-3 choices:
+(0) How many biomarker NCIt terms are associated with the FDA identifier "FDA000248"?
+(1) How many biomarker FDA NCIT terms are associated with the biomarker FDA ID "FDA000248"?
+(2) How many biomarker FDA and NCIT terms are there for the biomarker with ID "FDA000248"?
+(3) How many NCIt terms are associated with the FDA biomarker with ID "FDA000248"?
+(4) How many biomarker NCIt terms are associated with the FDA ID "FDA000248"?
+(5) How many NCIt terms are associated with the biomarker with an FDA ID of "FDA000248"?
+(6) How many biomarker NCIt terms are associated with the FDA ID "FDA000248"?
+(7) How many biomarker FDA NCIT terms are associated with the FDA identifier "FDA000248"?

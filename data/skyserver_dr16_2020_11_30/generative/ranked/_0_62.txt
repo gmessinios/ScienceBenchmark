@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.plate FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.survey = "segue2"
+
+###
+
+
+Original Query:
+SELECT T1.plate FROM specobj AS T1 WHERE T1.survey = "segue2"
+GPT-3 choices:
+(0) Find the plates from the specobj table that correspond to spectroscopic objects in the "segue2" survey.
+(1) Get the plate number from the specobj table for spectroscopic objects where the survey is "segue2".
+(2) Retrieve the plate number of all spectroscopic objects from the specobj table, where the survey is equal to "segue2".
+(3) Select the plate number from the table of spectroscopic objects where the survey is "segue2".
+(4) Find the plate numbers from the table of spectroscopic objects where the survey is "segue2".
+(5) What is the plate number for all objects observed by the Sloan Digital Sky Survey's SEGUE-2 survey?
+(6) Retrieve the plate number of all spectroscopic objects from the specobj table where the survey is "segue2".
+(7) Find the plate number for all spectroscopic objects where the survey is "segue2".
+
+
+Re-ranked choices:
+6.342  Find the plate number for all spectroscopic objects where the survey is "segue2".
+6.337  Select the plate number from the table of spectroscopic objects where the survey is "segue2".
+6.337  Get the plate number from the specobj table for spectroscopic objects where the survey is "segue2".
+6.332  Retrieve the plate number of all spectroscopic objects from the specobj table, where the survey is equal to "segue2".
+6.331  Retrieve the plate number of all spectroscopic objects from the specobj table where the survey is "segue2".
+5.639  What is the plate number for all objects observed by the Sloan Digital Sky Survey's SEGUE-2 survey?
+4.937  Find the plate numbers from the table of spectroscopic objects where the survey is "segue2".
+2.132  Find the plates from the specobj table that correspond to spectroscopic objects in the "segue2" survey.
+

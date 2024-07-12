@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.segue2_target1 != -2147483644
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.segue2_target1 != -2147483644
+GPT-3 choices:
+(0) Find the specobjid for all spplines where the segue2_target1 value in the corresponding row of specobj is not equal to -2147483644.
+(1) Find the specobjid values from the Stellar_spectal_line_indices table where the corresponding Spectroscopic_objects have a segue2_target1 value that is not equal to -2147483644.
+(2) What is the specobjid for all spplines where the corresponding Spectroscopic_objects have a segue2_target1 value different from -2147483644?
+(3) Find the specobjid of stellar spectral line indices for spectroscopic objects that have a segue2_target1 value other than -2147483644.
+(4) Find the specobjid values from the spplines table where the corresponding row in the specobj table has a segue2_target1 value that is not equal to -2147483644.
+(5) Find the specobjid values from the spplines table that correspond to spectroscopic objects with a segue2_target1 value not equal to -2147483644 in the specobj table.
+(6) What are the specobjid values from the Stellar_spectal_line_indices table where the segue2_target1 value in the associated Spectroscopic_objects table is not equal to -2147483644?
+(7) Find the specobjid from the spplines table for objects in the Spectroscopic_objects table that have a segue2_target1 value that is not equal to -2147483644.
+
+
+Re-ranked choices:
+5.626  Find the specobjid of stellar spectral line indices for spectroscopic objects that have a segue2_target1 value other than -2147483644.
+2.819  Find the specobjid values from the spplines table that correspond to spectroscopic objects with a segue2_target1 value not equal to -2147483644 in the specobj table.
+2.122  Find the specobjid from the spplines table for objects in the Spectroscopic_objects table that have a segue2_target1 value that is not equal to -2147483644.
+1.420  Find the specobjid values from the Stellar_spectal_line_indices table where the corresponding Spectroscopic_objects have a segue2_target1 value that is not equal to -2147483644.
+1.418  What are the specobjid values from the Stellar_spectal_line_indices table where the segue2_target1 value in the associated Spectroscopic_objects table is not equal to -2147483644?
+0.720  What is the specobjid for all spplines where the corresponding Spectroscopic_objects have a segue2_target1 value different from -2147483644?
+0.025  Find the specobjid for all spplines where the segue2_target1 value in the corresponding row of specobj is not equal to -2147483644.
+0.021  Find the specobjid values from the spplines table where the corresponding row in the specobj table has a segue2_target1 value that is not equal to -2147483644.
+

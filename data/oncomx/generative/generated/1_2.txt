@@ -1,0 +1,16 @@
+SELECT healthy_expression.expression_level_gene_relative FROM healthy_expression AS healthy_expression JOIN xref_gene_ensembl AS xref_gene_ensembl ON healthy_expression.ensembl_gene_id = xref_gene_ensembl.ensembl_gene_id WHERE xref_gene_ensembl.gene_symbol = "2610034O05Rik"
+
+###
+
+
+Original Query:
+SELECT T1.expression_level_gene_relative FROM healthy_expression AS T1 JOIN xref_gene_ensembl AS T2 ON T1.ensembl_gene_id = T2.ensembl_gene_id WHERE T2.gene_symbol = "2610034O05Rik"
+GPT-3 choices:
+(0) Find the expression level of gene 2610034O05Rik in healthy individuals, by joining the healthy_expression and xref_gene_ensembl tables on their Ensembl gene IDs and selecting the relative expression level for that gene.
+(1) Get the relative expression level of gene 2610034O05Rik from the healthy_expression table by joining it with xref_gene_ensembl and selecting the corresponding value.
+(2) Retrieve the expression level relative to other genes from the healthy_expression table for the gene with the gene symbol "2610034O05Rik" by joining it with xref_gene_ensembl on ensembl_gene_id and filtering by matching gene symbols.
+(3) What is the expression level of the gene "2610034O05Rik" relative to other genes in healthy individuals?
+(4) Retrieve the relative expression levels of the gene 2610034O05Rik in healthy samples from the table healthy_expression, joining it with the xref_gene_ensembl table to match ensembl_gene_id and gene_symbol.
+(5) Retrieve the relative expression level for gene 2610034O05Rik from the healthy_expression table by joining it with the xref_gene_ensembl table on their ensembl_gene_id columns and filtering for records with a gene symbol of "2610034O05Rik".
+(6) What is the expression level of gene 2610034O05Rik relative to other genes in healthy individuals?
+(7) Find the relative expression levels for the gene 2610034O05Rik in healthy samples.

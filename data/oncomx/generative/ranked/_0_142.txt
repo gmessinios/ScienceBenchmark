@@ -1,0 +1,28 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article WHERE biomarker_article.biomarker_internal_id = "EDRN00711"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 WHERE T1.biomarker_internal_id = "EDRN00711"
+GPT-3 choices:
+(0) What is the PubMed ID for the biomarker with internal ID "EDRN00711" in the biomarker article database?
+(1) Retrieve the PMID from the biomarker_article table where the biomarker_internal_id is "EDRN00711".
+(2) Find the PMID numbers for articles in the biomarker_article table where the biomarker_internal_id is equal to "EDRN00711".
+(3) Find the PMID numbers for articles related to biomarker "EDRN00711" in the table biomarker_article.
+(4) What is the PMID of the article associated with the biomarker with internal ID "EDRN00711"?
+(5) What is the PubMed ID of the article associated with biomarker EDRN00711?
+(6) Retrieve the PMID from biomarker_article where the biomarker_internal_id is "EDRN00711".
+(7) What is the PMID for the article associated with biomarker "EDRN00711"?
+
+
+Re-ranked choices:
+7.733  What is the PMID of the article associated with the biomarker with internal ID "EDRN00711"?
+6.339  What is the PubMed ID for the biomarker with internal ID "EDRN00711" in the biomarker article database?
+4.939  What is the PMID for the article associated with biomarker "EDRN00711"?
+4.237  What is the PubMed ID of the article associated with biomarker EDRN00711?
+3.530  Find the PMID numbers for articles related to biomarker "EDRN00711" in the table biomarker_article.
+2.136  Retrieve the PMID from biomarker_article where the biomarker_internal_id is "EDRN00711".
+2.133  Retrieve the PMID from the biomarker_article table where the biomarker_internal_id is "EDRN00711".
+2.130  Find the PMID numbers for articles in the biomarker_article table where the biomarker_internal_id is equal to "EDRN00711".
+

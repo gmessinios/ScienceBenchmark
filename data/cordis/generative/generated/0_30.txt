@@ -1,0 +1,16 @@
+SELECT institutions.grid_id FROM institutions AS institutions WHERE institutions.country_id = 33
+
+###
+
+
+Original Query:
+SELECT T1.grid_id FROM institutions AS T1 WHERE T1.country_id = 33
+GPT-3 choices:
+(0) Find the grid_id of all institutions located in a country with the ID 33.
+(1) Retrieve the grid IDs of all institutions located in the country with ID 33.
+(2) Get the grid ID for institutions in country with ID 33.
+(3) Find the grid ID for institutions located in a country with the country ID of 33.
+(4) Find the grid IDs for institutions in country with ID 33.
+(5) Find the grid IDs of all institutions where the country ID is equal to 33.
+(6) Find the grid ID of institutions located in a country with an ID of 33.
+(7) Find the grid ID for all institutions located in the country with a country ID of 33.

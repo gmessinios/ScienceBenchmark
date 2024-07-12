@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.name != "KNOWNOBJ"
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.name != "KNOWNOBJ"
+GPT-3 choices:
+(0) Get the neighbor mode from the neighbors table for objects with a photo type that is not "KNOWNOBJ".
+(1) Find the neighboring objects and their mode of observation, excluding those that are known.
+(2) Find the neighboring objects' mode of observation from a table called "neighbors" and join it with a table called "photo_type" where the photometrically observed objects are not equal to those that are already known.
+(3) What is the neighbormode for all neighbors in the neighbors table whose neighbortype value is not "KNOWNOBJ" and whose corresponding name in the photo_type table is "photometrically_observed"?
+(4) Retrieve the neighbor mode from the nearest neighbor objects where the neighbor type is not equal to "KNOWNOBJ" and is observed photometrically.
+(5) Show the neighbor mode for all nearest neighbor objects where the photo type is not "KNOWNOBJ".
+(6) Get the neighbor mode of nearest neighbor objects where the photo type is not "KNOWNOBJ".
+(7) "Retrieve the neighbor mode from the nearest neighbor objects where the neighbor type is not equal to 'KNOWNOBJ' as observed in photometric data."

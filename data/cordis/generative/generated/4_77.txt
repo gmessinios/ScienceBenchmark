@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types AS activity_types WHERE activity_types.description = "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types AS T1 WHERE T1.description = "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)"
+GPT-3 choices:
+(0) How many public bodies are there excluding research organizations and secondary or higher education establishments in the activity types table?
+(1) How many activity types are there in which the description is "Public bodies" excluding research organizations and secondary or higher education establishments?
+(2) How many public bodies are there, excluding research organizations and secondary or higher education establishments, in the table "activity_types"?
+(3) How many activity types are there in the table "activity_types" where the description is "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)"?
+(4) How many public bodies, not including research organizations or secondary or higher education establishments, are there in the activity types table?
+(5) How many activity types are there where the description is "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)" in the activity_types table?
+(6) How many public bodies, not including research organizations and secondary or higher education establishments, are in the activity types table?
+(7) How many activity types are there for public bodies, excluding research organizations and secondary or higher education establishments?

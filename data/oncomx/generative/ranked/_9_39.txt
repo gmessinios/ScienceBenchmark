@@ -1,0 +1,28 @@
+SELECT biomarker_article.pmid FROM biomarker_article AS biomarker_article JOIN biomarker AS biomarker ON biomarker_article.biomarker_internal_id = biomarker.id WHERE biomarker.gene_symbol != "PDLIM4"
+
+###
+
+
+Original Query:
+SELECT T1.pmid FROM biomarker_article AS T1 JOIN biomarker AS T2 ON T1.biomarker_internal_id = T2.id WHERE T2.gene_symbol != "PDLIM4"
+GPT-3 choices:
+(0) Retrieve the PMID values from the biomarker_article table for articles that are associated with a biomarker where the gene symbol is not equal to "PDLIM4".
+(1) Find the PubMed IDs for articles associated with biomarkers, where the gene symbol is not "PDLIM4".
+(2) Retrieve the PMID of articles associated with biomarkers that have a gene symbol other than "PDLIM4".
+(3) Retrieve the PMID values from the biomarker_article table where the gene symbol in the associated biomarker record is not equal to "PDLIM4".
+(4) Retrieve the PubMed IDs of articles that have been linked to biomarkers, excluding any articles related to the biomarker with the gene symbol "PDLIM4".
+(5) What are the PubMed IDs of articles that mention a biomarker with a gene symbol different than "PDLIM4"?
+(6) "Find the PubMed IDs from articles associated with biomarkers, excluding those where the biomarker's gene symbol is not "PDLIM4".
+(7) What is the PubMed ID for articles where the gene symbol associated with a biomarker is not "PDLIM4"?
+
+
+Re-ranked choices:
+6.337  What is the PubMed ID for articles where the gene symbol associated with a biomarker is not "PDLIM4"?
+6.328  Retrieve the PMID values from the biomarker_article table where the gene symbol in the associated biomarker record is not equal to "PDLIM4".
+6.323  Retrieve the PMID values from the biomarker_article table for articles that are associated with a biomarker where the gene symbol is not equal to "PDLIM4".
+4.933  What are the PubMed IDs of articles that mention a biomarker with a gene symbol different than "PDLIM4"?
+4.932  Retrieve the PMID of articles associated with biomarkers that have a gene symbol other than "PDLIM4".
+4.926  Retrieve the PubMed IDs of articles that have been linked to biomarkers, excluding any articles related to the biomarker with the gene symbol "PDLIM4".
+4.926  "Find the PubMed IDs from articles associated with biomarkers, excluding those where the biomarker's gene symbol is not "PDLIM4".
+3.536  Find the PubMed IDs for articles associated with biomarkers, where the gene symbol is not "PDLIM4".
+

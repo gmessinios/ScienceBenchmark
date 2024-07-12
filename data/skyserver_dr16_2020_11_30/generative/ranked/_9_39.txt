@@ -1,0 +1,28 @@
+SELECT Photometric_objects.dec FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name != "UNKNOWN"
+
+###
+
+
+Original Query:
+SELECT T1.dec FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name != "UNKNOWN"
+GPT-3 choices:
+(0) Get the declination of objects from the photoobj table where the type is not "UNKNOWN" and it has been observed photometrically according to the values in the photo_type table.
+(1) Find the declination coordinates of all objects in the "photoobj" table that have been observed photometrically and are not classified as "UNKNOWN" according to the "photo_type" table.
+(2) Find the declination values for objects in the photoobj table that have been observed photometrically, excluding those with an unknown type.
+(3) Get the declination values from the dec column of the photoobj table for objects that have been photometrically observed, excluding those with an unknown type.
+(4) Get the declination of all objects in the photoobj table that have a type value corresponding to a photometrically observed type, excluding any with an "UNKNOWN" type.
+(5) Find the declination values for all photometric objects from the photoobj table that have a type value corresponding to a non-UNKNOWN entry in the photo_type table.
+(6) Get the declination of all photometric objects from the photoobj table where the type is not equal to "UNKNOWN" as specified in the photometrically_observed table.
+(7) "Retrieve the declination values from the photoobj table for all photometric objects that have been observed and are not classified as 'UNKNOWN' according to their type in the photo_type table."
+
+
+Re-ranked choices:
+9.119  Get the declination of all objects in the photoobj table that have a type value corresponding to a photometrically observed type, excluding any with an "UNKNOWN" type.
+7.718  Get the declination of objects from the photoobj table where the type is not "UNKNOWN" and it has been observed photometrically according to the values in the photo_type table.
+6.317  "Retrieve the declination values from the photoobj table for all photometric objects that have been observed and are not classified as 'UNKNOWN' according to their type in the photo_type table."
+6.316  Find the declination coordinates of all objects in the "photoobj" table that have been observed photometrically and are not classified as "UNKNOWN" according to the "photo_type" table.
+5.619  Find the declination values for all photometric objects from the photoobj table that have a type value corresponding to a non-UNKNOWN entry in the photo_type table.
+5.618  Get the declination of all photometric objects from the photoobj table where the type is not equal to "UNKNOWN" as specified in the photometrically_observed table.
+4.920  Find the declination values for objects in the photoobj table that have been observed photometrically, excluding those with an unknown type.
+4.919  Get the declination values from the dec column of the photoobj table for objects that have been photometrically observed, excluding those with an unknown type.
+

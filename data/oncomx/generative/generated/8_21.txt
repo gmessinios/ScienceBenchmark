@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.uberon_anatomical_id FROM disease_mutation_tissue AS disease_mutation_tissue WHERE disease_mutation_tissue.disease_mutation_id != 13679
+
+###
+
+
+Original Query:
+SELECT T1.uberon_anatomical_id FROM disease_mutation_tissue AS T1 WHERE T1.disease_mutation_id != 13679
+GPT-3 choices:
+(0) Get the unique UBeron anatomical IDs from the disease_mutation_tissue table where the disease_mutation_id is not equal to 13679.
+(1) Retrieve the anatomical ID from the disease_mutation_tissue table for all entries except those with a disease mutation ID of 13679.
+(2) What are the uberon anatomical IDs for all diseases and mutations, excluding the disease mutation with an ID of 13679?
+(3) Find the uberon anatomical ID of all disease-mutation-tissue associations where the disease mutation ID is not equal to 13679.
+(4) What is the anatomical identifier for tissues that are associated with disease mutations, excluding those related to a specific disease mutation ID?
+(5) Find the anatomical IDs from disease_mutation_tissue where the disease mutation ID is not equal to 13679.
+(6) Find the anatomical identifier from the "uberon_anatomical_id" column in the table "disease_mutation_tissue" for all rows except those with a "disease_mutation_id" value of 13679.
+(7) Get the uberon anatomical ID from the disease mutation tissue table where the disease mutation ID is not equal to 13679.

@@ -1,0 +1,28 @@
+SELECT photometrically_observed.description FROM photo_type AS photometrically_observed WHERE photometrically_observed.name != "TRAIL"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM photo_type AS T1 WHERE T1.name != "TRAIL"
+GPT-3 choices:
+(0) What is the description of all photometrically observed photo types except for "TRAIL"?
+(1) Find the description from the photometrically observed photo type where the name is not "TRAIL".
+(2) Find the description of all types of photos that are not labeled as "TRAIL".
+(3) Retrieve the description from photo_type for all entries except those with the name "TRAIL".
+(4) What is the description for all photo types that are not labeled as "TRAIL"?
+(5) "Retrieve the description of all photo types that have been observed photometrically and are not labeled as a trail."
+(6) What is the description for all types of photometrically observed objects that are not trails?
+(7) Retrieve the descriptions from all types of photos that were not observed as trails.
+
+
+Re-ranked choices:
+6.333  Find the description from the photometrically observed photo type where the name is not "TRAIL".
+4.928  What is the description of all photometrically observed photo types except for "TRAIL"?
+4.233  What is the description for all types of photometrically observed objects that are not trails?
+4.228  "Retrieve the description of all photo types that have been observed photometrically and are not labeled as a trail."
+3.539  Retrieve the description from photo_type for all entries except those with the name "TRAIL".
+2.158  Find the description of all types of photos that are not labeled as "TRAIL".
+2.158  What is the description for all photo types that are not labeled as "TRAIL"?
+1.447  Retrieve the descriptions from all types of photos that were not observed as trails.
+

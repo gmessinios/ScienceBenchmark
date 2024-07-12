@@ -1,0 +1,28 @@
+SELECT biomarker_fda_drug.biomarker_drug FROM biomarker_fda_drug AS biomarker_fda_drug JOIN biomarker_fda AS biomarker_fda ON biomarker_fda_drug.biomarker_fda_id = biomarker_fda.id WHERE biomarker_fda.test_trade_name != "Oncomine Dx Target Test"
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_drug FROM biomarker_fda_drug AS T1 JOIN biomarker_fda AS T2 ON T1.biomarker_fda_id = T2.id WHERE T2.test_trade_name != "Oncomine Dx Target Test"
+GPT-3 choices:
+(0) What is the biomarker drug for all biomarkers in the FDA database except those with a test trade name of "Oncomine Dx Target Test"?
+(1) Get the drug names for biomarkers associated with FDA-approved tests that are not named "Oncomine Dx Target Test".
+(2) Find all biomarker drugs that have been approved by the FDA for use as a test, but do not include any with the trade name "Oncomine Dx Target Test".
+(3) Retrieve the biomarker drugs from the FDA for biomarkers that are not associated with the "Oncomine Dx Target Test" in the list of approved tests.
+(4) Retrieve the name of all biomarker drugs from the FDA biomarker list where the corresponding test trade name is not "Oncomine Dx Target Test".
+(5) Get the names of all drugs associated with biomarkers in FDA-approved biomarker tests, excluding the drug associated with the Oncomine Dx Target Test.
+(6) Retrieve the biomarker drugs from the FDA database where the test trade name is not "Oncomine Dx Target Test".
+(7) "Retrieve the biomarker and corresponding FDA-approved drug from the database where the FDA test trade name is not 'Oncomine Dx Target Test'."
+
+
+Re-ranked choices:
+10.527  What is the biomarker drug for all biomarkers in the FDA database except those with a test trade name of "Oncomine Dx Target Test"?
+10.526  "Retrieve the biomarker and corresponding FDA-approved drug from the database where the FDA test trade name is not 'Oncomine Dx Target Test'."
+9.133  Retrieve the biomarker drugs from the FDA database where the test trade name is not "Oncomine Dx Target Test".
+9.127  Retrieve the name of all biomarker drugs from the FDA biomarker list where the corresponding test trade name is not "Oncomine Dx Target Test".
+9.125  Find all biomarker drugs that have been approved by the FDA for use as a test, but do not include any with the trade name "Oncomine Dx Target Test".
+6.324  Retrieve the biomarker drugs from the FDA for biomarkers that are not associated with the "Oncomine Dx Target Test" in the list of approved tests.
+4.930  Get the drug names for biomarkers associated with FDA-approved tests that are not named "Oncomine Dx Target Test".
+4.919  Get the names of all drugs associated with biomarkers in FDA-approved biomarker tests, excluding the drug associated with the Oncomine Dx Target Test.
+

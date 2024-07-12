@@ -1,0 +1,16 @@
+SELECT anatomical_entity.id FROM anatomical_entity AS anatomical_entity JOIN disease_mutation_tissue AS disease_mutation_tissue ON anatomical_entity.id = disease_mutation_tissue.uberon_anatomical_id WHERE disease_mutation_tissue.uberon_anatomical_id != "UBERON:0001825"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM anatomical_entity AS T1 JOIN disease_mutation_tissue AS T2 ON T1.id = T2.uberon_anatomical_id WHERE T2.uberon_anatomical_id != "UBERON:0001825"
+GPT-3 choices:
+(0) Find the IDs of anatomical entities that are connected to disease mutation tissues and are not equal to "UBERON:0001825".
+(1) Find all anatomical entities that have an id in the disease_mutation_tissue table and are not equal to "UBERON:0001825".
+(2) Find the ID of all anatomical entities that are associated with disease-mutation-tissue entries, except for the one with the ID "UBERON:0001825".
+(3) Retrieve the identifiers of anatomical entities that are associated with mutations in diseases and are not equal to "UBERON:0001825".
+(4) What are the IDs of all anatomical entities that are not equal to "UBERON:0001825" in the disease_mutation_tissue table?
+(5) Find all anatomical entities that have an ID in the disease_mutation_tissue table and are not equal to "UBERON:0001825".
+(6) Find all anatomical entities that have an ID in the disease_mutation_tissue table where the UBERON anatomical ID is not equal to "UBERON:0001825".
+(7) Retrieve the ID of anatomical entities from the disease_mutation_tissue table where the ID does not equal "UBERON:0001825" and is also found in the anatomical_entity table.

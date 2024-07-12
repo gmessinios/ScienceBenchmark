@@ -1,0 +1,26 @@
+SELECT count(*) FROM stage AS stage WHERE stage.id = "MmusDv:0000064"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM stage AS T1 WHERE T1.id = "MmusDv:0000064"
+GPT-3 choices:
+(0) How many rows are there in the "stage" table where the ID is equal to "MmusDv:0000064"?
+(1) How many records are there in the "stage" table with an ID of "MmusDv:0000064"?
+(2) How many entries are there in the stage table with the ID "MmusDv:0000064"?
+(3) How many records are in the stage table where the id is "MmusDv:0000064"?
+(4) How many records are there in the "stage" table with an ID of "MmusDv:0000064"?
+(5) How many rows are in the stage table where the id is equal to "MmusDv:0000064"?
+(6) How many rows are in the stage table where the id is equal to "MmusDv:0000064"?
+(7) How many rows are in the "stage" table where the "id" column is equal to "MmusDv:0000064"?
+
+
+Re-ranked choices:
+3.560  How many records are there in the "stage" table with an ID of "MmusDv:0000064"?
+3.554  How many records are in the stage table where the id is "MmusDv:0000064"?
+3.552  How many rows are there in the "stage" table where the ID is equal to "MmusDv:0000064"?
+3.552  How many entries are there in the stage table with the ID "MmusDv:0000064"?
+3.547  How many rows are in the stage table where the id is equal to "MmusDv:0000064"?
+3.543  How many rows are in the "stage" table where the "id" column is equal to "MmusDv:0000064"?
+

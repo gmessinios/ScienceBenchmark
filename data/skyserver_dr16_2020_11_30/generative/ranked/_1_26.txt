@@ -1,0 +1,28 @@
+SELECT Photometric_objects.objid FROM photoobj AS Photometric_objects JOIN photo_type AS photometrically_observed ON Photometric_objects.type = photometrically_observed.value WHERE photometrically_observed.name = "KNOWNOBJ"
+
+###
+
+
+Original Query:
+SELECT T1.objid FROM photoobj AS T1 JOIN photo_type AS T2 ON T1.type = T2.value WHERE T2.name = "KNOWNOBJ"
+GPT-3 choices:
+(0) Retrieve the object ID of all objects in the "photoobj" table where the type of each object is equal to the value "KNOWNOBJ" in the "photometrically_observed" table.
+(1) Find the objid for all objects in the photoobj table that have a type value matching "KNOWNOBJ" from the photo_type table with a name of "photometrically_observed".
+(2) Find the object ID from the photoobj table for objects that have been observed photometrically and are labeled as "KNOWNOBJ" in the photo_type table.
+(3) Get the object IDs for all objects from the table "Photometric_objects" that have a type value matching the name "KNOWNOBJ" in the table "photo_type".
+(4) Retrieve the object ID from the photoobj table for objects that are classified as photometrically observed and have a type value of "KNOWNOBJ".
+(5) Get the object ID of all objects from the table "Photometric_objects" that have a type value matching the value associated with the name "KNOWNOBJ" in the table "photo_type".
+(6) Retrieve the objid of Photometric_objects from the photoobj table where its type is equal to "KNOWNOBJ" as defined in the photo_type table.
+(7) Find the objid of photometric objects from the photoobj table that have a type value corresponding to "KNOWNOBJ" in the photo_type table.
+
+
+Re-ranked choices:
+10.521  Retrieve the object ID from the photoobj table for objects that are classified as photometrically observed and have a type value of "KNOWNOBJ".
+9.820  Get the object ID of all objects from the table "Photometric_objects" that have a type value matching the value associated with the name "KNOWNOBJ" in the table "photo_type".
+8.424  Get the object IDs for all objects from the table "Photometric_objects" that have a type value matching the name "KNOWNOBJ" in the table "photo_type".
+8.421  Retrieve the object ID of all objects in the "photoobj" table where the type of each object is equal to the value "KNOWNOBJ" in the "photometrically_observed" table.
+7.720  Find the object ID from the photoobj table for objects that have been observed photometrically and are labeled as "KNOWNOBJ" in the photo_type table.
+7.018  Find the objid for all objects in the photoobj table that have a type value matching "KNOWNOBJ" from the photo_type table with a name of "photometrically_observed".
+4.920  Find the objid of photometric objects from the photoobj table that have a type value corresponding to "KNOWNOBJ" in the photo_type table.
+2.822  Retrieve the objid of Photometric_objects from the photoobj table where its type is equal to "KNOWNOBJ" as defined in the photo_type table.
+

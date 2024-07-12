@@ -1,0 +1,27 @@
+SELECT institutions.db_pedia_url FROM institutions AS institutions WHERE institutions.wikidata_url = "http://www.wikidata.org/wiki/Q50040378" and institutions.institutions_name = "OBSERVATORIO NACIONAL"
+
+###
+
+
+Original Query:
+SELECT T1.db_pedia_url FROM institutions AS T1 WHERE T1.wikidata_url = "http://www.wikidata.org/wiki/Q50040378" and T1.institutions_name = "OBSERVATORIO NACIONAL"
+GPT-3 choices:
+(0) Find the DBpedia URL for the institution with the Wikidata URL "http://www.wikidata.org/wiki/Q50040378" and the name "OBSERVATORIO NACIONAL".
+(1) Find the DBPedia URL for the institution named "OBSERVATORIO NACIONAL" whose Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+(2) Get the DBpedia URL for the institution "OBSERVATORIO NACIONAL" where its Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+(3) What is the DBpedia URL for an institution with the name "OBSERVATORIO NACIONAL" and a Wikidata URL of "http://www.wikidata.org/wiki/Q50040378"?
+(4) Retrieve the DBpedia URL for the institution "OBSERVATORIO NACIONAL" where the Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+(5) Find the DBpedia URL for the institution with the Wikidata URL "http://www.wikidata.org/wiki/Q50040378" and the name "OBSERVATORIO NACIONAL".
+(6) Get the DBPedia URL from the institutions table for the institution named "OBSERVATORIO NACIONAL" whose Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+(7) Retrieve the DBpedia URL from the institutions table where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q50040378" and the institution name is "OBSERVATORIO NACIONAL".
+
+
+Re-ranked choices:
+7.021  Retrieve the DBpedia URL from the institutions table where the Wikidata URL is equal to "http://www.wikidata.org/wiki/Q50040378" and the institution name is "OBSERVATORIO NACIONAL".
+5.623  Find the DBpedia URL for the institution with the Wikidata URL "http://www.wikidata.org/wiki/Q50040378" and the name "OBSERVATORIO NACIONAL".
+5.619  What is the DBpedia URL for an institution with the name "OBSERVATORIO NACIONAL" and a Wikidata URL of "http://www.wikidata.org/wiki/Q50040378"?
+5.615  Get the DBPedia URL from the institutions table for the institution named "OBSERVATORIO NACIONAL" whose Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+4.217  Find the DBPedia URL for the institution named "OBSERVATORIO NACIONAL" whose Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+4.217  Get the DBpedia URL for the institution "OBSERVATORIO NACIONAL" where its Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+4.217  Retrieve the DBpedia URL for the institution "OBSERVATORIO NACIONAL" where the Wikidata URL is "http://www.wikidata.org/wiki/Q50040378".
+

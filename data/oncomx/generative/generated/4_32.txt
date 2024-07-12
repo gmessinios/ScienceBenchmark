@@ -1,0 +1,16 @@
+SELECT count(*) FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_ac = "A6NIM6"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_ac = "A6NIM6"
+GPT-3 choices:
+(0) How many records are in the table map_uniprot_canonical_id where the column uniprotkb_ac is equal to "A6NIM6"?
+(1) How many rows are in the table "map_uniprot_canonical_id" where the value of "uniprotkb_ac" is equal to "A6NIM6"?
+(2) How many records in the "map_uniprot_canonical_id" table have the value "A6NIM6" for the column "uniprotkb_ac"?
+(3) How many records are in the table "map_uniprot_canonical_id" where the column "uniprotkb_ac" has a value of "A6NIM6"?
+(4) How many rows are in the table "map_uniprot_canonical_id" where the value in the column "uniprotkb_ac" is equal to "A6NIM6"?
+(5) How many entries are there in the map_uniprot_canonical_id table where the uniprotkb_ac value is "A6NIM6"?
+(6) How many rows are there in the table "map_uniprot_canonical_id" where the value in the column "uniprotkb_ac" is equal to "A6NIM6"?
+(7) How many rows are in the table "map_uniprot_canonical_id" where the value in the column "uniprotkb_ac" is equal to "A6NIM6"?

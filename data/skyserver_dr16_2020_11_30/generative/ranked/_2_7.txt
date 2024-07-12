@@ -1,0 +1,28 @@
+SELECT Stellar_spectal_line_indices.specobjid, count(*) FROM spplines AS Stellar_spectal_line_indices  GROUP BY Stellar_spectal_line_indices.specobjid
+
+###
+
+
+Original Query:
+SELECT T1.specobjid, count(*) FROM spplines AS T1  GROUP BY T1.specobjid
+GPT-3 choices:
+(0) Count the number of spectral lines for each unique spectroscopic object identifier in the "spplines" table and group the results by spectroscopic object identifier.
+(1) Count the number of spectral lines for each specific object and display the specobjid along with the total count.
+(2) Count the number of spectral line indices for each unique specobjid in the Stellar_spectal_line_indices table.
+(3) Find the count of all spectral line indices for each unique specobjid in the table spplines, and group the results by specobjid.
+(4) Count the number of spectral lines for each unique specobjid and group them by specobjid.
+(5) Retrieve the spectral object identification and the count of spectral lines for each object from the spplines table, grouped by the spectral object identification.
+(6) Retrieve the number of spectral line indices for each unique specobjid from the spplines table and group them together by specobjid.
+(7) Count the number of stellar spectral line indices for each unique specobjid value in the spplines table.
+
+
+Re-ranked choices:
+3.530  Count the number of spectral line indices for each unique specobjid in the Stellar_spectal_line_indices table.
+3.527  Find the count of all spectral line indices for each unique specobjid in the table spplines, and group the results by specobjid.
+3.523  Retrieve the number of spectral line indices for each unique specobjid from the spplines table and group them together by specobjid.
+3.519  Count the number of spectral lines for each unique spectroscopic object identifier in the "spplines" table and group the results by spectroscopic object identifier.
+2.828  Count the number of stellar spectral line indices for each unique specobjid value in the spplines table.
+2.120  Retrieve the spectral object identification and the count of spectral lines for each object from the spplines table, grouped by the spectral object identification.
+1.432  Count the number of spectral lines for each specific object and display the specobjid along with the total count.
+0.739  Count the number of spectral lines for each unique specobjid and group them by specobjid.
+

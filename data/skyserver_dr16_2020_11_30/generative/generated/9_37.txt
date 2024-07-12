@@ -1,0 +1,16 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed JOIN photoobj AS Photometric_objects ON photometrically_observed.value = Photometric_objects.type WHERE Photometric_objects.ra != 0.0165372075736627
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 JOIN photoobj AS T2 ON T1.value = T2.type WHERE T2.ra != 0.0165372075736627
+GPT-3 choices:
+(0) Get the photometrically observed values from photo types for objects in the photoobj table that have a non-zero ra value.
+(1) Find the values of photometrically observed photo types for all Photometric objects where the right ascension is not equal to 0.0165372075736627.
+(2) Find the value of the photometrically observed object from the photo_type table where the type matches that of an object in the photoobj table with a non-zero right ascension.
+(3) Find the value of photometrically observed type for Photometric objects where the right ascension is not equal to 0.0165372075736627.
+(4) What is the value for photometrically observed objects in the photoobj table, excluding those with a right ascension of 0.0165372075736627?
+(5) Retrieve the value of photometrically observed objects for all photo objects whose type does not equal 0.0165372075736627 and are associated with a non-zero right ascension.
+(6) Retrieve the values from the "value" column in the "photometrically_observed" table for all objects in the "photoobj" table where the object's right ascension is not equal to 0.0165372075736627 and their type matches a value in the "type" column of the "photo_type" table.
+(7) Find the value of photometrically observed objects where the type matches that of Photometric objects with a non-zero right ascension.

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test.test_submission FROM biomarker_fda_test AS biomarker_fda_test WHERE biomarker_fda_test.test_study_design = "NA"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test AS T1 WHERE T1.test_study_design = "NA"
+GPT-3 choices:
+(0) "Show the test submissions from biomarker FDA tests where the study design is 'NA'."
+(1) Retrieve the test submission from the biomarker FDA test where the study design is "NA".
+(2) What is the test submission from the FDA biomarker test database where the test study design is "NA"?
+(3) Retrieve all test submission data from the biomarker FDA test table where the test study design is "NA".
+(4) Get the test submission from the biomarker FDA test table where the test study design is "NA".
+(5) What are all of the test submissions from the biomarker_fda_test table where the study design is "NA"?
+(6) Show me the test submission from the biomarker FDA test where the study design is "NA".
+(7) What is the test submission for studies with a study design of "NA" in the biomarker FDA test database?
+
+
+Re-ranked choices:
+9.154  Retrieve the test submission from the biomarker FDA test where the study design is "NA".
+9.150  Show me the test submission from the biomarker FDA test where the study design is "NA".
+9.147  Get the test submission from the biomarker FDA test table where the test study design is "NA".
+9.144  What is the test submission from the FDA biomarker test database where the test study design is "NA"?
+9.142  What is the test submission for studies with a study design of "NA" in the biomarker FDA test database?
+9.137  Retrieve all test submission data from the biomarker FDA test table where the test study design is "NA".
+7.758  "Show the test submissions from biomarker FDA tests where the study design is 'NA'."
+4.931  What are all of the test submissions from the biomarker_fda_test table where the study design is "NA"?
+

@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.distance FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.g != 12.61056
+
+###
+
+
+Original Query:
+SELECT T1.distance FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.g != 12.61056
+GPT-3 choices:
+(0) Find the distance of the nearest neighboring objects from the photo objects where the g value is not equal to 12.61056 in the neighbors and photoobj tables.
+(1) Find the distance of the nearest objects from the neighbors table where the g value of those objects in the photoobj table is not equal to 12.61056.
+(2) What is the distance from the nearest neighbour object for each photoobject where the g value is not equal to 12.61056?
+(3) Find the distance of the nearest neighbors from the photo objects where the g value is not equal to 12.61056.
+(4) What is the distance of the nearest neighbour objects for all Photometric objects with a g value different from 12.61056?
+(5) What is the distance of the nearest neighbour objects from the photoobj objects where the g value is not equal to 12.61056?
+(6) Find the distance of the nearest neighbor objects from a list of photo objects where the g value is not equal to 12.61056.
+(7) Find the distance of the nearest neighboring objects from the photo objects with a g value not equal to 12.61056, where the data is retrieved from the neighbors and photoobj tables by matching their objid columns.
+
+
+Re-ranked choices:
+7.042  Find the distance of the nearest neighboring objects from the photo objects where the g value is not equal to 12.61056 in the neighbors and photoobj tables.
+7.034  Find the distance of the nearest neighbor objects from a list of photo objects where the g value is not equal to 12.61056.
+7.030  What is the distance from the nearest neighbour object for each photoobject where the g value is not equal to 12.61056?
+7.030  Find the distance of the nearest neighboring objects from the photo objects with a g value not equal to 12.61056, where the data is retrieved from the neighbors and photoobj tables by matching their objid columns.
+7.029  What is the distance of the nearest neighbour objects from the photoobj objects where the g value is not equal to 12.61056?
+7.025  What is the distance of the nearest neighbour objects for all Photometric objects with a g value different from 12.61056?
+5.639  Find the distance of the nearest neighbors from the photo objects where the g value is not equal to 12.61056.
+5.627  Find the distance of the nearest objects from the neighbors table where the g value of those objects in the photoobj table is not equal to 12.61056.
+

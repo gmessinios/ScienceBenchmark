@@ -1,0 +1,28 @@
+SELECT institutions.wikidata_url FROM institutions AS institutions WHERE institutions.unics_id != 2994
+
+###
+
+
+Original Query:
+SELECT T1.wikidata_url FROM institutions AS T1 WHERE T1.unics_id != 2994
+GPT-3 choices:
+(0) Retrieve the Wikidata URL of all institutions from the database, except for institution with a UNICS ID of 2994.
+(1) Find the Wikidata URL for institutions that do not have a UNICS ID of 2994.
+(2) Retrieve the Wikidata URL for all institutions except for the one with a UNICS ID of 2994.
+(3) What is the Wikidata URL for institutions that do not have a UNICS ID of 2994?
+(4) Get the Wikidata URL from the institutions table for institutions with a UNICS ID not equal to 2994.
+(5) What is the Wikidata URL for all institutions except for the one with a UNICS ID of 2994?
+(6) Find the Wikidata URL of institutions where the UNICS ID is not equal to 2994.
+(7) Retrieve the wikidata URL for institutions that have a UNICS ID different from 2994.
+
+
+Re-ranked choices:
+7.045  Find the Wikidata URL for institutions that do not have a UNICS ID of 2994.
+7.045  Find the Wikidata URL of institutions where the UNICS ID is not equal to 2994.
+7.043  What is the Wikidata URL for institutions that do not have a UNICS ID of 2994?
+7.038  What is the Wikidata URL for all institutions except for the one with a UNICS ID of 2994?
+7.035  Retrieve the Wikidata URL for all institutions except for the one with a UNICS ID of 2994.
+7.030  Get the Wikidata URL from the institutions table for institutions with a UNICS ID not equal to 2994.
+7.028  Retrieve the wikidata URL for institutions that have a UNICS ID different from 2994.
+7.026  Retrieve the Wikidata URL of all institutions from the database, except for institution with a UNICS ID of 2994.
+

@@ -1,0 +1,16 @@
+SELECT programmes.parent FROM programmes AS programmes JOIN project_programmes AS project_programmes ON programmes.code = project_programmes.programme JOIN projects AS projects ON project_programmes.project = projects.unics_id WHERE projects.acronym != "CANARIP-RAT"
+
+###
+
+
+Original Query:
+SELECT T1.parent FROM programmes AS T1 JOIN project_programmes AS T3 ON T1.code = T3.programme JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.acronym != "CANARIP-RAT"
+GPT-3 choices:
+(0) Find the parent programmes of all projects, excluding those with the acronym "CANARIP-RAT", that have a connection through the code and programme columns between the programmes and project_programmes tables, and through the unics_id column between the projects table and project_programmes table.
+(1) Get the names of all parent programmes for projects that are associated with a programme in project_programmes, which in turn is associated with a project in projects where the project acronym is not "CANARIP-RAT".
+(2) Find the parent programme of all programmes that are associated with a project through the project_programmes table, but only for projects that do not have an acronym of "CANARIP-RAT".
+(3) Find the parent programmes for all projects, excluding "CANARIP-RAT", by matching the programme codes in both tables.
+(4) Show the parent programme of all programmes associated with projects where the project acronym is not "CANARIP-RAT".
+(5) Get the names of all parent programmes that are associated with a project through the project_programmes table, but only if the project's acronym is not "CANARIP-RAT".
+(6) Retrieve the parent programme codes for all programmes that are associated with projects (except "CANARIP-RAT") through the project_programmes table.
+(7) What is the name of the parent programme for all projects with acronyms different than "CANARIP-RAT"?

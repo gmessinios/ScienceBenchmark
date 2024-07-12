@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types AS activity_types WHERE activity_types.description = "Tuscan Research Centers"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM activity_types AS T1 WHERE T1.description = "Tuscan Research Centers"
+GPT-3 choices:
+(0) Retrieve the code of activity types from the table "activity_types" where the description is "Tuscan Research Centers".
+(1) What is the code for the activity type "Tuscan Research Centers" in the database table "activity_types"?
+(2) What is the code for "Tuscan Research Centers" in the activity types table?
+(3) What is the code for activity types with a description of "Tuscan Research Centers"?
+(4) Find the activity code for Tuscan Research Centers from the table of activity types based on their description.
+(5) Retrieve the code for all activity types that have a description of "Tuscan Research Centers".
+(6) Retrieve the code of all activity types from the table "activity_types" where the description is "Tuscan Research Centers".
+(7) What is the code for activity type "Tuscan Research Centers" in the table "activity_types"?

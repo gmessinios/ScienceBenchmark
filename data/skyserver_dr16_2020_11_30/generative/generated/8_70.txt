@@ -1,0 +1,16 @@
+SELECT Photometric_objects.l FROM photoobj AS Photometric_objects WHERE Photometric_objects.rowc != 58.48783
+
+###
+
+
+Original Query:
+SELECT T1.l FROM photoobj AS T1 WHERE T1.rowc != 58.48783
+GPT-3 choices:
+(0) Find the value of the column "l" from the table "photoobj" where the value in the column "rowc" is not equal to 58.48783 for objects with photometric properties.
+(1) Select the value of "l" from the table "photoobj" where the rowc value is not equal to 58.48783.
+(2) Find the values in the column "l" from the table "photoobj" where the value in the column "rowc" is not equal to 58.48783 and label it as "Photometric_objects".
+(3) Retrieve the value for the "l" column from the table "photoobj" where the value in the "rowc" column is not equal to 58.48783, and refer to this table as "Photometric_objects".
+(4) "Retrieve the value for column 'l' from the table 'photoobj' where the value in column 'rowc' is not equal to 58.48783."
+(5) "Find the value of 'l' from the 'Photometric_objects' table where the 'rowc' column is not equal to 58.48783."
+(6) What is the value of the "l" attribute from all objects in the table "photoobj" where the value of the "rowc" attribute is not equal to 58.48783?
+(7) Find the column "l" from the table "photoobj" where the value in the column "rowc" is not equal to 58.48783 and name this table "Photometric_objects."

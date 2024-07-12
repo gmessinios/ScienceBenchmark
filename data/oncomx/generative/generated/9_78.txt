@@ -1,0 +1,16 @@
+SELECT disease_mutation_tissue.disease_mutation_id FROM disease_mutation_tissue AS disease_mutation_tissue JOIN anatomical_entity AS anatomical_entity ON disease_mutation_tissue.uberon_anatomical_id = anatomical_entity.id WHERE anatomical_entity.name != "anterior amygdaloid area"
+
+###
+
+
+Original Query:
+SELECT T1.disease_mutation_id FROM disease_mutation_tissue AS T1 JOIN anatomical_entity AS T2 ON T1.uberon_anatomical_id = T2.id WHERE T2.name != "anterior amygdaloid area"
+GPT-3 choices:
+(0) Find the disease mutation ID from the table containing information about the connection between diseases, mutations, and tissues, for all entries that are associated with an anatomical entity that is not named "anterior amygdaloid area".
+(1) Find the disease mutation IDs for diseases that are not associated with the anterior amygdaloid area in terms of anatomical entities.
+(2) Find the disease-mutation IDs where the corresponding anatomical entity is not the anterior amygdaloid area.
+(3) Find all disease mutation IDs where the associated anatomical entity is not the anterior amygdaloid area.
+(4) Retrieve the disease mutation IDs from the "disease_mutation_tissue" table where the associated anatomical entity name is not "anterior amygdaloid area", and join it with the "anatomical_entity" table using the ID to retrieve information.
+(5) Find the disease mutation IDs for tissues associated with anatomical entities that are not the "anterior amygdaloid area".
+(6) What are the disease mutation IDs that are associated with anatomical entities other than the "anterior amygdaloid area"?
+(7) Retrieve the disease mutation IDs from the database for disease-mutation-tissue associations, where the corresponding anatomical entity is not "anterior amygdaloid area".

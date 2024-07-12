@@ -1,0 +1,28 @@
+SELECT stage.id, count(*) FROM stage AS stage  GROUP BY stage.id
+
+###
+
+
+Original Query:
+SELECT T1.id, count(*) FROM stage AS T1  GROUP BY T1.id
+GPT-3 choices:
+(0) What is the number of stages and the count of each stage?
+(1) Count the number of records in the stage table and group them by the id column.
+(2) "Count the number of records in the stage table for each unique ID and group them by ID."
+(3) "Count the number of entries in the stage table and group them by their unique IDs."
+(4) Count the number of records in the "stage" table and group them by their "id" values.
+(5) Count the number of records in the "stage" table for each distinct value in the "id" column and group the results by the "id" column.
+(6) Count the number of stages and group them by their ID.
+(7) What is the number of records in each stage and what is their corresponding stage ID?
+
+
+Re-ranked choices:
+3.568  "Count the number of records in the stage table for each unique ID and group them by ID."
+3.562  Count the number of records in the "stage" table and group them by their "id" values.
+3.552  Count the number of records in the stage table and group them by the id column.
+3.532  Count the number of records in the "stage" table for each distinct value in the "id" column and group the results by the "id" column.
+2.162  "Count the number of entries in the stage table and group them by their unique IDs."
+1.443  What is the number of records in each stage and what is their corresponding stage ID?
+0.876  Count the number of stages and group them by their ID.
+0.143  What is the number of stages and the count of each stage?
+

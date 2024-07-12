@@ -1,0 +1,27 @@
+SELECT ec_framework_programs.ec_framework_program_name, count(*) FROM ec_framework_programs AS ec_framework_programs  GROUP BY ec_framework_programs.ec_framework_program_name
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name, count(*) FROM ec_framework_programs AS T1  GROUP BY T1.ec_framework_program_name
+GPT-3 choices:
+(0) How many programs are there for each framework in the EC Framework Programs table?
+(1) How many programs are there for each framework in the ec_framework_programs table?
+(2) How many programs are there for each framework in the ec_framework_programs table?
+(3) Count the number of records for each unique framework program name in the table "ec_framework_programs".
+(4) How many times does each framework program's name appear in the table for all framework programs?
+(5) How many framework programs are there and how many times do they occur in the ec_framework_programs table?
+(6) How many framework programs are there for each unique framework program name in the ec_framework_programs table?
+(7) How many records are there for each unique program name in the ec_framework_programs table?
+
+
+Re-ranked choices:
+5.637  How many framework programs are there for each unique framework program name in the ec_framework_programs table?
+4.247  How many programs are there for each framework in the EC Framework Programs table?
+4.242  How many times does each framework program's name appear in the table for all framework programs?
+4.238  Count the number of records for each unique framework program name in the table "ec_framework_programs".
+2.848  How many records are there for each unique program name in the ec_framework_programs table?
+2.845  How many programs are there for each framework in the ec_framework_programs table?
+2.835  How many framework programs are there and how many times do they occur in the ec_framework_programs table?
+

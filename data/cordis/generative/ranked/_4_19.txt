@@ -1,0 +1,24 @@
+SELECT count(*) FROM project_members AS project_members WHERE project_members.vat_number = "NL818532373B01"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members AS T1 WHERE T1.vat_number = "NL818532373B01"
+GPT-3 choices:
+(0) "How many project members have the VAT number NL818532373B01?"
+(1) How many project members have a VAT number of "NL818532373B01"?
+(2) How many project members have the VAT number "NL818532373B01"?
+(3) How many project members have a VAT number of "NL818532373B01"?
+(4) How many project members have a VAT number of "NL818532373B01"?
+(5) How many project members have a VAT number of "NL818532373B01"?
+(6) How many members does the project with the VAT number "NL818532373B01" have?
+(7) How many project members have a VAT number of "NL818532373B01"?
+
+
+Re-ranked choices:
+6.443  How many project members have the VAT number "NL818532373B01"?
+6.420  How many project members have a VAT number of "NL818532373B01"?
+6.391  How many members does the project with the VAT number "NL818532373B01" have?
+5.743  "How many project members have the VAT number NL818532373B01?"
+

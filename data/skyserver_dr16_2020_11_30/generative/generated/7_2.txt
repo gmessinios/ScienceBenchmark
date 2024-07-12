@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.scienceprimary FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.plate = 961 or Spectroscopic_objects.segue2_target2 = -2147483616
+
+###
+
+
+Original Query:
+SELECT T1.scienceprimary FROM specobj AS T1 WHERE T1.plate = 961 or T1.segue2_target2 = -2147483616
+GPT-3 choices:
+(0) Get the science primary names of all spectroscopic objects from the specobj table where the plate value is 961 or segue2_target2 value is -2147483616.
+(1) Find the names of all primary science objects from a table called "Spectroscopic_objects" where the plate number is equal to 961 or the segue2_target2 value is equal to -2147483616.
+(2) Find the names of all primary science objects from the specobj table where the plate is equal to 961 or segue2_target2 is equal to -2147483616.
+(3) Find the primary science objects from the spectroscopic data for either plate number 961 or SEGUE2 target code -2147483616.
+(4) Find the primary science objects from the spectroscopic data for either plate 961 or segue2_target2 = -2147483616.
+(5) Retrieve the primary science object from the Spectroscopic Objects table where either the plate number is 961 or Segue2 Target 2 is equal to -2147483616.
+(6) Find all primary science objects from the specobj table where the plate number is 961 or the segue2_target2 value is -2147483616.
+(7) Retrieve the science primary objects from the spectroscopic objects where the plate number is 961 or segue2 target 2 is equal to -2147483616.

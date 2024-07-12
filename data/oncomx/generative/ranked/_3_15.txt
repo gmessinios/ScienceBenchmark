@@ -1,0 +1,26 @@
+SELECT count(*) FROM biomarker AS biomarker
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker AS T1
+GPT-3 choices:
+(0) How many biomarkers are there in the biomarker table?
+(1) How many records are there in the biomarker table?
+(2) How many records are in the biomarker table?
+(3) How many biomarkers are there in the biomarker table?
+(4) How many rows are in the biomarker table?
+(5) "How many records are there in the biomarker table?"
+(6) How many biomarkers are there in the biomarker table?
+(7) How many biomarkers are in the biomarker table?
+
+
+Re-ranked choices:
+1.543  How many records are there in the biomarker table?
+1.543  "How many records are there in the biomarker table?"
+1.503  How many records are in the biomarker table?
+1.503  How many rows are in the biomarker table?
+1.491  How many biomarkers are there in the biomarker table?
+1.473  How many biomarkers are in the biomarker table?
+

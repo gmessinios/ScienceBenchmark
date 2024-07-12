@@ -1,0 +1,27 @@
+SELECT differential_expression.doid FROM differential_expression AS differential_expression WHERE differential_expression.expression_change_direction = "up"
+
+###
+
+
+Original Query:
+SELECT T1.doid FROM differential_expression AS T1 WHERE T1.expression_change_direction = "up"
+GPT-3 choices:
+(0) Get the DOIDs from the table of differential expression where the expression change direction is "up".
+(1) Retrieve the DOIDs from the table "differential_expression" where the expression change direction is "up".
+(2) Retrieve the Disease Ontology IDs from differential expression data where the expression change direction is "up".
+(3) Get the DOIDs from the table "differential_expression" where the expression change direction is "up".
+(4) Retrieve the disease ID from the table of differential expressions where the expression change direction is "up".
+(5) Retrieve the DOIDs from the table "differential_expression" where the expression change direction is "up".
+(6) Show me the disease IDs from differential expression where the expression change direction is "up".
+(7) Find the DOIDs of differential expressions where the expression change direction is "up".
+
+
+Re-ranked choices:
+6.329  Show me the disease IDs from differential expression where the expression change direction is "up".
+6.329  Get the DOIDs from the table of differential expression where the expression change direction is "up".
+6.329  Find the DOIDs of differential expressions where the expression change direction is "up".
+6.327  Retrieve the disease ID from the table of differential expressions where the expression change direction is "up".
+6.323  Retrieve the Disease Ontology IDs from differential expression data where the expression change direction is "up".
+4.925  Get the DOIDs from the table "differential_expression" where the expression change direction is "up".
+4.923  Retrieve the DOIDs from the table "differential_expression" where the expression change direction is "up".
+

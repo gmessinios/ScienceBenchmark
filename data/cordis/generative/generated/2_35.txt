@@ -1,0 +1,16 @@
+SELECT programmes.rcn, count(*) FROM programmes AS programmes  GROUP BY programmes.rcn
+
+###
+
+
+Original Query:
+SELECT T1.rcn, count(*) FROM programmes AS T1  GROUP BY T1.rcn
+GPT-3 choices:
+(0) Count the number of records for each unique rcn value in the programmes table.
+(1) Count the number of rows in the "programmes" table for each distinct value in the "rcn" column and group the results by those distinct values.
+(2) How many programmes have the same rcn value, and what is the count for each rcn?
+(3) How many records are there in the "programmes" table for each distinct value in the "rcn" column?
+(4) Count the number of records in the "programmes" table grouped by the unique value in the "rcn" column.
+(5) What is the number of occurrences for each unique value in the "rcn" column from the "programmes" table?
+(6) Count the number of rows in the "programmes" table, grouping them by the unique RCN values and displaying both the RCN and count in the results.
+(7) "How many records are there for each unique RCN in the 'programmes' table?"

@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.start_date != "2011-03-29"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.start_date != "2011-03-29"
+GPT-3 choices:
+(0) What is the title of all topics that have been assigned to a project, except for projects with a start date of "2011-03-29"?
+(1) Find the title of all topics that are associated with projects that have a start date other than March 29, 2011.
+(2) Retrieve the title of topics that are associated with projects which have a start date that is not equal to "2011-03-29".
+(3) Retrieve the titles of all topics that are associated with a project through the project_topics table, and join it with the projects table to only include those projects that have a start date other than "2011-03-29".
+(4) Get the title of topics that have been assigned to projects which started on a date other than March 29th, 2011.
+(5) Find the titles of all topics associated with projects that have a start date other than March 29th, 2011.
+(6) Get the title of topics from the table "topics" where its code matches with topic column in table "project_topics", and the project is linked to a specific date in 2011 from table "projects".
+(7) Retrieve the title of all topics associated with projects that have a start date other than March 29, 2011.
+
+
+Re-ranked choices:
+9.822  Get the title of topics from the table "topics" where its code matches with topic column in table "project_topics", and the project is linked to a specific date in 2011 from table "projects".
+8.420  Retrieve the titles of all topics that are associated with a project through the project_topics table, and join it with the projects table to only include those projects that have a start date other than "2011-03-29".
+7.740  What is the title of all topics that have been assigned to a project, except for projects with a start date of "2011-03-29"?
+7.738  Retrieve the title of topics that are associated with projects which have a start date that is not equal to "2011-03-29".
+7.038  Find the title of all topics that are associated with projects that have a start date other than March 29, 2011.
+7.036  Retrieve the title of all topics associated with projects that have a start date other than March 29, 2011.
+6.344  Get the title of topics that have been assigned to projects which started on a date other than March 29th, 2011.
+5.636  Find the titles of all topics associated with projects that have a start date other than March 29th, 2011.
+

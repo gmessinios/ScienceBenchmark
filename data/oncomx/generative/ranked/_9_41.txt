@@ -1,0 +1,28 @@
+SELECT disease_mutation.peptide_pos FROM disease_mutation AS disease_mutation JOIN disease AS disease ON disease_mutation.doid = disease.id WHERE disease.name != "bone cancer"
+
+###
+
+
+Original Query:
+SELECT T1.peptide_pos FROM disease_mutation AS T1 JOIN disease AS T2 ON T1.doid = T2.id WHERE T2.name != "bone cancer"
+GPT-3 choices:
+(0) What is the peptide position associated with disease mutations for all diseases except bone cancer?
+(1) Retrieve the positions of peptides affected by disease mutations in diseases other than bone cancer.
+(2) Retrieve the peptide position for disease mutations in diseases that are not "bone cancer".
+(3) Retrieve the position of the peptide affected by a disease mutation for all diseases except "bone cancer".
+(4) Find the positions of all peptide mutations associated with diseases that are not bone cancer.
+(5) Find the positions of peptides in disease mutations associated with diseases other than bone cancer.
+(6) Find the positions of mutations within the peptide sequence associated with diseases that are not bone cancer.
+(7) Find the positions of peptide mutations associated with diseases that are not bone cancer.
+
+
+Re-ranked choices:
+5.627  Retrieve the position of the peptide affected by a disease mutation for all diseases except "bone cancer".
+4.234  Retrieve the peptide position for disease mutations in diseases that are not "bone cancer".
+3.524  What is the peptide position associated with disease mutations for all diseases except bone cancer?
+2.129  Find the positions of all peptide mutations associated with diseases that are not bone cancer.
+2.127  Find the positions of peptide mutations associated with diseases that are not bone cancer.
+2.126  Retrieve the positions of peptides affected by disease mutations in diseases other than bone cancer.
+2.124  Find the positions of mutations within the peptide sequence associated with diseases that are not bone cancer.
+2.124  Find the positions of peptides in disease mutations associated with diseases other than bone cancer.
+

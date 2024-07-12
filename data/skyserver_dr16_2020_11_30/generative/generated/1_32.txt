@@ -1,0 +1,16 @@
+SELECT Stellar_spectal_line_indices.specobjid FROM spplines AS Stellar_spectal_line_indices JOIN specobj AS Spectroscopic_objects ON Stellar_spectal_line_indices.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.subclass = "B0IVe (5394)"
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM spplines AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.subclass = "B0IVe (5394)"
+GPT-3 choices:
+(0) What is the specobjid for objects with a subclass of "B0IVe (5394)" in the table spplines?
+(1) Find the specobjid of all objects in the spplines table that have a subclass of "B0IVe (5394)" in the specobj table.
+(2) Find the specobjid from the Stellar_spectal_line_indices table where the subclass in the Spectroscopic_objects table is equal to "B0IVe (5394)".
+(3) Retrieve the specobjid from the spplines table where subclass in the specobj table is equal to "B0IVe (5394)".
+(4) Retrieve the specobjid from the Stellar_spectal_line_indices table where the corresponding Spectroscopic_objects record has a subclass value of "B0IVe (5394)".
+(5) Retrieve the specobjid values from the spplines table for all spectroscopic objects in the Spectroscopic_objects table that have a subclass of "B0IVe (5394)".
+(6) Retrieve the specobjid from spplines for any Spectroscopic_objects with a subclass of "B0IVe (5394)".
+(7) Find the specobjid of all objects in the spplines table whose subclass in the specobj table is "B0IVe (5394)".

@@ -1,0 +1,28 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.principal_investigator = 1217094
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.principal_investigator = 1217094
+GPT-3 choices:
+(0) Retrieve the subject area codes from projects that have a principal investigator with an unics_id of 1217094 by joining the subject_areas and project_subject_areas tables on their corresponding columns, and then joining that result with the projects table on the project_subject_areas.project column.
+(1) Show the subject area codes for all projects that have a principal investigator with the UNICS ID 1217094.
+(2) Find the subject area code from the subject areas table where the principal investigator is 1217094 and is associated with a project in the project_subject_areas table which also has a match in the projects table.
+(3) What are the subject areas associated with projects where the principal investigator is 1217094?
+(4) Retrieve the subject area codes for all projects in which the principal investigator has a UNICS ID of 1217094.
+(5) Find the code for subject areas that are associated with a project in which the principal investigator has a unics_id of 1217094.
+(6) Find the subject area codes for all projects in which user 1217094 is listed as the principal investigator.
+(7) Get the subject areas code from the subject_areas table where the principal investigator is 1217094 in projects table and join with project_subject_areas table on subject area code.
+
+
+Re-ranked choices:
+10.517  Find the subject area code from the subject areas table where the principal investigator is 1217094 and is associated with a project in the project_subject_areas table which also has a match in the projects table.
+9.819  Get the subject areas code from the subject_areas table where the principal investigator is 1217094 in projects table and join with project_subject_areas table on subject area code.
+8.433  Show the subject area codes for all projects that have a principal investigator with the UNICS ID 1217094.
+8.432  Retrieve the subject area codes for all projects in which the principal investigator has a UNICS ID of 1217094.
+8.422  Find the code for subject areas that are associated with a project in which the principal investigator has a unics_id of 1217094.
+7.024  What are the subject areas associated with projects where the principal investigator is 1217094?
+7.013  Retrieve the subject area codes from projects that have a principal investigator with an unics_id of 1217094 by joining the subject_areas and project_subject_areas tables on their corresponding columns, and then joining that result with the projects table on the project_subject_areas.project column.
+4.233  Find the subject area codes for all projects in which user 1217094 is listed as the principal investigator.
+

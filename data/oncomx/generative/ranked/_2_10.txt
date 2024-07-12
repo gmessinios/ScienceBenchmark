@@ -1,0 +1,28 @@
+SELECT disease_mutation_article.pmid, count(*) FROM disease_mutation_article AS disease_mutation_article  GROUP BY disease_mutation_article.pmid
+
+###
+
+
+Original Query:
+SELECT T1.pmid, count(*) FROM disease_mutation_article AS T1  GROUP BY T1.pmid
+GPT-3 choices:
+(0) Count the number of occurrences for each PMID in the disease_mutation_article table.
+(1) "Retrieve the PMID and the number of occurrences for each PMID from the disease_mutation_article table, grouped by PMID."
+(2) How many articles are associated with each unique PMID in the disease_mutation_article table?
+(3) "Get the number of disease-mutation articles for each PubMed ID and group them by their respective PubMed ID."
+(4) Count the number of articles for each PMID in the disease_mutation_article table.
+(5) Count the number of occurrences of each PMID in the disease_mutation_article table and group them together by PMID.
+(6) How many articles are there for each PMID in the table disease_mutation_article?
+(7) "How many disease-mutation articles are there for each unique PMID number?"
+
+
+Re-ranked choices:
+2.129  "Retrieve the PMID and the number of occurrences for each PMID from the disease_mutation_article table, grouped by PMID."
+2.126  Count the number of occurrences of each PMID in the disease_mutation_article table and group them together by PMID.
+1.439  "How many disease-mutation articles are there for each unique PMID number?"
+1.429  Count the number of occurrences for each PMID in the disease_mutation_article table.
+1.429  Count the number of articles for each PMID in the disease_mutation_article table.
+1.429  How many articles are there for each PMID in the table disease_mutation_article?
+1.423  How many articles are associated with each unique PMID in the disease_mutation_article table?
+0.733  "Get the number of disease-mutation articles for each PubMed ID and group them by their respective PubMed ID."
+

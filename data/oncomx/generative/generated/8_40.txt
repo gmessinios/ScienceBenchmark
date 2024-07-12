@@ -1,0 +1,16 @@
+SELECT anatomical_entity.id FROM anatomical_entity AS anatomical_entity WHERE anatomical_entity.name != "corpus callosum"
+
+###
+
+
+Original Query:
+SELECT T1.id FROM anatomical_entity AS T1 WHERE T1.name != "corpus callosum"
+GPT-3 choices:
+(0) Find the ID of all anatomical entities except for the corpus callosum.
+(1) Find the id of all anatomical entities except for "corpus callosum".
+(2) Find the ID of all anatomical entities except for the "corpus callosum".
+(3) Get the ID of all anatomical entities that have a name other than "corpus callosum".
+(4) "Retrieve the id of all anatomical entities, excluding the corpus callosum."
+(5) What is the ID of all anatomical entities, except for the corpus callosum?
+(6) "Retrieve the ID of all anatomical entities, excluding the corpus callosum."
+(7) Retrieve the id of all anatomical entities, excluding "corpus callosum", from the table named "anatomical_entity".

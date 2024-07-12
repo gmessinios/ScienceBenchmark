@@ -1,0 +1,28 @@
+SELECT disease.name FROM disease AS disease JOIN cancer_tissue AS cancer_tissue ON disease.id = cancer_tissue.doid WHERE cancer_tissue.uberon_anatomical_id != "UBERON:0000992"
+
+###
+
+
+Original Query:
+SELECT T1.name FROM disease AS T1 JOIN cancer_tissue AS T2 ON T1.id = T2.doid WHERE T2.uberon_anatomical_id != "UBERON:0000992"
+GPT-3 choices:
+(0) Retrieve the names of diseases from the database that are associated with cancer tissues, excluding any that pertain to breast tissue.
+(1) Get the name of diseases from the "disease" table that are associated with an entry in the "cancer_tissue" table where the disease id matches the doid and also excludes entries with uberon_anatomical_id of UBERON:0000992.
+(2) Get the names of diseases from the disease table that have a matching ID in the cancer_tissue table, but only if their corresponding anatomical ID in the uberon_anatomical_id column is not equal to "UBERON:0000992".
+(3) Retrieve the names of all diseases that are associated with cancer tissues, excluding those associated with anatomical entity "UBERON:0000992".
+(4) List the names of diseases that are associated with a type of cancer located in a tissue other than the heart.
+(5) Retrieve the name of diseases from the table "disease" that are also present in the "cancer_tissue" table and have a matching ID in both tables, excluding any that have an anatomical ID of "UBERON:0000992".
+(6) Retrieve the names of diseases associated with cancer tissues, excluding those related to the urinary bladder.
+(7) Get the names of diseases that are associated with cancer tissues, excluding those related to skin tissue.
+
+
+Re-ranked choices:
+6.320  Retrieve the name of diseases from the table "disease" that are also present in the "cancer_tissue" table and have a matching ID in both tables, excluding any that have an anatomical ID of "UBERON:0000992".
+5.615  Get the name of diseases from the "disease" table that are associated with an entry in the "cancer_tissue" table where the disease id matches the doid and also excludes entries with uberon_anatomical_id of UBERON:0000992.
+4.917  Get the names of diseases from the disease table that have a matching ID in the cancer_tissue table, but only if their corresponding anatomical ID in the uberon_anatomical_id column is not equal to "UBERON:0000992".
+3.520  Retrieve the names of all diseases that are associated with cancer tissues, excluding those associated with anatomical entity "UBERON:0000992".
+2.829  List the names of diseases that are associated with a type of cancer located in a tissue other than the heart.
+1.427  Get the names of diseases that are associated with cancer tissues, excluding those related to skin tissue.
+1.426  Retrieve the names of diseases from the database that are associated with cancer tissues, excluding any that pertain to breast tissue.
+1.423  Retrieve the names of diseases associated with cancer tissues, excluding those related to the urinary bladder.
+

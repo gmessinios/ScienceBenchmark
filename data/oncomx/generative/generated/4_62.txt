@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_trade_name = "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda AS T1 WHERE T1.test_trade_name = "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"
+GPT-3 choices:
+(0) How many records are there in the biomarker_fda table where the test_trade_name is "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(1) How many biomarkers from the FDA have a test trade name of "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(2) How many rows are there in the biomarker_fda table where the test_trade_name is "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(3) How many entries are there in the "biomarker_fda" table where the test trade name is "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(4) How many biomarkers from the FDA have a test trade name of "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(5) How many entries are there in the biomarker_fda table where the test_trade_name is "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(6) How many entries are there in the "biomarker_fda" table where the test trade name is "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?
+(7) How many rows are there in the biomarker_fda table where the test_trade_name is "VENTANA ANTI-PMS2 (A16-4) MOUSE MONOCLONAL PRIMARY ANTIBODY"?

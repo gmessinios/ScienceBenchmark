@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_article AS biomarker_article WHERE biomarker_article.pmid = "19887610"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_article AS T1 WHERE T1.pmid = "19887610"
+GPT-3 choices:
+(0) "How many biomarker articles have a PubMed ID of "19887610"?"
+(1) How many biomarker articles have a PMID value of "19887610"?
+(2) How many rows are in the biomarker_article table where the pmid column has a value of 19887610?
+(3) How many biomarker articles are there with a PMID of "19887610"?
+(4) How many articles have a PMID of "19887610" in the biomarker_article table?
+(5) How many rows are in the biomarker_article table where the pmid value is equal to "19887610"?
+(6) How many articles are there in the biomarker_article table with a pmid of "19887610"?
+(7) How many rows are in the biomarker_article table where the pmid is equal to "19887610"?

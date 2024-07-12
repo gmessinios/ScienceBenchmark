@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_level FROM eu_territorial_units AS eu_territorial_units WHERE eu_territorial_units.geocode_regions = "DE239" and eu_territorial_units.description = "Campobasso"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_level FROM eu_territorial_units AS T1 WHERE T1.geocode_regions = "DE239" and T1.description = "Campobasso"
+GPT-3 choices:
+(0) Find the geocode level for the Campobasso region in Germany with a geocode regions value of DE239 in the EU territorial units table.
+(1) Find the geocode level for the territorial unit with a geocode region of "DE239" and a description of "Campobasso" in the EU Territorial Units table.
+(2) Retrieve the geocode level from the EU territorial units table for the region with geocode "DE239" and description "Campobasso".
+(3) What is the geocode level for Campobasso in DE239 according to the EU territorial units database?
+(4) What is the geocode level for the region with the code "DE239" and description "Campobasso" in the EU territorial units table?
+(5) Retrieve the geocode level from the EU territorial units where the geocode region is "DE239" and the description is "Campobasso".
+(6) Retrieve the geocode level from the EU territorial units table where the geocode regions are "DE239" and the description is "Campobasso".
+(7) Retrieve the geocode level for Campobasso in Germany with the geocode regions "DE239".
+
+
+Re-ranked choices:
+11.224  Retrieve the geocode level from the EU territorial units table where the geocode regions are "DE239" and the description is "Campobasso".
+9.827  What is the geocode level for the region with the code "DE239" and description "Campobasso" in the EU territorial units table?
+9.826  Retrieve the geocode level from the EU territorial units table for the region with geocode "DE239" and description "Campobasso".
+9.825  Find the geocode level for the Campobasso region in Germany with a geocode regions value of DE239 in the EU territorial units table.
+9.825  Retrieve the geocode level from the EU territorial units where the geocode region is "DE239" and the description is "Campobasso".
+9.821  Find the geocode level for the territorial unit with a geocode region of "DE239" and a description of "Campobasso" in the EU Territorial Units table.
+8.426  What is the geocode level for Campobasso in DE239 according to the EU territorial units database?
+5.637  Retrieve the geocode level for Campobasso in Germany with the geocode regions "DE239".
+

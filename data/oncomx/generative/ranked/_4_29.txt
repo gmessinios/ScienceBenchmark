@@ -1,0 +1,28 @@
+SELECT count(*) FROM disease AS disease WHERE disease.name = "vaginal cancer"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM disease AS T1 WHERE T1.name = "vaginal cancer"
+GPT-3 choices:
+(0) How many records are in the disease table where the name is "vaginal cancer"?
+(1) How many cases of vaginal cancer are there in the disease database?
+(2) How many occurrences are there in the disease table where the name is "vaginal cancer"?
+(3) How many diseases are there in the database with the name "vaginal cancer"?
+(4) How many diseases are there in the database that have the name "vaginal cancer"?
+(5) How many diseases are there with the name "vaginal cancer"?
+(6) How many entries are there in the disease database where the name is "vaginal cancer"?
+(7) How many instances of the disease "vaginal cancer" are present in the database?
+
+
+Re-ranked choices:
+4.258  How many records are in the disease table where the name is "vaginal cancer"?
+4.254  How many entries are there in the disease database where the name is "vaginal cancer"?
+4.244  How many occurrences are there in the disease table where the name is "vaginal cancer"?
+2.881  How many diseases are there with the name "vaginal cancer"?
+2.862  How many diseases are there in the database with the name "vaginal cancer"?
+2.858  How many diseases are there in the database that have the name "vaginal cancer"?
+2.854  How many cases of vaginal cancer are there in the disease database?
+2.850  How many instances of the disease "vaginal cancer" are present in the database?
+

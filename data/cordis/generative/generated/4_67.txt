@@ -1,0 +1,16 @@
+SELECT count(*) FROM people AS people WHERE people.unics_id = 1209764
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people AS T1 WHERE T1.unics_id = 1209764
+GPT-3 choices:
+(0) How many people have a UNICS ID of 1209764?
+(1) How many people have the unics ID of 1209764?
+(2) How many people have a UNICS ID of 1209764?
+(3) How many people have a UNICS ID of 1209764 in the table "people"?
+(4) How many people have a unics ID of 1209764 in the people table?
+(5) How many people in the database have a UNICS ID of 1209764?
+(6) How many people have a unics ID of 1209764?
+(7) How many people in the "people" table have a UNICS ID of 1209764?

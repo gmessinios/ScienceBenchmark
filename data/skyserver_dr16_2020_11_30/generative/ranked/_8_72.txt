@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.type FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.objid != 1237678437555503132
+
+###
+
+
+Original Query:
+SELECT T1.type FROM neighbors AS T1 WHERE T1.objid != 1237678437555503132
+GPT-3 choices:
+(0) Get the type of the nearest neighbor objects that are not equal to 1237678437555503132.
+(1) Get the type of nearest neighbour objects that are not equal to 1237678437555503132.
+(2) What is the type of all objects that are neighbors of an object with objid 1237678437555503132, excluding the object itself?
+(3) Find the type of objects that are nearest neighbors to the object with ID 1237678437555503132, excluding that object.
+(4) Find the types of all nearest neighbor objects that are not equal to 1237678437555503132.
+(5) Find the type of objects that are nearest neighbors to the object with objid 1237678437555503132, excluding the object itself.
+(6) Select the type of nearest neighbour objects from a table called "neighbors" where the object ID is not equal to 1237678437555503132.
+(7) Retrieve the type of objects that are nearest neighbors to the object with an objid of 1237678437555503132, excluding that specific object.
+
+
+Re-ranked choices:
+7.034  Select the type of nearest neighbour objects from a table called "neighbors" where the object ID is not equal to 1237678437555503132.
+5.637  Find the type of objects that are nearest neighbors to the object with ID 1237678437555503132, excluding that object.
+4.265  Get the type of nearest neighbour objects that are not equal to 1237678437555503132.
+4.231  What is the type of all objects that are neighbors of an object with objid 1237678437555503132, excluding the object itself?
+4.229  Find the type of objects that are nearest neighbors to the object with objid 1237678437555503132, excluding the object itself.
+4.227  Retrieve the type of objects that are nearest neighbors to the object with an objid of 1237678437555503132, excluding that specific object.
+2.875  Get the type of the nearest neighbor objects that are not equal to 1237678437555503132.
+1.475  Find the types of all nearest neighbor objects that are not equal to 1237678437555503132.
+

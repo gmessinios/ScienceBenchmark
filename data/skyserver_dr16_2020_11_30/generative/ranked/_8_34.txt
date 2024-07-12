@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.loadversion FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.class != "QSO"
+
+###
+
+
+Original Query:
+SELECT T1.loadversion FROM specobj AS T1 WHERE T1.class != "QSO"
+GPT-3 choices:
+(0) What is the version of data loaded for all objects that are not classified as quasars in the specobj table?
+(1) Retrieve the load version from the Spectroscopic_objects table for all objects that are not classified as QSOs.
+(2) What is the load version for all spectroscopic objects that are not classified as a QSO?
+(3) Retrieve the load version from the Spectroscopic_objects table for all objects that are not classified as QSO.
+(4) Find the loadversion of Spectroscopic_objects where the class is not "QSO".
+(5) "Find the load version for all objects in the Spectroscopic_objects table where the class is not equal to 'QSO'."
+(6) What is the version of the spectroscopic objects that are not classified as QSO?
+(7) Find the version of the spectroscopic objects data that was not classified as "QSO".
+
+
+Re-ranked choices:
+7.036  "Find the load version for all objects in the Spectroscopic_objects table where the class is not equal to 'QSO'."
+4.930  Retrieve the load version from the Spectroscopic_objects table for all objects that are not classified as QSO.
+4.928  Retrieve the load version from the Spectroscopic_objects table for all objects that are not classified as QSOs.
+4.242  What is the load version for all spectroscopic objects that are not classified as a QSO?
+3.534  Find the version of the spectroscopic objects data that was not classified as "QSO".
+2.841  Find the loadversion of Spectroscopic_objects where the class is not "QSO".
+2.839  What is the version of the spectroscopic objects that are not classified as QSO?
+2.831  What is the version of data loaded for all objects that are not classified as quasars in the specobj table?
+

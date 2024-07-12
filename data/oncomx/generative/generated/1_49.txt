@@ -1,0 +1,16 @@
+SELECT healthy_expression.expression_score FROM healthy_expression AS healthy_expression JOIN anatomical_entity AS anatomical_entity ON healthy_expression.uberon_anatomical_id = anatomical_entity.id WHERE anatomical_entity.description = "the group of neurons that serve as the primary processor of visual information received from the retina via the optic tract and send processed information to the visual cortex of the occipital lobe"
+
+###
+
+
+Original Query:
+SELECT T1.expression_score FROM healthy_expression AS T1 JOIN anatomical_entity AS T2 ON T1.uberon_anatomical_id = T2.id WHERE T2.description = "the group of neurons that serve as the primary processor of visual information received from the retina via the optic tract and send processed information to the visual cortex of the occipital lobe"
+GPT-3 choices:
+(0) What is the expression score for the group of neurons that serve as the primary processor of visual information from the retina and send processed information to the visual cortex in the occipital lobe?
+(1) Get the expression scores from the table of healthy expression for neurons in the group responsible for processing visual information received from the retina and sending it to the occipital lobe.
+(2) What is the expression score for the group of neurons responsible for processing visual information from the retina and sending it to the occipital lobe?
+(3) What is the expression score of the neurons responsible for processing visual information from the retina and sending it to the occipital lobe in healthy individuals?
+(4) Retrieve the expression score from the healthy_expression table for the anatomical entity that corresponds to the group of neurons responsible for processing visual information from the retina and sending it to the visual cortex in the occipital lobe.
+(5) Get the expression score from the table "healthy_expression" for the neurons that are responsible for processing visual information from the retina and sending it to the occipital lobe in the visual cortex.
+(6) Retrieve the expression score from the healthy_expression table for the anatomical entity with a description of "the group of neurons that serve as the primary processor of visual information received from the retina via the optic tract and send processed information to the visual cortex of the occipital lobe".
+(7) Retrieve the expression score from the healthy_expression table for the group of neurons that serve as the primary processor of visual information received from the retina via the optic tract and send processed information to the visual cortex of the occipital lobe, which is described as "the group of neurons that serve as the primary processor of visual information received from the retina via the optic tract and send processed information to the visual cortex of the occipital lobe" in anatomical_entity table.

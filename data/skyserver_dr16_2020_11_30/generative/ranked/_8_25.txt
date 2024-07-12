@@ -1,0 +1,28 @@
+SELECT Spectroscopic_objects.ancillary_target1 FROM specobj AS Spectroscopic_objects WHERE Spectroscopic_objects.special_target1 != 1048576
+
+###
+
+
+Original Query:
+SELECT T1.ancillary_target1 FROM specobj AS T1 WHERE T1.special_target1 != 1048576
+GPT-3 choices:
+(0) Retrieve the ancillary target 1 values from the spectroscopic objects where the special target 1 value is not equal to 1048576.
+(1) What are the ancillary targets of spectroscopic objects that do not have a special target with code 1048576?
+(2) Find the ancillary target 1 for all spectroscopic objects where the special target 1 is not equal to 1048576.
+(3) "Retrieve the ancillary target 1 for all spectroscopic objects where the special target 1 is not equal to 1048576."
+(4) "Retrieve the ancillary target 1 for spectroscopic objects where the special target 1 is not equal to 1048576."
+(5) What are the ancillary target values for all spectroscopic objects where the special target value is not equal to 1048576?
+(6) What is the ancillary target 1 for all spectroscopic objects where the special target 1 is not equal to 1048576?
+(7) What is the ancillary target1 for all spectroscopic objects where special_target1 is not equal to 1048576?
+
+
+Re-ranked choices:
+5.633  What are the ancillary targets of spectroscopic objects that do not have a special target with code 1048576?
+4.232  Find the ancillary target 1 for all spectroscopic objects where the special target 1 is not equal to 1048576.
+4.232  "Retrieve the ancillary target 1 for all spectroscopic objects where the special target 1 is not equal to 1048576."
+4.230  What is the ancillary target 1 for all spectroscopic objects where the special target 1 is not equal to 1048576?
+4.229  "Retrieve the ancillary target 1 for spectroscopic objects where the special target 1 is not equal to 1048576."
+4.227  What are the ancillary target values for all spectroscopic objects where the special target value is not equal to 1048576?
+4.226  Retrieve the ancillary target 1 values from the spectroscopic objects where the special target 1 value is not equal to 1048576.
+2.832  What is the ancillary target1 for all spectroscopic objects where special_target1 is not equal to 1048576?
+

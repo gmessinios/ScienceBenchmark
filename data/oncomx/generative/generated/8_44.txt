@@ -1,0 +1,16 @@
+SELECT map_uniprot_canonical_id.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS map_uniprot_canonical_id WHERE map_uniprot_canonical_id.uniprotkb_ac != "A0A0A0MT93"
+
+###
+
+
+Original Query:
+SELECT T1.uniprotkb_canonical_ac FROM map_uniprot_canonical_id AS T1 WHERE T1.uniprotkb_ac != "A0A0A0MT93"
+GPT-3 choices:
+(0) Get the UniProtKB canonical accessions for entries in the map_uniprot_canonical_id table where the UniProtKB accession is not equal to "A0A0A0MT93".
+(1) Retrieve the canonical UniProtKB AC from the table "map_uniprot_canonical_id" where the UniProtKB AC is not equal to "A0A0A0MT93".
+(2) Retrieve the UniprotKB canonical accession number from the map_uniprot_canonical_id table where the UniprotKB accession number is not "A0A0A0MT93".
+(3) Find the canonical UniprotKB accession number for which the UniprotKB canonical accession number is not equal to "A0A0A0MT93".
+(4) Find the UniProtKB canonical accession numbers from the map_uniprot_canonical_id table where the UniProtKB accession number is not "A0A0A0MT93".
+(5) "Retrieve the canonical UniProtKB ID from the table map_uniprot_canonical_id where the UniProtKB accession is not "A0A0A0MT93"."
+(6) Retrieve the uniprotkb_canonical_ac from the map_uniprot_canonical_id table where the uniprotkb_ac is not equal to "A0A0A0MT93".
+(7) Get the uniprotkb_canonical_ac from the map_uniprot_canonical_id table where the uniprotkb_ac is not equal to "A0A0A0MT93".

@@ -1,0 +1,28 @@
+SELECT biomarker_fda_ncit_term.biomarker_fda_id, count(*) FROM biomarker_fda_ncit_term AS biomarker_fda_ncit_term  GROUP BY biomarker_fda_ncit_term.biomarker_fda_id
+
+###
+
+
+Original Query:
+SELECT T1.biomarker_fda_id, count(*) FROM biomarker_fda_ncit_term AS T1  GROUP BY T1.biomarker_fda_id
+GPT-3 choices:
+(0) "Count the number of biomarker FDA NCIT terms for each unique biomarker FDA ID."
+(1) What is the count of NCIt terms associated with each FDA biomarker ID in the biomarker_fda_ncit_term table?
+(2) Count the number of biomarker NCIT terms for each unique FDA biomarker ID in the biomarker_fda_ncit_term table.
+(3) Count the number of instances for each biomarker from the biomarker_fda_ncit_term table and group them by their respective FDA ID.
+(4) How many times does each FDA biomarker have associated NCIt terms?
+(5) How many biomarker FDA IDs are there and how many times do they appear in the biomarker FDA NCIT term table?
+(6) How many biomarker terms are associated with each FDA biomarker ID in the table of biomarker-FDA-NCIT term associations?
+(7) How many occurrences of biomarker FDA terms are there for each unique biomarker FDA ID?
+
+
+Re-ranked choices:
+5.638  How many biomarker FDA IDs are there and how many times do they appear in the biomarker FDA NCIT term table?
+5.628  Count the number of biomarker NCIT terms for each unique FDA biomarker ID in the biomarker_fda_ncit_term table.
+5.626  What is the count of NCIt terms associated with each FDA biomarker ID in the biomarker_fda_ncit_term table?
+5.624  How many biomarker terms are associated with each FDA biomarker ID in the table of biomarker-FDA-NCIT term associations?
+4.260  "Count the number of biomarker FDA NCIT terms for each unique biomarker FDA ID."
+4.241  How many times does each FDA biomarker have associated NCIt terms?
+3.528  Count the number of instances for each biomarker from the biomarker_fda_ncit_term table and group them by their respective FDA ID.
+2.854  How many occurrences of biomarker FDA terms are there for each unique biomarker FDA ID?
+

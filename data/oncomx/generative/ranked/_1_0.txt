@@ -1,0 +1,28 @@
+SELECT anatomical_entity.description FROM anatomical_entity AS anatomical_entity JOIN disease_mutation_tissue AS disease_mutation_tissue ON anatomical_entity.id = disease_mutation_tissue.uberon_anatomical_id WHERE disease_mutation_tissue.uberon_anatomical_id = "UBERON:0002370"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM anatomical_entity AS T1 JOIN disease_mutation_tissue AS T2 ON T1.id = T2.uberon_anatomical_id WHERE T2.uberon_anatomical_id = "UBERON:0002370"
+GPT-3 choices:
+(0) Find the description of anatomical entities associated with disease-mutation-tissue data for the anatomy identified as "UBERON:0002370".
+(1) Retrieve the description of anatomical entities that are associated with the tissue "UBERON:0002370" in disease mutation.
+(2) What is the description of the anatomical entity where its ID is equal to "UBERON:0002370" and it is also present in the disease_mutation_tissue table?
+(3) Retrieve the description of anatomical entities that are associated with a specific UBERON anatomical ID, specifically "UBERON:0002370", from the tables "anatomical_entity" and "disease_mutation_tissue".
+(4) What is the description of the anatomical entity associated with UBERON:0002370 in the disease_mutation_tissue table?
+(5) What is the description of the anatomical entity associated with the UBERON identifier "UBERON:0002370" in the disease_mutation_tissue table?
+(6) Retrieve the description of the anatomical entity from the table "anatomical_entity" where its ID is "UBERON:0002370" and it is also present in the table "disease_mutation_tissue".
+(7) Retrieve the description of anatomical entities that have a corresponding ID in the disease_mutation_tissue table, where the ID is "UBERON:0002370".
+
+
+Re-ranked choices:
+6.324  What is the description of the anatomical entity where its ID is equal to "UBERON:0002370" and it is also present in the disease_mutation_tissue table?
+6.321  Retrieve the description of anatomical entities that are associated with the tissue "UBERON:0002370" in disease mutation.
+6.318  Retrieve the description of the anatomical entity from the table "anatomical_entity" where its ID is "UBERON:0002370" and it is also present in the table "disease_mutation_tissue".
+6.316  What is the description of the anatomical entity associated with the UBERON identifier "UBERON:0002370" in the disease_mutation_tissue table?
+4.921  Retrieve the description of anatomical entities that have a corresponding ID in the disease_mutation_tissue table, where the ID is "UBERON:0002370".
+4.919  What is the description of the anatomical entity associated with UBERON:0002370 in the disease_mutation_tissue table?
+4.914  Retrieve the description of anatomical entities that are associated with a specific UBERON anatomical ID, specifically "UBERON:0002370", from the tables "anatomical_entity" and "disease_mutation_tissue".
+3.516  Find the description of anatomical entities associated with disease-mutation-tissue data for the anatomy identified as "UBERON:0002370".
+

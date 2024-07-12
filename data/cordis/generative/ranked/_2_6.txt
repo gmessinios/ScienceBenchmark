@@ -1,0 +1,28 @@
+SELECT subject_areas.title, count(*) FROM subject_areas AS subject_areas  GROUP BY subject_areas.title
+
+###
+
+
+Original Query:
+SELECT T1.title, count(*) FROM subject_areas AS T1  GROUP BY T1.title
+GPT-3 choices:
+(0) What is the total number of entries grouped by title in the subject areas table?
+(1) Count the number of records for each subject area and group them by their title.
+(2) Find the number of records in the subject_areas table grouped by their titles.
+(3) What is the count of all titles in the subject areas table, grouped by each title?
+(4) Count the number of entries in the "title" column of the "subject_areas" table and group them by their corresponding values, then display the result alongside each title.
+(5) How many subject areas are there and what is the title of each one?
+(6) "Retrieve the title and count of all subject areas from the table 'subject_areas' grouped by their respective titles."
+(7) "How many subjects fall under each title in the 'subject_areas' table?"
+
+
+Re-ranked choices:
+4.937  What is the total number of entries grouped by title in the subject areas table?
+4.929  "Retrieve the title and count of all subject areas from the table 'subject_areas' grouped by their respective titles."
+4.260  How many subject areas are there and what is the title of each one?
+3.550  What is the count of all titles in the subject areas table, grouped by each title?
+2.168  Count the number of records for each subject area and group them by their title.
+2.122  Count the number of entries in the "title" column of the "subject_areas" table and group them by their corresponding values, then display the result alongside each title.
+1.439  "How many subjects fall under each title in the 'subject_areas' table?"
+0.742  Find the number of records in the subject_areas table grouped by their titles.
+

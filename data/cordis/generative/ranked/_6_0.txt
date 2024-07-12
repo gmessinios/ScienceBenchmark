@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics AS topics WHERE topics.code = "ECSEL-2016-2" and topics.title = "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 WHERE T1.code = "ECSEL-2016-2" and T1.title = "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges"
+GPT-3 choices:
+(0) What is the RCN of the topic "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges" with the code "ECSEL-2016-2"?
+(1) Find the research call number for a topic in the ECSEL-2016-2 category with the title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+(2) Retrieve the research council number from the topics table for the topic with code "ECSEL-2016-2" and title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+(3) Find the RCN of the topic with the code "ECSEL-2016-2" and title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+(4) Retrieve the RCN number from the topics table where the code is "ECSEL-2016-2" and the title is "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+(5) Find the research code for a topic titled "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges" in the table of topics with the code "ECSEL-2016-2".
+(6) What is the research council number for the topic "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges" under the code "ECSEL-2016-2"?
+(7) Find the research code for the topic "ECSEL-2016-2" with the title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+
+
+Re-ranked choices:
+14.018  Retrieve the RCN number from the topics table where the code is "ECSEL-2016-2" and the title is "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+12.620  Find the RCN of the topic with the code "ECSEL-2016-2" and title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+12.617  Retrieve the research council number from the topics table for the topic with code "ECSEL-2016-2" and title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+11.221  What is the RCN of the topic "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges" with the code "ECSEL-2016-2"?
+11.219  Find the research code for the topic "ECSEL-2016-2" with the title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+11.218  Find the research code for a topic titled "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges" in the table of topics with the code "ECSEL-2016-2".
+9.818  What is the research council number for the topic "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges" under the code "ECSEL-2016-2"?
+9.817  Find the research call number for a topic in the ECSEL-2016-2 category with the title "Multi-stakeholder dialogue platform to promote innovation with nature to address societal challenges".
+

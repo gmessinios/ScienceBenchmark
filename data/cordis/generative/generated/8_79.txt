@@ -1,0 +1,16 @@
+SELECT countries.geocode_country_code FROM countries AS countries WHERE countries.country_name != "Australia"
+
+###
+
+
+Original Query:
+SELECT T1.geocode_country_code FROM countries AS T1 WHERE T1.country_name != "Australia"
+GPT-3 choices:
+(0) What are the geocode country codes for all countries except Australia?
+(1) Select the geocode country code from the countries table where the country name is not "Australia".
+(2) Retrieve the geocode country code from the countries table where the country name is not "Australia".
+(3) Get the geocode country code for all countries except Australia from the table of countries.
+(4) Get the geocode country code from the countries table for all countries except "Australia".
+(5) Get the geocode country code from the countries table where the country name is not "Australia".
+(6) Get the geocode country code from the countries table for all countries except for Australia.
+(7) Retrieve the geocode country code from the countries table, excluding any rows where the country name is equal to "Australia".

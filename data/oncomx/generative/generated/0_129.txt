@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_trade_name = "FoundationFocus CDxBRCA"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.test_trade_name = "FoundationFocus CDxBRCA"
+GPT-3 choices:
+(0) What is the FDA test submission for a biomarker with a test trade name of "FoundationFocus CDxBRCA"?
+(1) "Retrieve the test submission for the FDA-approved biomarker with the trade name of 'FoundationFocus CDxBRCA' from the database."
+(2) Retrieve the test submission for "FoundationFocus CDxBRCA" from the biomarker_fda table.
+(3) Retrieve the test submission for the FoundationFocus CDxBRCA from the biomarker_fda table.
+(4) What is the test submission for the biomarker FDA entry with a test trade name of "FoundationFocus CDxBRCA"?
+(5) What is the test submission for "FoundationFocus CDxBRCA" in the FDA biomarker database?
+(6) Get the test submission for the FoundationFocus CDxBRCA from the biomarker_fda database.
+(7) What is the test submission for the FoundationFocus CDxBRCA test in the biomarker_fda database?

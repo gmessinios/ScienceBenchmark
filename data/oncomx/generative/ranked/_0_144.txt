@@ -1,0 +1,27 @@
+SELECT xref_gene_ensembl.speciesid FROM xref_gene_ensembl AS xref_gene_ensembl WHERE xref_gene_ensembl.gene_symbol = "2310046K23Rik"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM xref_gene_ensembl AS T1 WHERE T1.gene_symbol = "2310046K23Rik"
+GPT-3 choices:
+(0) What is the species ID for the gene symbol "2310046K23Rik" in the xref_gene_ensembl table?
+(1) What is the species ID for the gene with the symbol "2310046K23Rik" in the xref_gene_ensembl table?
+(2) Retrieve the species ID for the gene symbol "2310046K23Rik" from the xref_gene_ensembl table.
+(3) Get the species ID from the xref_gene_ensembl table for a gene with the symbol "2310046K23Rik".
+(4) What is the species ID for the gene with a gene symbol of "2310046K23Rik" in the xref_gene_ensembl table?
+(5) What is the species ID for the gene with the gene symbol "2310046K23Rik" in the table xref_gene_ensembl?
+(6) What is the species ID for the gene with the symbol "2310046K23Rik" in the xref_gene_ensembl table?
+(7) Find the species ID from the xref_gene_ensembl table where the gene symbol is "2310046K23Rik".
+
+
+Re-ranked choices:
+3.545  Get the species ID from the xref_gene_ensembl table for a gene with the symbol "2310046K23Rik".
+3.543  What is the species ID for the gene with the symbol "2310046K23Rik" in the xref_gene_ensembl table?
+3.541  What is the species ID for the gene symbol "2310046K23Rik" in the xref_gene_ensembl table?
+3.541  What is the species ID for the gene with the gene symbol "2310046K23Rik" in the table xref_gene_ensembl?
+3.541  Find the species ID from the xref_gene_ensembl table where the gene symbol is "2310046K23Rik".
+3.538  What is the species ID for the gene with a gene symbol of "2310046K23Rik" in the xref_gene_ensembl table?
+3.537  Retrieve the species ID for the gene symbol "2310046K23Rik" from the xref_gene_ensembl table.
+

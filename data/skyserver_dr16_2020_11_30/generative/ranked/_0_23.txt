@@ -1,0 +1,28 @@
+SELECT photometrically_observed.value FROM photo_type AS photometrically_observed WHERE photometrically_observed.name = "COSMIC_RAY"
+
+###
+
+
+Original Query:
+SELECT T1.value FROM photo_type AS T1 WHERE T1.name = "COSMIC_RAY"
+GPT-3 choices:
+(0) Retrieve the value from the "photometrically_observed" table where the name is equal to "COSMIC_RAY".
+(1) Get the value from the column "value" in the table "photo_type" where the name is equal to "COSMIC_RAY".
+(2) "Retrieve the value of the 'COSMIC_RAY' column from the 'photometrically_observed' table within the 'photo_type' database."
+(3) Retrieve the value of photometrically observed data for the cosmic ray type from the photo_type table.
+(4) Get the value of the "COSMIC_RAY" type from the "photo_type" table, specifically from the column "value".
+(5) Retrieve the value from the "photometrically_observed" column where the name is equal to "COSMIC_RAY" in the photo_type table.
+(6) What is the value for the "COSMIC_RAY" entry in the column named "value" in the table "photo_type"?
+(7) Retrieve the value from the "value" column of the table "photo_type" where the name is equal to "COSMIC_RAY".
+
+
+Re-ranked choices:
+4.230  Retrieve the value from the "photometrically_observed" table where the name is equal to "COSMIC_RAY".
+4.226  Retrieve the value from the "photometrically_observed" column where the name is equal to "COSMIC_RAY" in the photo_type table.
+4.225  Retrieve the value of photometrically observed data for the cosmic ray type from the photo_type table.
+3.538  Get the value from the column "value" in the table "photo_type" where the name is equal to "COSMIC_RAY".
+3.538  Retrieve the value from the "value" column of the table "photo_type" where the name is equal to "COSMIC_RAY".
+2.822  "Retrieve the value of the 'COSMIC_RAY' column from the 'photometrically_observed' table within the 'photo_type' database."
+2.134  What is the value for the "COSMIC_RAY" entry in the column named "value" in the table "photo_type"?
+2.132  Get the value of the "COSMIC_RAY" type from the "photo_type" table, specifically from the column "value".
+

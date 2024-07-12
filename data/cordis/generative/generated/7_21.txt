@@ -1,0 +1,16 @@
+SELECT projects.objective FROM projects AS projects WHERE projects.unics_id = 144271 or projects.start_date = "2012-09-12"
+
+###
+
+
+Original Query:
+SELECT T1.objective FROM projects AS T1 WHERE T1.unics_id = 144271 or T1.start_date = "2012-09-12"
+GPT-3 choices:
+(0) Retrieve the objective of the project with a UNICS ID of 144271 or a start date of September 12th, 2012 from the projects table.
+(1) What is the objective of the project with a UNICS ID of 144271 or a start date of September 12th, 2012?
+(2) What is the objective of the project with a UNICS ID of 144271 or a start date of September 12, 2012?
+(3) What is the objective of the project with a UNICS ID of 144271 or a start date of September 12th, 2012?
+(4) What is the objective of the project with a UNICS ID of 144271 or a start date of September 12, 2012?
+(5) What is the objective of the project with an UNICS ID of 144271 or a start date of September 12th, 2012?
+(6) What is the objective of the project with a UNICS ID of 144271 or a start date of September 12, 2012?
+(7) What is the objective of the project with an unics_id of 144271 or a start date of September 12, 2012?

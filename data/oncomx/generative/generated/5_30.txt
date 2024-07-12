@@ -1,0 +1,16 @@
+SELECT species.genus FROM species AS species    ORDER BY species.speciesid DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.genus FROM species AS T1    ORDER BY T1.speciesid DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the name of the genus from the last entry in the table "species" and arrange them in descending order, with a limit of 1 result.
+(1) Get the genus of the most recent species in the "species" table, ordered by the "speciesid" column in descending order.
+(2) "Retrieve the genus of the last species in alphabetical order based on their unique identifier."
+(3) Show the genus of the most recently added species, sorted in descending order based on its unique identifier.
+(4) "Retrieve the genus of the most recently added species from the species table, sorted in descending order by the species ID and limited to only one result."
+(5) Get the genus of the latest added species in ascending order.
+(6) Get the genus of the most recently added species in the table called "species".
+(7) Get the genus of the most recently added species from the species table, ordered by species id in descending order and limited to 1 result.

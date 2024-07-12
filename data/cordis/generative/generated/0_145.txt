@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes AS programmes WHERE programmes.rcn = "664221"
+
+###
+
+
+Original Query:
+SELECT T1.short_name FROM programmes AS T1 WHERE T1.rcn = "664221"
+GPT-3 choices:
+(0) Find the short name of the programme with an RCN of 664221 in the "programmes" table.
+(1) What is the short name of the programme with RCN number 664221?
+(2) What is the short name of the programme with an RCN value of 664221?
+(3) Retrieve the short name of the programme where the research council number is equal to "664221".
+(4) What is the short name of the programme with RCN number "664221"?
+(5) What is the short name of the programme with an RCN value of "664221"?
+(6) Retrieve the short name of the programme with an RCN value of "664221" from the table "programmes".
+(7) Retrieve the short name of the programme from the table "programmes" where the rcn is equal to "664221".

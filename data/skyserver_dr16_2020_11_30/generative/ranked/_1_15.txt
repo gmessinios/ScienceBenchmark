@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.distance FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.u = 14.24506
+
+###
+
+
+Original Query:
+SELECT T1.distance FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.u = 14.24506
+GPT-3 choices:
+(0) Find the distance of the nearest neighboring objects from the photo objects with a u value of 14.24506.
+(1) Find the distance from the nearest neighbour objects for photo objects with a u value of 14.24506 by joining the neighbors table and the photoobj table on their objid columns.
+(2) Find the distance of nearest neighboring objects from the photoobj table for objects with a u value of 14.24506 in the photometric_objects table.
+(3) Find the distance of the nearest neighboring object from the photo objects where the u value is equal to 14.24506.
+(4) Find the distance of nearest neighboring objects for all objects in the "neighbors" table whose objid values match those in the "photoobj" table and have a value of 14.24506 in the "u" column.
+(5) What is the distance of the nearest neighbor object for photometric objects with a u value of 14.24506, joined on their objid values?
+(6) Get the distance from the nearest neighbor objects table for all objects in the photometric objects table with a u value of 14.24506.
+(7) Retrieve the distance of nearest neighbour objects from the neighbors table where the object ID matches between the neighbors and photoobj tables, and also retrieve the distance for only those objects in the photoobj table that have a u value of 14.24506.
+
+
+Re-ranked choices:
+12.613  Retrieve the distance of nearest neighbour objects from the neighbors table where the object ID matches between the neighbors and photoobj tables, and also retrieve the distance for only those objects in the photoobj table that have a u value of 14.24506.
+9.135  What is the distance of the nearest neighbor object for photometric objects with a u value of 14.24506, joined on their objid values?
+9.125  Find the distance from the nearest neighbour objects for photo objects with a u value of 14.24506 by joining the neighbors table and the photoobj table on their objid columns.
+7.034  Find the distance of the nearest neighboring object from the photo objects where the u value is equal to 14.24506.
+7.032  Find the distance of nearest neighboring objects for all objects in the "neighbors" table whose objid values match those in the "photoobj" table and have a value of 14.24506 in the "u" column.
+7.025  Get the distance from the nearest neighbor objects table for all objects in the photometric objects table with a u value of 14.24506.
+6.331  Find the distance of nearest neighboring objects from the photoobj table for objects with a u value of 14.24506 in the photometric_objects table.
+5.633  Find the distance of the nearest neighboring objects from the photo objects with a u value of 14.24506.
+

@@ -1,0 +1,28 @@
+SELECT project_members.activity_type FROM project_members AS project_members    ORDER BY project_members.longitude DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT T1.activity_type FROM project_members AS T1    ORDER BY T1.longitude DESC LIMIT 1
+GPT-3 choices:
+(0) What is the activity type of the project member with the highest longitude?
+(1) "Retrieve the activity type for the project member with the highest longitude, ordering the results in descending order and limiting it to one record."
+(2) Retrieve the activity type from the project members table, ordering by longitude in descending order and limiting the result to one row.
+(3) Find the activity type of the member in the project with the highest longitude.
+(4) Get the activity type of the project member with the highest longitude.
+(5) "Retrieve the activity type from the last record in the project members table, sorted by longitude in descending order."
+(6) Find the most recent activity type recorded by project members, sorted by their longitude in descending order.
+(7) "Retrieve the activity type of the project member with the highest longitude, sorted in descending order and limited to one result."
+
+
+Re-ranked choices:
+7.728  "Retrieve the activity type from the last record in the project members table, sorted by longitude in descending order."
+7.723  Retrieve the activity type from the project members table, ordering by longitude in descending order and limiting the result to one row.
+6.327  Find the most recent activity type recorded by project members, sorted by their longitude in descending order.
+4.242  What is the activity type of the project member with the highest longitude?
+4.239  Find the activity type of the member in the project with the highest longitude.
+4.237  Get the activity type of the project member with the highest longitude.
+4.224  "Retrieve the activity type of the project member with the highest longitude, sorted in descending order and limited to one result."
+4.222  "Retrieve the activity type for the project member with the highest longitude, ordering the results in descending order and limiting it to one record."
+

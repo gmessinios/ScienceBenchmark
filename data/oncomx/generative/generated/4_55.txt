@@ -1,0 +1,16 @@
+SELECT count(*) FROM biomarker_fda_test_use AS biomarker_fda_test_use WHERE biomarker_fda_test_use.test_submission = "K062762"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM biomarker_fda_test_use AS T1 WHERE T1.test_submission = "K062762"
+GPT-3 choices:
+(0) How many biomarker-FDA-test-use entries are there where the test submission is "K062762"?
+(1) How many biomarker submissions are associated with the test submission number K062762 in the biomarker_fda_test_use table?
+(2) How many biomarkers have been submitted for FDA testing under the test submission number "K062762"?
+(3) How many rows are there in the biomarker_fda_test_use table where the test_submission column is equal to "K062762"?
+(4) How many rows are there in the "biomarker_fda_test_use" table where the "test_submission" column is equal to "K062762"?
+(5) How many entries are in the biomarker_fda_test_use table where the test_submission column has a value of "K062762"?
+(6) How many biomarker-fda-test-uses are there where the test submission is "K062762"?
+(7) How many biomarker FDA test uses have a test submission of "K062762"?

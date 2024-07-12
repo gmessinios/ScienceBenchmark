@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.ancillary_target1 != 68719493120
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.ancillary_target1 != 68719493120
+GPT-3 choices:
+(0) Find the specobjid of the Emission_line_estimates table where the ancillary_target1 column in the Spectroscopic_objects table is not equal to 68719493120.
+(1) What is the specobjid of all objects in the Emission_line_estimates table that are not associated with ancillary target 1 value of 68719493120 in the Spectroscopic_objects table?
+(2) Retrieve the specobjid values from the Emission_line_estimates table for spectroscopic objects where the ancillary_target1 value in the Spectroscopic_objects table is not equal to 68719493120.
+(3) What are the specobjid values from the Emission_line_estimates table where the ancillary_target1 value in the corresponding row in the specobj table is not equal to 68719493120?
+(4) Retrieve the specobjid from the Emission_line_estimates table where the ancillary_target1 value in the corresponding row in the specobj table is not equal to 68719493120.
+(5) "Retrieve the specobjid from galspecline where the ancillary_target1 in specobj is not equal to 68719493120."
+(6) Retrieve the specobjid values from the galspecline table where the ancillary_target1 value in the corresponding row of the specobj table is not equal to 68719493120.
+(7) Find the specobjid for emission line estimates from the galspecline table where the ancillary_target1 value in the corresponding row of specobj is not equal to 68719493120.

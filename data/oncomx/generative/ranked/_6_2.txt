@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_trial_id FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name = "Prosigna Breast Cancer Prognostic Gene Signature Assay" and biomarker_fda_test_trial.test_submission = "K062742"
+
+###
+
+
+Original Query:
+SELECT T1.test_trial_id FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name = "Prosigna Breast Cancer Prognostic Gene Signature Assay" and T1.test_submission = "K062742"
+GPT-3 choices:
+(0) Retrieve the test trial ID from the FDA-approved Prosigna Breast Cancer Prognostic Gene Signature Assay with a submission code of K062742.
+(1) Find the FDA test trial ID for the Prosigna Breast Cancer Prognostic Gene Signature Assay with a trade name of "Prosigna" and submission number "K062742".
+(2) Find the ID for the FDA test trial of the Prosigna Breast Cancer Prognostic Gene Signature Assay with a submission number of K062742.
+(3) Find the ID of the test trial for Prosigna Breast Cancer Prognostic Gene Signature Assay with the FDA submission number K062742.
+(4) Retrieve the test trial ID from the biomarker FDA test trial table where the test trade name is "Prosigna Breast Cancer Prognostic Gene Signature Assay" and the test submission is "K062742".
+(5) Retrieve the test trial ID from the biomarker FDA test trial database where the test trade name is "Prosigna Breast Cancer Prognostic Gene Signature Assay" and the test submission is "K062742".
+(6) Find the test trial ID for the FDA-approved Prosigna Breast Cancer Prognostic Gene Signature Assay with a test submission number of K062742.
+(7) Find the test trial ID for the FDA-approved Prosigna Breast Cancer Prognostic Gene Signature Assay with a test trade name of "Prosigna Breast Cancer Prognostic Gene Signature Assay" and a test submission code of "K062742".
+
+
+Re-ranked choices:
+16.821  Retrieve the test trial ID from the biomarker FDA test trial table where the test trade name is "Prosigna Breast Cancer Prognostic Gene Signature Assay" and the test submission is "K062742".
+16.821  Retrieve the test trial ID from the biomarker FDA test trial database where the test trade name is "Prosigna Breast Cancer Prognostic Gene Signature Assay" and the test submission is "K062742".
+15.424  Find the FDA test trial ID for the Prosigna Breast Cancer Prognostic Gene Signature Assay with a trade name of "Prosigna" and submission number "K062742".
+14.017  Find the test trial ID for the FDA-approved Prosigna Breast Cancer Prognostic Gene Signature Assay with a test trade name of "Prosigna Breast Cancer Prognostic Gene Signature Assay" and a test submission code of "K062742".
+11.928  Find the ID for the FDA test trial of the Prosigna Breast Cancer Prognostic Gene Signature Assay with a submission number of K062742.
+11.927  Find the ID of the test trial for Prosigna Breast Cancer Prognostic Gene Signature Assay with the FDA submission number K062742.
+10.527  Retrieve the test trial ID from the FDA-approved Prosigna Breast Cancer Prognostic Gene Signature Assay with a submission code of K062742.
+10.526  Find the test trial ID for the FDA-approved Prosigna Breast Cancer Prognostic Gene Signature Assay with a test submission number of K062742.
+

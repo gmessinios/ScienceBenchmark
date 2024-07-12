@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics AS topics WHERE topics.title = "Energy efficiency in energy intensive industry"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM topics AS T1 WHERE T1.title = "Energy efficiency in energy intensive industry"
+GPT-3 choices:
+(0) What is the code for the topic "Energy efficiency in energy intensive industry"?
+(1) What is the code for the topic "Energy efficiency in energy intensive industry"?
+(2) Retrieve the code for topics with the title "Energy efficiency in energy intensive industry" from the table "topics".
+(3) Retrieve the code of the topic with a title of "Energy efficiency in energy intensive industry" from the topics table.
+(4) Retrieve the code for the topic "Energy efficiency in energy intensive industry" from the topics table.
+(5) What is the code for the topic titled "Energy efficiency in energy intensive industry"?
+(6) Retrieve the code for the topic "Energy efficiency in energy intensive industry" from the topics table.
+(7) Get the topic code from the topics table where the title is "Energy efficiency in energy intensive industry".

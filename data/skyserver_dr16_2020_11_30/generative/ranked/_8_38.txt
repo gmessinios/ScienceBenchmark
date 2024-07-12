@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.value != 9
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.value != 9
+GPT-3 choices:
+(0) Retrieve the names of all objects that have been observed photometrically, but do not have a value of 9 for their photo type.
+(1) "Find the names of all objects that have a photometric observation value other than 9."
+(2) What are the names of photometric observations that have a value other than 9?
+(3) Retrieve the name of all objects that have a photometric observation value that is not equal to 9 from the table "photo_type".
+(4) "Retrieve the names of all photometrically observed objects that have a value not equal to 9 in the photo_type table."
+(5) Get the name of all photometrically observed objects from the photo_type table where their value is not equal to 9.
+(6) "Retrieve the names of objects from the photo_type table where their photometrically observed value is not equal to 9."
+(7) "Retrieve the name of all photometrically observed objects that have a value other than 9 for their photo type."
+
+
+Re-ranked choices:
+5.628  "Retrieve the name of all photometrically observed objects that have a value other than 9 for their photo type."
+5.627  Get the name of all photometrically observed objects from the photo_type table where their value is not equal to 9.
+4.228  "Retrieve the names of objects from the photo_type table where their photometrically observed value is not equal to 9."
+4.227  "Retrieve the names of all photometrically observed objects that have a value not equal to 9 in the photo_type table."
+2.830  Retrieve the names of all objects that have been observed photometrically, but do not have a value of 9 for their photo type.
+2.828  Retrieve the name of all objects that have a photometric observation value that is not equal to 9 from the table "photo_type".
+1.434  What are the names of photometric observations that have a value other than 9?
+1.433  "Find the names of all objects that have a photometric observation value other than 9."
+

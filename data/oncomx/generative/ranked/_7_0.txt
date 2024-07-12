@@ -1,0 +1,28 @@
+SELECT species.speciesid FROM species AS species WHERE species.species = "sapiens" or species.speciescommonname = "human"
+
+###
+
+
+Original Query:
+SELECT T1.speciesid FROM species AS T1 WHERE T1.species = "sapiens" or T1.speciescommonname = "human"
+GPT-3 choices:
+(0) Retrieve the species ID of any species in the "species" table that is either named "sapiens" or has a common name of "human".
+(1) Find the species ID for the species "sapiens" or with the common name "human".
+(2) What is the species ID for "sapiens" or "human" in the table of species?
+(3) Retrieve the species ID for any species that is either "sapiens" or has a common name of "human" from the table of all species.
+(4) Find the species ID for the species or common name "sapiens" or "human" in the table of species.
+(5) What is the speciesid of sapiens or human in the table "species"?
+(6) Retrieve the speciesid of all species that have the scientific name "sapiens" or the common name "human".
+(7) Get the species ID of the species that has a name "sapiens" or a common name "human".
+
+
+Re-ranked choices:
+4.256  What is the speciesid of sapiens or human in the table "species"?
+4.235  Retrieve the speciesid of all species that have the scientific name "sapiens" or the common name "human".
+2.875  Find the species ID for the species "sapiens" or with the common name "human".
+2.875  What is the species ID for "sapiens" or "human" in the table of species?
+2.858  Get the species ID of the species that has a name "sapiens" or a common name "human".
+2.854  Find the species ID for the species or common name "sapiens" or "human" in the table of species.
+2.834  Retrieve the species ID of any species in the "species" table that is either named "sapiens" or has a common name of "human".
+2.833  Retrieve the species ID for any species that is either "sapiens" or has a common name of "human" from the table of all species.
+

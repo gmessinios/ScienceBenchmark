@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda JOIN biomarker_fda_ncit_term AS biomarker_fda_ncit_term ON biomarker_fda.id = biomarker_fda_ncit_term.biomarker_fda_id WHERE biomarker_fda_ncit_term.biomarker_fda_id = "FDA000013"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 JOIN biomarker_fda_ncit_term AS T2 ON T1.id = T2.biomarker_fda_id WHERE T2.biomarker_fda_id = "FDA000013"
+GPT-3 choices:
+(0) What is the test submission for biomarker FDA000013 in the biomarker_fda table and its corresponding term in the biomarker_fda_ncit_term table?
+(1) Retrieve the test submission for a biomarker in the FDA database with an ID of "FDA000013".
+(2) Find the test submission for biomarker FDA000013, which has a matching ID in both the biomarker_fda and biomarker_fda_ncit_term tables.
+(3) Find the test submission from the biomarker FDA entry with an ID of "FDA000013" in the FDA database, joined with the NCIT term for that biomarker.
+(4) Find the test submissions for biomarkers that have an FDA identifier of "FDA000013" and are associated with NCIt terms.
+(5) Retrieve the test submission for biomarker FDA000013 from the table biomarker_fda where its ID matches that of a corresponding entry in the table biomarker_fda_ncit_term.
+(6) Find the test submissions for the biomarker "FDA000013" in the FDA biomarker table, joined with the corresponding NCIt terms.
+(7) Get the test submission for the FDA biomarker with ID "FDA000013" from the FDA biomarker table joined with the NCIt term table.

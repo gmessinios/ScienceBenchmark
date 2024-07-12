@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.ec_max_contribution != 4997912.63
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_max_contribution != 4997912.63
+GPT-3 choices:
+(0) Get the title of all topics that are related to a project, excluding those with an ec_max_contribution value of 4997912.63.
+(1) Retrieve the titles of all topics that are associated with projects that have a maximum contribution amount different than 4997912.63.
+(2) Get the titles of all topics that are associated with projects that have an EC max contribution value different from 4997912.63.
+(3) Find the titles of all topics that have been assigned to projects whose maximum contribution is not equal to 4997912.63.
+(4) Find the titles of all topics that are associated with projects where the maximum contribution is not equal to 4997912.63.
+(5) Find the titles of all topics that are associated with projects whose maximum contribution is not equal to 4997912.63.
+(6) Get the title of all topics that are associated with projects whose maximum contribution is not equal to 4997912.63.
+(7) Get the title of all topics that are associated with a project that has an "ec_max_contribution" value not equal to 4997912.63 in the projects table.
+
+
+Re-ranked choices:
+7.026  Get the titles of all topics that are associated with projects that have an EC max contribution value different from 4997912.63.
+5.637  Get the title of all topics that are associated with a project that has an "ec_max_contribution" value not equal to 4997912.63 in the projects table.
+5.628  Get the title of all topics that are associated with projects whose maximum contribution is not equal to 4997912.63.
+4.234  Find the titles of all topics that have been assigned to projects whose maximum contribution is not equal to 4997912.63.
+4.228  Find the titles of all topics that are associated with projects whose maximum contribution is not equal to 4997912.63.
+4.227  Find the titles of all topics that are associated with projects where the maximum contribution is not equal to 4997912.63.
+4.223  Retrieve the titles of all topics that are associated with projects that have a maximum contribution amount different than 4997912.63.
+2.825  Get the title of all topics that are related to a project, excluding those with an ec_max_contribution value of 4997912.63.
+

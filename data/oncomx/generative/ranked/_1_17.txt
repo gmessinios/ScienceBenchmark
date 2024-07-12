@@ -1,0 +1,28 @@
+SELECT disease_mutation.data_source FROM disease_mutation AS disease_mutation JOIN disease_mutation_site_annotation AS disease_mutation_site_annotation ON disease_mutation.id = disease_mutation_site_annotation.disease_mutation_id WHERE disease_mutation_site_annotation.description = "Aromatic amino acid; via carbonyl oxygen"
+
+###
+
+
+Original Query:
+SELECT T1.data_source FROM disease_mutation AS T1 JOIN disease_mutation_site_annotation AS T2 ON T1.id = T2.disease_mutation_id WHERE T2.description = "Aromatic amino acid; via carbonyl oxygen"
+GPT-3 choices:
+(0) Retrieve the data source of disease mutations where the disease mutation site is annotated as involving an aromatic amino acid through a carbonyl oxygen.
+(1) Find the data sources for disease mutations that have a site annotation describing an aromatic amino acid through the carbonyl oxygen.
+(2) What is the source of data for disease mutations that have been annotated as involving an aromatic amino acid via a carbonyl oxygen?
+(3) Get the data source from the table that shows the disease mutations with annotations for aromatic amino acids via carbonyl oxygen.
+(4) Retrieve the data source of disease mutations that have a site annotation describing an aromatic amino acid via a carbonyl oxygen.
+(5) Find the data sources for disease mutations that have a site annotation of "Aromatic amino acid; via carbonyl oxygen".
+(6) Retrieve the data source from disease_mutation where the disease_mutation_site_annotation's description is "Aromatic amino acid; via carbonyl oxygen".
+(7) Retrieve the data source of disease mutations from the database, where the description in the site annotation is "Aromatic amino acid; via carbonyl oxygen".
+
+
+Re-ranked choices:
+12.624  Retrieve the data source of disease mutations from the database, where the description in the site annotation is "Aromatic amino acid; via carbonyl oxygen".
+9.828  Find the data sources for disease mutations that have a site annotation of "Aromatic amino acid; via carbonyl oxygen".
+9.824  Retrieve the data source of disease mutations that have a site annotation describing an aromatic amino acid via a carbonyl oxygen.
+9.122  Retrieve the data source of disease mutations where the disease mutation site is annotated as involving an aromatic amino acid through a carbonyl oxygen.
+8.419  Retrieve the data source from disease_mutation where the disease_mutation_site_annotation's description is "Aromatic amino acid; via carbonyl oxygen".
+7.726  Find the data sources for disease mutations that have a site annotation describing an aromatic amino acid through the carbonyl oxygen.
+7.026  Get the data source from the table that shows the disease mutations with annotations for aromatic amino acids via carbonyl oxygen.
+7.024  What is the source of data for disease mutations that have been annotated as involving an aromatic amino acid via a carbonyl oxygen?
+

@@ -1,0 +1,25 @@
+SELECT count(*) FROM project_member_roles AS project_member_roles
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles AS T1
+GPT-3 choices:
+(0) How many project member roles are there in the project?
+(1) How many project member roles are there in the project_member_roles table?
+(2) How many rows are there in the "project_member_roles" table?
+(3) How many project member roles are there in the project?
+(4) How many rows are there in the "project_member_roles" table?
+(5) How many rows are there in the table "project_member_roles" in which each row represents a project member and their assigned roles?
+(6) How many project member roles are there in the project_member_roles table?
+(7) How many project member roles are there in the table "project_member_roles"?
+
+
+Re-ranked choices:
+4.431  How many project member roles are there in the project?
+4.247  How many project member roles are there in the project_member_roles table?
+4.247  How many project member roles are there in the table "project_member_roles"?
+2.833  How many rows are there in the table "project_member_roles" in which each row represents a project member and their assigned roles?
+0.068  How many rows are there in the "project_member_roles" table?
+

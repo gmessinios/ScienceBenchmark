@@ -1,0 +1,16 @@
+SELECT disease_mutation.chromosome_pos FROM disease_mutation AS disease_mutation WHERE disease_mutation.ref_aa = "G" and disease_mutation.alt_nt = "A"
+
+###
+
+
+Original Query:
+SELECT T1.chromosome_pos FROM disease_mutation AS T1 WHERE T1.ref_aa = "G" and T1.alt_nt = "A"
+GPT-3 choices:
+(0) Get the chromosome position from the disease mutation table where the reference amino acid is "G" and the alternative nucleotide is "A".
+(1) What is the chromosome position for disease mutations where the reference amino acid is "G" and the alternate nucleotide is "A"?
+(2) Retrieve the chromosome position from the disease mutation data where the reference amino acid is "G" and the alternate nucleotide is "A".
+(3) Retrieve the chromosome positions from the table of disease mutations where the reference amino acid is "G" and the alternate nucleotide is "A".
+(4) Retrieve the chromosome position from the disease mutation table where the reference amino acid is "G" and the alternative nucleotide is "A".
+(5) Retrieve the chromosome position from disease_mutation where the reference amino acid is "G" and the alternate nucleotide is "A".
+(6) Retrieve the chromosome position from the disease mutation table where the reference amino acid is "G" and the alternate nucleotide is "A".
+(7) Find the chromosome positions where a disease mutation has a reference amino acid of "G" and an alternative nucleotide of "A".

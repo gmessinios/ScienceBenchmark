@@ -1,0 +1,28 @@
+SELECT Photometric_objects.clean FROM photoobj AS Photometric_objects WHERE Photometric_objects.z = 11.77583 and Photometric_objects.type = 3
+
+###
+
+
+Original Query:
+SELECT T1.clean FROM photoobj AS T1 WHERE T1.z = 11.77583 and T1.type = 3
+GPT-3 choices:
+(0) Find the clean photometric objects from the photoobj table where the redshift value is 11.77583 and the type is equal to 3.
+(1) Find the clean value for photometric objects from the photoobj table where the redshift is equal to 11.77583 and type is equal to 3.
+(2) Retrieve the "clean" value from the "photoobj" table for objects with a redshift of 11.77583 and a type of 3.
+(3) Retrieve the clean value from the photoobj table for Photometric objects with a redshift of 11.77583 and a type of 3.
+(4) Retrieve the clean column from the photoobj table for objects with a redshift of 11.77583 and a type of 3.
+(5) Find the clean photometric objects from the photoobj table where the redshift is 11.77583 and the type is equal to 3.
+(6) Retrieve the "clean" attribute from the "photoobj" table for all objects with a redshift value of 11.77583 and a type of 3, using the alias "Photometric_objects".
+(7) Retrieve the "clean" attribute from the table "photoobj" where the redshift is 11.77583 and the object type is 3, using the alias "Photometric_objects".
+
+
+Re-ranked choices:
+6.339  Retrieve the "clean" attribute from the table "photoobj" where the redshift is 11.77583 and the object type is 3, using the alias "Photometric_objects".
+6.337  Retrieve the "clean" attribute from the "photoobj" table for all objects with a redshift value of 11.77583 and a type of 3, using the alias "Photometric_objects".
+5.664  Retrieve the "clean" value from the "photoobj" table for objects with a redshift of 11.77583 and a type of 3.
+5.664  Retrieve the clean column from the photoobj table for objects with a redshift of 11.77583 and a type of 3.
+5.662  Find the clean photometric objects from the photoobj table where the redshift is 11.77583 and the type is equal to 3.
+5.656  Find the clean value for photometric objects from the photoobj table where the redshift is equal to 11.77583 and type is equal to 3.
+5.650  Retrieve the clean value from the photoobj table for Photometric objects with a redshift of 11.77583 and a type of 3.
+5.648  Find the clean photometric objects from the photoobj table where the redshift value is 11.77583 and the type is equal to 3.
+

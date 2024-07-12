@@ -1,0 +1,28 @@
+SELECT biomarker_fda_test_trial.test_submission FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name = "BRACAnalysis CDx" or biomarker_fda_test_trial.test_trial_id = "NCT01024959"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name = "BRACAnalysis CDx" or T1.test_trial_id = "NCT01024959"
+GPT-3 choices:
+(0) Find the test submission for the BRACAnalysis CDx or NCT01024959 test trial from the biomarker FDA test trial table.
+(1) Retrieve the test submission for the biomarker FDA trial with either the test trade name "BRACAnalysis CDx" or the test trial ID "NCT01024959".
+(2) Retrieve the test submission for the biomarker FDA test trial with a test trade name of "BRACAnalysis CDx" or a test trial ID of "NCT01024959" from the table "biomarker_fda_test_trial".
+(3) Retrieve the test submissions for the biomarker FDA test trial "BRACAnalysis CDx" or with a test trial ID of "NCT01024959" from the table biomarker_fda_test_trial.
+(4) Get the test submission for the biomarker FDA test trial BRACAnalysis CDx or NCT01024959 from the biomarker FDA test trial table.
+(5) Retrieve the test submission for a biomarker FDA trial for BRACAnalysis CDx or NCT01024959.
+(6) What is the test submission for the BRACAnalysis CDx or NCT01024959 trial?
+(7) Retrieve the test submissions from the BRACAnalysis CDx FDA biomarker test trial or the NCT01024959 clinical trial.
+
+
+Re-ranked choices:
+13.323  Retrieve the test submission for the biomarker FDA trial with either the test trade name "BRACAnalysis CDx" or the test trial ID "NCT01024959".
+13.317  Retrieve the test submission for the biomarker FDA test trial with a test trade name of "BRACAnalysis CDx" or a test trial ID of "NCT01024959" from the table "biomarker_fda_test_trial".
+9.124  Find the test submission for the BRACAnalysis CDx or NCT01024959 test trial from the biomarker FDA test trial table.
+9.122  Get the test submission for the biomarker FDA test trial BRACAnalysis CDx or NCT01024959 from the biomarker FDA test trial table.
+9.118  Retrieve the test submissions for the biomarker FDA test trial "BRACAnalysis CDx" or with a test trial ID of "NCT01024959" from the table biomarker_fda_test_trial.
+8.425  Retrieve the test submission for a biomarker FDA trial for BRACAnalysis CDx or NCT01024959.
+7.721  Retrieve the test submissions from the BRACAnalysis CDx FDA biomarker test trial or the NCT01024959 clinical trial.
+4.927  What is the test submission for the BRACAnalysis CDx or NCT01024959 trial?
+

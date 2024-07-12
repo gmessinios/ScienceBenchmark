@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.start_year != 2019
+
+###
+
+
+Original Query:
+SELECT T1.title FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.start_year != 2019
+GPT-3 choices:
+(0) Find the titles of topics that are associated with projects started in any year other than 2019.
+(1) Find the titles of all topics that are associated with projects that did not start in the year 2019.
+(2) Find the title of all topics that are related to projects with a starting year that is not 2019.
+(3) Get the titles of all topics that are related to projects that were started in a year other than 2019.
+(4) Find the titles of all topics that are associated with projects that were started in any year except 2019.
+(5) Find the titles of topics that are associated with projects that were started in years other than 2019.
+(6) Get the titles of topics that are associated with projects that did not start in the year 2019.
+(7) Get the titles of all topics that are associated with projects from any year other than 2019.

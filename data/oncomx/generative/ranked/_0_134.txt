@@ -1,0 +1,28 @@
+SELECT cancer_tissue.doid FROM cancer_tissue AS cancer_tissue WHERE cancer_tissue.uberon_anatomical_id = "UBERON:0001264"
+
+###
+
+
+Original Query:
+SELECT T1.doid FROM cancer_tissue AS T1 WHERE T1.uberon_anatomical_id = "UBERON:0001264"
+GPT-3 choices:
+(0) What is the DOID for a cancer tissue with the UBERON anatomical ID "UBERON:0001264"?
+(1) Find the Disease Ontology IDs for cancer tissues that have an Uberon anatomical ID of "UBERON:0001264".
+(2) Find the DOID for a cancer tissue where the UBERON anatomical ID is "UBERON:0001264".
+(3) Retrieve the Disease Ontology ID from the cancer_tissue table where the Uberon anatomical ID is equal to "UBERON:0001264".
+(4) Find the disease ontology ID from the cancer tissue table where the Uberon anatomical ID is "UBERON:0001264".
+(5) What is the disease ontology identifier for cancer tissues with the Uberon anatomical ID "UBERON:0001264"?
+(6) Retrieve the DOID for all cancer tissues associated with the UBERON anatomical identifier "UBERON:0001264".
+(7) Retrieve the disease ontology identifier for cancer tissues with the Uberon anatomical identifier of "UBERON:0001264".
+
+
+Re-ranked choices:
+9.137  What is the DOID for a cancer tissue with the UBERON anatomical ID "UBERON:0001264"?
+9.137  Find the DOID for a cancer tissue where the UBERON anatomical ID is "UBERON:0001264".
+7.728  Find the disease ontology ID from the cancer tissue table where the Uberon anatomical ID is "UBERON:0001264".
+6.329  Find the Disease Ontology IDs for cancer tissues that have an Uberon anatomical ID of "UBERON:0001264".
+6.324  What is the disease ontology identifier for cancer tissues with the Uberon anatomical ID "UBERON:0001264"?
+6.320  Retrieve the DOID for all cancer tissues associated with the UBERON anatomical identifier "UBERON:0001264".
+4.924  Retrieve the Disease Ontology ID from the cancer_tissue table where the Uberon anatomical ID is equal to "UBERON:0001264".
+4.919  Retrieve the disease ontology identifier for cancer tissues with the Uberon anatomical identifier of "UBERON:0001264".
+

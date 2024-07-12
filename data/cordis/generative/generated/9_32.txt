@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas AS subject_areas JOIN project_subject_areas AS project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects AS projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_fund_scheme != "RIA-LS"
+
+###
+
+
+Original Query:
+SELECT T1.title FROM subject_areas AS T1 JOIN project_subject_areas AS T3 ON T1.code = T3.subject_area JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_fund_scheme != "RIA-LS"
+GPT-3 choices:
+(0) Retrieve the titles of subject areas from projects that have a European Commission fund scheme other than "RIA-LS".
+(1) Find the titles of subject areas where projects that have a European Commission funding scheme other than "RIA-LS" are associated with.
+(2) Get the titles of subject areas for projects that have a European Commission funding scheme other than RIA-LS.
+(3) Retrieve the title of all subject areas that are associated with a project that is not funded under the RIA-LS scheme.
+(4) Get the titles of all subject areas from projects where the EC fund scheme is not "RIA-LS".
+(5) Retrieve the titles of subject areas that are associated with projects that do not fall under the RIA-LS European Commission funding scheme.
+(6) "Retrieve the title of subject areas for all projects that are not funded by the RIA-LS scheme."
+(7) Retrieve the title of subject areas for all projects where the EC fund scheme is not RIA-LS.

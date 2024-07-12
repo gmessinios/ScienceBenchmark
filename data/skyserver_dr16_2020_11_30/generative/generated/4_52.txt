@@ -1,0 +1,16 @@
+SELECT count(*) FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.distance = 1.07259335276047e-05
+
+###
+
+
+Original Query:
+SELECT count(*) FROM neighbors AS T1 WHERE T1.distance = 1.07259335276047e-05
+GPT-3 choices:
+(0) How many objects are in the "neighbors" table where the distance between them is exactly 1.07259335276047e-05?
+(1) Count the number of objects that are nearest neighbors with a distance of 1.07259335276047e-05.
+(2) How many neighbors have a distance of 1.07259335276047e-05?
+(3) "How many neighbors are there with a distance of 1.07259335276047e-05 in the table Nearest_neighbour_objects?"
+(4) Count the number of objects that are neighbors and have a distance of 1.07259335276047e-05.
+(5) Count the number of objects in the "neighbors" table where the distance value is equal to 1.07259335276047e-05.
+(6) How many objects are there in the neighbors table with a distance of 1.07259335276047e-05?
+(7) How many objects are there in the "neighbors" table that have a distance of 1.07259335276047e-05 in the "Nearest_neighbour_objects" column?

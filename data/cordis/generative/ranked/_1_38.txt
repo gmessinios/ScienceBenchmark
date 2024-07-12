@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs AS ec_framework_programs JOIN projects AS projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.ec_call = "FP7-REGIONS-2007-1"
+
+###
+
+
+Original Query:
+SELECT T1.ec_framework_program_name FROM ec_framework_programs AS T1 JOIN projects AS T2 ON T1.ec_framework_program_name = T2.framework_program WHERE T2.ec_call = "FP7-REGIONS-2007-1"
+GPT-3 choices:
+(0) Get the names of the framework programs from the EC Framework Programs table that match with the framework program used in projects where the EC call is "FP7-REGIONS-2007-1".
+(1) What are the names of all the EC framework programs that were used in projects with the call "FP7-REGIONS-2007-1"?
+(2) Retrieve the name of the framework program from ec_framework_programs that is listed as the framework program in projects where the ec_call is "FP7-REGIONS-2007-1".
+(3) Retrieve the name of each framework program from ec_framework_programs where the framework program matches the value of "FP7-REGIONS-2007-1" in the ec_call column of projects.
+(4) What are the names of all framework programs associated with projects that have an EC call of "FP7-REGIONS-2007-1"?
+(5) Get the name of all the framework programs from ec_framework_programs table that match with the values in the framework_program column from projects table where ec_call is equal to "FP7-REGIONS-2007-1".
+(6) Get the framework program name from the EC framework programs table for all projects where the EC call is "FP7-REGIONS-2007-1".
+(7) Retrieve the framework program name from ec_framework_programs where the ec_call for projects is "FP7-REGIONS-2007-1".
+
+
+Re-ranked choices:
+10.534  Get the framework program name from the EC framework programs table for all projects where the EC call is "FP7-REGIONS-2007-1".
+9.128  Get the names of the framework programs from the EC Framework Programs table that match with the framework program used in projects where the EC call is "FP7-REGIONS-2007-1".
+7.750  What are the names of all the EC framework programs that were used in projects with the call "FP7-REGIONS-2007-1"?
+7.737  What are the names of all framework programs associated with projects that have an EC call of "FP7-REGIONS-2007-1"?
+6.328  Retrieve the framework program name from ec_framework_programs where the ec_call for projects is "FP7-REGIONS-2007-1".
+6.323  Retrieve the name of the framework program from ec_framework_programs that is listed as the framework program in projects where the ec_call is "FP7-REGIONS-2007-1".
+6.321  Get the name of all the framework programs from ec_framework_programs table that match with the values in the framework_program column from projects table where ec_call is equal to "FP7-REGIONS-2007-1".
+4.922  Retrieve the name of each framework program from ec_framework_programs where the framework program matches the value of "FP7-REGIONS-2007-1" in the ec_call column of projects.
+

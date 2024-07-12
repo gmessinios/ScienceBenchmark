@@ -1,0 +1,16 @@
+SELECT Nearest_neighbour_objects.mode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype != 0
+
+###
+
+
+Original Query:
+SELECT T1.mode FROM neighbors AS T1 WHERE T1.neighbortype != 0
+GPT-3 choices:
+(0) Find the mode of all nearest neighbor objects whose neighbor type is not equal to zero in the neighbors table.
+(1) Find the mode of the nearest neighbor objects where the neighbor type is not equal to 0.
+(2) Find the mode of all nearest neighbor objects whose neighbor type is not equal to 0.
+(3) "Retrieve the mode of all objects that are considered nearest neighbours and have a neighbour type other than 0 from the table 'neighbors'."
+(4) "Retrieve the mode of all nearest neighbor objects that have a neighbor type that is not equal to 0 from the table 'neighbors'."
+(5) Find the mode of all nearest neighbor objects whose neighbor type is not equal to zero.
+(6) Find the mode of the nearest neighbor objects where the type of neighbor is not equal to 0.
+(7) Get the mode of the nearest neighbor objects where the neighbor type is not equal to zero from the table named "neighbors".

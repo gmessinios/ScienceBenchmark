@@ -1,0 +1,16 @@
+SELECT biomarker_fda_test_trial.test_submission FROM biomarker_fda_test_trial AS biomarker_fda_test_trial WHERE biomarker_fda_test_trial.test_trade_name = "PATH VYSION HER-2 DNA PROBE KIT" and biomarker_fda_test_trial.test_trial_id = "NCT02042379"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda_test_trial AS T1 WHERE T1.test_trade_name = "PATH VYSION HER-2 DNA PROBE KIT" and T1.test_trial_id = "NCT02042379"
+GPT-3 choices:
+(0) Retrieve the test submission for the FDA biomarker test trial for PATH VYSION HER-2 DNA PROBE KIT with a test trial ID of NCT02042379.
+(1) Retrieve the test submission from the biomarker_fda_test_trial table where the test trade name is "PATH VYSION HER-2 DNA PROBE KIT" and the test trial ID is "NCT02042379".
+(2) Retrieve the test submission for the PATH VYSION HER-2 DNA PROBE KIT from the biomarker FDA test trial, where the test trial ID is NCT02042379.
+(3) Retrieve the test submission for the Path Vysion HER-2 DNA Probe Kit from the biomarker FDA test trial with a test trial ID of NCT02042379.
+(4) Retrieve the test submission from the biomarker FDA test trial table where the test trade name is "PATH VYSION HER-2 DNA PROBE KIT" and the test trial ID is "NCT02042379".
+(5) What is the test submission for the Path Vysion HER-2 DNA Probe Kit in the biomarker FDA test trial with a test trial ID of NCT02042379?
+(6) Retrieve the test submission for the "PATH VYSION HER-2 DNA PROBE KIT" from the biomarker FDA test trial where the test trial ID is "NCT02042379".
+(7) Find the test submission for the FDA trial of the PATH VYSION HER-2 DNA Probe Kit with a test trial ID of NCT02042379.

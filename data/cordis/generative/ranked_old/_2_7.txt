@@ -1,0 +1,26 @@
+SELECT activity_types.description, count(*) FROM activity_types  GROUP BY activity_types.description
+
+###
+
+
+Original Query:
+SELECT activity_types.description, count(*) FROM activity_types  GROUP BY activity_types.description
+GPT-3 choices:
+(0) Show the number of activity types
+(1) How many activity types exist?
+(2) Show the number of activity types.
+(3) Show the count of activity types
+(4) Show me all activity types
+(5) How many activity types are there?
+(6) How many activity types are there?
+(7) How many activity types are there?
+
+
+Re-ranked choices:
+2.867  Show the count of activity types
+2.867  How many activity types are there?
+2.858  Show me all activity types
+2.844  Show the number of activity types
+2.839  How many activity types exist?
+1.444  Show the number of activity types.
+

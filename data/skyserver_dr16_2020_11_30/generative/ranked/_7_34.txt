@@ -1,0 +1,28 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Ghost: Object created by reflected or refracted light. (not used)" or photometrically_observed.value = 6
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Ghost: Object created by reflected or refracted light. (not used)" or T1.value = 6
+GPT-3 choices:
+(0) Find the names of objects that were observed using reflected or refracted light and have a photo type value of 6, from the table "photometrically_observed" where the description is "Ghost: Object created by reflected or refracted light."
+(1) Find the name of all photometric objects that were either described as "Ghost: Object created by reflected or refracted light" or have a value of 6.
+(2) What are the names of objects in the photometrically observed photo type that have a description of "Ghost: Object created by reflected or refracted light. (not used)" or a value of 6?
+(3) Retrieve the name of objects from the photo_type table that were observed photometrically and have a description of "Ghost" or a value of 6.
+(4) Find the names of all objects that have either a description of "Ghost: Object created by reflected or refracted light" or a value of 6 in the table "photo_type".
+(5) What are the names of all objects in the photometrically_observed table that have a description of "Ghost: Object created by reflected or refracted light" or a value of 6?
+(6) What are the names of objects that were created by reflected or refracted light and have a photo type description of "Ghost" or a value of 6?
+(7) What are the names of objects that were observed photometrically and classified as "Ghost", meaning they were created by reflected or refracted light but not used, or have a value of 6?
+
+
+Re-ranked choices:
+11.232  What are the names of objects in the photometrically observed photo type that have a description of "Ghost: Object created by reflected or refracted light. (not used)" or a value of 6?
+9.816  Find the names of objects that were observed using reflected or refracted light and have a photo type value of 6, from the table "photometrically_observed" where the description is "Ghost: Object created by reflected or refracted light."
+8.421  What are the names of all objects in the photometrically_observed table that have a description of "Ghost: Object created by reflected or refracted light" or a value of 6?
+7.724  Find the name of all photometric objects that were either described as "Ghost: Object created by reflected or refracted light" or have a value of 6.
+7.722  Find the names of all objects that have either a description of "Ghost: Object created by reflected or refracted light" or a value of 6 in the table "photo_type".
+7.721  What are the names of objects that were observed photometrically and classified as "Ghost", meaning they were created by reflected or refracted light but not used, or have a value of 6?
+7.024  Retrieve the name of objects from the photo_type table that were observed photometrically and have a description of "Ghost" or a value of 6.
+6.326  What are the names of objects that were created by reflected or refracted light and have a photo type description of "Ghost" or a value of 6?
+

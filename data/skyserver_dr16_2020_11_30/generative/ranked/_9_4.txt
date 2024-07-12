@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighborobjid FROM neighbors AS Nearest_neighbour_objects JOIN photo_type AS photometrically_observed ON Nearest_neighbour_objects.neighbortype = photometrically_observed.value WHERE photometrically_observed.name != "GHOST"
+
+###
+
+
+Original Query:
+SELECT T1.neighborobjid FROM neighbors AS T1 JOIN photo_type AS T2 ON T1.neighbortype = T2.value WHERE T2.name != "GHOST"
+GPT-3 choices:
+(0) Find the IDs of nearest neighbor objects that have been observed photometrically and are not classified as "GHOST".
+(1) Find the IDs of objects that are nearest neighbours and have a photometric observation type other than "GHOST".
+(2) Find the neighbor object IDs of nearest neighbors that have been photometrically observed and are not classified as "GHOST" in the photo_type table.
+(3) "Retrieve the IDs of the nearest neighboring objects from a table of neighbors, excluding those that have been photometrically observed as not being GHOSTs."
+(4) Find the neighbor object IDs for nearest neighbor objects where the type is photometrically observed and not equal to "GHOST".
+(5) Find the ID of the nearest neighbor objects that have been observed photometrically, excluding any objects that have been labeled as "GHOST".
+(6) Get the neighborobjid from Nearest_neighbour_objects where the neighbortype is not "GHOST" and is observed photometrically according to the photo_type table.
+(7) Find the nearest neighbor objects from the neighbors table, excluding any that are classified as "GHOST" in the photo_type table.
+
+
+Re-ranked choices:
+9.127  Find the neighbor object IDs for nearest neighbor objects where the type is photometrically observed and not equal to "GHOST".
+6.329  Find the IDs of nearest neighbor objects that have been observed photometrically and are not classified as "GHOST".
+6.325  Find the ID of the nearest neighbor objects that have been observed photometrically, excluding any objects that have been labeled as "GHOST".
+6.322  Find the neighbor object IDs of nearest neighbors that have been photometrically observed and are not classified as "GHOST" in the photo_type table.
+4.220  "Retrieve the IDs of the nearest neighboring objects from a table of neighbors, excluding those that have been photometrically observed as not being GHOSTs."
+4.217  Get the neighborobjid from Nearest_neighbour_objects where the neighbortype is not "GHOST" and is observed photometrically according to the photo_type table.
+3.527  Find the nearest neighbor objects from the neighbors table, excluding any that are classified as "GHOST" in the photo_type table.
+3.527  Find the IDs of objects that are nearest neighbours and have a photometric observation type other than "GHOST".
+

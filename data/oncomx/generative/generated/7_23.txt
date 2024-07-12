@@ -1,0 +1,16 @@
+SELECT disease_mutation_impact_prediction.site_prediction FROM disease_mutation_impact_prediction AS disease_mutation_impact_prediction WHERE disease_mutation_impact_prediction.tool = "polyphen" or disease_mutation_impact_prediction.id = 3906
+
+###
+
+
+Original Query:
+SELECT T1.site_prediction FROM disease_mutation_impact_prediction AS T1 WHERE T1.tool = "polyphen" or T1.id = 3906
+GPT-3 choices:
+(0) What are the site predictions for disease mutation impact from the tool "polyphen" or with ID 3906 in the table disease_mutation_impact_prediction?
+(1) Get the site prediction for all rows in the disease_mutation_impact_prediction table where the tool is "polyphen" or the id is 3906.
+(2) Retrieve the site prediction for the disease mutation impact from the table "disease_mutation_impact_prediction" where the tool is "polyphen" or the id is equal to 3906.
+(3) Retrieve the predicted site from the disease mutation impact prediction database for the tool "polyphen" or for entry with ID 3906.
+(4) Find the predicted site of impact for disease mutations using PolyPhen or the entry with an id of 3906 from the disease_mutation_impact_prediction table.
+(5) "Get the site prediction from disease_mutation_impact_prediction where the tool is 'polyphen' or the ID is equal to 3906."
+(6) Find the site prediction from the disease mutation impact prediction table where the tool is "polyphen" or the ID is equal to 3906.
+(7) Retrieve the site prediction data from disease_mutation_impact_prediction where the tool is "polyphen" or the id is 3906.

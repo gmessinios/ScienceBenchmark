@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects JOIN photoobj AS Photometric_objects ON Nearest_neighbour_objects.objid = Photometric_objects.objid WHERE Photometric_objects.clean != 0
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid WHERE T2.clean != 0
+GPT-3 choices:
+(0) Retrieve the mode of nearest neighbors for objects that are in the table "neighbors" and also have a corresponding entry in the table "photoobj" where the value for "clean" is not equal to 0.
+(1) Find the mode of the nearest neighbor objects for all photometric objects that are not clean.
+(2) Find the neighbor mode from the nearest neighbor objects where the corresponding object in the Photometric_objects table has a clean value of not equal to 0.
+(3) Find the neighbor mode from the nearest neighbor objects for photometric objects whose clean value is not equal to 0.
+(4) "Retrieve the neighbor mode of objects from the neighbors table for photometric objects that are not clean in the photoobj table."
+(5) Retrieve the "neighbormode" of nearest neighbour objects from the neighbors table where their corresponding object in the photoobj table has a value for "clean" that is not equal to 0.
+(6) What is the neighbor mode for the nearest neighbor objects, given that their object ID matches with those in the photoobj table and they have a clean value of not equal to 0?
+(7) Find the neighbor mode for the nearest objects in the "neighbors" table where the corresponding objects in the "photoobj" table have a clean value not equal to 0.
+
+
+Re-ranked choices:
+9.124  Find the neighbor mode from the nearest neighbor objects where the corresponding object in the Photometric_objects table has a clean value of not equal to 0.
+8.427  "Retrieve the neighbor mode of objects from the neighbors table for photometric objects that are not clean in the photoobj table."
+8.421  What is the neighbor mode for the nearest neighbor objects, given that their object ID matches with those in the photoobj table and they have a clean value of not equal to 0?
+7.042  Find the mode of the nearest neighbor objects for all photometric objects that are not clean.
+7.030  Find the neighbor mode from the nearest neighbor objects for photometric objects whose clean value is not equal to 0.
+7.018  Retrieve the "neighbormode" of nearest neighbour objects from the neighbors table where their corresponding object in the photoobj table has a value for "clean" that is not equal to 0.
+5.623  Find the neighbor mode for the nearest objects in the "neighbors" table where the corresponding objects in the "photoobj" table have a clean value not equal to 0.
+5.620  Retrieve the mode of nearest neighbors for objects that are in the table "neighbors" and also have a corresponding entry in the table "photoobj" where the value for "clean" is not equal to 0.
+

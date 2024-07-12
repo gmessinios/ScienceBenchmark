@@ -1,0 +1,27 @@
+SELECT count(*) FROM photoobj AS Photometric_objects WHERE Photometric_objects.cmodelmag_g = 13.253
+
+###
+
+
+Original Query:
+SELECT count(*) FROM photoobj AS T1 WHERE T1.cmodelmag_g = 13.253
+GPT-3 choices:
+(0) How many objects have a cmodel magnitude in the g-band equal to 13.253 in the Photometric_objects table of the photoobj database?
+(1) How many Photometric objects have a cmodelmag_g value of 13.253?
+(2) How many photometric objects have a cmodelmag_g value of 13.253?
+(3) How many photometric objects have a g-band cmodel magnitude of 13.253?
+(4) How many objects in the table "photoobj" have a cmodelmag_g value of 13.253 in the column "Photometric_objects"?
+(5) How many photometric objects have a cmodel magnitude of 13.253 in the photoobj table?
+(6) How many Photometric objects have a g-band CModel magnitude of 13.253?
+(7) How many Photometric objects have a cmodelmag_g value of 13.253?
+
+
+Re-ranked choices:
+3.537  How many objects have a cmodel magnitude in the g-band equal to 13.253 in the Photometric_objects table of the photoobj database?
+2.837  How many photometric objects have a cmodel magnitude of 13.253 in the photoobj table?
+2.835  How many photometric objects have a g-band cmodel magnitude of 13.253?
+2.835  How many Photometric objects have a g-band CModel magnitude of 13.253?
+2.135  How many objects in the table "photoobj" have a cmodelmag_g value of 13.253 in the column "Photometric_objects"?
+1.432  How many Photometric objects have a cmodelmag_g value of 13.253?
+1.432  How many photometric objects have a cmodelmag_g value of 13.253?
+

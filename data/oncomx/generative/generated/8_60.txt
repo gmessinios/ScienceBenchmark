@@ -1,0 +1,16 @@
+SELECT map_protein_disease_mutation.peptide_id FROM map_protein_disease_mutation AS map_protein_disease_mutation WHERE map_protein_disease_mutation.uniprotkb_ac != "E5RH73"
+
+###
+
+
+Original Query:
+SELECT T1.peptide_id FROM map_protein_disease_mutation AS T1 WHERE T1.uniprotkb_ac != "E5RH73"
+GPT-3 choices:
+(0) Find the peptide ID from the map of protein-disease mutations where the UniProtKB accession number is not "E5RH73".
+(1) Find the peptide ID from the map of protein-disease-mutation where the UniProtKB accession number is not equal to "E5RH73".
+(2) What is the peptide ID for all entries in the map_protein_disease_mutation table where the uniprotkb_ac is not "E5RH73"?
+(3) Retrieve the peptide ID from the mapping of protein-disease mutations where the UniProtKB accession number is not "E5RH73".
+(4) Get the peptide ID from the map of protein-disease mutations where the UniProtKB AC is not "E5RH73".
+(5) Retrieve the peptide ID from the map_protein_disease_mutation table where the UniprotKB accession number is not "E5RH73".
+(6) Retrieve the peptide IDs from the map_protein_disease_mutation table where the uniprotkb_ac is not equal to "E5RH73".
+(7) Get the peptide ID from the map of protein-disease-mutation where the UniProtKB accession number is not equal to "E5RH73".

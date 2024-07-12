@@ -1,0 +1,28 @@
+SELECT species.speciescommonname FROM species AS species JOIN xref_gene_ensembl AS xref_gene_ensembl ON species.speciesid = xref_gene_ensembl.speciesid WHERE xref_gene_ensembl.ensembl_gene_id != "ENSG00000041880"
+
+###
+
+
+Original Query:
+SELECT T1.speciescommonname FROM species AS T1 JOIN xref_gene_ensembl AS T2 ON T1.speciesid = T2.speciesid WHERE T2.ensembl_gene_id != "ENSG00000041880"
+GPT-3 choices:
+(0) Find the common name of the species for which there exists an Ensembl gene ID other than "ENSG00000041880" in the xref_gene_ensembl table, by joining the species and xref_gene_ensembl tables on their respective IDs.
+(1) Find the common names of species in which the Ensembl gene ID is not "ENSG00000041880", by joining the tables "species" and "xref_gene_ensembl" on their shared column "speciesid".
+(2) Find the common names of all species that have an Ensembl gene ID other than "ENSG00000041880" in the xref_gene_ensembl table.
+(3) Retrieve the common names of species from the "species" table where the Ensembl gene ID in the "xref_gene_ensembl" table is not equal to "ENSG00000041880".
+(4) Find the common name of the species for which there is an Ensembl gene ID other than "ENSG00000041880" in the xref_gene_ensembl table, by joining the species and xref_gene_ensembl tables.
+(5) What are the common names of all species that have an ensembl gene id different from "ENSG00000041880" in the xref_gene_ensembl table?
+(6) What are the common names of all species listed in the xref_gene_ensembl table where the ensembl_gene_id is not "ENSG00000041880"?
+(7) What is the common name of the species that has a corresponding Ensembl gene ID different from "ENSG00000041880"?
+
+
+Re-ranked choices:
+8.421  Find the common names of species in which the Ensembl gene ID is not "ENSG00000041880", by joining the tables "species" and "xref_gene_ensembl" on their shared column "speciesid".
+7.017  Find the common name of the species for which there exists an Ensembl gene ID other than "ENSG00000041880" in the xref_gene_ensembl table, by joining the species and xref_gene_ensembl tables on their respective IDs.
+6.327  What is the common name of the species that has a corresponding Ensembl gene ID different from "ENSG00000041880"?
+6.325  Find the common names of all species that have an Ensembl gene ID other than "ENSG00000041880" in the xref_gene_ensembl table.
+6.323  What are the common names of all species that have an ensembl gene id different from "ENSG00000041880" in the xref_gene_ensembl table?
+6.322  Retrieve the common names of species from the "species" table where the Ensembl gene ID in the "xref_gene_ensembl" table is not equal to "ENSG00000041880".
+6.318  Find the common name of the species for which there is an Ensembl gene ID other than "ENSG00000041880" in the xref_gene_ensembl table, by joining the species and xref_gene_ensembl tables.
+2.124  What are the common names of all species listed in the xref_gene_ensembl table where the ensembl_gene_id is not "ENSG00000041880"?
+

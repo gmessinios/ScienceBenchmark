@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics AS topics JOIN project_topics AS project_topics ON topics.code = project_topics.topic JOIN projects AS projects ON project_topics.project = projects.unics_id WHERE projects.ec_call != "H2020-LCE-2015-1-two-stage"
+
+###
+
+
+Original Query:
+SELECT T1.rcn FROM topics AS T1 JOIN project_topics AS T3 ON T1.code = T3.topic JOIN projects AS T2 ON T3.project = T2.unics_id WHERE T2.ec_call != "H2020-LCE-2015-1-two-stage"
+GPT-3 choices:
+(0) Get the topics.rcn from the table "topics" by joining it with the "project_topics" table on the topic code, and then joining it with the "projects" table on project code, but only if the project's ec_call is not equal to "H2020-LCE-2015-1-two-stage".
+(1) Retrieve the research topics of projects that have been funded by an EC call other than "H2020-LCE-2015-1-two-stage".
+(2) Get the research code numbers (rcn) of topics from the "topics" table that are joined with the "project_topics" table on their code, and then join them with the "projects" table on project ID to get the rcn for projects that do not have an EC call of "H2020-LCE-2015-1-two-stage".
+(3) Retrieve the research call numbers for all topics associated with projects that are not part of the H2020-LCE-2015-1-two-stage funding program.
+(4) Retrieve the research council numbers for all topics that are associated with projects that have an EC call different from "H2020-LCE-2015-1-two-stage".
+(5) Retrieve the research call numbers of topics that have been assigned to projects, excluding those with a European Commission call code of "H2020-LCE-2015-1-two-stage".
+(6) Find the research call numbers for topics that are associated with projects that have a European Commission call code different from "H2020-LCE-2015-1-two-stage".
+(7) Retrieve the research topic codes from all projects that have been assigned a topic and are not funded by the H2020-LCE-2015-1-two-stage call.

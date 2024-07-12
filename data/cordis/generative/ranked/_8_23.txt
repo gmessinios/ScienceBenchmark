@@ -1,0 +1,28 @@
+SELECT subject_areas.code FROM subject_areas AS subject_areas WHERE subject_areas.description != "Economic sciences; economic analysis and theory; economic aspects of RTD."
+
+###
+
+
+Original Query:
+SELECT T1.code FROM subject_areas AS T1 WHERE T1.description != "Economic sciences; economic analysis and theory; economic aspects of RTD."
+GPT-3 choices:
+(0) Get the code for all subject areas that have a description other than "Economic sciences; economic analysis and theory; economic aspects of RTD." from the table called subject_areas.
+(1) "Retrieve the code from subject areas where the description is not equal to 'Economic sciences; economic analysis and theory; economic aspects of RTD.'"
+(2) What are the codes for all subject areas, excluding "Economic sciences; economic analysis and theory; economic aspects of RTD"?
+(3) Retrieve the subject area codes for all subjects except "Economic sciences; economic analysis and theory; economic aspects of RTD.".
+(4) Find the subject areas with codes that are not "Economic sciences; economic analysis and theory; economic aspects of RTD."
+(5) What are the codes for subject areas that are not "Economic sciences; economic analysis and theory; economic aspects of RTD"?
+(6) What are the codes of subject areas that are not related to economic sciences, economic analysis and theory, or the economic aspects of RTD?
+(7) Retrieve the codes of all subject areas that are not labeled as "Economic sciences; economic analysis and theory; economic aspects of RTD".
+
+
+Re-ranked choices:
+9.827  Get the code for all subject areas that have a description other than "Economic sciences; economic analysis and theory; economic aspects of RTD." from the table called subject_areas.
+9.819  "Retrieve the code from subject areas where the description is not equal to 'Economic sciences; economic analysis and theory; economic aspects of RTD.'"
+7.724  What are the codes for subject areas that are not "Economic sciences; economic analysis and theory; economic aspects of RTD"?
+7.723  Retrieve the codes of all subject areas that are not labeled as "Economic sciences; economic analysis and theory; economic aspects of RTD".
+7.025  Find the subject areas with codes that are not "Economic sciences; economic analysis and theory; economic aspects of RTD."
+6.323  What are the codes for all subject areas, excluding "Economic sciences; economic analysis and theory; economic aspects of RTD"?
+5.623  Retrieve the subject area codes for all subjects except "Economic sciences; economic analysis and theory; economic aspects of RTD.".
+5.622  What are the codes of subject areas that are not related to economic sciences, economic analysis and theory, or the economic aspects of RTD?
+

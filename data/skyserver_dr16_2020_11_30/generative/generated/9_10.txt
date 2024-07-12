@@ -1,0 +1,16 @@
+SELECT Emission_line_estimates.specobjid FROM galspecline AS Emission_line_estimates JOIN specobj AS Spectroscopic_objects ON Emission_line_estimates.specobjid = Spectroscopic_objects.specobjid WHERE Spectroscopic_objects.subclass != "K7"
+
+###
+
+
+Original Query:
+SELECT T1.specobjid FROM galspecline AS T1 JOIN specobj AS T2 ON T1.specobjid = T2.specobjid WHERE T2.subclass != "K7"
+GPT-3 choices:
+(0) Find the specobjid for all emission line estimates from galspecline where the corresponding spectroscopic object's subclass is not "K7".
+(1) Find the specobjid of objects in the Emission_line_estimates table that are not classified as K7 in the Spectroscopic_objects table.
+(2) Find the specobjid from the galspecline table where the subclass of its corresponding Spectroscopic object is not "K7".
+(3) Find the specobjid values from the Emission_line_estimates table where the corresponding row in the specobj table has a subclass value that is not "K7".
+(4) Select the specobjid of all Emission_line_estimates where the corresponding Spectroscopic_objects have a subclass that is not "K7".
+(5) Retrieve the specobjid from the Emission_line_estimates table where the subclass in the Spectroscopic_objects table is not equal to "K7".
+(6) Retrieve the specobjid from the Emission_line_estimates table for all objects in the Spectroscopic_objects table that do not have a subclass of "K7".
+(7) Find the specobjid values from the galspecline table where the subclass in the corresponding row of the specobj table is not equal to "K7".

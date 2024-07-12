@@ -1,0 +1,16 @@
+SELECT Spectroscopic_objects.survey FROM specobj AS Spectroscopic_objects JOIN galspecline AS Emission_line_estimates ON Spectroscopic_objects.specobjid = Emission_line_estimates.specobjid WHERE Emission_line_estimates.specobjid = 299538055956555776
+
+###
+
+
+Original Query:
+SELECT T1.survey FROM specobj AS T1 JOIN galspecline AS T2 ON T1.specobjid = T2.specobjid WHERE T2.specobjid = 299538055956555776
+GPT-3 choices:
+(0) What survey is the spectroscopic object with specobjid 299538055956555776 a part of, based on the emission line estimates from the galspecline table?
+(1) What survey did the spectroscopic object with the specobjid of 299538055956555776 come from?
+(2) Retrieve the survey name for a spectroscopic object with specobjid 299538055956555776 from the galspecline and specobj tables.
+(3) What survey is associated with the spectroscopic object that has a specobjid of 299538055956555776 in the Emission_line_estimates table?
+(4) Find the survey for a spectroscopic object with a specobjid of 299538055956555776 by joining the specobj and galspecline tables and selecting the survey from the results.
+(5) Get the survey of the spectroscopic object with a specobjid of 299538055956555776 by joining the tables specobj and galspecline and selecting the survey from the results.
+(6) What is the survey of the spectroscopic object with a specobjid of 299538055956555776 according to the galspecline table?
+(7) What is the survey of the spectroscopic object with a specobjid of 299538055956555776 based on data from both the specobj and galspecline tables?

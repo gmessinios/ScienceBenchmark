@@ -1,0 +1,16 @@
+SELECT photometrically_observed.name FROM photo_type AS photometrically_observed WHERE photometrically_observed.description = "Unknown: Object type is not known."
+
+###
+
+
+Original Query:
+SELECT T1.name FROM photo_type AS T1 WHERE T1.description = "Unknown: Object type is not known."
+GPT-3 choices:
+(0) "Retrieve the name of all objects that have been observed photometrically and have an unknown object type."
+(1) What are the names of all objects that have been photometrically observed and whose type is unknown?
+(2) What is the name of any objects that have an unknown type in the table "photometrically_observed"?
+(3) What are the names of all objects that have been observed photometrically and whose description is "Unknown: Object type is not known"?
+(4) What are the names of objects that have an unknown object type according to photometric observations?
+(5) Get the names of all objects that have an unknown object type from the table "photo_type" under the column "name".
+(6) "Retrieve the names of objects from the photometrically observed photo type where the description is 'Unknown: Object type is not known'."
+(7) Find the names of objects that have been photometrically observed and whose description is "Unknown: Object type is not known."

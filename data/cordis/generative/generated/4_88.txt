@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types AS activity_types WHERE activity_types.description = "Higher or Secondary Education Establishments"
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types AS T1 WHERE T1.description = "Higher or Secondary Education Establishments"
+GPT-3 choices:
+(0) How many Higher or Secondary Education Establishments are there in the activity_types table?
+(1) How many higher or secondary education establishments are there in the activity types table?
+(2) How many higher or secondary education establishments are there in the activity types table?
+(3) How many entries are there in the activity_types table where the description is "Higher or Secondary Education Establishments"?
+(4) How many higher or secondary education establishments are there in the activity types table?
+(5) How many higher or secondary education establishments are there in the activity types table?
+(6) How many higher or secondary education establishments are there in the activity types table?
+(7) How many higher or secondary education establishments are there in the activity types table?

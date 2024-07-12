@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles AS project_member_roles JOIN project_members AS project_members ON project_member_roles.code = project_members.member_role WHERE project_members.country = "NE"
+
+###
+
+
+Original Query:
+SELECT T1.code FROM project_member_roles AS T1 JOIN project_members AS T2 ON T1.code = T2.member_role WHERE T2.country = "NE"
+GPT-3 choices:
+(0) Retrieve the code from the project member roles for all project members who have a country of "NE".
+(1) Find the code of all project member roles for project members whose country is "NE".
+(2) Get the code for all project member roles from the Project Member Roles table where the country is "NE" in the Project Members table.
+(3) Find the project member role codes from the project member roles table where the country in the project members table is "NE".
+(4) Retrieve the code of each project member role from the project_member_roles table where the country of the corresponding project member in the project_members table is "NE".
+(5) Retrieve the code of the project member role from the project_member_roles table for members in the country "NE" from the project_members table.
+(6) Show the code of all project member roles from the "project_member_roles" table where the country is "NE" in the "project_members" table.
+(7) What are the project member roles for all project members whose country is "NE"?
+
+
+Re-ranked choices:
+9.168  Find the code of all project member roles for project members whose country is "NE".
+9.154  Retrieve the code from the project member roles for all project members who have a country of "NE".
+9.136  Find the project member role codes from the project member roles table where the country in the project members table is "NE".
+9.133  Get the code for all project member roles from the Project Member Roles table where the country is "NE" in the Project Members table.
+9.128  Retrieve the code of the project member role from the project_member_roles table for members in the country "NE" from the project_members table.
+7.775  What are the project member roles for all project members whose country is "NE"?
+7.729  Show the code of all project member roles from the "project_member_roles" table where the country is "NE" in the "project_members" table.
+7.722  Retrieve the code of each project member role from the project_member_roles table where the country of the corresponding project member in the project_members table is "NE".
+

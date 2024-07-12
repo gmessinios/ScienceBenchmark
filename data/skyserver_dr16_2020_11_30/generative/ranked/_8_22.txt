@@ -1,0 +1,28 @@
+SELECT Nearest_neighbour_objects.neighbormode FROM neighbors AS Nearest_neighbour_objects WHERE Nearest_neighbour_objects.neighbortype != 3
+
+###
+
+
+Original Query:
+SELECT T1.neighbormode FROM neighbors AS T1 WHERE T1.neighbortype != 3
+GPT-3 choices:
+(0) "Retrieve the neighbor mode of nearest neighbor objects from the neighbors table, excluding those with a neighbor type of 3."
+(1) Find the mode of nearest neighbors from the table "neighbors" where the type of neighbor is not equal to 3.
+(2) What are the neighbor modes for all nearest neighbor objects where the neighbor type is not equal to 3?
+(3) Find the neighbor mode for nearest neighbor objects that are not of type 3.
+(4) Find the mode of the nearest neighbors that are not of type 3.
+(5) Get the neighbor mode of all nearest neighbor objects from the table neighbors, except for those with a neighbor type of 3.
+(6) Find the neighbor mode for nearest neighbor objects where the neighbor type is not equal to 3.
+(7) Find the neighbor mode from the nearest neighbor objects where the neighbor type is not equal to 3.
+
+
+Re-ranked choices:
+7.058  Find the neighbor mode for nearest neighbor objects that are not of type 3.
+7.032  Get the neighbor mode of all nearest neighbor objects from the table neighbors, except for those with a neighbor type of 3.
+7.030  "Retrieve the neighbor mode of nearest neighbor objects from the neighbors table, excluding those with a neighbor type of 3."
+5.647  Find the neighbor mode for nearest neighbor objects where the neighbor type is not equal to 3.
+5.644  Find the neighbor mode from the nearest neighbor objects where the neighbor type is not equal to 3.
+5.639  Find the mode of nearest neighbors from the table "neighbors" where the type of neighbor is not equal to 3.
+4.283  Find the mode of the nearest neighbors that are not of type 3.
+4.242  What are the neighbor modes for all nearest neighbor objects where the neighbor type is not equal to 3?
+

@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains AS erc_research_domains WHERE erc_research_domains.code = "ID"
+
+###
+
+
+Original Query:
+SELECT T1.description FROM erc_research_domains AS T1 WHERE T1.code = "ID"
+GPT-3 choices:
+(0) Retrieve the description from the research domains table where the code is equal to "ID".
+(1) What is the description of the research domain with code "ID"?
+(2) "Retrieve the description of the research domain with the code "ID" from the table erc_research_domains."
+(3) Retrieve the description from the erc_research_domains table for the code "ID".
+(4) What is the description for the research domain with code "ID"?
+(5) Retrieve the description of the research domain from the table of ERC research domains where the code is equal to "ID".
+(6) Find the description for the research domain with code "ID" in the table called erc_research_domains.
+(7) Retrieve the description of the research domain with a code of "ID" from the erc_research_domains table.

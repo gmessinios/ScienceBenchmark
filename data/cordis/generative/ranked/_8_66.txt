@@ -1,0 +1,28 @@
+SELECT institutions.acronym FROM institutions AS institutions WHERE institutions.website != "http://uard.bg/"
+
+###
+
+
+Original Query:
+SELECT T1.acronym FROM institutions AS T1 WHERE T1.website != "http://uard.bg/"
+GPT-3 choices:
+(0) Retrieve the acronyms of institutions from the database that have a website different than "http://uard.bg/".
+(1) Find the acronyms of institutions that have a website other than "http://uard.bg/".
+(2) Find the acronyms of institutions that have a website different from "http://uard.bg/".
+(3) Find the acronyms of all institutions where their website is not equal to "http://uard.bg/".
+(4) Find the acronyms of all institutions that have a website other than "http://uard.bg/".
+(5) Find the acronyms of institutions that have a website that is not "http://uard.bg/".
+(6) Retrieve the acronym of institutions that have a website other than "http://uard.bg/".
+(7) Find the acronyms of institutions whose websites are not equal to "http://uard.bg/".
+
+
+Re-ranked choices:
+4.233  Retrieve the acronym of institutions that have a website other than "http://uard.bg/".
+2.850  Find the acronyms of institutions that have a website that is not "http://uard.bg/".
+2.847  Find the acronyms of all institutions where their website is not equal to "http://uard.bg/".
+2.844  Find the acronyms of institutions that have a website other than "http://uard.bg/".
+2.842  Find the acronyms of all institutions that have a website other than "http://uard.bg/".
+2.837  Find the acronyms of institutions that have a website different from "http://uard.bg/".
+2.830  Retrieve the acronyms of institutions from the database that have a website different than "http://uard.bg/".
+1.454  Find the acronyms of institutions whose websites are not equal to "http://uard.bg/".
+

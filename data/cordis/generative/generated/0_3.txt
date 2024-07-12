@@ -1,0 +1,16 @@
+SELECT institutions.wikidata_url FROM institutions AS institutions WHERE institutions.grid_id = "grid.137628.9"
+
+###
+
+
+Original Query:
+SELECT T1.wikidata_url FROM institutions AS T1 WHERE T1.grid_id = "grid.137628.9"
+GPT-3 choices:
+(0) What is the Wikidata URL of the institution with the grid ID "grid.137628.9"?
+(1) What is the Wikidata URL for the institution with a grid ID of "grid.137628.9"?
+(2) Find the Wikidata URL for an institution with a grid ID of "grid.137628.9" from the institutions table.
+(3) Find the Wikidata URL of the institution with a GRID ID of "grid.137628.9".
+(4) What is the wikidata URL for the institution with a grid ID of "grid.137628.9"?
+(5) What is the Wikidata URL for the institution with a Grid ID of "grid.137628.9"?
+(6) What is the Wikidata URL for the institution with a GRID ID of "grid.137628.9"?
+(7) Get the wikidata URL for an institution where the grid ID is "grid.137628.9".

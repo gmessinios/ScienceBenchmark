@@ -1,0 +1,16 @@
+SELECT biomarker_fda.test_submission FROM biomarker_fda AS biomarker_fda WHERE biomarker_fda.test_trade_name = "Dako TOP2A FISH PharmDx Kit"
+
+###
+
+
+Original Query:
+SELECT T1.test_submission FROM biomarker_fda AS T1 WHERE T1.test_trade_name = "Dako TOP2A FISH PharmDx Kit"
+GPT-3 choices:
+(0) What is the test submission for the Dako TOP2A FISH PharmDx Kit in the biomarker_fda table?
+(1) Retrieve the test submission from the biomarker_fda table where the test_trade_name is "Dako TOP2A FISH PharmDx Kit".
+(2) Get the test submission from biomarker_fda for the Dako TOP2A FISH PharmDx Kit.
+(3) Find the test submission for the Dako TOP2A FISH PharmDx Kit in the biomarker_fda table.
+(4) Get the test submission from the FDA for the Dako TOP2A FISH PharmDx Kit.
+(5) What is the test submission for the "Dako TOP2A FISH PharmDx Kit" in biomarker_fda?
+(6) Get the test submission from biomarker_fda where the test trade name is "Dako TOP2A FISH PharmDx Kit".
+(7) Retrieve the test submission from the FDA for the "Dako TOP2A FISH PharmDx Kit".
